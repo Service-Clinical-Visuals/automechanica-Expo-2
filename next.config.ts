@@ -30,18 +30,16 @@ const nextConfig: NextConfig = {
     const medicalFolders = getPublicSubfolders("medical");
     const motoFolders = getPublicSubfolders("moto");
 
-    return {
-      fallback: [
-        ...medicalFolders.map((folder) => ({
-          source: `/${folder}/:path*`,
-          destination: `/medical/${folder}/:path*`,
-        })),
-        ...motoFolders.map((folder) => ({
-          source: `/${folder}/:path*`,
-          destination: `/moto/${folder}/:path*`,
-        })),
-      ],
-    };
+    return [
+      ...medicalFolders.map((folder) => ({
+        source: `/${folder}/:path*`,
+        destination: `/medical/${folder}/:path*`,
+      })),
+      ...motoFolders.map((folder) => ({
+        source: `/${folder}/:path*`,
+        destination: `/moto/${folder}/:path*`,
+      })),
+    ];
   },
 };
 
