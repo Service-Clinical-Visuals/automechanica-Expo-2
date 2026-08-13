@@ -1,7 +1,8 @@
 "use client";
 
 import React from "react";
-import { MapPin, Phone, Mail, Instagram, Linkedin, Twitter, Dribbble } from "lucide-react";
+import { MapPin, Phone, Mail } from "lucide-react";
+import { FaInstagram, FaLinkedin, FaTwitter, FaDribbble } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -24,16 +25,16 @@ const Footer = () => {
             {/* Social Icons */}
             <div className="flex flex-wrap items-center gap-4 mt-2" data-aos="fade-up" data-aos-delay="200">
               <a href="#" className="w-8 h-8 flex items-center justify-center text-white hover:text-primary transition-colors">
-                <Dribbble className="w-5 h-5" />
+                <FaDribbble className="w-5 h-5" />
               </a>
               <a href="#" className="w-8 h-8 flex items-center justify-center text-white hover:text-primary transition-colors">
-                <Twitter className="w-5 h-5" />
+                <FaTwitter className="w-5 h-5" />
               </a>
               <a href="#" className="w-8 h-8 flex items-center justify-center text-white hover:text-primary transition-colors">
-                <Linkedin className="w-5 h-5" />
+                <FaLinkedin className="w-5 h-5" />
               </a>
               <a href="#" className="w-8 h-8 flex items-center justify-center text-white hover:text-primary transition-colors">
-                <Instagram className="w-5 h-5" />
+                <FaInstagram className="w-5 h-5" />
               </a>
             </div>
           </div>

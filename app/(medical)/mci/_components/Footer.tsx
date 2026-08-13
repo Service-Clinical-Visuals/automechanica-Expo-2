@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Linkedin, Facebook, Instagram } from "lucide-react";
+import { FaLinkedin, FaFacebook, FaInstagram } from "react-icons/fa6";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -64,9 +64,9 @@ const Footer = () => {
                         <h4 className="text-gray-900 font-bold text-base lg:text-[20px]">Social Media Links</h4>
                         <div className="flex items-center gap-3">
                             {[
-                                { icon: <Linkedin size={18} /> },
-                                { icon: <Facebook size={18} /> },
-                                { icon: <Instagram size={18} /> }
+                                { icon: <FaLinkedin size={18} /> },
+                                { icon: <FaFacebook size={18} /> },
+                                { icon: <FaInstagram size={18} /> }
                             ].map((item, idx) => (
                                 <Link
                                     key={idx}
