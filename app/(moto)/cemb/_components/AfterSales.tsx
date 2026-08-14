@@ -51,7 +51,7 @@ const AfterSales = () => {
   ];
 
   return (
-    <section id="after-sales" className="w-full pt-16 pb-16 md:pb-24 xl:pb-32 min-[2100px]:pt-24 min-[2100px]:pb-48 min-[3800px]:pt-32 min-[3800px]:pb-64 bg-white overflow-visible">
+    <section id="after-sales" className="w-full pt-16 pb-[320px] md:pb-[220px] xl:pb-[160px] min-[2100px]:pt-24 min-[2100px]:pb-[220px] min-[3800px]:pt-32 min-[3800px]:pb-[350px] bg-white overflow-visible">
       <div className="flex flex-col gap-8 md:gap-10 min-[2100px]:gap-16 min-[3800px]:gap-24 items-center w-full">
 
         {/* Header Section */}
@@ -65,12 +65,12 @@ const AfterSales = () => {
         </div>
 
         {/* Image and Overlapping Box */}
-        <div className="relative w-full mt-4 min-[3800px]:mt-8 flex flex-col md:block">
-          <div className="w-full h-[250px] sm:h-[400px] lg:h-[500px] min-[2100px]:h-[700px] min-[3800px]:h-[1000px]">
+        <div className="relative w-full mt-4 min-[3800px]:mt-8">
+          <div className="w-full h-[250px] sm:h-[500px] lg:h-[500px] min-[2100px]:h-[700px] min-[3800px]:h-1000px]">
             <img src="/moto/cemb/bg.png" alt="Diagnostics Screen" className="w-full h-full object-cover" />
           </div>
 
-          <div className="w-full relative md:absolute md:bottom-0 md:left-0 md:translate-y-1/2 px-4 lg:px-8 -mt-16 sm:-mt-24 md:mt-0 z-10">
+          <div className="w-full absolute bottom-0 left-0 translate-y-1/2 px-4 lg:px-8 z-10">
             <div className="custom-container mx-auto">
               <div
                 className="bg-white border border-primary rounded-xl min-[3800px]:rounded-3xl shadow-xl flex flex-col md:grid md:grid-cols-2 xl:grid-cols-4 py-6 min-[3800px]:py-10"
@@ -78,13 +78,12 @@ const AfterSales = () => {
                 data-aos-delay="200"
               >
                 {features.map((feature, index) => (
-                  <div 
-                    key={index} 
-                    className={`flex items-start gap-4 p-4 lg:px-6 min-[3800px]:px-10 min-[3800px]:gap-6 ${
-                      index === 1 ? 'border-t border-primary md:border-t-0 md:border-l xl:border-l' :
+                  <div
+                    key={index}
+                    className={`flex items-start gap-4 p-4 lg:px-6 min-[3800px]:px-10 min-[3800px]:gap-6 ${index === 1 ? 'border-t border-primary md:border-t-0 md:border-l xl:border-l' :
                       index === 2 ? 'border-t border-primary md:border-t xl:border-t-0 xl:border-l' :
-                      index === 3 ? 'border-t border-primary md:border-l md:border-t xl:border-t-0 xl:border-l' : ''
-                    }`}
+                        index === 3 ? 'border-t border-primary md:border-l md:border-t xl:border-t-0 xl:border-l' : ''
+                      }`}
                   >
                     {feature.icon}
                     <div className="flex flex-col gap-1 min-[3800px]:gap-3">
