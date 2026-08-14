@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --animate-slide-down: slideDown 0.6s ease-out both;
+  --animate-fade-in: fadeIn 0.6s ease-out both;
+  --animate-fade-up: fadeUp 0.7s ease-out both;
+  --animate-scale-in: scaleIn 0.9s ease-out both;
+
+  @keyframes slideDown {
+    from { opacity: 0; transform: translateY(-24px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(16px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes scaleIn {
+    from { opacity: 0; transform: scale(1.03); }
+    to   { opacity: 1; transform: scale(1); }
+  }
+}
+
+@layer base {
+  :root {
+    --color-primary: #BF1E2E;
+    --color-dark: #262626;
+    --color-text-body: #4A4A4A;
+  }
+
+  html {
+    overflow-x: hidden;
+  }
+
+  body {
+    font-family: 'Oswald', sans-serif;
+    color: #FFFFFF;
+    background-color: #000000;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+  }
+}
+
+section {
+  overflow-x: hidden;
+}
+
+/* ===== Global Container ===== */
+.custom-container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 1536px) {
+  .custom-container {
+    max-width: calc(100% - 200px);
+  }
+}
+
+/* ===== Font family ===== */
+.font-oswald { font-family: 'Oswald', sans-serif; }
+
+/* ===== Global Typography Tokens (from Figma) ===== */
+.nav-link        { font-family: 'Oswald'; font-weight: 400; font-size: 16px; line-height: 150%; }
+.nav-link-active { font-family: 'Oswald'; font-weight: 600; font-size: 16px; line-height: 150%; text-decoration: underline; }
+.hero-title      { font-family: 'Oswald'; font-weight: 600; font-size: 40px; line-height: 150%; text-transform: capitalize; }
+.hero-text       { font-family: 'Oswald'; font-weight: 400; font-size: 18px; line-height: 150%; }
+.section-title   { font-family: 'Oswald'; font-weight: 600; font-size: 38px; line-height: 150%; text-transform: capitalize; }
+.section-title-lg { font-family: 'Oswald'; font-weight: 600; font-size: 34px; line-height: 150%; text-transform: capitalize; }
+.card-title      { font-family: 'Oswald'; font-weight: 600; font-size: 24px; line-height: 150%; }
+.body-text       { font-family: 'Oswald'; font-weight: 400; font-size: 17px; line-height: 150%; }
+.btn-text        { font-family: 'Oswald'; font-weight: 600; font-size: 16px; line-height: 16px; }
+.link-text       { font-family: 'Oswald'; font-weight: 600; font-size: 18px; line-height: 180%; text-decoration: underline; }
+
+@layer utilities {
+  .text-primary { color: #BF1E2E; }
+  .bg-primary { background-color: #BF1E2E; }
+}
