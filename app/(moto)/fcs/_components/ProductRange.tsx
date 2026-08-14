@@ -173,8 +173,8 @@ export default function ProductRange() {
 
         {/* Indicator Lines */}
         <div className="flex justify-center items-center gap-1.5 mt-12 lg:mt-16">
-          <button onClick={() => setSlide(0)} className={`h-2.5 w-16 transition-colors transform -skew-x-[25deg] ${currentSlide === 0 ? 'bg-[#E72E39]' : 'bg-gray-400 hover:bg-gray-300'}`} aria-label="Slide 1"></button>
-          <button onClick={() => setSlide(1)} className={`h-2.5 w-16 transition-colors transform -skew-x-[25deg] ${currentSlide === 1 ? 'bg-[#E72E39]' : 'bg-gray-400 hover:bg-gray-300'}`} aria-label="Slide 2"></button>
+          <button onClick={() => setSlide(0)} className={`h-2.5 w-16 min-[2100px]:h-4 min-[2100px]:w-24 min-[3800px]:h-6 min-[3800px]:w-32 transition-colors transform -skew-x-[25deg] ${currentSlide === 0 ? 'bg-[#E72E39]' : 'bg-gray-400 hover:bg-gray-300'}`} aria-label="Slide 1"></button>
+          <button onClick={() => setSlide(1)} className={`h-2.5 w-16 min-[2100px]:h-4 min-[2100px]:w-24 min-[3800px]:h-6 min-[3800px]:w-32 transition-colors transform -skew-x-[25deg] ${currentSlide === 1 ? 'bg-[#E72E39]' : 'bg-gray-400 hover:bg-gray-300'}`} aria-label="Slide 2"></button>
         </div>
       </div>
     </section>
