@@ -17,7 +17,7 @@ export default function Footer() {
           <div className="w-full lg:w-[35%] flex flex-col gap-6 lg:pr-10" data-aos="fade-up">
             <Link href="#">
               <img
-                src="/moto/segar/logo.png"
+                src="/moto/seger/logo.png"
                 alt="SEGER Logo"
                 className="w-auto h-12 object-contain brightness-0 invert"
                 onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<span class="text-white font-bold text-4xl roboto-font tracking-wide">SEGER</span>' }}

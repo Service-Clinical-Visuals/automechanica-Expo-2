@@ -38,7 +38,7 @@ export default function Header() {
             {/* Logo Area */}
             <div className="flex-shrink-0 flex items-center">
               <Link href="#">
-                <img src="/moto/segar/logo.png" alt="SEGER Logo" className="h-full w-full object-contain header-logo" />
+                <img src="/moto/seger/logo.png" alt="SEGER Logo" className="h-full w-full object-contain header-logo" />
               </Link>
             </div>
 
