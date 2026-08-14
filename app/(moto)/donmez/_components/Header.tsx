@@ -42,7 +42,7 @@ const Header = () => {
 
   return (
     <>
-      <header className="sticky top-0 left-0 w-full z-50 bg-secondary shadow-md transition-all duration-300">
+      <header className="fixed top-0 left-0 w-full z-50 bg-secondary shadow-md transition-all duration-300">
         <div className="h-[70px] sm:h-[80px] md:h-[90px] flex items-center relative z-10">
           <div className="custom-container flex items-center justify-between gap-4 xl:gap-5 w-full">
             {/* Logo Section */}
