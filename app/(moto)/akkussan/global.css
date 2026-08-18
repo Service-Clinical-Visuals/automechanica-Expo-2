@@ -1,0 +1,128 @@
+@import "tailwindcss";
+
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #1E1E1E;
+}
+
+@theme inline {
+  --color-primary: #fa9d1c;
+  --color-primary-hover: #e08b17;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+.exo2 {
+  font-family: var(--font-exo2), sans-serif;
+}
+
+.inter {
+  font-family: var(--font-inter), sans-serif;
+}
+
+
+section {
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+}
+
+
+.custom-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Font sizes - as requested, use only global.css */
+ .header-link { font-size: 16px; }
+  .btn-text { font-size: 16px; }
+  .banner-title { font-size: 36px; }  
+  .section-title { font-size: 32px; }
+  .section-subtitle { font-size: 20px; }
+  .section-text { font-size: 16px; }
+  .card-title { font-size: 24px; }
+/* Responsive Custom Container & Font Sizes */
+
+@media (max-width: 480px) {
+  .custom-container { max-width: 90%; }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .custom-container { max-width: 90%; }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .custom-container { max-width: 90%; }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .custom-container { max-width: 90%; }
+  }
+
+@media (min-width: 1280px) and (max-width: 1535px) {
+  .custom-container { max-width: 90%; }
+  }
+
+/* as per figma */
+@media (min-width: 1536px) and (max-width: 1920px) {
+  .custom-container { max-width: 95%; }
+  .header-link { font-size: 16px; }
+  .btn-text { font-size: 16px; }
+  .banner-title { font-size: 36px; }  
+  .section-title { font-size: 32px; }
+  .section-subtitle { font-size: 20px; }
+  .section-text { font-size: 16px; }
+  .card-title { font-size: 24px; }
+}
+
+@media (min-width: 1921px) and (max-width: 2559px) {
+  .custom-container { max-width: 95%; }
+ .header-link { font-size: 16px; }
+  .btn-text { font-size: 16px; }
+  .banner-title { font-size: 36px; }  
+  .section-title { font-size: 32px; }
+  .section-subtitle { font-size: 20px; }
+  .section-text { font-size: 16px; }
+  .card-title { font-size: 24px; }
+}
+
+/* 2k */
+@media (min-width: 2560px) and (max-width: 3800px) {
+  .custom-container { max-width: 90%; }
+ .header-link { font-size: 18px; }
+  .btn-text { font-size: 18px; }
+  .banner-title { font-size: 38px; }  
+  .section-title { font-size: 34px; }
+  .section-subtitle { font-size: 22px; }
+  .section-text { font-size: 18px; }
+  .card-title { font-size: 26px; }
+}
+@media (min-width: 3800px) {
+  .custom-container { max-width: 90%; }
+ .header-link { font-size: 28px; }
+  .btn-text { font-size: 28px; }
+  .banner-title { font-size: 48px; }  
+  .section-title { font-size: 44px; }
+  .section-subtitle { font-size: 32px; }
+  .section-text { font-size: 28px; }
+  .card-title { font-size: 36px; }
+}
