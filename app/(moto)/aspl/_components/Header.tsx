@@ -71,8 +71,11 @@ const Header = () => {
 
   return (
     <>
+      {/* Spacer to prevent content from jumping under the fixed header */}
+      <div className="h-[80px] md:h-[100px] xl:h-[150px] w-full shrink-0" />
+
       <header
-        className={`top-0 left-0 w-full z-50 bg-white shadow-sm sticky`}
+        className="fixed top-0 left-0 w-full z-50 bg-white shadow-sm"
       >
         {/* Top Header Row */}
         <div className="h-[80px] md:h-[100px] flex items-center relative z-10 bg-white">
