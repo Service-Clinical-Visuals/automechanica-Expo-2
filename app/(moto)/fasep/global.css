@@ -1,0 +1,202 @@
+@import "tailwindcss";
+
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #1E1E1E;
+}
+
+@theme inline {
+  --color-primary: #e2001a;
+  --color-primary-hover: #c80017;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+ 
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+.exo2{
+  font-family: 'Exo 2', sans-serif;
+}
+
+.oxanium{
+  font-family: 'Oxanium', sans-serif;
+}
+
+
+section {
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+}
+
+
+.custom-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Font sizes - as requested, use only global.css */
+  .header-link { font-size: 17px; }
+  .btn-text { font-size: 18px; }
+  .banner-title { font-size: 40px; }  
+  .section-title { font-size: 36px; }
+  .section-text { font-size: 17px; }
+  .date-text { font-size: 14px; }
+  .card-title { font-size: 24px; }
+  .footer-link { font-size: 20px;}
+/* Responsive Custom Container & Font Sizes */
+
+@media (max-width: 480px) {
+  .custom-container { max-width: 90%; }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .custom-container { max-width: 90%; }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .custom-container { max-width: 90%; }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .custom-container { max-width: 90%; }
+  }
+
+@media (min-width: 1280px) and (max-width: 1535px) {
+  .custom-container { max-width: 90%; }
+  }
+
+/* as per figma */
+@media (min-width: 1536px) and (max-width: 1920px) {
+  .custom-container { max-width: 95%; }
+  .header-link { font-size: 17px; }
+  .btn-text { font-size: 18px; }
+  .banner-title { font-size: 40px; }  
+  .section-title { font-size: 36px; }
+  .section-text { font-size: 17px; }
+  .date-text { font-size: 14px; }
+  .card-title { font-size: 24px; }
+  .footer-link { font-size: 20px;}
+}
+
+@media (min-width: 1921px) and (max-width: 2559px) {
+  .custom-container { max-width: 95%; }
+   .header-link { font-size: 17px; }
+  .btn-text { font-size: 18px; }
+  .banner-title { font-size: 40px; }  
+  .section-title { font-size: 36px; }
+  .section-text { font-size: 17px; }
+  .date-text { font-size: 14px; }
+  .card-title { font-size: 24px; }
+  .footer-link { font-size: 20px;}
+}
+
+/* 2k */
+@media (min-width: 2560px) and (max-width: 3800px) {
+  .custom-container { max-width: 90%; }
+  .header-link { font-size: 19px; }
+  .btn-text { font-size: 21px; }
+  .banner-title { font-size: 42px; }  
+  .section-title { font-size: 38px; }
+  .section-text { font-size: 19px; }
+  .date-text { font-size: 16px; }
+  .card-title { font-size: 26px; }
+  .footer-link { font-size: 22px;}
+}
+@media (min-width: 3800px) {
+  .custom-container { max-width: 90%; }
+  .header-link { font-size: 24px; }
+  .btn-text { font-size: 26px; }
+  .banner-title { font-size: 48px; }  
+  .section-title { font-size: 44px; }
+  .section-text { font-size: 24px; }
+  .date-text { font-size: 20px; }
+  .card-title { font-size: 32px; }
+  .footer-link { font-size: 28px;}
+}
+/* Swiper Custom Pagination */
+.product-swiper-container .swiper-pagination {
+  position: relative !important;
+  margin-top: 30px !important;
+  bottom: 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-swiper-container .swiper-pagination-bullet {
+  background-color: #d1d5db !important; /* gray-300 */
+  opacity: 1 !important;
+  width: 8px !important;
+  height: 8px !important;
+  margin: 0 6px !important;
+  transition: all 0.3s ease !important;
+  border-radius: 50% !important;
+}
+
+.product-swiper-container .swiper-pagination-bullet-active {
+  background-color: #e2001a !important; /* primary */
+  width: 32px !important;
+  border-radius: 4px !important;
+}
+
+/* Custom Product Swiper Widths */
+.custom-product-swiper .swiper-slide-custom {
+  width: calc(25% - 15px) !important; /* Normal slide width */
+  transition: width 0.4s ease-in-out;
+}
+/* Active slide is 50% as long as NO slide is hovered */
+.custom-product-swiper:not(:has(.swiper-slide-custom:hover)) .swiper-slide-custom.swiper-slide-active {
+  width: calc(50% - 10px) !important;
+}
+/* Hovered slide becomes 50% */
+.custom-product-swiper .swiper-slide-custom:hover {
+  width: calc(50% - 10px) !important;
+}
+
+@media (max-width: 1023px) {
+  .custom-product-swiper .swiper-slide-custom {
+    width: calc(35% - 10px) !important;
+  }
+  .custom-product-swiper:not(:has(.swiper-slide-custom:hover)) .swiper-slide-custom.swiper-slide-active {
+    width: calc(65% - 10px) !important;
+  }
+  .custom-product-swiper .swiper-slide-custom:hover {
+    width: calc(65% - 10px) !important;
+  }
+}
+
+@media (max-width: 639px) {
+  .custom-product-swiper .swiper-slide-custom {
+    width: 100% !important;
+  }
+  .custom-product-swiper:not(:has(.swiper-slide-custom:hover)) .swiper-slide-custom.swiper-slide-active {
+    width: 100% !important;
+  }
+  .custom-product-swiper .swiper-slide-custom:hover {
+    width: 100% !important;
+  }
+}
+
+/* Equal Height Cards for News Swiper */
+.news-swiper .swiper-wrapper {
+  align-items: stretch !important;
+}
