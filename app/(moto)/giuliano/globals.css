@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600;700&family=Oxanium:wght@400;500;600&family=Oswald:wght@600;700&display=swap');
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    /* Brand colors */
+    --color-primary: #18a2de;    /* cyan-blue accent - buttons, links */
+    --color-secondary: #9f3414;  /* orange - small icon accents */
+    --color-page-bg: #0d0d0d;    /* base page background */
+    --color-surface-1: #2a2a2a;  /* panel background */
+    --color-surface-2: #171717;  /* darker panel background */
+    --color-surface-3: #111111;  /* icon tile background */
+    --color-surface-4: #27292a;  /* footer background */
+    --color-border-soft: rgba(255, 255, 255, 0.25);
+    --color-border-mid: rgba(255, 255, 255, 0.5);
+  }
+
+  html {
+    overflow-x: hidden;
+  }
+
+  body {
+    font-family: 'Oxanium', sans-serif;
+    color: #ffffff;
+    background-color: var(--color-page-bg);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Exo 2', sans-serif;
+  }
+
+  p, a, span, button {
+    font-family: 'Oxanium', sans-serif;
+  }
+}
+
+section {
+  overflow-x: hidden !important;
+}
+
+/* ---------------------------------------------
+   Container
+   Figma canvas: 1920px wide, 120px side margins
+   => content width 1680px at the 1920 tier
+--------------------------------------------- */
+.custom-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Nav pill is slightly wider than main content (80px margins vs 120px) */
+.nav-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ---------------------------------------------
+   Typography roles
+--------------------------------------------- */
+.font-exo { font-family: 'Exo 2', sans-serif; }
+.font-oxanium { font-family: 'Oxanium', sans-serif; }
+.font-oswald { font-family: 'Oswald', sans-serif; }
+
+.hero-heading {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 150%;
+}
+
+.hero-text {
+  font-family: 'Oxanium', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.section-heading-lg {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 150%;
+  text-transform: capitalize;
+}
+
+.section-heading {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 150%;
+  text-transform: capitalize;
+}
+
+.section-text {
+  font-family: 'Oxanium', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.section-text-lg {
+  font-family: 'Oxanium', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 150%;
+}
+
+.card-title {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  text-transform: capitalize;
+}
+
+.stat-title {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.date-text {
+  font-family: 'Oxanium', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.btn-text {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 150%;
+  color: #2a2a2a;
+}
+
+.video-label {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 150%;
+  text-transform: capitalize;
+}
+
+.footer-heading {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 27px;
+  text-transform: capitalize;
+}
+
+.footer-link {
+  font-family: 'Oxanium', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-transform: capitalize;
+}
+
+.copyright-text {
+  font-family: 'Oxanium', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+
+/* ---------------------------------------------
+   Swiper pagination (Product carousel)
+--------------------------------------------- */
+.product-pagination .swiper-pagination-bullet {
+  width: 51px;
+  height: 8px;
+  border-radius: 78px;
+  background: #d9d9d9;
+  opacity: 1;
+  transition: background-color 0.2s ease;
+}
+
+.product-pagination .swiper-pagination-bullet-active {
+  background: var(--color-primary);
+}
+
+
+/* ---------------------------------------------
+   Swiper pagination (News carousel)
+--------------------------------------------- */
+.news-pagination .swiper-pagination-bullet {
+  background: #d9d9d9;
+  opacity: 1;
+  transition: background-color 0.2s ease;
+}
+
+.news-pagination .swiper-pagination-bullet-active {
+  background: var(--color-primary);
+}
+
+
+/* ---------------------------------------------
+   Responsive breakpoint ladder
+--------------------------------------------- */
+@media (max-width: 480px) {
+  .custom-container, .nav-container { max-width: 92%; }
+  .hero-heading { font-size: 26px; }
+  .section-heading-lg { font-size: 26px; }
+  .section-heading { font-size: 24px; }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .custom-container, .nav-container { max-width: 90%; }
+  .hero-heading { font-size: 28px; }
+  .section-heading-lg { font-size: 28px; }
+  .section-heading { font-size: 26px; }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .custom-container, .nav-container { max-width: 90%; }
+  .hero-heading { font-size: 32px; }
+}
+
+@media (min-width: 1024px) and (max-width: 1535px) {
+  .custom-container, .nav-container { max-width: 90%; }
+}
+
+@media (min-width: 1280px) and (max-width: 1535px) {
+  .custom-container, .nav-container { max-width: 90%; }
+}
+
+/* as per figma - baseline design tier */
+@media (min-width: 1536px) and (max-width: 1920px) {
+  .custom-container, .nav-container { max-width: 90%; margin: 0 auto; }
+}
+
+@media (min-width: 1921px) and (max-width: 2559px) {
+  .custom-container, .nav-container { max-width: 90%; margin: 0 auto; }
+  .hero-heading { font-size: 42px; }
+  .section-heading-lg { font-size: 40px; }
+  .section-heading { font-size: 36px; }
+}
+
+/* 2K (QHD, e.g. 2560x1440) */
+@media (min-width: 2560px) and (max-width: 3199px) {
+  .custom-container, .nav-container { max-width: 90%; margin: 0 auto; }
+  .hero-heading { font-size: 48px; }
+  .section-heading-lg { font-size: 44px; }
+  .section-heading { font-size: 40px; }
+  .section-text, .hero-text { font-size: 18px; line-height: 28px; }
+}
+
+/* Large 2K / ultrawide (e.g. 3440, 3600) */
+@media (min-width: 3200px) and (max-width: 3799px) {
+  .custom-container, .nav-container { max-width: 90%; margin: 0 auto; }
+  .hero-heading { font-size: 50px; }
+  .section-heading-lg { font-size: 46px; }
+  .section-heading { font-size: 42px; }
+  .section-text, .hero-text { font-size: 19px; line-height: 29px; }
+}
+
+/* 4K UHD (e.g. 3840x2160) */
+@media (min-width: 3800px) and (max-width: 4500px) {
+  .custom-container, .nav-container { max-width: 90%; margin: 0 auto; }
+  .hero-heading { font-size: 56px; }
+  .section-heading-lg { font-size: 50px; }
+  .section-heading { font-size: 46px; }
+  .section-text, .hero-text { font-size: 20px; line-height: 30px; }
+}
+
+/* Beyond 4K (5K/8K displays) */
+@media (min-width: 4501px) {
+  .custom-container, .nav-container { max-width: 90%; margin: 0 auto; }
+  .hero-heading { font-size: 60px; }
+  .section-heading-lg { font-size: 54px; }
+  .section-heading { font-size: 50px; }
+  .section-text, .hero-text { font-size: 21px; line-height: 31px; }
+}
+
+@layer utilities {
+  .text-primary { color: var(--color-primary); }
+  .text-secondary { color: var(--color-secondary); }
+  .bg-primary { background-color: var(--color-primary); }
+  .bg-secondary { background-color: var(--color-secondary); }
+  .bg-surface-1 { background-color: var(--color-surface-1); }
+  .bg-surface-2 { background-color: var(--color-surface-2); }
+  .bg-surface-3 { background-color: var(--color-surface-3); }
+  .bg-surface-4 { background-color: var(--color-surface-4); }
+  .border-primary { border-color: var(--color-primary); }
+  .border-soft { border-color: var(--color-border-soft); }
+  .border-mid { border-color: var(--color-border-mid); }
+}
