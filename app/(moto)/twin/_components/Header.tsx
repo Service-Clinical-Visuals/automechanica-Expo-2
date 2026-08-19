@@ -35,9 +35,9 @@ export default function Header() {
   return (
     <>
       <header
-        className={`top-0 left-0 w-full z-50 transition-all duration-500 transform ${isVisible || isMobileMenuOpen
-            ? "fixed translate-y-0 opacity-100 shadow-sm border-b border-[#0F53CC] bg-white"
-            : "fixed -translate-y-full opacity-0 pointer-events-none bg-white"
+        className={`top-0 left-0 w-full z-[999] transition-all duration-500 transform ${isVisible || isMobileMenuOpen
+          ? "fixed translate-y-0 opacity-100 shadow-sm border-b border-[#0F53CC] bg-white"
+          : "fixed -translate-y-full opacity-0 pointer-events-none bg-white"
           }`}
       >
         <div className="py-3">
@@ -46,7 +46,7 @@ export default function Header() {
               {/* Logo Area */}
               <div className="flex-shrink-0 flex items-center">
                 <Link href="#">
-                  <img src="/moto/twin/logo.png" alt="Twin Busch Logo" className="h-auto w-auto object-contain" />
+                  <img src="/moto/twin/logo.png" alt="Twin Busch Logo" className="header-logo h-auto object-contain" />
                 </Link>
               </div>
 
@@ -92,7 +92,7 @@ export default function Header() {
 
         {/* Mobile Navigation Menu */}
         {isMobileMenuOpen && (
-          <div className="lg:hidden absolute top-full left-0 w-full bg-white shadow-lg flex flex-col z-50 border-t border-gray-100">
+          <div className="lg:hidden fixed h-[calc(100vh-80px)] overflow-y-auto top-full left-0 w-full bg-white shadow-lg flex flex-col z-[999] border-t border-gray-100">
             <nav className="flex flex-col py-2">
               {navLinks.map((link) => (
                 <Link
@@ -111,12 +111,11 @@ export default function Header() {
                   </div>
                 </Link>
               ))}
-              <div className="hidden lg:flex items-center">
-                <Button href="#" className="">
+              <div className="custom-container py-4 mt-2 flex justify-center">
+                <Button href="#" className="w-full max-w-sm">
                   Request Quote
                 </Button>
-              </div>
-            </nav>
+              </div>            </nav>
           </div>
         )}
       </header>

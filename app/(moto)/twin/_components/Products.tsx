@@ -25,7 +25,7 @@ export default function Products() {
   ];
 
   return (
-    <section className="py-16 lg:py-20 bg-[#F9FAFB]">
+    <section className="py-10 lg:py-20 bg-[#F9FAFB]">
       <div className="custom-container">
 
         {/* Header */}
@@ -36,7 +36,7 @@ export default function Products() {
           <h4 className="text-[#111111] section-text italic inter-font font-regular">
             Professional Lifting Solutions for Every Workshop
           </h4>
-          <p className="inter-font text-[#111111] max-w-7xl mx-auto section-text font-regular leading-relaxed mt-2">
+          <p className="inter-font text-[#111111] max-w-[90%] lg:max-w-[80%] mx-auto section-text font-regular leading-relaxed mt-2">
             Explore Twin Busch's range of professional workshop equipment, designed to deliver reliable performance, safety, and efficiency. From vehicle lifts to tyre service equipment, each solution is engineered to meet the demands of modern automotive workshops.
           </p>
         </div>

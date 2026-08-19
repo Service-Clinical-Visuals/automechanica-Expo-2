@@ -24,7 +24,7 @@ export default function EngineeredSection() {
   ];
 
   return (
-    <section className="py-16 lg:py-20 relative overflow-hidden bg-[#171717]">
+    <section className="py-10 lg:py-20 relative overflow-hidden bg-[#171717]">
       <div className="custom-container relative z-10">
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
@@ -35,7 +35,7 @@ export default function EngineeredSection() {
               Built for Performance. Designed for Efficiency.
             </h2>
             <div className="flex flex-col gap-6 mb-8 pr-4">
-              <p className="inter-font text-[#E5E5E5] font-regular section-text leading-relaxed max-w-2xl">
+              <p className="inter-font text-[#E5E5E5] font-regular section-text leading-relaxed max-w-[90%] lg:max-w-[80%]">
                 Twin Busch vehicle lifts are developed to provide dependable lifting performance across a wide range of workshop applications, helping technicians work with greater accessibility, confidence, and efficiency.
               </p>
             </div>

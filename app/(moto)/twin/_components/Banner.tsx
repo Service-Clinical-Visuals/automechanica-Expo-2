@@ -17,8 +17,8 @@ export default function Banner() {
 
       {/* Content Overlay */}
       <div className="custom-container relative z-20 pl-10 pb-20 lg:pb-40">
-        <div className="max-w-7xl text-left gap-12 lg:gap-10 flex flex-col items-start" data-aos="fade-up" data-aos-delay="200">
-          <h1 className="banner-title font-bold text-white leading-[1.2] mb-2 exo-2-font text-5xl lg:text-7xl">
+        <div className="w-full text-left flex flex-col items-start" data-aos="fade-up" data-aos-delay="200">
+          <h1 className="banner-title font-bold text-white leading-[1.2] mb-[clamp(20px,3vw,80px)] exo-2-font text-5xl lg:text-7xl">
             Powerful Lifting. Professional<br />Performance.
           </h1>
           <Button href="#" className="">
