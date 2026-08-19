@@ -2,10 +2,10 @@ import React from "react";
 
 export default function Certificates() {
   const certificates = [
-    "/moto/avortex/c1.png",
-    "/moto/avortex/c2.png",
-    "/moto/avortex/c3.png",
-    "/moto/avortex/c4.png"
+    "/moto/ukde-muhendislik/c1.png",
+    "/moto/ukde-muhendislik/c2.png",
+    "/moto/ukde-muhendislik/c3.png",
+    "/moto/ukde-muhendislik/c4.png"
   ];
 
   return (

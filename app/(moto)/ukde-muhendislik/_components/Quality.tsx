@@ -17,7 +17,7 @@ export default function Quality() {
           {/* Card 1 */}
           <div className="group relative rounded-lg overflow-hidden shadow-[0_4px_20px_rgba(0,0,0,0.08)] cursor-pointer">
             <img 
-              src="/moto/avortex/b1.png" 
+              src="/moto/ukde-muhendislik/b1.png" 
               alt="SVAC Glow Plugs" 
               className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105"
             />
@@ -36,7 +36,7 @@ export default function Quality() {
           {/* Card 2 */}
           <div className="group relative rounded-lg overflow-hidden shadow-[0_4px_20px_rgba(0,0,0,0.08)] cursor-pointer">
             <img 
-              src="/moto/avortex/b2.png" 
+              src="/moto/ukde-muhendislik/b2.png" 
               alt="SVAC Brake Hose" 
               className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105"
             />

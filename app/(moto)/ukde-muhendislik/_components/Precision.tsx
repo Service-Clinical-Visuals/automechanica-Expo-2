@@ -5,9 +5,9 @@ import { Zap, Flame, Wrench } from "lucide-react";
 
 export default function Precision() {
   const features = [
-    { icon: <img src="/moto/avortex/i1.png" alt="i1" className="w-9 h-9 mb-4"/>, label: "Reliable Ignition" },
-    { icon:<img src="/moto/avortex/i2.png" alt="i1" className="w-9 h-9 mb-4"/>, label: "Efficient Combustion" },
-    { icon: <img src="/moto/avortex/i3.png" alt="i1" className="w-9 h-9 mb-4"/>, label: "Robust Construction" }
+    { icon: <img src="/moto/ukde-muhendislik/i1.png" alt="i1" className="w-9 h-9 mb-4"/>, label: "Reliable Ignition" },
+    { icon:<img src="/moto/ukde-muhendislik/i2.png" alt="i1" className="w-9 h-9 mb-4"/>, label: "Efficient Combustion" },
+    { icon: <img src="/moto/ukde-muhendislik/i3.png" alt="i1" className="w-9 h-9 mb-4"/>, label: "Robust Construction" }
   ];
 
   return (

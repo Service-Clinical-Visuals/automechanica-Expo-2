@@ -35,7 +35,7 @@ export default function Engineered() {
             <div className="border border-white rounded-xl p-6 xl:p-8 space-y-4 bg-white/[0.02]">
               {features.map((feature, i) => (
                 <div key={i} className="flex items-start gap-3">
-                 <img className="w-5 h-5 mt-1.5" src="/moto/avortex/stting.png" alt="setting" />
+                 <img className="w-5 h-5 mt-1.5" src="/moto/ukde-muhendislik/stting.png" alt="setting" />
                   <p className="inter section-text leading-relaxed text-white">
                     <strong className="text-white font-semibold">{feature.title}</strong> — {feature.desc}
                   </p>

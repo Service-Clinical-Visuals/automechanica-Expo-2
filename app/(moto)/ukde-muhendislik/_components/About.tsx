@@ -29,7 +29,7 @@ export default function About() {
     
            {/* Right Image */}
            <div className="w-full xl:col-span-6 relative aspect-[4/3] xl:aspect-[4/3] rounded-lg overflow-hidden shadow-lg mt-8 xl:mt-0">
-              <img src="/moto/avortex/abt.png" alt="SVAC Facility" className="object-cover w-full h-full" />
+              <img src="/moto/ukde-muhendislik/abt.png" alt="SVAC Facility" className="object-cover w-full h-full" />
            </div>
     
         </div>

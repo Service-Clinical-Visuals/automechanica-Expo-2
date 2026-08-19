@@ -35,7 +35,7 @@ export default function Tested() {
             <div className="space-y-5">
               {points.map((point, i) => (
                 <div key={i} className="flex items-start gap-4">
-                  <img src="/moto/avortex/hand.png" alt="Point" className="w-5 h-5 shrink-0 mt-0.5 object-contain" />
+                  <img src="/moto/ukde-muhendislik/hand.png" alt="Point" className="w-5 h-5 shrink-0 mt-0.5 object-contain" />
                   <p className="inter section-text text-white leading-relaxed">
                     {point}
                   </p>

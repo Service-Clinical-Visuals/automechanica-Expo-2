@@ -14,23 +14,23 @@ export default function Footer() {
           {/* Col 1: Brand & Info */}
           <div className="xl:col-span-4 space-y-6 xl:pr-6">
             <Link href="#" className="inline-block">
-              <img src="/moto/avortex/logo.png" alt="SVAC Logo" className="h-10 object-contain" />
+              <img src="/moto/ukde-muhendislik/logo.png" alt="SVAC Logo" className="h-10 object-contain" />
             </Link>
             <p className="inter text-white section-text leading-relaxed">
               Twin Busch® Germany is a specialist in professional workshop equipment, offering reliable vehicle lifts, tyre servicing equipment, and innovative solutions designed to improve safety, efficiency, and performance in modern workshops.
             </p>
             <div className="flex items-center gap-5 pt-2">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
-               <img src="/moto/avortex/f1.png" alt="phone icon" className="w-[18px] h-[18px] text-white shrink-0 mt-0.5" />
+               <img src="/moto/ukde-muhendislik/f1.png" alt="phone icon" className="w-[18px] h-[18px] text-white shrink-0 mt-0.5" />
               </a>
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                 <img src="/moto/avortex/f2.png" alt="phone icon" className="w-[18px] h-[18px] text-white shrink-0 mt-0.5" />
+                 <img src="/moto/ukde-muhendislik/f2.png" alt="phone icon" className="w-[18px] h-[18px] text-white shrink-0 mt-0.5" />
               </a>
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                 <img src="/moto/avortex/f3.png" alt="phone icon" className="w-[18px] h-[18px] text-white shrink-0 mt-0.5" />
+                 <img src="/moto/ukde-muhendislik/f3.png" alt="phone icon" className="w-[18px] h-[18px] text-white shrink-0 mt-0.5" />
               </a>
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                 <img src="/moto/avortex/f4.png" alt="phone icon" className="w-[18px] h-[18px] text-white shrink-0 mt-0.5" />
+                 <img src="/moto/ukde-muhendislik/f4.png" alt="phone icon" className="w-[18px] h-[18px] text-white shrink-0 mt-0.5" />
               </a>
             </div>
           </div>
@@ -50,15 +50,15 @@ export default function Footer() {
             <h4 className="exo2 text-white font-medium mb-6 card-title">Contact Us</h4>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
-                <img src="/moto/avortex/f5.png" alt="phone icon" className="w-[18px] h-[18px] text-white shrink-0 mt-0.5" />
+                <img src="/moto/ukde-muhendislik/f5.png" alt="phone icon" className="w-[18px] h-[18px] text-white shrink-0 mt-0.5" />
                 <span className="inter text-white section-text">+90 (332)262 0 009</span>
               </li>
               <li className="flex items-start gap-3">
-                <img src="/moto/avortex/f7.png" alt="mail icon" className="w-[18px] h-[18px] text-white shrink-0 mt-0.5" />
+                <img src="/moto/ukde-muhendislik/f7.png" alt="mail icon" className="w-[18px] h-[18px] text-white shrink-0 mt-0.5" />
                 <span className="inter text-white section-text">info@svac.com.tr</span>
               </li>
               <li className="flex items-start gap-3">
-                <img src="/moto/avortex/f6.png" alt="phone icon" className="w-[18px] h-[18px] text-white shrink-0 mt-0.5" />
+                <img src="/moto/ukde-muhendislik/f6.png" alt="phone icon" className="w-[18px] h-[18px] text-white shrink-0 mt-0.5" />
                 <span className="inter text-white section-text">Fevzi Çakmak Neighborhood,<br/>Ahmet Petekçi Street, No: 17/<br/>S, Karatay, Konya</span>
               </li>
             </ul>

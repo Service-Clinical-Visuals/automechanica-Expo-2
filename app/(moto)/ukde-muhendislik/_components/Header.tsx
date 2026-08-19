@@ -37,7 +37,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="#" className="flex-shrink-0">
             <img
-              src="/moto/avortex/logo.png"
+              src="/moto/ukde-muhendislik/logo.png"
               alt="SVAC Logo"
               className="h-8 xl:h-10 w-auto object-contain"
             />
