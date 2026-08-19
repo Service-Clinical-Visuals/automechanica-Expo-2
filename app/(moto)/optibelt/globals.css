@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary: #00355B;
+    --text-dark: #1A1A1A;
+    --text-body: #484848;
+    --accent-gold: #CEA764;
+    --surface-light: #F9F9F9;
+    --surface-muted: #E6E6E6;
+    --overlay-dark: rgba(26, 26, 26, 0.35);
+    --overlay-primary: rgba(0, 53, 91, 0.4);
+  }
+
+  html {
+    overflow-x: hidden;
+  }
+
+  body {
+    font-family: 'Jost', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6, p, a, span, button {
+    font-family: 'Jost', sans-serif;
+  }
+}
+
+section {
+  overflow-x: hidden !important;
+}
+
+/* ---------------------------------------------
+   Containers — 90% width across all breakpoints,
+   mobile through 4K.
+--------------------------------------------- */
+.custom-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.custom-container-wide {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 480px) {
+  .custom-container { max-width: 90%; }
+  .custom-container-wide { max-width: 90%; }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .custom-container { max-width: 90%; }
+  .custom-container-wide { max-width: 90%; }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .custom-container { max-width: 90%; }
+  .custom-container-wide { max-width: 90%; }
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .custom-container { max-width: 90%; }
+  .custom-container-wide { max-width: 90%; }
+}
+@media (min-width: 1280px) and (max-width: 1535px) {
+  .custom-container { max-width: 90%; }
+  .custom-container-wide { max-width: 90%; }
+}
+
+/* as per figma — native design resolution */
+@media (min-width: 1536px) and (max-width: 1920px) {
+  .custom-container { max-width: 90%; }
+  .custom-container-wide { max-width: 90%; }
+}
+
+@media (min-width: 1921px) and (max-width: 2559px) {
+  .custom-container { max-width: 90%; }
+  .custom-container-wide { max-width: 90%; }
+}
+
+/* 2k */
+@media (min-width: 2560px) and (max-width: 3799px) {
+  .custom-container { max-width: 90%; }
+  .custom-container-wide { max-width: 90%; }
+}
+
+/* 4k */
+@media (min-width: 3800px) {
+  .custom-container { max-width: 90%; }
+  .custom-container-wide { max-width: 90%; }
+}
+
+/* ---------------------------------------------
+   Typography — semantic font-size utilities
+   Base sizes hold constant from mobile → 1920px
+   (matches Figma spec at native resolution),
+   then step up for 2K / 4K.
+--------------------------------------------- */
+.header-link    { font-size: 18px; }
+.btn-text       { font-size: 16px; }
+.banner-title   { font-size: 38px; }
+.section-title  { font-size: 32px; }
+.section-title1 { font-size: 24px; }
+.stat-title     { font-size: 20px; }
+.feature-text   { font-size: 18px; }
+.section-text   { font-size: 18px; }
+.video-label    { font-size: 28px; }
+
+@media (min-width: 1536px) and (max-width: 1920px) {
+  .header-link    { font-size: 18px; }
+  .btn-text       { font-size: 16px; }
+  .banner-title   { font-size: 38px; }
+  .section-title  { font-size: 32px; }
+  .section-title1 { font-size: 24px; }
+  .stat-title     { font-size: 20px; }
+  .feature-text   { font-size: 18px; }
+  .section-text   { font-size: 18px; }
+  .video-label    { font-size: 28px; }
+}
+
+@media (min-width: 1921px) and (max-width: 2559px) {
+  .header-link    { font-size: 18px; }
+  .btn-text       { font-size: 16px; }
+  .banner-title   { font-size: 38px; }
+  .section-title  { font-size: 32px; }
+  .section-title1 { font-size: 24px; }
+  .stat-title     { font-size: 20px; }
+  .feature-text   { font-size: 18px; }
+  .section-text   { font-size: 18px; }
+  .video-label    { font-size: 28px; }
+}
+
+/* 2k */
+@media (min-width: 2560px) and (max-width: 3799px) {
+  .header-link    { font-size: 20px; }
+  .btn-text       { font-size: 18px; }
+  .banner-title   { font-size: 44px; }
+  .section-title  { font-size: 37px; }
+  .section-title1 { font-size: 28px; }
+  .stat-title     { font-size: 23px; }
+  .feature-text   { font-size: 20px; }
+  .section-text   { font-size: 20px; }
+  .video-label    { font-size: 32px; }
+}
+
+/* 4k */
+@media (min-width: 3800px) {
+  .header-link    { font-size: 22px; }
+  .btn-text       { font-size: 20px; }
+  .banner-title   { font-size: 50px; }
+  .section-title  { font-size: 42px; }
+  .section-title1 { font-size: 31px; }
+  .stat-title     { font-size: 26px; }
+  .feature-text   { font-size: 23px; }
+  .section-text   { font-size: 23px; }
+  .video-label    { font-size: 36px; }
+}
+
+@layer utilities {
+  .text-primary      { color: var(--primary); }
+  .bg-primary        { background-color: var(--primary); }
+  .text-heading      { color: var(--text-dark); }
+  .text-body         { color: var(--text-body); }
+  .bg-surface        { background-color: var(--surface-light); }
+  .bg-surface-muted  { background-color: var(--surface-muted); }
+  .accent-underline {
+    display: block;
+    width: 192px;
+    height: 3.5px;
+    background: var(--accent-gold);
+    border-radius: 24px;
+  }
+}
