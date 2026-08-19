@@ -70,7 +70,7 @@ export default function HexagonButton({
                 )}
               </svg>
               <div className="relative z-10 text-white flex items-center justify-center">
-                {icon || <Search size={18} strokeWidth={2.5} />}
+                {icon || <Search size="1.125em" strokeWidth={2.5} />}
               </div>
             </div>
          </div>
@@ -96,7 +96,7 @@ export default function HexagonButton({
               )}
             </svg>
             <div className="relative z-10 text-white group-hover:translate-x-1 transition-transform flex items-center justify-center">
-              {icon || <ArrowRight size={20} strokeWidth={2.5} />}
+              {icon || <ArrowRight size="1.25em" strokeWidth={2.5} />}
             </div>
           </div>
        </div>
