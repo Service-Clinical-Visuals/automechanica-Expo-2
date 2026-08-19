@@ -9,29 +9,29 @@ export default function Products() {
   const accordionData = [
     {
       title: "Production",
-      icon: <img src="/moto/kameks/i1.png" alt="Production" className="w-auto h-auto object-contain" />,
+      imgSrc: "/moto/kameks/i1.png",
       content: "Our production facility is equipped with state-of-the-art machinery to manufacture high-quality camshafts efficiently and accurately, meeting all industry standards."
     },
     {
       title: "Product Development",
-      icon: <img src="/moto/kameks/i2.png" alt="Product Development" className="v object-contain" />,
+      imgSrc: "/moto/kameks/i2.png",
       content: "Requests received from customers based on samples or technical drawings are reviewed by our expert team and modeled in a three-dimensional (3D) environment. Technical drawings for all planned operations are prepared with the necessary dimensions and tolerances, taking into account the machinery and required standards."
     },
     {
       title: "Quality",
-      icon: <img src="/moto/kameks/i3.png" alt="Quality" className="w-auto h-auto object-contain" />,
+      imgSrc: "/moto/kameks/i3.png",
       content: "Every camshaft undergoes rigorous quality control checks throughout the production process to ensure it meets our strict standards for durability and performance."
     }
   ];
 
   return (
-    <section className="py-16 lg:py-20 bg-white">
+    <section className="py-10 lg:py-20 bg-white">
       <div className="custom-container">
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
 
           {/* Left: Image */}
-          <div className="lg:col-span-6 w-full h-full" data-aos="fade-right">
+          <div className="lg:col-span-6 w-full h-full aspect-[4/3] lg:aspect-auto" data-aos="fade-right">
             <img
               src="/moto/kameks/production.png"
               alt="Production Process"
@@ -61,11 +61,20 @@ export default function Products() {
                   >
                     <button
                       onClick={() => setOpenIndex(isOpen ? null : index)}
-                      className="w-full flex items-center justify-between p-5 bg-white cursor-pointer"
+                      className="w-full flex items-center justify-between p-6 px-10 bg-white cursor-pointer"
                     >
                       <div className="flex items-center gap-4">
-                        <span className={isOpen ? 'text-[#F12535]' : 'text-[#404040]'}>
-                          {item.icon}
+                        <span className="transition-colors duration-300 flex items-center justify-center w-6 h-6">
+                          <img
+                            src={item.imgSrc}
+                            alt={item.title}
+                            className="w-full h-full object-contain transition-all duration-300"
+                            style={{
+                              filter: isOpen
+                                ? "brightness(0) saturate(100%) invert(23%) sepia(85%) saturate(7186%) hue-rotate(346deg) brightness(96%) contrast(96%)"
+                                : "brightness(0) saturate(100%)"
+                            }}
+                          />
                         </span>
                         <span className={`poppins-font card-title font-semibold ${isOpen ? 'text-[#F12535]' : 'text-[#202020]'}`}>
                           {item.title}

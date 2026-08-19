@@ -72,241 +72,42 @@ body {
 
 .custom-container {
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  padding-left: clamp(16px, 5vw, 100px);
+  padding-right: clamp(16px, 5vw, 100px);
 }
 
-/* Default Base Font sizes */
-.header-link {
-  font-size: 16px;
-}
-
+/* Fluid Base Font sizes */
+.header-link,
 .btn-text {
-  font-size: 16px;
+  font-size: clamp(16px, 1.1vw, 16px);
 }
 
 .banner-title {
-  font-size: 30px;
+  font-size: clamp(26px, 2.1vw, 30px);
   line-height: 1.1;
 }
 
 .section-title {
-  font-size: 24px;
+  font-size: clamp(22px, 1.7vw, 24px);
   line-height: 1.2;
 }
 
 .section-text {
-  font-size: 16px;
+  font-size: clamp(14px, 1.1vw, 16px);
 }
 
 .card-title {
-  font-size: 18px;
+  font-size: clamp(18px, 1.25vw, 18px);
 }
 
 .card-text {
-  font-size: 14px;
+  font-size: clamp(14px, 1.1vw, 16px);
 }
 
-/* Mobile */
-@media (max-width: 767px) {
-  .banner-title {
-    font-size: 26px;
-  }
-
-  .section-title {
-    font-size: 22px;
-  }
-
-  .section-text {
-    font-size: 14px;
-  }
-
-  .card-title {
-    font-size: 18px;
-  }
-
-  .card-text {
-    font-size: 14px;
-  }
-
-  .header-logo {
-    width: 120px;
-  }
+.header-logo {
+  width: clamp(120px, 12.5vw, 300px);
 }
 
-/* Tablet / Small Desktop */
-@media (min-width: 768px) and (max-width: 1279px) {
-  .header-logo {
-    width: 150px;
-  }
-
-  .banner-title {
-    font-size: 28px;
-  }
-
-  .section-title {
-    font-size: 22px;
-  }
-}
-
-/* Standard Desktop */
-@media (min-width: 1280px) and (max-width: 1920px) {
-  .header-logo {
-    width: 180px;
-  }
-
-  .banner-title {
-    font-size: 30px;
-  }
-
-  .section-title {
-    font-size: 24px;
-  }
-
-  .section-text {
-    font-size: 16px;
-  }
-
-  .card-title {
-    font-size: 18px;
-  }
-
-  .card-text {
-    font-size: 16px;
-  }
-
-  .header-link,
-  .btn-text {
-    font-size: 16px;
-  }
-}
-
-/* Large Desktop */
-@media (min-width: 1921px) and (max-width: 2559px) {
-  .header-logo {
-    width: 220px;
-  }
-
-  .banner-title {
-    font-size: 42px;
-  }
-
-  .section-title {
-    font-size: 32px;
-  }
-
-  .section-text {
-    font-size: 18px;
-  }
-
-  .card-title {
-    font-size: 20px;
-  }
-
-  .card-text {
-    font-size: 16px;
-  }
-
-  .header-link,
-  .btn-text {
-    font-size: 18px;
-  }
-}
-
-/* 2K/3K */
-@media (min-width: 2560px) and (max-width: 3800px) {
-  .header-logo {
-    width: 280px;
-  }
-
-  .banner-title {
-    font-size: 56px;
-  }
-
-  .section-title {
-    font-size: 42px;
-  }
-
-  .section-text {
-    font-size: 20px;
-  }
-
-  .card-title {
-    font-size: 24px;
-  }
-
-  .card-text {
-    font-size: 18px;
-  }
-
-  .header-link,
-  .btn-text {
-    font-size: 20px;
-  }
-}
-
-/* 4K+ */
-@media (min-width: 3800px) {
-  .header-logo {
-    width: 360px;
-  }
-
-  .banner-title {
-    font-size: 72px;
-  }
-
-  .section-title {
-    font-size: 56px;
-  }
-
-  .section-text {
-    font-size: 28px;
-  }
-
-  .card-title {
-    font-size: 32px;
-  }
-
-  .card-text {
-    font-size: 24px;
-  }
-
-  .header-link,
-  .btn-text {
-    font-size: 26px;
-  }
-}
-
-/* Container Widths */
-@media (max-width: 480px) {
-  .custom-container {
-    max-width: 95%;
-  }
-}
-
-@media (min-width: 481px) and (max-width: 767px) {
-  .custom-container {
-    max-width: 92%;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1023px) {
-  .custom-container {
-    max-width: 90%;
-  }
-}
-
-@media (min-width: 1024px) and (max-width: 1535px) {
-  .custom-container {
-    max-width: 85%;
-  }
-}
-
-@media (min-width: 1536px) {
-  .custom-container {
-    max-width: 90%;
-  }
-}
 
 .bg {
   background-image: url("/moto/sigam/bg.png");
