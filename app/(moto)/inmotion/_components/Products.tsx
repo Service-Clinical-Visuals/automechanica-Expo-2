@@ -1,7 +1,8 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { ArrowUpRight } from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
 import Container from "./Container";
 import Button from "./Button";
 
@@ -23,6 +24,14 @@ const slides = [
 export default function Products() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentSlide((prevSlide) => (prevSlide + 1) % slides.length);
+    }, 5000); // Auto-scroll every 5 seconds
+
+    return () => clearInterval(timer);
+  }, []);
+
   return (
     <section className="bg-white py-16 sm:py-24">
       <Container>
@@ -42,27 +51,58 @@ export default function Products() {
         <hr className="border-[#00000080] mb-16" />
 
         {/* Content Row - Product Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
-          {slides[currentSlide].map((product, index) => (
-            <div key={product.name} className="bg-[#DEDEDE] p-4 flex flex-col group cursor-pointer" data-aos="fade-up" data-aos-delay={index * 100}>
-              <div className="bg-white w-full aspect-square flex items-center justify-center p-6 mb-4">
-                <img
-                  src={product.image}
-                  alt={product.name.replace('\n', ' ')}
-                  className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
-                />
-              </div>
-              <div className="flex justify-between items-end mt-auto mb-3">
-                <h3 className="subheading text-[#1A1A1A] leading-[1.2] whitespace-pre-line">
-                  {product.name}
-                </h3>
-                <div className="flex items-center justify-center">
-                  <img src="/moto/inmotion/i1.png" alt="arrow" className="product-arrow w-auto object-contain transition-all" />
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={currentSlide}
+            initial="hidden"
+            animate="visible"
+            exit="exit"
+            variants={{
+              hidden: { opacity: 0 },
+              visible: {
+                opacity: 1,
+                transition: { staggerChildren: 0.15 }
+              },
+              exit: {
+                opacity: 0,
+                transition: { duration: 0.2 }
+              }
+            }}
+            className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-10 mb-12"
+          >
+            {slides[currentSlide].map((product, index) => (
+              <motion.div
+                key={product.name}
+                variants={{
+                  hidden: { opacity: 0, x: 50 },
+                  visible: {
+                    opacity: 1,
+                    x: 0,
+                    transition: { type: "spring", stiffness: 300, damping: 24 }
+                  },
+                  exit: { opacity: 0, x: -50 }
+                }}
+                className="bg-[#DEDEDE] p-4 flex flex-col group cursor-pointer"
+              >
+                <div className="bg-white w-full aspect-square flex items-center justify-center p-6 mb-4">
+                  <img
+                    src={product.image}
+                    alt={product.name.replace('\n', ' ')}
+                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
+                  />
                 </div>
-              </div>
-            </div>
-          ))}
-        </div>
+                <div className="flex justify-between items-end mt-auto mb-3">
+                  <h3 className="subheading text-[#1A1A1A] leading-[1.2] whitespace-pre-line">
+                    {product.name}
+                  </h3>
+                  <div className="flex items-center justify-center">
+                    <img src="/moto/inmotion/i1.png" alt="arrow" className="product-arrow w-auto object-contain transition-all" />
+                  </div>
+                </div>
+              </motion.div>
+            ))}
+          </motion.div>
+        </AnimatePresence>
 
         {/* Carousel Indicators */}
         <div className="flex items-center justify-center gap-2" data-aos="fade-up">
