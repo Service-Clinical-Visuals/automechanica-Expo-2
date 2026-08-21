@@ -52,7 +52,7 @@ export default function Footer() {
               </ul>
             </div>
 
-            {/* Col 4: Contact Us */}
+            {/* Col 4: Contact Us 2*/}
             <div>
               <h4 className="heading-white text-xl! mb-5">Contact Us</h4>
               <ul className="space-y-4">
