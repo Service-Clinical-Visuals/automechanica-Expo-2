@@ -60,7 +60,7 @@ export default function Header() {
           {/* Logo */}
           <div className="flex items-center shrink-0">
             <img
-              src="/moto/benzol-lubricants/logo.png"
+              src="/moto/sarofim/logo.png"
               alt="Benzol Lubricants"
               className="h-9 w-auto"
             />
