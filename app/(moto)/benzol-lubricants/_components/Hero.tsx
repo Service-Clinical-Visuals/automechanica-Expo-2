@@ -1,7 +1,6 @@
 
 import { ArrowRight } from "lucide-react";
 import DynamicVideoPlayer from '@/app/_components/DynamicVideoPlayer';
-import ParallelogramButton from "./ParallelogramButton";
 
 const navLinks = [
   "Home",
