@@ -1,7 +1,6 @@
 "use client";
  
 import { useState, useMemo, useEffect } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, ArrowLeft } from "lucide-react";
  
@@ -117,13 +116,13 @@ export default function Products() {
           </p>
         </div>
  
-        {/* Tabs - Individual boxes for each category */}
+        {/* Segmented Wrapper Tabs with precise spacings */}
         <div
           data-aos="fade-up"
           data-aos-delay="150"
           className="w-full flex justify-center px-2 sm:px-0"
         >
-          <div className="grid grid-cols-2 sm:flex sm:items-center gap-2.5 sm:gap-3 w-full sm:w-auto max-w-full">
+          <div className="flex flex-wrap sm:flex-nowrap items-center justify-between bg-white border border-[#CCCCCC] rounded-[10px] p-2 gap-2 sm:w-auto w-full">
             {categories.map((cat, index) => (
               <button
                 key={cat.label}
@@ -131,10 +130,10 @@ export default function Products() {
                 onClick={() => handleTabChange(cat.label)}
                 data-aos="fade-up"
                 data-aos-delay={200 + index * 50}
-                className={`btn-text font-bold rounded-[10px] px-3 sm:px-[25px] py-2.5 sm:py-[10px] text-xs sm:text-sm md:text-base transition-colors whitespace-nowrap text-center border ${
+                className={`btn-text font-bold rounded-[8px] px-5 sm:px-8 py-3 text-xs sm:text-sm md:text-base transition-colors whitespace-nowrap text-center flex-1 sm:flex-initial ${
                   activeTab === cat.label
-                    ? "bg-[#DA0812] text-white border-[#DA0812]"
-                    : "bg-white text-[#71717A] border-[#CCCCCC] hover:text-[#202020] hover:border-[#a0a0a0]"
+                    ? "bg-[#DA0812] text-white shadow-sm"
+                    : "bg-transparent text-[#71717A] hover:text-[#202020]"
                 }`}
               >
                 {cat.label}
@@ -153,11 +152,10 @@ export default function Products() {
               className="flex flex-col bg-white border border-[rgba(204,204,204,0.8)] rounded-[10px] overflow-hidden w-full sm:w-[calc(50%-12px)] xl:w-[calc(25%-18px)] transition-colors duration-300 ease-in-out hover:border-[#DA0812]"
             >
               <div className="relative w-full aspect-[4/3] sm:aspect-square bg-[rgba(248,248,248,0.6)] p-4 sm:p-6 flex items-center justify-center">
-                <Image
+                <img
                   src={product.image}
                   alt={product.title}
-                  fill
-                  className="object-contain p-4 sm:p-6"
+                  className="w-full h-full object-contain p-4 sm:p-6"
                 />
               </div>
  
