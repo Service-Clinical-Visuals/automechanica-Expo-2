@@ -53,7 +53,7 @@ const products = [
 
 export default function ProductShowcase() {
   return (
-    <section className="w-full bg-[#0D0D0D] py-16 lg:py-24">
+    <section className="w-full max-w-full overflow-hidden bg-[#0D0D0D] py-16 lg:py-24">
       <div className="custom-container text-center">
 
         {/* Heading */}
@@ -79,14 +79,24 @@ export default function ProductShowcase() {
           Discover the advanced technology, high-quality
         </p>
 
-        {/* Product Slider */}
-        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250">
+        {/* Product Slider - explicit clipping wrapper so Swiper's
+            translated slide track (and duplicated loop slides) can
+            never push the page into horizontal scroll */}
+        <div
+          className="w-full max-w-full overflow-hidden"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="250"
+        >
           <Swiper
             modules={[Autoplay, Pagination]}
             spaceBetween={30}
             slidesPerView={1}
             loop={true}
             speed={700}
+            watchOverflow={true}
+            observer={true}
+            observeParents={true}
             autoplay={{
               delay: 2500,
               disableOnInteraction: false,
@@ -106,7 +116,7 @@ export default function ProductShowcase() {
                 spaceBetween: 40,
               },
             }}
-            className="!pb-4"
+            className="!pb-4 !overflow-hidden"
           >
             {products.map((product, index) => (
               <SwiperSlide key={product.id}>
@@ -142,7 +152,7 @@ export default function ProductShowcase() {
                       <div className="flex items-center justify-center shrink-0 w-14 h-14 rounded-full bg-white text-[#159BD7] translate-y-4 rotate-[-10deg] group-hover/image:translate-y-0 group-hover/image:rotate-0 transition-all duration-500 hover:scale-110">
                         <ArrowUpRight size={28} strokeWidth={2} />
                       </div>
-                    </div>
+                    </div>  
                   </div>
                 </div>
               </SwiperSlide>

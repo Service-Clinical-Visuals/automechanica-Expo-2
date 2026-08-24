@@ -19,36 +19,31 @@ export default function Header() {
   const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
   const [visible, setVisible] = useState(true);
+  const [hasScrolledPast, setHasScrolledPast] = useState(false);
 
   const lastScrollY = useRef(0);
   const pastBanner = useRef(false);
 
   useEffect(() => {
-    // Height of the "banner zone" — while inside this zone, the header
-    // hides on scroll-down / shows on scroll-up. Once the user scrolls
-    // past it, the header stays permanently visible.
     const getBannerHeight = () => window.innerHeight;
 
     const handleScroll = () => {
       const currentY = window.scrollY;
       const bannerHeight = getBannerHeight();
 
+      setHasScrolledPast(currentY >= bannerHeight);
+
       if (currentY >= bannerHeight) {
-        // Past the banner: header always visible from here on
         pastBanner.current = true;
         setVisible(true);
       } else {
-        // Still within the banner zone
         pastBanner.current = false;
 
         if (currentY <= 10) {
-          // Top of page
           setVisible(true);
         } else if (currentY > lastScrollY.current) {
-          // Scrolling down within banner -> hide to reveal full banner
           setVisible(false);
         } else {
-          // Scrolling up within banner -> show
           setVisible(true);
         }
       }
@@ -62,84 +57,100 @@ export default function Header() {
 
   return (
     <header
-      className={`sticky top-0 z-50 w-full pt-5 transition-transform duration-500 ease-in-out ${
+      className={`sticky top-0 z-50 w-full transition-transform duration-500 ease-in-out ${
         visible ? "translate-y-0" : "-translate-y-[150%]"
-      }`}
+      } ${hasScrolledPast ? "pt-0" : "pt-5"}`}
     >
-      <div className="custom-container">
-        <div
-          data-aos="fade-down"
-          data-aos-duration="700"
-          data-aos-once="true"
-          className="relative flex items-center justify-between rounded-[100px] border border-white/25 bg-black/30 backdrop-blur-md shadow-[0_3px_8px_rgba(0,0,0,0.24)] px-8 py-3"
-        >
-          {/* Logo + Anniversary Badge */}
-          <Link href="/" className="flex items-center gap-4 flex-shrink-0">
-            <img
-              src="/moto/giuliano/logo1.png"
-              alt="Giuliano Automotive"
-              width="163"
-              height="41"
-              className="w-32 lg:w-[163px] h-auto"
-            />
-
-            <img
-              src="/moto/giuliano/logo2.png"
-              alt="50th Anniversary"
-              width="69"
-              height="31"
-              className="w-14 lg:w-[69px] h-auto"
-            />
-          </Link>
-
-          {/* Desktop Nav */}
-          <nav className="hidden lg:flex items-center gap-10">
-            {navLinks.map((link) => {
-              const isActive = pathname === link.href;
-
-              return (
-                <Link
-                  key={link.name}
-                  href={link.href}
-                  className={`font-oswald text-[16px] leading-[30px] text-white inline-flex items-center gap-1 transition-colors hover:text-[#18A2DE] ${
-                    isActive ? "font-bold underline" : "font-medium"
-                  }`}
-                >
-                  {link.name}
-
-                  {link.hasDropdown && (
-                    <ChevronDown
-                      className="w-4 h-4 text-[#1A9FE2]"
-                      strokeWidth={2.5}
-                    />
-                  )}
-                </Link>
-              );
-            })}
-          </nav>
-
-          {/* Get in Touch */}
-          <div className="hidden lg:block">
-            <Button text="Get in Touch" href="/contact" />
-          </div>
-
-          {/* Mobile Menu Toggle */}
-          <button
-            className="lg:hidden text-white"
-            onClick={() => setMobileOpen((prev) => !prev)}
-            aria-label="Toggle menu"
+      {/* Outer header background expands to full screen width */}
+      <div
+        className={`w-full bg-black/30 backdrop-blur-md shadow-[0_3px_8px_rgba(0,0,0,0.24)] transition-all duration-300 ${
+          hasScrolledPast
+            ? "rounded-none border-x-0 border-t-0 border-b border-white/25 py-3"
+            : "bg-transparent backdrop-blur-none shadow-none"
+        }`}
+      >
+        {/* Inner container controls positioning */}
+        <div className="custom-container">
+          <div
+            data-aos={hasScrolledPast ? undefined : "fade-down"}
+            data-aos-duration="700"
+            data-aos-once="true"
+            className={`relative flex items-center justify-between px-3 sm:px-4 py-3 transition-all duration-300 ${
+              hasScrolledPast
+                ? "w-full rounded-none border-0 bg-transparent py-0 shadow-none"
+                : "rounded-[100px] border border-white/25 bg-black/30 backdrop-blur-md shadow-[0_3px_8px_rgba(0,0,0,0.24)]"
+            }`}
           >
-            {mobileOpen ? (
-              <X className="w-7 h-7" />
-            ) : (
-              <Menu className="w-7 h-7" />
-            )}
-          </button>
+            {/* Logo + Anniversary Badge (Slightly nudged further left) */}
+            <Link href="/" className="flex items-center gap-4 flex-shrink-0 -ml-1.5 lg:-ml-2">
+              <img
+                src="/moto/giuliano/logo1.png"
+                alt="Giuliano Automotive"
+                width="163"
+                height="41"
+                className="w-32 lg:w-[163px] h-auto"
+              />
+
+              <img
+                src="/moto/giuliano/logo2.png"
+                alt="50th Anniversary"
+                width="69"
+                height="31"
+                className="w-14 lg:w-[69px] h-auto"
+              />
+            </Link>
+
+            {/* Desktop Nav */}
+            <nav className="hidden lg:flex items-center gap-10">
+              {navLinks.map((link) => {
+                const isActive = pathname === link.href;
+
+                return (
+                  <Link
+                    key={link.name}
+                    href={link.href}
+                    className={`font-oswald text-[16px] leading-[30px] text-white inline-flex items-center gap-1 transition-colors hover:text-[#18A2DE] ${
+                      isActive ? "font-bold underline" : "font-medium"
+                    }`}
+                  >
+                    {link.name}
+
+                    {link.hasDropdown && (
+                      <ChevronDown
+                        className="w-4 h-4 text-[#1A9FE2]"
+                        strokeWidth={2.5}
+                      />
+                    )}
+                  </Link>
+                );
+              })}
+            </nav>
+
+            {/* Get in Touch */}
+            <div className="hidden lg:block">
+              <Button text="Get in Touch"  />
+            </div>
+
+            {/* Mobile Menu Toggle */}
+            <button
+              className="lg:hidden text-white"
+              onClick={() => setMobileOpen((prev) => !prev)}
+              aria-label="Toggle menu"
+            >
+              {mobileOpen ? (
+                <X className="w-7 h-7" />
+              ) : (
+                <Menu className="w-7 h-7" />
+              )}
+            </button>
+          </div>
         </div>
 
         {/* Mobile Nav Panel */}
         {mobileOpen && (
-          <div className="lg:hidden mt-3 rounded-[20px] border border-white/25 bg-[#171717] shadow-[0_3px_8px_rgba(0,0,0,0.24)] flex flex-col py-4">
+          <div className={`lg:hidden bg-[#171717] shadow-[0_3px_8px_rgba(0,0,0,0.24)] flex flex-col py-4 ${
+            hasScrolledPast ? "w-full px-4 border-b border-white/25 rounded-none mt-3" : "custom-container mt-3 rounded-[20px] border border-white/25"
+          }`}>
             {navLinks.map((link) => {
               const isActive = pathname === link.href;
 
@@ -165,7 +176,7 @@ export default function Header() {
             })}
 
             <div className="px-6 pt-3">
-              <Button text="Get in Touch" href="/contact" />
+              <Button text="Get in Touch"/>
             </div>
           </div>
         )}

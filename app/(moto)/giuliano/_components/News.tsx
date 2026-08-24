@@ -70,7 +70,7 @@ const newsItems: NewsItem[] = [
 
 export default function NewsSection() {
   return (
-    <section className="w-full bg-[#0D0D0D] py-16 lg:py-24">
+    <section className="w-full max-w-full overflow-hidden bg-[#0D0D0D] py-16 lg:py-24">
       <div className="custom-container">
 
         {/* Header */}
@@ -90,21 +90,31 @@ export default function NewsSection() {
           </div>
 
           <div className="flex-shrink-0 pr-2 transition-transform duration-300 hover:-translate-y-1" data-aos="fade-left" data-aos-duration="900" data-aos-delay="200">
-            <Button text="View All News" href="/news" />
+            <Button text="View All News" />
           </div>
         </div>
 
         {/* Divider */}
         <div className="w-full border-t border-soft mb-10" data-aos="fade-in" data-aos-duration="700" data-aos-delay="100" />
 
-        {/* News Carousel */}
-        <div data-aos="fade-up" data-aos-duration="900" data-aos-delay="200">
+        {/* News Carousel - explicit clipping wrapper so Swiper's
+            translated slide track (and duplicated loop slides) can
+            never push the page into horizontal scroll */}
+        <div
+          className="w-full max-w-full overflow-hidden"
+          data-aos="fade-up"
+          data-aos-duration="900"
+          data-aos-delay="200"
+        >
           <Swiper
             modules={[Autoplay, Pagination]}
             spaceBetween={40}
             slidesPerView={1}
             loop={true}
             speed={700}
+            watchOverflow={true}
+            observer={true}
+            observeParents={true}
             autoplay={{
               delay: 3000,
               disableOnInteraction: false,
@@ -135,7 +145,7 @@ export default function NewsSection() {
                 spaceBetween: 40,
               },
             }}
-            className="!pb-4"
+            className="!pb-4 !overflow-hidden"
           >
             {newsItems.map((item, index) => (
               <SwiperSlide key={`${item.title}-${item.date}-${index}`}>
@@ -169,7 +179,7 @@ export default function NewsSection() {
 
                   {/* Button */}
                   <div className="transition-transform duration-300 group-hover:translate-x-1">
-                    <Button text="Read More" href={item.href} />
+                    <Button text="Read More" />
                   </div>
                 </div>
               </SwiperSlide>

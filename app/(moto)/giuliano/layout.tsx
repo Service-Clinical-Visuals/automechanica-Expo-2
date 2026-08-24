@@ -11,18 +11,16 @@ export const metadata: Metadata = {
     "GIULIANO INDUSTRIAL S.p.A. delivers advanced automotive equipment designed for precision, reliability, and professional performance.",
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className="h-full antialiased">
-      <body className="min-h-full flex flex-col bg-[#0D0D0D]">
-        <VideoProvider>
-          <SmoothAnimate>
-            <Header />
-            {children}
-            <Footer />
-          </SmoothAnimate>
-        </VideoProvider>
-      </body>
-    </html>
+    <div className="h-full antialiased min-h-full flex flex-col bg-[#0D0D0D]">
+      <VideoProvider>
+        <SmoothAnimate>
+          <Header />
+          {children}
+          <Footer />
+        </SmoothAnimate>
+      </VideoProvider>
+    </div>
   );
 }
