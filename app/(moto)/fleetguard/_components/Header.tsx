@@ -75,7 +75,7 @@ export default function Header() {
                             <img
                                 src="/moto/fleetguard/logo.png"
                                 alt="Fleetguard Logo"
-                                className="header-logo object-contain"
+                                className="h-10 xl:h-12 2xl:h-14 4xl:h-[120px] min-[3800px]:h-auto w-auto object-contain"
                             />
                         </Link>
 
@@ -101,34 +101,34 @@ export default function Header() {
 
                         {/* Right Side: Search and Icons */}
                         <div className="hidden xl:flex items-center gap-6 shrink-0">
-                            <div className="relative flex items-center rounded-[10px] shadow-[0px_3px_8px_0px_#0000003D] overflow-hidden">
+                            <div className="relative flex items-center bg-white border border-gray-200 rounded-lg p-1 h-10 2xl:h-12 4xl:h-16">
                                 <input
                                     type="text"
                                     placeholder="Search by Part , Keyword"
-                                    className="px-4 py-1.5 2xl:py-2.5 4xl:py-3.5 w-64 2xl:w-80 4xl:w-96 focus:outline-none text-[#4B5563] section-text font-rubik font-normal"
+                                    className="px-3 h-full w-48 xl:w-64 2xl:w-80 4xl:w-96 focus:outline-none text-[#4B5563] text-sm 2xl:text-base 4xl:text-lg font-rubik font-normal bg-transparent flex-1"
                                 />
-                                <button className="rounded-[5px] bg-primary hover:bg-red-700 text-white px-2 py-2 2xl:px-3 2xl:py-3 4xl:px-4 4xl:py-4 mr-3 transition-colors flex items-center justify-center">
-                                    <Search className="w-4 h-4 2xl:w-6 2xl:h-6 4xl:w-8 4xl:h-8" />
+                                <button className="rounded-md bg-[#EE2823] hover:bg-red-700 text-white w-8 h-8 2xl:w-10 2xl:h-10 4xl:w-14 4xl:h-14 transition-colors flex items-center justify-center shrink-0">
+                                    <Search className="w-4 h-4 2xl:w-5 2xl:h-5 4xl:w-7 4xl:h-7" />
                                 </button>
                             </div>
 
-                            <div className="flex items-center gap-4 xl:gap-6">
+                            <div className="flex items-center gap-4 xl:gap-5">
                                 <img
                                     src="/moto/fleetguard/i1.png"
                                     alt="User"
-                                    className="w-[18px] h-[18px] 2xl:w-[36px] 2xl:h-[36px] 4xl:w-[48px] 4xl:h-[48px] object-contain cursor-pointer hover:opacity-80 transition-opacity"
+                                    className="w-[18px] h-[18px] 2xl:w-[24px] 2xl:h-[24px] 4xl:w-[32px] 4xl:h-[32px] object-contain cursor-pointer hover:opacity-80 transition-opacity"
                                 />
-                                <div className="w-[2px] h-8 2xl:h-12 4xl:h-16 bg-[#E2DBDB]"></div>
+                                <div className="w-[1px] h-6 2xl:h-8 4xl:h-10 bg-gray-200"></div>
                                 <img
                                     src="/moto/fleetguard/i2.png"
                                     alt="Cart"
-                                    className="w-[18px] h-[18px] 2xl:w-[36px] 2xl:h-[36px] 4xl:w-[48px] 4xl:h-[48px] object-contain cursor-pointer hover:opacity-80 transition-opacity"
+                                    className="w-[18px] h-[18px] 2xl:w-[24px] 2xl:h-[24px] 4xl:w-[32px] 4xl:h-[32px] object-contain cursor-pointer hover:opacity-80 transition-opacity"
                                 />
-                                <div className="w-[2px] h-8 2xl:h-12 4xl:h-16 bg-[#E2DBDB]"></div>
+                                <div className="w-[1px] h-6 2xl:h-8 4xl:h-10 bg-gray-200"></div>
                                 <img
                                     src="/moto/fleetguard/i3.png"
                                     alt="Globe"
-                                    className="w-[18px] h-[18px] 2xl:w-[36px] 2xl:h-[36px] 4xl:w-[48px] 4xl:h-[48px] object-contain cursor-pointer hover:opacity-80 transition-opacity"
+                                    className="w-[18px] h-[18px] 2xl:w-[24px] 2xl:h-[24px] 4xl:w-[32px] 4xl:h-[32px] object-contain cursor-pointer hover:opacity-80 transition-opacity"
                                 />
                             </div>
                         </div>
@@ -165,30 +165,30 @@ export default function Header() {
                         })}
 
                         <div className="mt-4 flex flex-col gap-4">
-                            <div className="relative flex items-center rounded-[10px] shadow-[0px_3px_8px_0px_#0000003D] overflow-hidden">
+                            <div className="relative flex items-center bg-white border border-gray-200 rounded-lg p-1 h-10">
                                 <input
                                     type="text"
                                     placeholder="Search by Part , Keyword"
-                                    className="px-4 py-1.5 w-full focus:outline-none text-[#4B5563] section-text font-rubik font-normal"
+                                    className="px-3 h-full w-full focus:outline-none text-[#4B5563] text-sm font-rubik font-normal bg-transparent"
                                 />
-                                <button className="rounded-[5px] bg-primary hover:bg-red-700 text-white px-2 py-2 mr-3 transition-colors flex items-center justify-center">
-                                    <Search size={16} />
+                                <button className="rounded-md bg-[#EE2823] hover:bg-red-700 text-white w-8 h-8 transition-colors flex items-center justify-center shrink-0">
+                                    <Search className="w-4 h-4" />
                                 </button>
                             </div>
 
-                            <div className="flex items-center justify-center gap-4 mt-4">
+                            <div className="flex items-center justify-center gap-6 mt-4">
                                 <img
                                     src="/moto/fleetguard/i1.png"
                                     alt="User"
-                                    className="w-auto h-auto object-contain cursor-pointer hover:opacity-80 transition-opacity"
+                                    className="w-[18px] h-[18px] object-contain cursor-pointer hover:opacity-80 transition-opacity"
                                 />
-                                <div className="w-[2px] h-10 bg-[#E2DBDB]"></div>
+                                <div className="w-[1px] h-6 bg-gray-200"></div>
                                 <img
                                     src="/moto/fleetguard/i2.png"
                                     alt="Cart"
                                     className="w-[18px] h-[18px] object-contain cursor-pointer hover:opacity-80 transition-opacity"
                                 />
-                                <div className="w-[2px] h-10 bg-[#E2DBDB]"></div>
+                                <div className="w-[1px] h-6 bg-gray-200"></div>
                                 <img
                                     src="/moto/fleetguard/i3.png"
                                     alt="Globe"
