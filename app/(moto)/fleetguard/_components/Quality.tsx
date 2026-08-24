@@ -12,10 +12,10 @@ export default function Quality() {
 
       <Container className="relative z-10">
 
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 2xl:gap-24 4xl:gap-32 items-center mb-16 2xl:mb-24 4xl:mb-32">
+        <div className="grid grid-cols-1 xl:grid-cols-12 gap-10   4xl:gap-32 items-center mb-16  4xl:mb-20">
 
           {/* Left: Text content */}
-          <div data-aos="fade-right" className="lg:col-span-5">
+          <div data-aos="fade-right" className="xl:col-span-5">
 
             <h2 className="section-title font-oswald font-semibold mb-6 2xl:mb-10 4xl:mb-16 text-white font-semibold">
               Engineered for Performance. Built for Protection.
@@ -38,7 +38,7 @@ export default function Quality() {
                 />
                 <p className="section-text font-rubik font-normal text-white leading-snug">
 
-                  <strong className="text-white font-bold">Superior Filtration</strong> –
+                  <strong >Superior Filtration</strong> –
                   Effectively removes harmful contaminants to maintain clean and
                   efficient engine operation.
                 </p>
@@ -51,7 +51,7 @@ export default function Quality() {
                 />
                 <p className="section-text font-rubik font-normal text-white leading-snug">
 
-                  <strong className="text-white font-bold">Engine Protection</strong> –
+                  <strong >Engine Protection</strong> –
                   Helps safeguard critical components and reduce wear for
                   improved equipment reliability.
                 </p>
@@ -64,7 +64,7 @@ export default function Quality() {
                 />
                 <p className="section-text font-rubik font-normal text-white leading-snug">
 
-                  <strong className="text-white font-bold">
+                  <strong>
                     Optimized Performance
                   </strong>
                   – Supports efficient operation, consistent performance, and
@@ -80,7 +80,7 @@ export default function Quality() {
                 />
                 <p className="section-text font-rubik font-normal text-white leading-snug">
 
-                  <strong className="text-white text-white font-bold">Built to Last</strong> –
+                  <strong >Built to Last</strong> –
                   Engineered to withstand demanding conditions and deliver
                   dependable, long-lasting service.
                 </p>
@@ -89,7 +89,7 @@ export default function Quality() {
           </div>
           {/* Right: Video */}
           <div
-            className="lg:col-span-7 relative w-full h-full aspect-video rounded-xl overflow-hidden shadow-xl bg-black"
+            className="xl:col-span-7 relative w-full h-full aspect-video rounded-xl overflow-hidden shadow-xl "
             data-aos="fade-left"
           >
             <DynamicVideoPlayer type="short-1" className="w-full h-full aspect-video" />
@@ -97,11 +97,11 @@ export default function Quality() {
         </div>
         {/* Bottom Section */}
         <div
-          className="border-t border-white pt-6 2xl:pt-10 4xl:pt-16 flex flex-col md:flex-row items-center justify-between gap-8 2xl:gap-12"
+          className="border-t border-white pt-6  4xl:pt-10 flex flex-col md:flex-row items-center justify-between gap-8 2xl:gap-12"
           data-aos="fade-up"
         >
 
-          <p className="section-text font-rubik font-normal max-w-[100%] md:max-w-[60%] text-gray-300 leading-relaxed">
+          <p className="section-text font-rubik font-normal max-w-[100%] md:max-w-[60%] text-white leading-relaxed">
 
             From advanced air and fuel filtration to specialized filtration
             solutions, Fleetguard products are engineered to deliver dependable

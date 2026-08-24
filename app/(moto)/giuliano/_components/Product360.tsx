@@ -1,13 +1,18 @@
 "use client";
 
 import React from "react";
-import DynamicVideoPlayer from "../../../_components/DynamicVideoPlayer";
 import Button from "./Button";
 
 export default function Product360() {
+  const handle360Click = () => {
+    // Add your "360" action or modal trigger logic here
+    console.log("360 experience triggered");
+  };
+
   return (
     <section className="w-full bg-surface-1 py-16 lg:py-24">
       <div className="custom-container">
+
         {/* Header row */}
         <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6 mb-8">
           <div
@@ -35,10 +40,7 @@ export default function Product360() {
             data-aos-delay="200"
           >
             <div className="transition-transform duration-300 hover:-translate-y-1">
-              <Button
-                text="View 360° Experience"
-                href="/products/wheel-balancers/360"
-              />
+              <Button text="View 360° Experience" onClick={handle360Click} />
             </div>
           </div>
         </div>
@@ -58,12 +60,18 @@ export default function Product360() {
           data-aos-duration="1000"
           data-aos-delay="250"
         >
-          <DynamicVideoPlayer
-            type="360"
+          <video
             className="absolute inset-0 w-full h-full object-cover transition-transform duration-[1200ms] ease-out group-hover:scale-[1.03]"
+            src="/moto/giuliano/video.mp4"
+            autoPlay
+            muted
+            loop
+            playsInline
           />
 
           <div className="absolute inset-0 bg-black/0 transition-all duration-700 group-hover:bg-black/10" />
+
+          
         </div>
       </div>
     </section>

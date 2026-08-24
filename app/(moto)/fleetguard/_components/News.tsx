@@ -38,7 +38,7 @@ export default function News() {
           <h2 className="section-title font-oswald font-semibold mb-4 font-semibold text-[#272727]">
             Latest News & Updates
           </h2>
-          <p className="section-text font-rubik font-normal max-w-3xl 2xl:max-w-5xl 4xl:max-w-7xl mx-auto text-[#4B5563]">
+          <p className="section-text font-rubik font-normal xl:max-w-[60%]  mx-auto text-[#4B5563]">
 
             Stay updated with the latest news, partnerships, product
             developments, and innovations from Fleetguard and the filtration
@@ -47,17 +47,18 @@ export default function News() {
         </div>
         {/* News Cards */}
         <div
-          className="grid grid-cols-1 md:grid-cols-3 gap-10 2xl:gap-16 4xl:gap-24"
-          data-aos="fade-up"
+          className="grid grid-cols-1 md:grid-cols-3 gap-6 2xl:gap-8 4xl:gap-12"
         >
 
           {newsItems.map((item, index) => (
             <div
               key={index}
-              className="border border-gray-200 rounded-xl overflow-hidden bg-white flex flex-col hover:shadow-lg transition-shadow"
+              className="bg-white rounded-lg overflow-hidden border border-[#EAEAEA] flex flex-col h-full hover:shadow-lg transition-shadow duration-300"
+              data-aos="fade-up"
+              data-aos-delay={index * 100}
             >
 
-              <div className="w-full h-full p-4 2xl:p-6 4xl:p-8 overflow-hidden relative">
+              <div className="w-full aspect[4/3] p-4  4xl:p-6 overflow-hidden relative shrink-0">
 
                 <img
                   src={item.image}
@@ -65,11 +66,11 @@ export default function News() {
                   className="w-full h-full object-cover rounded-md"
                 />
               </div>
-              <div className="px-6 py-3 2xl:px-8 2xl:py-6 4xl:px-12 4xl:py-10 flex flex-col flex-grow">
+              <div className="px-6 py-3 4xl:px-12 4xl:py-10 flex flex-col flex-grow">
 
                 <div className="flex items-center gap-2 text-gray-500 mb-4 2xl:mb-6 4xl:mb-8">
 
-                  <Calendar className="w-6 h-6 2xl:w-8 2xl:h-8 4xl:w-10 4xl:h-10" strokeWidth={2} />
+                  <Calendar className="w-4 h-4 2xl:w-5 2xl:h-5 4xl:w-6 4xl:h-6" strokeWidth={2} />
                   <span className="card-text font-medium text-[#4B5563]">{item.date}</span>
                 </div>
                 <h3 className="card-title font-oswald font-semibold text-[#272727] mb-3 leading-snug">
@@ -78,7 +79,7 @@ export default function News() {
                 <p className="card-text font-rubik font-normal text-[#4B5563] mb-6 leading-relaxed flex-grow">
                   {item.desc}
                 </p>
-                <div className="flex justify-end">
+                <div className="flex justify-end mt-auto">
 
                   <Link
                     href={item.link}

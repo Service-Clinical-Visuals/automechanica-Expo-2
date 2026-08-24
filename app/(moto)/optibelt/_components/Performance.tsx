@@ -91,7 +91,7 @@ export default function Performance() {
                 </p>
               </div>
               <div>
-                <Button href="#" variant="primary">
+                <Button variant="primary">
                   Learn More
                 </Button>
               </div>

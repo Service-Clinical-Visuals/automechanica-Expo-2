@@ -37,23 +37,20 @@ export const metadata: Metadata = {
     "MKT Holdings, Inc. manufactures premium shock absorbers, air suspension systems, and strut assemblies for the global automotive aftermarket.",
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html
-      lang="en"
-      className={`${exo.variable} ${exo2.variable} ${lato.variable} ${oswald.variable} h-full antialiased`}
+    <div
+      className={`${exo.variable} ${exo2.variable} ${lato.variable} ${oswald.variable} h-full antialiased min-h-full flex flex-col bg-white font-body text-body`}
     >
-      <body className="min-h-full flex flex-col bg-white font-body text-body">
-        <VideoProvider>
-          <AOSInit>
-            <SmoothScroller>
-              <Header />
-              {children}
-              <Footer />
-            </SmoothScroller>
-          </AOSInit>
-        </VideoProvider>
-      </body>
-    </html>
+      <VideoProvider>
+        <AOSInit>
+          <SmoothScroller>
+            <Header />
+            {children}
+            <Footer />
+          </SmoothScroller>
+        </AOSInit>
+      </VideoProvider>
+    </div>
   );
 }

@@ -16,7 +16,7 @@ export default function Banner() {
           data-aos-duration="1000"
           data-aos-once="true"
         >
-          {/* Background video */}
+          {/* Background video using DynamicVideoPlayer */}
           <DynamicVideoPlayer
             type="banner"
             className="absolute inset-0 w-full h-full object-cover"
@@ -26,7 +26,7 @@ export default function Banner() {
           <div className="absolute inset-0 bg-[rgba(26,26,26,0.35)]" />
 
           {/* Content */}
-          <div className="relative z-10 h-full flex flex-col justify-end px-6 sm:px-8 md:px-10 xl:px-[52px] pb-10 md:pb-14 xl:pb-16">
+          <div className="relative z-10 h-full flex flex-col justify-end px-12 sm:px-12 md:px-[68px] xl:px-[88px] pb-10 md:pb-14 xl:pb-16">
             <div className="max-w-[476px]">
               <h1
                 className="banner-title font-bold text-white leading-tight mb-4"
@@ -36,7 +36,6 @@ export default function Banner() {
               >
                 Performance you can trust.
               </h1>
-
               <p
                 className="section-text font-normal text-white mb-6 max-w-[510px]"
                 data-aos="fade-up"
@@ -46,13 +45,12 @@ export default function Banner() {
                 Since 1872, delivering high-performance belt drives engineered
                 in Germany and trusted worldwide.
               </p>
-
               <div
                 data-aos="fade-up"
                 data-aos-duration="800"
                 data-aos-delay="400"
               >
-                <Button href="#" variant="primary">
+                <Button variant="primary">
                   Shop Now
                 </Button>
               </div>

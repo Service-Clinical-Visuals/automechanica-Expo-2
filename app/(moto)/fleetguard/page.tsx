@@ -6,7 +6,7 @@ import AboutUs from "./_components/AboutUs";
 import History from "./_components/History";
 import Quality from "./_components/Quality";
 import Footer from "./_components/Footer";
-import AosInit from "./_components/AosInit";
+import SmoothAOS from "./_components/SmoothAOS";
 import Quality2 from "./_components/Quality2";
 import Products from "./_components/Products";
 import News from "./_components/News";
@@ -19,7 +19,7 @@ export const metadata = {
 export default function Page() {
   return (
     <main className="relative min-h-screen bg-white overflow-x-hidden">
-      <AosInit />
+      <SmoothAOS />
       <Header />
       <Banner />
       <AboutUs />
