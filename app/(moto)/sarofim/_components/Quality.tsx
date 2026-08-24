@@ -11,8 +11,7 @@ export default function Quality() {
           {/* Heading */}
           <div className="text-center" data-aos="fade-up">
             <h2
-              className="text-white font-bold text-[28px] md:text-[32px]"
-              style={{ fontFamily: "var(--font-exo2)" }}
+              className="heading-white"
             >
               Advanced Engine Oil Solutions
             </h2>

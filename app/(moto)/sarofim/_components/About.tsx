@@ -29,12 +29,11 @@ export default function About() {
           {/* Heading */}
           <div className="text-center mb-12" data-aos="fade-up">
             <h2
-              className="text-white font-bold text-[28px] md:text-[32px]"
-              style={{ fontFamily: "var(--font-exo2)" }}
+              className="heading-white"
             >
               SAROFIM GmbH
             </h2>
-            <p className="text-white/80 text-[15px] leading-[24px] max-w-[1100px] mx-auto mt-4">
+            <p className="content-white max-w-[1100px] mx-auto mt-4">
               Sarofim GmbH is a young German company headquartered in Ittlingen, in southern
               Germany. For several years, we have been distributing automotive parts, lubricants,
               additives, and other workshop products for industrial and technical applications.
@@ -65,7 +64,7 @@ export default function About() {
                       <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-white text-[#0D0D0D]">
                         <Check size={14} strokeWidth={3} />
                       </span>
-                      <h3 className="content-white text-xl!">{feature.title}</h3>
+                      <h3 className="content-white text-[22px]! font-semibold!">{feature.title}</h3>
                     </div>
                     <p className="content-white pl-9">
                       {feature.description}
