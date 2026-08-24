@@ -30,7 +30,6 @@ export default function Header() {
     const onScroll = () => setScrollY(window.scrollY);
     window.addEventListener("scroll", onScroll);
 
-    // Trigger the one-time entrance animation shortly after mount
     const mountTimer = setTimeout(() => setMounted(true), 50);
 
     return () => {
@@ -40,27 +39,38 @@ export default function Header() {
     };
   }, []);
 
-  // Visible at the very top, hidden while inside the hero, visible again once past it
   const hideThreshold = 20;
   const showThreshold = Math.max(heroHeight - 120, hideThreshold + 1);
-  const isScrollVisible = scrollY <= hideThreshold || scrollY >= showThreshold;
-
-  // Combine the one-time mount-in animation with the ongoing scroll-driven visibility
+  
+  const isAtTop = scrollY <= hideThreshold;
+  const isScrollVisible = isAtTop || scrollY >= showThreshold;
   const isVisible = mounted && isScrollVisible;
 
   return (
     <header
-      className={`fixed top-4 md:top-6 left-0 w-full z-50 transition-transform transition-opacity duration-500 ease-out ${
+      className={`fixed left-0 w-full z-50 transition-all duration-500 ease-out ${
+        isAtTop ? "top-4 md:top-6" : "top-0"
+      } ${
         isVisible
           ? "translate-y-0 opacity-100"
           : "-translate-y-24 opacity-0 pointer-events-none"
       }`}
     >
-      <div className="custom-container-wide">
-        <div className="relative bg-white border border-[rgba(26,26,26,0.35)] rounded-[24px]">
+      <div className={isAtTop ? "custom-container-wide" : "w-full"}>
+        <div
+          className={`relative bg-white border border-[rgba(26,26,26,0.35)] transition-all duration-500 ease-out ${
+            isAtTop
+              ? "rounded-[24px]"
+              : "rounded-none border-x-0 border-t-0 shadow-sm"
+          }`}
+        >
+          {/* Main nav row: Equalized padding to line up logo & right action directly with container edges */}
           <div className="flex items-center justify-between px-6 md:px-8 xl:px-10 py-2 md:py-3">
-            {/* Logo */}
-            <Link href="/" className="flex-shrink-0 transition-transform duration-500 ease-[cubic-bezier(0.25,0.8,0.25,1)] hover:scale-105">
+            {/* Logo: Removed extra ml-* offsets */}
+            <Link
+              href="/"
+              className="flex-shrink-0 transition-transform duration-500 ease-[cubic-bezier(0.25,0.8,0.25,1)] hover:scale-105"
+            >
               <img
                 src="/moto/optibelt/logo.png"
                 alt="Optibelt Logo"
@@ -90,9 +100,8 @@ export default function Header() {
               ))}
             </nav>
 
-            {/* Right actions */}
+            {/* Right actions: Removed extra mr-* offsets */}
             <div className="hidden xl:flex items-center gap-8 2xl:gap-10">
-              {/* TODO: purpose unspecified in Figma — wire up once behavior is confirmed */}
               <button
                 aria-label="More options"
                 className="transition-transform duration-500 ease-[cubic-bezier(0.25,0.8,0.25,1)] hover:opacity-70 hover:rotate-90"
@@ -103,9 +112,7 @@ export default function Header() {
                   className="w-7 h-7 object-contain"
                 />
               </button>
-              <Button href="#" variant="solid">
-                Contact Us
-              </Button>
+              <Button variant="solid">Contact Us</Button>
             </div>
 
             {/* Mobile menu toggle */}
@@ -132,7 +139,9 @@ export default function Header() {
 
           {/* Mobile Navigation */}
           <div
-            className={`xl:hidden absolute top-full left-0 w-full bg-white border border-[rgba(26,26,26,0.35)] rounded-[24px] mt-2 z-50 overflow-hidden transition-all duration-400 ease-[cubic-bezier(0.25,0.8,0.25,1)] ${
+            className={`xl:hidden absolute top-full left-0 w-full bg-white border border-[rgba(26,26,26,0.35)] ${
+              isAtTop ? "rounded-[24px] mt-2" : "rounded-b-[24px] border-x-0 border-t-0"
+            } z-50 overflow-hidden transition-all duration-400 ease-[cubic-bezier(0.25,0.8,0.25,1)] ${
               isMobileMenuOpen
                 ? "opacity-100 translate-y-0 max-h-[500px]"
                 : "opacity-0 -translate-y-2 max-h-0 pointer-events-none"
@@ -154,7 +163,7 @@ export default function Header() {
                 </Link>
               ))}
               <div className="pt-4">
-                <Button href="#" variant="solid" className="w-full">
+                <Button variant="solid" className="w-full">
                   Contact Us
                 </Button>
               </div>
