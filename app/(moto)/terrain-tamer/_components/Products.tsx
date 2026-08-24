@@ -137,10 +137,16 @@ const categories: Category[] = [
 const categoriesWithLabel: { label: string; products: Product[] }[] =
   categories.map((c) => ({
     label: c.label,
-    products: c.products.map((p) => ({ ...p, category: c.label })),
+    products: c.products.map((p) => ({
+      ...p,
+      category: c.label,
+    })),
   }));
 
-const tabLabels = [...categoriesWithLabel.map((c) => c.label), "View All"];
+const tabLabels = [
+  ...categoriesWithLabel.map((c) => c.label),
+  "View All",
+];
 
 export default function Products() {
   const [activeTab, setActiveTab] = useState("Bearing Kits");
@@ -151,31 +157,22 @@ export default function Products() {
       : categoriesWithLabel.find((c) => c.label === activeTab)?.products ?? [];
 
   return (
-    <section className="w-full py-12 sm:py-16 md:py-20 xl:py-24 bg-white">
-      <div className="custom-container flex flex-col gap-8 sm:gap-10 xl:gap-12">
+    <section className="w-full py-12 sm:py-16 md:py-20 xl:py-24 bg-white overflow-x-hidden overflow-y-hidden">
+      <div className="custom-container flex flex-col gap-8 sm:gap-10 xl:gap-12 overflow-x-hidden overflow-y-hidden">
+
         {/* Heading */}
         <div
-          className="flex flex-col items-center gap-3 sm:gap-4 text-center max-w-[820px] mx-auto px-2"
+          className="flex flex-col items-center gap-3 sm:gap-4 text-center max-w-[820px] mx-auto px-2 overflow-x-hidden overflow-y-hidden"
           data-aos="fade-up"
           data-aos-duration="900"
           data-aos-delay="100"
           data-aos-easing="ease-out-cubic"
         >
-          <h2
-            className="section-title font-semibold text-[#272727] leading-tight !text-2xl sm:!text-3xl md:!text-4xl xl:!text-5xl"
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="150"
-          >
+          <h2 className="section-title font-semibold text-[#272727] leading-tight !text-2xl sm:!text-3xl md:!text-4xl xl:!text-5xl">
             Explore Our 4WD Products
           </h2>
 
-          <p
-            className="section-text font-normal text-[#4B5563] !text-sm sm:!text-base lg:!text-lg"
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="300"
-          >
+          <p className="section-text font-normal text-[#4B5563] !text-sm sm:!text-base lg:!text-lg">
             Discover our expertly engineered 4WD parts, built for
             durability, reliability, and dependable performance in the
             toughest conditions.
@@ -184,17 +181,18 @@ export default function Products() {
 
         {/* Tabs */}
         <div
-          className="relative w-full flex justify-center"
+          className="relative w-full flex justify-center overflow-x-hidden overflow-y-hidden"
           data-aos="fade-up"
           data-aos-duration="900"
           data-aos-delay="400"
           data-aos-easing="ease-out-cubic"
         >
           {/* Mobile */}
-          <div className="grid grid-cols-2 gap-2.5 w-full sm:hidden">
+          <div className="grid grid-cols-2 gap-2.5 w-full sm:hidden overflow-x-hidden overflow-y-hidden">
             {tabLabels.map((label, idx) => {
               const isLastOdd =
-                idx === tabLabels.length - 1 && tabLabels.length % 2 !== 0;
+                idx === tabLabels.length - 1 &&
+                tabLabels.length % 2 !== 0;
 
               return (
                 <button
@@ -215,7 +213,7 @@ export default function Products() {
           </div>
 
           {/* Tablet & up */}
-          <div className="hidden sm:flex w-full sm:w-auto max-w-full items-center gap-8 lg:gap-12 bg-white border border-[#E4E4E4] rounded-[10px] px-14 lg:px-20 h-[56px] overflow-x-auto [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+          <div className="hidden sm:flex w-full sm:w-auto max-w-full items-center gap-8 lg:gap-12 bg-white border border-[#E4E4E4] rounded-[10px] px-14 lg:px-20 h-[56px] overflow-x-auto overflow-y-hidden [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
             {tabLabels.map((label) => (
               <button
                 key={label}
@@ -233,7 +231,7 @@ export default function Products() {
         </div>
 
         {/* Product grid */}
-        <div className="w-full grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6 sm:gap-8 xl:gap-6">
+        <div className="w-full grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6 sm:gap-8 xl:gap-6 overflow-x-hidden overflow-y-hidden">
           {activeProducts.map((product, i) => (
             <div
               key={`${activeTab}-${product.title}-${i}`}
@@ -241,10 +239,10 @@ export default function Products() {
               data-aos-duration="800"
               data-aos-delay={i * 120}
               data-aos-easing="ease-out-cubic"
-              className="group flex flex-col bg-white border border-[#E4E4E4] p-4 w-full max-w-[382px] mx-auto"
+              className="group flex flex-col bg-white border border-[#E4E4E4] p-4 w-full max-w-[382px] mx-auto overflow-x-hidden overflow-y-hidden"
             >
               {/* Inner image card */}
-              <div className="w-full max-w-[350px] h-[300px] mx-auto overflow-hidden border border-[#E4E4E4] bg-white">
+              <div className="w-full max-w-[350px] h-[300px] mx-auto overflow-x-hidden overflow-y-hidden border border-[#E4E4E4] bg-white">
                 <img
                   src={product.image}
                   alt={product.title}
@@ -259,18 +257,18 @@ export default function Products() {
               </div>
 
               {/* Content */}
-              <div className="flex flex-col items-center text-center gap-2 sm:gap-3 pt-5 sm:pt-6">
-                <h3 className="card-title font-semibold text-[#272727] leading-snug !text-sm sm:!text-base lg:!text-lg">
+              <div className="flex flex-col items-center text-center gap-2 sm:gap-3 pt-5 sm:pt-6 overflow-x-hidden overflow-y-hidden">
+                <h3 className="card-title font-semibold text-[#272727] leading-snug !text-sm sm:!text-base lg:!text-lg break-words">
                   {product.title}
                 </h3>
 
-                <p className="section-text font-normal text-[#4B5563] !text-xs sm:!text-sm lg:!text-base">
+                <p className="section-text font-normal text-[#4B5563] !text-xs sm:!text-sm lg:!text-base break-words">
                   {product.description}
                 </p>
 
                 <Link
                   href="#"
-                  className="relative link-text font-semibold text-[#272727] !text-xs sm:!text-sm mt-1"
+                  className="relative link-text font-semibold text-[#272727] !text-xs sm:!text-sm mt-1 transition-colors duration-300 hover:text-[#FECC00]"
                 >
                   View Products
 

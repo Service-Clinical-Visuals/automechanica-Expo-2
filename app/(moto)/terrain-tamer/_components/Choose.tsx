@@ -27,17 +27,11 @@ const features: Feature[] = [
 
 export default function Choose() {
   return (
-    <section className="w-full py-12 sm:py-16 md:py-20 xl:py-24 bg-white">
-      <div className="custom-container flex flex-col gap-8 sm:gap-12 xl:gap-16">
+    <section className="w-full py-12 sm:py-16 md:py-20 xl:py-24 bg-white overflow-x-hidden overflow-y-hidden">
+      <div className="custom-container flex flex-col gap-8 sm:gap-12 xl:gap-16 overflow-x-hidden overflow-y-hidden">
 
         {/* Heading */}
-        <div
-          className="flex flex-col items-center gap-3 sm:gap-4 text-center max-w-[1106px] mx-auto px-2"
-          data-aos="fade-up"
-          data-aos-duration="900"
-          data-aos-delay="100"
-          data-aos-easing="ease-out-cubic"
-        >
+        <div className="flex flex-col items-center gap-3 sm:gap-4 text-center max-w-[1106px] mx-auto px-2 overflow-x-hidden overflow-y-hidden">
           <h2
             className="section-title font-semibold text-[#272727] leading-tight"
             data-aos="fade-up"
@@ -72,18 +66,18 @@ export default function Choose() {
         />
 
         {/* Feature Cards */}
-        <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-5 sm:gap-6 lg:gap-8">
+        <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-5 sm:gap-6 lg:gap-8 overflow-x-hidden overflow-y-hidden">
           {features.map((feature, index) => (
             <div
               key={feature.title}
-              className="group flex flex-col items-center text-center gap-4 sm:gap-5 bg-white border border-[#E4E4E4] rounded-2xl p-6 sm:p-7 lg:p-8 transition-all duration-500 ease-out hover:-translate-y-2 hover:border-[#CFCFCF] hover:shadow-[0_14px_35px_rgba(0,0,0,0.08)]"
+              className="group flex flex-col items-center text-center gap-4 sm:gap-5 bg-white border border-[#E4E4E4] rounded-2xl p-6 sm:p-7 lg:p-8 transition-all duration-500 ease-out hover:-translate-y-2 hover:border-[#CFCFCF] hover:shadow-[0_14px_35px_rgba(0,0,0,0.08)] overflow-x-hidden overflow-y-hidden"
               data-aos="fade-up"
               data-aos-duration="900"
               data-aos-delay={450 + index * 150}
               data-aos-easing="ease-out-cubic"
             >
               {/* Icon + Title */}
-              <div className="flex items-center justify-center gap-2.5 flex-nowrap whitespace-nowrap w-full">
+              <div className="flex items-center justify-center gap-2.5 flex-nowrap whitespace-nowrap w-full overflow-x-hidden overflow-y-hidden">
                 <img
                   src={feature.icon}
                   alt=""

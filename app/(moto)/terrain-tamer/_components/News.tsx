@@ -1,3 +1,5 @@
+"use client";
+
 import { Calendar } from "lucide-react";
 import Link from "next/link";
 
@@ -27,51 +29,40 @@ const articles: Article[] = [
 
 export default function News() {
   return (
-    <section className="w-full py-12 sm:py-16 md:py-20 xl:py-24 bg-white">
-      <div className="custom-container flex flex-col gap-8 sm:gap-12 xl:gap-16">
+    <section className="w-full py-12 sm:py-16 md:py-20 xl:py-24 bg-white overflow-x-hidden overflow-y-hidden">
+      <div className="custom-container flex flex-col gap-8 sm:gap-12 xl:gap-16 overflow-x-hidden overflow-y-hidden">
+
         {/* Heading */}
         <div
-          className="flex flex-col items-center gap-3 sm:gap-4 text-center max-w-[614px] mx-auto px-2"
+          className="flex flex-col items-center gap-3 sm:gap-4 text-center max-w-[614px] mx-auto px-2 overflow-x-hidden overflow-y-hidden"
           data-aos="fade-up"
           data-aos-duration="900"
           data-aos-delay="100"
           data-aos-easing="ease-out-cubic"
         >
-          <h2
-            className="section-title font-semibold text-[#272727] leading-tight"
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="150"
-            data-aos-easing="ease-out-cubic"
-          >
+          <h2 className="section-title font-semibold text-[#272727] leading-tight">
             Latest News &amp; Updates
           </h2>
 
-          <p
-            className="section-text font-normal text-[#4B5563]"
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="300"
-            data-aos-easing="ease-out-cubic"
-          >
+          <p className="section-text font-normal text-[#4B5563]">
             Stay updated with the latest news, products, and innovations
             from Terrain Tamer and the 4WD industry.
           </p>
         </div>
 
         {/* Article cards */}
-        <div className="w-full grid grid-cols-1 xl:grid-cols-2 gap-5 sm:gap-6 xl:gap-8 2xl:gap-10">
+        <div className="w-full grid grid-cols-1 xl:grid-cols-2 gap-5 sm:gap-6 xl:gap-8 2xl:gap-10 overflow-x-hidden overflow-y-hidden">
           {articles.map((article, index) => (
             <div
               key={article.title}
-              className="group flex flex-col md:flex-row gap-4 sm:gap-5 bg-white border border-[#E4E4E4] shadow-[0px_3px_8px_rgba(0,0,0,0.24)] rounded-[5px] p-4 sm:p-5"
+              className="group flex flex-col md:flex-row gap-4 sm:gap-5 bg-white border border-[#E4E4E4] shadow-[0px_3px_8px_rgba(0,0,0,0.24)] rounded-[5px] p-4 sm:p-5 overflow-x-hidden overflow-y-hidden"
               data-aos="fade-up"
               data-aos-duration="900"
               data-aos-delay={450 + index * 180}
               data-aos-easing="ease-out-cubic"
             >
               {/* Image */}
-              <div className="w-full md:w-[220px] lg:w-[260px] xl:w-[220px] 2xl:w-[300px] flex-shrink-0 aspect-[350/318] rounded-[5px] overflow-hidden">
+              <div className="w-full md:w-[220px] lg:w-[260px] xl:w-[220px] 2xl:w-[300px] flex-shrink-0 aspect-[350/318] rounded-[5px] overflow-x-hidden overflow-y-hidden">
                 <img
                   src={article.image}
                   alt={article.title}
@@ -80,34 +71,35 @@ export default function News() {
               </div>
 
               {/* Content */}
-              <div className="flex flex-col justify-center gap-2.5 sm:gap-3 min-w-0">
+              <div className="flex flex-col justify-center gap-2.5 sm:gap-3 min-w-0 overflow-x-hidden overflow-y-hidden">
+
                 {/* Date */}
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2 min-w-0">
                   <Calendar
                     size={20}
                     className="flex-shrink-0"
                     color="#FECC00"
                   />
 
-                  <span className="section-text font-normal text-[#FECC00]">
+                  <span className="section-text font-normal text-[#FECC00] truncate">
                     {article.date}
                   </span>
                 </div>
 
                 {/* Title */}
-                <h3 className="card-title font-semibold text-[#272727] leading-snug">
+                <h3 className="card-title font-semibold text-[#272727] leading-snug break-words">
                   {article.title}
                 </h3>
 
                 {/* Description */}
-                <p className="section-text font-normal text-[#4B5563]">
+                <p className="section-text font-normal text-[#4B5563] break-words">
                   {article.description}
                 </p>
 
                 {/* Read More */}
                 <Link
                   href="#"
-                  className="link-text font-semibold text-[#272727] underline w-fit"
+                  className="link-text font-semibold text-[#272727] underline w-fit transition-colors duration-300 hover:text-[#FECC00]"
                 >
                   Read More
                 </Link>
@@ -115,6 +107,7 @@ export default function News() {
             </div>
           ))}
         </div>
+
       </div>
     </section>
   );
