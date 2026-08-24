@@ -10,7 +10,7 @@ const AboutUs = () => {
 
       <Container className="relative z-10">
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 2xl:gap-20 4xl:gap-32 items-center">
+        <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 md:gap-12  4xl:gap-20 items-center">
 
           {/* Left Column */}
           <div data-aos="fade-right" className="flex flex-col h-full">
@@ -27,7 +27,7 @@ const AboutUs = () => {
               research, and rigorous testing to develop dependable products that
               support cleaner operation and consistent performance.
             </p>
-            <p className="section-text font-rubik font-normal text-[#666666] mb-10 2xl:mb-16 4xl:mb-24 leading-relaxed">
+            <p className="section-text font-rubik font-normal text-[#4B5563] mb-10 2xl:mb-16 4xl:mb-24 leading-relaxed">
 
               Our solutions improve efficiency, reduce downtime, protect
               critical components, and deliver reliable performance across
@@ -51,7 +51,7 @@ const AboutUs = () => {
                 className="w-full h-full object-cover rounded-md relative z-0"
               />
             </div>
-            <p className="section-text font-rubik font-normal text-[#666666] mb-6 2xl:mb-10 4xl:mb-16 leading-relaxed">
+            <p className="section-text font-rubik font-normal text-[#4B5563] mb-6 2xl:mb-10 4xl:mb-16 leading-relaxed">
 
               With a strong focus on quality, innovation, and advanced
               filtration science, Fleetguard provides reliable products and

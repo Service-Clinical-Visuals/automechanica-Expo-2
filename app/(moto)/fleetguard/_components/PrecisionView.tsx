@@ -33,7 +33,7 @@ export default function PrecisionView() {
           </p>
         </div>
         <div
-          className="relative aspect-video w-full h-full max-w-7xl mx-auto rounded-3xl overflow-hidden shadow-2xl"
+          className="relative aspect-video w-full h-full xl:max-w-[70%] mx-auto rounded-3xl overflow-hidden shadow-2xl"
           data-aos="fade-up"
           data-aos-delay="200"
         >
