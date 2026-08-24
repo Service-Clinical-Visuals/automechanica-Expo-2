@@ -34,9 +34,21 @@
   }
 }
 
-section {
-  overflow-x: hidden !important;
-}
+/* NOTE:
+   Removed the global `section { overflow-x: hidden !important; overflow-y: hidden !important; }`
+   rule that was previously declared here (twice). It was a blanket band-aid that:
+     1) did not actually fix the Product Showcase scroll bug (Swiper's translated
+        slide track lives inside the section, so clipping the section's own box
+        doesn't stop child elements from overflowing the viewport upstream), and
+     2) forced overflow:hidden on the Y axis for every section site-wide, which can
+        silently clip hover states (-translate-y-2 card lifts) and AOS animations
+        (data-aos="zoom-in", fade-up, etc.) in other components without warning.
+
+   Fix now applied locally: the Swiper carousel in ProductShowcase.jsx is wrapped
+   in its own `w-full max-w-full overflow-hidden` div, and the Swiper instance uses
+   watchOverflow / observer / observeParents so it correctly measures and clips its
+   own slide track instead of relying on this global rule.
+*/
 
 /* ---------------------------------------------
    Container

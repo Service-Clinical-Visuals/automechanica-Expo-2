@@ -120,7 +120,7 @@ export default function AboutUs() {
 
             {/* Button */}
             <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
-              <Button text="Learn More About Us" href="/company" />
+              <Button text="Learn More About Us" />
             </div>
           </div>
         </div>
