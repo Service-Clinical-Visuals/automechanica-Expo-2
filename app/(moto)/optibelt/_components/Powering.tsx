@@ -19,8 +19,7 @@ const features: Feature[] = [
   },
   {
     title: "Reliable Performance",
-    description:
-      "Delivers consistent power transmission and long-lasting reliability.",
+    description: "Delivers consistent power transmission and long-lasting reliability.",
   },
 ];
 
@@ -41,7 +40,6 @@ export default function Powering() {
               </h2>
               <span className="accent-underline" />
             </div>
-
             <p
               className="section-text font-normal max-w-[1337px] min-[3840px]:max-w-[1750px] text-[#484848]"
               data-aos="fade-up"
@@ -62,15 +60,15 @@ export default function Powering() {
 
           {/* Video + content */}
           <div className="flex flex-col xl:flex-row xl:items-center gap-10 xl:gap-12">
-            {/* Video */}
+            {/* Video container */}
             <div
-              className="group relative w-full xl:flex-[1.42] aspect-[1065.65/570.06] rounded-2xl overflow-hidden bg-[#E6E6E6]"
+              className="relative w-full xl:flex-[1.42] aspect-[1065.65/570.06] rounded-2xl overflow-hidden bg-[#E6E6E6]"
               data-aos="zoom-in"
               data-aos-duration="900"
             >
               <DynamicVideoPlayer
                 type="short-1"
-                className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-[cubic-bezier(0.25,0.8,0.25,1)] group-hover:scale-105"
+                className="absolute inset-0 w-full h-full object-cover"
               />
             </div>
 
@@ -87,13 +85,12 @@ export default function Powering() {
 
               <div className="flex flex-col gap-4 min-[1200px]:max-[1500px]:!gap-1.5">
                 <p className="section-text font-normal text-[#484848] min-[750px]:max-[1950px]:text-xs min-[1200px]:max-[1500px]:!text-[10px] min-[1200px]:max-[1500px]:!leading-snug">
-                  Optibelt automotive timing belts are engineered for precise
-                  synchronization, reliable power transmission, and smooth
-                  engine performance. Designed with advanced materials and
-                  precision profiles, they deliver dependable operation under
-                  demanding automotive conditions.
+                  Optibelt automotive timing belts are engineered for
+                  precise synchronization, reliable power transmission, and
+                  smooth engine performance. Designed with advanced
+                  materials and precision profiles, they deliver dependable
+                  operation under demanding automotive conditions.
                 </p>
-
                 <p className="section-text font-normal text-[#484848] min-[750px]:max-[1950px]:text-xs min-[1200px]:max-[1500px]:!text-[10px] min-[1200px]:max-[1500px]:!leading-snug">
                   From everyday vehicles to high-performance applications,
                   Optibelt combines decades of belt-drive expertise with
@@ -110,13 +107,13 @@ export default function Powering() {
                     data-aos-duration="600"
                     data-aos-delay={300 + index * 120}
                   >
+                    {/* Aperture icon size slightly increased */}
                     <Aperture
-                      className="flex-shrink-0 mt-0.5 min-[750px]:max-[1950px]:w-[18px] min-[750px]:max-[1950px]:h-[18px] min-[1200px]:max-[1500px]:!w-[14px] min-[1200px]:max-[1500px]:!h-[14px]"
-                      size={24}
+                      className="flex-shrink-0 mt-0.5 min-[750px]:max-[1950px]:w-[26px] min-[750px]:max-[1950px]:h-[26px] min-[1200px]:max-[1500px]:!w-[21px] min-[1200px]:max-[1500px]:!h-[21px]"
+                      size={34}
                       color="#00355B"
                       strokeWidth={2}
                     />
-
                     <p className="feature-text text-[#484848] min-[750px]:max-[1950px]:text-xs min-[1200px]:max-[1500px]:!text-[10px] min-[1200px]:max-[1500px]:!leading-snug">
                       <span className="font-semibold">{feature.title}</span> —{" "}
                       {feature.description}

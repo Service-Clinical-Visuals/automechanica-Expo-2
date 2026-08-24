@@ -39,9 +39,9 @@ export default function Footer() {
           data-aos-duration="700"
         >
           <div className="flex flex-col xl:flex-row xl:items-start xl:justify-between gap-10 min-[2000px]:grid min-[2000px]:grid-cols-4 min-[2000px]:gap-x-16">
-            {/* Logo + tagline + socials */}
+            {/* Logo + tagline + socials — nudged slightly right */}
             <div
-              className="flex flex-col gap-6"
+              className="flex flex-col gap-6 xl:ml-8"
               data-aos="fade-up"
               data-aos-duration="700"
               data-aos-delay="100"
