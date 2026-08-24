@@ -20,15 +20,15 @@ export default function Quality2() {
       ></div>
       <Container className="relative z-10">
 
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 2xl:gap-16 4xl:gap-24 items-center">
+        <div className="grid grid-cols-1 xl:grid-cols-12 gap-10 2xl:gap-16 4xl:gap-24 items-center">
 
           {/* Left: Text content */}
-          <div data-aos="fade-right" className="lg:col-span-6 order-2 lg:order-1">
+          <div data-aos="fade-right" className="xl:col-span-6 order-2 xl:order-1">
 
-            <h2 className="section-title font-oswald font-semibold mb-6 2xl:mb-10 4xl:mb-16 font-semibold text-white">
+            <h2 className="section-title font-oswald font-semibold mb-6 4xl:mb-12 font-semibold text-white">
               Quality Products for Uninterrupted Power
             </h2>
-            <div className="flex flex-col gap-6 2xl:gap-10 4xl:gap-16 mb-6 2xl:mb-12 4xl:mb-20">
+            <div className="flex flex-col gap-6 4xl:gap-16 mb-6  4xl:mb-20">
 
               <p className="section-text font-rubik font-normal text-white leading-relaxed">
 
@@ -63,7 +63,7 @@ export default function Quality2() {
           </div>
           {/* Right: Video Placeholder */}
           <div
-            className="lg:col-span-6 relative w-full h-full aspect-video overflow-hidden rounded-xl order-1 lg:order-2 shadow-2xl"
+            className="xl:col-span-6 relative w-full h-full aspect-video overflow-hidden rounded-xl order-1 xl:order-2 shadow-2xl"
             data-aos="fade-left"
           >
             <DynamicVideoPlayer type="short-2" className="w-full h-full aspect-video" />
