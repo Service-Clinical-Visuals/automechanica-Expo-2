@@ -12,11 +12,12 @@ export default function Banner() {
         data-aos-duration="1000"
         className="absolute inset-0 w-full h-full bg-[#05051a]"
       >
-        <DynamicVideoPlayer
-          type="banner"
-          className="w-full h-full object-cover object-center pointer-events-none"
-        />
-
+        <div className="absolute inset-0 w-full h-full">
+          <DynamicVideoPlayer
+            type="banner"
+            className="w-full h-full object-cover object-center pointer-events-none"
+          />
+        </div>
       </div>
 
       {/* Hero Content Area */}

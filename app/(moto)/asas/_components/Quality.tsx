@@ -48,10 +48,12 @@ export default function Quality() {
           data-aos-delay="200"
           className="w-full aspect-video rounded-2xl overflow-hidden bg-gray-800 shadow-xl"
         >
-          <DynamicVideoPlayer
-            type="short-2"
-            className="w-full h-full object-cover aspect-video"
-          />
+          <div className="w-full h-full">
+            <DynamicVideoPlayer
+              type="short-2"
+              className="w-full h-full object-cover aspect-video"
+            />
+          </div>
         </div>
       </div>
     </section>

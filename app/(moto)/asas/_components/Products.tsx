@@ -65,6 +65,7 @@ export default function Products() {
                   src={cat.image}
                   alt={cat.name}
                   fill
+                  sizes="(max-width: 640px) 100vw, (max-width: 1280px) 50vw, 25vw"
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                 />
               </div>

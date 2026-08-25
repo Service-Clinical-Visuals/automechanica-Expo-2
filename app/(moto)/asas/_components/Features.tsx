@@ -55,10 +55,12 @@ export default function Features() {
             data-aos-delay="200"
             className="w-full aspect-video rounded-2xl overflow-hidden bg-gray-900 shadow-lg"
           >
-            <DynamicVideoPlayer
-              type="short-1"
-              className="w-full h-full object-cover aspect-video"
-            />
+            <div className="w-full h-full">
+              <DynamicVideoPlayer
+                type="short-1"
+                className="w-full h-full object-cover aspect-video"
+              />
+            </div>
           </div>
 
           {/* Right Side: Features Content */}

@@ -37,10 +37,12 @@ export default function Experience() {
           data-aos-delay="300"
           className="w-full max-w-[1100px] aspect-video rounded-2xl overflow-hidden bg-gray-900 shadow-xl"
         >
-          <DynamicVideoPlayer
-            type="360"
-            className="w-full h-full object-cover aspect-video"
-          />
+          <div className="w-full h-full">
+            <DynamicVideoPlayer
+              type="360"
+              className="w-full h-full object-cover aspect-video"
+            />
+          </div>
         </div>
 
       </div>
