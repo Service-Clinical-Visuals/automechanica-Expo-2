@@ -19,7 +19,7 @@ export default function Available() {
             data-aos-duration="800"
             className="flex flex-col items-center text-center w-full xl:hidden"
           >
-            <span className="font-bold text-xs sm:text-sm text-accent uppercase tracking-wider mb-3 sm:mb-[15px]">
+            <span className="font-bold text-xs sm:text-sm text-accent tracking-wider mb-3 sm:mb-[15px]">
               Integrated Product Spectrum
             </span>
 
@@ -51,7 +51,7 @@ export default function Available() {
               data-aos-delay="100"
               className="hidden xl:flex flex-col"
             >
-              <span className="font-bold text-xs sm:text-sm text-accent uppercase tracking-wider mb-3 sm:mb-[15px]">
+              <span className="font-bold text-xs sm:text-sm text-accent tracking-wider mb-3 sm:mb-[15px]">
                 Integrated Product Spectrum
               </span>
 

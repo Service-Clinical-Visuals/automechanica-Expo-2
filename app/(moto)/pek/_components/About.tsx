@@ -8,14 +8,14 @@ export default function About() {
     <section id="about" className="relative w-full py-16 xl:py-20 2xl:py-[100px] bg-white overflow-hidden">
       <div className="custom-container px-4 sm:px-6 md:px-8">
         <div className="flex flex-col xl:flex-row gap-8 xl:gap-10 2xl:gap-[36px] items-center justify-between">
-          
+
           {/* Header Block (Displays FIRST on mobile/tablet, CENTERED) */}
-          <div 
+          <div
             data-aos="fade-down"
             data-aos-duration="800"
             className="flex flex-col items-center text-center w-full xl:hidden"
           >
-            <span className="font-bold text-xs sm:text-sm text-accent uppercase tracking-wide mb-3 sm:mb-[15px]">
+            <span className="font-bold text-xs sm:text-sm text-accent tracking-wide mb-3 sm:mb-[15px]">
               About Pek Teknik Makina
             </span>
 
@@ -25,30 +25,30 @@ export default function About() {
           </div>
 
           {/* Facility Image Container with AOS & Hover Effects (CENTERED on mobile/tablet) */}
-          <div 
+          <div
             data-aos="fade-right"
             data-aos-duration="1000"
             data-aos-delay="200"
             className="group relative w-full xl:w-1/2 aspect-[4/3] min-h-[300px] sm:min-h-[400px] xl:min-h-[480px] 2xl:min-h-[594px] rounded-[10px] overflow-hidden shadow-md flex-shrink-0 mx-auto"
           >
-            <img 
-              src="/moto/pek/about.png" 
-              alt="PEK Technic Facility" 
+            <img
+              src="/moto/pek/about.png"
+              alt="PEK Technic Facility"
               className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
             />
           </div>
 
           {/* Text Content Block (Displays THIRD on mobile/tablet, LEFT-aligned paragraphs) */}
           <div className="flex flex-col items-start text-left w-full xl:w-1/2 max-w-none">
-            
+
             {/* Header Block (Displays ONLY on desktop, LEFT-aligned) */}
-            <div 
+            <div
               data-aos="fade-left"
               data-aos-duration="800"
               data-aos-delay="100"
               className="hidden xl:flex flex-col"
             >
-              <span className="font-bold text-xs sm:text-sm text-accent uppercase tracking-wide mb-3 sm:mb-[15px]">
+              <span className="font-bold text-xs sm:text-sm text-accent tracking-wide mb-3 sm:mb-[15px]">
                 About Pek Teknik Makina
               </span>
 
@@ -58,7 +58,7 @@ export default function About() {
             </div>
 
             {/* Paragraph 1 */}
-            <p 
+            <p
               data-aos="fade-left"
               data-aos-duration="800"
               data-aos-delay="300"
@@ -68,7 +68,7 @@ export default function About() {
             </p>
 
             {/* Paragraph 2 */}
-            <p 
+            <p
               data-aos="fade-left"
               data-aos-duration="800"
               data-aos-delay="400"
@@ -78,7 +78,7 @@ export default function About() {
             </p>
 
             {/* Paragraph 3 */}
-            <p 
+            <p
               data-aos="fade-left"
               data-aos-duration="800"
               data-aos-delay="500"
@@ -88,7 +88,7 @@ export default function About() {
             </p>
 
             {/* Button Container */}
-            <div 
+            <div
               data-aos="fade-up"
               data-aos-duration="800"
               data-aos-delay="600"

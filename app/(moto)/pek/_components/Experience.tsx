@@ -37,7 +37,7 @@ export default function Experience() {
         <span 
           data-aos="fade-down"
           data-aos-duration="600"
-          className="font-space-grotesk font-bold text-xs sm:text-sm leading-[18px] text-white uppercase tracking-wider mb-3 sm:mb-[15px] text-center"
+          className="font-space-grotesk font-bold text-xs sm:text-sm leading-[18px] text-white tracking-wider mb-3 sm:mb-[15px] text-center"
         >
           Timing Control Components
         </span>
