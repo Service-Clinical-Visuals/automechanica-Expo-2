@@ -127,14 +127,14 @@ section {
 }
 @media (min-width: 3800px) {
   .custom-container { max-width: 90%; }
-.header-link { font-size: 24px; }
-  .search-links { font-size: 22px; }
-  .language-links { font-size: 26px; }
-  .btn-text { font-size: 22px; }
-  .banner-title { font-size: 38px; }  
-  .section-title { font-size: 36px; }
-  .section-text { font-size: 24px; }
-  .number-title { font-size: 44px; }
-  .card-title { font-size: 28px; }
-  .news-text { font-size: 32px;}
+.header-link { font-size: 26px; }
+  .search-links { font-size: 24px; }
+  .language-links { font-size: 28px; }
+  .btn-text { font-size: 24px; }
+  .banner-title { font-size: 40px; }  
+  .section-title { font-size: 38px; }
+  .section-text { font-size: 26px; }
+  .number-title { font-size: 46px; }
+  .card-title { font-size: 30px; }
+  .news-text { font-size: 34px;}
 }

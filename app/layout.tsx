@@ -10,6 +10,10 @@ export const metadata: Metadata = {
 };
 
 import AOSProvider from "./_components/AOSProvider";
+import { Exo_2, Inter } from "next/font/google";
+
+const exo2 = Exo_2({ subsets: ["latin"], variable: "--font-exo2" });
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 //Root layout
 export default function RootLayout({
@@ -19,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body suppressHydrationWarning>
+      <body suppressHydrationWarning className={`${exo2.variable} ${inter.variable}`}>
         <AOSProvider>
           {children}
         </AOSProvider>

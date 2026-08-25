@@ -34,7 +34,7 @@ export default function Footer() {
               alt="MKT Holdings"
               width={180}
               height={64}
-              className="h-14 md:h-16 w-auto mb-6"
+              className="h-14 md:h-17 w-auto mb-6"
             />
 
             <p className="body-text font-body font-normal text-body leading-relaxed">
