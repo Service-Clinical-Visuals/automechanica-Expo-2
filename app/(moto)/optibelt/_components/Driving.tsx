@@ -71,7 +71,7 @@ export default function Driving() {
 
         {/* CTA */}
         <div data-aos="fade-up" data-aos-duration="700" data-aos-delay="450">
-          <Button href="#" variant="primary">
+          <Button variant="primary">
             View All Products
           </Button>
         </div>

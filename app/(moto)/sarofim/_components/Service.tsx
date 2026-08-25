@@ -77,7 +77,7 @@ export default function Service() {
                       <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-white text-[#0D0D0D]">
                         <Check size={14} strokeWidth={3} />
                       </span>
-                      <h3 className="heading-white text-xl!">{service.title}</h3>
+                      <h3 className="heading-white text-[22px]! font-semibold!">{service.title}</h3>
                     </div>
                     <p className="content-white pl-9">{service.description}</p>
                   </div>

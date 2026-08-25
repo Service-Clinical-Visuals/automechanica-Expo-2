@@ -4,10 +4,10 @@ import DynamicVideoPlayer from "../../../_components/DynamicVideoPlayer";
 
 export default function Experience() {
   return (
-    <section className="relative w-full py-16 md:py-20 xl:py-24 bg-[#1C1C1C] overflow-hidden">
+    <section className="relative w-full py-16 md:py-20 xl:py-24 bg-[#1C1C1C] overflow-x-hidden overflow-y-hidden">
       {/* Background image */}
       <div
-        className="absolute inset-0"
+        className="absolute inset-0 overflow-x-hidden overflow-y-hidden"
         data-aos="fade-in"
         data-aos-duration="1500"
         data-aos-offset="0"
@@ -22,15 +22,9 @@ export default function Experience() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 custom-container flex flex-col items-center gap-12 xl:gap-16">
+      <div className="relative z-10 custom-container flex flex-col items-center gap-12 xl:gap-16 overflow-x-hidden overflow-y-hidden">
         {/* Heading */}
-        <div
-          className="flex flex-col items-center gap-4 text-center max-w-[900px]"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-delay="150"
-          data-aos-easing="ease-out-cubic"
-        >
+        <div className="flex flex-col items-center gap-4 text-center max-w-[900px] overflow-x-hidden overflow-y-hidden">
           <h2
             className="section-title font-semibold text-white leading-tight"
             data-aos="fade-up"
@@ -57,7 +51,7 @@ export default function Experience() {
 
         {/* 360 Video */}
         <div
-          className="relative w-full max-w-[1200px] aspect-video rounded-[42px] overflow-hidden bg-[#0d0d0d] group"
+          className="relative w-full max-w-[1200px] aspect-video rounded-[42px] overflow-x-hidden overflow-y-hidden bg-[#0d0d0d] group"
           data-aos="zoom-in"
           data-aos-duration="1200"
           data-aos-delay="550"

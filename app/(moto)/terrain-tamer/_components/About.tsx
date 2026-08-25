@@ -2,13 +2,13 @@ import Button from "./Button";
 
 export default function About() {
   return (
-    <section className="w-full py-16 md:py-20 xl:py-24 bg-white">
-      <div className="custom-container">
-        <div className="grid grid-cols-1 xl:grid-cols-2 gap-6 xl:gap-10 xl:items-center">
+    <section className="w-full py-16 md:py-20 xl:py-24 bg-white overflow-x-hidden overflow-y-hidden">
+      <div className="custom-container overflow-x-hidden overflow-y-hidden">
+        <div className="grid grid-cols-1 xl:grid-cols-2 gap-6 xl:gap-10 xl:items-center overflow-x-hidden overflow-y-hidden">
 
           {/* Left Image */}
           <div
-            className="order-2 xl:order-1 relative w-full aspect-[820/700] rounded-2xl overflow-hidden group"
+            className="order-2 xl:order-1 relative w-full aspect-[820/700] rounded-2xl overflow-x-hidden overflow-y-hidden group"
             data-aos="fade-right"
             data-aos-duration="1000"
             data-aos-delay="100"
@@ -25,9 +25,8 @@ export default function About() {
           </div>
 
           {/* Right Content */}
-          <div
-            className="order-1 xl:order-2 flex flex-col justify-center"
-          >
+          <div className="order-1 xl:order-2 flex flex-col justify-center overflow-x-hidden overflow-y-hidden">
+
             {/* Heading */}
             <h2
               className="section-title font-semibold text-[#272727] leading-tight mb-0 [@media(min-width:1280px)_and_(max-width:1499px)]:!text-xl"
@@ -40,7 +39,7 @@ export default function About() {
             </h2>
 
             {/* Paragraphs */}
-            <div className="flex flex-col gap-5 mt-5">
+            <div className="flex flex-col gap-5 mt-5 overflow-x-hidden overflow-y-hidden">
               <p
                 className="section-text font-normal text-[#4B5563] [@media(min-width:1280px)_and_(max-width:1499px)]:!text-xs"
                 data-aos="fade-left"
@@ -105,14 +104,14 @@ export default function About() {
 
             {/* Button */}
             <div
-              className="mt-5"
+              className="mt-5 overflow-x-hidden overflow-y-hidden"
               data-aos="fade-up"
               data-aos-duration="800"
               data-aos-delay="700"
               data-aos-easing="ease-out-cubic"
             >
               <div className="transition-transform duration-300 hover:-translate-y-1">
-                <Button >Know About Us</Button>
+                <Button>Know About Us</Button>
               </div>
             </div>
           </div>

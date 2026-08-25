@@ -16,12 +16,11 @@ export default function Premium() {
           >
             <div>
               <h2
-                className="text-white font-bold text-[28px] md:text-[32px]"
-                style={{ fontFamily: "var(--font-exo2)" }}
+                className="heading-white"
               >
                 360° Engine Oil Experience
               </h2>
-              <p className="text-white/70 text-[15px] leading-[22px] max-w-[760px] mt-4">
+              <p className="content-white leading-[22px] max-w-[760px] mt-4">
                 Discover Sarofim GmbH Engine Oils through an immersive 360° product experience.
                 Explore the packaging, design, labeling, and key details from every angle while
                 discovering the quality and engineering behind our lubricant solutions.

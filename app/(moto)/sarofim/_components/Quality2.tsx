@@ -30,8 +30,7 @@ export default function Quality2() {
           {/* Heading */}
           <div className="text-center" data-aos="fade-up">
             <h2
-              className="text-white font-bold text-[28px] md:text-[32px]"
-              style={{ fontFamily: "var(--font-exo2)" }}
+              className="heading-white"
             >
               Engineered For Reliable Performance
             </h2>
@@ -59,7 +58,7 @@ export default function Quality2() {
 
             {/* Right: content */}
             <div data-aos="fade-left" data-aos-delay="150">
-              <h3 className="heading-white font-bold text-2xl!">Key Features</h3>
+              <h3 className="heading-white font-bold text-[32px]!">Key Features</h3>
               <hr className="border-t border-white/15 mt-4 mb-5" />
 
               <p className="content-white mb-6">
@@ -69,8 +68,8 @@ export default function Quality2() {
 
               <ul className="flex flex-col gap-5 mb-6">
                 {features.map((feature) => (
-                  <li key={feature.title} className="flex items-start gap-3">
-                    <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-white text-[#0D0D0D] mt-0.5">
+                  <li key={feature.title} className="flex gap-3">
+                    <span className="flex h-4 w-4 shrink-0 mt-1 items-center justify-center rounded-full bg-white text-[#0D0D0D] mt-0.5">
                       <Check size={14} strokeWidth={3} />
                     </span>
                     <span className="content-white text-[15px] leading-[24px]">

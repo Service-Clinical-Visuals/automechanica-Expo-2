@@ -1,12 +1,10 @@
 "use client";
 
 import React from "react";
-import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 interface ButtonProps {
   text: string;
-  href?: string;
   onClick?: () => void;
   className?: string;
   type?: "button" | "submit";
@@ -14,7 +12,6 @@ interface ButtonProps {
 
 export default function Button({
   text,
-  href,
   onClick,
   className = "",
   type = "button",
@@ -32,16 +29,8 @@ export default function Button({
     </span>
   );
 
-  if (href) {
-    return (
-      <Link href={href} className="inline-block -translate-x-3 transition-transform duration-300 hover:translate-x-[-12px]">
-        {content}
-      </Link>
-    );
-  }
-
   return (
-    <button type={type} onClick={onClick} className="inline-block -translate-x-3 transition-transform duration-300 hover:translate-x-[-12px]">
+    <button type={type} onClick={onClick} className="inline-block -translate-x-3 transition-transform duration-300 hover:translate-x-[-12px] bg-transparent border-none cursor-pointer">
       {content}
     </button>
   );

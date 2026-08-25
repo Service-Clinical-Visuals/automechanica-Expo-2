@@ -2,8 +2,8 @@
 
 import React from "react";
 import { Check } from "lucide-react";
-import DynamicVideoPlayer from "../../../_components/DynamicVideoPlayer";
 import Button from "./Button";
+import DynamicVideoPlayer from "../../../_components/DynamicVideoPlayer";
 
 const features = [
   "High-Precision Measurement – Accurate balancing results for improved wheel stability and driving comfort.",
@@ -60,6 +60,7 @@ export default function WheelBalancing() {
           </p>
 
           <ul className="space-y-6 mb-6">
+
             {features.map((feature, index) => {
               const [title, description] = feature.split(" – ");
 
@@ -71,6 +72,7 @@ export default function WheelBalancing() {
                   data-aos-duration="800"
                   data-aos-delay={250 + index * 120}
                 >
+
                   <span className="relative flex-shrink-0 w-8 h-8 rounded-full bg-white flex items-center justify-center transition-all duration-300 group-hover:bg-primary group-hover:scale-110">
                     <Check
                       className="w-4 h-4 text-[#2A2A2A] transition-colors duration-300 group-hover:text-black"
@@ -83,9 +85,11 @@ export default function WheelBalancing() {
                     {" – "}
                     {description}
                   </span>
+
                 </li>
               );
             })}
+
           </ul>
 
           <div
@@ -113,9 +117,10 @@ export default function WheelBalancing() {
           >
             <Button
               text="Explore Wheel Balancers"
-              href="/products/wheel-balancers"
+             
             />
           </div>
+
         </div>
       </div>
     </section>

@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 
 interface LinkColumn {
@@ -39,8 +41,8 @@ const socials = [
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-[#1C1C1C] pt-14 xl:pt-16">
-      <div className="custom-container">
+    <footer className="w-full bg-[#1C1C1C] pt-14 xl:pt-16 overflow-x-hidden overflow-y-hidden">
+      <div className="custom-container overflow-x-hidden overflow-y-hidden">
         <div
           className="
             flex flex-col gap-12
@@ -48,7 +50,13 @@ export default function Footer() {
             [@media(min-width:700px)_and_(max-width:1499px)]:grid-cols-3
             [@media(min-width:700px)_and_(max-width:1499px)]:gap-x-8
             [@media(min-width:700px)_and_(max-width:1499px)]:gap-y-12
-            min-[1500px]:flex min-[1500px]:flex-row min-[1500px]:justify-between min-[1500px]:items-start min-[1500px]:gap-0
+            min-[1500px]:flex
+            min-[1500px]:flex-row
+            min-[1500px]:justify-between
+            min-[1500px]:items-start
+            min-[1500px]:gap-0
+            overflow-x-hidden
+            overflow-y-hidden
           "
         >
           {/* Logo + description + socials */}
@@ -56,7 +64,11 @@ export default function Footer() {
             className="
               flex flex-col gap-6 w-full
               [@media(min-width:700px)_and_(max-width:1499px)]:col-span-3
-              min-[1500px]:w-[333px] min-[1500px]:flex-shrink-0 min-[1500px]:self-center
+              min-[1500px]:w-[333px]
+              min-[1500px]:flex-shrink-0
+              min-[1500px]:self-center
+              overflow-x-hidden
+              overflow-y-hidden
             "
             data-aos="fade-up"
             data-aos-duration="900"
@@ -81,13 +93,7 @@ export default function Footer() {
             </p>
 
             {/* Socials */}
-            <div
-              className="flex items-center gap-4"
-              data-aos="fade-up"
-              data-aos-duration="700"
-              data-aos-delay="250"
-              data-aos-easing="ease-out-cubic"
-            >
+            <div className="flex items-center gap-4 overflow-x-hidden overflow-y-hidden">
               {socials.map((social, index) => (
                 <Link
                   key={social.label}
@@ -110,10 +116,16 @@ export default function Footer() {
           </div>
 
           {/* Links + Terrain Tamer 4X4 Parts */}
-          <div className="grid grid-cols-2 gap-x-6 gap-y-12 w-full min-[700px]:contents">
+          <div className="grid grid-cols-2 gap-x-6 gap-y-12 w-full min-[700px]:contents overflow-x-hidden overflow-y-hidden">
             {/* Links */}
             <div
-              className="flex flex-col gap-5 w-full min-[1500px]:w-[150px] min-[1500px]:flex-shrink-0"
+              className="
+                flex flex-col gap-5 w-full
+                min-[1500px]:w-[150px]
+                min-[1500px]:flex-shrink-0
+                overflow-x-hidden
+                overflow-y-hidden
+              "
               data-aos="fade-up"
               data-aos-duration="900"
               data-aos-delay="250"
@@ -123,7 +135,7 @@ export default function Footer() {
                 {linksColumn.heading}
               </h4>
 
-              <ul className="flex flex-col gap-3.5">
+              <ul className="flex flex-col gap-3.5 overflow-x-hidden overflow-y-hidden">
                 {linksColumn.links.map((link, index) => (
                   <li
                     key={link}
@@ -145,7 +157,13 @@ export default function Footer() {
 
             {/* Terrain Tamer 4X4 Parts */}
             <div
-              className="flex flex-col gap-5 w-full min-[1500px]:w-[191px] min-[1500px]:flex-shrink-0"
+              className="
+                flex flex-col gap-5 w-full
+                min-[1500px]:w-[191px]
+                min-[1500px]:flex-shrink-0
+                overflow-x-hidden
+                overflow-y-hidden
+              "
               data-aos="fade-up"
               data-aos-duration="900"
               data-aos-delay="350"
@@ -155,7 +173,7 @@ export default function Footer() {
                 {partsColumn.heading}
               </h4>
 
-              <ul className="flex flex-col gap-3.5">
+              <ul className="flex flex-col gap-3.5 overflow-x-hidden overflow-y-hidden">
                 {partsColumn.links.map((link, index) => (
                   <li
                     key={link}
@@ -178,7 +196,13 @@ export default function Footer() {
 
           {/* Contact */}
           <div
-            className="flex flex-col gap-5 w-full min-[1500px]:w-[291px] min-[1500px]:flex-shrink-0"
+            className="
+              flex flex-col gap-5 w-full
+              min-[1500px]:w-[291px]
+              min-[1500px]:flex-shrink-0
+              overflow-x-hidden
+              overflow-y-hidden
+            "
             data-aos="fade-up"
             data-aos-duration="900"
             data-aos-delay="450"
@@ -188,7 +212,7 @@ export default function Footer() {
               Contact
             </h4>
 
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-4 overflow-x-hidden overflow-y-hidden">
               {/* Phone */}
               <div
                 className="flex items-center gap-3 group"
@@ -254,7 +278,10 @@ export default function Footer() {
             className="
               flex flex-col gap-5 w-full
               [@media(min-width:700px)_and_(max-width:1499px)]:col-span-3
-              min-[1500px]:w-[388px] min-[1500px]:flex-shrink-0
+              min-[1500px]:w-[388px]
+              min-[1500px]:flex-shrink-0
+              overflow-x-hidden
+              overflow-y-hidden
             "
             data-aos="fade-up"
             data-aos-duration="900"
@@ -297,6 +324,7 @@ export default function Footer() {
                     stroke="#272727"
                     strokeWidth="2.5"
                   />
+
                   <path
                     d="M21 21L16.65 16.65"
                     stroke="#272727"
@@ -312,7 +340,7 @@ export default function Footer() {
 
       {/* Copyright */}
       <p
-        className="section-text font-normal text-[#272727] bg-white text-center py-4 mt-12"
+        className="section-text font-normal text-[#272727] bg-white text-center py-4 mt-12 overflow-x-hidden overflow-y-hidden"
         data-aos="fade-in"
         data-aos-duration="900"
         data-aos-delay="700"
