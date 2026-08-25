@@ -33,13 +33,13 @@ export default function Header() {
 
   return (
     <header className={`w-full fixed top-0 left-0 z-50 bg-[#161616] transition-transform duration-500 ${isVisible ? 'translate-y-0' : '-translate-y-full'}`}>
-      <div className="py-4">
+      <div className="py-4 min-[2100px]:py-6 min-[3800px]:py-8">
         <div className="custom-container">
           <div className="flex items-center justify-between">
             {/* Logo Area */}
             <div className="flex-shrink-0 flex items-center">
               <Link href="#">
-                <img src="/moto/bendpak/logo.png" alt="BendPak Logo" className="h-auto w-auto object-contain brightness-0 invert" />
+                <img src="/moto/bendpak/logo.png" alt="BendPak Logo" className="h-8 min-[2100px]:h-12 min-[3800px]:h-16 w-auto object-contain brightness-0 invert" />
               </Link>
             </div>
 
@@ -72,9 +72,9 @@ export default function Header() {
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               >
                 {isMobileMenuOpen ? (
-                  <X size={32} strokeWidth={2} />
+                  <X strokeWidth={2} className="w-8 h-8 min-[2100px]:w-12 min-[2100px]:h-12 min-[3800px]:w-16 min-[3800px]:h-16" />
                 ) : (
-                  <Menu size={32} strokeWidth={2} />
+                  <Menu strokeWidth={2} className="w-8 h-8 min-[2100px]:w-12 min-[2100px]:h-12 min-[3800px]:w-16 min-[3800px]:h-16" />
                 )}
               </button>
             </div>
@@ -104,10 +104,10 @@ export default function Header() {
               </Link>
             ))}
             <div className="custom-container py-4 flex gap-4 justify-start items-center">
-              <div className="flex items-center gap-2 border border-gray-300 rounded-[5px] px-3 py-1.5">
-                <img src="/moto/cevam/flag2.png" alt="EN" className="h-4 w-6 object-cover rounded-sm" />
+              <div className="flex items-center gap-2 border border-gray-300 rounded-[5px] px-3 py-1.5 min-[2100px]:px-5 min-[2100px]:py-2.5 min-[3800px]:px-6 min-[3800px]:py-3">
+                <img src="/moto/cevam/flag2.png" alt="EN" className="h-4 w-6 min-[2100px]:h-6 min-[2100px]:w-9 min-[3800px]:h-8 min-[3800px]:w-12 object-cover rounded-sm" />
                 <span className="text-[#202020] text-sm font-semibold inter-font">ENG</span>
-                <ChevronDown size={16} className="text-[#202020]" />
+                <ChevronDown className="text-[#202020] w-4 h-4 min-[2100px]:w-6 min-[2100px]:h-6 min-[3800px]:w-8 min-[3800px]:h-8" />
               </div>
             </div>
           </nav>

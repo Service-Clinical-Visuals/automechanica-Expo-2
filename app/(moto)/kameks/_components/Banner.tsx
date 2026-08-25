@@ -16,9 +16,9 @@ export default function Banner() {
       </div>
 
       {/* Content Overlay */}
-      <div className="custom-container relative z-20 pl-10 pb-20 lg:pb-40">
-        <div className="max-w-7xl text-left" data-aos="fade-up" data-aos-delay="200">
-          <h1 className="banner-title font-semibold text-white leading-[1.5] mb-6 poppins-font">
+      <div className="custom-container relative z-20 px-0 lg:pl-10 pb-20 lg:pb-40">
+        <div className="w-full text-left" data-aos="fade-up" data-aos-delay="200">
+          <h1 className="banner-title font-semibold text-white !leading-[1.60] mb-[clamp(20px,3vw,20px)] poppins-font">
             Precision Camshaft Driving<br />Engine Performance to Next Level
           </h1>
           <Button href="#" variant="outline" className="!text-white !border-white !bg-transparent hover:!bg-white hover:!text-black transition-colors rounded-[8px]">

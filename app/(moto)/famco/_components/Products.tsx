@@ -39,7 +39,7 @@ export default function Products() {
   ];
 
   return (
-    <section className="py-16 xl:py-20 bg-white">
+    <section className="py-10 lg:py-20 bg-white">
       <div className="custom-container">
 
         {/* Header Section */}
@@ -50,7 +50,7 @@ export default function Products() {
           <h2 className="section-title text-[#202020] rubik-font font-semibold mb-6">
             Explore Our Complete Range Of Product Categories
           </h2>
-          <p className="inter-font text-[#404040] section-text max-w-7xl mx-auto leading-relaxed">
+          <p className="inter-font text-[#404040] section-text max-w-[90%] lg:max-w-[80%] mx-auto leading-relaxed">
             High-Quality Components Meticulously Engineered To Deliver Exceptional Performance, Dependable Reliability, And Long-Lasting Durability, Ensuring Consistent Efficiency And Strength Even Under Demanding Operating Conditions, Even In Large-Scale Deployments, Heavy Workloads, And Extended Usage Scenarios Where Stability, Scalability, And Sustained Output Are Critical.
           </p>
         </div>

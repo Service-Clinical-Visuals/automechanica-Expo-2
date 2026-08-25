@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Quality() {
   return (
-    <section className="py-16 lg:py-16 relative overflow-hidden bg-white">
+    <section className="py-10 lg:py-20 relative overflow-hidden bg-white">
       <div className="custom-container relative z-10">
 
         {/* Header Section */}

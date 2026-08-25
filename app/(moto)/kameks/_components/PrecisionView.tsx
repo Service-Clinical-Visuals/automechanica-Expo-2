@@ -7,7 +7,7 @@ import DynamicVideoPlayer from "../../../_components/DynamicVideoPlayer";
 export default function PrecisionView() {
   return (
     <section
-      className="py-16 lg:py-20 relative overflow-hidden bg-white bg-cover bg-center"
+      className="py-10 lg:py-20 relative overflow-hidden bg-white bg-cover bg-center"
       style={{ backgroundImage: "url('/moto/kameks/bg.png')" }}
     >
       <div className="custom-container relative z-10">
@@ -16,7 +16,7 @@ export default function PrecisionView() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
 
           {/* Left: Text Content */}
-          <div className="lg:col-span-5 flex flex-col gap-6" data-aos="fade-right">
+          <div className="lg:col-span-5 flex flex-col gap-6 order-2 lg:order-1" data-aos="fade-right">
             <div>
               <h3 className="text-[#F12535] font-semibold mb-3 poppins-font section-text">
                 Performance Engineering
@@ -43,7 +43,7 @@ export default function PrecisionView() {
           </div>
 
           {/* Right: 360 Video Player */}
-          <div className="lg:col-span-7 w-full h-full lg:min-h-0 aspect-video relative overflow-hidden flex items-center justify-center bg-gray-100/10 rounded-[5px]" data-aos="fade-left">
+          <div className="lg:col-span-7 w-full aspect-video relative overflow-hidden flex items-center justify-center rounded-[5px] order-1 lg:order-2" data-aos="fade-left">
             <DynamicVideoPlayer
               type="360"
               className="absolute inset-0 w-full h-full object-cover rounded-[5px]"

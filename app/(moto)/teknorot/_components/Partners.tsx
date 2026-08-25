@@ -35,9 +35,9 @@ export default function Partners() {
                   We are proud to have advanced from 257th place to 241st place in this year's ranking of Türkiye's Top 500 Industrial Enterprises. This achievement is the...
                 </p>
               </div>
-              <div className="flex justify-end mt-auto">
-                <button className="w-8 h-8 rounded-full border border-[#66952E] text-[#66952E] flex items-center justify-center hover:bg-[#66952E] hover:text-white transition-colors">
-                  <ArrowRight size={16} />
+              <div className="flex justify-end mt-auto section-text">
+                <button className="w-[2em] h-[2em] rounded-full border border-[#66952E] text-[#66952E] flex items-center justify-center hover:bg-[#66952E] hover:text-white transition-colors">
+                  <ArrowRight size="1em" />
                 </button>
               </div>
             </div>
@@ -58,9 +58,9 @@ export default function Partners() {
                     Ümit Can Özdemir Shines at Cappadocia Rally
                   </h3>
                 </div>
-                <div className="flex justify-end mt-auto">
-                  <button className="w-8 h-8 rounded-full border border-[#66952E] text-[#66952E] flex items-center justify-center hover:bg-[#66952E] hover:text-white transition-colors">
-                    <ArrowRight size={16} />
+                <div className="flex justify-end mt-auto section-text">
+                  <button className="w-[2em] h-[2em] rounded-full border border-[#66952E] text-[#66952E] flex items-center justify-center hover:bg-[#66952E] hover:text-white transition-colors">
+                    <ArrowRight size="1em" />
                   </button>
                 </div>
               </div>
@@ -78,9 +78,9 @@ export default function Partners() {
                     Teknorot Connects with Industry Partners in Gaziantep
                   </h3>
                 </div>
-                <div className="flex justify-end mt-auto">
-                  <button className="w-8 h-8 rounded-full border border-[#66952E] text-[#66952E] flex items-center justify-center hover:bg-[#66952E] hover:text-white transition-colors">
-                    <ArrowRight size={16} />
+                <div className="flex justify-end mt-auto section-text">
+                  <button className="w-[2em] h-[2em] rounded-full border border-[#66952E] text-[#66952E] flex items-center justify-center hover:bg-[#66952E] hover:text-white transition-colors">
+                    <ArrowRight size="1em" />
                   </button>
                 </div>
               </div>
@@ -91,9 +91,9 @@ export default function Partners() {
         </div>
 
         {/* Pagination Dots */}
-        <div className="flex justify-center items-center gap-1.5 mt-10">
-          <div className="w-8 h-[4px] bg-[#66952E] transition-all duration-300"></div>
-          <div className="w-8 h-[4px] bg-[#D9D9D9] transition-all duration-300"></div>
+        <div className="flex justify-center items-center gap-[0.5em] mt-10 section-text">
+          <div className="w-[2em] h-[0.25em] bg-[#66952E] transition-all duration-300"></div>
+          <div className="w-[2em] h-[0.25em] bg-[#D9D9D9] transition-all duration-300"></div>
         </div>
 
       </div>
