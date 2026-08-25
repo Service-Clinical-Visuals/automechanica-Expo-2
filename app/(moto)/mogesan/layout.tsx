@@ -11,19 +11,17 @@ export const metadata = {
     "MOGESAN manufactures high-quality engine pistons, cylinder liners, and piston rings, delivering precision, reliability, and performance to customers in over 80 countries.",
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
-      <body className="font-oswald bg-black text-white">
-        <VideoProvider>
-          <SmoothScroller />
-          <Provider>
-            <Header />
-            {children}
-            <Footer />
-          </Provider>
-        </VideoProvider>
-      </body>
-    </html>
+    <div className="font-oswald bg-black text-white">
+      <VideoProvider>
+        <SmoothScroller />
+        <Provider>
+          <Header />
+          {children}
+          <Footer />
+        </Provider>
+      </VideoProvider>
+    </div>
   );
 }
