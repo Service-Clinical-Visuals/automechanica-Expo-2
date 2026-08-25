@@ -32,14 +32,14 @@ export default function Header() {
   ];
 
   return (
-    <header className={`w-full fixed top-0 left-0 z-50 bg-white transition-transform duration-500 ${isVisible ? 'translate-y-0' : '-translate-y-full'}`}>
+    <header className={`w-full fixed top-0 left-0 z-[999] bg-white transition-transform duration-500 ${isVisible || isMobileMenuOpen ? 'translate-y-0 shadow-sm border-b border-[#282361]' : '-translate-y-full opacity-0 pointer-events-none'}`}>
       <div className="py-4">
         <div className="custom-container">
           <div className="flex items-center justify-between">
             {/* Logo Area */}
             <div className="flex-shrink-0 flex items-center">
               <Link href="#">
-                <img src="/moto/famco/logo.png" alt="FAMCO Logo" className="h-10 w-auto object-contain" />
+                <img src="/moto/famco/logo.png" alt="FAMCO Logo" className="header-logo h-auto object-contain" />
               </Link>
             </div>
 
@@ -61,14 +61,14 @@ export default function Header() {
 
             {/* Right Tools Area */}
             <div className="hidden xl:flex items-center gap-6">
-              <button className="text-[#202020] hover:text-[#282361] transition-colors">
-                <Search size={20} strokeWidth={2} />
+              <button className="text-[#202020] hover:text-[#282361] transition-colors section-text">
+                <Search size="1.25em" strokeWidth={2} />
               </button>
 
               <div className="flex items-center gap-2 border border-[#202020] rounded-[5px] px-3 py-1.5 cursor-pointer hover:border-[#282361] transition-colors">
                 <img src="/moto/famco/flag.png" alt="EN" className="h-auto w-auto object-cover rounded-sm" />
-                <span className="text-[#202020] text-sm font-semibold inter-font">ENG</span>
-                <ChevronDown size={16} className="text-[#000000]" />
+                <span className="text-[#202020] section-text font-semibold inter-font">ENG</span>
+                <ChevronDown size="1em" className="text-[#000000]" />
               </div>
             </div>
 
@@ -79,9 +79,9 @@ export default function Header() {
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               >
                 {isMobileMenuOpen ? (
-                  <X size={32} strokeWidth={2} />
+                  <X size="2em" strokeWidth={2} />
                 ) : (
-                  <Menu size={32} strokeWidth={2} />
+                  <Menu size="2em" strokeWidth={2} />
                 )}
               </button>
             </div>
@@ -91,7 +91,7 @@ export default function Header() {
 
       {/* Mobile Navigation Menu */}
       {isMobileMenuOpen && (
-        <div className="xl:hidden absolute top-full left-0 w-full bg-white shadow-lg flex flex-col z-50 border-t border-gray-100">
+        <div className="xl:hidden fixed h-[calc(100vh-80px)] overflow-y-auto top-full left-0 w-full bg-white shadow-lg flex flex-col z-[999] border-t border-gray-100">
           <nav className="flex flex-col py-2">
             {navLinks.map((link) => (
               <Link
@@ -112,9 +112,9 @@ export default function Header() {
             ))}
             <div className="custom-container py-4 flex gap-4 justify-start items-center">
               <div className="flex items-center gap-2 border border-gray-300 rounded-[5px] px-3 py-1.5">
-                <img src="/moto/cevam/flag2.png" alt="EN" className="h-4 w-6 object-cover rounded-sm" />
+                <img src="/moto/famco/flag.png" alt="EN" className="h-4 w-6 object-cover rounded-sm" />
                 <span className="text-[#202020] text-sm font-semibold inter-font">ENG</span>
-                <ChevronDown size={16} className="text-[#202020]" />
+                <ChevronDown size="1em" className="text-[#202020]" />
               </div>
             </div>
           </nav>
