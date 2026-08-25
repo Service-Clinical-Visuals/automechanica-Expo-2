@@ -89,9 +89,9 @@ export default function Products() {
         </div>
 
         {/* Pagination Dots */}
-        <div className="flex justify-center items-center mt-12 gap-2" data-aos="fade-up" data-aos-delay="300">
-          <div className="w-8 h-[4px] bg-[#66952E] transition-all duration-300"></div>
-          <div className="w-8 h-[4px] bg-[#D9D9D9] transition-all duration-300"></div>
+        <div className="flex justify-center items-center mt-12 gap-[0.5em] section-text" data-aos="fade-up" data-aos-delay="300">
+          <div className="w-[2em] h-[0.25em] bg-[#66952E] transition-all duration-300"></div>
+          <div className="w-[2em] h-[0.25em] bg-[#D9D9D9] transition-all duration-300"></div>
         </div>
 
       </div>
