@@ -1,0 +1,31 @@
+"use client";
+
+import React from "react";
+import DynamicVideoPlayer from "../../../_components/DynamicVideoPlayer";
+import Button from "./Button";
+
+export default function Banner() {
+  return (
+    <section className="relative w-full h-[100dvh] overflow-hidden flex flex-col justify-end">
+      {/* Background Video using DynamicVideoPlayer */}
+      <div className="absolute inset-0 z-0 bg-[#000000]">
+        <DynamicVideoPlayer
+          type="banner"
+          className="absolute inset-0 w-full h-full object-cover aspect-video opacity-80"
+        />
+      </div>
+
+      {/* Content Overlay */}
+      <div className="custom-container relative z-20 pl-4 lg:pl-10 pb-20 lg:pb-40">
+        <div className="max-w-7xl text-center md:text-left gap-8 lg:gap-10 flex flex-col items-center md:items-start mx-auto md:mx-0" data-aos="fade-up" data-aos-delay="200">
+          <h1 className="banner-title font-bold text-white leading-[1.2] mb-2 exo-2-font">
+            Precision Sealing Solutions for<br />Every Engine
+          </h1>
+          <Button href="#" className="">
+            Explore Products
+          </Button>
+        </div>
+      </div>
+    </section>
+  );
+}
