@@ -9,9 +9,9 @@ export default function Performance() {
     <section className="relative w-full py-16 xl:py-20 2xl:py-[100px] overflow-hidden bg-white">
       {/* Background Pattern Image */}
       <div className="absolute inset-0 z-0 opacity-80 pointer-events-none">
-        <img 
-          src="/moto/pek/bg.png" 
-          alt="Background Engineering Pattern" 
+        <img
+          src="/moto/pek/bg.png"
+          alt="Background Engineering Pattern"
           className="w-full h-full object-cover"
         />
       </div>
@@ -19,14 +19,14 @@ export default function Performance() {
       <div className="relative z-10 w-full">
         <div className="custom-container px-4 sm:px-6 md:px-8">
           <div className="flex flex-col xl:flex-row items-center justify-between gap-8 xl:gap-12 2xl:gap-[50px]">
-            
+
             {/* Header Block (Displays FIRST on mobile/tablet, CENTERED) */}
-            <div 
+            <div
               data-aos="fade-down"
               data-aos-duration="800"
               className="flex flex-col items-center text-center w-full xl:hidden"
             >
-              <span className="font-bold text-xs sm:text-sm text-accent uppercase tracking-wider mb-3 sm:mb-[15px]">
+              <span className="font-bold section-title  text-xs sm:text-sm text-accent tracking-wider mb-3 sm:mb-[15px]">
                 Turbo Performance Systems
               </span>
 
@@ -36,11 +36,11 @@ export default function Performance() {
             </div>
 
             {/* Video Container (Displays SECOND on mobile/tablet, CENTERED, RIGHT on desktop) */}
-            <div 
+            <div
               data-aos="fade-right"
               data-aos-duration="1000"
               data-aos-delay="200"
-              className="relative w-full xl:w-1/2 aspect-video min-h-[260px] sm:min-h-[360px] 2xl:min-h-[480px] rounded-[10px] overflow-hidden shadow-lg bg-black flex-shrink-0 xl:order-2 mx-auto"
+              className="relative w-full xl:w-1/2 aspect-video min-h-[260px] sm:min-h-[360px] 2xl:min-h-[480px] rounded-[10px] overflow-hidden shadow-lg bg-black flex-shrink-0 xl:order-1 mx-auto"
             >
               <DynamicVideoPlayer
                 type="short-1"
@@ -49,16 +49,16 @@ export default function Performance() {
             </div>
 
             {/* Text Content Block (Displays THIRD on mobile/tablet, LEFT-aligned paragraphs) */}
-            <div className="flex flex-col items-start text-left w-full xl:w-1/2 max-w-none xl:order-1">
-              
+            <div className="flex flex-col items-start text-left w-full xl:w-1/2 max-w-none xl:order-2">
+
               {/* Header Block (Displays ONLY on desktop, LEFT-aligned) */}
-              <div 
+              <div
                 data-aos="fade-left"
                 data-aos-duration="800"
                 data-aos-delay="100"
                 className="hidden xl:flex flex-col"
               >
-                <span className="font-bold text-xs sm:text-sm text-accent uppercase tracking-wider mb-3 sm:mb-[15px]">
+                <span className="font-bold text-xs sm:text-sm text-accent tracking-wider mb-3 sm:mb-[15px]">
                   Turbo Performance Systems
                 </span>
 
@@ -68,7 +68,7 @@ export default function Performance() {
               </div>
 
               {/* Paragraph 1 */}
-              <p 
+              <p
                 data-aos="fade-left"
                 data-aos-duration="800"
                 data-aos-delay="300"
@@ -78,7 +78,7 @@ export default function Performance() {
               </p>
 
               {/* Paragraph 2 */}
-              <p 
+              <p
                 data-aos="fade-left"
                 data-aos-duration="800"
                 data-aos-delay="400"
@@ -88,7 +88,7 @@ export default function Performance() {
               </p>
 
               {/* Button Container */}
-              <div 
+              <div
                 data-aos="fade-up"
                 data-aos-duration="800"
                 data-aos-delay="500"

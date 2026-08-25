@@ -26,7 +26,7 @@ export default function Fit() {
         <span 
           data-aos="fade-down"
           data-aos-duration="600"
-          className="font-bold text-xs sm:text-sm 2xl:text-base 3k:text-lg text-accent uppercase tracking-wider mb-2 sm:mb-3 3k:mb-5 text-center"
+          className="font-bold text-xs sm:text-sm 2xl:text-base 3k:text-lg text-accent tracking-wider mb-2 sm:mb-3 3k:mb-5 text-center"
         >
           Find Your Fit
         </span>

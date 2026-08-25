@@ -6,7 +6,7 @@ export default function AboutMkt() {
     >
       <div className="custom-container">
         {/* Heading + paragraph */}
-        <div className="max-w-[70%] mx-auto text-center mb-10 md:mb-12 lg:mb-16">
+        <div className="xl:max-w-[70%] mx-auto text-center mb-10 md:mb-12 lg:mb-16">
           <h2
             data-aos="fade-up"
             data-aos-duration="800"

@@ -61,7 +61,7 @@ export default function Manufacture() {
         <span
           data-aos="fade-down"
           data-aos-duration="600"
-          className="font-semibold text-xs sm:text-sm 2xl:text-base 3k:text-lg text-[#DC2626] tracking-wider mb-2 uppercase"
+          className="font-semibold text-xs sm:text-sm 2xl:text-base 3k:text-lg text-[#DC2626] tracking-wider mb-2"
         >
           What We Manufacture
         </span>
@@ -71,7 +71,7 @@ export default function Manufacture() {
           data-aos="fade-up"
           data-aos-duration="800"
           data-aos-delay="100"
-          className="font-bold text-[#0F172A] text-2xl sm:text-3xl lg:text-4xl xl:text-[40px] 3k:text-[56px] text-center mb-4 3k:mb-6 max-w-[797px] 2xl:max-w-[1000px] 3k:max-w-[1400px] leading-tight"
+          className="font-bold section-title  text-[#0F172A]  xl:text-[40px] 3k:text-[56px] text-center mb-4 3k:mb-6 max-w-[797px] 2xl:max-w-[1000px] 3k:max-w-[1400px] leading-tight"
         >
           Driving Innovation Through Precision Engineering
         </h2>
@@ -81,7 +81,7 @@ export default function Manufacture() {
           data-aos="fade-up"
           data-aos-duration="800"
           data-aos-delay="200"
-          className="font-normal text-[#536580] text-xs sm:text-sm lg:text-base 2xl:text-lg 3k:text-xl text-center mb-10 xl:mb-[50px] 3k:mb-[80px] w-full max-w-full 2xl:max-w-[1150px] 3k:max-w-[1600px] leading-relaxed"
+          className="font-normal text-[#202020] text-xs sm:text-sm lg:text-base 2xl:text-lg 3k:text-xl text-center mb-10 xl:mb-[50px] 3k:mb-[80px] w-full max-w-full 2xl:max-w-[1150px] 3k:max-w-[1600px] leading-relaxed"
         >
           Our product range includes precision timing components, camshafts, aluminum castings, machined parts, and specialized automotive solutions. Every product is engineered for quality, durability, and reliable performance to meet international standards.
         </p>

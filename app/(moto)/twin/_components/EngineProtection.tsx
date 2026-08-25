@@ -22,7 +22,7 @@ export default function EngineProtection() {
   ];
 
   return (
-    <section className="py-16 lg:py-20 relative overflow-hidden bg-[#171717]">
+    <section className="py-10 lg:py-20 relative overflow-hidden bg-[#171717]">
       <div className="custom-container relative z-10">
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center">

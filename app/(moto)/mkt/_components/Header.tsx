@@ -29,7 +29,7 @@ export default function Header() {
             <img
               src="/moto/mkt/logo.png"
               alt="MKT Holdings"
-              className="h-8 md:h-9 lg:h-10 w-auto"
+              className="h-8 md:h-9 lg:h-16 w-auto"
             />
           </Link>
 
@@ -42,11 +42,10 @@ export default function Header() {
                 data-aos="fade-down"
                 data-aos-duration="800"
                 data-aos-delay={index * 80}
-                className={`nav-link font-heading transition-colors ${
-                  link.label === "Home"
-                    ? "font-semibold text-primary underline underline-offset-4"
-                    : "font-medium text-body hover:text-primary"
-                }`}
+                className={`nav-link font-heading transition-colors ${link.label === "Home"
+                  ? "font-semibold text-primary underline underline-offset-4"
+                  : "font-medium text-body hover:text-primary"
+                  }`}
               >
                 {link.label}
               </Link>
@@ -88,11 +87,10 @@ export default function Header() {
                   key={link.label}
                   href={link.href}
                   onClick={() => setIsOpen(false)}
-                  className={`nav-link font-heading transition-colors ${
-                    link.label === "Home"
-                      ? "font-semibold text-primary underline underline-offset-4"
-                      : "font-medium text-body hover:text-primary"
-                  }`}
+                  className={`nav-link font-heading transition-colors ${link.label === "Home"
+                    ? "font-semibold text-primary underline underline-offset-4"
+                    : "font-medium text-body hover:text-primary"
+                    }`}
                 >
                   {link.label}
                 </Link>
