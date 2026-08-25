@@ -43,7 +43,7 @@ export default function Banner() {
             data-aos-duration="900"
             data-aos-delay="400"
           >
-            <Button variant="primary">Explore Products</Button>
+            <Button variant="solid">Explore Products</Button>
           </div>
         </div>
       </div>
