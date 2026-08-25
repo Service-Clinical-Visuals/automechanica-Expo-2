@@ -127,7 +127,7 @@ function ProductCard({
           alt={product.title}
           className="block h-full w-full object-cover"
         />
-      </div>    
+      </div>
 
       <h3 className="card-title mt-2 mb-8 text-center text-black">
         {product.title}
@@ -166,7 +166,7 @@ export default function AllProducts() {
             Our Products
           </p>
 
-          <h2 className="section-title mx-auto max-w-[622px] text-[#111111]">
+          <h2 className="section-title mx-auto max-w-[70%] text-[#111111]">
             Comprehensive Automotive Product Portfolio
           </h2>
         </motion.div>
@@ -187,11 +187,10 @@ export default function AllProducts() {
             <button
               key={cat}
               onClick={() => setActiveCategory(cat)}
-              className={`btn-shape btn-text h-[46px] px-[39px] py-[13px] transition-colors ${
-                activeCategory === cat
+              className={`btn-shape btn-text h-[46px] px-[39px] py-[13px] transition-colors ${activeCategory === cat
                   ? "bg-[#003344] text-white"
                   : "bg-[#F1F1F1] text-[#111111] hover:bg-[#e5e5e5]"
-              }`}
+                }`}
             >
               {cat}
             </button>

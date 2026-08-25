@@ -16,7 +16,7 @@ export default function Discover() {
       const wrapperEl = textWrapperRef.current;
       if (!videoEl || !wrapperEl) return;
 
-      const isRow = window.innerWidth >= 1024;
+      const isRow = window.innerWidth >= 1280;
       if (!isRow) {
         wrapperEl.style.setProperty("--text-scale", "1");
         setTextScale(1);
@@ -70,17 +70,17 @@ export default function Discover() {
     <section className="w-full overflow-hidden bg-[#F9F9F9] py-16 md:py-20 xl:py-[100px]">
       <div className="custom-container">
         <div className="mb-12 w-full">
-          <div className="flex flex-col gap-10 lg:flex-row lg:items-start lg:gap-[45px]">
+          <div className="flex flex-col gap-10 xl:flex-row xl:items-start xl:gap-[45px]">
             <motion.div
               initial={{ opacity: 0, x: -40 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, amount: 0.3 }}
               transition={{ duration: 0.6, delay: 0.15, ease: "easeOut" }}
-              className="order-1 w-full min-w-0 lg:flex-1"
+              className="order-2 w-full min-w-0 xl:order-1 xl:flex-1"
             >
               <div
                 ref={videoBoxRef}
-                className="relative w-full overflow-hidden rounded-[24px] aspect-[1048.53/565.15]"
+                className="relative w-full overflow-hidden rounded-[24px] aspect-video"
               >
                 <DynamicVideoPlayer
                   type="short-1"
@@ -94,7 +94,7 @@ export default function Discover() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, amount: 0.3 }}
               transition={{ duration: 0.6, ease: "easeOut" }}
-              className="order-2 w-full min-w-0 lg:w-[510px] lg:max-w-[510px]"
+              className="order-1 w-full min-w-0 xl:order-2 xl:w-[510px] xl:max-w-[510px]"
             >
               <div
                 ref={textWrapperRef}
