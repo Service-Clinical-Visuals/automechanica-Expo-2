@@ -2,7 +2,8 @@
 
 import React from "react";
 import Link from "next/link";
-import { Phone, Mail, MapPin, Linkedin, Instagram, Facebook, Youtube } from "lucide-react";
+import { FaYoutube, FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { Phone, Mail, MapPin} from "lucide-react";
 import Typography from "./Typography";
 
 export default function Footer() {
@@ -114,28 +115,28 @@ export default function Footer() {
                 aria-label="LinkedIn"
                 className="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-[#F9EA4F] text-black flex items-center justify-center hover:scale-110 hover:shadow-lg transition-transform shrink-0"
               >
-                <Linkedin className="w-4 h-4 fill-current text-black" />
+                <FaLinkedin className="w-4 h-4 fill-current text-black" />
               </a>
               <a 
                 href="#" 
                 aria-label="Instagram"
                 className="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-[#F9EA4F] text-black flex items-center justify-center hover:scale-110 hover:shadow-lg transition-transform shrink-0"
               >
-                <Instagram className="w-4 h-4 text-black" strokeWidth={2.2} />
+                <FaInstagram className="w-4 h-4 text-black" strokeWidth={2.2} />
               </a>
               <a 
                 href="#" 
                 aria-label="Facebook"
                 className="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-[#F9EA4F] text-black flex items-center justify-center hover:scale-110 hover:shadow-lg transition-transform shrink-0"
               >
-                <Facebook className="w-4 h-4 fill-current text-black" />
+                <FaFacebook className="w-4 h-4 fill-current text-black" />
               </a>
               <a 
                 href="#" 
                 aria-label="YouTube"
                 className="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-[#F9EA4F] text-black flex items-center justify-center hover:scale-110 hover:shadow-lg transition-transform shrink-0"
               >
-                <Youtube className="w-4 h-4 fill-current text-black" />
+                <FaYoutube className="w-4 h-4 fill-current text-black" />
               </a>
             </div>
           </div>

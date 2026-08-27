@@ -5,15 +5,16 @@ import Link from "next/link";
 import Container from "./Container";
 import Typography from "./Typography";
 import Button from "./Button"
-import { Facebook, Instagram, Youtube, Linkedin, MapPin, Mail, Phone } from "lucide-react";
+import { FaYoutube, FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
+import {    MapPin, Mail, Phone } from "lucide-react";
 
 const quickLinks = ["Home", "About Us", "Products", "News", "Contact"];
 
 const socialLinks = [
-  { icon: <Facebook size={19} />, href: "#", label: "Facebook" },
-  { icon: <Instagram size={19} />, href: "#", label: "Instagram" },
-  { icon: <Youtube size={19} />, href: "#", label: "YouTube" },
-  { icon: <Linkedin size={19} />, href: "#", label: "LinkedIn" },
+  { icon: <FaFacebook size={19} />, href: "#", label: "Facebook" },
+  { icon: <FaInstagram size={19} />, href: "#", label: "Instagram" },
+  { icon: <FaYoutube size={19} />, href: "#", label: "YouTube" },
+  { icon: <FaLinkedin size={19} />, href: "#", label: "LinkedIn" },
 ];
 
 export default function Footer() {

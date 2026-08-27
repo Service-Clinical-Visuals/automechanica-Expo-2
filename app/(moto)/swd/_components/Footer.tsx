@@ -1,8 +1,9 @@
 "use client";
+import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 import React from "react";
 import Link from "next/link";
-import { Phone, Mail, MapPin, Linkedin, Facebook, Instagram, ChevronDown } from "lucide-react";
+import { Phone, Mail, MapPin,    ChevronDown } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -30,13 +31,13 @@ export default function Footer() {
             {/* Social Icons */}
             <div className="flex items-center gap-3.5 text-white">
               <a href="#" className="w-8 h-8 rounded-full flex items-center justify-center hover:bg-white/10 transition-colors" aria-label="LinkedIn">
-                <Linkedin className="w-5 h-5" />
+                <FaLinkedin className="w-5 h-5" />
               </a>
               <a href="#" className="w-8 h-8 rounded-full flex items-center justify-center hover:bg-white/10 transition-colors" aria-label="Facebook">
-                <Facebook className="w-5 h-5" />
+                <FaFacebook className="w-5 h-5" />
               </a>
               <a href="#" className="w-8 h-8 rounded-full flex items-center justify-center hover:bg-white/10 transition-colors" aria-label="Instagram">
-                <Instagram className="w-5 h-5" />
+                <FaInstagram className="w-5 h-5" />
               </a>
             </div>
           </div>

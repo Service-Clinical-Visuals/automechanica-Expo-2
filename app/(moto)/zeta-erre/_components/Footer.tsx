@@ -1,17 +1,18 @@
 "use client";
 
 import Link from "next/link";
-import { Phone, Mail, Instagram, Facebook, Youtube, Linkedin, ArrowUpRight, ArrowRight } from "lucide-react";
+import { FaYoutube, FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { Phone, Mail,    ArrowUpRight, ArrowRight } from "lucide-react";
 import Container from "./Container";
 
 const quickLinks = ["Home", "About Us", "Products", "News"];
 const legalLinks = ["Terms & Conditions", "Privacy Policy"];
 
 const socials = [
-  { icon: Instagram, href: "#", className: "bg-gradient-to-br from-yellow-400 via-pink-500 to-purple-600" },
-  { icon: Facebook, href: "#", className: "bg-[#1877F2]" },
-  { icon: Youtube, href: "#", className: "bg-[#FF0000]" },
-  { icon: Linkedin, href: "#", className: "bg-[#0A66C2]" },
+  { icon: FaInstagram, href: "#", className: "bg-gradient-to-br from-yellow-400 via-pink-500 to-purple-600" },
+  { icon: FaFacebook, href: "#", className: "bg-[#1877F2]" },
+  { icon: FaYoutube, href: "#", className: "bg-[#FF0000]" },
+  { icon: FaLinkedin, href: "#", className: "bg-[#0A66C2]" },
 ];
 
 export default function Footer() {

@@ -2,7 +2,8 @@
 
 import React from "react";
 import Link from "next/link";
-import { Linkedin, Instagram, Youtube, Phone } from "lucide-react";
+import { FaYoutube, FaInstagram, FaLinkedin } from "react-icons/fa";
+import {   Phone } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -80,10 +81,10 @@ export default function Footer() {
 
           {/* Social Icons */}
           <div className="flex items-center gap-6">
-            <Link href="#" className="hover:text-white transition-colors"><Linkedin size={20} /></Link>
+            <Link href="#" className="hover:text-white transition-colors"><FaLinkedin size={20} /></Link>
             <Link href="#" className="hover:text-white transition-colors font-bold text-lg leading-none">X</Link>
-            <Link href="#" className="hover:text-white transition-colors"><Instagram size={20} /></Link>
-            <Link href="#" className="hover:text-white transition-colors"><Youtube size={24} /></Link>
+            <Link href="#" className="hover:text-white transition-colors"><FaInstagram size={20} /></Link>
+            <Link href="#" className="hover:text-white transition-colors"><FaYoutube size={24} /></Link>
           </div>
 
           {/* Newsletter Subscribe */}

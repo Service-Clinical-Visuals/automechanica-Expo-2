@@ -1,7 +1,8 @@
+import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 import React from "react";
 import Container from "./Container";
 import Typography from "./Typography";
-import { Facebook, Instagram, Linkedin, Send, Phone, Printer, Mail } from "lucide-react";
+import {    Send, Phone, Printer, Mail } from "lucide-react";
 import Link from "next/link";
 
 export default function Footer() {
@@ -21,13 +22,13 @@ export default function Footer() {
             </Typography>
             <div className="flex gap-4">
               <Link href="#" className="flex items-center justify-center text-white hover:text-primary transition-colors">
-                <Facebook size={22} fill="currentColor" strokeWidth={0} />
+                <FaFacebook size={22} fill="currentColor" strokeWidth={0} />
               </Link>
               <Link href="#" className="flex items-center justify-center text-white hover:text-primary transition-colors">
-                <Instagram size={22} />
+                <FaInstagram size={22} />
               </Link>
               <Link href="#" className="flex items-center justify-center text-white hover:text-primary transition-colors">
-                <Linkedin size={22} fill="currentColor" strokeWidth={0} />
+                <FaLinkedin size={22} fill="currentColor" strokeWidth={0} />
               </Link>
             </div>
           </div>

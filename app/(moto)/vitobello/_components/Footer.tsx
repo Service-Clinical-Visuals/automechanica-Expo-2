@@ -2,7 +2,8 @@
 
 import React from "react";
 import Link from "next/link";
-import { Phone, Mail, MapPin, Instagram, Facebook, Youtube } from "lucide-react";
+import { FaYoutube, FaFacebook, FaInstagram } from "react-icons/fa";
+import { Phone, Mail, MapPin} from "lucide-react";
 import Typography from "./Typography";
 
 export default function Footer() {
@@ -123,13 +124,13 @@ export default function Footer() {
             </Typography>
             <div className="flex items-center gap-3 w-full">
               <a href="#" className="w-9 h-9 rounded-full bg-[#F47944] flex items-center justify-center text-white hover:bg-[#F47944]/80 transition-colors">
-                <Instagram className="w-4 h-4" />
+                <FaInstagram className="w-4 h-4" />
               </a>
               <a href="#" className="w-9 h-9 rounded-full bg-[#F47944] flex items-center justify-center text-white hover:bg-[#F47944]/80 transition-colors">
-                <Facebook className="w-4 h-4" />
+                <FaFacebook className="w-4 h-4" />
               </a>
               <a href="#" className="w-9 h-9 rounded-full bg-[#F47944] flex items-center justify-center text-white hover:bg-[#F47944]/80 transition-colors">
-                <Youtube className="w-4 h-4" />
+                <FaYoutube className="w-4 h-4" />
               </a>
             </div>
           </div>

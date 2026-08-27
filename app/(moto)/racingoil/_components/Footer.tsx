@@ -1,8 +1,9 @@
 "use client";
+import { FaInstagram, FaLinkedin } from "react-icons/fa";
 
 import React from "react";
 import Link from "next/link";
-import { Phone, MapPin, Linkedin, Instagram } from "lucide-react";
+import { Phone, MapPin} from "lucide-react";
 
 export default function Footer() {
   return (
@@ -75,10 +76,10 @@ export default function Footer() {
             </h4>
             <div className="flex items-center gap-3">
               <Link href="#" className="w-10 h-10 rounded-full bg-[#ffb000] flex items-center justify-center hover:bg-white group transition-colors">
-                <Linkedin className="w-6 h-6 text-white group-hover:text-[#011689]" />
+                <FaLinkedin className="w-6 h-6 text-white group-hover:text-[#011689]" />
               </Link>
               <Link href="#" className="w-10 h-10 rounded-full bg-[#ffb000] flex items-center justify-center hover:bg-white group transition-colors">
-                <Instagram className="w-6 h-6 text-white group-hover:text-[#011689]" />
+                <FaInstagram className="w-6 h-6 text-white group-hover:text-[#011689]" />
               </Link>
             </div>
           </div>

@@ -1,7 +1,8 @@
 "use client";
+import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 import React from "react";
-import { Send, MapPin, Phone, Mail, Facebook, Instagram, Linkedin } from "lucide-react";
+import { Send, MapPin, Phone, Mail} from "lucide-react";
 import Typography from "./Typography";
 import Link from "next/link";
 
@@ -82,13 +83,13 @@ const Footer = () => {
           <h4 className="footer-heading text-primary font-bold">Social</h4>
           <div className="flex items-center gap-4">
             <a href="#" className="w-10 h-10 min-[3800px]:w-20 min-[3800px]:h-20 rounded-full bg-secondary text-white flex items-center justify-center hover:bg-secondary-hover transition-colors">
-              <Facebook className="w-5 h-5 min-[3800px]:w-10 min-[3800px]:h-10" fill="currentColor" stroke="none" />
+              <FaFacebook className="w-5 h-5 min-[3800px]:w-10 min-[3800px]:h-10" fill="currentColor" stroke="none" />
             </a>
             <a href="#" className="w-10 h-10 min-[3800px]:w-20 min-[3800px]:h-20 rounded-full bg-secondary text-white flex items-center justify-center hover:bg-secondary-hover transition-colors">
-              <Instagram className="w-5 h-5 min-[3800px]:w-10 min-[3800px]:h-10" />
+              <FaInstagram className="w-5 h-5 min-[3800px]:w-10 min-[3800px]:h-10" />
             </a>
             <a href="#" className="w-10 h-10 min-[3800px]:w-20 min-[3800px]:h-20 rounded-full bg-secondary text-white flex items-center justify-center hover:bg-secondary-hover transition-colors">
-              <Linkedin className="w-5 h-5 min-[3800px]:w-10 min-[3800px]:h-10" fill="currentColor" stroke="none" />
+              <FaLinkedin className="w-5 h-5 min-[3800px]:w-10 min-[3800px]:h-10" fill="currentColor" stroke="none" />
             </a>
           </div>
         </div>

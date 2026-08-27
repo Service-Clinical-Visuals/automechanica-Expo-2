@@ -1,7 +1,8 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-import { Phone, MapPin, Linkedin, Twitter, Instagram, Youtube, ArrowRight } from "lucide-react";
+import { FaYoutube, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { Phone, MapPin,    ArrowRight } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -65,16 +66,16 @@ export default function Footer() {
               <h3 className="oswald-font font-medium text-white card-text">Social</h3>
               <div className="flex gap-4">
                 <Link href="#" className="text-white hover:text-[#0A2B52] transition-colors">
-                  <Linkedin size={20} />
+                  <FaLinkedin size={20} />
                 </Link>
                 <Link href="#" className="text-white hover:text-[#0A2B52] transition-colors">
-                  <Twitter size={20} />
+                  <FaTwitter size={20} />
                 </Link>
                 <Link href="#" className="text-white hover:text-[#0A2B52] transition-colors">
-                  <Instagram size={20} />
+                  <FaInstagram size={20} />
                 </Link>
                 <Link href="#" className="text-white hover:text-[#0A2B52] transition-colors">
-                  <Youtube size={20} />
+                  <FaYoutube size={20} />
                 </Link>
               </div>
             </div>

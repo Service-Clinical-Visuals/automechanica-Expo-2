@@ -1,9 +1,10 @@
 "use client";
 
+import { FaYoutube, FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Menu, X, Phone, Mail, Facebook, Instagram, Youtube, Linkedin, Search } from "lucide-react";
+import { Menu, X, Phone, Mail,    Search } from "lucide-react";
 import Button from "./Button";
 import Typography from "./Typography";
 import Container from "./Container";
@@ -110,19 +111,19 @@ const Header = () => {
             <div className="flex items-center gap-1 sm:gap-2 pr-0 sm:pr-2 shrink-0">
               <a href="#" className="relative w-5 h-5 sm:w-6 sm:h-6 lg:w-7 lg:h-7 flex items-center justify-center group">
                 <span className="absolute inset-0 bg-white transform -skew-x-[20deg] group-hover:bg-primary transition-colors" />
-                <Facebook className="relative z-10 w-2.5 h-2.5 sm:w-3 sm:h-3 lg:w-4 lg:h-4 text-primary group-hover:text-white transition-colors" />
+                <FaFacebook className="relative z-10 w-2.5 h-2.5 sm:w-3 sm:h-3 lg:w-4 lg:h-4 text-primary group-hover:text-white transition-colors" />
               </a>
               <a href="#" className="relative w-5 h-5 sm:w-6 sm:h-6 lg:w-7 lg:h-7 flex items-center justify-center group">
                 <span className="absolute inset-0 bg-white transform -skew-x-[20deg] group-hover:bg-primary transition-colors" />
-                <Instagram className="relative z-10 w-2.5 h-2.5 sm:w-3 sm:h-3 lg:w-4 lg:h-4 text-primary group-hover:text-white transition-colors" />
+                <FaInstagram className="relative z-10 w-2.5 h-2.5 sm:w-3 sm:h-3 lg:w-4 lg:h-4 text-primary group-hover:text-white transition-colors" />
               </a>
               <a href="#" className="relative w-5 h-5 sm:w-6 sm:h-6 lg:w-7 lg:h-7 flex items-center justify-center group">
                 <span className="absolute inset-0 bg-white transform -skew-x-[20deg] group-hover:bg-primary transition-colors" />
-                <Youtube className="relative z-10 w-2.5 h-2.5 sm:w-3 sm:h-3 lg:w-4 lg:h-4 text-primary group-hover:text-white transition-colors" />
+                <FaYoutube className="relative z-10 w-2.5 h-2.5 sm:w-3 sm:h-3 lg:w-4 lg:h-4 text-primary group-hover:text-white transition-colors" />
               </a>
               <a href="#" className="relative w-5 h-5 sm:w-6 sm:h-6 lg:w-7 lg:h-7 flex items-center justify-center group">
                 <span className="absolute inset-0 bg-white transform -skew-x-[20deg] group-hover:bg-primary transition-colors" />
-                <Linkedin className="relative z-10 w-2.5 h-2.5 sm:w-3 sm:h-3 lg:w-4 lg:h-4 text-primary group-hover:text-white transition-colors" />
+                <FaLinkedin className="relative z-10 w-2.5 h-2.5 sm:w-3 sm:h-3 lg:w-4 lg:h-4 text-primary group-hover:text-white transition-colors" />
               </a>
             </div>
           </Container>

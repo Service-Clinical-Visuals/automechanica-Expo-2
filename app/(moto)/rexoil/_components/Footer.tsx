@@ -1,6 +1,7 @@
+import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 import React from "react";
 import Link from "next/link";
-import { Facebook, Instagram, Linkedin } from "lucide-react";
+;
 
 export default function Footer() {
   return (
