@@ -2,7 +2,7 @@
 
 import React from "react";
 import Button from "./Button";
-
+import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 export default function Product360() {
   const handle360Click = () => {
     // Add your "360" action or modal trigger logic here
@@ -55,23 +55,18 @@ export default function Product360() {
 
         {/* Video with overlay label */}
         <div
-          className="group relative w-full aspect-[1394/689.87] max-w-[1394px] min-[1920px]:max-w-[1700px] min-[2560px]:max-w-[2100px] min-[3840px]:max-w-[2800px] mx-auto overflow-hidden transition-all duration-700 ease-out hover:-translate-y-1"
+          className="group relative w-full aspect-video xl:max-w-[80%] mx-auto overflow-hidden transition-all duration-700 ease-out hover:-translate-y-1"
           data-aos="zoom-in"
           data-aos-duration="1000"
           data-aos-delay="250"
         >
-          <video
-            className="absolute inset-0 w-full h-full object-cover transition-transform duration-[1200ms] ease-out group-hover:scale-[1.03]"
-            src="/moto/giuliano/video.mp4"
-            autoPlay
-            muted
-            loop
-            playsInline
+          <DynamicVideoPlayer
+            className="absolute inset-0 w-full h-full object-cover "
           />
 
           <div className="absolute inset-0 bg-black/0 transition-all duration-700 group-hover:bg-black/10" />
 
-          
+
         </div>
       </div>
     </section>

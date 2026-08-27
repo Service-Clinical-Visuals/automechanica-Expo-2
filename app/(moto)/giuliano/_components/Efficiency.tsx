@@ -28,14 +28,14 @@ export default function WorkshopEfficiency() {
         </p>
 
         <div
-          className="group relative w-full aspect-[1394/704] max-w-[1394px] min-[1920px]:max-w-[1700px] min-[2560px]:max-w-[2100px] min-[3840px]:max-w-[2800px] mx-auto overflow-hidden shadow-[0_3px_8px_rgba(0,0,0,0.24)] transition-all duration-700 ease-out hover:-translate-y-1 hover:shadow-[0_10px_25px_rgba(0,0,0,0.35)]"
+          className="group relative w-full aspect-video max-w-[1394px] min-[1920px]:max-w-[1700px] min-[2560px]:max-w-[2100px] min-[3840px]:max-w-[2800px] mx-auto overflow-hidden shadow-[0_3px_8px_rgba(0,0,0,0.24)] transition-all duration-700 ease-out hover:-translate-y-1 hover:shadow-[0_10px_25px_rgba(0,0,0,0.35)]"
           data-aos="zoom-in"
           data-aos-duration="1000"
           data-aos-delay="250"
         >
           <DynamicVideoPlayer
             type="short-2"
-            className="absolute inset-0 w-full h-full object-cover transition-transform duration-[1200ms] ease-out group-hover:scale-[1.03]"
+            className="absolute inset-0 w-full h-full object-cover "
           />
 
           <div className="absolute inset-0 bg-black/0 transition-all duration-700 group-hover:bg-black/10" />
