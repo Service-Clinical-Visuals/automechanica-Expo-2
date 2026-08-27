@@ -17,12 +17,12 @@ export default function About() {
     <section className="py-16 bg-white">
       <Container>
         {/* Dashed border wrapper */}
-        <div className="px-4 sm:px-8 md:px-14 lg:px-[100px]">
+        <div className="px-4 sm:px-8 md:px-14 xl:px-[100px]">
 
           {/* Top: image + text */}
-          <div className="flex flex-col lg:flex-row gap-10 items-center mb-15">
+          <div className="flex flex-col xl:flex-row gap-10 items-center mb-15">
             {/* Left image */}
-            <div className="w-full lg:w-1/2 shrink-0 items-center" data-aos="fade-right">
+            <div className="w-full xl:w-1/2 shrink-0 items-center" data-aos="fade-right">
               <img
                 src="/moto/ramoil/about.png"
                 alt="Ra.M.Oil production facility"
@@ -35,7 +35,7 @@ export default function About() {
             </div>
 
             {/* Right content */}
-            <div className="w-full lg:w-1/2 flex flex-col justify-center gap-5 self-center" data-aos="fade-left" data-aos-delay="150">
+            <div className="w-full xl:w-1/2 flex flex-col justify-center gap-5 self-center" data-aos="fade-left" data-aos-delay="150">
               <h2 className="heading text-[#00437A]">About Our Company</h2>
 
               <p className="content text-justify leading-[170%]!">

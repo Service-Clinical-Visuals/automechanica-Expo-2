@@ -6,11 +6,11 @@ export default function Performance() {
   return (
     <section className="">
       <Container className="bg-[#00437A] py-14 rounded-[24px]!">
-        <div className="px-4 sm:px-8 md:px-14 lg:px-[100px]">
-          <div className="flex flex-col lg:flex-row gap-10 items-center">
+        <div className="px-4 sm:px-8 md:px-14 xl:px-[100px]">
+          <div className="flex flex-col xl:flex-row gap-10 items-center">
 
             {/* Left: text */}
-            <div className="w-full lg:w-[45%] space-y-5" data-aos="fade-right">
+            <div className="w-full xl:w-[45%] space-y-5" data-aos="fade-right">
               <h2 className="heading-white">Engineered for Performance</h2>
               <hr className="border-t border-white/30" />
 
@@ -37,9 +37,9 @@ export default function Performance() {
             </div>
 
             {/* Right: 360 video */}
-            <div className="w-full lg:w-[55%] shrink-0" data-aos="fade-left" data-aos-delay="150">
+            <div className="w-full xl:w-[55%] shrink-0" data-aos="fade-left" data-aos-delay="150">
               <div className="w-full bg-white rounded-2xl aspect-video flex items-center justify-center overflow-hidden">
-                <DynamicVideoPlayer type="360" />
+                <DynamicVideoPlayer type="short-1" />
               </div>
             </div>
 
