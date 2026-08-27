@@ -4,9 +4,9 @@ import DynamicVideoPlayer from "../../../_components/DynamicVideoPlayer";
 
 export default function Banner() {
   return (
-    <section className="relative w-full h-[100svh] min-h-[500px] overflow-hidden">
+    <section className="relative w-full h-[100svh] min-h-[500px] overflow-x-hidden overflow-y-hidden">
       {/* Background Video */}
-      <div className="absolute inset-0 overflow-hidden">
+      <div className="absolute inset-0 overflow-x-hidden overflow-y-hidden">
         <DynamicVideoPlayer
           type="banner"
           className="
@@ -22,15 +22,9 @@ export default function Banner() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 h-full flex flex-col justify-end pb-10 sm:pb-12 md:pb-14 lg:pb-16 xl:pb-20">
-        <div className="custom-container">
-          <div
-            className="max-w-[432px] transition-transform duration-500 ease-out hover:-translate-y-1"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            data-aos-delay="500"
-            data-aos-easing="ease-out-cubic"
-          >
+      <div className="relative z-10 h-full flex flex-col justify-end pb-10 sm:pb-12 md:pb-14 lg:pb-16 xl:pb-20 overflow-x-hidden overflow-y-hidden">
+        <div className="custom-container overflow-x-hidden overflow-y-hidden">
+          <div className="max-w-[432px] transition-transform duration-500 ease-out hover:-translate-y-1">
             <h1
               className="hero-title font-normal text-white leading-tight mb-3"
               data-aos="fade-up"

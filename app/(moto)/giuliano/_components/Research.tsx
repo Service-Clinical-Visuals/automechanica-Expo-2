@@ -108,7 +108,7 @@ export default function ResearchDevelopment() {
             data-aos-duration="800"
             data-aos-delay="650"
           >
-            <Button text="Explore Innovation" href="/innovations" />
+            <Button text="Explore Innovation"  />
           </div>
         </div>
       </div>

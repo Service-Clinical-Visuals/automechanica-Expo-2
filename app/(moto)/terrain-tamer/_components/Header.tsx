@@ -44,6 +44,8 @@ export default function Header() {
         w-full
         z-50
         bg-white
+        overflow-x-hidden
+        overflow-y-hidden
         transition-all
         duration-500
         ease-out
@@ -54,20 +56,7 @@ export default function Header() {
         }
       `}
     >
-      <div
-        className={`
-          custom-container
-          ${
-            isScrolled
-              ? "aos-animate"
-              : ""
-          }
-        `}
-        data-aos="fade-down"
-        data-aos-duration="800"
-        data-aos-easing="ease-out-cubic"
-        data-aos-offset="0"
-      >
+      <div className="custom-container overflow-x-hidden overflow-y-hidden">
         <div className="flex items-center justify-between h-[100px]">
           {/* Logo */}
           <Link
@@ -82,7 +71,7 @@ export default function Header() {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden min-[1250px]:flex items-center gap-5 [@media(min-width:1250px)_and_(max-width:1499px)]:gap-3 min-[1500px]:gap-6">
+          <nav className="hidden min-[1250px]:flex items-center gap-5 [@media(min-width:1250px)_and_(max-width:1499px)]:gap-3 min-[1500px]:gap-6 overflow-x-hidden overflow-y-hidden">
             {navLinks.map((link) => (
               <Link
                 key={link.name}
@@ -105,7 +94,7 @@ export default function Header() {
           </nav>
 
           {/* Right actions */}
-          <div className="hidden min-[1250px]:flex items-center gap-5 [@media(min-width:1250px)_and_(max-width:1499px)]:gap-3 flex-shrink-0">
+          <div className="hidden min-[1250px]:flex items-center gap-5 [@media(min-width:1250px)_and_(max-width:1499px)]:gap-3 flex-shrink-0 overflow-x-hidden overflow-y-hidden">
             <Link
               href="#"
               className="group flex items-center gap-2 border-2 border-[#FECC00] rounded-[5px] px-4 [@media(min-width:1250px)_and_(max-width:1499px)]:px-3 py-[9px] hover:bg-[#FECC00] hover:shadow-[0_5px_15px_rgba(254,204,0,0.25)] hover:-translate-y-[2px] transition-all duration-300 ease-out whitespace-nowrap"
@@ -143,9 +132,7 @@ export default function Header() {
             <button
               aria-label="Toggle menu"
               className="text-[#272727] p-1 rounded-md hover:bg-[#FECC00] hover:scale-105 focus:outline-none transition-all duration-300 ease-out"
-              onClick={() =>
-                setIsMobileMenuOpen(!isMobileMenuOpen)
-              }
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             >
               {isMobileMenuOpen ? (
                 <X
@@ -167,18 +154,14 @@ export default function Header() {
 
       {/* Mobile Navigation */}
       {isMobileMenuOpen && (
-        <div className="min-[1250px]:hidden w-full bg-white border-t border-[#E4E4E4] shadow-lg">
-          <div className="custom-container">
-            <nav className="flex flex-col py-4">
-              {navLinks.map((link, index) => (
+        <div className="min-[1250px]:hidden w-full bg-white border-t border-[#E4E4E4] shadow-lg overflow-x-hidden overflow-y-hidden">
+          <div className="custom-container overflow-x-hidden overflow-y-hidden">
+            <nav className="flex flex-col py-4 overflow-x-hidden overflow-y-hidden">
+              {navLinks.map((link) => (
                 <Link
                   key={link.name}
                   href={link.href}
                   onClick={() => setIsMobileMenuOpen(false)}
-                  data-aos="fade-right"
-                  data-aos-delay={index * 40}
-                  data-aos-duration="400"
-                  data-aos-offset="0"
                   className={`nav-link group relative py-2 w-fit transition-all duration-300 ease-out hover:translate-x-1 ${
                     link.active
                       ? "text-[#FECC00] font-normal"
@@ -199,9 +182,6 @@ export default function Header() {
 
               <Link
                 href="#"
-                data-aos="fade-up"
-                data-aos-delay="300"
-                data-aos-duration="500"
                 className="group flex items-center gap-2 border-2 border-[#FECC00] rounded-[5px] px-4 py-[9px] mt-3 w-fit hover:bg-[#FECC00] hover:shadow-[0_5px_15px_rgba(254,204,0,0.25)] hover:-translate-y-[2px] transition-all duration-300 ease-out"
               >
                 <span className="btn-text font-semibold text-[#272727]">

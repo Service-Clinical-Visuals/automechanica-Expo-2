@@ -27,16 +27,10 @@ const features: Feature[] = [
 
 export default function Discover() {
   return (
-    <section className="w-full py-16 md:py-20 xl:py-24 bg-[#1C1C1C]">
-      <div className="custom-container flex flex-col gap-12 xl:gap-16">
+    <section className="w-full py-16 md:py-20 xl:py-24 bg-[#1C1C1C] overflow-x-hidden overflow-y-hidden">
+      <div className="custom-container flex flex-col gap-12 xl:gap-16 overflow-x-hidden overflow-y-hidden">
         {/* Heading */}
-        <div
-          className="flex flex-col items-center gap-4 text-center max-w-[820px] mx-auto"
-          data-aos="fade-up"
-          data-aos-duration="900"
-          data-aos-delay="100"
-          data-aos-easing="ease-out-cubic"
-        >
+        <div className="flex flex-col items-center gap-4 text-center max-w-[820px] mx-auto overflow-x-hidden overflow-y-hidden">
           <h2
             className="section-title font-semibold text-white leading-tight"
             data-aos="fade-up"
@@ -70,15 +64,9 @@ export default function Discover() {
         />
 
         {/* Content + video */}
-        <div className="flex flex-col xl:flex-row xl:items-center gap-8 xl:gap-10">
+        <div className="flex flex-col xl:flex-row xl:items-center gap-8 xl:gap-10 overflow-x-hidden overflow-y-hidden">
           {/* Left content */}
-          <div
-            className="w-full xl:flex-1 flex flex-col gap-6"
-            data-aos="fade-right"
-            data-aos-duration="1000"
-            data-aos-delay="450"
-            data-aos-easing="ease-out-cubic"
-          >
+          <div className="w-full xl:flex-1 flex flex-col gap-6 overflow-x-hidden overflow-y-hidden">
             <p
               className="section-text font-normal text-white [@media(min-width:1280px)_and_(max-width:1499px)]:!text-sm"
               data-aos="fade-right"
@@ -94,11 +82,11 @@ export default function Discover() {
               the road.
             </p>
 
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-4 overflow-x-hidden overflow-y-hidden">
               {features.map((feature, index) => (
                 <div
                   key={feature.title}
-                  className="group flex items-start gap-3 bg-white rounded-[5px] p-5 transition-all duration-500 ease-out hover:-translate-y-1 hover:shadow-[0_10px_25px_rgba(0,0,0,0.18)]"
+                  className="group flex items-start gap-3 bg-white rounded-[5px] p-5 transition-all duration-500 ease-out hover:-translate-y-1 hover:shadow-[0_10px_25px_rgba(0,0,0,0.18)] overflow-x-hidden overflow-y-hidden"
                   data-aos="fade-up"
                   data-aos-duration="800"
                   data-aos-delay={600 + index * 150}
@@ -111,7 +99,9 @@ export default function Discover() {
 
                   {/* Text */}
                   <p className="section-text font-normal text-[#272727] [@media(min-width:1280px)_and_(max-width:1499px)]:!text-xs transition-colors duration-300 group-hover:text-[#111111]">
-                    <span className="font-semibold">{feature.title}</span>{" "}
+                    <span className="font-semibold">
+                      {feature.title}
+                    </span>{" "}
                     – {feature.description}
                   </p>
                 </div>
@@ -120,6 +110,7 @@ export default function Discover() {
 
             {/* Button */}
             <div
+              className="overflow-x-hidden overflow-y-hidden"
               data-aos="fade-up"
               data-aos-duration="800"
               data-aos-delay="900"
@@ -133,7 +124,7 @@ export default function Discover() {
 
           {/* Right video */}
           <div
-            className="relative w-full xl:flex-1 aspect-video rounded-2xl overflow-hidden bg-[#0d0d0d] group"
+            className="relative w-full xl:flex-1 aspect-video rounded-2xl overflow-x-hidden overflow-y-hidden bg-[#0d0d0d] group"
             data-aos="fade-left"
             data-aos-duration="1100"
             data-aos-delay="500"

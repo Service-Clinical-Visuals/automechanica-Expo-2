@@ -14,16 +14,6 @@ export default function AOSInit() {
       delay: 0,
       anchorPlacement: "top-bottom",
     });
-
-    const handleLoad = () => {
-      AOS.refreshHard();
-    };
-
-    window.addEventListener("load", handleLoad);
-
-    return () => {
-      window.removeEventListener("load", handleLoad);
-    };
   }, []);
 
   return null;

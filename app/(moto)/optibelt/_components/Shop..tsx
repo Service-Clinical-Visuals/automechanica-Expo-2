@@ -12,20 +12,19 @@ export default function Shop() {
           <div className="flex flex-col xl:flex-row xl:items-center gap-10 xl:gap-12">
             {/* Video — 2nd on mobile, 1st (left) on xl */}
             <div
-              className="order-2 xl:order-1 group relative w-full xl:flex-[1.42] aspect-[926/520.52] rounded-2xl overflow-hidden bg-[#012440]"
+              className="order-2 xl:order-1 relative w-full xl:flex-[1.42] aspect-[926/520.52] rounded-2xl overflow-hidden bg-[#012440]"
               data-aos="zoom-in"
               data-aos-duration="900"
             >
               <DynamicVideoPlayer
                 type="short-2"
-                className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-[cubic-bezier(0.25,0.8,0.25,1)] group-hover:scale-105"
+                className="absolute inset-0 w-full h-full object-cover"
               />
             </div>
 
-            {/* Content wrapper — becomes invisible on mobile (children ordered independently),
-                becomes a real flex column from xl up (children follow normal document order) */}
+            {/* Content wrapper */}
             <div
-              className="contents xl:flex xl:flex-col xl:w-full xl:flex-1 xl:justify-center xl:gap-6 min-[1200px]:max-[1500px]:xl:gap-3"
+              className="contents xl:flex xl:flex-col xl:order-2 xl:w-full xl:flex-1 xl:justify-center xl:gap-6 min-[1200px]:max-[1500px]:xl:gap-3"
               data-aos="fade-up"
               data-aos-duration="700"
               data-aos-delay="200"
@@ -44,7 +43,6 @@ export default function Shop() {
                   materials and precision profiles, they deliver dependable
                   operation under demanding automotive conditions.
                 </p>
-
                 <p className="section-text font-normal text-white min-[750px]:max-[1950px]:text-xs min-[1200px]:max-[1500px]:!text-[10px] min-[1200px]:max-[1500px]:!leading-snug">
                   From everyday vehicles to high-performance applications,
                   Optibelt combines decades of belt-drive expertise with
@@ -59,7 +57,7 @@ export default function Shop() {
                 data-aos-duration="600"
                 data-aos-delay="400"
               >
-                <Button href="#" variant="primary">
+                <Button variant="primary">
                   Shop Now
                 </Button>
               </div>

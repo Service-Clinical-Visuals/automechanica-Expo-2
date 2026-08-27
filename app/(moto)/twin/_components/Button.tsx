@@ -9,7 +9,7 @@ interface ButtonProps {
 }
 
 export default function Button({ href, children, variant = "primary", className = "" }: ButtonProps) {
-  const baseClasses = "btn-text font-medium exo-2-font transition-all duration-300 inline-flex items-center justify-center px-[30px] py-[10px] gap-[10px] rounded-[16px]";
+  const baseClasses = "btn-text font-medium exo-2-font transition-all duration-300 inline-flex items-center justify-center px-[1.875em] py-[0.625em] gap-[10px] rounded-[16px]";
 
   const variants = {
     primary: "bg-[#0F53CC] text-white hover:bg-[#0F53CC]/90 border-[#0F53CC] border-[1px]",

@@ -11,10 +11,10 @@ export default function Footer() {
       <div className="custom-container">
 
         {/* Main Footer Content */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 lg:gap-15 mb-16">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-12 gap-8 lg:gap-15 mb-16">
 
           {/* Column 1: Logo & Text */}
-          <div className="flex flex-col gap-6 lg:col-span-4" data-aos="fade-up">
+          <div className="flex flex-col gap-6 col-span-2 lg:col-span-4" data-aos="fade-up">
             <Link href="#">
               <img
                 src="/moto/twin/logo.png"
@@ -43,7 +43,7 @@ export default function Footer() {
           </div>
 
           {/* Column 2: Quick Links */}
-          <div className="flex flex-col gap-6 lg:col-span-2" data-aos="fade-up" data-aos-delay="100">
+          <div className="flex flex-col gap-6 col-span-1 lg:col-span-2" data-aos="fade-up" data-aos-delay="100">
             <h4 className="text-[24px] font-semibold exo-2-font text-white">Quick Links</h4>
             <ul className="flex flex-col gap-4 text-white section-text font-regular inter-font">
               <li><Link href="#" className="hover:text-gray-300 transition-colors">Home</Link></li>
@@ -54,7 +54,7 @@ export default function Footer() {
           </div>
 
           {/* Column 3: Contact */}
-          <div className="flex flex-col gap-6 lg:col-span-3" data-aos="fade-up" data-aos-delay="200">
+          <div className="flex flex-col gap-6 col-span-1 lg:col-span-3" data-aos="fade-up" data-aos-delay="200">
             <h4 className="text-[24px] font-semibold exo-2-font text-white">Contact Us</h4>
             <ul className="flex flex-col gap-4 text-white section-text font-regular inter-font">
               <li className="flex items-center gap-3">
@@ -80,7 +80,7 @@ export default function Footer() {
           </div>
 
           {/* Column 4: Newsletter */}
-          <div className="flex flex-col gap-6 lg:col-span-3" data-aos="fade-up" data-aos-delay="300">
+          <div className="flex flex-col gap-6 col-span-2 lg:col-span-3" data-aos="fade-up" data-aos-delay="300">
             <h4 className="text-[24px] font-semibold exo-2-font text-white">Subscribe to Newsletter :</h4>
             <p className="inter-font section-text font-regular text-[#E5E5E5] leading-relaxed">
               Stay informed with the latest product launches, industry news, technical updates, and innovations

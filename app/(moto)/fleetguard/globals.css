@@ -433,3 +433,15 @@ body {
   background-position: center;
   opacity: 90%;
 }
+
+/* Hide scrollbar on desktop */
+@media (min-width: 1024px) {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  
+  * {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+}

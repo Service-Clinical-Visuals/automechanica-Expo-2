@@ -5,10 +5,10 @@ import DynamicVideoPlayer from "../../../_components/DynamicVideoPlayer";
 
 export default function Explore() {
   return (
-    <section className="relative w-full py-16 md:py-20 xl:py-24 bg-[#1C1C1C] overflow-hidden">
+    <section className="relative w-full py-16 md:py-20 xl:py-24 bg-[#1C1C1C] overflow-x-hidden overflow-y-hidden">
       {/* Background image */}
       <div
-        className="absolute inset-0"
+        className="absolute inset-0 overflow-x-hidden overflow-y-hidden"
         data-aos="fade-in"
         data-aos-duration="1500"
         data-aos-delay="0"
@@ -25,11 +25,12 @@ export default function Explore() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 custom-container">
-        <div className="grid grid-cols-1 xl:grid-cols-2 gap-6 xl:gap-10 xl:items-center">
+      <div className="relative z-10 custom-container overflow-x-hidden overflow-y-hidden">
+        <div className="grid grid-cols-1 xl:grid-cols-2 gap-6 xl:gap-10 xl:items-center overflow-x-hidden overflow-y-hidden">
+
           {/* Video */}
           <div
-            className="order-2 xl:order-1 relative w-full aspect-video rounded-2xl overflow-hidden bg-[#0d0d0d] group"
+            className="order-2 xl:order-1 relative w-full aspect-video rounded-2xl overflow-x-hidden overflow-y-hidden bg-[#0d0d0d] group"
             data-aos="fade-right"
             data-aos-duration="1100"
             data-aos-delay="250"
@@ -45,7 +46,8 @@ export default function Explore() {
           </div>
 
           {/* Right Content */}
-          <div className="order-1 xl:order-2 flex flex-col justify-center">
+          <div className="order-1 xl:order-2 flex flex-col justify-center overflow-x-hidden overflow-y-hidden">
+
             {/* Heading */}
             <h2
               className="section-title font-semibold text-white leading-tight mb-0 [@media(min-width:1280px)_and_(max-width:1499px)]:!text-xl"
@@ -58,7 +60,7 @@ export default function Explore() {
             </h2>
 
             {/* Paragraphs */}
-            <div className="flex flex-col gap-5 mt-5">
+            <div className="flex flex-col gap-5 mt-5 overflow-x-hidden overflow-y-hidden">
               <p
                 className="section-text font-normal text-white [@media(min-width:1280px)_and_(max-width:1499px)]:!text-sm"
                 data-aos="fade-left"
@@ -95,7 +97,7 @@ export default function Explore() {
 
             {/* Button */}
             <div
-              className="mt-5"
+              className="mt-5 overflow-x-hidden overflow-y-hidden"
               data-aos="fade-up"
               data-aos-duration="800"
               data-aos-delay="700"
@@ -105,6 +107,7 @@ export default function Explore() {
                 <Button>Explore More</Button>
               </div>
             </div>
+
           </div>
         </div>
       </div>

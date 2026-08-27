@@ -1,9 +1,11 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import Button from "./Button";
 
 export default function Partners() {
+  const [activeSlide, setActiveSlide] = useState(0);
+
   const newsItems = [
     {
       image: "/moto/twin/n1.png",
@@ -18,11 +20,28 @@ export default function Partners() {
       location: "Bensheim",
       title: "10-year service anniversary - We are celebrating Hermann Schmitzer's 10th anniversary with the company!",
       description: "We would like to extend our heartfelt thanks to our colleague Hermann for 10 years of loyal service. Here's to many more successful years together!"
+    },
+    {
+      image: "/moto/twin/n3.png",
+      date: "20.08.2025",
+      location: "Bensheim",
+      title: "The East Branch is Moving to a New Location!",
+      description: "Our East Branch is relocating to a new location, creating more space and improving accessibility for our customers and partners. Discover the latest updates and learn more about our new location."
+    },
+    {
+      image: "/moto/twin/n4.png",
+      date: "13.04.2025",
+      location: "Bensheim",
+      title: "WERKSTATT aktuell Award 2025 - Double victory and two podium places for TWIN BUSCH®",
+      description: "With two first places in the categories Lifts & Technology and Wheel Alignment, as well as two second places in the categories Air Conditioning Service Units."
     }
   ];
 
+  const currentItems = newsItems.slice(activeSlide * 2, activeSlide * 2 + 2);
+  const totalSlides = Math.ceil(newsItems.length / 2);
+
   return (
-    <section className="py-16 lg:py-20 bg-white relative">
+    <section className="py-10 lg:py-20 bg-white relative">
       <div className="custom-container">
 
         {/* Blue Framed Container */}
@@ -52,10 +71,10 @@ export default function Partners() {
 
           {/* News Grid */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-8 w-full" data-aos="fade-up" data-aos-delay="200">
-            {newsItems.map((news, index) => (
-              <div key={index} className="flex flex-col md:flex-row bg-white  rounded-[16px] overflow-hidden hover:-translate-y-1 transition-transform duration-300" style={{ boxShadow: '0px 2px 6px 2px #3C404326, 0px 1px 2px 0px #3C40434D' }}>
+            {currentItems.map((news, index) => (
+              <div key={activeSlide + '-' + index} className="flex flex-col md:flex-row bg-white rounded-[16px] overflow-hidden hover:-translate-y-1 transition-transform duration-300 animate-in fade-in zoom-in duration-500" style={{ boxShadow: '0px 2px 6px 2px #3C404326, 0px 1px 2px 0px #3C40434D' }}>
                 {/* Image */}
-                <div className="w-full md:w-[50%] h-65 md:h-auto shrink-0">
+                <div className="w-full md:w-[50%] aspect-video md:aspect-auto md:h-full shrink-0">
                   <img
                     src={news.image}
                     alt={news.title}
@@ -91,10 +110,18 @@ export default function Partners() {
           </div>
 
           {/* Pagination Dots */}
-          <div className="flex justify-center items-center gap-2 mt-10">
-            <div className="w-4 h-4 rounded-full bg-[#0F53CC]"></div>
-            <div className="w-3 h-3 rounded-full bg-[#E5E5E5]"></div>
-          </div>
+          {totalSlides > 1 && (
+            <div className="flex justify-center items-center gap-3 mt-10">
+              {Array.from({ length: totalSlides }).map((_, index) => (
+                <button
+                  key={index}
+                  onClick={() => setActiveSlide(index)}
+                  className={`rounded-full transition-all duration-300 ${activeSlide === index ? "w-4 h-4 bg-[#0F53CC]" : "w-3 h-3 bg-[#E5E5E5] hover:bg-gray-400"}`}
+                  aria-label={`Go to slide ${index + 1}`}
+                />
+              ))}
+            </div>
+          )}
 
         </div>
       </div>

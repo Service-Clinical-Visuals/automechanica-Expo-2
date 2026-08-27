@@ -112,7 +112,7 @@ export default function OurProducts() {
     >
       <div className="custom-container">
         {/* Heading + description */}
-        <div className="max-w-[70%] mx-auto text-center mb-8 md:mb-10">
+        <div className="xl:max-w-[70%] mx-auto text-center mb-8 md:mb-10">
           <h2
             data-aos="fade-up"
             data-aos-duration="800"
@@ -153,8 +153,8 @@ export default function OurProducts() {
                 type="button"
                 onClick={() => setActiveSlug(category.slug)}
                 className={`filter-text font-heading px-5 py-2.5 border transition-colors ${isActive
-                    ? "bg-primary border-primary text-white font-medium"
-                    : "bg-white border-primary text-body font-normal hover:bg-primary/5"
+                  ? "bg-primary border-primary text-white font-medium"
+                  : "bg-white border-primary text-body font-normal hover:bg-primary/5"
                   }`}
               >
                 {category.label}

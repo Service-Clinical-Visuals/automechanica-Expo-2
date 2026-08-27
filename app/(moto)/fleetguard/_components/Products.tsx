@@ -104,7 +104,7 @@ export default function Products() {
     >
       <Container>
         {/* Heading */}
-        <div className="text-center mx-auto mb-8 2xl:mb-12 4xl:mb-20" data-aos="fade-up">
+        <div className="text-center mx-auto mb-8 2xl:mb-10 4xl:mb-20" data-aos="fade-up">
           <h2 className="section-title font-oswald font-semibold mb-4 text-[#1A1A1A]">
             Advanced Filtration for Every Application
           </h2>
@@ -117,14 +117,14 @@ export default function Products() {
 
         {/* Tabs */}
         <div
-          className="flex justify-center items-center gap-4 md:gap-8 2xl:gap-12 4xl:gap-16 mb-10 2xl:mb-16 4xl:mb-24 flex-wrap border border-[#E4E4E4] rounded-[5px] max-w-fit mx-auto py-2 px-6 md:px-10 2xl:py-4 2xl:px-16"
+          className="flex justify-center items-center gap-4 md:gap-8 2xl:gap-10 4xl:gap-16 mb-10 2xl:mb-8 4xl:mb-24 flex-wrap border border-[#E4E4E4] rounded-[5px] max-w-fit mx-auto py-2 px-6 md:px-10 2xl:py-4 2xl:px-16"
           data-aos="fade-up"
         >
           {categories.map((cat) => (
             <button
               key={cat}
               onClick={() => setActiveCategory(cat)}
-              className={`font-bold card-title1 transition-colors ${activeCategory === cat ? "text-primary" : "text-[#4B5563BF] hover:text-primary"
+              className={`card-title1 font-semibold transition-colors ${activeCategory === cat ? "text-primary" : "text-[#4B5563BF] hover:text-primary"
                 }`}
             >
               {cat}
@@ -135,24 +135,25 @@ export default function Products() {
         {/* Product Cards */}
         <div
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-10 2xl:gap-14 4xl:gap-20"
-          data-aos="fade-up"
         >
-          {displayedProducts.map((product) => (
+          {displayedProducts.map((product, index) => (
             <div
               key={product.name}
-              className="border border-[#EAEAEA] rounded-md py-4 px-4 2xl:py-8 2xl:px-8 4xl:py-12 4xl:px-12 flex flex-col items-center text-center bg-white hover:shadow-lg transition-shadow"
+              data-aos="fade-up"
+              data-aos-delay={index * 100}
+              className="border border-[#EAEAEA] rounded-md py-4 px-4 2xl:py-6 2xl:px-4 4xl:py-12 4xl:px-12 flex flex-col items-center text-center bg-white hover:shadow-lg transition-shadow"
             >
-              <div className="w-full h-48 2xl:h-64 4xl:h-80 flex items-center justify-center mb-6 2xl:mb-10 overflow-hidden">
+              <div className="w-full aspect-[350/300] flex items-center justify-center mb-6 2xl:mb-10 overflow-hidden">
                 <img
                   src={product.image}
                   alt={product.name}
-                  className="max-w-full max-h-full object-contain"
+                  className="w-full h-full object-contain"
                 />
               </div>
-              <h3 className="card-title font-oswald font-semibold text-[#272727] mb-3">
+              <h3 className="card-title font-oswald font-semibold text-[#272727]  mb-3">
                 {product.name}
               </h3>
-              <p className="card-text font-rubik font-normal text-[#4B5563] mb-6 leading-relaxed flex-grow">
+              <p className="card-text font-rubik font-normal text-[#4B5563]  mb-6 leading-relaxed flex-grow">
                 {product.desc}
               </p>
               <Link
