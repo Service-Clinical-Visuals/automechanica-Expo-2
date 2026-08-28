@@ -89,10 +89,10 @@ export default function Header() {
           ))}
         </nav>
 
-        {/* Language Switcher */}
+        {/* Language Switcher - Hidden on mobile & tablets (visible only on lg screens and up) */}
         <button
           type="button"
-          className="hidden sm:inline-flex items-center justify-center gap-[10px] px-5 py-[10px] border-2 border-[#202020] rounded-[5px] hover:bg-[#202020] hover:text-white transition-all duration-300 group"
+          className="hidden lg:inline-flex items-center justify-center gap-[10px] px-5 py-[10px] border-2 border-[#202020] rounded-[5px] hover:bg-[#202020] hover:text-white transition-all duration-300 group"
         >
           <span className="lang-text group-hover:text-white transition-colors">
             ENG
@@ -100,7 +100,7 @@ export default function Header() {
           <UkFlagIcon />
         </button>
 
-        {/* Mobile Hamburger */}
+        {/* Mobile / Tablet Hamburger */}
         <button
           type="button"
           aria-label="Toggle menu"
@@ -125,10 +125,10 @@ export default function Header() {
         </button>
       </div>
 
-      {/* Mobile Menu Panel */}
+      {/* Mobile / Tablet Menu Panel */}
       <div
         className={`lg:hidden absolute top-full left-0 w-full bg-white/98 backdrop-blur-lg border-t border-gray-200 shadow-xl transition-all duration-300 ease-in-out overflow-hidden ${
-          mobileOpen ? "max-h-[400px] opacity-100 py-4" : "max-h-0 opacity-0 py-0"
+          mobileOpen ? "max-h-[450px] opacity-100 py-4" : "max-h-0 opacity-0 py-0"
         }`}
       >
         <nav className="custom-container flex flex-col">
@@ -143,6 +143,7 @@ export default function Header() {
               {link.label}
             </button>
           ))}
+          {/* Language switcher inside the dropdown menu */}
           <button
             type="button"
             className="inline-flex items-center justify-center gap-[10px] px-5 py-[10px] border-2 border-[#202020] rounded-[5px] mt-4 w-fit active:bg-[#202020] active:text-white transition-colors"

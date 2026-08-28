@@ -15,8 +15,9 @@ export default function Button({
   onClick,
   hasArrow = false,
 }: ButtonProps) {
+  // Reduced rounded-[14px] to rounded-lg
   const base =
-    "inline-flex items-center justify-center transition-all duration-300 rounded-[14px] px-8 py-2.5 font-semibold text-base whitespace-nowrap group";
+    "inline-flex items-center justify-center transition-all duration-300 rounded-lg px-8 py-2.5 font-semibold text-base whitespace-nowrap group";
 
   const variants: Record<string, string> = {
     primary: "bg-[#ed1c24] text-white hover:bg-[#c81b1e]",

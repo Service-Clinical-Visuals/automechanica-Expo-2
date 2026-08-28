@@ -54,6 +54,7 @@ const products = [
 export default function ProductShowcase() {
   return (
     <section className="w-full max-w-full overflow-hidden bg-[#0D0D0D] py-16 lg:py-24">
+      {/* Wrapped entirely within custom-container to guarantee parallel equal widths with all other sections */}
       <div className="custom-container text-center">
 
         {/* Heading */}
@@ -67,7 +68,7 @@ export default function ProductShowcase() {
 
         {/* Description */}
         <p
-          className="section-text text-white max-w-[1272px] mx-auto mb-12"
+          className="section-text text-white xl:max-w-[70%] mx-auto mb-12"
           data-aos="fade-up"
           data-aos-duration="900"
           data-aos-delay="150"
@@ -79,9 +80,7 @@ export default function ProductShowcase() {
           Discover the advanced technology, high-quality
         </p>
 
-        {/* Product Slider - explicit clipping wrapper so Swiper's
-            translated slide track (and duplicated loop slides) can
-            never push the page into horizontal scroll */}
+        {/* Product Slider */}
         <div
           className="w-full max-w-full overflow-hidden"
           data-aos="fade-up"
@@ -105,6 +104,9 @@ export default function ProductShowcase() {
             pagination={{
               clickable: true,
               el: ".product-pagination",
+              renderBullet: (index, className) => {
+                return `<span class="${className} !w-12 !h-1.5 !rounded-full !mx-1"></span>`;
+              },
             }}
             breakpoints={{
               768: {
@@ -120,36 +122,36 @@ export default function ProductShowcase() {
           >
             {products.map((product, index) => (
               <SwiperSlide key={product.id}>
-                {/* Outer Card */}
+                {/* Outer Card - completely stable, hover classes removed */}
                 <div
-                  className="group w-full aspect-[533/596] bg-surface-1 border border-mid shadow-[0_3px_8px_rgba(0,0,0,0.24)] p-5 transition-all duration-500 ease-out hover:-translate-y-2 hover:border-primary hover:shadow-[0_12px_30px_rgba(0,0,0,0.4)]"
+                  className="w-full aspect-[533/596] bg-surface-1 border border-mid shadow-[0_3px_8px_rgba(0,0,0,0.24)] p-5"
                   data-aos="zoom-in"
                   data-aos-duration="700"
                   data-aos-delay={100 + index * 80}
                 >
                   {/* Image + Hover Area */}
-                  <div className="group/image relative w-full h-full overflow-hidden cursor-pointer">
+                  <div className="group relative w-full h-full overflow-hidden cursor-pointer">
 
                     {/* Product Image */}
                     <img
                       src={product.image}
                       alt={product.name}
-                      className="block w-full h-full object-fill transition-transform duration-700 ease-out group-hover/image:scale-105"
+                      className="block w-full h-full object-fill transition-transform duration-700 ease-out group-hover:scale-105"
                     />
 
                     {/* Dark Overlay */}
-                    <div className="absolute inset-0 bg-black/50 opacity-0 group-hover/image:opacity-100 transition-opacity duration-300" />
+                    <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
                     {/* Hover Content */}
-                    <div className="absolute inset-0 flex items-end justify-between p-6 opacity-0 group-hover/image:opacity-100 transition-all duration-500">
+                    <div className="absolute inset-0 flex items-end justify-between p-6 opacity-0 group-hover:opacity-100 transition-all duration-500">
 
                       {/* Product Category */}
-                      <h3 className="max-w-[70%] text-left text-white text-[22px] font-bold leading-[1.35] translate-y-4 group-hover/image:translate-y-0 transition-transform duration-500">
+                      <h3 className="max-w-[70%] text-left text-white text-[22px] font-bold leading-[1.35] translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
                         {product.name}
                       </h3>
 
                       {/* Arrow Button */}
-                      <div className="flex items-center justify-center shrink-0 w-14 h-14 rounded-full bg-white text-[#159BD7] translate-y-4 rotate-[-10deg] group-hover/image:translate-y-0 group-hover/image:rotate-0 transition-all duration-500 hover:scale-110">
+                      <div className="flex items-center justify-center shrink-0 w-14 h-14 rounded-full bg-white text-[#159BD7] translate-y-4 rotate-[-10deg] group-hover:translate-y-0 group-hover:rotate-0 transition-all duration-500 hover:scale-110">
                         <ArrowUpRight size={28} strokeWidth={2} />
                       </div>
                     </div>  
@@ -161,7 +163,7 @@ export default function ProductShowcase() {
         </div>
 
         {/* Custom Pagination */}
-        <div className="product-pagination flex items-center justify-center gap-1 mt-8" data-aos="fade-up" data-aos-duration="700" data-aos-delay="350" />
+        <div className="product-pagination flex items-center justify-center mt-8" data-aos="fade-up" data-aos-duration="700" data-aos-delay="350" />
       </div>
     </section>
   );

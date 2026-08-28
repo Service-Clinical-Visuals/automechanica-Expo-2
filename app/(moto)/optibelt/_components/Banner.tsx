@@ -27,7 +27,7 @@ export default function Banner() {
 
           {/* Content */}
           <div className="relative z-10 h-full flex flex-col justify-end px-12 sm:px-12 md:px-[68px] xl:px-[88px] pb-10 md:pb-14 xl:pb-16">
-            <div className="max-w-[476px]">
+            <div className="max-w-[476px] xl:max-w-[70%]">
               <h1
                 className="banner-title font-bold text-white leading-tight mb-4"
                 data-aos="fade-up"
@@ -37,7 +37,7 @@ export default function Banner() {
                 Performance you can trust.
               </h1>
               <p
-                className="section-text font-normal text-white mb-6 max-w-[510px]"
+                className="section-text font-normal text-white mb-6 max-w-[510px] xl:max-w-[70%]"
                 data-aos="fade-up"
                 data-aos-duration="800"
                 data-aos-delay="250"

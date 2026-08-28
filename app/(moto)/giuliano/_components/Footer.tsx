@@ -71,7 +71,7 @@ export default function Footer() {
 
           {/* Column 2: Corporate */}
           <div className="col-span-1 xl:ml-10 2xl:ml-14 min-[2560px]:ml-20" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
-            <h4 className="footer-heading mb-6">Corporate</h4>
+            <h4 className="footer-heading text-white mb-6">Corporate</h4>
 
             <ul className="space-y-4">
               {corporateLinks.map((link, index) => (
@@ -86,7 +86,7 @@ export default function Footer() {
 
           {/* Column 3: Products */}
           <div className="col-span-1" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
-            <h4 className="footer-heading mb-6">Products</h4>
+            <h4 className="footer-heading text-white mb-6">Products</h4>
 
             <ul className="space-y-4">
               {productLinks.map((link, index) => (
@@ -101,7 +101,7 @@ export default function Footer() {
 
           {/* Column 4: Contact Us */}
           <div className="col-span-2 md:col-span-1" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
-            <h4 className="footer-heading mb-6">Contact Us</h4>
+            <h4 className="footer-heading text-white mb-6">Contact Us</h4>
 
             <ul className="space-y-4">
               <li className="flex items-center gap-3 transition-transform duration-300 hover:translate-x-1">
@@ -134,7 +134,7 @@ export default function Footer() {
 
           {/* Column 5: Social Media Links */}
           <div className="col-span-2 md:col-span-3 xl:col-span-1" data-aos="fade-left" data-aos-duration="800" data-aos-delay="400">
-            <h4 className="footer-heading mb-6">Social Media Links</h4>
+            <h4 className="footer-heading text-white mb-6">Social Media Links</h4>
 
             <div className="flex items-center gap-3">
               {socialLinks.map((social, index) => (

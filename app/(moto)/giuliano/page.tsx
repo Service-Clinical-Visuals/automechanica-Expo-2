@@ -10,10 +10,9 @@ import ProductShowcase from "./_components/Products";
 import ResearchDevelopment from "./_components/Research";
 import "./globals.css";
 
-
 export default function GiulianoPage() {
   return (
-    <main className="flex min-h-screen flex-col w-full bg-[#0D0D0D] overflow-x-hidden font-oxanium">
+    <div className="flex flex-col w-full bg-[#0D0D0D] font-oxanium">
       <Banner/>
       <AboutUs/>
       <Product360/>
@@ -22,6 +21,6 @@ export default function GiulianoPage() {
       <ResearchDevelopment/>
       <WorkshopEfficiency/>
       <NewsSection/>
-    </main>
+    </div>
   );
 }

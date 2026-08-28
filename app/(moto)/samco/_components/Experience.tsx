@@ -35,13 +35,14 @@ export default function Experience() {
   return (
     <section className="w-full py-16 md:py-24 bg-surface-dark" id="cabin-filters">
       <div className="custom-container">
-        {/* 1 col up to 1025px, 2 cols at 1026px+ */}
-        <div className="grid grid-cols-1 min-[1026px]:grid-cols-2 gap-10 min-[1026px]:gap-16 items-center">
-          
-          {/* Copy */}
+        {/* 12-column grid layout: 4 columns for content, 8 columns for a larger video */}
+        <div className="grid grid-cols-1 xl:grid-cols-12 gap-10 xl:gap-12 items-center">
+
+          {/* Copy Column: Spans 4 columns */}
           <div
             data-aos="fade-right"
             data-aos-duration="800"
+            className="xl:col-span-4 w-full"
           >
             <div className="flex items-center gap-3 mb-4">
               <span className="w-5 h-5 bg-primary flex-shrink-0" />
@@ -70,7 +71,7 @@ export default function Experience() {
 
             <ul className="flex flex-col gap-4 mb-8">
               {FEATURES.map((feature, index) => (
-                <li 
+                <li
                   key={feature}
                   data-aos="fade-up"
                   data-aos-duration="600"
@@ -92,19 +93,17 @@ export default function Experience() {
             </div>
           </div>
 
-          {/* 360 Video Container */}
+          {/* 360 Video Container: Spans 8 columns to make it significantly larger */}
           <div
             data-aos="fade-left"
             data-aos-duration="800"
             data-aos-delay="200"
-            className="w-full aspect-video rounded-xs overflow-hidden bg-gray-900 shadow-2xl border border-white/10"
+            className="xl:col-span-8 w-full aspect-video rounded-xs overflow-hidden bg-gray-900 shadow-2xl border border-white/10"
           >
-            <div className="w-full h-full">
-              <DynamicVideoPlayer
-                type="360"
-                className="w-full h-full object-cover"
-              />
-            </div>
+            <DynamicVideoPlayer
+              type="360"
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
       </div>

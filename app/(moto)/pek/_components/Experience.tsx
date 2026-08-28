@@ -37,7 +37,7 @@ export default function Experience() {
         <span 
           data-aos="fade-down"
           data-aos-duration="600"
-          className="font-space-grotesk font-bold text-xs sm:text-sm leading-[18px] text-white tracking-wider mb-3 sm:mb-[15px] text-center"
+          className="font-space-grotesk font-bold text-xs sm:text-sm leading-[18px] text-white uppercase tracking-wider mb-3 sm:mb-[15px] text-center"
         >
           Timing Control Components
         </span>
@@ -57,7 +57,7 @@ export default function Experience() {
           data-aos="fade-up"
           data-aos-duration="800"
           data-aos-delay="200"
-          className="section-text font-space-grotesk text-white text-center mb-10 xl:mb-[60px] max-w-[1344px] 3k:max-w-[1600px] leading-relaxed opacity-90"
+          className="section-text font-space-grotesk text-white text-center mb-10 xl:mb-[60px] max-w-[1344px] xl:max-w-[70%] mx-auto leading-relaxed opacity-90"
         >
           Our timing tensioners are engineered to maintain accurate belt and chain tension, ensuring precise synchronization between engine components. Designed with advanced mechanical and hydraulic technologies, they automatically adjust to changing operating conditions, delivering consistent performance and reducing the risk of timing failure.
         </p>

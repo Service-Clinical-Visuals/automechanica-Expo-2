@@ -30,12 +30,12 @@ export default function VM() {
         <div 
           data-aos="fade-up"
           data-aos-duration="800"
-          className="text-center w-full max-w-3xl min-[2000px]:max-w-full mx-auto mb-16 sm:mb-20 md:mb-24 px-2"
+          className="text-center w-full max-w-3xl xl:max-w-[70%] mx-auto mb-16 sm:mb-20 md:mb-24 px-2"
         >
-          <h2 className="section-title font-semibold text-heading mb-4 text-2xl sm:text-3xl md:text-4xl min-[2000px]:text-5xl leading-tight sm:leading-snug">
+          <h2 className="section-title font-semibold text-heading mb-4 text-2xl sm:text-3xl md:text-4xl leading-tight sm:leading-snug">
             Our Mission &amp; Vision
           </h2>
-          <p className="section-text text-base sm:text-lg min-[2000px]:text-xl min-[2000px]:max-w-full leading-relaxed text-[#4B5563]">
+          <p className="section-text text-base sm:text-lg leading-relaxed text-[#4B5563]">
             Driven by innovation and excellence, we aim to create advanced
             filtration solutions for the automotive industry while
             maintaining quality, sustainability, and customer-focused values.
@@ -65,9 +65,12 @@ export default function VM() {
                   className="w-10 h-10 min-[1026px]:w-14 min-[1026px]:h-14 aspect-square object-contain"
                 />
               </div>
-              <h3 className="card-title-sm font-semibold text-[#111827] mb-4">
+
+              {/* Title with top margin for spacing below red icon */}
+              <h3 className="card-title-sm font-semibold text-[#111827] mt-6 min-[1026px]:mt-8 mb-4">
                 {item.title}
               </h3>
+
               {item.paragraphs.map((p, i) => (
                 <p key={i} className="section-text mb-4 last:mb-0 text-[#4B5563]">
                   {p}
@@ -84,7 +87,7 @@ export default function VM() {
           data-aos-delay="400"
           className="flex flex-col min-[1026px]:flex-row items-center justify-between gap-6 mt-16 text-center min-[1026px]:text-left"
         >
-          <p className="section-text max-w-2xl min-[2000px]:max-w-full text-[#4B5563]">
+          <p className="section-text max-w-2xl xl:max-w-[70%] text-[#4B5563]">
             Together, our mission and vision inspire continuous innovation,
             exceptional quality, and reliable filtration solutions that
             support the evolving needs of the global automotive industry.

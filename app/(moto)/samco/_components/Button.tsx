@@ -2,7 +2,7 @@
 
 import React from "react";
 
-type ButtonVariant = "solid" | "outline-primary" | "outline-white";
+type ButtonVariant = "solid" | "primary" | "outline-primary" | "outline-white";
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   children: React.ReactNode;
@@ -12,6 +12,7 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 
 const variantStyles: Record<ButtonVariant, string> = {
   solid: "bg-[#BA0C2F] text-white border border-transparent hover:bg-[#9E0A28]",
+  primary: "bg-[#BA0C2F] text-white border border-transparent hover:bg-[#9E0A28]",
   "outline-primary":
     "bg-transparent border border-[#BA0C2F] text-[#BA0C2F] hover:bg-[#BA0C2F]/5",
   "outline-white":
@@ -29,7 +30,7 @@ export default function Button({
   return (
     <button
       type={type}
-      className={`inline-flex items-center justify-center gap-2.5 px-6 py-3 rounded-lg font-medium text-base leading-tight whitespace-nowrap transition-colors duration-200 cursor-pointer ${variantStyles[variant]} ${className}`}
+      className={`inline-flex items-center justify-center gap-2.5 px-6 py-2.5 rounded font-medium text-base leading-tight whitespace-nowrap transition-colors duration-200 cursor-pointer ${variantStyles[variant]} ${className}`}
       {...props}
     >
       <span>{children}</span>

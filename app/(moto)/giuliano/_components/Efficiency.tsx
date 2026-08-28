@@ -16,7 +16,7 @@ export default function WorkshopEfficiency() {
         </h2>
 
         <p
-          className="section-text-lg text-white max-w-[1272px] mx-auto mb-12"
+          className="section-text-lg text-white max-w-[1272px] xl:max-w-[70%] mx-auto mb-12"
           data-aos="fade-up"
           data-aos-duration="900"
           data-aos-delay="150"
@@ -26,19 +26,20 @@ export default function WorkshopEfficiency() {
           engineering, innovative technology, and practical workshop
           functionality for reliable professional performance worldwide.
         </p>
+      </div>
 
+      {/* Video container with overflow hidden and scaled video */}
+      <div className="w-full px-4">
         <div
-          className="group relative w-full aspect-video max-w-[1394px] min-[1920px]:max-w-[1700px] min-[2560px]:max-w-[2100px] min-[3840px]:max-w-[2800px] mx-auto overflow-hidden shadow-[0_3px_8px_rgba(0,0,0,0.24)] transition-all duration-700 ease-out hover:-translate-y-1 hover:shadow-[0_10px_25px_rgba(0,0,0,0.35)]"
+          className="relative w-full aspect-[1394/704] max-w-[950px] min-[2000px]:max-w-[2100px] min-[2560px]:max-w-[2500px] mx-auto overflow-hidden rounded-[12px] border border-white/20 shadow-[0_3px_8px_rgba(0,0,0,0.24)]"
           data-aos="zoom-in"
           data-aos-duration="1000"
           data-aos-delay="250"
         >
           <DynamicVideoPlayer
             type="short-2"
-            className="absolute inset-0 w-full h-full object-cover "
+            className="absolute inset-0 w-full h-full object-cover scale-[1.08]"
           />
-
-          <div className="absolute inset-0 bg-black/0 transition-all duration-700 group-hover:bg-black/10" />
         </div>
       </div>
     </section>

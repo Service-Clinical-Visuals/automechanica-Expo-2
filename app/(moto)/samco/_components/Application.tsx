@@ -63,7 +63,7 @@ export default function Application() {
           data-aos="fade-up"
           data-aos-duration="800"
           data-aos-delay="200"
-          className="section-text text-center max-w-4xl min-[2000px]:max-w-full mx-auto mb-16"
+          className="section-text text-center max-w-4xl xl:max-w-[70%] mx-auto mb-16"
         >
           Our components are trusted across a wide range of vehicles and
           industries worldwide, delivering reliable performance, durability,
@@ -102,7 +102,7 @@ export default function Application() {
                 <h3 className="card-label font-medium uppercase text-dark mb-2 group-hover:text-primary transition-colors duration-300">
                   {title}
                 </h3>
-                <p className="card-text min-[2000px]:max-w-full">{description}</p>
+                <p className="card-text">{description}</p>
               </div>
             </div>
           ))}

@@ -71,11 +71,12 @@ const newsItems: NewsItem[] = [
 export default function NewsSection() {
   return (
     <section className="w-full max-w-full overflow-hidden bg-[#0D0D0D] py-16 lg:py-24">
+      {/* Wrapped seamlessly within custom-container */}
       <div className="custom-container">
 
         {/* Header */}
         <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6 mb-8">
-          <div className="max-w-[1187px]" data-aos="fade-right" data-aos-duration="900">
+          <div className="xl:max-w-[70%]" data-aos="fade-right" data-aos-duration="900">
             <h2 className="section-heading text-white mb-6">
               Latest From Giuliano Automotive
             </h2>
@@ -89,7 +90,8 @@ export default function NewsSection() {
             </p>
           </div>
 
-          <div className="flex-shrink-0 pr-2 transition-transform duration-300 hover:-translate-y-1" data-aos="fade-left" data-aos-duration="900" data-aos-delay="200">
+          {/* Added pr-7 safeguard for the absolute arrow on the right boundary */}
+          <div className="flex-shrink-0 pr-7 transition-transform duration-300 hover:-translate-y-1" data-aos="fade-left" data-aos-duration="900" data-aos-delay="200">
             <Button text="View All News" />
           </div>
         </div>
@@ -97,9 +99,7 @@ export default function NewsSection() {
         {/* Divider */}
         <div className="w-full border-t border-soft mb-10" data-aos="fade-in" data-aos-duration="700" data-aos-delay="100" />
 
-        {/* News Carousel - explicit clipping wrapper so Swiper's
-            translated slide track (and duplicated loop slides) can
-            never push the page into horizontal scroll */}
+        {/* News Carousel */}
         <div
           className="w-full max-w-full overflow-hidden"
           data-aos="fade-up"
@@ -140,19 +140,16 @@ export default function NewsSection() {
                 slidesPerView: 3,
                 spaceBetween: 40,
               },
-              2000: {
-                slidesPerView: 4,
-                spaceBetween: 40,
-              },
             }}
             className="!pb-4 !overflow-hidden"
           >
             {newsItems.map((item, index) => (
               <SwiperSlide key={`${item.title}-${item.date}-${index}`}>
-                <div className="group bg-surface-2 border border-soft shadow-[0_3px_8px_rgba(0,0,0,0.24)] p-[30px] flex flex-col h-full transition-all duration-500 ease-out hover:-translate-y-2 hover:border-primary hover:shadow-[0_12px_30px_rgba(0,0,0,0.35)]">
+                {/* Stable card wrapper with hover applied ONLY to child image */}
+                <div className="group bg-surface-2 border border-soft shadow-[0_3px_8px_rgba(0,0,0,0.24)] p-[30px] flex flex-col h-full">
 
-                  {/* News Image */}
-                  <div className="relative w-full aspect-[480/349] mb-6 overflow-hidden">
+                  {/* News Image with sharp corners and clean border */}
+                  <div className="relative w-full aspect-[480/349] mb-6 overflow-hidden border border-white/20">
                     <img
                       src={item.image}
                       alt={item.title}
@@ -168,17 +165,17 @@ export default function NewsSection() {
                   </h3>
 
                   {/* Date */}
-                  <p className="date-text text-white mb-3 transition-opacity duration-300 group-hover:opacity-80">
+                  <p className="date-text text-white mb-3">
                     {item.date}
                   </p>
 
                   {/* Excerpt */}
-                  <p className="section-text text-white mb-6 flex-1 line-clamp-2 transition-opacity duration-300 group-hover:opacity-90">
+                  <p className="section-text text-white mb-6 flex-1 line-clamp-2">
                     {item.excerpt}
                   </p>
 
-                  {/* Button */}
-                  <div className="transition-transform duration-300 group-hover:translate-x-1">
+                  {/* Button with right padding safeguard for arrow */}
+                  <div className="pr-7 transition-transform duration-300 group-hover:translate-x-1">
                     <Button text="Read More" />
                   </div>
                 </div>

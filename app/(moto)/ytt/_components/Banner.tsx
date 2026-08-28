@@ -21,7 +21,7 @@ export default function Banner() {
       {/* Content */}
       <div className="relative z-10 h-full flex flex-col justify-end pb-16 md:pb-20 xl:pb-24">
         <div className="custom-container">
-          <div className="max-w-[816px] flex flex-col gap-8">
+          <div className="max-w-[816px] xl:max-w-[70%] flex flex-col gap-8">
             <h1
               data-aos="fade-up"
               data-aos-delay="300"

@@ -9,7 +9,7 @@ export default function Explore360() {
       <div className="custom-container">
         {/* Heading + description (left) / button (right) */}
         <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6 lg:gap-10 pb-8 md:pb-10 border-b border-white/[0.74]">
-          <div className="max-w-[1165px] min-[3800px]:max-w-[2400px]">
+          <div className="max-w-[1165px] xl:max-w-[70%] min-[3800px]:max-w-[2400px]">
             <h2
               data-aos="fade-up"
               data-aos-duration="800"

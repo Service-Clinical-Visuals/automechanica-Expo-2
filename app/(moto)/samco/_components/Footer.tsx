@@ -41,20 +41,20 @@ export default function Footer() {
   return (
     <footer className="w-full bg-[#202020] text-white overflow-x-clip" id="footer">
       <div className="custom-container pt-16 md:pt-20 pb-8">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-8 mb-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8 mb-12">
           
           {/* Brand Column */}
           <div 
             data-aos="fade-up" 
             data-aos-duration="700"
-            className="sm:col-span-2 lg:col-span-1"
+            className="sm:col-span-2 lg:col-span-3"
           >
             <img
               src="/moto/samco/footer_logo.png"
               alt="SAMCO"
               className="h-[45px] w-auto aspect-[162/60] object-contain mb-4 hover:opacity-90 transition-opacity duration-200"
             />
-            <p className="footer-link">
+            <p className="footer-link font-['Source_Sans_3',sans-serif] font-normal">
               A trusted automotive manufacturer delivering high-quality
               filtration, suspension, and engine components, known for
               reliability, performance, and innovative engineering solutions
@@ -67,6 +67,7 @@ export default function Footer() {
             data-aos="fade-up" 
             data-aos-duration="700"
             data-aos-delay="100"
+            className="lg:col-span-2"
           >
             <h3 className="footer-heading font-medium text-white mb-3">Quick Links</h3>
             <div className="w-16 h-[2px] bg-primary mb-4" />
@@ -75,7 +76,7 @@ export default function Footer() {
                 <li key={link}>
                   <button 
                     type="button" 
-                    className="footer-link text-left hover:text-primary hover:translate-x-1 transition-all duration-200 inline-block"
+                    className="footer-link font-['Source_Sans_3',sans-serif] font-normal text-left hover:text-primary hover:translate-x-1 transition-all duration-200 inline-block"
                   >
                     {link}
                   </button>
@@ -89,6 +90,7 @@ export default function Footer() {
             data-aos="fade-up" 
             data-aos-duration="700"
             data-aos-delay="200"
+            className="lg:col-span-2"
           >
             <h3 className="footer-heading font-medium text-white mb-3">Products</h3>
             <div className="w-16 h-[2px] bg-primary mb-4" />
@@ -97,7 +99,7 @@ export default function Footer() {
                 <li key={link}>
                   <button 
                     type="button" 
-                    className="footer-link text-left hover:text-primary hover:translate-x-1 transition-all duration-200 inline-block"
+                    className="footer-link font-['Source_Sans_3',sans-serif] font-normal text-left hover:text-primary hover:translate-x-1 transition-all duration-200 inline-block"
                   >
                     {link}
                   </button>
@@ -111,13 +113,14 @@ export default function Footer() {
             data-aos="fade-up" 
             data-aos-duration="700"
             data-aos-delay="300"
+            className="lg:col-span-2"
           >
             <h3 className="footer-heading font-medium text-white mb-3">Contact</h3>
             <div className="w-16 h-[2px] bg-primary mb-4" />
             <div className="flex flex-col gap-4">
               <div className="flex items-start gap-3 group">
                 <LocationIcon />
-                <span className="footer-link group-hover:text-white transition-colors duration-200">
+                <span className="footer-link font-['Source_Sans_3',sans-serif] font-normal group-hover:text-white transition-colors duration-200">
                   SAMCO Autotechnik GmbH
                   <br />
                   Höhenhöfe 30
@@ -129,13 +132,13 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-3 group">
                 <PhoneIcon />
-                <a href="tel:+4902151993999" className="footer-link hover:text-primary transition-colors duration-200">
+                <a href="tel:+4902151993999" className="footer-link font-['Source_Sans_3',sans-serif] font-normal hover:text-primary transition-colors duration-200">
                   +49 (0)2151 99 39 99
                 </a>
               </div>
               <div className="flex items-center gap-3 group">
                 <MailIcon />
-                <a href="mailto:sales@samco.com.de" className="footer-link hover:text-primary transition-colors duration-200">
+                <a href="mailto:sales@samco.com.de" className="footer-link font-['Source_Sans_3',sans-serif] font-normal hover:text-primary transition-colors duration-200">
                   sales@samco.com.de
                 </a>
               </div>
@@ -147,31 +150,32 @@ export default function Footer() {
             data-aos="fade-up" 
             data-aos-duration="700"
             data-aos-delay="400"
+            className="sm:col-span-2 lg:col-span-3"
           >
             <h3 className="footer-heading font-medium text-white mb-3">Stay Updated</h3>
             <div className="w-16 h-[2px] bg-primary mb-4" />
-            <form onSubmit={(e) => e.preventDefault()} className="flex flex-col sm:flex-row lg:flex-col xl:flex-row items-stretch gap-3">
+            <form onSubmit={(e) => e.preventDefault()} className="flex flex-col sm:flex-row items-stretch gap-3 w-full">
               <input
                 type="email"
                 placeholder="Enter your email address"
-                className="footer-link flex-1 min-w-0 bg-transparent border border-white/60 focus:border-primary rounded-lg px-4 py-[10px] placeholder:text-white/70 text-white focus:outline-none focus:ring-1 focus:ring-primary transition-colors duration-200"
+                className="footer-link font-['Source_Sans_3',sans-serif] font-normal flex-1 w-full bg-transparent border border-white/60 focus:border-primary rounded-[5px] px-4 py-[10px] placeholder:text-white/70 text-white focus:outline-none focus:ring-1 focus:ring-primary transition-colors duration-200"
               />
-              <Button variant="solid" className="shrink-0">Subscribe</Button>
+              <Button variant="solid" className="shrink-0 px-5 !rounded-[5px]">Subscribe</Button>
             </form>
           </div>
         </div>
 
-        {/* Bottom Bar (AOS removed so copyright and legal links are permanently visible) */}
+        {/* Bottom Bar */}
         <div className="border-t border-[#A3A3A3]/40 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="footer-legal">© 2026 SAMCO Autotechnik GmbH</p>
+          <p className="footer-legal font-['Source_Sans_3',sans-serif] font-normal">© 2026 SAMCO Autotechnik GmbH</p>
           <div className="flex items-center gap-6">
-            <button type="button" className="footer-legal hover:text-primary transition-colors duration-200">
+            <button type="button" className="footer-legal font-['Source_Sans_3',sans-serif] font-normal hover:text-primary transition-colors duration-200">
               Privacy Policy
             </button>
-            <button type="button" className="footer-legal hover:text-primary transition-colors duration-200">
+            <button type="button" className="footer-legal font-['Source_Sans_3',sans-serif] font-normal hover:text-primary transition-colors duration-200">
               Terms &amp; Conditions
             </button>
-            <button type="button" className="footer-legal hover:text-primary transition-colors duration-200">
+            <button type="button" className="footer-legal font-['Source_Sans_3',sans-serif] font-normal hover:text-primary transition-colors duration-200">
               Sitemap
             </button>
           </div>

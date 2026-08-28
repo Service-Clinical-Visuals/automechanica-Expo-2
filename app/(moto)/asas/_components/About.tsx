@@ -66,7 +66,7 @@ export default function About() {
           <img
             src="/moto/asas/about.jpg"
             alt="ASAS Filter product"
-            className="w-full aspect-video object-cover rounded-2xl shadow-[0px_3px_8px_rgba(0,0,0,0.24)]"
+            className="w-full aspect-video object-cover object-right rounded-2xl shadow-[0px_3px_8px_rgba(0,0,0,0.24)]"
           />
           <div className="bg-[#212121] rounded-2xl grid grid-cols-3 divide-x divide-[#d9d9d9]/30 py-8">
             {stats.map((stat, index) => (
@@ -80,7 +80,7 @@ export default function About() {
                 <img
                   src={stat.icon}
                   alt={stat.label}
-                  className="w-8 h-8 aspect-square object-contain"
+                  className="w-14 h-14 md:w-16 md:h-16 aspect-square object-contain"
                 />
                 <span className="card-title-sm font-semibold text-white text-center">
                   {stat.label}

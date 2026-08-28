@@ -24,12 +24,12 @@ export default function Features() {
           <div 
             data-aos="fade-right"
             data-aos-duration="800"
-            className="w-full max-w-2xl min-[2000px]:max-w-full"
+            className="w-full max-w-2xl xl:max-w-[70%]"
           >
             <h2 className="section-title font-semibold text-heading mb-4">
               Research &amp; Development
             </h2>
-            <p className="section-text min-[2000px]:max-w-full text-[#4B5563]">
+            <p className="section-text text-[#4B5563]">
               Our Research &amp; Development team develops advanced automotive
               filtration solutions, overseeing every stage from concept and
               design to testing and production.
@@ -46,31 +46,30 @@ export default function Features() {
           </div>
         </div>
 
-        {/* Two-column grid: 1 column up to 1025px, 2 columns at 1026px+ */}
-        <div className="grid min-[1026px]:grid-cols-2 gap-12 items-center">
-          {/* Left Side: Video */}
+        {/* 12-Column Grid: 8 columns for video, 4 columns for content */}
+        <div className="grid grid-cols-1 min-[1026px]:grid-cols-12 gap-8 min-[1026px]:gap-12 items-center">
+          
+          {/* Left Side: Video (Span 8) */}
           <div 
             data-aos="fade-right"
             data-aos-duration="800"
             data-aos-delay="200"
-            className="w-full aspect-video rounded-2xl overflow-hidden bg-gray-900 shadow-lg"
+            className="w-full min-[1026px]:col-span-8 aspect-video rounded-2xl overflow-hidden bg-gray-900 shadow-lg"
           >
-            <div className="w-full h-full">
-              <DynamicVideoPlayer
-                type="short-1"
-                className="w-full h-full object-cover aspect-video"
-              />
-            </div>
+            <DynamicVideoPlayer
+              type="short-1"
+              className="w-full h-full object-cover aspect-video"
+            />
           </div>
 
-          {/* Right Side: Features Content */}
+          {/* Right Side: Features Content (Span 4) */}
           <div 
             data-aos="fade-left"
             data-aos-duration="800"
             data-aos-delay="300"
-            className="w-full max-w-none min-[2000px]:max-w-full"
+            className="w-full min-[1026px]:col-span-4 max-w-none"
           >
-            <p className="section-text mb-8 min-[2000px]:max-w-full text-[#4B5563]">
+            <p className="section-text mb-8 text-[#4B5563]">
               By combining engineering expertise, advanced technology, and
               laboratory testing, we develop high-performance filtration
               solutions that meet rigorous quality standards while improving
@@ -94,12 +93,13 @@ export default function Features() {
                     <h4 className="card-title-sm font-semibold text-[#111827] mb-2">
                       {f.title}
                     </h4>
-                    <p className="section-text min-[2000px]:max-w-full text-[#4B5563]">{f.text}</p>
+                    <p className="section-text text-[#4B5563]">{f.text}</p>
                   </div>
                 </li>
               ))}
             </ul>
           </div>
+
         </div>
       </div>
     </section>

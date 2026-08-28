@@ -37,40 +37,38 @@ export default function Explore() {
   return (
     <section className="w-full py-16 md:py-24 bg-surface-light overflow-hidden" id="offerings">
       <div className="custom-container">
-        {/* 1 col stacked up to 1025px, 2 cols at 1026px+ */}
-        <div className="grid grid-cols-1 min-[1026px]:grid-cols-2 gap-10 min-[1026px]:gap-16 items-center">
+        {/* 12-column grid layout: 8 columns for video, 4 columns for content */}
+        <div className="grid grid-cols-1 xl:grid-cols-12 gap-10 xl:gap-12 items-center">
           
-          {/* Video Container */}
+          {/* Video Container: Spans 8 columns */}
           <div 
             data-aos="fade-right"
             data-aos-duration="800"
-            className="w-full aspect-video rounded-xs overflow-hidden bg-gray-200 order-2 min-[1026px]:order-1 shadow-lg border border-gray-100"
+            className="xl:col-span-7 w-full aspect-video rounded-xs overflow-hidden bg-gray-200 order-2 xl:order-1 shadow-lg border border-gray-100"
           >
-            <div className="w-full h-full">
-              <DynamicVideoPlayer
-                type="short-1"
-                className="w-full h-full object-cover"
-              />
-            </div>
+            <DynamicVideoPlayer
+              type="short-1"
+              className="w-full h-full object-cover"
+            />
           </div>
 
-          {/* Copy Column */}
+          {/* Copy Column: Spans 4 columns */}
           <div 
             data-aos="fade-left"
             data-aos-duration="800"
             data-aos-delay="150"
-            className="order-1 min-[1026px]:order-2"
+            className="xl:col-span-5 order-1 xl:order-2 w-full"
           >
             <div className="flex items-center gap-3 mb-4">
               <span className="w-5 h-5 bg-primary flex-shrink-0" />
               <span className="section-label">Offerings</span>
             </div>
 
-            <h2 className="section-title font-medium text-dark capitalize mb-6">
+            <h2 className="section-title font-medium text-dark capitalize mb-2">
               Complete Automotive Component Solutions
             </h2>
 
-            <p className="section-text mb-6">
+           <p className="section-text mb-2 text-[16px]">
               We offer a comprehensive portfolio of high-quality automotive
               components, including advanced filtration systems, air
               suspension solutions, and engine parts. Designed for both
@@ -78,7 +76,7 @@ export default function Explore() {
               to meet the demands of modern vehicles and industrial use.
             </p>
 
-            <ul className="flex flex-col gap-4 mb-8">
+            <ul className="flex flex-col gap-1 mb-5">
               {OFFERINGS.map((offering, index) => (
                 <li 
                   key={`${offering}-${index}`} 
@@ -88,7 +86,7 @@ export default function Explore() {
                   className="group/list flex items-start gap-3"
                 >
                   <ArrowBulletIcon />
-                  <span className="list-text text-muted">{offering}</span>
+                  <span className="list-text text-muted font-['Source_Sans_3',sans-serif] font-normal text-[16px]">{offering}</span>
                 </li>
               ))}
             </ul>

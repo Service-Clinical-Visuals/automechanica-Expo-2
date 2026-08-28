@@ -28,8 +28,8 @@ const stats = [
 
 export default function AboutUs() {
   return (
-    <section className="w-full bg-[#0D0D0D] overflow-hidden py-12 sm:py-16 lg:py-24 2xl:py-28 min-[1920px]:py-32 min-[2560px]:py-40">
-      <div className="custom-container max-w-[1600px] min-[1920px]:max-w-[1800px] min-[2560px]:max-w-[2200px] mx-auto">
+    <section className="w-full bg-[#0D0D0D] overflow-hidden py-12 sm:py-16 lg:py-24 2xl:py-28">
+      <div className="custom-container mx-auto">
 
         {/* Intro */}
         <div className="text-center mb-8 sm:mb-10 lg:mb-12" data-aos="fade-up" data-aos-duration="900">
@@ -37,7 +37,7 @@ export default function AboutUs() {
             Giuliano Automotive Equipment Since 1976.
           </h2>
 
-          <p className="section-text text-white max-w-[1272px] mx-auto px-2 sm:px-0">
+          <p className="section-text text-white xl:max-w-[70%] mx-auto px-2 sm:px-0">
             GIULIANO AUTOMOTIVE has over 50 years of experience delivering
             quality, reliable, and innovative tyre service equipment. Founded
             in Correggio, Italy, the company offers tyre changers, wheel
@@ -56,13 +56,13 @@ export default function AboutUs() {
           <div className="grid grid-cols-2 gap-3 sm:gap-4 w-full">
 
             {/* Image 1 */}
-            <div className="group relative w-full aspect-[390/603] min-[2100px]:aspect-[390/500] border border-mid overflow-hidden transition-all duration-700 ease-out hover:border-primary hover:-translate-y-1" data-aos="fade-right" data-aos-duration="900" data-aos-delay="150">
+            <div className="group relative w-full aspect-[390/603] border border-mid overflow-hidden transition-all duration-700 ease-out hover:border-primary hover:-translate-y-1" data-aos="fade-right" data-aos-duration="900" data-aos-delay="150">
               <img src="/moto/giuliano/about1.jpg" alt="Giuliano workshop" className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" loading="lazy" />
               <div className="absolute inset-0 bg-black/0 transition-all duration-700 group-hover:bg-black/10" />
             </div>
 
             {/* Image 2 */}
-            <div className="group relative w-full aspect-[390/603] min-[2100px]:aspect-[390/500] border border-mid overflow-hidden transition-all duration-700 ease-out hover:border-primary hover:-translate-y-1" data-aos="fade-right" data-aos-duration="900" data-aos-delay="300">
+            <div className="group relative w-full aspect-[390/603] border border-mid overflow-hidden transition-all duration-700 ease-out hover:border-primary hover:-translate-y-1" data-aos="fade-right" data-aos-duration="900" data-aos-delay="300">
               <img src="/moto/giuliano/about2.jpg" alt="Giuliano workshop equipment" className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" loading="lazy" />
               <div className="absolute inset-0 bg-black/0 transition-all duration-700 group-hover:bg-black/10" />
             </div>

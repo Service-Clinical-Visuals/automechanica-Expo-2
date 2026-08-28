@@ -5,24 +5,20 @@ import DynamicVideoPlayer from "../../../_components/DynamicVideoPlayer";
 
 export default function Banner() {
   return (
-    <section className="relative w-full h-screen h-[100dvh] max-h-[100dvh] flex flex-col justify-end pb-8 md:pb-16 lg:pb-20 overflow-hidden">
+    <section className="relative z-0 w-full h-screen h-[100dvh] max-h-[100dvh] flex flex-col justify-end pb-8 md:pb-16 lg:pb-20 overflow-hidden bg-[#05051a]">
       {/* Background Video Layer */}
-      <div
-        data-aos="fade-in"
-        data-aos-duration="1000"
-        className="absolute inset-0 w-full h-full bg-[#05051a]"
-      >
-        <div className="absolute inset-0 w-full h-full">
-          <DynamicVideoPlayer
-            type="banner"
-            className="w-full h-full object-cover object-center pointer-events-none"
-          />
-        </div>
+      <div className="absolute inset-0 z-0 w-full h-full">
+        <DynamicVideoPlayer
+          type="banner"
+          className="w-full h-full object-cover object-center pointer-events-none"
+        />
+        {/* Responsive Overlay */}
+        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/20 z-[1]" />
       </div>
 
       {/* Hero Content Area */}
       <div className="custom-container relative z-10 w-full">
-        <div className="max-w-xl 2xl:max-w-3xl 4k:max-w-5xl">
+        <div className="max-w-xl xl:max-w-[70%] 2xl:max-w-[70%] 4k:max-w-[70%]">
           <h1
             data-aos="fade-up"
             data-aos-duration="800"
@@ -35,7 +31,7 @@ export default function Banner() {
             data-aos="fade-up"
             data-aos-duration="800"
             data-aos-delay="300"
-            className="section-text text-white/90 max-w-lg 2xl:max-w-xl drop-shadow"
+            className="section-text text-white/90 max-w-lg xl:max-w-[70%] 2xl:max-w-[70%] drop-shadow"
           >
             Engineered for reliable filtration, superior engine protection,
             and consistent performance.

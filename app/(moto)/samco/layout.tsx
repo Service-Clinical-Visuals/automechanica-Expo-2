@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "./_components/Header";
 import Footer from "./_components/Footer";
 import Smooth from "./_components/Smooth"; 
+import AOSProvider from "@/app/_components/AOSProvider";
 import { VideoProvider } from "@/app/_context/VideoContext";
 
 export const metadata: Metadata = {
@@ -17,13 +18,15 @@ export default function SamcoLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="min-h-full flex flex-col bg-white text-slate-900 overflow-x-hidden">
+    <div className="min-h-screen flex flex-col bg-white text-slate-900">
       <VideoProvider>
-        <Smooth>
-          <Header />
-          <main className="flex-grow">{children}</main>
-          <Footer />
-        </Smooth>
+        <AOSProvider>
+          <Smooth>
+            <Header />
+            <main className="flex-grow">{children}</main>
+            <Footer />
+          </Smooth>
+        </AOSProvider>
       </VideoProvider>
     </div>
   );

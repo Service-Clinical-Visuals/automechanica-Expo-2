@@ -36,14 +36,14 @@ const REASONS = [
     icon: "/moto/samco/5.png",
     title: "Fast Dispatching",
     description:
-      "We combine aesthetics and functionality in our product packaging, creating distinctive visibility on shelves.",
+      "Efficient and fast dispatch services that guarantee quick order processing and on-time delivery",
   },
   {
     number: "06",
     icon: "/moto/samco/6.png",
     title: "Competitive Pricing",
     description:
-      "Efficient and fast dispatch services that guarantee quick order processing and on-time delivery",
+      "We combine aesthetics and functionality in our product packaging, creating distinctive visibility on shelves.",
   },
 ];
 
@@ -65,7 +65,7 @@ export default function Choose() {
           data-aos="fade-up"
           data-aos-duration="800"
           data-aos-delay="150"
-          className="section-text text-center max-w-4xl min-[2000px]:max-w-full mx-auto mb-16"
+          className="section-text text-center max-w-4xl xl:max-w-[70%] mx-auto mb-16"
         >
           With a strong foundation in OEM-quality manufacturing and a
           presence across global markets, we are committed to delivering
@@ -78,31 +78,32 @@ export default function Choose() {
           and aftermarket requirements worldwide.
         </p>
 
-        {/* Grid Container */}
-        <div className="grid grid-cols-1 md:grid-cols-2 min-[1026px]:grid-cols-3 gap-6 min-[1026px]:gap-8">
+        {/* Grid Container - Switches to 3 columns above 1025px (xl breakpoint) */}
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-8">
           {REASONS.map(({ number, icon, title, description }, index) => (
             <div
               key={number}
               data-aos="fade-up"
               data-aos-duration="700"
               data-aos-delay={250 + index * 100}
-              className="group border border-[rgba(4,25,43,0.3)] hover:border-primary rounded-xs p-8 flex flex-col items-center text-center bg-white hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
+              className="group border border-[#D0D5DD] hover:border-primary rounded-[5px] p-8 flex flex-col items-center text-center bg-white hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
             >
               <div className="relative w-full mb-6">
                 <span
-                  className="absolute top-0 left-0 text-[50px] leading-[59px] font-medium select-none opacity-40 group-hover:opacity-100 group-hover:text-primary transition-all duration-300"
+                  className="absolute top-0 left-0 text-[52px] leading-none font-light select-none text-black group-hover:text-primary transition-colors duration-300"
                   style={{
-                    WebkitTextStroke: "1px #202020",
+                    fontFamily: "Rubik, sans-serif",
+                    WebkitTextStroke: "1px #000000",
                     color: "transparent",
                   }}
                 >
                   {number}
                 </span>
-                <div className="flex justify-center">
+                <div className="flex justify-center pt-1">
                   <img
                     src={icon}
                     alt={title}
-                    className="w-14 h-14 aspect-square object-contain group-hover:scale-110 transition-transform duration-300"
+                    className="w-20 h-20 aspect-square object-contain group-hover:scale-110 transition-transform duration-300"
                   />
                 </div>
               </div>
@@ -110,7 +111,7 @@ export default function Choose() {
               <h3 className="card-title font-medium text-dark mb-3 group-hover:text-primary transition-colors duration-300">
                 {title}
               </h3>
-              <p className="card-text min-[2000px]:max-w-full">{description}</p>
+              <p className="card-text text-muted leading-relaxed">{description}</p>
             </div>
           ))}
         </div>

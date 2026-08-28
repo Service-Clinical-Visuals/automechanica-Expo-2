@@ -37,7 +37,7 @@ export default function Certifications() {
           <div 
             data-aos="fade-right"
             data-aos-duration="800"
-            className="max-w-2xl"
+            className="max-w-2xl xl:max-w-[70%]"
           >
             <h2 className="section-title font-semibold text-heading mb-4">
               Milestones &amp; Certifications
@@ -77,7 +77,6 @@ export default function Certifications() {
                     src={cert.image}
                     alt={cert.code}
                     fill
-                    sizes="(max-width: 640px) 100vw, (max-width: 1280px) 50vw, 25vw"
                     className="object-cover"
                   />
                 </div>
@@ -109,7 +108,7 @@ export default function Certifications() {
                 </p>
                 <button
                   type="button"
-                  className="section-text text-[#2362a1] font-medium text-sm flex items-center gap-2 hover:gap-3 transition-all cursor-pointer mt-auto"
+                  className="font-['Rubik'] font-normal text-[18px] leading-[150%] tracking-[0%] text-center text-[#2362a1] flex items-center gap-2 hover:gap-3 transition-all cursor-pointer mt-auto"
                 >
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
                     <path

@@ -21,7 +21,7 @@ export default function Products() {
           <div 
             data-aos="fade-right"
             data-aos-duration="800"
-            className="max-w-2xl"
+            className="max-w-2xl xl:max-w-[70%]"
           >
             <h2 className="section-title font-semibold text-heading mb-4">
               Explore Our Product Categories
@@ -45,11 +45,7 @@ export default function Products() {
           </div>
         </div>
 
-        {/* Grid Layout: 
-            - Mobile (<640px): 1 column
-            - Tablet & iPad Pro (640px to 1279px): 2x2 grid (2 columns)
-            - Desktop (>=1280px): 1x4 horizontal grid (4 columns)
-        */}
+        {/* Grid Layout */}
         <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6 xl:gap-8">
           {categories.map((cat, index) => (
             <div
@@ -65,20 +61,33 @@ export default function Products() {
                   src={cat.image}
                   alt={cat.name}
                   fill
-                  sizes="(max-width: 640px) 100vw, (max-width: 1280px) 50vw, 25vw"
-                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                  className={`object-cover group-hover:scale-105 transition-transform duration-500 ${
+                    index === 0 ? "object-right" : "object-center"
+                  }`}
                 />
               </div>
 
               {/* Title */}
-              <h3 className="card-title font-semibold text-[#272727] text-center mb-4">
+              <h3 className="card-title font-semibold text-[#272727] text-center mb-1">
                 {cat.name}
               </h3>
+
+              {/* Horizontal Divider Line */}
+              <hr className="w-full border-t border-[#E5E7EB] my-3" />
 
               {/* Action Link with Arrow */}
               <button
                 type="button"
-                className="section-text text-accent font-medium text-xs sm:text-sm flex items-center gap-1.5 group-hover:gap-2.5 transition-all cursor-pointer mt-auto"
+                className="text-[#ED2124] flex items-center justify-center gap-1.5 group-hover:gap-2.5 transition-all cursor-pointer w-full"
+                style={{
+                  fontFamily: "Oswald, sans-serif",
+                  fontWeight: 400,
+                  fontStyle: "normal",
+                  fontSize: "16px",
+                  lineHeight: "150%",
+                  letterSpacing: "0%",
+                  textAlign: "center",
+                }}
               >
                 View The Product
                 <svg width="14" height="14" viewBox="0 0 16 16" fill="none">

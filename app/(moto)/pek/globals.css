@@ -8,10 +8,13 @@
   }
   
   html {
-    overflow-x: hidden;
+    width: 100%;
+    overflow-x: clip;
   }
   
   body {
+    width: 100%;
+    overflow-x: clip;
     font-family: 'Space Grotesk', sans-serif;
   }
   
@@ -21,72 +24,96 @@
 }
 
 section {
-  overflow-x: hidden !important;
-  overflow-y: hidden !important;
+  max-width: 100%;
+  overflow-x: clip;
 }
 
+/* ===== Global Container (Strict 90% across ALL screens) ===== */
 .custom-container {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 95% !important;
+  max-width: 95% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  box-sizing: border-box;
 }
 
-/* Font sizes managed globally */
-.header-link { font-size: 16px; }
-.btn-text { font-size: 16px; }
-.banner-title { font-size: 30px; }  
-.section-title { font-size: 26px; }
-.section-title1 { font-size: 26px; }
-.section-text { font-size: 16px; }
-.card-text { font-size: 20px; }
+/* ===== Global Typography Tokens (Responsive scale from mobile to 4K) ===== */
+.header-link { font-size: 14px; }
+.btn-text { font-size: 14px; }
+.banner-title { font-size: 24px; }  
+.section-title { font-size: 22px; }
+.section-title1 { font-size: 22px; }
+.section-text { font-size: 14px; }
+.card-text { font-size: 16px; }
 
-@media (max-width: 480px) {
-  .custom-container { max-width: 90%; }
-}
-@media (min-width: 481px) and (max-width: 767px) {
-  .custom-container { max-width: 90%; }
-}
-@media (min-width: 768px) and (max-width: 1023px) {
-  .custom-container { max-width: 90%; }
-}
-
-/* All Desktop Breakpoints (Standard, 2K, 4K) */
-@media (min-width: 1024px) {
-  .custom-container {
-    max-width: 85% !important;
-    margin-left: auto;
-    margin-right: auto;
-  }
+/* Mobile Landscape (481px - 767px) */
+@media (min-width: 481px) {
+  .header-link, .btn-text { font-size: 15px; }
+  .banner-title { font-size: 26px; }
+  .section-title, .section-title1 { font-size: 24px; }
+  .section-text { font-size: 15px; }
+  .card-text { font-size: 18px; }
 }
 
-@media (min-width: 1536px) and (max-width: 1920px) {
-  .header-link { font-size: 16px; }
-  .btn-text { font-size: 16px; }
-  .banner-title { font-size: 30px; }  
-  .section-title { font-size: 26px; }
-  .section-title1 { font-size: 26px; }
+/* Tablet (768px - 1023px) */
+@media (min-width: 768px) {
+  .header-link, .btn-text { font-size: 16px; }
+  .banner-title { font-size: 28px; }
+  .section-title, .section-title1 { font-size: 25px; }
   .section-text { font-size: 16px; }
+  .card-text { font-size: 19px; }
+}
+
+/* Laptop (1024px - 1279px) */
+@media (min-width: 1024px) {
+  .banner-title { font-size: 30px; }
+  .section-title, .section-title1 { font-size: 26px; }
   .card-text { font-size: 20px; }
 }
 
-@media (min-width: 2560px) and (max-width: 3799px) {
-  .header-link { font-size: 20px; }
-  .btn-text { font-size: 20px; }
-  .banner-title { font-size: 36px; }  
-  .section-title { font-size: 32px; }
-  .section-title1 { font-size: 32px; }
+/* Desktop FHD (1280px - 1535px) */
+@media (min-width: 1280px) {
+  .header-link, .btn-text { font-size: 17px; }
+  .banner-title { font-size: 32px; }
+  .section-title, .section-title1 { font-size: 28px; }
+  .section-text { font-size: 17px; }
+  .card-text { font-size: 21px; }
+}
+
+/* Figma Baseline (1536px - 1920px) */
+@media (min-width: 1536px) {
+  .header-link, .btn-text { font-size: 18px; }
+  .banner-title { font-size: 34px; }
+  .section-title, .section-title1 { font-size: 30px; }
+  .section-text { font-size: 18px; }
+  .card-text { font-size: 22px; }
+}
+
+/* 2K / QHD (1921px - 2559px) */
+@media (min-width: 1921px) {
+  .header-link, .btn-text { font-size: 20px; }
+  .banner-title { font-size: 38px; }
+  .section-title, .section-title1 { font-size: 34px; }
   .section-text { font-size: 20px; }
   .card-text { font-size: 24px; }
 }
 
-@media (min-width: 3800px) {
-  .header-link { font-size: 24px; }
-  .btn-text { font-size: 24px; }
-  .banner-title { font-size: 40px; }  
-  .section-title { font-size: 36px; }
-  .section-title1 { font-size: 36px; }
-  .section-text { font-size: 24px; }
+/* Ultra-Wide (2560px - 3799px) */
+@media (min-width: 2560px) {
+  .header-link, .btn-text { font-size: 23px; }
+  .banner-title { font-size: 44px; }
+  .section-title, .section-title1 { font-size: 40px; }
+  .section-text { font-size: 23px; }
   .card-text { font-size: 28px; }
+}
+
+/* 4K Displays (3800px+) */
+@media (min-width: 3800px) {
+  .header-link, .btn-text { font-size: 28px; }
+  .banner-title { font-size: 54px; }
+  .section-title, .section-title1 { font-size: 48px; }
+  .section-text { font-size: 28px; }
+  .card-text { font-size: 34px; }
 }
 
 @layer utilities {

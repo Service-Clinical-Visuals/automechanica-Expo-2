@@ -1,41 +1,42 @@
 "use client";
- 
+
 import { useState, useMemo, useEffect } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, ArrowLeft } from "lucide-react";
- 
+
 interface Product {
   image: string;
   title: string;
   refNo: string;
   oemNo: string;
 }
- 
+
 interface Category {
   label: string;
   products: Product[];
 }
- 
+
 const tieRodEnds: Product[] = [
   { image: "/moto/ytt/p1.png", title: "Tie Rod Ends", refNo: "Y613067", oemNo: "32111139316" },
   { image: "/moto/ytt/p2.png", title: "Tie Rod Ends", refNo: "Y613076", oemNo: "32106765235" },
   { image: "/moto/ytt/p3.png", title: "Tie Rod Kit", refNo: "Y222015C", oemNo: "77367379" },
   { image: "/moto/ytt/p4.png", title: "Tie Rod Ends", refNo: "Y640011", oemNo: "32116777521" },
 ];
- 
+
 const ballJoints: Product[] = [
   { image: "/moto/ytt/p5.png", title: "Ball Joints", refNo: "Y515011", oemNo: "93190905" },
   { image: "/moto/ytt/p6.png", title: "Ball Joints", refNo: "Y515011C", oemNo: "93190905" },
   { image: "/moto/ytt/p7.png", title: "Ball Joints", refNo: "Y515012", oemNo: "93190906" },
   { image: "/moto/ytt/p8.png", title: "Ball Joints", refNo: "Y517003", oemNo: "3640.68" },
 ];
- 
+
 const controlArms: Product[] = [
   { image: "/moto/ytt/p9.png", title: "Control Arm", refNo: "Y444015", oemNo: "93388569" },
-  { image: "/moto/ytt/p9.png", title: "Control Arm", refNo: "Y444016", oemNo: "93388568" },
-  { image: "/moto/ytt/p9.png", title: "Control Arm", refNo: "Y444016C", oemNo: "4806809041" },
+  { image: "/moto/ytt/p10.png", title: "Control Arm", refNo: "Y444016", oemNo: "93388568" },
+  { image: "/moto/ytt/p11.png", title: "Control Arm", refNo: "Y444016C", oemNo: "4806809041" },
 ];
- 
+
 const categories: Category[] = [
   { label: "Tie Rod Ends", products: tieRodEnds },
   { label: "Ball Joints", products: ballJoints },
@@ -45,21 +46,21 @@ const categories: Category[] = [
     products: [...tieRodEnds, ...ballJoints, ...controlArms],
   },
 ];
- 
+
 const ITEMS_PER_PAGE = 4;
 const AUTO_SCROLL_INTERVAL = 4000; // ms
- 
+
 export default function Products() {
   const [activeTab, setActiveTab] = useState("Tie Rod Ends");
   const [page, setPage] = useState(0);
- 
+
   const activeCategory =
     categories.find((c) => c.label === activeTab) ?? categories[0];
- 
+
   const totalPages = Math.ceil(
     activeCategory.products.length / ITEMS_PER_PAGE
   );
- 
+
   const visibleProducts = useMemo(
     () =>
       activeCategory.products.slice(
@@ -68,32 +69,32 @@ export default function Products() {
       ),
     [activeCategory, page]
   );
- 
+
   const handleTabChange = (label: string) => {
     setActiveTab(label);
     setPage(0);
   };
- 
+
   const goPrev = () => setPage((p) => Math.max(0, p - 1));
   const goNext = () => setPage((p) => Math.min(totalPages - 1, p + 1));
- 
+
   // Auto-scroll only applies to the "View All" tab, looping through pages.
   useEffect(() => {
     if (activeTab !== "View All" || totalPages <= 1) return;
- 
+
     const timer = setInterval(() => {
       setPage((p) => (p + 1) % totalPages);
     }, AUTO_SCROLL_INTERVAL);
- 
+
     return () => clearInterval(timer);
   }, [activeTab, totalPages]);
- 
+
   return (
     <section className="w-full py-10 sm:py-12 md:py-16 xl:py-20 bg-white overflow-hidden">
       <div className="custom-container flex flex-col gap-6 sm:gap-8 md:gap-10 xl:gap-12">
         
         {/* Heading */}
-        <div
+        <div 
           data-aos="fade-up"
           data-aos-duration="600"
           className="flex flex-col items-center gap-2.5 sm:gap-3 text-center px-2 sm:px-0 w-full"
@@ -115,14 +116,14 @@ export default function Products() {
             response, and exceptional ride comfort.
           </p>
         </div>
- 
-        {/* Segmented Wrapper Tabs with precise spacings */}
-        <div
+
+        {/* Tabs - Individual boxes for each category */}
+        <div 
           data-aos="fade-up"
           data-aos-delay="150"
           className="w-full flex justify-center px-2 sm:px-0"
         >
-          <div className="flex flex-wrap sm:flex-nowrap items-center justify-between bg-white border border-[#CCCCCC] rounded-[10px] p-2 gap-2 sm:w-auto w-full">
+          <div className="grid grid-cols-2 sm:flex sm:items-center gap-2.5 sm:gap-3 w-full sm:w-auto max-w-full">
             {categories.map((cat, index) => (
               <button
                 key={cat.label}
@@ -130,10 +131,10 @@ export default function Products() {
                 onClick={() => handleTabChange(cat.label)}
                 data-aos="fade-up"
                 data-aos-delay={200 + index * 50}
-                className={`btn-text font-bold rounded-[8px] px-5 sm:px-8 py-3 text-xs sm:text-sm md:text-base transition-colors whitespace-nowrap text-center flex-1 sm:flex-initial ${
+                className={`btn-text font-bold rounded-[10px] px-3 sm:px-[25px] py-2.5 sm:py-[10px] text-xs sm:text-sm md:text-base transition-colors whitespace-nowrap text-center border ${
                   activeTab === cat.label
-                    ? "bg-[#DA0812] text-white shadow-sm"
-                    : "bg-transparent text-[#71717A] hover:text-[#202020]"
+                    ? "bg-[#DA0812] text-white border-[#DA0812]"
+                    : "bg-white text-[#71717A] border-[#CCCCCC] hover:text-[#202020] hover:border-[#a0a0a0]"
                 }`}
               >
                 {cat.label}
@@ -141,7 +142,7 @@ export default function Products() {
             ))}
           </div>
         </div>
- 
+
         {/* Product grid */}
         <div className="w-full flex flex-wrap justify-center gap-4 sm:gap-6">
           {visibleProducts.map((product, i) => (
@@ -152,13 +153,14 @@ export default function Products() {
               className="flex flex-col bg-white border border-[rgba(204,204,204,0.8)] rounded-[10px] overflow-hidden w-full sm:w-[calc(50%-12px)] xl:w-[calc(25%-18px)] transition-colors duration-300 ease-in-out hover:border-[#DA0812]"
             >
               <div className="relative w-full aspect-[4/3] sm:aspect-square bg-[rgba(248,248,248,0.6)] p-4 sm:p-6 flex items-center justify-center">
-                <img
+                <Image
                   src={product.image}
                   alt={product.title}
-                  className="w-full h-full object-contain p-4 sm:p-6"
+                  fill
+                  className="object-contain p-4 sm:p-6"
                 />
               </div>
- 
+
               {/* Text centered for mobile & tablet (xl: items left-aligned) */}
               <div className="flex flex-col items-center xl:items-start text-center xl:text-left gap-1 px-4 sm:px-5 py-4 sm:py-5">
                 <h3 className="card-title font-bold text-[#DA0812] text-base sm:text-lg">
@@ -182,10 +184,10 @@ export default function Products() {
             </div>
           ))}
         </div>
- 
+
         {/* Pagination */}
         {totalPages > 1 && (
-          <div
+          <div 
             data-aos="fade-up"
             data-aos-delay="400"
             className="flex items-center justify-center gap-4 sm:gap-6 mt-2"
@@ -199,7 +201,7 @@ export default function Products() {
             >
               <ArrowLeft size={18} color="#DA0812" strokeWidth={2} className="sm:w-5 sm:h-5" />
             </button>
- 
+
             <div className="flex items-center gap-2">
               {Array.from({ length: totalPages }).map((_, i) => (
                 <button
@@ -215,7 +217,7 @@ export default function Products() {
                 />
               ))}
             </div>
- 
+
             <button
               type="button"
               onClick={goNext}

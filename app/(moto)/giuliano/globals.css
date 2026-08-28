@@ -15,8 +15,16 @@
     --color-border-mid: rgba(255, 255, 255, 0.5);
   }
 
-  html {
-    overflow-x: hidden;
+  /* Ensure all structural elements clip X overflow without creating scroll contexts */
+  section, main, header, footer {
+    overflow-x: clip;
+    max-width: 100%;
+  }
+
+  html, body {
+    width: 100%;
+    overflow-x: clip;
+    position: relative;
   }
 
   body {
@@ -34,42 +42,20 @@
   }
 }
 
-/* NOTE:
-   Removed the global `section { overflow-x: hidden !important; overflow-y: hidden !important; }`
-   rule that was previously declared here (twice). It was a blanket band-aid that:
-     1) did not actually fix the Product Showcase scroll bug (Swiper's translated
-        slide track lives inside the section, so clipping the section's own box
-        doesn't stop child elements from overflowing the viewport upstream), and
-     2) forced overflow:hidden on the Y axis for every section site-wide, which can
-        silently clip hover states (-translate-y-2 card lifts) and AOS animations
-        (data-aos="zoom-in", fade-up, etc.) in other components without warning.
-
-   Fix now applied locally: the Swiper carousel in ProductShowcase.jsx is wrapped
-   in its own `w-full max-w-full overflow-hidden` div, and the Swiper instance uses
-   watchOverflow / observer / observeParents so it correctly measures and clips its
-   own slide track instead of relying on this global rule.
-*/
-
 /* ---------------------------------------------
-   Container
-   Figma canvas: 1920px wide, 120px side margins
-   => content width 1680px at the 1920 tier
+   Container (Strictly 90% width across all screens)
 --------------------------------------------- */
-.custom-container {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Nav pill is slightly wider than main content (80px margins vs 120px) */
+.custom-container,
 .nav-container {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 95% !important;
+  max-width: 95% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  box-sizing: border-box;
 }
 
 /* ---------------------------------------------
-   Typography roles
+   Typography roles (Base / Baseline Design Tier)
 --------------------------------------------- */
 .font-exo { font-family: 'Exo 2', sans-serif; }
 .font-oxanium { font-family: 'Oxanium', sans-serif; }
@@ -213,81 +199,98 @@
 
 
 /* ---------------------------------------------
-   Responsive breakpoint ladder
+   Responsive Breakpoint Ladder & Typography Scaling
 --------------------------------------------- */
+
+/* Mobile (Small Screens) */
 @media (max-width: 480px) {
-  .custom-container, .nav-container { max-width: 92%; }
   .hero-heading { font-size: 26px; }
   .section-heading-lg { font-size: 26px; }
   .section-heading { font-size: 24px; }
+  .section-text, .hero-text { font-size: 14px; }
+  .card-title { font-size: 18px; }
 }
 
+/* Mobile to Tablet */
 @media (min-width: 481px) and (max-width: 767px) {
-  .custom-container, .nav-container { max-width: 90%; }
   .hero-heading { font-size: 28px; }
   .section-heading-lg { font-size: 28px; }
   .section-heading { font-size: 26px; }
+  .section-text, .hero-text { font-size: 15px; }
+  .card-title { font-size: 20px; }
 }
 
+/* Tablet */
 @media (min-width: 768px) and (max-width: 1023px) {
-  .custom-container, .nav-container { max-width: 90%; }
   .hero-heading { font-size: 32px; }
+  .section-heading-lg { font-size: 32px; }
+  .section-heading { font-size: 29px; }
+  .section-text, .hero-text { font-size: 16px; }
 }
 
+/* Small Laptop / Desktop */
 @media (min-width: 1024px) and (max-width: 1535px) {
-  .custom-container, .nav-container { max-width: 90%; }
+  .hero-heading { font-size: 36px; }
+  .section-heading-lg { font-size: 35px; }
+  .section-heading { font-size: 31px; }
 }
 
-@media (min-width: 1280px) and (max-width: 1535px) {
-  .custom-container, .nav-container { max-width: 90%; }
-}
-
-/* as per figma - baseline design tier */
+/* 1920px tier (Baseline Figma) */
 @media (min-width: 1536px) and (max-width: 1920px) {
-  .custom-container, .nav-container { max-width: 90%; margin: 0 auto; }
+  .hero-heading { font-size: 40px; }
+  .section-heading-lg { font-size: 38px; }
+  .section-heading { font-size: 34px; }
 }
 
+/* Above 1920px / Ultrawide */
 @media (min-width: 1921px) and (max-width: 2559px) {
-  .custom-container, .nav-container { max-width: 90%; margin: 0 auto; }
-  .hero-heading { font-size: 42px; }
-  .section-heading-lg { font-size: 40px; }
-  .section-heading { font-size: 36px; }
+  .hero-heading { font-size: 44px; }
+  .section-heading-lg { font-size: 42px; }
+  .section-heading { font-size: 38px; }
+  .section-text, .hero-text { font-size: 18px; line-height: 28px; }
+  .card-title { font-size: 26px; }
 }
 
 /* 2K (QHD, e.g. 2560x1440) */
 @media (min-width: 2560px) and (max-width: 3199px) {
-  .custom-container, .nav-container { max-width: 90%; margin: 0 auto; }
   .hero-heading { font-size: 48px; }
-  .section-heading-lg { font-size: 44px; }
-  .section-heading { font-size: 40px; }
-  .section-text, .hero-text { font-size: 18px; line-height: 28px; }
+  .section-heading-lg { font-size: 45px; }
+  .section-heading { font-size: 41px; }
+  .section-text, .hero-text { font-size: 20px; line-height: 30px; }
+  .card-title { font-size: 28px; }
+  .stat-title { font-size: 24px; }
 }
 
-/* Large 2K / ultrawide (e.g. 3440, 3600) */
+/* Large 2K / Ultrawide */
 @media (min-width: 3200px) and (max-width: 3799px) {
-  .custom-container, .nav-container { max-width: 90%; margin: 0 auto; }
-  .hero-heading { font-size: 50px; }
-  .section-heading-lg { font-size: 46px; }
-  .section-heading { font-size: 42px; }
-  .section-text, .hero-text { font-size: 19px; line-height: 29px; }
+  .hero-heading { font-size: 52px; }
+  .section-heading-lg { font-size: 48px; }
+  .section-heading { font-size: 44px; }
+  .section-text, .hero-text { font-size: 22px; line-height: 32px; }
+  .card-title { font-size: 30px; }
+  .stat-title { font-size: 26px; }
 }
 
 /* 4K UHD (e.g. 3840x2160) */
 @media (min-width: 3800px) and (max-width: 4500px) {
-  .custom-container, .nav-container { max-width: 90%; margin: 0 auto; }
-  .hero-heading { font-size: 56px; }
-  .section-heading-lg { font-size: 50px; }
-  .section-heading { font-size: 46px; }
-  .section-text, .hero-text { font-size: 20px; line-height: 30px; }
+  .hero-heading { font-size: 60px; }
+  .section-heading-lg { font-size: 54px; }
+  .section-heading { font-size: 48px; }
+  .section-text, .hero-text { font-size: 24px; line-height: 36px; }
+  .card-title { font-size: 34px; }
+  .stat-title { font-size: 28px; }
+  .btn-text { font-size: 22px; }
 }
 
 /* Beyond 4K (5K/8K displays) */
 @media (min-width: 4501px) {
-  .custom-container, .nav-container { max-width: 90%; margin: 0 auto; }
-  .hero-heading { font-size: 60px; }
-  .section-heading-lg { font-size: 54px; }
-  .section-heading { font-size: 50px; }
-  .section-text, .hero-text { font-size: 21px; line-height: 31px; }
+  .hero-heading { font-size: 68px; }
+  .section-heading-lg { font-size: 60px; }
+  .section-heading { font-size: 54px; }
+  .section-text, .hero-text { font-size: 28px; line-height: 40px; }
+  .card-title { font-size: 38px; }
+  .stat-title { font-size: 32px; }
+  .btn-text { font-size: 24px; }
 }
 
 @layer utilities {

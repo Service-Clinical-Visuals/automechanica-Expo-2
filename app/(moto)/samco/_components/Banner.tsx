@@ -13,12 +13,10 @@ export default function Banner() {
         data-aos-duration="1200"
         className="absolute inset-0 z-0 bg-[#05051a] w-full h-full"
       >
-        <div className="absolute inset-0 w-full h-full z-0">
-          <DynamicVideoPlayer
-            type="banner"
-            className="absolute inset-0 w-full h-full object-cover object-center pointer-events-none"
-          />
-        </div>
+        <DynamicVideoPlayer
+          type="banner"
+          className="absolute inset-0 w-full h-full object-cover object-center pointer-events-none"
+        />
 
         {/* Dark overlay wash */}
         <div className="absolute inset-0 bg-[rgba(26,26,26,0.25)]" />
@@ -28,7 +26,7 @@ export default function Banner() {
 
       {/* Content Overlay */}
       <div className="custom-container relative z-10 pb-10 sm:pb-14 md:pb-16 lg:pb-20 xl:pb-24">
-        <div className="max-w-xl lg:max-w-2xl 2xl:max-w-3xl">
+        <div className="max-w-xl lg:max-w-2xl xl:max-w-[70%]">
           <h1 
             data-aos="fade-up"
             data-aos-duration="900"
@@ -43,7 +41,7 @@ export default function Banner() {
             data-aos-duration="900"
             data-aos-delay="400"
           >
-            <Button variant="solid">Explore Products</Button>
+            <Button variant="primary">Explore Products</Button>
           </div>
         </div>
       </div>

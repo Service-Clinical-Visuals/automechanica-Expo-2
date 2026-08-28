@@ -115,12 +115,10 @@ export default function Solutions() {
             data-aos-delay="200"
             className="w-full aspect-video rounded-xs overflow-hidden bg-gray-200 shadow-md border border-gray-100"
           >
-            <div className="w-full h-full">
-              <DynamicVideoPlayer
-                type="short-2"
-                className="w-full h-full object-cover"
-              />
-            </div>
+            <DynamicVideoPlayer
+              type="short-2"
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
       </div>
