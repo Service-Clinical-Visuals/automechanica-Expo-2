@@ -52,7 +52,7 @@ export default function Product360() {
       {/* Video container */}
       <div className="w-full px-4">
         <div
-          className="relative w-full aspect-[1394/690] max-w-[950px] min-[2000px]:max-w-[2100px] min-[2560px]:max-w-[2500px] mx-auto overflow-hidden rounded-[12px]"
+          className="relative w-full aspect-video xl:max-w-[68%] mx-auto overflow-hidden rounded-[12px]"
           data-aos="zoom-in"
           data-aos-duration="1000"
           data-aos-delay="250"

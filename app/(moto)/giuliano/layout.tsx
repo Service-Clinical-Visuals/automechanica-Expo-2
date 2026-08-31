@@ -2,8 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "./_components/Header";
 import Footer from "./_components/Footer";
-import SmoothAnimate from "./_components/SmoothAnimate";
-import AOSProvider from "@/app/_components/AOSProvider";
+import SmoothAOS from "./_components/SmoothAOS";
 import { VideoProvider } from "@/app/_context/VideoContext";
 
 export const metadata: Metadata = {
@@ -19,14 +18,11 @@ export default function GiulianoLayout({
 }) {
   return (
     <div className="min-h-screen flex flex-col bg-[#0D0D0D] text-white">
+      <SmoothAOS />
       <VideoProvider>
-        <AOSProvider>
-          <SmoothAnimate>
-            <Header />
-            <main className="flex-grow w-full">{children}</main>
-            <Footer />
-          </SmoothAnimate>
-        </AOSProvider>
+        <Header />
+        <main className="flex-grow w-full">{children}</main>
+        <Footer />
       </VideoProvider>
     </div>
   );

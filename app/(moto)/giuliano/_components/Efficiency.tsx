@@ -31,14 +31,14 @@ export default function WorkshopEfficiency() {
       {/* Video container with overflow hidden and scaled video */}
       <div className="w-full px-4">
         <div
-          className="relative w-full aspect-[1394/704] max-w-[950px] min-[2000px]:max-w-[2100px] min-[2560px]:max-w-[2500px] mx-auto overflow-hidden rounded-[12px] border border-white/20 shadow-[0_3px_8px_rgba(0,0,0,0.24)]"
+          className="relative w-full aspect-video xl:max-w-[68%] mx-auto overflow-hidden rounded-[12px] border border-white/20 shadow-[0_3px_8px_rgba(0,0,0,0.24)]"
           data-aos="zoom-in"
           data-aos-duration="1000"
           data-aos-delay="250"
         >
           <DynamicVideoPlayer
             type="short-2"
-            className="absolute inset-0 w-full h-full object-cover scale-[1.08]"
+            className="absolute inset-0 w-full h-full object-cover "
           />
         </div>
       </div>

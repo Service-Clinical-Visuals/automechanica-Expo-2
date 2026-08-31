@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600;700&family=Oxanium:wght@400;500;600&family=Oswald:wght@600;700&display=swap');
 @import "tailwindcss";
 
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
 @layer base {
   :root {
     /* Brand colors */
