@@ -53,15 +53,13 @@ export default function Header() {
     setIsMobileMenuOpen(false);
   };
 
-  const isVisible = isSticky || isMobileMenuOpen;
-
   return (
     <>
       <header
-        className={`fixed top-0 left-0 w-full z-70 transition-all duration-500 transform bg-white ${
-          isVisible
-            ? "translate-y-0 opacity-100 shadow-md border-b border-gray-100"
-            : "-translate-y-full opacity-0 pointer-events-none"
+        className={`fixed top-0 left-0 w-full z-70 transition-all duration-500 bg-white ${
+          isSticky
+            ? "shadow-md border-b border-gray-100"
+            : "border-b border-transparent"
         }`}
       >
         <div className="w-full h-[100px] flex items-center">
