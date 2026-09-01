@@ -26,7 +26,7 @@ export default function Fit() {
         <span 
           data-aos="fade-down"
           data-aos-duration="600"
-          className="font-bold text-xs sm:text-sm 2xl:text-base 3k:text-lg text-accent tracking-wider mb-2 sm:mb-3 3k:mb-5 text-center"
+          className="font-bold text-xs sm:text-sm 2xl:text-base 3k:text-lg text-accent uppercase tracking-wider mb-2 sm:mb-3 3k:mb-5 text-center"
         >
           Find Your Fit
         </span>
@@ -46,7 +46,7 @@ export default function Fit() {
           data-aos="fade-up"
           data-aos-duration="800"
           data-aos-delay="200"
-          className="section-text font-normal text-[#404040] text-center mb-8 sm:mb-12 xl:mb-[60px] 3k:mb-[90px] w-full max-w-full 2xl:max-w-[1150px] 3k:max-w-[1600px] leading-relaxed"
+          className="section-text font-normal text-[#404040] text-center mb-8 sm:mb-12 xl:mb-[60px] 3k:mb-[90px] w-full max-w-full xl:max-w-[70%] mx-auto leading-relaxed"
         >
           Choose your vehicle brand to discover precision-engineered components designed for seamless compatibility and dependable performance.
         </p>

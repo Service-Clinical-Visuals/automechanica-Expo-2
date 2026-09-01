@@ -63,32 +63,32 @@ export default function Products() {
   return (
     <section className="relative w-full py-16 xl:py-20 bg-white font-sans overflow-hidden">
       <div className="custom-container px-4 sm:px-6 md:px-8 flex flex-col items-center">
-
+        
         {/* Subtitle Tag */}
-        <span
+        <span 
           data-aos="fade-down"
           data-aos-duration="600"
-          className="font-semibold text-xs sm:text-sm lg:text-base text-[#DC2626] tracking-wider mb-2"
+          className="font-semibold text-xs sm:text-sm lg:text-base text-[#DC2626] tracking-wider mb-2 uppercase"
         >
           Featured Products
         </span>
 
         {/* Section Heading */}
-        <h2
+        <h2 
           data-aos="fade-up"
           data-aos-duration="800"
           data-aos-delay="100"
-          className="font-bold section-title text-[#0F172A]  text-center mb-4"
+          className="font-bold text-[#0F172A] text-2xl sm:text-3xl lg:text-4xl xl:text-5xl text-center mb-4"
         >
           Built for Performance. Designed to Last.
         </h2>
 
         {/* Section Description Paragraph */}
-        <p
+        <p 
           data-aos="fade-up"
           data-aos-duration="800"
           data-aos-delay="200"
-          className="font-normal text-[#0F172A] text-xs sm:text-sm lg:text-base xl:text-lg text-center mb-10 max-w-[80%] leading-relaxed"
+          className="font-normal text-[#0F172A] text-xs sm:text-sm lg:text-base xl:text-lg text-center mb-10 max-w-[850px] lg:max-w-[950px] xl:max-w-[70%] mx-auto leading-relaxed"
         >
           Browse the latest additions to our product portfolio, designed for
           modern automotive and industrial applications. Each component is
@@ -100,13 +100,13 @@ export default function Products() {
         <div className="w-full grid grid-cols-1 xl:grid-cols-12 gap-5 xl:gap-6 mb-10">
 
           {/* Featured Large Product Box (p1) */}
-          <div
+          <div 
             data-aos="fade-right"
             data-aos-duration="900"
             data-aos-delay="300"
             className="xl:col-span-4 border border-[#E5E7EB] rounded-[10px] bg-white p-1.5 sm:p-2 lg:p-2.5 flex flex-col justify-between group shadow-sm hover:shadow-lg hover:border-red-200 transition-all duration-300"
           >
-
+            
             {/* Inner Gray Area for Image - Fully covered by p1 */}
             <div className="relative bg-[#EBECEE] rounded-[6px] p-4 sm:p-5 lg:p-6 flex flex-col justify-between flex-1 min-h-[350px] sm:min-h-[410px] xl:min-h-[460px] overflow-hidden">
               <div className="flex justify-between items-center w-full z-10">

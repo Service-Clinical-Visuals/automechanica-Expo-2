@@ -84,10 +84,9 @@ export default function Expertise() {
           className="
             section-text
             max-w-[1344px]
+            xl:max-w-[70%]
             mx-auto
             mb-10
-            min-[2360px]:max-w-[2200px]
-            min-[3800px]:max-w-[3400px]
           "
           data-aos="fade-up"
         >

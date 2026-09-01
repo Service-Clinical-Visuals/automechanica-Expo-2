@@ -10,7 +10,7 @@ export default function Air() {
       <div className="custom-container">
         {/* Heading + paragraph + CTA */}
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6 md:gap-8 mb-6 md:mb-8">
-          <div className="max-w-[963px] min-[3800px]:max-w-[2000px]">
+          <div className="max-w-[963px] xl:max-w-[70%] min-[3800px]:max-w-[2000px]">
             <h2
               data-aos="fade-up"
               data-aos-duration="800"

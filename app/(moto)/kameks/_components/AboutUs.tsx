@@ -5,7 +5,7 @@ import Button from "./Button";
 
 export default function AboutUs() {
   return (
-    <section className="py-16 lg:py-20 bg-white">
+    <section className="py-10 lg:py-20 bg-white">
       <div className="custom-container">
 
         {/* Header Section */}

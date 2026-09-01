@@ -15,12 +15,12 @@ export default function PrecisionView() {
   ];
 
   return (
-    <section className="py-16 lg:py-20 bg-[#171717]">
+    <section className="py-10 lg:py-20 bg-[#171717]">
       <div className="custom-container">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center">
 
           {/* Left: 360 Video Player */}
-          <div className="w-full aspect-video relative flex items-center justify-center rounded-[8px] overflow-hidden order-2 lg:order-1 lg:col-span-6" data-aos="fade-right">
+          <div className="w-full aspect-video relative flex items-center justify-center rounded-[8px] overflow-hidden lg:col-span-6" data-aos="fade-right">
             <DynamicVideoPlayer
               type="360"
               className="absolute inset-0 w-full h-full object-cover rounded-[8px]"
@@ -29,7 +29,7 @@ export default function PrecisionView() {
           </div>
 
           {/* Right: Text Content */}
-          <div className="flex flex-col gap-8 lg:gap-8 order-1 lg:order-2 lg:col-span-6" data-aos="fade-left">
+          <div className="flex flex-col gap-8 lg:gap-8 lg:col-span-6" data-aos="fade-left">
             <div className="flex flex-col gap-4">
               <h2 className="section-title text-white exo-2-font font-bold leading-tight">
                 Precision Lifting for Professional Workshops

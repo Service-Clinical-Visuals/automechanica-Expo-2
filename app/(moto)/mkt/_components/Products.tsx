@@ -29,7 +29,7 @@ const categories: Category[] = [
   {
     label: "Shocks With Spring Seat",
     slug: "shocks-with-spring-seat",
-    products: [
+   products: [
       { name: "Gas-Filled Gas Rear Shock Absorber", image: "/moto/mkt/p1.jpg" },
       { name: "Endurable Gas-Filled Gas Rear Shock Absorber", image: "/moto/mkt/p2.jpg" },
       { name: "Coil over Top-Rated Precise Shock Absorber", image: "/moto/mkt/p3.jpg" },
@@ -49,7 +49,7 @@ const categories: Category[] = [
   {
     label: "Struts Shocks",
     slug: "struts-shocks",
-    products: [
+   products: [
       { name: "Gas-Filled Gas Rear Shock Absorber", image: "/moto/mkt/p1.jpg" },
       { name: "Endurable Gas-Filled Gas Rear Shock Absorber", image: "/moto/mkt/p2.jpg" },
       { name: "Coil over Top-Rated Precise Shock Absorber", image: "/moto/mkt/p3.jpg" },
@@ -82,9 +82,9 @@ function ProductCard({ product, index }: { product: Product; index: number }) {
 
       {/* Hover overlay */}
       <div className="absolute inset-0 flex items-end justify-between gap-2 sm:gap-3 p-3 sm:p-4 md:p-5 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-        <span className="card-text font-heading font-black text-white leading-snug line-clamp-2">
-          {product.name}
-        </span>
+       <span className="card-text font-heading font-black text-white leading-snug line-clamp-2">
+  {product.name}
+</span>
 
         <span className="shrink-0 w-9 h-9 sm:w-10 sm:h-10 md:w-11 md:h-11 -mt-2 rounded-full bg-white flex items-center justify-center">
           <ArrowUpRight className="w-4.5 h-4.5 sm:w-5 sm:h-5 text-primary" strokeWidth={2.5} />
@@ -99,6 +99,8 @@ export default function OurProducts() {
   const activeCategory =
     categories.find((c) => c.slug === activeSlug) ?? categories[0];
 
+  const isCentered = activeCategory.products.length < 4;
+
   // Re-scan the DOM for new data-aos elements whenever the product
   // grid changes (category switch swaps out the cards).
   useEffect(() => {
@@ -112,7 +114,7 @@ export default function OurProducts() {
     >
       <div className="custom-container">
         {/* Heading + description */}
-        <div className="xl:max-w-[70%] mx-auto text-center mb-8 md:mb-10">
+        <div className="max-w-[1261px] xl:max-w-[70%] mx-auto text-center mb-8 md:mb-10">
           <h2
             data-aos="fade-up"
             data-aos-duration="800"
@@ -152,10 +154,11 @@ export default function OurProducts() {
                 key={category.slug}
                 type="button"
                 onClick={() => setActiveSlug(category.slug)}
-                className={`filter-text font-heading px-5 py-2.5 border transition-colors ${isActive
-                  ? "bg-primary border-primary text-white font-medium"
-                  : "bg-white border-primary text-body font-normal hover:bg-primary/5"
-                  }`}
+                className={`filter-text font-heading px-5 py-2.5 border transition-colors ${
+                  isActive
+                    ? "bg-primary border-primary text-white font-medium"
+                    : "bg-white border-primary text-body font-normal hover:bg-primary/5"
+                }`}
               >
                 {category.label}
               </button>
@@ -164,16 +167,28 @@ export default function OurProducts() {
         </div>
 
         {/* Product grid */}
-        <div className="flex flex-wrap justify-center gap-3 sm:gap-4 md:gap-6 lg:gap-8">
-          {activeCategory.products.map((product, index) => (
-            <div
-              key={`${activeCategory.slug}-${index}`}
-              className="flex-none basis-[calc(50%-0.375rem)] sm:basis-[calc(50%-0.5rem)] md:basis-[calc(33.333%-1rem)] lg:basis-[calc(25%-1.5rem)]"
-            >
-              <ProductCard product={product} index={index} />
-            </div>
-          ))}
-        </div>
+        {isCentered ? (
+          <div className="grid grid-cols-2 gap-3 sm:gap-4 md:gap-6 lg:gap-8 max-w-[380px] sm:max-w-[500px] md:max-w-[650px] lg:max-w-[820px] mx-auto">
+            {activeCategory.products.map((product, index) => (
+              <ProductCard
+                key={`${activeCategory.slug}-${index}`}
+                product={product}
+                index={index}
+              />
+            ))}
+          </div>
+        ) : (
+          <div className="flex flex-wrap justify-center gap-3 sm:gap-4 md:gap-6 lg:gap-8">
+            {activeCategory.products.map((product, index) => (
+              <div
+                key={`${activeCategory.slug}-${index}`}
+                className="flex-none basis-[calc(50%-0.375rem)] sm:basis-[calc(50%-0.5rem)] md:basis-[calc(33.333%-1rem)] lg:basis-[calc(25%-1.5rem)]"
+              >
+                <ProductCard product={product} index={index} />
+              </div>
+            ))}
+          </div>
+        )}
       </div>
     </section>
   );

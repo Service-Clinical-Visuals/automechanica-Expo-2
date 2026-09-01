@@ -13,26 +13,26 @@ export default function Footer() {
       <div className="custom-container">
 
         {/* Main Footer Content */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-8 gap-8 mb-10 mt-10 ml-15">
+        <div className="grid grid-cols-2 lg:grid-cols-8 gap-x-4 gap-y-10 lg:gap-8 mb-10 mt-10">
 
           {/* Column 1: Logo & Text */}
-          <div className="flex flex-col gap-8 lg:col-span-3" data-aos="fade-up">
-            <p className="text-white section-text font-regular leading-relaxed lg:pr-6">
-              KAMEKS was founded in Istanbul in 1994 with the aim of manufacturing camshafts. Continuously growing and developing through various investments since its establishment, our company now produces camshafts for internal combustion engine vehicles in response to customer demand.
-            </p>
+          <div className="col-span-2 lg:col-span-3 flex flex-col gap-4 lg:gap-6" data-aos="fade-up">
             <Link href="#">
               <img
                 src="/moto/kameks/flogo.png"
                 alt="Kameks Logo"
-                className="h-auto w-auto object-contain"
+                className="h-auto w-auto object-contain max-h-[60px]"
                 onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<span class="text-white font-bold text-2xl poppins-font tracking-wide">Kameks</span>' }}
               />
             </Link>
+            <p className="text-white section-text font-regular leading-relaxed lg:pr-6">
+              KAMEKS was founded in Istanbul in 1994 with the aim of manufacturing camshafts. Continuously growing and developing through various investments since its establishment, our company now produces camshafts for internal combustion engine vehicles in response to customer demand.
+            </p>
           </div>
 
           {/* Column 2: Quick Links */}
-          <div className="flex flex-col gap-6 lg:col-span-1" data-aos="fade-up" data-aos-delay="100">
-            <h4 className="text-[20px] font-semibold poppins-font text-white">Quick Links</h4>
+          <div className="col-span-1 flex flex-col gap-4 lg:gap-6" data-aos="fade-up" data-aos-delay="100">
+            <h4 className="text-[18px] lg:text-[20px] font-semibold poppins-font text-white">Quick Links</h4>
             <ul className="flex flex-col gap-3 text-white section-text font-regular">
               <li><Link href="#" className="hover:text-gray-300 transition-colors">Home</Link></li>
               <li><Link href="#" className="hover:text-gray-300 transition-colors">About Us</Link></li>
@@ -44,8 +44,8 @@ export default function Footer() {
           </div>
 
           {/* Column 3: Products */}
-          <div className="flex flex-col gap-6 lg:col-span-1" data-aos="fade-up" data-aos-delay="150">
-            <h4 className="text-[20px] font-semibold poppins-font text-white">Products</h4>
+          <div className="col-span-1 flex flex-col gap-4 lg:gap-6" data-aos="fade-up" data-aos-delay="150">
+            <h4 className="text-[18px] lg:text-[20px] font-semibold poppins-font text-white">Products</h4>
             <ul className="flex flex-col gap-3 text-white section-text font-regular">
               <li><Link href="#" className="hover:text-gray-300 transition-colors">Water Pumps</Link></li>
               <li><Link href="#" className="hover:text-gray-300 transition-colors">Housing</Link></li>
@@ -56,8 +56,8 @@ export default function Footer() {
           </div>
 
           {/* Column 4: Contact */}
-          <div className="flex flex-col gap-6 lg:col-span-2" data-aos="fade-up" data-aos-delay="200">
-            <h4 className="text-[20px] font-semibold poppins-font text-white">Contact</h4>
+          <div className="col-span-2 lg:col-span-2 flex flex-col gap-4 lg:gap-6" data-aos="fade-up" data-aos-delay="200">
+            <h4 className="text-[18px] lg:text-[20px] font-semibold poppins-font text-white">Contact</h4>
             <ul className="flex flex-col gap-3 text-white section-text font-regular">
               <li className="flex items-start gap-3">
                 <MapPin size={18} className="mt-0.5 flex-shrink-0 text-white" />
@@ -83,8 +83,8 @@ export default function Footer() {
           </div>
 
           {/* Column 5: Follow Us On */}
-          <div className="flex flex-col gap-6 lg:col-span-1" data-aos="fade-up" data-aos-delay="250">
-            <h4 className="text-[20px] font-semibold poppins-font text-white">Follow Us On</h4>
+          <div className="col-span-2 lg:col-span-1 flex flex-col gap-4 lg:gap-6" data-aos="fade-up" data-aos-delay="250">
+            <h4 className="text-[18px] lg:text-[20px] font-semibold poppins-font text-white">Follow Us On</h4>
             <div className="flex items-center gap-4 text-white">
               <Link href="#" className="hover:text-gray-300 transition-colors" aria-label="Facebook">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>

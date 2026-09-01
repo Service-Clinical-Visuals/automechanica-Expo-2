@@ -1,201 +1,148 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 
 @layer base {
   :root {
-    /* Brand colors */
-    --color-primary: #d3111b;
-    --color-secondary: #27337f;
-    --color-heading: #202020;
-    --color-body: #404040;
-    --color-border: #cccccc;
+    --color-primary: #861F41;
+    --color-primary-hover: #6d1935;
+    --color-heading: #121212;
+    --color-body: #4a4a4a;
     --color-surface-alt: #f8f8f8;
   }
 
+  /* Ensure structural elements prevent X overflow safely without secondary scrollbars */
+  section,
+  main,
+  header,
+  footer {
+    max-width: 100%;
+    overflow-x: clip;
+  }
+
   html {
-    overflow-x: hidden;
+    width: 100%;
+    overflow-x: clip;
   }
 
   body {
+    width: 100%;
+    overflow-x: clip;
+    position: relative;
     font-family: 'Work Sans', sans-serif;
     color: var(--color-body);
   }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  a,
-  span,
-  button {
-    font-family: 'Work Sans', sans-serif;
-  }
-}
-
-section {
-  overflow-x: hidden !important;
 }
 
 /* ---------------------------------------------
-   Container
-   Figma canvas: 1920px wide, 150px side margins
-   => content width 1620px at the 1920 tier
+   Container (Strictly 90% width across all screens)
 --------------------------------------------- */
-
 .custom-container {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 95% !important;
+  max-width: 95% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  box-sizing: border-box;
 }
 
 /* ---------------------------------------------
-   Hero section
+   Hero / Header helpers
 --------------------------------------------- */
-
 .hero-section {
   height: calc(100vh - 70px);
   min-height: 480px;
 }
 
-@media (min-width: 1024px) {
-  .hero-section {
-    height: calc(100vh - 100px);
-  }
-}
-
 /* ---------------------------------------------
-   Typography
+   Typography & Font Families
 --------------------------------------------- */
-
 .font-worksans {
   font-family: 'Work Sans', sans-serif;
 }
 
-.font-plexsans {
-  font-family: 'IBM Plex Sans', sans-serif;
-}
-
+/* Base (mobile) sizes */
 .banner-title {
   font-family: 'Work Sans', sans-serif;
-  font-weight: 600;
-  font-size: 34px;
-  line-height: 40px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  text-transform: uppercase;
 }
 
 .banner-subtitle {
   font-family: 'Work Sans', sans-serif;
   font-weight: 500;
-  font-size: 24px;
-  line-height: 28px;
-}
-
-.eyebrow-text {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 16px;
-  color: var(--color-secondary);
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
+  font-size: 22px;
+  line-height: 27px;
 }
 
 .section-title {
   font-family: 'Work Sans', sans-serif;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 30px;
-  color: var(--color-heading);
+  line-height: 31px;
+  text-transform: uppercase;
 }
 
 .card-title {
   font-family: 'Work Sans', sans-serif;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 20px;
-  line-height: 23px;
+  line-height: 24px;
+  text-transform: uppercase;
 }
 
 .section-text {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  color: var(--color-body);
 }
 
-.header-link {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-}
-
-.btn-text {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-}
-
+.header-link,
+.btn-text,
 .link-underline {
   font-family: 'Work Sans', sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 19px;
-  text-decoration-line: underline;
 }
 
-.tag-text {
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 16px;
-  text-align: center;
+.link-underline {
+  text-decoration: underline;
 }
 
 /* ---------------------------------------------
    Buttons
 --------------------------------------------- */
-
 .btn-outline {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
-  gap: 10px;
-  padding: 10px 25px;
-  border-radius: 10px;
+  gap: 8px;
   border: 1px solid currentColor;
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  transition: background-color 0.2s ease, color 0.2s ease;
+  padding: 10px 20px;
+  transition: all 0.2s ease-in-out;
 }
 
-.btn-solid {
+.btn-primary {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
-  gap: 10px;
-  padding: 10px 25px;
-  border-radius: 10px;
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
+  gap: 8px;
+  background-color: var(--color-primary);
+  color: #ffffff;
+  padding: 10px 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-primary-hover);
 }
 
 /* ---------------------------------------------
-   Responsive breakpoint ladder
+   Responsive Breakpoint Ladder & Typography Scaling
 --------------------------------------------- */
 
+/* Mobile (Small Screens) */
 @media (max-width: 480px) {
-  .custom-container {
-    max-width: 90%;
-  }
-
   .banner-title {
     font-size: 26px;
     line-height: 32px;
@@ -214,6 +161,35 @@ section {
   .card-title {
     font-size: 18px;
     line-height: 22px;
+  }
+
+  .section-text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .header-link,
+  .btn-text,
+  .link-underline {
+    font-size: 14px;
+  }
+}
+
+/* Mobile to Tablet */
+@media (min-width: 481px) and (max-width: 767px) {
+  .banner-title {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  .banner-subtitle {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .section-title {
+    font-size: 24px;
+    line-height: 29px;
   }
 
   .section-text {
@@ -222,82 +198,28 @@ section {
   }
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
-  .custom-container {
-    max-width: 90%;
-  }
-
-  .banner-title {
-    font-size: 28px;
-    line-height: 34px;
-  }
-
-  .banner-subtitle {
-    font-size: 19px;
-    line-height: 25px;
-  }
-
-  .section-title {
-    font-size: 24px;
-    line-height: 29px;
-  }
-}
-
+/* Tablet */
 @media (min-width: 768px) and (max-width: 1023px) {
-  .custom-container {
-    max-width: 90%;
-  }
-
   .banner-title {
     font-size: 30px;
     line-height: 36px;
   }
+
+  .section-title {
+    font-size: 25px;
+  }
 }
 
-/* ---------------------------------------------
-   1024px - 1535px
-   Climate Control section adjustment
---------------------------------------------- */
-
+/* Small Laptop / Desktop (1024px - 1535px) */
 @media (min-width: 1024px) and (max-width: 1535px) {
-  .custom-container {
-    max-width: 90%;
-  }
-
   .climate-content .section-text {
     font-size: 14px;
     line-height: 22px;
   }
-
-  .climate-content ul {
-    gap: 12px;
-  }
-
-  .climate-content .mb-8 {
-    margin-bottom: 20px;
-  }
-
-  .climate-content .mb-10 {
-    margin-bottom: 24px;
-  }
 }
 
-@media (min-width: 1280px) and (max-width: 1535px) {
-  .custom-container {
-    max-width: 90%;
-  }
-}
-
-/* ---------------------------------------------
-   1536px - 1920px
---------------------------------------------- */
-
+/* 1920px tier (Baseline Figma) */
 @media (min-width: 1536px) and (max-width: 1920px) {
-  .custom-container {
-    max-width: 90%;
-    margin: 0 auto;
-  }
-
   .banner-title {
     font-size: 34px;
     line-height: 40px;
@@ -305,187 +227,139 @@ section {
 
   .banner-subtitle {
     font-size: 24px;
-    line-height: 28px;
+    line-height: 29px;
   }
 
   .section-title {
+    font-size: 27px;
+    line-height: 32px;
+  }
+
+  .card-title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .section-text {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+/* Above 1920px / Ultrawide */
+@media (min-width: 1921px) and (max-width: 2559px) {
+  .banner-title {
+    font-size: 38px;
+    line-height: 44px;
+  }
+
+  .banner-subtitle {
+    font-size: 26px;
+    line-height: 31px;
+  }
+
+  .section-title {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .card-title {
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  .section-text {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .header-link,
+  .btn-text,
+  .link-underline {
+    font-size: 18px;
+    line-height: 21px;
+  }
+}
+
+/* 2K (QHD, e.g. 2560x1440) */
+@media (min-width: 2560px) and (max-width: 3799px) {
+  .banner-title {
+    font-size: 44px;
+    line-height: 50px;
+  }
+
+  .banner-subtitle {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .section-title {
+    font-size: 34px;
+    line-height: 40px;
+  }
+
+  .card-title {
     font-size: 26px;
     line-height: 30px;
   }
 
-  .card-title {
-    font-size: 20px;
-    line-height: 23px;
-  }
-
   .section-text {
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 21px;
+    line-height: 32px;
   }
 
   .header-link,
   .btn-text,
   .link-underline {
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 21px;
+    line-height: 24px;
   }
 }
 
-/* ---------------------------------------------
-   1921px - 2559px
---------------------------------------------- */
-
-@media (min-width: 1921px) and (max-width: 2559px) {
-  .custom-container {
-    max-width: 90%;
-    margin: 0 auto;
+/* 4K UHD (e.g. 3840x2160 and above) */
+@media (min-width: 3800px) {
+  .banner-title {
+    font-size: 54px;
+    line-height: 60px;
   }
 
-  .banner-title {
+  .banner-subtitle {
     font-size: 36px;
     line-height: 42px;
   }
 
-  .banner-subtitle {
-    font-size: 25px;
-    line-height: 30px;
-  }
-
   .section-title {
-    font-size: 28px;
-    line-height: 33px;
+    font-size: 42px;
+    line-height: 48px;
   }
 
   .card-title {
-    font-size: 21px;
-    line-height: 25px;
-  }
-
-  .section-text {
-    font-size: 17px;
-    line-height: 27px;
-  }
-
-  .header-link,
-  .btn-text,
-  .link-underline {
-    font-size: 17px;
-    line-height: 20px;
-  }
-}
-
-/* ---------------------------------------------
-   2K
---------------------------------------------- */
-
-@media (min-width: 2560px) and (max-width: 3799px) {
-  .custom-container {
-    max-width: 90%;
-    margin: 0 auto;
-  }
-
-  .banner-title {
-    font-size: 40px;
-    line-height: 46px;
-  }
-
-  .banner-subtitle {
-    font-size: 28px;
-    line-height: 32px;
-  }
-
-  .section-title {
-    font-size: 32px;
-    line-height: 37px;
-  }
-
-  .card-title {
-    font-size: 24px;
-    line-height: 28px;
-  }
-
-  .section-text {
-    font-size: 20px;
-    line-height: 30px;
-  }
-
-  .header-link,
-  .btn-text,
-  .link-underline {
-    font-size: 20px;
-    line-height: 23px;
-  }
-}
-
-/* ---------------------------------------------
-   4K
---------------------------------------------- */
-
-@media (min-width: 3800px) {
-  .custom-container {
-    max-width: 90%;
-    margin: 0 auto;
-  }
-
-  .banner-title {
-    font-size: 46px;
-    line-height: 52px;
-  }
-
-  .banner-subtitle {
     font-size: 32px;
     line-height: 36px;
   }
 
-  .section-title {
-    font-size: 36px;
-    line-height: 42px;
-  }
-
-  .card-title {
-    font-size: 28px;
-    line-height: 32px;
-  }
-
   .section-text {
-    font-size: 22px;
-    line-height: 34px;
+    font-size: 25px;
+    line-height: 38px;
   }
 
   .header-link,
   .btn-text,
   .link-underline {
-    font-size: 22px;
-    line-height: 26px;
+    font-size: 24px;
+    line-height: 28px;
   }
 }
 
 /* ---------------------------------------------
    Custom utilities
 --------------------------------------------- */
-
 @layer utilities {
   .text-primary {
     color: var(--color-primary);
   }
 
-  .text-secondary {
-    color: var(--color-secondary);
-  }
-
   .bg-primary {
     background-color: var(--color-primary);
-  }
-
-  .bg-secondary {
-    background-color: var(--color-secondary);
-  }
-
-  .border-primary {
-    border-color: var(--color-primary);
-  }
-
-  .border-secondary {
-    border-color: var(--color-secondary);
   }
 }

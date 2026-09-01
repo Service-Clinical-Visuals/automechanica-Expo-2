@@ -12,7 +12,7 @@ import "./globals.css";
 
 export default function SndcPage() {
   return (
-    <main className="flex min-h-screen flex-col w-full bg-white overflow-x-hidden font-worksans">
+    <div className="flex flex-col w-full bg-white font-worksans">
       <Banner />
       <AboutUs />
       <CompressorSystems />
@@ -21,6 +21,6 @@ export default function SndcPage() {
       <ProductEcosystem />
       <ClimateControlComponents />
       <NewsEvents />
-    </main>
+    </div>
   );
 }

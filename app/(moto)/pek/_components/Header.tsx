@@ -29,7 +29,7 @@ export default function Header() {
           : "-translate-y-full opacity-0 pointer-events-none"
       }`}
     >
-      <div className="custom-container h-full flex items-center justify-between px-4 sm:px-6 md:px-8 mx-auto w-full">
+      <div className="custom-container h-full flex items-center justify-between px-0 mx-auto w-full">
         
         {/* Logo Container */}
         <div className="w-[160px] sm:w-[200px] lg:w-[240px] 2xl:w-[310px] h-[40px] sm:h-[48px] lg:h-[55px] relative flex items-center flex-shrink-0">

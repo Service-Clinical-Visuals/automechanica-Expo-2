@@ -68,6 +68,7 @@ export default function Banner() {
             sm:mb-8
             max-w-[90%]
             sm:max-w-[500px]
+            xl:max-w-[70%]
           "
           data-aos="fade-up"
           data-aos-delay="200"

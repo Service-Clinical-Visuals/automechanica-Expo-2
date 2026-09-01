@@ -32,11 +32,11 @@ export default function About() {
           />
         </div>
 
-        {/* Body copy - stretches full container width */}
+        {/* Body copy - centered 70% width on wide screens */}
         <p 
           data-aos="fade-up" 
           data-aos-delay="300" 
-          className="section-text font-normal text-[#404040] text-center w-full"
+          className="section-text font-normal text-[#404040] text-center max-w-[1200px] xl:max-w-[70%] mx-auto"
         >
           YTT Automotive is a leading manufacturer of high-quality
           automotive components, specializing in rubber-to-metal parts,

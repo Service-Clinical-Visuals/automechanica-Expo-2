@@ -6,7 +6,7 @@ import DynamicVideoPlayer from "../../../_components/DynamicVideoPlayer";
 
 export default function EngineProtection() {
   return (
-    <section className="py-16 lg:py-20 relative overflow-hidden bg-[#001659]">
+    <section className="py-10 lg:py-20 relative overflow-hidden bg-[#001659]">
       <div className="custom-container relative z-10">
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
@@ -34,20 +34,20 @@ export default function EngineProtection() {
 
             <ul className="flex flex-col gap-4 mb-8">
               <li className="flex items-start gap-3">
-                <span className="text-white mt-0.5 font-bold text-sm">›</span>
+                <span className="text-white font-regular text-[20px] leading-none mt-1">›</span>
                 <span className="text-[#E0E0E0] font-regular inter-font section-text">
                   Designed to maintain precise synchronization of engine valve timing mechanisms
                 </span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="text-white mt-0.5 font-bold text-sm">›</span>
-                <span className="text-[#E0E0E0] inter-font font-regular section-text">
+                <span className="text-white font-regular text-[20px] leading-none mt-1">›</span>
+                <span className="text-[#E0E0E0] font-regular inter-font section-text">
                   Ensures smooth engine operation with optimized fuel efficiency performance
                 </span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="text-white mt-0.5 font-bold text-sm">›</span>
-                <span className="text-[#E0E0E0] inter-font font-regular section-text">
+                <span className="text-white font-regular text-[20px] leading-none mt-1">›</span>
+                <span className="text-[#E0E0E0] font-regular inter-font section-text">
                   Compatible with diverse engine configurations across automotive and industrial sectors
                 </span>
               </li>

@@ -57,38 +57,33 @@ export default function Header() {
 
   return (
     <header
-      className={`sticky top-0 z-50 w-full transition-transform duration-500 ease-in-out ${
+      className={`fixed top-0 z-50 w-full transition-transform duration-500 ease-in-out ${
         visible ? "translate-y-0" : "-translate-y-[150%]"
-      } ${hasScrolledPast ? "pt-0" : "pt-5"}`}
+      } ${hasScrolledPast ? "pt-0" : "pt-4 min-[1026px]:pt-5"}`}
     >
-      {/* Outer header background expands to full screen width */}
       <div
-        className={`w-full bg-black/30 backdrop-blur-md shadow-[0_3px_8px_rgba(0,0,0,0.24)] transition-all duration-300 ${
+        className={`w-full transition-all duration-300 ease-in-out ${
           hasScrolledPast
-            ? "rounded-none border-x-0 border-t-0 border-b border-white/25 py-3"
-            : "bg-transparent backdrop-blur-none shadow-none"
+            ? "bg-[#0d0d0d]/90 backdrop-blur-md border-b border-white/20 py-3 shadow-[0_3px_8px_rgba(0,0,0,0.24)]"
+            : "bg-transparent backdrop-blur-none py-0 shadow-none border-b-0 border-transparent"
         }`}
       >
-        {/* Inner container controls positioning */}
         <div className="custom-container">
           <div
-            data-aos={hasScrolledPast ? undefined : "fade-down"}
-            data-aos-duration="700"
-            data-aos-once="true"
-            className={`relative flex items-center justify-between px-3 sm:px-4 py-3 transition-all duration-300 ${
+            className={`relative flex items-center justify-between transition-all duration-300 ease-in-out ${
               hasScrolledPast
-                ? "w-full rounded-none border-0 bg-transparent py-0 shadow-none"
-                : "rounded-[100px] border border-white/25 bg-black/30 backdrop-blur-md shadow-[0_3px_8px_rgba(0,0,0,0.24)]"
+                ? "px-0 py-0 rounded-none border-0 bg-transparent shadow-none"
+                : "px-5 sm:px-8 min-[1026px]:px-10 py-3 rounded-[100px] border border-white/25 bg-black/30 backdrop-blur-md shadow-[0_3px_8px_rgba(0,0,0,0.24)]"
             }`}
           >
-            {/* Logo + Anniversary Badge (Slightly nudged further left) */}
-            <Link href="/" className="flex items-center gap-4 flex-shrink-0 -ml-1.5 lg:-ml-2">
+            {/* Logo + Anniversary Badge */}
+            <Link href="/" className="flex items-center gap-4 flex-shrink-0">
               <img
                 src="/moto/giuliano/logo1.png"
                 alt="Giuliano Automotive"
                 width="163"
                 height="41"
-                className="w-32 lg:w-[163px] h-auto"
+                className="w-32 min-[1026px]:w-[163px] h-auto"
               />
 
               <img
@@ -96,12 +91,12 @@ export default function Header() {
                 alt="50th Anniversary"
                 width="69"
                 height="31"
-                className="w-14 lg:w-[69px] h-auto"
+                className="w-14 min-[1026px]:w-[69px] h-auto"
               />
             </Link>
 
-            {/* Desktop Nav */}
-            <nav className="hidden lg:flex items-center gap-10">
+            {/* Desktop Nav (Visible on 1026px and up) */}
+            <nav className="hidden min-[1026px]:flex items-center gap-10">
               {navLinks.map((link) => {
                 const isActive = pathname === link.href;
 
@@ -126,14 +121,14 @@ export default function Header() {
               })}
             </nav>
 
-            {/* Get in Touch */}
-            <div className="hidden lg:block">
-              <Button text="Get in Touch"  />
+            {/* Get in Touch (Visible on 1026px and up) */}
+            <div className="hidden min-[1026px]:block pr-7">
+              <Button text="Get in Touch" />
             </div>
 
-            {/* Mobile Menu Toggle */}
+            {/* Mobile/Tablet Menu Toggle (Visible up to 1025px) */}
             <button
-              className="lg:hidden text-white"
+              className="min-[1026px]:hidden text-white"
               onClick={() => setMobileOpen((prev) => !prev)}
               aria-label="Toggle menu"
             >
@@ -146,37 +141,43 @@ export default function Header() {
           </div>
         </div>
 
-        {/* Mobile Nav Panel */}
+        {/* Mobile/Tablet Nav Panel (Visible up to 1025px) */}
         {mobileOpen && (
-          <div className={`lg:hidden bg-[#171717] shadow-[0_3px_8px_rgba(0,0,0,0.24)] flex flex-col py-4 ${
-            hasScrolledPast ? "w-full px-4 border-b border-white/25 rounded-none mt-3" : "custom-container mt-3 rounded-[20px] border border-white/25"
-          }`}>
-            {navLinks.map((link) => {
-              const isActive = pathname === link.href;
+          <div className="custom-container">
+            <div
+              className={`min-[1026px]:hidden bg-[#171717] shadow-[0_3px_8px_rgba(0,0,0,0.24)] flex flex-col py-4 mt-3 ${
+                hasScrolledPast
+                  ? "w-full px-4 border-b border-white/25 rounded-none"
+                  : "rounded-[20px] border border-white/25"
+              }`}
+            >
+              {navLinks.map((link) => {
+                const isActive = pathname === link.href;
 
-              return (
-                <Link
-                  key={link.name}
-                  href={link.href}
-                  onClick={() => setMobileOpen(false)}
-                  className={`font-oswald text-[16px] text-white px-6 py-3 flex items-center gap-1 ${
-                    isActive ? "font-bold underline" : "font-medium"
-                  }`}
-                >
-                  {link.name}
+                return (
+                  <Link
+                    key={link.name}
+                    href={link.href}
+                    onClick={() => setMobileOpen(false)}
+                    className={`font-oswald text-[16px] text-white px-6 py-3 flex items-center gap-1 ${
+                      isActive ? "font-bold underline" : "font-medium"
+                    }`}
+                  >
+                    {link.name}
 
-                  {link.hasDropdown && (
-                    <ChevronDown
-                      className="w-4 h-4 text-[#1A9FE2]"
-                      strokeWidth={2.5}
-                    />
-                  )}
-                </Link>
-              );
-            })}
+                    {link.hasDropdown && (
+                      <ChevronDown
+                        className="w-4 h-4 text-[#1A9FE2]"
+                        strokeWidth={2.5}
+                      />
+                    )}
+                  </Link>
+                );
+              })}
 
-            <div className="px-6 pt-3">
-              <Button text="Get in Touch"/>
+              <div className="px-6 pt-3">
+                <Button text="Get in Touch" />
+              </div>
             </div>
           </div>
         )}

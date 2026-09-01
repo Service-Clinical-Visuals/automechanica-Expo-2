@@ -2,21 +2,16 @@
 
 import React from "react";
 import Button from "./Button";
+import DynamicVideoPlayer from "../../../_components/DynamicVideoPlayer";
 
 export default function Product360() {
-  const handle360Click = () => {
-    // Add your "360" action or modal trigger logic here
-    console.log("360 experience triggered");
-  };
-
   return (
     <section className="w-full bg-surface-1 py-16 lg:py-24">
+      {/* Header text and button use the custom-container */}
       <div className="custom-container">
-
-        {/* Header row */}
         <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6 mb-8">
           <div
-            className="max-w-[1187px]"
+            className="xl:max-w-[70%]"
             data-aos="fade-right"
             data-aos-duration="900"
           >
@@ -34,13 +29,13 @@ export default function Product360() {
           </div>
 
           <div
-            className="flex-shrink-0 pr-4 lg:pr-8"
+            className="flex-shrink-0 pr-7"
             data-aos="fade-left"
             data-aos-duration="900"
             data-aos-delay="200"
           >
             <div className="transition-transform duration-300 hover:-translate-y-1">
-              <Button text="View 360° Experience" onClick={handle360Click} />
+              <Button text="View 360° Experience" />
             </div>
           </div>
         </div>
@@ -52,26 +47,20 @@ export default function Product360() {
           data-aos-duration="700"
           data-aos-delay="150"
         />
+      </div>
 
-        {/* Video with overlay label */}
+      {/* Video container */}
+      <div className="w-full px-4">
         <div
-          className="group relative w-full aspect-[1394/689.87] max-w-[1394px] min-[1920px]:max-w-[1700px] min-[2560px]:max-w-[2100px] min-[3840px]:max-w-[2800px] mx-auto overflow-hidden transition-all duration-700 ease-out hover:-translate-y-1"
+          className="relative w-full aspect-video xl:max-w-[68%] mx-auto overflow-hidden rounded-[12px]"
           data-aos="zoom-in"
           data-aos-duration="1000"
           data-aos-delay="250"
         >
-          <video
-            className="absolute inset-0 w-full h-full object-cover transition-transform duration-[1200ms] ease-out group-hover:scale-[1.03]"
-            src="/moto/giuliano/video.mp4"
-            autoPlay
-            muted
-            loop
-            playsInline
+          <DynamicVideoPlayer
+            type="360"
+            className="absolute inset-0 w-full h-full object-cover scale-[1.08]"
           />
-
-          <div className="absolute inset-0 bg-black/0 transition-all duration-700 group-hover:bg-black/10" />
-
-          
         </div>
       </div>
     </section>

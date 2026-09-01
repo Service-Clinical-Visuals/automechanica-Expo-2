@@ -63,7 +63,7 @@ export default function Updates() {
           <h2 className="section-title font-bold text-[#202020] leading-tight">
             Stories Driving Our Journey Forward
           </h2>
-          <p className="section-text font-normal text-[#404040] w-full text-xs sm:text-sm md:text-base">
+          <p className="section-text font-normal text-[#404040] w-full max-w-[1100px] xl:max-w-[70%] mx-auto text-xs sm:text-sm md:text-base">
             Stay connected with the latest from YTT Automotive. Explore product
             launches, international exhibitions, manufacturing milestones,
             technology advancements, and company news as we continue expanding

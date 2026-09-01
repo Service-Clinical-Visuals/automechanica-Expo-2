@@ -28,13 +28,6 @@ export default function Footer() {
             data-aos="fade-up"
             data-aos-duration="700"
             className="col-span-2 md:col-span-1">
-            {/* <Image
-              src="/moto/mkt/logo.png"
-              alt="MKT Holdings"
-              width={180}
-              height={64}
-              className="h-14 md:h-17 w-auto mb-6"
-            /> */}
             <img
               src="/moto/mkt/logo.png"
               alt="MKT Holdings"

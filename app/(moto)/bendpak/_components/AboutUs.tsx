@@ -5,12 +5,12 @@ import Button from "./Button";
 
 export default function AboutUs() {
   return (
-    <section className="py-16 lg:py-20 bg-[#FAFAFA]">
+    <section className="py-16 xl:py-20 min-[2100px]:py-28 min-[3800px]:py-40 bg-[#FAFAFA] relative overflow-hidden">
       <div className="custom-container">
-        <div className="grid grid-cols-1 lg:grid-cols-12 items-center">
+        <div className="grid grid-cols-1 xl:grid-cols-12 items-center">
 
           {/* Left: Images */}
-          <div className="w-full h-full lg:col-span-6" data-aos="fade-right">
+          <div className="w-full h-full xl:col-span-6 relative z-20" data-aos="fade-right">
             <img
               src="/moto/bendpak/abt.png"
               alt="BendPak Facility"
@@ -20,7 +20,7 @@ export default function AboutUs() {
 
           {/* Right: Text Content (Card) */}
           <div
-            className="w-full lg:col-span-6 bg-white p-8 md:p-12 lg:p-16 z-10 flex flex-col items-start text-left mt-8 lg:mt-0 -lg:-ml-12"
+            className="w-full xl:col-span-6 bg-white p-8 md:p-12 xl:p-16 min-[2100px]:p-24 min-[3800px]:p-32 z-10 relative flex flex-col items-start text-left mt-8 xl:mt-0 xl:-ml-5 min-[2100px]:-ml-16 min-[3800px]:-ml-15"
             data-aos="fade-left"
             style={{ boxShadow: "0px 2px 6px 2px #3C404326, 0px 1px 2px 0px #3C40434D" }}
           >
