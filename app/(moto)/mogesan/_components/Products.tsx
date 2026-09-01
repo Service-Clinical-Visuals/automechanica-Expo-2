@@ -32,7 +32,7 @@ export default function Products() {
     <section className="w-full py-16 md:py-20 xl:pt-[100px] xl:pb-[159px] bg-black">
       <div className="custom-container">
         <div className="flex flex-col xl:flex-row xl:items-center xl:justify-between gap-8 xl:gap-6 pb-8 xl:pb-[41px] border-b border-white/24">
-          <div className="w-full xl:max-w-[820px]" data-aos="fade-up">
+          <div className="w-full xl:max-w-[70%]" data-aos="fade-up">
             <h2 className="section-title text-white mb-4 xl:mb-6">
               Our Products
             </h2>

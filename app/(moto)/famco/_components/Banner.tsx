@@ -17,9 +17,9 @@ export default function Banner() {
 
       {/* Content Overlay */}
       <div className="custom-container relative z-20 pl-10 pb-20 md:pb-25 lg:pb-30">
-        <div className="max-w-4xl text-left" data-aos="fade-up" data-aos-delay="200">
-          <h1 className="banner-title font-semibold text-white leading-tight mb-8 rubik-font">
-            Delivering Reliable Automotive Components With Precision Engineering For Global Performance Standards
+        <div className="w-full text-left" data-aos="fade-up" data-aos-delay="200">
+          <h1 className="banner-title font-semibold text-white leading-[1.4] mb-[clamp(20px,2vw,50px)] rubik-font">
+            Delivering Reliable Automotive Components With <br /> Precision Engineering For Global Performance Standards
           </h1>
           <Button href="#" variant="outline" className="!text-white !border-white hover:!bg-white hover:!text-black transition-colors">
             Explore Products

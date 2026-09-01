@@ -27,7 +27,7 @@ export default function Choose() {
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.6, ease: "easeOut" }}
-          className="w-full xl:w-[510px] xl:max-w-[510px] flex-shrink-0"
+          className="w-full xl:w-[510px] xl:max-w-[510px] min-[1920px]:w-[580px] min-[1920px]:max-w-[580px] min-[2560px]:w-[660px] min-[2560px]:max-w-[660px] min-[3800px]:w-[750px] min-[3800px]:max-w-[750px] flex-shrink-0"
         >
           <p className="section-label text-[#003344] mb-4">Why Choose Us</p>
           <h2 className="section-title-lg text-[#111111] mb-6">

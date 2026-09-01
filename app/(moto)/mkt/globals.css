@@ -9,8 +9,7 @@
   --font-display: var(--font-oswald);
 }
 
-/* Static design tokens - Tailwind v4 auto-generates utilities from these
-   (bg-primary, text-primary, bg-cream, text-heading, etc.) */
+/* Static design tokens - Tailwind v4 auto-generates utilities from these */
 @theme {
   --color-primary: #632f05;
   --color-heading: #121212;
@@ -22,10 +21,13 @@
 
 @layer base {
   html {
-    overflow-x: hidden;
+    width: 100%;
+    overflow-x: clip;
   }
 
   body {
+    width: 100%;
+    overflow-x: clip;
     font-family: var(--font-body);
     color: var(--color-body);
   }
@@ -41,382 +43,126 @@
 }
 
 section {
-  overflow-x: hidden;
+  max-width: 100%;
+  overflow-x: clip;
 }
 
-/* ===================== Containers ===================== */
+/* ===================== Containers (Strict 90% width across ALL screens) ===================== */
 
-/* Standard content container: 1680px at 1920px canvas (120px side insets) */
 .custom-container {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 92%;
-}
-
-@media (min-width: 481px) and (max-width: 767px) {
-  .custom-container {
-    max-width: 90%;
-  }
-}
-@media (min-width: 768px) and (max-width: 1023px) {
-  .custom-container {
-    max-width: 90%;
-  }
-}
-@media (min-width: 1024px) and (max-width: 1279px) {
-  .custom-container {
-    max-width: 90%;
-  }
-}
-@media (min-width: 1280px) and (max-width: 1535px) {
-  .custom-container {
-    max-width: 88%;
-  }
-}
-/* as per figma */
-@media (min-width: 1536px) and (max-width: 1920px) {
-  .custom-container {
-    max-width: 1680px;
-  }
-}
-@media (min-width: 1921px) and (max-width: 2559px) {
-  .custom-container {
-    max-width: 2050px;
-  }
-}
-/* 2k */
-@media (min-width: 2560px) and (max-width: 3799px) {
-  .custom-container {
-    max-width: 2240px;
-  }
-}
-/* 4k */
-@media (min-width: 3800px) {
-  .custom-container {
-    max-width: 3360px;
-  }
-}
-
-/* Wide container (Header / Banner only): 1770px at 1920px canvas (75px side insets) */
-.wide-container {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 94%;
-}
-
-@media (min-width: 481px) and (max-width: 767px) {
-  .wide-container {
-    max-width: 92%;
-  }
-}
-@media (min-width: 768px) and (max-width: 1023px) {
-  .wide-container {
-    max-width: 92%;
-  }
-}
-@media (min-width: 1024px) and (max-width: 1279px) {
-  .wide-container {
-    max-width: 92%;
-  }
-}
-@media (min-width: 1280px) and (max-width: 1535px) {
-  .wide-container {
-    max-width: 91%;
-  }
-}
-/* as per figma */
-@media (min-width: 1536px) and (max-width: 1920px) {
-  .wide-container {
-    max-width: 1770px;
-  }
-}
-@media (min-width: 1921px) and (max-width: 2559px) {
-  .wide-container {
-    max-width: 2150px;
-  }
-}
-@media (min-width: 2560px) and (max-width: 3799px) {
-  .wide-container {
-    max-width: 2360px;
-  }
-}
-@media (min-width: 3800px) {
-  .wide-container {
-    max-width: 3550px;
-  }
+  width: 95% !important;
+  max-width: 95% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  box-sizing: border-box;
 }
 
 /* ===================== Typography scale ===================== */
 /* Base (mobile) sizes */
-.hero-title {
-  font-size: 26px;
-}
-.hero-text {
-  font-size: 15px;
-}
-.section-title {
-  font-size: 24px;
-}
-.card-title {
-  font-size: 18px;
-}
-.card-text {
-  font-size: 14px;
-}
-.nav-link {
-  font-size: 14px;
-}
-.btn-text {
-  font-size: 15px;
-}
-.body-text {
-  font-size: 14px;
-}
-.filter-text {
-  font-size: 14px;
-}
+.hero-title { font-size: 26px; }
+.hero-text { font-size: 15px; }
+.section-title { font-size: 24px; }
+.card-title { font-size: 18px; }
+.card-text { font-size: 14px; }
+.nav-link { font-size: 14px; }
+.btn-text { font-size: 15px; }
+.body-text { font-size: 14px; }
+.filter-text { font-size: 14px; }
 
 @media (min-width: 481px) and (max-width: 767px) {
-  .hero-title {
-    font-size: 28px;
-  }
-  .hero-text {
-    font-size: 15px;
-  }
-  .section-title {
-    font-size: 26px;
-  }
-  .card-title {
-    font-size: 18px;
-  }
-  .card-text {
-    font-size: 14px;
-  }
-  .nav-link {
-    font-size: 14px;
-  }
-  .btn-text {
-    font-size: 15px;
-  }
-  .body-text {
-    font-size: 14px;
-  }
-  .filter-text {
-    font-size: 14px;
-  }
+  .hero-title { font-size: 28px; }
+  .hero-text { font-size: 15px; }
+  .section-title { font-size: 26px; }
+  .card-title { font-size: 18px; }
+  .card-text { font-size: 14px; }
+  .nav-link { font-size: 14px; }
+  .btn-text { font-size: 15px; }
+  .body-text { font-size: 14px; }
+  .filter-text { font-size: 14px; }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-  .hero-title {
-    font-size: 32px;
-  }
-  .hero-text {
-    font-size: 16px;
-  }
-  .section-title {
-    font-size: 28px;
-  }
-  .card-title {
-    font-size: 19px;
-  }
-  .card-text {
-    font-size: 15px;
-  }
-  .nav-link {
-    font-size: 15px;
-  }
-  .btn-text {
-    font-size: 16px;
-  }
-  .body-text {
-    font-size: 15px;
-  }
-  .filter-text {
-    font-size: 15px;
-  }
+  .hero-title { font-size: 32px; }
+  .hero-text { font-size: 16px; }
+  .section-title { font-size: 28px; }
+  .card-title { font-size: 19px; }
+  .card-text { font-size: 15px; }
+  .nav-link { font-size: 15px; }
+  .btn-text { font-size: 16px; }
+  .body-text { font-size: 15px; }
+  .filter-text { font-size: 15px; }
 }
 
 @media (min-width: 1024px) and (max-width: 1279px) {
-  .hero-title {
-    font-size: 34px;
-  }
-  .hero-text {
-    font-size: 16px;
-  }
-  .section-title {
-    font-size: 30px;
-  }
-  .card-title {
-    font-size: 20px;
-  }
-  .card-text {
-    font-size: 15px;
-  }
-  .nav-link {
-    font-size: 15px;
-  }
-  .btn-text {
-    font-size: 17px;
-  }
-  .body-text {
-    font-size: 15px;
-  }
-  .filter-text {
-    font-size: 15px;
-  }
+  .hero-title { font-size: 34px; }
+  .hero-text { font-size: 16px; }
+  .section-title { font-size: 30px; }
+  .card-title { font-size: 20px; }
+  .card-text { font-size: 15px; }
+  .nav-link { font-size: 15px; }
+  .btn-text { font-size: 17px; }
+  .body-text { font-size: 15px; }
+  .filter-text { font-size: 15px; }
 }
 
 @media (min-width: 1280px) and (max-width: 1535px) {
-  .hero-title {
-    font-size: 36px;
-  }
-  .hero-text {
-    font-size: 17px;
-  }
-  .section-title {
-    font-size: 34px;
-  }
-  .card-title {
-    font-size: 21px;
-  }
-  .card-text {
-    font-size: 16px;
-  }
-  .nav-link {
-    font-size: 16px;
-  }
-  .btn-text {
-    font-size: 17px;
-  }
-  .body-text {
-    font-size: 16px;
-  }
-  .filter-text {
-    font-size: 16px;
-  }
+  .hero-title { font-size: 36px; }
+  .hero-text { font-size: 17px; }
+  .section-title { font-size: 34px; }
+  .card-title { font-size: 21px; }
+  .card-text { font-size: 16px; }
+  .nav-link { font-size: 16px; }
+  .btn-text { font-size: 17px; }
+  .body-text { font-size: 16px; }
+  .filter-text { font-size: 16px; }
 }
 
-/* as per figma (design reference: 1920px canvas) */
 @media (min-width: 1536px) and (max-width: 1920px) {
-  .hero-title {
-    font-size: 40px;
-  }
-  .hero-text {
-    font-size: 18px;
-  }
-  .section-title {
-    font-size: 38px;
-  }
-  .card-title {
-    font-size: 22px;
-  }
-  .card-text {
-    font-size: 17px;
-  }
-  .nav-link {
-    font-size: 16px;
-  }
-  .btn-text {
-    font-size: 18px;
-  }
-  .body-text {
-    font-size: 17px;
-  }
-  .filter-text {
-    font-size: 17px;
-  }
+  .hero-title { font-size: 40px; }
+  .hero-text { font-size: 18px; }
+  .section-title { font-size: 38px; }
+  .card-title { font-size: 22px; }
+  .card-text { font-size: 17px; }
+  .nav-link { font-size: 16px; }
+  .btn-text { font-size: 18px; }
+  .body-text { font-size: 17px; }
+  .filter-text { font-size: 17px; }
 }
 
 @media (min-width: 1921px) and (max-width: 2559px) {
-  .hero-title {
-    font-size: 42px;
-  }
-  .hero-text {
-    font-size: 19px;
-  }
-  .section-title {
-    font-size: 40px;
-  }
-  .card-title {
-    font-size: 23px;
-  }
-  .card-text {
-    font-size: 18px;
-  }
-  .nav-link {
-    font-size: 17px;
-  }
-  .btn-text {
-    font-size: 19px;
-  }
-  .body-text {
-    font-size: 18px;
-  }
-  .filter-text {
-    font-size: 18px;
-  }
+  .hero-title { font-size: 44px; }
+  .hero-text { font-size: 19px; }
+  .section-title { font-size: 42px; }
+  .card-title { font-size: 24px; }
+  .card-text { font-size: 18px; }
+  .nav-link { font-size: 17px; }
+  .btn-text { font-size: 19px; }
+  .body-text { font-size: 18px; }
+  .filter-text { font-size: 18px; }
 }
 
 /* 2k */
 @media (min-width: 2560px) and (max-width: 3799px) {
-  .hero-title {
-    font-size: 46px;
-  }
-  .hero-text {
-    font-size: 21px;
-  }
-  .section-title {
-    font-size: 44px;
-  }
-  .card-title {
-    font-size: 25px;
-  }
-  .card-text {
-    font-size: 20px;
-  }
-  .nav-link {
-    font-size: 19px;
-  }
-  .btn-text {
-    font-size: 21px;
-  }
-  .body-text {
-    font-size: 20px;
-  }
-  .filter-text {
-    font-size: 20px;
-  }
+  .hero-title { font-size: 52px; }
+  .hero-text { font-size: 22px; }
+  .section-title { font-size: 48px; }
+  .card-title { font-size: 28px; }
+  .card-text { font-size: 21px; }
+  .nav-link { font-size: 20px; }
+  .btn-text { font-size: 22px; }
+  .body-text { font-size: 21px; }
+  .filter-text { font-size: 21px; }
 }
 
 /* 4k */
 @media (min-width: 3800px) {
-  .hero-title {
-    font-size: 52px;
-  }
-  .hero-text {
-    font-size: 24px;
-  }
-  .section-title {
-    font-size: 50px;
-  }
-  .card-title {
-    font-size: 28px;
-  }
-  .card-text {
-    font-size: 23px;
-  }
-  .nav-link {
-    font-size: 22px;
-  }
-  .btn-text {
-    font-size: 24px;
-  }
-  .body-text {
-    font-size: 23px;
-  }
-  .filter-text {
-    font-size: 23px;
-  }
+  .hero-title { font-size: 64px; }
+  .hero-text { font-size: 26px; }
+  .section-title { font-size: 58px; }
+  .card-title { font-size: 34px; }
+  .card-text { font-size: 25px; }
+  .nav-link { font-size: 24px; }
+  .btn-text { font-size: 26px; }
+  .body-text { font-size: 25px; }
+  .filter-text { font-size: 25px; }
 }

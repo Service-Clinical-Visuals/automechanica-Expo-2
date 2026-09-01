@@ -6,7 +6,7 @@ import DynamicVideoPlayer from "../../../_components/DynamicVideoPlayer";
 
 export default function PrecisionView() {
   return (
-    <section className="py-16 xl:py-20 relative overflow-hidden text-white" style={{ backgroundColor: "#282361" }}>
+    <section className="py-10 lg:py-20 relative overflow-hidden text-white" style={{ backgroundColor: "#282361" }}>
       <div className="custom-container relative z-10">
 
         {/* Top Section */}

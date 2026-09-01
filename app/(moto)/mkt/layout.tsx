@@ -4,7 +4,7 @@ import "./globals.css";
 import Header from "./_components/Header";
 import Footer from "./_components/Footer";
 import SmoothScroller from "./_components/SmoothScroller";
-import AOSInit from "./_components/AOS";
+import AOSProvider from "@/app/_components/AOSProvider";
 import { VideoProvider } from "@/app/_context/VideoContext";
 
 const exo = Exo({
@@ -37,23 +37,19 @@ export const metadata: Metadata = {
     "MKT Holdings, Inc. manufactures premium shock absorbers, air suspension systems, and strut assemblies for the global automotive aftermarket.",
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default function MktLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html
-      lang="en"
-      className={`${exo.variable} ${exo2.variable} ${lato.variable} ${oswald.variable} h-full antialiased`}
+    <div
+      className={`${exo.variable} ${exo2.variable} ${lato.variable} ${oswald.variable} min-h-screen flex flex-col bg-white font-body text-body`}
     >
-      <body className="min-h-full flex flex-col bg-white font-body text-body">
-        <VideoProvider>
-          <AOSInit>
-            <SmoothScroller>
-              <Header />
-              {children}
-              <Footer />
-            </SmoothScroller>
-          </AOSInit>
-        </VideoProvider>
-      </body>
-    </html>
+      <VideoProvider>
+        <AOSProvider>
+          <SmoothScroller />
+          <Header />
+          <main className="flex-grow w-full">{children}</main>
+          <Footer />
+        </AOSProvider>
+      </VideoProvider>
+    </div>
   );
 }

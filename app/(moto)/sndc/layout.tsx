@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "./_components/Header";
 import Footer from "./_components/Footer";
 import SmoothScroll from "./_components/SmoothScroll";
+import AOSProvider from "@/app/_components/AOSProvider";
 import { VideoProvider } from "@/app/_context/VideoContext";
 
 export const metadata: Metadata = {
@@ -17,12 +18,14 @@ export default function SndcLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="h-full min-h-full flex flex-col antialiased SNDC">
-      <SmoothScroll />
+    <div className="min-h-screen flex flex-col bg-white text-slate-900">
       <VideoProvider>
-        <Header />
-        {children}
-        <Footer />
+        <AOSProvider>
+          <SmoothScroll />
+          <Header />
+          <main className="flex-grow w-full">{children}</main>
+          <Footer />
+        </AOSProvider>
       </VideoProvider>
     </div>
   );

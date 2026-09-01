@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600;700&family=Oxanium:wght@400;500;600&family=Oswald:wght@600;700&display=swap');
+@import "tailwindcss";
+
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+@layer base {
+  :root {
+    /* Brand colors */
+    --color-primary: #18a2de;    /* cyan-blue accent - buttons, links */
+    --color-secondary: #9f3414;  /* orange - small icon accents */
+    --color-page-bg: #0d0d0d;    /* base page background */
+    --color-surface-1: #2a2a2a;  /* panel background */
+    --color-surface-2: #171717;  /* darker panel background */
+    --color-surface-3: #111111;  /* icon tile background */
+    --color-surface-4: #27292a;  /* footer background */
+    --color-border-soft: rgba(255, 255, 255, 0.25);
+    --color-border-mid: rgba(255, 255, 255, 0.5);
+  }
+
+  /* Ensure all structural elements clip X overflow without creating scroll contexts */
+  section, main, header, footer {
+    overflow-x: clip;
+    max-width: 100%;
+  }
+
+  html, body {
+    width: 100%;
+    overflow-x: clip;
+    position: relative;
+  }
+
+  body {
+    font-family: 'Oxanium', sans-serif;
+    color: #ffffff;
+    background-color: var(--color-page-bg);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Exo 2', sans-serif;
+  }
+
+  p, a, span, button {
+    font-family: 'Oxanium', sans-serif;
+  }
+}
+
+/* ---------------------------------------------
+   Container (Strictly 90% width across all screens)
+--------------------------------------------- */
+.custom-container,
+.nav-container {
+  width: 95% !important;
+  max-width: 95% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  box-sizing: border-box;
+}
+
+/* ---------------------------------------------
+   Typography roles (Base / Baseline Design Tier)
+--------------------------------------------- */
+.font-exo { font-family: 'Exo 2', sans-serif; }
+.font-oxanium { font-family: 'Oxanium', sans-serif; }
+.font-oswald { font-family: 'Oswald', sans-serif; }
+
+.hero-heading {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 150%;
+}
+
+.hero-text {
+  font-family: 'Oxanium', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.section-heading-lg {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 150%;
+  text-transform: capitalize;
+}
+
+.section-heading {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 150%;
+  text-transform: capitalize;
+}
+
+.section-text {
+  font-family: 'Oxanium', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.section-text-lg {
+  font-family: 'Oxanium', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 150%;
+}
+
+.card-title {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  text-transform: capitalize;
+}
+
+.stat-title {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.date-text {
+  font-family: 'Oxanium', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.btn-text {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 150%;
+  color: #2a2a2a;
+}
+
+.video-label {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 150%;
+  text-transform: capitalize;
+}
+
+.footer-heading {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 27px;
+  text-transform: capitalize;
+}
+
+.footer-link {
+  font-family: 'Oxanium', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-transform: capitalize;
+}
+
+.copyright-text {
+  font-family: 'Oxanium', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+
+/* ---------------------------------------------
+   Swiper pagination (Product carousel)
+--------------------------------------------- */
+.product-pagination .swiper-pagination-bullet {
+  width: 51px;
+  height: 8px;
+  border-radius: 78px;
+  background: #d9d9d9;
+  opacity: 1;
+  transition: background-color 0.2s ease;
+}
+
+.product-pagination .swiper-pagination-bullet-active {
+  background: var(--color-primary);
+}
+
+
+/* ---------------------------------------------
+   Swiper pagination (News carousel)
+--------------------------------------------- */
+.news-pagination .swiper-pagination-bullet {
+  background: #d9d9d9;
+  opacity: 1;
+  transition: background-color 0.2s ease;
+}
+
+.news-pagination .swiper-pagination-bullet-active {
+  background: var(--color-primary);
+}
+
+
+/* ---------------------------------------------
+   Responsive Breakpoint Ladder & Typography Scaling
+--------------------------------------------- */
+
+/* Mobile (Small Screens) */
+@media (max-width: 480px) {
+  .hero-heading { font-size: 26px; }
+  .section-heading-lg { font-size: 26px; }
+  .section-heading { font-size: 24px; }
+  .section-text, .hero-text { font-size: 14px; }
+  .card-title { font-size: 18px; }
+}
+
+/* Mobile to Tablet */
+@media (min-width: 481px) and (max-width: 767px) {
+  .hero-heading { font-size: 28px; }
+  .section-heading-lg { font-size: 28px; }
+  .section-heading { font-size: 26px; }
+  .section-text, .hero-text { font-size: 15px; }
+  .card-title { font-size: 20px; }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .hero-heading { font-size: 32px; }
+  .section-heading-lg { font-size: 32px; }
+  .section-heading { font-size: 29px; }
+  .section-text, .hero-text { font-size: 16px; }
+}
+
+/* Small Laptop / Desktop */
+@media (min-width: 1024px) and (max-width: 1535px) {
+  .hero-heading { font-size: 36px; }
+  .section-heading-lg { font-size: 35px; }
+  .section-heading { font-size: 31px; }
+}
+
+/* 1920px tier (Baseline Figma) */
+@media (min-width: 1536px) and (max-width: 1920px) {
+  .hero-heading { font-size: 40px; }
+  .section-heading-lg { font-size: 38px; }
+  .section-heading { font-size: 34px; }
+}
+
+/* Above 1920px / Ultrawide */
+@media (min-width: 1921px) and (max-width: 2559px) {
+  .hero-heading { font-size: 44px; }
+  .section-heading-lg { font-size: 42px; }
+  .section-heading { font-size: 38px; }
+  .section-text, .hero-text { font-size: 18px; line-height: 28px; }
+  .card-title { font-size: 26px; }
+}
+
+/* 2K (QHD, e.g. 2560x1440) */
+@media (min-width: 2560px) and (max-width: 3199px) {
+  .hero-heading { font-size: 48px; }
+  .section-heading-lg { font-size: 45px; }
+  .section-heading { font-size: 41px; }
+  .section-text, .hero-text { font-size: 20px; line-height: 30px; }
+  .card-title { font-size: 28px; }
+  .stat-title { font-size: 24px; }
+}
+
+/* Large 2K / Ultrawide */
+@media (min-width: 3200px) and (max-width: 3799px) {
+  .hero-heading { font-size: 52px; }
+  .section-heading-lg { font-size: 48px; }
+  .section-heading { font-size: 44px; }
+  .section-text, .hero-text { font-size: 22px; line-height: 32px; }
+  .card-title { font-size: 30px; }
+  .stat-title { font-size: 26px; }
+}
+
+/* 4K UHD (e.g. 3840x2160) */
+@media (min-width: 3800px) and (max-width: 4500px) {
+  .hero-heading { font-size: 60px; }
+  .section-heading-lg { font-size: 54px; }
+  .section-heading { font-size: 48px; }
+  .section-text, .hero-text { font-size: 24px; line-height: 36px; }
+  .card-title { font-size: 34px; }
+  .stat-title { font-size: 28px; }
+  .btn-text { font-size: 22px; }
+}
+
+/* Beyond 4K (5K/8K displays) */
+@media (min-width: 4501px) {
+  .hero-heading { font-size: 68px; }
+  .section-heading-lg { font-size: 60px; }
+  .section-heading { font-size: 54px; }
+  .section-text, .hero-text { font-size: 28px; line-height: 40px; }
+  .card-title { font-size: 38px; }
+  .stat-title { font-size: 32px; }
+  .btn-text { font-size: 24px; }
+}
+
+@layer utilities {
+  .text-primary { color: var(--color-primary); }
+  .text-secondary { color: var(--color-secondary); }
+  .bg-primary { background-color: var(--color-primary); }
+  .bg-secondary { background-color: var(--color-secondary); }
+  .bg-surface-1 { background-color: var(--color-surface-1); }
+  .bg-surface-2 { background-color: var(--color-surface-2); }
+  .bg-surface-3 { background-color: var(--color-surface-3); }
+  .bg-surface-4 { background-color: var(--color-surface-4); }
+  .border-primary { border-color: var(--color-primary); }
+  .border-soft { border-color: var(--color-border-soft); }
+  .border-mid { border-color: var(--color-border-mid); }
+}

@@ -1,85 +1,216 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
 @import "tailwindcss";
 
-@theme {
-  --animate-slide-down: slideDown 0.6s ease-out both;
-  --animate-fade-in: fadeIn 0.6s ease-out both;
-  --animate-fade-up: fadeUp 0.7s ease-out both;
-  --animate-scale-in: scaleIn 0.9s ease-out both;
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
-  @keyframes slideDown {
-    from { opacity: 0; transform: translateY(-24px); }
-    to   { opacity: 1; transform: translateY(0); }
+@keyframes fadeIn {
+  from {
+    opacity: 0;
   }
-  @keyframes fadeIn {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+  to {
+    opacity: 1;
   }
-  @keyframes fadeUp {
-    from { opacity: 0; transform: translateY(16px); }
-    to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
   }
-  @keyframes scaleIn {
-    from { opacity: 0; transform: scale(1.03); }
-    to   { opacity: 1; transform: scale(1); }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(1.03);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@utility animate-slide-down {
+  animation: slideDown 0.6s ease-out both;
+}
+
+@utility animate-fade-in {
+  animation: fadeIn 0.8s ease-out both;
+}
+
+@utility animate-fade-up {
+  animation: fadeUp 0.8s ease-out both;
+}
+
+@utility animate-scale-in {
+  animation: scaleIn 0.9s ease-out both;
 }
 
 @layer base {
   :root {
     --color-primary: #BF1E2E;
-    --color-dark: #262626;
+    --color-bg: #000000;
+    --color-surface-card: #111111;
+    --color-surface-dark: #0A0A0A;
+    --color-border: #222222;
+    --color-text-primary: #FFFFFF;
+    --color-text-muted: #888888;
     --color-text-body: #4A4A4A;
   }
 
   html {
-    overflow-x: hidden;
+    width: 100%;
+    overflow-x: clip;
   }
 
   body {
+    width: 100%;
+    overflow-x: clip;
+    position: relative;
     font-family: 'Oswald', sans-serif;
     color: #FFFFFF;
     background-color: #000000;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     font-family: 'Oswald', sans-serif;
   }
 }
 
 section {
-  overflow-x: hidden;
+  max-width: 100%;
+  overflow-x: clip;
 }
 
-/* ===== Global Container ===== */
+/* ===== Global Container (Strict 90% across ALL screens) ===== */
 .custom-container {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-@media (min-width: 1536px) {
-  .custom-container {
-    max-width: calc(100% - 200px);
-  }
+  width: 95% !important;
+  max-width: 95% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  box-sizing: border-box;
 }
 
 /* ===== Font family ===== */
-.font-oswald { font-family: 'Oswald', sans-serif; }
+.font-oswald {
+  font-family: 'Oswald', sans-serif;
+}
 
-/* ===== Global Typography Tokens (from Figma) ===== */
-.nav-link        { font-family: 'Oswald'; font-weight: 400; font-size: 16px; line-height: 150%; }
-.nav-link-active { font-family: 'Oswald'; font-weight: 600; font-size: 16px; line-height: 150%; text-decoration: underline; }
-.hero-title      { font-family: 'Oswald'; font-weight: 600; font-size: 40px; line-height: 150%; text-transform: capitalize; }
-.hero-text       { font-family: 'Oswald'; font-weight: 400; font-size: 18px; line-height: 150%; }
-.section-title   { font-family: 'Oswald'; font-weight: 600; font-size: 38px; line-height: 150%; text-transform: capitalize; }
-.section-title-lg { font-family: 'Oswald'; font-weight: 600; font-size: 34px; line-height: 150%; text-transform: capitalize; }
-.card-title      { font-family: 'Oswald'; font-weight: 600; font-size: 24px; line-height: 150%; }
-.body-text       { font-family: 'Oswald'; font-weight: 400; font-size: 17px; line-height: 150%; }
-.btn-text        { font-family: 'Oswald'; font-weight: 600; font-size: 16px; line-height: 16px; }
-.link-text       { font-family: 'Oswald'; font-weight: 600; font-size: 18px; line-height: 180%; text-decoration: underline; }
+/* ===== Global Typography Tokens (Responsive scale from mobile to 4K) ===== */
+.nav-link { font-family: 'Oswald'; font-weight: 400; font-size: 14px; line-height: 150%; }
+.nav-link-active { font-family: 'Oswald'; font-weight: 600; font-size: 14px; line-height: 150%; text-decoration: underline; }
+.hero-title { font-family: 'Oswald'; font-weight: 600; font-size: 26px; line-height: 140%; text-transform: capitalize; }
+.hero-text { font-family: 'Oswald'; font-weight: 400; font-size: 14px; line-height: 150%; }
+.section-title { font-family: 'Oswald'; font-weight: 600; font-size: 24px; line-height: 140%; text-transform: capitalize; }
+.section-title-lg { font-family: 'Oswald'; font-weight: 600; font-size: 22px; line-height: 140%; text-transform: capitalize; }
+.card-title { font-family: 'Oswald'; font-weight: 600; font-size: 18px; line-height: 140%; }
+.body-text { font-family: 'Oswald'; font-weight: 400; font-size: 14px; line-height: 150%; }
+.btn-text { font-family: 'Oswald'; font-weight: 600; font-size: 14px; line-height: 16px; }
+.link-text { font-family: 'Oswald'; font-weight: 600; font-size: 14px; line-height: 180%; text-decoration: underline; }
+
+/* Mobile Landscape (481px - 767px) */
+@media (min-width: 481px) {
+  .nav-link, .nav-link-active, .btn-text, .link-text { font-size: 15px; }
+  .hero-title { font-size: 30px; }
+  .hero-text, .body-text { font-size: 15px; }
+  .section-title { font-size: 28px; }
+  .section-title-lg { font-size: 25px; }
+  .card-title { font-size: 20px; }
+}
+
+/* Tablet (768px - 1023px) */
+@media (min-width: 768px) {
+  .nav-link, .nav-link-active, .btn-text, .link-text { font-size: 15px; }
+  .hero-title { font-size: 34px; }
+  .hero-text, .body-text { font-size: 16px; }
+  .section-title { font-size: 32px; }
+  .section-title-lg { font-size: 28px; }
+  .card-title { font-size: 22px; }
+}
+
+/* Laptop (1024px - 1279px) */
+@media (min-width: 1024px) {
+  .nav-link, .nav-link-active, .btn-text, .link-text { font-size: 16px; }
+  .hero-title { font-size: 36px; }
+  .hero-text, .body-text { font-size: 17px; }
+  .section-title { font-size: 34px; }
+  .section-title-lg { font-size: 30px; }
+  .card-title { font-size: 23px; }
+}
+
+/* Desktop FHD (1280px - 1535px) */
+@media (min-width: 1280px) {
+  .hero-title { font-size: 40px; }
+  .hero-text, .body-text { font-size: 18px; }
+  .section-title { font-size: 38px; }
+  .section-title-lg { font-size: 34px; }
+  .card-title { font-size: 24px; }
+}
+
+/* Figma Baseline (1536px - 1920px) */
+@media (min-width: 1536px) {
+  .nav-link, .nav-link-active, .btn-text, .link-text { font-size: 17px; }
+  .hero-title { font-size: 44px; }
+  .hero-text, .body-text { font-size: 19px; }
+  .section-title { font-size: 40px; }
+  .section-title-lg { font-size: 36px; }
+  .card-title { font-size: 26px; }
+}
+
+/* 2K / QHD (1921px - 2559px) */
+@media (min-width: 1921px) {
+  .nav-link, .nav-link-active, .btn-text, .link-text { font-size: 19px; }
+  .hero-title { font-size: 50px; }
+  .hero-text, .body-text { font-size: 21px; }
+  .section-title { font-size: 46px; }
+  .section-title-lg { font-size: 40px; }
+  .card-title { font-size: 30px; }
+}
+
+/* Ultra-Wide (2560px - 3799px) */
+@media (min-width: 2560px) {
+  .nav-link, .nav-link-active, .btn-text, .link-text { font-size: 22px; }
+  .hero-title { font-size: 60px; }
+  .hero-text, .body-text { font-size: 24px; }
+  .section-title { font-size: 54px; }
+  .section-title-lg { font-size: 48px; }
+  .card-title { font-size: 36px; }
+}
+
+/* 4K Displays (3800px+) */
+@media (min-width: 3800px) {
+  .nav-link, .nav-link-active, .btn-text, .link-text { font-size: 26px; }
+  .hero-title { font-size: 72px; }
+  .hero-text, .body-text { font-size: 28px; }
+  .section-title { font-size: 64px; }
+  .section-title-lg { font-size: 56px; }
+  .card-title { font-size: 42px; }
+}
 
 @layer utilities {
-  .text-primary { color: #BF1E2E; }
-  .bg-primary { background-color: #BF1E2E; }
+  .text-primary {
+    color: #BF1E2E;
+  }
+
+  .bg-primary {
+    background-color: #BF1E2E;
+  }
 }

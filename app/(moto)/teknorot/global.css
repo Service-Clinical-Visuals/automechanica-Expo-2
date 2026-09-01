@@ -70,8 +70,8 @@ body {
 
 .custom-container {
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  padding-left: clamp(16px, 5vw, 100px);
+  padding-right: clamp(16px, 5vw, 100px);
 }
 
 /* Font sizes - as requested, use only global.css */
@@ -140,41 +140,18 @@ body {
 
 /* Responsive Custom Container & Font Sizes */
 
-@media (max-width: 480px) {
-  .custom-container {
-    max-width: 95%;
-  }
-}
+@media (max-width: 480px) {}
 
-@media (min-width: 481px) and (max-width: 767px) {
-  .custom-container {
-    max-width: 92%;
-  }
-}
+@media (min-width: 481px) and (max-width: 767px) {}
 
-@media (min-width: 768px) and (max-width: 1023px) {
-  .custom-container {
-    max-width: 90%;
-  }
-}
+@media (min-width: 768px) and (max-width: 1023px) {}
 
-@media (min-width: 1024px) and (max-width: 1279px) {
-  .custom-container {
-    max-width: 85%;
-  }
-}
+@media (min-width: 1024px) and (max-width: 1279px) {}
 
-@media (min-width: 1280px) and (max-width: 1535px) {
-  .custom-container {
-    max-width: 85%;
-  }
-}
+@media (min-width: 1280px) and (max-width: 1535px) {}
 
 /* as per figma */
 @media (min-width: 1536px) and (max-width: 1920px) {
-  .custom-container {
-    max-width: 90%;
-  }
 
   .header-link {
     font-size: 16px;
@@ -206,9 +183,6 @@ body {
 }
 
 @media (min-width: 1921px) and (max-width: 2559px) {
-  .custom-container {
-    max-width: 90%;
-  }
 
   .header-link {
     font-size: 16px;
@@ -242,7 +216,8 @@ body {
 /* 2K / Mac Retina / Standard 4K with UI Scaling (2560px - 3799px) - 1.33x Scaling */
 @media (min-width: 2560px) and (max-width: 3799px) {
   .custom-container {
-    max-width: 90%;
+    padding-left: 120px;
+    padding-right: 120px;
   }
 
   .header-link {
@@ -281,7 +256,8 @@ body {
 /* Native 4K (3840x2160) at 100% UI Scale - 2.0x Scaling */
 @media (min-width: 3800px) {
   .custom-container {
-    max-width: 90%;
+    padding-left: 160px;
+    padding-right: 160px;
   }
 
   .header-link {

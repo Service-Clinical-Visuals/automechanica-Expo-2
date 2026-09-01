@@ -5,7 +5,7 @@ export default function CompleteSolutions() {
     <section className="w-full py-16 md:py-20 lg:py-24">
       <div className="custom-container">
         {/* Heading + description */}
-        <div className="max-w-[70%] mx-auto text-center mb-10 md:mb-12">
+        <div className="max-w-[1225px] xl:max-w-[70%] mx-auto text-center mb-10 md:mb-12">
           <h2
             data-aos="fade-up"
             data-aos-duration="800"
@@ -61,7 +61,7 @@ export default function CompleteSolutions() {
           <p
             data-aos="fade-up"
             data-aos-duration="800"
-            className="body-text font-body font-normal text-body leading-relaxed max-w-[820px]"
+            className="body-text font-body font-normal text-body leading-relaxed max-w-[820px] xl:max-w-[70%]"
           >
             MKT Holdings, Inc. delivers reliable automotive suspension
             solutions through advanced engineering, precision manufacturing,

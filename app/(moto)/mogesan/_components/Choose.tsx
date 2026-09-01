@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import DynamicVideoPlayer from "../../../_components/DynamicVideoPlayer";
+import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 import Button from "./Button";
 
 export default function Choose() {
@@ -12,7 +12,7 @@ export default function Choose() {
           className="flex flex-col xl:flex-row xl:items-center xl:justify-between gap-8 pb-8 xl:pb-[41px] mb-10 xl:mb-[50px] border-b border-white/24"
           data-aos="fade-up"
         >
-          <div className="w-full xl:max-w-[1107px]">
+          <div className="w-full xl:max-w-[70%]">
             <h2 className="section-title text-white mb-4 xl:mb-6">
               Advanced Engineering Excellence
             </h2>

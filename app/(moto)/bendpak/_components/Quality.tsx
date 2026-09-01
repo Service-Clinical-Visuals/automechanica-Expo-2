@@ -13,20 +13,20 @@ export default function Quality() {
 
   return (
     <section
-      className="py-16 lg:py-20 relative overflow-hidden bg-white text-black bg-cover bg-center bg-no-repeat"
+      className="py-16 xl:py-20 min-[2100px]:py-28 min-[3800px]:py-40 relative overflow-hidden bg-white text-black bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: 'url("/moto/bendpak/bg.png")' }}
     >
       <div className="custom-container relative z-10">
 
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
+        <div className="grid grid-cols-1 xl:grid-cols-12 gap-10  min-[3800px]:gap-16 items-center">
 
           {/* Left Content */}
-          <div className="flex flex-col gap-6 lg:col-span-6 justify-center" data-aos="fade-right">
+          <div className="flex flex-col gap-6 xl:col-span-5 justify-center" data-aos="fade-right">
             <h2 className="section-title montserrat-font font-bold leading-tight">
               Leadership & Vision
             </h2>
 
-            <p className="section-text inter-font text-[#000000] font-bold italic mt-2">
+            <p className="section-text inter-font text-[#000000] f italic mt-2">
               Driven by Experience. Guided by Innovation.
             </p>
 
@@ -38,10 +38,10 @@ export default function Quality() {
               {leaders.map((leader, idx) => (
                 <li key={idx} className="flex items-center gap-3">
                   <div className="w-auto h-auto flex-shrink-0 flex items-center justify-center rounded-full">
-                    <img src="/moto/bendpak/icon1.png" alt="icon" className="w-full h-full object-contain" />
+                    <img src="/moto/bendpak/icon1.png" alt="icon" className="w-full h-full min-[2100px]:w-12 min-[2100px]:h-12 min-[3800px]:w-16 min-[3800px]:h-16 object-contain" />
                   </div>
                   <p className="inter-font section-text text-[#000000] font-regular">
-                    <strong className="section-text">{leader.name}</strong> — {leader.title}
+                    {leader.name}—{leader.title}
                   </p>
                 </li>
               ))}
@@ -53,7 +53,7 @@ export default function Quality() {
           </div>
 
           {/* Right Image */}
-          <div className="w-full h-full relative overflow-hidden lg:col-span-6 flex items-center justify-center" data-aos="fade-left">
+          <div className="w-full h-full relative overflow-hidden xl:col-span-7 flex items-center justify-center" data-aos="fade-left">
             <img
               src="/moto/bendpak/q1.png"
               alt="BendPak Leadership Team"

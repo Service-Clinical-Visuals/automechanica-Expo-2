@@ -16,9 +16,9 @@ export default function Banner() {
       </div>
 
       {/* Content Overlay */}
-      <div className="custom-container relative z-20 pl-10 pb-20 md:pb-25 lg:pb-30">
+      <div className="custom-container relative z-20 pl-10 pb-20 md:pb-25 lg:pb-60">
         <div className="text-left" data-aos="fade-up" data-aos-delay="200">
-          <h1 className="banner-title font-semibold text-white leading-tight mb-8 montserrat-font">
+          <h1 className="banner-title font-semibold text-white leading-[1.2] mb-8 montserrat-font">
             Precision Steering. Reliable Suspension.<br /> Built for Every Journey.
           </h1>
           <Button href="#" variant="primary">

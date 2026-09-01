@@ -1,10 +1,10 @@
-import "./global.css";
+import type { Metadata } from "next";
+import "./globals.css";
 import Header from "./_components/Header";
 import Footer from "./_components/Footer";
-import SmoothScrollProvider from "./_components/SmoothScroller";
+import SmoothScroller from "./_components/SmoothScroller";
+import AOSProvider from "@/app/_components/AOSProvider";
 import { VideoProvider } from "@/app/_context/VideoContext";
-
-import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "AXIOM Autotech Inc.",
@@ -16,18 +16,20 @@ export const metadata: Metadata = {
 
 export default function AxiomLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
-    <div className="font-poppins bg-white text-[#111111] min-h-screen relative w-full overflow-x-hidden">
-      <SmoothScrollProvider>
-        <VideoProvider>
-          <Header />
-          {children}
-          <Footer />
-        </VideoProvider>
-      </SmoothScrollProvider>
+    <div className="font-poppins bg-white text-[#111111] min-h-screen flex flex-col overflow-x-hidden">
+      <VideoProvider>
+        <AOSProvider>
+          <SmoothScroller>
+            <Header />
+            <main className="flex-grow">{children}</main>
+            <Footer />
+          </SmoothScroller>
+        </AOSProvider>
+      </VideoProvider>
     </div>
   );
 }

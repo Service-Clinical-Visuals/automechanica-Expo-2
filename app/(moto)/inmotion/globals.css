@@ -1,0 +1,616 @@
+@layer base {
+  :root {
+    --font-body-family: var(--font-oswald), sans-serif;
+    --font-heading-family: var(--font-oswald), sans-serif;
+  }
+}
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #012F90;
+  --color-primary-hover: #012F90;
+  --color-secondary: #D82424;
+  --color-secondary-hover: #b01d1d;
+  --color-dark: #1A1A1A;
+  --color-text: #1A1A1A;
+  --color-gray-light: #f8f9fa;
+  --color-border: #e2e8f0;
+
+  --font-oswald: var(--font-oswald), 'Oswald', ui-sans-serif, system-ui, sans-serif;
+  --font-lato: var(--font-lato), 'Lato', ui-sans-serif, sans-serif;
+}
+
+html,
+body,
+* {
+  font-family: var(--font-oswald) !important;
+}
+
+body {
+  color: var(--color-text);
+  background-color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden !important;
+  width: 100%;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.navlink {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-weight: 400;
+  font-family: var(--font-oswald);
+}
+
+.heading {
+  font-size: 28px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  font-weight: 600;
+  font-family: var(--font-oswald);
+}
+
+.heading2 {
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  font-weight: 600;
+  font-family: var(--font-oswald);
+}
+
+.subheading {
+  font-size: 20px;
+  line-height: 135%;
+  letter-spacing: 0%;
+  font-weight: 600;
+  font-family: var(--font-oswald);
+}
+
+.content {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  font-weight: 400;
+  font-family: var(--font-oswald);
+}
+
+.heading-white {
+  font-size: 32px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  font-weight: 600;
+  font-family: var(--font-oswald);
+}
+
+.subheading-white {
+  font-size: 20px;
+  line-height: 125%;
+  letter-spacing: 0%;
+  font-weight: 600;
+  font-family: var(--font-oswald);
+}
+
+.content-white {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  font-weight: 400;
+  font-family: var(--font-oswald);
+}
+
+.btn-text {
+  font-size: 16px;
+  line-height: 150%;
+  font-family: var(--font-oswald);
+  font-weight: 400;
+}
+
+/* Base Utility Classes */
+.nav-spacing {
+  gap: 2rem;
+  margin-left: 2rem;
+}
+
+.product-arrow {
+  height: 20px;
+}
+
+.footer-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.check-circle {
+  width: 22px;
+  height: 22px;
+}
+
+.check-icon {
+  width: 13px;
+  height: 13px;
+}
+
+.action-circle {
+  width: 45px;
+  height: 45px;
+}
+
+.action-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
+.rounded-4xl {
+  border-radius: 2rem;
+}
+
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+
+
+/* Custom container class with individual media queries for easy customization */
+.custom-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Mobile Portrait Screen (up to 480px) */
+@media (max-width: 480px) {
+  .custom-container {
+    max-width: 95%;
+  }
+}
+
+/* Mobile Landscape Screen (481px - 767px) */
+@media (min-width: 481px) and (max-width: 767px) {
+  .custom-container {
+    max-width: 92%;
+  }
+}
+
+/* Tablet / Tab Screen (768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .custom-container {
+    max-width: 90%;
+  }
+}
+
+/* Laptop Screen (1024px - 1279px) */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .custom-container {
+    max-width: 90%;
+  }
+}
+
+/* Desktop PC Screen (1280px - 1535px) */
+@media (min-width: 1280px) and (max-width: 1535px) {
+  .custom-container {
+    max-width: 90%;
+  }
+}
+
+/* Large Desktop PC Screen (1536px - 1919px) */
+@media (min-width: 1536px) and (max-width: 1920px) {
+  .custom-container {
+    max-width: 90%;
+  }
+}
+
+/* Extra Large PC / 2K Screen (1920px - 2499px) */
+@media (min-width: 1921px) and (max-width: 2499px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  .margin-top-hero {
+    margin-top: 10px;
+  }
+}
+
+/* Ultra-wide Screen / Max Cover (2500px and above) */
+@media (min-width: 2500px) and (max-width: 3800px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  .margin-top-hero {
+    margin-top: 35px;
+  }
+}
+
+/* 4K Ultra-wide Screen / Max Cover (3800px and above) */
+@media (min-width: 3800px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  .margin-top-hero {
+    margin-top: 50px;
+  }
+}
+
+/* Typography Scaling for Tablet (768px and above) */
+@media (min-width: 768px) {
+  .heading {
+    font-size: 32px;
+  }
+
+  .heading2 {
+    font-size: 28px;
+  }
+
+  .subheading {
+    font-size: 20px;
+  }
+
+  .content {
+    font-size: 17px;
+  }
+
+  .heading-white {
+    font-size: 36px;
+  }
+
+  .subheading-white {
+    font-size: 22px;
+  }
+
+  .content-white {
+    font-size: 17px;
+  }
+
+  .btn-text {
+    font-size: 17px;
+  }
+
+  .navlink {
+    font-size: 16px;
+  }
+
+  .product-arrow {
+    height: 32px;
+  }
+
+  .footer-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .check-circle {
+    width: 26px;
+    height: 26px;
+  }
+
+  .check-icon {
+    width: 16px;
+    height: 16px;
+  }
+
+  .action-circle {
+    width: 50px;
+    height: 50px;
+  }
+
+  .action-icon {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+/* Typography Scaling for Desktop (1024px and above) */
+@media (min-width: 1024px) {
+  .heading {
+    font-size: 36px;
+  }
+
+  .heading2 {
+    font-size: 32px;
+  }
+
+  .subheading {
+    font-size: 22px;
+  }
+
+  .content {
+    font-size: 17px;
+  }
+
+  .heading-white {
+    font-size: 40px;
+  }
+
+  .subheading-white {
+    font-size: 24px;
+  }
+
+  .content-white {
+    font-size: 18px;
+  }
+
+  .btn-text {
+    font-size: 17px;
+  }
+
+  .navlink {
+    font-size: 17px;
+  }
+
+  .product-arrow {
+    height: 40px;
+  }
+
+  .footer-icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  .check-circle {
+    width: 28px;
+    height: 28px;
+  }
+
+  .check-icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .action-circle {
+    width: 55px;
+    height: 55px;
+  }
+
+  .action-icon {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+/* Typography Scaling for Large Screens (1920px and above) */
+@media (min-width: 1920px) {
+  .navlink {
+    font-size: 17px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-family: var(--font-oswald);
+  }
+
+  .heading {
+    font-size: 36px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    font-weight: 600;
+    font-family: var(--font-oswald);
+  }
+
+  .heading2 {
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    font-weight: 600;
+    font-family: var(--font-oswald);
+  }
+
+  .subheading {
+    font-size: 22px;
+    line-height: 135%;
+    letter-spacing: 0%;
+    font-weight: 600;
+    font-family: var(--font-oswald);
+  }
+
+  .content {
+    font-size: 17px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    font-weight: 400;
+    font-family: var(--font-oswald);
+  }
+
+  .heading-white {
+    font-size: 40px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    font-weight: 600;
+    font-family: var(--font-oswald);
+  }
+
+  .subheading-white {
+    font-size: 24px;
+    line-height: 125%;
+    letter-spacing: 0%;
+    font-weight: 600;
+    font-family: var(--font-oswald);
+  }
+
+  .content-white {
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    font-weight: 400;
+    font-family: var(--font-oswald);
+  }
+
+  .btn-text {
+    font-size: 17px;
+    line-height: 150%;
+    font-family: var(--font-oswald);
+    font-weight: 400;
+  }
+
+  .product-arrow {
+    height: 48px;
+  }
+
+  .rounded-3xl {
+    border-radius: 1.5rem;
+  }
+
+  .rounded-4xl {
+    border-radius: 2rem;
+  }
+
+  .transition-all {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+  }
+}
+
+/* 2K / QHD Monitors (2560px - 3839px) */
+@media (min-width: 2560px) {
+  .heading {
+    font-size: 48px;
+  }
+
+  .heading2 {
+    font-size: 42px;
+  }
+
+  .subheading {
+    font-size: 36px;
+  }
+
+  .content {
+    font-size: 26px;
+  }
+
+  .heading-white {
+    font-size: 54px;
+  }
+
+  .subheading-white {
+    font-size: 40px;
+  }
+
+  .content-white {
+    font-size: 28px;
+  }
+
+  .btn-text {
+    font-size: 26px;
+  }
+
+  .navlink {
+    font-size: 26px;
+  }
+
+  .product-arrow {
+    height: 80px;
+  }
+
+  .footer-icon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .check-circle {
+    width: 32px;
+    height: 32px;
+  }
+
+  .check-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .nav-spacing {
+    gap: 4rem;
+    margin-left: 4rem;
+  }
+
+  .action-circle {
+    width: 60px;
+    height: 60px;
+  }
+
+  .action-icon {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+/* 4K UHD Monitors (3840px and above) */
+@media (min-width: 3840px) {
+  .heading {
+    font-size: 72px;
+  }
+
+  .heading2 {
+    font-size: 64px;
+  }
+
+  .subheading {
+    font-size: 56px;
+  }
+
+  .content {
+    font-size: 40px;
+  }
+
+  .heading-white {
+    font-size: 80px;
+  }
+
+  .subheading-white {
+    font-size: 64px;
+  }
+
+  .content-white {
+    font-size: 44px;
+  }
+
+  .btn-text {
+    font-size: 42px;
+  }
+
+  .navlink {
+    font-size: 42px;
+  }
+
+  .product-arrow {
+    height: 90px;
+  }
+
+  .footer-icon {
+    width: 44px;
+    height: 44px;
+  }
+
+  .check-circle {
+    width: 44px;
+    height: 44px;
+  }
+
+  .check-icon {
+    width: 28px;
+    height: 28px;
+  }
+
+  .nav-spacing {
+    gap: 6rem;
+    margin-left: 6rem;
+  }
+
+  .action-circle {
+    width: 80px;
+    height: 80px;
+  }
+
+  .action-icon {
+    width: 44px;
+    height: 44px;
+  }
+}

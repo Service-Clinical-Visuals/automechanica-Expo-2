@@ -13,7 +13,7 @@ export default function Categories() {
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.6, ease: "easeOut" }}
-          className="w-full xl:w-[511px] flex-shrink-0"
+          className="w-full xl:w-[511px] min-[1920px]:w-[580px] min-[2560px]:w-[660px] min-[3800px]:w-[750px] flex-shrink-0"
         >
           <p className="section-label text-[#003344] mb-4">Categories</p>
           <h2 className="section-title text-[#111111] mb-6">
@@ -38,7 +38,7 @@ export default function Categories() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.6, ease: "easeOut" }}
-            className="relative w-full sm:w-1/2 h-[300px] xl:h-[440px] overflow-hidden"
+            className="relative w-full sm:w-1/2 h-[300px] xl:h-[440px] min-[1920px]:h-[520px] min-[2560px]:h-[600px] min-[3800px]:h-[700px] overflow-hidden rounded-2xl"
           >
             <img
               src="/moto/axiom/prod2.png"
@@ -59,7 +59,7 @@ export default function Categories() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.6, delay: 0.15, ease: "easeOut" }}
-            className="relative w-full sm:w-1/2 h-[300px] xl:h-[440px] overflow-hidden"
+            className="relative w-full sm:w-1/2 h-[300px] xl:h-[440px] min-[1920px]:h-[520px] min-[2560px]:h-[600px] min-[3800px]:h-[700px] overflow-hidden rounded-2xl"
           >
             <img
               src="/moto/axiom/prod1.jpg"

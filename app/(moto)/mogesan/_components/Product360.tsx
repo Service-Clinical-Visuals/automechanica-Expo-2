@@ -1,18 +1,18 @@
 "use client";
 
 import React from "react";
-import DynamicVideoPlayer from "../../../_components/DynamicVideoPlayer";
+import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 
 export default function Product360() {
   return (
     <section className="w-full py-16 md:py-20 xl:py-[100px] bg-[#262626]">
       <div className="custom-container flex flex-col items-center text-center">
-        <h2 className="section-title text-white max-w-[289px] mb-6" data-aos="fade-up">
+        <h2 className="section-title text-white whitespace-nowrap mb-6" data-aos="fade-up">
           360° Product View
         </h2>
 
         <p
-          className="body-text text-white max-w-[1186px] mb-10"
+          className="body-text text-white max-w-[1186px] xl:max-w-[70%] mx-auto mb-10"
           data-aos="fade-up"
           data-aos-delay="100"
         >

@@ -28,7 +28,7 @@ export default function Partners() {
   ];
 
   return (
-    <section className="py-16 xl:py-20 bg-white relative">
+    <section className="py-10 lg:py-20 bg-white relative">
       <div className="custom-container">
 
         {/* Header Section */}
@@ -39,7 +39,7 @@ export default function Partners() {
           <h2 className="section-title text-[#202020] rubik-font font-semibold mb-6">
             Introducing Our Latest Innovation In Performance
           </h2>
-          <p className="inter-font text-[#404040] section-text max-w-7xl mx-auto leading-relaxed">
+          <p className="inter-font text-[#404040] section-text max-w-[90%] lg:max-w-[80%] mx-auto leading-relaxed">
             Discover Our Newest Product, Engineered To Deliver Superior Performance, Durability, And Efficiency. Designed With Advanced Technology And Precision Manufacturing, It Meets The Highest Industry Standards While Ensuring Reliable Operation In Every Condition. Built To Enhance Performance And Extend Lifespan, This Product Reflects Our Commitment To Quality And Innovation.
           </p>
         </div>
@@ -48,8 +48,8 @@ export default function Partners() {
         <div className="relative flex items-center justify-between w-full" data-aos="fade-up" data-aos-delay="200">
 
           {/* Left Arrow */}
-          <button className="hidden xl:flex w-8 h-8 rounded-full border border-[#282361] items-center justify-center text-[#282361] hover:bg-[#282361] hover:text-white transition-colors absolute -left-12 top-1/2 -translate-y-1/2">
-            <ArrowLeft size={16} />
+          <button className="hidden xl:flex w-[2em] h-[2em] rounded-full border border-[#282361] items-center justify-center text-[#282361] hover:bg-[#282361] hover:text-white transition-colors absolute -left-[3em] top-1/2 -translate-y-1/2 section-text">
+            <ArrowLeft size="1em" />
           </button>
 
           {/* Grid */}
@@ -76,12 +76,12 @@ export default function Partners() {
                   </h3>
 
                   {/* Hover Buttons */}
-                  <div className="flex items-center gap-3 w-auto px-6 max-h-0 opacity-0 overflow-hidden group-hover:max-h-[60px] group-hover:opacity-100 group-hover:mt-5 transition-all duration-500 ease-in-out">
+                  <div className="flex items-center gap-3 w-auto px-6 overflow-hidden transition-all duration-500 ease-in-out max-h-[60px] opacity-100 mt-5 xl:max-h-0 xl:opacity-0 xl:mt-0 xl:group-hover:max-h-[60px] xl:group-hover:opacity-100 xl:group-hover:mt-5">
                     <button className="flex-1 py-2 px-5 rounded-[6px] border border-[#282361] text-[#282361] font-semibold text-sm hover:bg-[#282361] hover:text-white transition-colors">
                       View Product
                     </button>
                     <button className="p-2 rounded-[6px] border border-[#282361] text-[#282361] hover:bg-[#282361] hover:text-white transition-colors flex items-center justify-center">
-                      <Heart size={20} />
+                      <Heart size="1.25em" />
                     </button>
                   </div>
                 </div>
@@ -91,17 +91,17 @@ export default function Partners() {
           </div>
 
           {/* Right Arrow */}
-          <button className="hidden xl:flex w-8 h-8 rounded-full border border-[#282361] items-center justify-center text-[#282361] hover:bg-[#282361] hover:text-white transition-colors absolute -right-12 top-1/2 -translate-y-1/2">
-            <ArrowRight size={16} />
+          <button className="hidden xl:flex w-[2em] h-[2em] rounded-full border border-[#282361] items-center justify-center text-[#282361] hover:bg-[#282361] hover:text-white transition-colors absolute -right-[3em] top-1/2 -translate-y-1/2 section-text">
+            <ArrowRight size="1em" />
           </button>
 
         </div>
 
         {/* Pagination Dots */}
-        <div className="flex justify-center items-center gap-1.5 mt-8">
-          <div className="w-2 h-2 rounded-full bg-[#282361]"></div>
-          <div className="w-2 h-2 rounded-full bg-gray-300"></div>
-          <div className="w-2 h-2 rounded-full bg-gray-300"></div>
+        <div className="flex justify-center items-center gap-[0.375em] mt-8 section-text">
+          <div className="w-[0.5em] h-[0.5em] rounded-full bg-[#282361]"></div>
+          <div className="w-[0.5em] h-[0.5em] rounded-full bg-gray-300"></div>
+          <div className="w-[0.5em] h-[0.5em] rounded-full bg-gray-300"></div>
         </div>
 
       </div>

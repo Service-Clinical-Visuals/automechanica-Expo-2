@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import DynamicVideoPlayer from "../../../_components/DynamicVideoPlayer";
+import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 import Button from "./Button";
 
 const features = [
@@ -75,7 +75,7 @@ export default function Premium() {
             Premium Piston &amp; Piston Rings
           </h2>
 
-          <p className="body-text text-white max-w-[1172px] mx-auto">
+          <p className="body-text text-white max-w-[1172px] xl:max-w-[70%] mx-auto">
             MOGESAN manufactures premium Pistons and Piston Rings designed to
             deliver outstanding engine performance, exceptional durability, and
             long-lasting reliability. Manufactured using advanced technologies

@@ -33,11 +33,11 @@ export default function Gallery() {
           className="flex flex-col xl:flex-row xl:items-center xl:justify-between gap-8 pb-8 xl:pb-[41px] mb-10 xl:mb-[50px] border-b border-white/24"
           data-aos="fade-up"
         >
-          <div className="w-full xl:max-w-[813px]">
+          <div className="w-full xl:max-w-[70%]">
             <h2 className="section-title text-white mb-4 xl:mb-6">
               Explore Our Precision-Engineered Engine Components
             </h2>
-            <p className="body-text text-white max-w-[963px]">
+            <p className="body-text text-white max-w-[963px] xl:max-w-[70%]">
               Discover the MOGESAN Product Gallery, featuring our premium
               range of engine pistons, cylinder liners, and piston rings.
               Explore products engineered for exceptional performance,

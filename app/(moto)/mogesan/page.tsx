@@ -9,7 +9,7 @@ import Trade from "./_components/Trade";
 
 export default function MogesanPage() {
   return (
-    <main className="flex min-h-screen flex-col w-full bg-black overflow-x-hidden">
+    <div className="flex flex-col w-full bg-black">
       <Banner />
       <Excellence />
       <Product360 />
@@ -18,7 +18,6 @@ export default function MogesanPage() {
       <Gallery/>
       <Choose/>
       <Trade/>
-      
-    </main>
+    </div>
   );
 }

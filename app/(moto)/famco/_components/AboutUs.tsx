@@ -5,7 +5,7 @@ import Button from "./Button";
 
 export default function AboutUs() {
   return (
-    <section className="py-16 xl:py-20 bg-white">
+    <section className="py-10 lg:py-20 bg-white">
       <div className="custom-container">
 
         {/* Header Section */}
@@ -19,7 +19,7 @@ export default function AboutUs() {
         </div>
 
         {/* Text Description */}
-        <div className="flex flex-col items-center text-center max-w-7xl mx-auto mb-10" data-aos="fade-up" data-aos-delay="100">
+        <div className="flex flex-col items-center text-center max-w-[90%] lg:max-w-[80%] mx-auto mb-10" data-aos="fade-up" data-aos-delay="100">
           <p className="inter-font text-[#404040] section-text tracking-normal leading-relaxed">
             Fame Automotive, Established In 1967, Is A Globally Recognized Manufacturer Known For Quality, Innovation, & Customer Satisfaction. The Company Expanded In The Early 2000s Into Water Circulation Pumps For Heavy-Duty Vehicles & Now Exports Worldwide Under Its FAMCO Brand. With ISO 9001-Certified Processes And Advanced Manufacturing Technologies, Fame Automotive Supplies Leading OEMs Such As Volvo, DAF, Scania, MAN, Mercedes-Benz, Renault, Ford, And Daewoo. Its Product Range Has Recently Expanded To Include Fuel Supply And Oil Pumps, Reinforcing Its Position As A Trusted Provider Of Durable, High-Performance Automotive Solutions.
           </p>

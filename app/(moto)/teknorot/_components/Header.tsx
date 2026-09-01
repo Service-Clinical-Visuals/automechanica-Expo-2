@@ -44,7 +44,7 @@ export default function Header() {
             </div>
 
             {/* Desktop Navigation */}
-            <nav className="hidden lg:flex items-center gap-8 lg:gap-10 inter-font">
+            <nav className="hidden lg:flex items-center gap-10 lg:gap-14 inter-font">
               {navLinks.map((link) => (
                 <Link
                   key={link.name}
@@ -85,7 +85,7 @@ export default function Header() {
 
       {/* Mobile Navigation Menu */}
       {isMobileMenuOpen && (
-        <div className="lg:hidden absolute top-full left-0 w-full bg-white shadow-lg flex flex-col z-50 border-t border-gray-100">
+        <div className="lg:hidden absolute top-full left-0 w-full bg-white shadow-lg flex flex-col z-50 border-t border-gray-100 max-h-[calc(100vh-80px)] overflow-y-auto">
           <nav className="flex flex-col py-2">
             {navLinks.map((link) => (
               <Link

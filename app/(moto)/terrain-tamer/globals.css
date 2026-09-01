@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Rubik:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary: #FECC00;
+    --dark-bg: #1C1C1C;
+    --text-heading: #272727;
+    --text-body: #4B5563;
+    --border-light: #E4E4E4;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+  }
+
+  body {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    overflow-x: hidden !important;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  button {
+    font-family: 'Oswald', sans-serif;
+  }
+
+  p,
+  a,
+  span {
+    font-family: 'Rubik', sans-serif;
+  }
+}
+
+/* ---------------------------------------------
+   ROOT / NEXT APP WIDTH
+--------------------------------------------- */
+
+#__next,
+main {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* ---------------------------------------------
+   SECTION WIDTH
+--------------------------------------------- */
+
+section {
+  width: 100%;
+  max-width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  overflow-x: hidden !important;
+}
+
+/* ---------------------------------------------
+   CONTAINER
+--------------------------------------------- */
+
+.custom-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ---------------------------------------------
+   MOBILE
+   0 - 480px
+--------------------------------------------- */
+
+@media (max-width: 480px) {
+  .custom-container {
+    width: 90%;
+    max-width: 90%;
+  }
+}
+
+/* ---------------------------------------------
+   SMALL TABLET
+   481 - 767px
+--------------------------------------------- */
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .custom-container {
+    width: 90%;
+    max-width: 90%;
+  }
+
+  section {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+/* ---------------------------------------------
+   TABLET
+   768 - 1023px
+--------------------------------------------- */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .custom-container {
+    width: 88%;
+    max-width: 88%;
+  }
+
+  section {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+/* ---------------------------------------------
+   DESKTOP
+   1024 - 1279px
+--------------------------------------------- */
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .custom-container {
+    width: 87.5%;
+    max-width: 87.5%;
+  }
+
+  section {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+/* ---------------------------------------------
+   LARGE DESKTOP
+   1280 - 1535px
+--------------------------------------------- */
+
+@media (min-width: 1280px) and (max-width: 1535px) {
+  .custom-container {
+    width: 87.5%;
+    max-width: 87.5%;
+  }
+
+  section {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+/* ---------------------------------------------
+   LARGE DESKTOP
+   1536 - 1919px
+--------------------------------------------- */
+
+@media (min-width: 1536px) and (max-width: 1919px) {
+  .custom-container {
+    width: 87.5%;
+    max-width: 87.5%;
+  }
+
+  section {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+/* ---------------------------------------------
+   1920px
+--------------------------------------------- */
+
+@media (min-width: 1920px) and (max-width: 1999px) {
+  .custom-container {
+    width: 1680px;
+    max-width: 1680px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  section {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+/* ---------------------------------------------
+   2000 - 2559px
+   LARGE / 2K RANGE
+--------------------------------------------- */
+
+@media (min-width: 2000px) and (max-width: 2559px) {
+  .custom-container {
+    width: 90%;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  section {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+/* ---------------------------------------------
+   2560 - 3799px
+   2K
+--------------------------------------------- */
+
+@media (min-width: 2560px) and (max-width: 3799px) {
+  .custom-container {
+    width: 90%;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  section {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+/* ---------------------------------------------
+   3800px+
+   4K
+--------------------------------------------- */
+
+@media (min-width: 3800px) {
+  .custom-container {
+    width: 90%;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  section {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+
+/* =================================================
+   TYPOGRAPHY
+================================================= */
+
+/* ---------------------------------------------
+   DEFAULT
+   Mobile → Desktop
+--------------------------------------------- */
+
+.hero-title {
+  font-size: 36px;
+}
+
+.section-title {
+  font-size: 32px;
+}
+
+.card-title {
+  font-size: 20px;
+}
+
+.category-tab {
+  font-size: 20px;
+}
+
+.nav-link {
+  font-size: 17px;
+}
+
+.btn-text {
+  font-size: 17px;
+}
+
+.section-text {
+  font-size: 17px;
+  line-height: 150%;
+}
+
+.link-text {
+  font-size: 17px;
+  line-height: 20px;
+}
+
+
+/* ---------------------------------------------
+   1280 - 1499px
+   Your existing smaller desktop typography
+--------------------------------------------- */
+
+@media (min-width: 1280px) and (max-width: 1499px) {
+  .section-title {
+    font-size: 20px !important;
+  }
+
+  .section-text {
+    font-size: 12px !important;
+  }
+}
+
+
+/* ---------------------------------------------
+   1500 - 1999px
+   Medium / Large desktop
+--------------------------------------------- */
+
+@media (min-width: 1500px) and (max-width: 1999px) {
+  .hero-title {
+    font-size: 36px !important;
+  }
+
+  .section-title {
+    font-size: 32px !important;
+  }
+
+  .card-title {
+    font-size: 20px !important;
+  }
+
+  .category-tab {
+    font-size: 20px !important;
+  }
+
+  .nav-link {
+    font-size: 17px !important;
+  }
+
+  .btn-text {
+    font-size: 17px !important;
+  }
+
+  .section-text {
+    font-size: 17px !important;
+  }
+
+  .link-text {
+    font-size: 17px !important;
+  }
+}
+
+
+/* ---------------------------------------------
+   2000 - 2559px
+   LARGE SCREEN
+--------------------------------------------- */
+
+@media (min-width: 2000px) and (max-width: 2559px) {
+  .hero-title {
+    font-size: 40px !important;
+  }
+
+  .section-title {
+    font-size: 36px !important;
+  }
+
+  .card-title {
+    font-size: 22px !important;
+  }
+
+  .category-tab {
+    font-size: 22px !important;
+  }
+
+  .nav-link {
+    font-size: 19px !important;
+  }
+
+  .btn-text {
+    font-size: 19px !important;
+  }
+
+  .section-text {
+    font-size: 19px !important;
+  }
+
+  .link-text {
+    font-size: 19px !important;
+  }
+}
+
+
+/* ---------------------------------------------
+   2560 - 3799px
+   2K
+--------------------------------------------- */
+
+@media (min-width: 2560px) and (max-width: 3799px) {
+  .hero-title {
+    font-size: 42px !important;
+  }
+
+  .section-title {
+    font-size: 38px !important;
+  }
+
+  .card-title {
+    font-size: 24px !important;
+  }
+
+  .category-tab {
+    font-size: 24px !important;
+  }
+
+  .nav-link {
+    font-size: 20px !important;
+  }
+
+  .btn-text {
+    font-size: 20px !important;
+  }
+
+  .section-text {
+    font-size: 20px !important;
+    line-height: 150%;
+  }
+
+  .link-text {
+    font-size: 20px !important;
+  }
+}
+
+
+/* ---------------------------------------------
+   3800px+
+   4K
+--------------------------------------------- */
+
+@media (min-width: 3800px) {
+  .hero-title {
+    font-size: 48px !important;
+  }
+
+  .section-title {
+    font-size: 44px !important;
+  }
+
+  .card-title {
+    font-size: 28px !important;
+  }
+
+  .category-tab {
+    font-size: 28px !important;
+  }
+
+  .nav-link {
+    font-size: 23px !important;
+  }
+
+  .btn-text {
+    font-size: 23px !important;
+  }
+
+  .section-text {
+    font-size: 23px !important;
+    line-height: 150%;
+  }
+
+  .link-text {
+    font-size: 23px !important;
+  }
+}
+
+
+/* ---------------------------------------------
+   TAILWIND UTILITIES
+--------------------------------------------- */
+
+@layer utilities {
+  .text-primary {
+    color: var(--primary);
+  }
+
+  .bg-primary {
+    background-color: var(--primary);
+  }
+
+  .text-heading {
+    color: var(--text-heading);
+  }
+
+  .text-body {
+    color: var(--text-body);
+  }
+
+  .bg-dark {
+    background-color: var(--dark-bg);
+  }
+
+  .border-default {
+    border-color: var(--border-light);
+  }
+}
+
+
+/* ---------------------------------------------
+   BANNER VIDEO ENTRANCE ANIMATION
+--------------------------------------------- */
+
+@keyframes bannerVideoEnter {
+  from {
+    opacity: 0;
+    transform: scale(1.08);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.banner-video-enter {
+  animation: bannerVideoEnter 1.6s ease-out forwards;
+}

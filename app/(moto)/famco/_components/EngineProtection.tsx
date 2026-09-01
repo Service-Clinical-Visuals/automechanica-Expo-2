@@ -6,7 +6,7 @@ import DynamicVideoPlayer from "../../../_components/DynamicVideoPlayer";
 
 export default function EngineProtection() {
   return (
-    <section className="py-16 xl:py-20 relative overflow-hidden bg-[#F3F3F380]">
+    <section className="py-10 lg:py-20 relative overflow-hidden bg-[#F3F3F380]">
       <div className="custom-container relative z-10">
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-10 items-center">
