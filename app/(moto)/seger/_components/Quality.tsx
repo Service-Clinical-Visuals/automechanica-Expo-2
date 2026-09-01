@@ -21,7 +21,7 @@ export default function Quality() {
         {/* Full Width Image */}
         <div className="w-full h-full overflow-hidden mb-5 rounded-sm" data-aos="fade-up">
           <img
-            src="/moto/segar/bg2.png"
+            src="/moto/seger/bg2.png"
             alt="Production Line"
             className="w-full h-full object-cover"
             onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<div class="w-full h-full bg-gray-200 flex items-center justify-center text-gray-500">Production Image</div>' }}

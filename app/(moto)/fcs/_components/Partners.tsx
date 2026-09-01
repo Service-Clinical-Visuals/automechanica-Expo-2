@@ -25,7 +25,7 @@ export default function Partners() {
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
 
           {/* Card 1 */}
-          <div className="border border-[#E4E4E4] rounded-xl p-6 flex flex-col items-center text-center shadow-sm" data-aos="fade-up" data-aos-delay="0">
+          <div className="border border-[#E4E4E4] rounded-xl min-[2100px]:rounded-2xl min-[3800px]:rounded-3xl p-6 flex flex-col items-center text-center shadow-sm" data-aos="fade-up" data-aos-delay="0">
             <div className="bg-[#163683] text-white p-4 rounded-full mb-6 flex items-center justify-center">
               <img src="/moto/fcs/partner1.png" alt="Vertical Integration" className="w-auto h-auto object-contain" />
             </div>
@@ -36,7 +36,7 @@ export default function Partners() {
           </div>
 
           {/* Card 2 */}
-          <div className="border border-[#E4E4E4] rounded-xl p-6 flex flex-col items-center text-center shadow-sm" data-aos="fade-up" data-aos-delay="100">
+          <div className="border border-[#E4E4E4] rounded-xl min-[2100px]:rounded-2xl min-[3800px]:rounded-3xl p-6 flex flex-col items-center text-center shadow-sm" data-aos="fade-up" data-aos-delay="100">
             <div className="bg-[#163683] text-white p-4 rounded-full mb-6 flex items-center justify-center">
               <img src="/moto/fcs/partner2.png" alt="Premium Product" className="w-auto h-auto object-contain" />
             </div>
@@ -47,7 +47,7 @@ export default function Partners() {
           </div>
 
           {/* Card 3 */}
-          <div className="border border-[#E4E4E4] rounded-xl p-6 flex flex-col items-center text-center shadow-sm" data-aos="fade-up" data-aos-delay="200">
+          <div className="border border-[#E4E4E4] rounded-xl min-[2100px]:rounded-2xl min-[3800px]:rounded-3xl p-6 flex flex-col items-center text-center shadow-sm" data-aos="fade-up" data-aos-delay="200">
             <div className="bg-[#163683] text-white p-4 rounded-full mb-6 flex items-center justify-center">
               <img src="/moto/fcs/partner3.png" alt="Value Price Point" className="w-auto h-auto object-contain" />
             </div>
@@ -58,7 +58,7 @@ export default function Partners() {
           </div>
 
           {/* Card 4 */}
-          <div className="border border-[#E4E4E4] rounded-xl p-6 flex flex-col items-center text-center shadow-sm" data-aos="fade-up" data-aos-delay="300">
+          <div className="border border-[#E4E4E4] rounded-xl min-[2100px]:rounded-2xl min-[3800px]:rounded-3xl p-6 flex flex-col items-center text-center shadow-sm" data-aos="fade-up" data-aos-delay="300">
             <div className="bg-[#163683] text-white p-4 rounded-full mb-6 flex items-center justify-center">
               <img src="/moto/fcs/partner4.png" alt="Leading Coverage" className="w-auto h-auto object-contain" />
             </div>

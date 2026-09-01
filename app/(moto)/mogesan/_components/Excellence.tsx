@@ -9,7 +9,7 @@ export default function Excellence() {
           data-aos="fade-up"
         >
           <div className="flex flex-col xl:flex-row xl:justify-between gap-8">
-            <div className="w-full xl:max-w-[1022px]">
+            <div className="w-full xl:max-w-[70%]">
               <h2
                 className="section-title text-white mb-6 whitespace-nowrap xl:whitespace-normal xl:text-[38px]"
                 style={{ fontSize: "clamp(14px, 5.2vw, 38px)" }}

@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-primary: #861F41;
+    --color-primary-hover: #6d1935;
+    --color-heading: #121212;
+    --color-body: #4a4a4a;
+    --color-surface-alt: #f8f8f8;
+  }
+
+  /* Ensure structural elements prevent X overflow safely without secondary scrollbars */
+  section,
+  main,
+  header,
+  footer {
+    max-width: 100%;
+    overflow-x: clip;
+  }
+
+  html {
+    width: 100%;
+    overflow-x: clip;
+  }
+
+  body {
+    width: 100%;
+    overflow-x: clip;
+    position: relative;
+    font-family: 'Work Sans', sans-serif;
+    color: var(--color-body);
+  }
+}
+
+/* ---------------------------------------------
+   Container (Strictly 90% width across all screens)
+--------------------------------------------- */
+.custom-container {
+  width: 95% !important;
+  max-width: 95% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  box-sizing: border-box;
+}
+
+/* ---------------------------------------------
+   Hero / Header helpers
+--------------------------------------------- */
+.hero-section {
+  height: calc(100vh - 70px);
+  min-height: 480px;
+}
+
+/* ---------------------------------------------
+   Typography & Font Families
+--------------------------------------------- */
+.font-worksans {
+  font-family: 'Work Sans', sans-serif;
+}
+
+/* Base (mobile) sizes */
+.banner-title {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  text-transform: uppercase;
+}
+
+.banner-subtitle {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+}
+
+.section-title {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  text-transform: uppercase;
+}
+
+.card-title {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.section-text {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.header-link,
+.btn-text,
+.link-underline {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.link-underline {
+  text-decoration: underline;
+}
+
+/* ---------------------------------------------
+   Buttons
+--------------------------------------------- */
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid currentColor;
+  padding: 10px 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--color-primary);
+  color: #ffffff;
+  padding: 10px 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-primary-hover);
+}
+
+/* ---------------------------------------------
+   Responsive Breakpoint Ladder & Typography Scaling
+--------------------------------------------- */
+
+/* Mobile (Small Screens) */
+@media (max-width: 480px) {
+  .banner-title {
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  .banner-subtitle {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .section-title {
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  .card-title {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .section-text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .header-link,
+  .btn-text,
+  .link-underline {
+    font-size: 14px;
+  }
+}
+
+/* Mobile to Tablet */
+@media (min-width: 481px) and (max-width: 767px) {
+  .banner-title {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  .banner-subtitle {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .section-title {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .section-text {
+    font-size: 15px;
+    line-height: 24px;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .banner-title {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .section-title {
+    font-size: 25px;
+  }
+}
+
+/* Small Laptop / Desktop (1024px - 1535px) */
+@media (min-width: 1024px) and (max-width: 1535px) {
+  .climate-content .section-text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+/* 1920px tier (Baseline Figma) */
+@media (min-width: 1536px) and (max-width: 1920px) {
+  .banner-title {
+    font-size: 34px;
+    line-height: 40px;
+  }
+
+  .banner-subtitle {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .section-title {
+    font-size: 27px;
+    line-height: 32px;
+  }
+
+  .card-title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .section-text {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+/* Above 1920px / Ultrawide */
+@media (min-width: 1921px) and (max-width: 2559px) {
+  .banner-title {
+    font-size: 38px;
+    line-height: 44px;
+  }
+
+  .banner-subtitle {
+    font-size: 26px;
+    line-height: 31px;
+  }
+
+  .section-title {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .card-title {
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  .section-text {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .header-link,
+  .btn-text,
+  .link-underline {
+    font-size: 18px;
+    line-height: 21px;
+  }
+}
+
+/* 2K (QHD, e.g. 2560x1440) */
+@media (min-width: 2560px) and (max-width: 3799px) {
+  .banner-title {
+    font-size: 44px;
+    line-height: 50px;
+  }
+
+  .banner-subtitle {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .section-title {
+    font-size: 34px;
+    line-height: 40px;
+  }
+
+  .card-title {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .section-text {
+    font-size: 21px;
+    line-height: 32px;
+  }
+
+  .header-link,
+  .btn-text,
+  .link-underline {
+    font-size: 21px;
+    line-height: 24px;
+  }
+}
+
+/* 4K UHD (e.g. 3840x2160 and above) */
+@media (min-width: 3800px) {
+  .banner-title {
+    font-size: 54px;
+    line-height: 60px;
+  }
+
+  .banner-subtitle {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .section-title {
+    font-size: 42px;
+    line-height: 48px;
+  }
+
+  .card-title {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .section-text {
+    font-size: 25px;
+    line-height: 38px;
+  }
+
+  .header-link,
+  .btn-text,
+  .link-underline {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+/* ---------------------------------------------
+   Custom utilities
+--------------------------------------------- */
+@layer utilities {
+  .text-primary {
+    color: var(--color-primary);
+  }
+
+  .bg-primary {
+    background-color: var(--color-primary);
+  }
+}

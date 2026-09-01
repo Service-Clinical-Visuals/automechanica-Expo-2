@@ -1,0 +1,123 @@
+@import "tailwindcss";
+
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #1E1E1E;
+}
+
+@theme inline {
+  --color-primary: #bed62f;
+  --color-primary-hover: #a6c024;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
+
+.exo2 {
+  font-family: var(--font-exo2), sans-serif;
+}
+
+.oxanium {
+  font-family: var(--font-oxanium), sans-serif;
+}
+
+.custom-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Font sizes */
+  .header-link { font-size: 17px; }
+  .btn-text { font-size: 18px; }
+  .banner-title { font-size: 40px; }  
+  .section-title { font-size: 36px; }
+  .section-subtitle { font-size: 28px; }
+  .section-text { font-size: 17px; }
+  .product-title { font-size: 22px; }
+  .card-title { font-size: 24px; }
+  .number { font-size: 20px; }
+
+@media (max-width: 480px) {
+  .custom-container { max-width: 95%; }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .custom-container { max-width: 95%; }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .custom-container { max-width: 95%; }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .custom-container { max-width: 95%; }
+}
+
+@media (min-width: 1280px) and (max-width: 1535px) {
+  .custom-container { max-width: 95%; }
+}
+
+@media (min-width: 1536px) and (max-width: 1920px) {
+  .custom-container { max-width: 95%; }
+  .header-link { font-size: 17px; }
+  .btn-text { font-size: 18px; }
+  .banner-title { font-size: 40px; }  
+  .section-title { font-size: 36px; }
+  .section-subtitle { font-size: 28px; }
+  .section-text { font-size: 17px; }
+  .product-title { font-size: 22px; }
+  .card-title { font-size: 24px; }
+  .number { font-size: 20px; }
+}
+
+@media (min-width: 1921px) and (max-width: 2559px) {
+  .custom-container { max-width: 95%; }
+  .header-link { font-size: 17px; }
+  .btn-text { font-size: 18px; }
+  .banner-title { font-size: 40px; }  
+  .section-title { font-size: 36px; }
+  .section-subtitle { font-size: 28px; }
+  .section-text { font-size: 17px; }
+  .product-title { font-size: 22px; }
+  .card-title { font-size: 24px; }
+  .number { font-size: 20px; }
+}
+
+@media (min-width: 2560px) and (max-width: 3800px) {
+  .custom-container { max-width: 90%; }
+   .header-link { font-size: 22px; }
+  .btn-text { font-size: 24px; }
+  .banner-title { font-size: 44px; }  
+  .section-title { font-size: 40px; }
+  .section-subtitle { font-size: 32px; }
+  .section-text { font-size: 22px; }
+  .product-title { font-size: 26px; }
+  .card-title { font-size: 28px; }
+  .number { font-size: 24px; }
+}
+@media (min-width: 3800px) {
+  .custom-container { max-width: 90%; }
+    .header-link { font-size: 28px; }
+  .btn-text { font-size: 30px; }
+  .banner-title { font-size: 54px; }  
+  .section-title { font-size: 48px; }
+  .section-subtitle { font-size: 38px; }
+  .section-text { font-size: 28px; }
+  .product-title { font-size: 32px; }
+  .card-title { font-size: 36px; }
+  .number { font-size: 30px; }
+}

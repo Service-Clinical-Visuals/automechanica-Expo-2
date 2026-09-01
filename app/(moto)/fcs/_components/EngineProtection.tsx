@@ -42,8 +42,8 @@ export default function EngineProtection() {
         {/* News Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {newsItems.map((news, idx) => (
-            <div key={idx} className="border border-[#E4E4E4] rounded-xl overflow-hidden flex flex-col shadow-sm p-1" data-aos="fade-up" data-aos-delay={idx * 100}>
-              <div className="w-full h-full rounded-xl">
+            <div key={idx} className="border border-[#E4E4E4] rounded-xl min-[2100px]:rounded-2xl min-[3800px]:rounded-3xl overflow-hidden flex flex-col shadow-sm p-1" data-aos="fade-up" data-aos-delay={idx * 100}>
+              <div className="w-full h-full rounded-xl min-[2100px]:rounded-2xl min-[3800px]:rounded-3xl">
                 <img src={news.img} alt={news.title} className="w-full h-full object-cover" onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<div class="w-full h-full flex items-center justify-center text-gray-400">Image</div>' }} />
               </div>
               <div className="p-2 flex flex-col flex-grow">

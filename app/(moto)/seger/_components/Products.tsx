@@ -23,49 +23,49 @@ export default function Products() {
   const products = [
     // Battery
     {
-      image: "/moto/segar/p1.png",
+      image: "/moto/seger/p1.png",
       title: "Taxi",
       category: "Battery",
     },
     {
-      image: "/moto/segar/p2.png",
+      image: "/moto/seger/p2.png",
       title: "SHD Heavy Duty",
       category: "Battery",
     },
     {
-      image: "/moto/segar/p3.png",
+      image: "/moto/seger/p3.png",
       title: "MF for European Passenger Cars",
       category: "Battery",
     },
     {
-      image: "/moto/segar/p4.png",
+      image: "/moto/seger/p4.png",
       title: "Deep Discharge GEL",
       category: "Battery",
     },
     // Lighting Group
     {
-      image: "/moto/segar/p5.png",
+      image: "/moto/seger/p5.png",
       title: "Halogen Bulb",
       category: "Lighting Group",
     },
     {
-      image: "/moto/segar/p6.png",
+      image: "/moto/seger/p6.png",
       title: "Miniature Bulbs",
       category: "Lighting Group",
     },
     {
-      image: "/moto/segar/p7.png",
+      image: "/moto/seger/p7.png",
       title: "Xenon ( HID ) Bulbs",
       category: "Lighting Group",
     },
     // AVAS
     {
-      image: "/moto/segar/p8.png",
+      image: "/moto/seger/p8.png",
       title: "AVAS ( 12V-24V )",
       category: "AVAS (VEHICLE WARNING SYSTEM)",
     },
     {
-      image: "/moto/segar/p9.png",
+      image: "/moto/seger/p9.png",
       title: "Multi AVAS ( 12V-24V )",
       category: "AVAS (VEHICLE WARNING SYSTEM)",
     }

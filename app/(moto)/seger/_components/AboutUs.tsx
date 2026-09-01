@@ -13,7 +13,7 @@ export default function AboutUs() {
           {/* Left Image */}
           <div className="w-full lg:col-span-6 xl:col-span-6 h-full flex order-1 lg:order-1 overflow-hidden rounded-md" data-aos="fade-right">
             <img
-              src="/moto/segar/abt.png"
+              src="/moto/seger/abt.png"
               alt="SEGER Facility"
               className="w-full h-full object-cover"
             />

@@ -39,7 +39,7 @@ export default function Quality() {
           </div>
 
           {/* Right Video Player */}
-          <div className="w-full h-full aspect-video relative overflow-hidden rounded-xl lg:col-span-6 flex items-center justify-center" data-aos="fade-left">
+          <div className="w-full h-full aspect-video relative overflow-hidden rounded-xl min-[2100px]:rounded-2xl min-[3800px]:rounded-3xl lg:col-span-6 flex items-center justify-center" data-aos="fade-left">
             <DynamicVideoPlayer type="short-2" className="absolute inset-0 w-full h-full object-cover" />
           </div>
 

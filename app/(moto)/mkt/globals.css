@@ -1,0 +1,168 @@
+@import "tailwindcss";
+
+/* Font variables come from next/font (set at runtime via className on <html>),
+   so they're mapped with @theme inline rather than a static @theme block. */
+@theme inline {
+  --font-heading: var(--font-exo2);
+  --font-accent: var(--font-exo);
+  --font-body: var(--font-lato);
+  --font-display: var(--font-oswald);
+}
+
+/* Static design tokens - Tailwind v4 auto-generates utilities from these */
+@theme {
+  --color-primary: #632f05;
+  --color-heading: #121212;
+  --color-dark: #2a2a2a;
+  --color-body: #4a4a4a;
+  --color-cream: #fff7f0;
+  --color-light-gray: #f5f5f5;
+}
+
+@layer base {
+  html {
+    width: 100%;
+    overflow-x: clip;
+  }
+
+  body {
+    width: 100%;
+    overflow-x: clip;
+    font-family: var(--font-body);
+    color: var(--color-body);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-heading);
+  }
+}
+
+section {
+  max-width: 100%;
+  overflow-x: clip;
+}
+
+/* ===================== Containers (Strict 90% width across ALL screens) ===================== */
+
+.custom-container {
+  width: 95% !important;
+  max-width: 95% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  box-sizing: border-box;
+}
+
+/* ===================== Typography scale ===================== */
+/* Base (mobile) sizes */
+.hero-title { font-size: 26px; }
+.hero-text { font-size: 15px; }
+.section-title { font-size: 24px; }
+.card-title { font-size: 18px; }
+.card-text { font-size: 14px; }
+.nav-link { font-size: 14px; }
+.btn-text { font-size: 15px; }
+.body-text { font-size: 14px; }
+.filter-text { font-size: 14px; }
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .hero-title { font-size: 28px; }
+  .hero-text { font-size: 15px; }
+  .section-title { font-size: 26px; }
+  .card-title { font-size: 18px; }
+  .card-text { font-size: 14px; }
+  .nav-link { font-size: 14px; }
+  .btn-text { font-size: 15px; }
+  .body-text { font-size: 14px; }
+  .filter-text { font-size: 14px; }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .hero-title { font-size: 32px; }
+  .hero-text { font-size: 16px; }
+  .section-title { font-size: 28px; }
+  .card-title { font-size: 19px; }
+  .card-text { font-size: 15px; }
+  .nav-link { font-size: 15px; }
+  .btn-text { font-size: 16px; }
+  .body-text { font-size: 15px; }
+  .filter-text { font-size: 15px; }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .hero-title { font-size: 34px; }
+  .hero-text { font-size: 16px; }
+  .section-title { font-size: 30px; }
+  .card-title { font-size: 20px; }
+  .card-text { font-size: 15px; }
+  .nav-link { font-size: 15px; }
+  .btn-text { font-size: 17px; }
+  .body-text { font-size: 15px; }
+  .filter-text { font-size: 15px; }
+}
+
+@media (min-width: 1280px) and (max-width: 1535px) {
+  .hero-title { font-size: 36px; }
+  .hero-text { font-size: 17px; }
+  .section-title { font-size: 34px; }
+  .card-title { font-size: 21px; }
+  .card-text { font-size: 16px; }
+  .nav-link { font-size: 16px; }
+  .btn-text { font-size: 17px; }
+  .body-text { font-size: 16px; }
+  .filter-text { font-size: 16px; }
+}
+
+@media (min-width: 1536px) and (max-width: 1920px) {
+  .hero-title { font-size: 40px; }
+  .hero-text { font-size: 18px; }
+  .section-title { font-size: 38px; }
+  .card-title { font-size: 22px; }
+  .card-text { font-size: 17px; }
+  .nav-link { font-size: 16px; }
+  .btn-text { font-size: 18px; }
+  .body-text { font-size: 17px; }
+  .filter-text { font-size: 17px; }
+}
+
+@media (min-width: 1921px) and (max-width: 2559px) {
+  .hero-title { font-size: 44px; }
+  .hero-text { font-size: 19px; }
+  .section-title { font-size: 42px; }
+  .card-title { font-size: 24px; }
+  .card-text { font-size: 18px; }
+  .nav-link { font-size: 17px; }
+  .btn-text { font-size: 19px; }
+  .body-text { font-size: 18px; }
+  .filter-text { font-size: 18px; }
+}
+
+/* 2k */
+@media (min-width: 2560px) and (max-width: 3799px) {
+  .hero-title { font-size: 52px; }
+  .hero-text { font-size: 22px; }
+  .section-title { font-size: 48px; }
+  .card-title { font-size: 28px; }
+  .card-text { font-size: 21px; }
+  .nav-link { font-size: 20px; }
+  .btn-text { font-size: 22px; }
+  .body-text { font-size: 21px; }
+  .filter-text { font-size: 21px; }
+}
+
+/* 4k */
+@media (min-width: 3800px) {
+  .hero-title { font-size: 64px; }
+  .hero-text { font-size: 26px; }
+  .section-title { font-size: 58px; }
+  .card-title { font-size: 34px; }
+  .card-text { font-size: 25px; }
+  .nav-link { font-size: 24px; }
+  .btn-text { font-size: 26px; }
+  .body-text { font-size: 25px; }
+  .filter-text { font-size: 25px; }
+}

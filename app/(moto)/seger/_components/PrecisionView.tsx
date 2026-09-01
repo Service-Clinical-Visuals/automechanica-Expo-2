@@ -11,7 +11,7 @@ export default function PrecisionView() {
       {/* Background Image with Opacity */}
       <div
         className="absolute inset-0 w-full h-full z-0 bg-cover bg-center bg-no-repeat opacity-[0.08]"
-        style={{ backgroundImage: "url('/moto/segar/bg.png')" }}
+        style={{ backgroundImage: "url('/moto/seger/bg.png')" }}
       ></div>
 
       <div className="custom-container relative z-10 flex flex-col items-center">

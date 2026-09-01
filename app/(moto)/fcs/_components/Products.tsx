@@ -63,7 +63,7 @@ export default function Products() {
             <button
               key={tab}
               onClick={() => setActiveTab(tab)}
-              className={`px-8 py-2.5 rounded-[4px] oswald-font font-semibold text-[16px] transition-colors ${activeTab === tab
+              className={`px-8 py-2.5 rounded-[4px] min-[2100px]:rounded-[8px] min-[3800px]:rounded-[12px] oswald-font font-semibold text-[16px] transition-colors ${activeTab === tab
                 ? "bg-[#163683] text-white"
                 : "bg-[#E5E7EB] text-[#272727] hover:bg-[#D1D5DB]"
                 }`}
@@ -76,7 +76,7 @@ export default function Products() {
         {/* Products Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 xl:gap-8" data-aos="fade-up" data-aos-delay="200">
           {filteredProducts.map((product, index) => (
-            <div key={index} className="flex flex-col w-full bg-white border border-[#E5E7EB] p-1 rounded-[8px] text-center group transition-shadow hover:shadow-md">
+            <div key={index} className="flex flex-col w-full bg-white border border-[#E5E7EB] p-1 rounded-[8px] min-[2100px]:rounded-[12px] min-[3800px]:rounded-[16px] text-center group transition-shadow hover:shadow-md">
               {/* Image Container */}
               <div className="w-full h-full flex items-center justify-center">
                 <img

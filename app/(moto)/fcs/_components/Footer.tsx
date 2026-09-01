@@ -99,7 +99,7 @@ export default function Footer() {
                 placeholder="Email Address..."
                 className="flex-grow px-2 py-1 text-[#4B5563] text-[14px] outline-none bg-transparent"
               />
-              <button className="bg-[#163683] w-8 h-8 flex items-center justify-center rounded-[4px] flex-shrink-0 hover:bg-[#112b6b] transition-colors">
+              <button className="bg-[#163683] w-8 h-8 min-[2100px]:w-12 min-[2100px]:h-12 min-[3800px]:w-16 min-[3800px]:h-16 flex items-center justify-center rounded-[4px] min-[2100px]:rounded-[8px] min-[3800px]:rounded-[12px] flex-shrink-0 hover:bg-[#112b6b] transition-colors">
                 <Search size={16} className="text-white" />
               </button>
             </div>

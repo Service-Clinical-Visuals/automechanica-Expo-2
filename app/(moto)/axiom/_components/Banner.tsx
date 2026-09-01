@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import Button from "./Button";
-import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
+import DynamicVideoPlayer from "../../../_components/DynamicVideoPlayer";
 
 export default function Banner() {
   return (
@@ -19,7 +19,7 @@ export default function Banner() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, ease: "easeOut" }}
-          className="hero-title text-white max-w-[441px] mb-6"
+          className="hero-title text-white max-w-[441px] xl:max-w-[70%] mb-6"
         >
           Your partner for all kinds of car parts!
         </motion.h1>

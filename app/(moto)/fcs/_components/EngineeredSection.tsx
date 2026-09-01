@@ -35,7 +35,7 @@ export default function EngineeredSection() {
               {/* Feature 1 */}
               <div className="flex items-start gap-4">
                 <img src="/moto/fcs/tick.png" alt="Check" className="w-auto h-auto flex-shrink-0 mt-1 object-contain" />
-                <p className="text-gray-300 rubik-font font-regular text-[16px] leading-relaxed">
+                <p className="text-gray-300 rubik-font font-regular  section-text leading-relaxed">
                   <strong className="text-white font-semibold">OE-quality design and performance</strong> engineered to deliver reliable results that meet or exceed OE standards.
                 </p>
               </div>
@@ -43,7 +43,7 @@ export default function EngineeredSection() {
               {/* Feature 2 */}
               <div className="flex items-start gap-4">
                 <img src="/moto/fcs/tick.png" alt="Check" className="w-auto h-auto flex-shrink-0 mt-1 object-contain" />
-                <p className="text-gray-300 font-regular rubik-font text-[16px] leading-relaxed">
+                <p className="text-gray-300 font-regular rubik-font  section-text leading-relaxed">
                   <strong className="text-white font-semibold">Advanced engineering and testing</strong> developed with precision processes and rigorous validation for enhanced durability and safety.
                 </p>
               </div>
@@ -51,7 +51,7 @@ export default function EngineeredSection() {
               {/* Feature 3 */}
               <div className="flex items-start gap-4">
                 <img src="/moto/fcs/tick.png" alt="Check" className="w-auto h-auto flex-shrink-0 mt-1 object-contain" />
-                <p className="text-gray-300 font-regular rubik-font text-[16px] leading-relaxed">
+                <p className="text-gray-300 font-regular rubik-font  section-text leading-relaxed">
                   <strong className="text-white font-semibold">Reliable durability and stability</strong> built to provide consistent performance, strength, and long-term reliability.
                 </p>
               </div>
@@ -63,7 +63,7 @@ export default function EngineeredSection() {
           </div>
 
           {/* Right Video Player */}
-          <div className="w-full h-full relative overflow-hidden rounded-xl lg:col-span-7 bg-gray-100/10 border border-gray-700/50 flex items-center justify-center" data-aos="fade-left">
+          <div className="w-full aspect-video h-full relative overflow-hidden rounded-xl min-[2100px]:rounded-2xl min-[3800px]:rounded-3xl lg:col-span-7 bg-gray-100/10 border border-gray-700/50 flex items-center justify-center" data-aos="fade-left">
             <DynamicVideoPlayer type="short-1" className="absolute inset-0 w-full h-full object-cover" />
           </div>
 
