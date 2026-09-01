@@ -6,7 +6,7 @@ import Lenis from "lenis";
 export default function SmoothScrollProvider({
   children,
 }: {
-  children: React.ReactNode;
+  children?: React.ReactNode;
 }) {
   useEffect(() => {
     const lenis = new Lenis({
@@ -19,9 +19,10 @@ export default function SmoothScrollProvider({
       lenis.raf(time);
       requestAnimationFrame(raf);
     }
-    requestAnimationFrame(raf);
+    const animationFrameId = requestAnimationFrame(raf);
 
     return () => {
+      cancelAnimationFrame(animationFrameId);
       lenis.destroy();
     };
   }, []);

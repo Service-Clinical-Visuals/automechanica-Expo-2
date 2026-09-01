@@ -2,11 +2,11 @@
 
 import { motion } from "framer-motion";
 import Button from "./Button";
-import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
+import DynamicVideoPlayer from "../../../_components/DynamicVideoPlayer";
 
 export default function ProductExperience() {
   return (
-    <section className="relative w-full h-auto md:h-auto xl:h-[978.94px] py-16 md:py-20 xl:py-0 overflow-hidden flex items-center">
+    <section className="relative w-full min-h-[978.94px] h-auto py-16 md:py-20 xl:py-24 overflow-hidden flex items-center">
       <img
         src="/moto/axiom/bg.png"
         alt=""
@@ -29,7 +29,7 @@ export default function ProductExperience() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }}
-          className="body-text text-white max-w-[886px] min-[1920px]:max-w-[1100px] min-[2560px]:max-w-[1350px] mb-10"
+          className="body-text text-white max-w-[886px] xl:max-w-[70%] mx-auto mb-10"
         >
           Behind every AXIOM product lies an advanced manufacturing process
           powered by cutting-edge machinery, automated production lines, and
@@ -47,7 +47,7 @@ export default function ProductExperience() {
         >
           <DynamicVideoPlayer
             type="360"
-            className="absolute aspect-video inset-0 w-full h-full object-cover"
+            className="absolute inset-0 w-full h-full object-cover"
           />
         </motion.div>
 

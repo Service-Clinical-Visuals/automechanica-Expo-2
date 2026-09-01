@@ -9,7 +9,7 @@ interface ButtonProps {
 }
 
 export default function Button({ href, children, variant = "primary", className = "" }: ButtonProps) {
-  const baseClasses = "btn-text font-medium rubik-font transition-all duration-300 inline-flex items-center justify-center pt-[10px] pr-[25px] pb-[10px] pl-[25px] gap-[10px] h-[41px] rounded-[10px]";
+  const baseClasses = "btn-text font-medium rubik-font transition-all duration-300 inline-flex items-center justify-center px-[1.78em] py-[0.71em] gap-[0.71em] rounded-[10px]";
 
   const variants = {
     primary: "bg-[#0195DA] text-white hover:bg-[#017bb5] border-[#0195DA] border-[1px]",

@@ -56,7 +56,7 @@ export default function Trade() {
             International Trade Fairs
           </h2>
 
-          <p className="body-text text-white max-w-[1172px] mx-auto">
+          <p className="body-text text-white max-w-[1172px] xl:max-w-[70%] mx-auto">
             MOGESAN participates in leading automotive trade fairs,
             showcasing innovative engine pistons, cylinder liners, and piston
             rings while building global partnerships and demonstrating our

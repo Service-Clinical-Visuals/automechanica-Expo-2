@@ -3,7 +3,7 @@
 import { useLayoutEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import Button from "./Button";
-import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
+import DynamicVideoPlayer from "../../../_components/DynamicVideoPlayer";
 
 export default function Discover() {
   const videoBoxRef = useRef<HTMLDivElement>(null);
@@ -48,17 +48,13 @@ export default function Discover() {
     }
 
     fit();
-
     if (document.fonts && document.fonts.ready) {
       document.fonts.ready.then(fit);
     }
 
     window.addEventListener("resize", fit);
     const ro = new ResizeObserver(fit);
-
-    if (videoBoxRef.current) {
-      ro.observe(videoBoxRef.current);
-    }
+    if (videoBoxRef.current) ro.observe(videoBoxRef.current);
 
     return () => {
       window.removeEventListener("resize", fit);
@@ -71,6 +67,7 @@ export default function Discover() {
       <div className="custom-container">
         <div className="mb-12 w-full">
           <div className="flex flex-col gap-10 lg:flex-row lg:items-start lg:gap-[45px]">
+            {/* Video — aspect-ratio controlled, never cropped, height flows from width */}
             <motion.div
               initial={{ opacity: 0, x: -40 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -83,23 +80,21 @@ export default function Discover() {
                 className="relative w-full overflow-hidden rounded-[24px] aspect-[1048.53/565.15]"
               >
                 <DynamicVideoPlayer
-                  type="short-1"
+                  type="short-3"
                   className="absolute inset-0 h-full w-full object-cover"
                 />
               </div>
             </motion.div>
 
+            {/* Text — font-size scaled (up or down) via --text-scale to match video height */}
             <motion.div
               initial={{ opacity: 0, x: 40 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, amount: 0.3 }}
               transition={{ duration: 0.6, ease: "easeOut" }}
-              className="order-2 w-full min-w-0 lg:w-[510px] lg:max-w-[510px]"
+              className="order-2 w-full min-w-0 lg:w-[510px] lg:max-w-[510px] min-[1920px]:w-[580px] min-[1920px]:max-w-[580px] min-[2560px]:w-[660px] min-[2560px]:max-w-[660px] min-[3800px]:w-[750px] min-[3800px]:max-w-[750px]"
             >
-              <div
-                ref={textWrapperRef}
-                style={{ ["--text-scale" as string]: textScale }}
-              >
+              <div ref={textWrapperRef} style={{ ["--text-scale" as string]: textScale }}>
                 <p className="section-label mb-4 text-[#003344]">
                   About Gasket
                 </p>
@@ -120,11 +115,11 @@ export default function Discover() {
                 </p>
 
                 <p className="body-text text-[#444444] leading-[1.6]">
-                  Our gasket solutions are engineered for exceptional sealing
-                  performance, reduced maintenance, and longer engine life.
-                  Every product is carefully tested to meet demanding
-                  automotive standards, ensuring reliable operation even in the
-                  harshest environments.
+                  Our gasket solutions are engineered for exceptional
+                  sealing performance, reduced maintenance, and longer
+                  engine life. Every product is carefully tested to meet
+                  demanding automotive standards, ensuring reliable
+                  operation even in the harshest environments.
                 </p>
               </div>
             </motion.div>
