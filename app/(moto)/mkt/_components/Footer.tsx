@@ -27,14 +27,18 @@ export default function Footer() {
           <div
             data-aos="fade-up"
             data-aos-duration="700"
-            className="col-span-2 md:col-span-1"
-          >
-            <Image
+            className="col-span-2 md:col-span-1">
+            {/* <Image
               src="/moto/mkt/logo.png"
               alt="MKT Holdings"
               width={180}
               height={64}
               className="h-14 md:h-17 w-auto mb-6"
+            /> */}
+            <img
+              src="/moto/mkt/logo.png"
+              alt="MKT Holdings"
+              className="h-8 md:h-9 lg:h-16 w-auto"
             />
 
             <p className="body-text font-body font-normal text-body leading-relaxed">
@@ -48,8 +52,7 @@ export default function Footer() {
             data-aos="fade-up"
             data-aos-duration="700"
             data-aos-delay="100"
-            className="col-span-1"
-          >
+            className="col-span-1">
             <h4 className="card-title font-heading font-semibold text-dark mb-6">
               Quick Links
             </h4>
@@ -59,8 +62,7 @@ export default function Footer() {
                 <li key={link.label}>
                   <Link
                     href={link.href}
-                    className="body-text font-body font-normal text-body hover:text-primary transition-colors"
-                  >
+                    className="body-text font-body font-normal text-body hover:text-primary transition-colors">
                     {link.label}
                   </Link>
                 </li>
@@ -73,8 +75,7 @@ export default function Footer() {
             data-aos="fade-up"
             data-aos-duration="700"
             data-aos-delay="200"
-            className="col-span-1"
-          >
+            className="col-span-1">
             <h4 className="card-title font-heading font-semibold text-dark mb-6">
               Our Products
             </h4>
@@ -84,8 +85,7 @@ export default function Footer() {
                 <li key={link.label}>
                   <Link
                     href={link.href}
-                    className="body-text font-body font-normal text-body hover:text-primary transition-colors"
-                  >
+                    className="body-text font-body font-normal text-body hover:text-primary transition-colors">
                     {link.label}
                   </Link>
                 </li>
@@ -98,8 +98,7 @@ export default function Footer() {
             data-aos="fade-up"
             data-aos-duration="700"
             data-aos-delay="300"
-            className="col-span-1"
-          >
+            className="col-span-1">
             <h4 className="card-title font-heading font-semibold text-dark mb-6">
               Contact Us
             </h4>
@@ -116,8 +115,7 @@ export default function Footer() {
 
                 <a
                   href="tel:212-273-9701"
-                  className="body-text font-body font-normal text-body hover:text-primary transition-colors"
-                >
+                  className="body-text font-body font-normal text-body hover:text-primary transition-colors">
                   212-273-9701
                 </a>
               </li>
@@ -133,8 +131,7 @@ export default function Footer() {
 
                 <a
                   href="mailto:mktholdingsusa@gmail.com"
-                  className="body-text font-body font-normal text-body hover:text-primary transition-colors lowercase"
-                >
+                  className="body-text font-body font-normal text-body hover:text-primary transition-colors lowercase">
                   mktholdingsusa@gmail.com
                 </a>
               </li>
@@ -162,15 +159,14 @@ export default function Footer() {
             data-aos="fade-up"
             data-aos-duration="700"
             data-aos-delay="400"
-            className="col-span-2 md:col-span-1"
-          >
+            className="col-span-2 md:col-span-1">
             <h4 className="card-title font-heading font-semibold text-dark mb-6">
               Subscribe For More Information
             </h4>
 
             <p className="body-text font-body font-normal text-body leading-relaxed mb-6">
-              Stay informed with the latest product launches, industry news,
-              and updates from MKT Holdings CO., LTD.
+              Stay informed with the latest product launches, industry news, and
+              updates from MKT Holdings CO., LTD.
             </p>
 
             <form className="relative flex items-center bg-white rounded-[10px] shadow-[0px_3px_8px_rgba(0,0,0,0.24)] overflow-hidden">
@@ -184,8 +180,7 @@ export default function Footer() {
               <button
                 type="submit"
                 aria-label="Subscribe"
-                className="bg-primary text-white w-[46px] h-[46px] m-[5px] rounded-[5px] flex items-center justify-center shrink-0 hover:opacity-90 transition-opacity"
-              >
+                className="bg-primary text-white w-[46px] h-[46px] m-[5px] rounded-[5px] flex items-center justify-center shrink-0 hover:opacity-90 transition-opacity">
                 <ArrowRight className="w-5 h-5" strokeWidth={2.5} />
               </button>
             </form>
