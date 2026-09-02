@@ -73,14 +73,12 @@ export default function Discover() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, amount: 0.3 }}
               transition={{ duration: 0.6, delay: 0.15, ease: "easeOut" }}
-              className="order-1 w-full min-w-0 lg:flex-1"
-            >
+              className="order-1 w-full min-w-0 lg:flex-1">
               <div
                 ref={videoBoxRef}
-                className="relative w-full overflow-hidden rounded-[24px] aspect-[1048.53/565.15]"
-              >
+                className="relative w-full overflow-hidden rounded-[24px] aspect-[1048.53/565.15]">
                 <DynamicVideoPlayer
-                  type="short-3"
+                  type="short-1"
                   className="absolute inset-0 h-full w-full object-cover"
                 />
               </div>
@@ -92,9 +90,10 @@ export default function Discover() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, amount: 0.3 }}
               transition={{ duration: 0.6, ease: "easeOut" }}
-              className="order-2 w-full min-w-0 lg:w-[510px] lg:max-w-[510px] min-[1920px]:w-[580px] min-[1920px]:max-w-[580px] min-[2560px]:w-[660px] min-[2560px]:max-w-[660px] min-[3800px]:w-[750px] min-[3800px]:max-w-[750px]"
-            >
-              <div ref={textWrapperRef} style={{ ["--text-scale" as string]: textScale }}>
+              className="order-2 w-full min-w-0 lg:w-[510px] lg:max-w-[510px] min-[1920px]:w-[580px] min-[1920px]:max-w-[580px] min-[2560px]:w-[660px] min-[2560px]:max-w-[660px] min-[3800px]:w-[750px] min-[3800px]:max-w-[750px]">
+              <div
+                ref={textWrapperRef}
+                style={{ ["--text-scale" as string]: textScale }}>
                 <p className="section-label mb-4 text-[#003344]">
                   About Gasket
                 </p>
@@ -106,20 +105,19 @@ export default function Discover() {
 
                 <p className="body-text mb-6 text-[#444444] leading-[1.6]">
                   Automotive gaskets play a vital role in maintaining engine
-                  integrity by creating leak-proof seals between critical
-                  engine components. AXIOM manufactures high-performance
-                  gaskets using advanced composite materials, multi-layer
-                  steel technology, and precision molding processes that
-                  withstand high temperatures, pressure, oil, coolant, and
-                  fuel exposure.
+                  integrity by creating leak-proof seals between critical engine
+                  components. AXIOM manufactures high-performance gaskets using
+                  advanced composite materials, multi-layer steel technology,
+                  and precision molding processes that withstand high
+                  temperatures, pressure, oil, coolant, and fuel exposure.
                 </p>
 
                 <p className="body-text text-[#444444] leading-[1.6]">
-                  Our gasket solutions are engineered for exceptional
-                  sealing performance, reduced maintenance, and longer
-                  engine life. Every product is carefully tested to meet
-                  demanding automotive standards, ensuring reliable
-                  operation even in the harshest environments.
+                  Our gasket solutions are engineered for exceptional sealing
+                  performance, reduced maintenance, and longer engine life.
+                  Every product is carefully tested to meet demanding automotive
+                  standards, ensuring reliable operation even in the harshest
+                  environments.
                 </p>
               </div>
             </motion.div>
@@ -133,8 +131,7 @@ export default function Discover() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.6, ease: "easeOut" }}
-          className="flex flex-col gap-6 py-10 md:flex-row md:items-center md:justify-between"
-        >
+          className="flex flex-col gap-6 py-10 md:flex-row md:items-center md:justify-between">
           <p className="body-text w-full max-w-[786px] text-[#444444]">
             Designed for passenger cars, commercial vehicles, and heavy-duty
             applications, our radiators ensure consistent cooling efficiency

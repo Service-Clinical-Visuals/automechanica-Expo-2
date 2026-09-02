@@ -15,9 +15,6 @@ export default function Banner() {
           type="banner"
           className="absolute inset-0 w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-black/13"></div>
-
-
       </div>
 
       {/* Content Overlay */}
