@@ -12,8 +12,6 @@ export default function Banner() {
           type="banner"
           className="w-full h-full object-cover object-center pointer-events-none"
         />
-        {/* Responsive Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/20 z-[1]" />
       </div>
 
       {/* Hero Content Area */}
@@ -23,18 +21,16 @@ export default function Banner() {
             data-aos="fade-up"
             data-aos-duration="800"
             data-aos-delay="100"
-            className="hero-title font-semibold text-white mb-4 leading-tight tracking-tight drop-shadow-md"
-          >
+            className="hero-title font-semibold text-white mb-4 leading-tight tracking-tight drop-shadow-md">
             Advanced Automotive Filtration
           </h1>
           <p
             data-aos="fade-up"
             data-aos-duration="800"
             data-aos-delay="300"
-            className="section-text text-white/90 max-w-lg xl:max-w-[70%] 2xl:max-w-[70%] drop-shadow"
-          >
-            Engineered for reliable filtration, superior engine protection,
-            and consistent performance.
+            className="section-text text-white/90 max-w-lg xl:max-w-[70%] 2xl:max-w-[70%] drop-shadow">
+            Engineered for reliable filtration, superior engine protection, and
+            consistent performance.
           </p>
         </div>
       </div>

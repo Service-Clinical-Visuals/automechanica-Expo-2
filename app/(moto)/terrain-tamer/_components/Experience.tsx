@@ -10,8 +10,7 @@ export default function Experience() {
         className="absolute inset-0 overflow-x-hidden overflow-y-hidden"
         data-aos="fade-in"
         data-aos-duration="1500"
-        data-aos-offset="0"
-      >
+        data-aos-offset="0">
         <img
           src="/moto/terrain/bg.jpg"
           alt=""
@@ -30,8 +29,7 @@ export default function Experience() {
             data-aos="fade-up"
             data-aos-duration="900"
             data-aos-delay="250"
-            data-aos-easing="ease-out-cubic"
-          >
+            data-aos-easing="ease-out-cubic">
             360° Product Experience
           </h2>
 
@@ -40,12 +38,11 @@ export default function Experience() {
             data-aos="fade-up"
             data-aos-duration="900"
             data-aos-delay="400"
-            data-aos-easing="ease-out-cubic"
-          >
+            data-aos-easing="ease-out-cubic">
             Explore Terrain Tamer&apos;s 4WD parts from every angle with an
-            interactive 360° view. Discover the design, engineering, and
-            build quality behind components developed for demanding
-            off-road conditions.
+            interactive 360° view. Discover the design, engineering, and build
+            quality behind components developed for demanding off-road
+            conditions.
           </p>
         </div>
 
@@ -55,15 +52,11 @@ export default function Experience() {
           data-aos="zoom-in"
           data-aos-duration="1200"
           data-aos-delay="550"
-          data-aos-easing="ease-out-cubic"
-        >
+          data-aos-easing="ease-out-cubic">
           <DynamicVideoPlayer
             type="360"
-            className="absolute inset-0 w-full h-full object-cover transition-transform duration-[1200ms] ease-out group-hover:scale-105"
+            className="absolute inset-0 w-full h-full object-cover  "
           />
-
-          {/* Subtle hover overlay */}
-          <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-500 pointer-events-none" />
         </div>
       </div>
     </section>
