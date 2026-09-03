@@ -17,7 +17,7 @@ export default function Banner() {
           {/* Background video using DynamicVideoPlayer */}
           <DynamicVideoPlayer
             type="banner"
-            className="absolute inset-0 w-full h-full object-cover object-fill"
+            className="absolute inset-0 w-full h-full object-cover lg:object-fill"
           />
 
           {/* Content */}

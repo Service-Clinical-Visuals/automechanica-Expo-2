@@ -11,7 +11,7 @@ export default function Banner() {
           <div className="relative w-full h-full aspect-video">
             <DynamicVideoPlayer
               type="banner"
-              className="absolute inset-0 w-full h-full object-cover object-fill"
+              className="absolute inset-0 w-full h-full object-cover lg:object-fill"
             />
           </div>
 

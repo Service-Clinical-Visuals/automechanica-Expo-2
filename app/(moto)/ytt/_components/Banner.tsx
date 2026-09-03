@@ -11,7 +11,7 @@ export default function Banner() {
         type="banner"
         data-aos="fade-right"
         data-aos-duration="1200"
-        className="absolute inset-0 w-full h-full object-cover"
+        className="absolute inset-0 w-full h-full object-cover lg:object-fill"
       />
 
       {/* Overlay wash */}
@@ -25,10 +25,9 @@ export default function Banner() {
             <h1
               data-aos="fade-up"
               data-aos-delay="300"
-              className="hero-title font-bold text-white leading-tight"
-            >
-              Where Advanced Engineering Meets Everyday Automotive
-              Reliability And Performance
+              className="hero-title font-bold text-white leading-tight">
+              Where Advanced Engineering Meets Everyday Automotive Reliability
+              And Performance
             </h1>
 
             <div data-aos="fade-up" data-aos-delay="500">

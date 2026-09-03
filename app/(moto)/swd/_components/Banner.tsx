@@ -10,7 +10,7 @@ export default function Banner() {
       <div className="relative w-full h-full">
         <DynamicVideoPlayer
           type="banner"
-          className="absolute top-0 left-0 w-full h-full object-cover object-fill"
+          className="absolute top-0 left-0 w-full h-full object-cover lg:object-fill"
         />
 
         <div className="absolute inset-0 z-20 pointer-events-none px-6 sm:px-10 md:px-16 xl:px-24 pb-12 md:pb-16 xl:pb-20 flex flex-col justify-end">
