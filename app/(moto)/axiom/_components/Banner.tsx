@@ -10,7 +10,7 @@ export default function Banner() {
       <div className="absolute inset-0 z-0">
         <DynamicVideoPlayer
           type="banner"
-          className="absolute inset-0 w-full h-full object-cover"
+          className="absolute inset-0 w-full h-full object-cover object-fill"
         />
       </div>
 
@@ -19,22 +19,19 @@ export default function Banner() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, ease: "easeOut" }}
-          className="hero-title text-white max-w-[441px] xl:max-w-[70%] mb-6"
-        >
+          className="hero-title text-white max-w-[441px] xl:max-w-[70%] mb-6">
           Your partner for all kinds of car parts!
         </motion.h1>
 
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.2, ease: "easeOut" }}
-        >
+          transition={{ duration: 0.7, delay: 0.2, ease: "easeOut" }}>
           <Button
             href="#"
             bgColor="transparent"
             textColor="#FFFFFF"
-            className="border border-white"
-          >
+            className="border border-white">
             Explore Products
           </Button>
         </motion.div>

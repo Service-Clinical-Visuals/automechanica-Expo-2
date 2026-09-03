@@ -10,18 +10,22 @@ export default function Banner() {
       <div className="absolute inset-0 z-0">
         <DynamicVideoPlayer
           type="banner"
-          className="absolute inset-0 w-full h-full object-cover aspect-video"
+          className="absolute inset-0 w-full h-full object-cover md:object-fill aspect-video"
         />
       </div>
 
       {/* Content Overlay */}
       <div className="custom-container relative z-20 pl-10 pb-20 md:pb-25 lg:pb-25">
-        <div className="max-w-full text-left" data-aos="fade-up" data-aos-delay="200">
+        <div
+          className="max-w-full text-left"
+          data-aos="fade-up"
+          data-aos-delay="200">
           <h1 className="banner-title font-semibold text-white leading-tight mb-4 oswald-font">
             Factory-Direct. OE Quality.
           </h1>
           <p className="section-text text-white rubik-font max-w-2xl">
-            Premium shocks, struts, lift supports, and air springs engineered for reliable OE-quality performance.
+            Premium shocks, struts, lift supports, and air springs engineered
+            for reliable OE-quality performance.
           </p>
         </div>
       </div>

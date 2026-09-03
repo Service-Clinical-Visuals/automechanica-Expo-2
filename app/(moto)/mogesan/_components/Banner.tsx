@@ -11,7 +11,7 @@ export default function Banner() {
           <div className="relative w-full h-full aspect-video">
             <DynamicVideoPlayer
               type="banner"
-              className="absolute inset-0 w-full h-full object-cover"
+              className="absolute inset-0 w-full h-full object-cover object-fill"
             />
           </div>
 
@@ -23,8 +23,8 @@ export default function Banner() {
             </h1>
             <p className="hero-text text-white max-w-[808px] xl:max-w-[70%] opacity-0 animate-fade-up [animation-delay:900ms]">
               Manufacturing high-quality engine pistons, cylinder liners, and
-              piston rings engineered for durability, reliability, and
-              superior engine performance.
+              piston rings engineered for durability, reliability, and superior
+              engine performance.
             </p>
           </div>
         </div>
