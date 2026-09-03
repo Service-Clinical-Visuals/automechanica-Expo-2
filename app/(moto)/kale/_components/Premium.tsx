@@ -21,10 +21,10 @@ const features = [
     title: "Innovative Solutions",
     text: "Designed to meet the evolving demands of modern and future mobility.",
   },
-  {
-    title: "Quality Assurance",
-    text: "Tested to maintain consistent performance and dependable quality.",
-  },
+  // {
+  //   title: "Quality Assurance",
+  //   text: "Tested to maintain consistent performance and dependable quality.",
+  // },
 ];
 
 export default function Premium() {
@@ -61,14 +61,14 @@ export default function Premium() {
         <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.4fr)] gap-10 lg:gap-16 items-center">
           {/* Left: description + checklist */}
           <div data-aos="fade-right" className="flex flex-col gap-8">
-            <p className="content-white opacity-80">
+            {/* <p className="content-white opacity-80">
               Explore advanced thermal management solutions engineered to
               deliver reliable performance, efficient cooling, and long-term
               durability across a wide range of demanding automotive
               applications. Designed with precision and innovation, each
               solution ensures consistent performance, efficiency, and
               dependable operation in every environment.
-            </p>
+            </p> */}
 
             <ul className="flex flex-col gap-6">
               {features.map((feature) => (

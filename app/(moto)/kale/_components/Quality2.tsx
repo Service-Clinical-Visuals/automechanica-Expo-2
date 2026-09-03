@@ -23,15 +23,13 @@ export default function Quality2() {
                 security, and laboratory management systems to meet global
                 automotive standards.
               </p>
-              <p className="content-white opacity-80">
+              {/* <p className="content-white opacity-80">
                 KALE continuously improves its processes through Lean
                 Manufacturing, Industry 4.0, Digital Transformation, PDCA, SPC,
                 MSA, FMEA, and other advanced quality-management practices. With
                 a strong focus on quality, cost, on-time delivery, environmental
-                responsibility, and customer satisfaction, KALE maintains
-                internationally recognized standards and continues to strengthen
-                its position as a trusted global automotive supplier.
-              </p>
+                responsibility.
+              </p> */}
             </div>
 
             <Button
