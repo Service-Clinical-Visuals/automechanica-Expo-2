@@ -10,7 +10,7 @@ export default function Banner() {
       <div className="absolute inset-0 z-0 w-full h-full">
         <DynamicVideoPlayer
           type="banner"
-          className="w-full h-full object-cover object-center pointer-events-none"
+          className="w-full h-full object-cover object-center object-fill pointer-events-none"
         />
       </div>
 

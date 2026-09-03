@@ -1,6 +1,5 @@
-
 import { ArrowRight } from "lucide-react";
-import DynamicVideoPlayer from '@/app/_components/DynamicVideoPlayer';
+import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 
 const navLinks = [
   "Home",
@@ -14,7 +13,7 @@ const navLinks = [
 export default function Herobanner() {
   return (
     <div>
-              {/* ================================================= */}
+      {/* ================================================= */}
       {/* HERO */}
       {/* ================================================= */}
 
@@ -27,14 +26,16 @@ export default function Herobanner() {
           <div className="absolute inset-0">
             {/* FUTURE VIDEO */}
 
-            <DynamicVideoPlayer type="banner" className="absolute top-0 left-0 w-full h-full object-cover" />
-
+            <DynamicVideoPlayer
+              type="banner"
+              className="absolute top-0 left-0 w-full h-full object-cover object-fill"
+            />
           </div>
 
-          {/* ================================================= */ }
+          {/* ================================================= */}
           {/* HERO CONTENT */}
           {/* ================================================= */}
-          
+
           <div className="relative eurol-root z-10 flex h-full max-w-[90%] mx-auto items-end cathegenix-root">
             <div className="w-full pb-8 sm:pb-16 md:pb-20 lg:pb-24">
               <div className="max-w-[720px]">
@@ -43,14 +44,16 @@ export default function Herobanner() {
                   <h2 className="heading-white text-[42px]! max-w-[400px] text-white mb-4">
                     A market leader in secondary refining for 60 years.
                   </h2>
-                <button
-                  className="inline-flex items-center justify-center bg-[#F7C41F] hover:bg-[#e09a2c] transition-colors px-10 py-4"
-                  style={{ clipPath: "polygon(18px 0, 100% 0, calc(100% - 18px) 100%, 0 100%)" }}
-                >
-                  <span className="heading text-[#1A1A1A] text-[20px]! font-normal! uppercase">
-                   GET IN TOUCH
-                  </span>
-                </button>
+                  <button
+                    className="inline-flex items-center justify-center bg-[#F7C41F] hover:bg-[#e09a2c] transition-colors px-10 py-4"
+                    style={{
+                      clipPath:
+                        "polygon(18px 0, 100% 0, calc(100% - 18px) 100%, 0 100%)",
+                    }}>
+                    <span className="heading text-[#1A1A1A] text-[20px]! font-normal! uppercase">
+                      GET IN TOUCH
+                    </span>
+                  </button>
                 </div>
               </div>
             </div>
@@ -58,5 +61,5 @@ export default function Herobanner() {
         </div>
       </section>
     </div>
-  )
+  );
 }

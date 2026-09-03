@@ -79,7 +79,7 @@ export default function Discover() {
                 className="relative w-full overflow-hidden rounded-[24px] aspect-[1048.53/565.15]">
                 <DynamicVideoPlayer
                   type="short-1"
-                  className="absolute inset-0 h-full w-full object-cover"
+                  className="absolute inset-0 h-full w-full object-cover object-fill"
                 />
               </div>
             </motion.div>
