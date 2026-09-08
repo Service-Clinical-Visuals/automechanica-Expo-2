@@ -19,8 +19,7 @@ export default function ProductExperience() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.6, ease: "easeOut" }}
-          className="section-title text-white max-w-[649px] min-[1920px]:max-w-[800px] min-[2560px]:max-w-[1000px] mt-6 mb-6"
-        >
+          className="section-title text-white max-w-[649px] min-[1920px]:max-w-[800px] min-[2560px]:max-w-[1000px] mt-6 mb-6">
           Precision Manufacturing in Every Component
         </motion.h2>
 
@@ -29,8 +28,7 @@ export default function ProductExperience() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }}
-          className="body-text text-white max-w-[886px] xl:max-w-[70%] mx-auto mb-10"
-        >
+          className="body-text text-white max-w-[886px] xl:max-w-[70%] mx-auto mb-10">
           Behind every AXIOM product lies an advanced manufacturing process
           powered by cutting-edge machinery, automated production lines, and
           highly experienced engineers. Every gasket and radiator is
@@ -43,11 +41,10 @@ export default function ProductExperience() {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
-          className="relative w-full max-w-[1115px] min-[1920px]:max-w-[1400px] min-[2560px]:max-w-[1700px] h-[400px] md:h-[500px] xl:h-[601px] min-[1920px]:h-[700px] min-[2560px]:h-[850px] rounded-3xl overflow-hidden mb-10"
-        >
+          className="relative w-full max-w-[1115px] min-[1920px]:max-w-[1400px] min-[2560px]:max-w-[1700px] h-[400px] md:h-[500px] xl:h-[601px] min-[1920px]:h-[700px] min-[2560px]:h-[850px] rounded-3xl overflow-hidden mb-10">
           <DynamicVideoPlayer
             type="360"
-            className="absolute inset-0 w-full h-full object-cover"
+            className="absolute inset-0 w-full h-full object-cover object-fill"
           />
         </motion.div>
 
@@ -56,14 +53,12 @@ export default function ProductExperience() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.6, delay: 0.3, ease: "easeOut" }}
-          className="mb-4"
-        >
+          className="mb-4">
           <Button
             href="#"
             bgColor="#FFFFFF"
             textColor="#003344"
-            className="!font-semibold"
-          >
+            className="!font-semibold">
             Explore All Products
           </Button>
         </motion.div>

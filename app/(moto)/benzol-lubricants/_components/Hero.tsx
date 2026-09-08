@@ -1,6 +1,5 @@
-
 import { ArrowRight } from "lucide-react";
-import DynamicVideoPlayer from '@/app/_components/DynamicVideoPlayer';
+import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 
 const navLinks = [
   "Home",
@@ -14,7 +13,7 @@ const navLinks = [
 export default function Herobanner() {
   return (
     <div>
-              {/* ================================================= */}
+      {/* ================================================= */}
       {/* HERO */}
       {/* ================================================= */}
 
@@ -27,24 +26,28 @@ export default function Herobanner() {
           <div className="absolute inset-0">
             {/* FUTURE VIDEO */}
 
-            <DynamicVideoPlayer type="banner" className="absolute top-0 left-0 w-full h-full object-cover" />
-
+            <DynamicVideoPlayer
+              type="banner"
+              className="absolute top-0 left-0 w-full h-full object-cover lg:object-fill"
+            />
           </div>
 
-          {/* ================================================= */ }
+          {/* ================================================= */}
           {/* HERO CONTENT */}
           {/* ================================================= */}
-          
+
           <div className="relative eurol-root z-10 flex h-full max-w-[90%] mx-auto items-end cathegenix-root">
             <div className="w-full pb-8 sm:pb-16 md:pb-20 lg:pb-24">
               <div className="max-w-[720px]">
                 {/* HEADING */}
                 <div data-aos="fade-up">
                   <h2 className="heading-white text-[38px]! text-white mb-4">
-                   Technology. Performance. Trust.
+                    Technology. Performance. Trust.
                   </h2>
                   <p className="content-white">
-                    BENZOL® Gold Performance delivers advanced lubrication solutions for performance, protection, and reliability worldwide.
+                    BENZOL® Gold Performance delivers advanced lubrication
+                    solutions for performance, protection, and reliability
+                    worldwide.
                   </p>
                 </div>
               </div>
@@ -53,5 +56,5 @@ export default function Herobanner() {
         </div>
       </section>
     </div>
-  )
+  );
 }

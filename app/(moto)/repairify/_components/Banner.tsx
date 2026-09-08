@@ -9,7 +9,7 @@ export default function Banner() {
     <section className="relative w-full h-screen flex items-end">
       {/* Background */}
       <div className="absolute inset-0 w-full h-full z-0 overflow-hidden bg-[#111111]">
-        <DynamicVideoPlayer type="banner" className="w-full h-full object-cover" />
+        <DynamicVideoPlayer type="banner" className="w-full h-full object-cover md:object-fill" />
       </div>
 
       {/* Content */}

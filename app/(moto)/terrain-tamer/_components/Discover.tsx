@@ -36,8 +36,7 @@ export default function Discover() {
             data-aos="fade-up"
             data-aos-duration="800"
             data-aos-delay="150"
-            data-aos-easing="ease-out-cubic"
-          >
+            data-aos-easing="ease-out-cubic">
             Built for 4WD. Built for Adventure.
           </h2>
 
@@ -46,11 +45,10 @@ export default function Discover() {
             data-aos="fade-up"
             data-aos-duration="800"
             data-aos-delay="300"
-            data-aos-easing="ease-out-cubic"
-          >
-            Terrain Tamer provides a comprehensive range of 4WD parts
-            designed for reliable performance, durability, and dependable
-            operation in demanding conditions.
+            data-aos-easing="ease-out-cubic">
+            Terrain Tamer provides a comprehensive range of 4WD parts designed
+            for reliable performance, durability, and dependable operation in
+            demanding conditions.
           </p>
         </div>
 
@@ -72,14 +70,12 @@ export default function Discover() {
               data-aos="fade-right"
               data-aos-duration="800"
               data-aos-delay="500"
-              data-aos-easing="ease-out-cubic"
-            >
+              data-aos-easing="ease-out-cubic">
               With a strong focus on quality, practical engineering, and
-              dependable performance, Terrain Tamer delivers reliable
-              components for key vehicle systems. Designed for demanding
-              conditions and heavy-duty use, these solutions support
-              durability, dependable operation, and confidence on and off
-              the road.
+              dependable performance, Terrain Tamer delivers reliable components
+              for key vehicle systems. Designed for demanding conditions and
+              heavy-duty use, these solutions support durability, dependable
+              operation, and confidence on and off the road.
             </p>
 
             <div className="flex flex-col gap-4 overflow-x-hidden overflow-y-hidden">
@@ -90,8 +86,7 @@ export default function Discover() {
                   data-aos="fade-up"
                   data-aos-duration="800"
                   data-aos-delay={600 + index * 150}
-                  data-aos-easing="ease-out-cubic"
-                >
+                  data-aos-easing="ease-out-cubic">
                   {/* Icon */}
                   <div className="flex-shrink-0 mt-1 transition-transform duration-400 ease-out group-hover:scale-110 group-hover:rotate-3">
                     {feature.icon}
@@ -99,10 +94,8 @@ export default function Discover() {
 
                   {/* Text */}
                   <p className="section-text font-normal text-[#272727] [@media(min-width:1280px)_and_(max-width:1499px)]:!text-xs transition-colors duration-300 group-hover:text-[#111111]">
-                    <span className="font-semibold">
-                      {feature.title}
-                    </span>{" "}
-                    – {feature.description}
+                    <span className="font-semibold">{feature.title}</span> –{" "}
+                    {feature.description}
                   </p>
                 </div>
               ))}
@@ -114,8 +107,7 @@ export default function Discover() {
               data-aos="fade-up"
               data-aos-duration="800"
               data-aos-delay="900"
-              data-aos-easing="ease-out-cubic"
-            >
+              data-aos-easing="ease-out-cubic">
               <div className="transition-transform duration-300 hover:-translate-y-1">
                 <Button>Discover Terrain Tamer</Button>
               </div>
@@ -128,15 +120,11 @@ export default function Discover() {
             data-aos="fade-left"
             data-aos-duration="1100"
             data-aos-delay="500"
-            data-aos-easing="ease-out-cubic"
-          >
+            data-aos-easing="ease-out-cubic">
             <DynamicVideoPlayer
               type="short-1"
               className="absolute inset-0 w-full h-full object-cover transition-transform duration-[1200ms] ease-out group-hover:scale-105"
             />
-
-            {/* Subtle video hover overlay */}
-            <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-500 pointer-events-none" />
           </div>
         </div>
       </div>

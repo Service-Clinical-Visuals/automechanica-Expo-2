@@ -8,16 +8,13 @@ import { ArrowRight } from "lucide-react";
 
 export default function Banner() {
   return (
-    <section className="relative w-full aspect-video md:aspect-[1920/630] max-w-[3840px] mx-auto flex flex-col justify-end mt-[101px]">
+    <section className="relative w-full aspect-[64/21] max-w-[3840px] mx-auto flex flex-col justify-end mt-[101px]">
       {/* Background Video using DynamicVideoPlayer as requested */}
       <div className="absolute inset-0 z-0 bg-black">
         <DynamicVideoPlayer
           type="banner"
           className="absolute inset-0 w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-black/13"></div>
-
-
       </div>
 
       {/* Content Overlay */}
