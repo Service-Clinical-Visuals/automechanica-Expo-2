@@ -66,7 +66,7 @@ export default function Header() {
         {/* Logo */}
         <div>
           <img
-            src="/moto/samco/logo.png"
+            src="/moto/samco/logo.webp"
             alt="SAMCO"
             className="h-[40px] md:h-[55px] w-auto aspect-[162/60] object-contain hover:opacity-90 transition-opacity"
           />

@@ -42,7 +42,7 @@ export default function Header() {
             {/* Logo Area */}
             <div className="flex-shrink-0 flex items-center">
               <Link href="#" className="flex items-center shrink-0">
-                <img src="/moto/yavuzsan-otomotiv/logo.png" alt="Yavuzsan Logo" className="h-auto sm:h-auto md:h-auto w-auto object-contain" />
+                <img src="/moto/yavuzsan-otomotiv/logo.webp" alt="Yavuzsan Logo" className="h-auto sm:h-auto md:h-auto w-auto object-contain" />
               </Link>
             </div>
 
@@ -68,17 +68,17 @@ export default function Header() {
                 href="#"
                 className="inline-flex items-center justify-center gap-2 bg-[#0F5AA6] hover:bg-[#0c4885] text-white font-medium text-[15px] px-5 h-[50px] min-h-[50px] rounded-md transition-all duration-300 oswald shadow-sm"
               >
-                <img src="/moto/yavuzsan-otomotiv/contact.png" alt="User" className="w-4 h-4 object-contain brightness-0 invert shrink-0" />
+                <img src="/moto/yavuzsan-otomotiv/contact.webp" alt="User" className="w-4 h-4 object-contain brightness-0 invert shrink-0" />
                 <span>Login/Register</span>
               </Link>
 
               {/* Language Selector Box */}
               <div className="flex items-center gap-1.5 cursor-pointer py-1.5 px-2.5 rounded hover:bg-gray-50 transition-colors border border-transparent hover:border-gray-200">
                 <div className="w-6 h-6 rounded-full bg-[#ED1C24] flex items-center justify-center text-white shrink-0 shadow-sm">
-                  <img src="/moto/yavuzsan-otomotiv/map.png" alt="Globe" className="w-3.5 h-3.5 object-contain brightness-0 invert shrink-0" />
+                  <img src="/moto/yavuzsan-otomotiv/map.webp" alt="Globe" className="w-3.5 h-3.5 object-contain brightness-0 invert shrink-0" />
                 </div>
                 <span className="text-[#202020] text-sm oswald font-semibold">EN</span>
-                <img src="/moto/yavuzsan-otomotiv/dwnarrow.png" alt="Dropdown" className="w-3 h-2 object-contain shrink-0" />
+                <img src="/moto/yavuzsan-otomotiv/dwnarrow.webp" alt="Dropdown" className="w-3 h-2 object-contain shrink-0" />
               </div>
             </div>
 
@@ -88,7 +88,7 @@ export default function Header() {
                 href="#"
                 className="inline-flex items-center justify-center gap-1.5 bg-[#0F5AA6] text-white font-medium text-xs px-3 h-[38px] rounded-md oswald"
               >
-                <img src="/moto/yavuzsan-otomotiv/contact.png" alt="User" className="w-3.5 h-3.5 object-contain brightness-0 invert shrink-0" />
+                <img src="/moto/yavuzsan-otomotiv/contact.webp" alt="User" className="w-3.5 h-3.5 object-contain brightness-0 invert shrink-0" />
                 <span>Login</span>
               </Link>
               <button
@@ -139,15 +139,15 @@ export default function Header() {
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="inline-flex items-center justify-center gap-2 bg-[#0F5AA6] text-white font-medium text-sm px-4 h-[50px] min-h-[50px] rounded-md oswald w-full sm:w-auto"
               >
-                <img src="/moto/yavuzsan-otomotiv/contact.png" alt="User" className="w-4 h-4 object-contain brightness-0 invert shrink-0" />
+                <img src="/moto/yavuzsan-otomotiv/contact.webp" alt="User" className="w-4 h-4 object-contain brightness-0 invert shrink-0" />
                 <span>Login / Register</span>
               </Link>
               <div className="flex items-center gap-2 border border-gray-200 rounded px-3 py-2 cursor-pointer w-fit bg-gray-50">
                 <div className="w-5 h-5 rounded-full bg-[#ED1C24] flex items-center justify-center text-white shrink-0 shadow-sm">
-                  <img src="/moto/yavuzsan-otomotiv/map.png" alt="Globe" className="w-3 h-3 object-contain brightness-0 invert shrink-0" />
+                  <img src="/moto/yavuzsan-otomotiv/map.webp" alt="Globe" className="w-3 h-3 object-contain brightness-0 invert shrink-0" />
                 </div>
                 <span className="text-[#202020] text-sm oswald font-semibold">EN</span>
-                <img src="/moto/yavuzsan-otomotiv/dwnarrow.png" alt="Dropdown" className="w-3 h-2 object-contain shrink-0" />
+                <img src="/moto/yavuzsan-otomotiv/dwnarrow.webp" alt="Dropdown" className="w-3 h-2 object-contain shrink-0" />
               </div>
             </div>
           </nav>

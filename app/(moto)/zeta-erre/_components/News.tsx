@@ -9,32 +9,32 @@ import Container from "./Container";
 
 const newsItems = [
   {
-    image: "/moto/zeta-erre/news/1.png",
+    image: "/moto/zeta-erre/news/1.webp",
     date: "April 23,2026",
     title: "New Zeta-Erre headquarters in Carinaro: greater production capacity for the aftermarket",
   },
   {
-    image: "/moto/zeta-erre/news/2.png",
+    image: "/moto/zeta-erre/news/2.webp",
     date: "June 22,2022",
     title: "ZETA-ERRE returns to AUTOPROMOTEC 2022",
   },
   {
-    image: "/moto/zeta-erre/news/3.png",
+    image: "/moto/zeta-erre/news/3.webp",
     date: "July 2, 2019",
     title: "AUTOPROMOTEC 2019",
   },
   {
-    image: "/moto/zeta-erre/news/4.png",
+    image: "/moto/zeta-erre/news/4.webp",
     date: "June 24, 2019",
     title: "AUTOPROMOTEC Bologna 2019",
   },
   {
-    image: "/moto/zeta-erre/news/5.png",
+    image: "/moto/zeta-erre/news/5.webp",
     date: "October 23, 2018",
     title: "ZETA-ERRE at the Rome Fair",
   },
   {
-    image: "/moto/zeta-erre/news/6.png",
+    image: "/moto/zeta-erre/news/6.webp",
     date: "October 22, 2018",
     title: "AUTOMECHANIKA fair at Francoforte",
   },

@@ -10,7 +10,7 @@ export default function AboutUs() {
 
   const feature = [
     {
-      icon: "Group1.png",
+      icon: "Group1.webp",
       content: (
         <>
           <span className="text-[#484848]">OVER <span className="text-primary">60</span> YEARS OF</span>
@@ -20,7 +20,7 @@ export default function AboutUs() {
       )
     },
     {
-      icon: "Group2.png",
+      icon: "Group2.webp",
       content: (
         <>
           <span className="text-[#484848]">GLOBAL PRESENCE ACROSS</span>
@@ -30,7 +30,7 @@ export default function AboutUs() {
       )
     },
     {
-      icon: "Group3.png",
+      icon: "Group3.webp",
       content: (
         <>
           <span className="text-[#484848]">EXTENSIVE PORTFOLIO OF</span>
@@ -40,7 +40,7 @@ export default function AboutUs() {
       )
     },
     {
-      icon: "Group4.png",
+      icon: "Group4.webp",
       content: (
         <>
           <span className="text-primary">20.000</span> <span className="text-[#484848]">PRODUCTION</span>
@@ -84,7 +84,7 @@ export default function AboutUs() {
             <div className="flex flex-col gap-6 mb-12">
               {bulletPoints.map((point, index) => (
                 <div key={index} className="flex items-start gap-4">
-                  <img src="/moto/slider/drop.png" alt="bullet" className="w-4 h-6 md:w-5 md:h-7 object-contain shrink-0 mt-1" />
+                  <img src="/moto/slider/drop.webp" alt="bullet" className="w-4 h-6 md:w-5 md:h-7 object-contain shrink-0 mt-1" />
                   <Typography className="text-gray-600 leading-relaxed">
                     {point}
                   </Typography>
@@ -94,7 +94,7 @@ export default function AboutUs() {
 
             {/* Bottom Factory Image */}
             <div className="mt-auto rounded-3xl overflow-hidden w-full h-[300px] md:h-[350px] shadow-lg">
-              <img src="/moto/slider/section3.png" alt="Factory" className="w-full h-full object-cover grayscale" />
+              <img src="/moto/slider/section3.webp" alt="Factory" className="w-full h-full object-cover grayscale" />
             </div>
           </div>
 
@@ -102,10 +102,10 @@ export default function AboutUs() {
           <div className="flex flex-col h-full justify-between" data-aos="fade-left">
             {/* Top Oil Image */}
             <div className="rounded-3xl overflow-hidden w-full h-[300px] md:h-[400px] shadow-lg mb-8">
-              <img src="/moto/slider/section2.png" alt="Oil Lubrication" className="w-full h-full object-cover" />
+              <img src="/moto/slider/section2.webp" alt="Oil Lubrication" className="w-full h-full object-cover" />
             </div>
 
-            {/* Bottom Section (Aligned with section3.png) */}
+            {/* Bottom Section (Aligned with section3.webp) */}
             <div className="mb-12 md:mb-10 flex flex-col">
               {/* Feature Description */}
               <Typography className="text-gray-600 leading-relaxed mb-5">

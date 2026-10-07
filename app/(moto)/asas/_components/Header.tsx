@@ -44,7 +44,7 @@ export default function Header() {
         {/* Logo */}
         <a href="#" className="flex-shrink-0">
           <img
-            src="/moto/asas/logo.png"
+            src="/moto/asas/logo.webp"
             alt="ASAS Filter"
             className="h-[45px] w-[45px] min-[1026px]:h-[65px] min-[1026px]:w-[65px] aspect-square object-contain transition-transform duration-300 hover:scale-105"
           />

@@ -13,7 +13,7 @@ export default function AboutUs() {
           {/* Left Image */}
           <div className="w-full lg:col-span-5 xl:col-span-6 h-full flex order-1" data-aos="fade-right">
             <img
-              src="/moto/fcs/abt.png"
+              src="/moto/fcs/abt.webp"
               alt="CEVAM Facility"
               className="w-full h-full object-cover rounded-[16px] min-[2100px]:rounded-[24px] min-[3800px]:rounded-[32px]"
             />
@@ -46,15 +46,15 @@ export default function AboutUs() {
             {/* Stats Block */}
             <div className="mt-2 border border-[#E4E4E4] rounded-[10px] min-[2100px]:rounded-[16px] min-[3800px]:rounded-[24px] p-5 bg-white grid grid-cols-1 md:grid-cols-3 gap-8 text-center shadow-sm">
               <div className="flex flex-col items-center justify-center gap-3">
-                <img src="/moto/fcs/abt1.png" alt="Global Coverage" className="w-auto h-auto object-contain" />
+                <img src="/moto/fcs/abt1.webp" alt="Global Coverage" className="w-auto h-auto object-contain" />
                 <span className="section-text font-semibold text-[#272727] oswald-font">Global Coverage</span>
               </div>
               <div className="flex flex-col items-center justify-center gap-3">
-                <img src="/moto/fcs/abt2.png" alt="OE Manufacturing" className="w-auto h-auto object-contain" />
+                <img src="/moto/fcs/abt2.webp" alt="OE Manufacturing" className="w-auto h-auto object-contain" />
                 <span className="section-text font-semibold text-[#272727] oswald-font">OE Manufacturing</span>
               </div>
               <div className="flex flex-col items-center justify-center gap-3">
-                <img src="/moto/fcs/abt3.png" alt="Engineering Expertise" className="w-auto h-auto object-contain" />
+                <img src="/moto/fcs/abt3.webp" alt="Engineering Expertise" className="w-auto h-auto object-contain" />
                 <span className="section-text font-semibold text-[#272727] oswald-font">Engineering Expertise</span>
               </div>
             </div>

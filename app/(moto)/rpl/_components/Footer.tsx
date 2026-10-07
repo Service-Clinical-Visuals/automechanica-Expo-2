@@ -16,10 +16,10 @@ const Footer = () => {
         {/* Logo & Intro */}
         <div className="flex flex-col gap-6 xl:col-span-4">
           <img
-            src="/moto/rpl/logo.png"
+            src="/moto/rpl/logo.webp"
             alt="RPL Clima Logo"
             className="w-32 min-[3800px]:w-64 object-contain"
-            onError={(e) => { (e.target as HTMLImageElement).src = "/moto/ampro/logo.png"; }}
+            onError={(e) => { (e.target as HTMLImageElement).src = "/moto/ampro/logo.webp"; }}
           />
           <Typography variant="p" color="muted" className="leading-relaxed">
             RPL CLIMA is a leading specialist in automotive climate control, offering a complete range of high-performance HVAC components for professionals across the globe.
@@ -116,12 +116,12 @@ const Footer = () => {
 
           {/* Partners / Certificates */}
           <div className="flex items-center gap-4 min-[3800px]:gap-8">
-            <img src="/moto/rpl/footer1.png" alt="Livro de Reclamações" className="h-10 min-[3800px]:h-20 object-contain rounded" />
+            <img src="/moto/rpl/footer1.webp" alt="Livro de Reclamações" className="h-10 min-[3800px]:h-20 object-contain rounded" />
 
             {/* Separator line */}
             <div className="w-px h-10 min-[3800px]:h-20 bg-white/20 hidden lg:block mx-2"></div>
 
-            <img src="/moto/rpl/footer2.png" alt="TecAlliance" className="h-10 min-[3800px]:h-20 object-contain rounded" />
+            <img src="/moto/rpl/footer2.webp" alt="TecAlliance" className="h-10 min-[3800px]:h-20 object-contain rounded" />
           </div>
 
           {/* Copyright */}
@@ -131,10 +131,10 @@ const Footer = () => {
 
           {/* Payment Methods */}
           <div className="flex items-center gap-3 min-[3800px]:gap-6">
-            <img src="/moto/rpl/footer3.png" alt="Payment Method 1" className="h-8 min-[3800px]:h-16 object-contain rounded" />
-            <img src="/moto/rpl/footer4.png" alt="Payment Method 2" className="h-8 min-[3800px]:h-16 object-contain rounded" />
-            <img src="/moto/rpl/footer5.png" alt="Payment Method 3" className="h-8 min-[3800px]:h-16 object-contain rounded" />
-            <img src="/moto/rpl/footer6.png" alt="Payment Method 4" className="h-8 min-[3800px]:h-16 object-contain rounded" />
+            <img src="/moto/rpl/footer3.webp" alt="Payment Method 1" className="h-8 min-[3800px]:h-16 object-contain rounded" />
+            <img src="/moto/rpl/footer4.webp" alt="Payment Method 2" className="h-8 min-[3800px]:h-16 object-contain rounded" />
+            <img src="/moto/rpl/footer5.webp" alt="Payment Method 3" className="h-8 min-[3800px]:h-16 object-contain rounded" />
+            <img src="/moto/rpl/footer6.webp" alt="Payment Method 4" className="h-8 min-[3800px]:h-16 object-contain rounded" />
           </div>
         </div>
       </div>

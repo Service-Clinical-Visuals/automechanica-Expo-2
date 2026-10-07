@@ -18,7 +18,7 @@ export default function Footer() {
       <footer className="relative w-full overflow-hidden bg-[#F4F4F4] pt-16 pb-14">
         <div
           className="hidden md:block absolute inset-0 bg-no-repeat bg-cover bg-right-top pointer-events-none"
-          style={{ backgroundImage: "url(/moto/zimmermann/footerbg.png)" }}
+          style={{ backgroundImage: "url(/moto/zimmermann/footerbg.webp)" }}
         />
 
         <Container className="relative z-10">
@@ -26,7 +26,7 @@ export default function Footer() {
             {/* Logo + tagline */}
             <div data-aos="fade-up">
               <img
-                src="/moto/zimmermann/logo.png"
+                src="/moto/zimmermann/logo.webp"
                 alt="Zimmermann"
                 className="w-[220px] h-auto object-contain mb-5"
               />

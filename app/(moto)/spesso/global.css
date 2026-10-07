@@ -132,21 +132,21 @@
 }
 
 .bg-spesso-custom {
-  background-image: url('/moto/spesso/bg.png');
+  background-image: url('/moto/spesso/bg.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .bg-sealing {
-  background-image: url('/moto/spesso/bg2.png');
+  background-image: url('/moto/spesso/bg2.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .bg-sustainability {
-  background-image: url('/moto/spesso/bg1.png');
+  background-image: url('/moto/spesso/bg1.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

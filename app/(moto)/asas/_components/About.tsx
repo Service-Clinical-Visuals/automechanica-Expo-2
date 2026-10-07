@@ -4,9 +4,9 @@ import React from "react";
 import Button from "./Button";
 
 const stats = [
-  { label: "Global Brand", icon: "/moto/asas/world.png" },
-  { label: "Smart Production", icon: "/moto/asas/setting.png" },
-  { label: "Certified Quality", icon: "/moto/asas/prize.png" },
+  { label: "Global Brand", icon: "/moto/asas/world.webp" },
+  { label: "Smart Production", icon: "/moto/asas/setting.webp" },
+  { label: "Certified Quality", icon: "/moto/asas/prize.webp" },
 ];
 
 export default function About() {
@@ -64,7 +64,7 @@ export default function About() {
           className="flex flex-col gap-6 w-full"
         >
           <img
-            src="/moto/asas/about.jpg"
+            src="/moto/asas/about.webp"
             alt="ASAS Filter product"
             className="w-full aspect-video object-cover object-right rounded-2xl shadow-[0px_3px_8px_rgba(0,0,0,0.24)]"
           />

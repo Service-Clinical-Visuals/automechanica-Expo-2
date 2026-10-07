@@ -15,11 +15,11 @@ const AboutUs = () => {
           {/* Image (Mobile: order 2, Desktop: order 1, Col 1-6) */}
           <div className="w-full aspect-[932/475] order-2 lg:order-1 lg:col-span-7 h-full" data-aos="fade-right">
             <img
-              src="/moto/rpl/section2.png"
+              src="/moto/rpl/section2.webp"
               alt="RPL Clima Facility"
               className="w-full rounded-2xl object-cover h-full  shadow-lg"
               onError={(e) => {
-                (e.target as HTMLImageElement).src = "/moto/ampro/section2.png";
+                (e.target as HTMLImageElement).src = "/moto/ampro/section2.webp";
               }}
             />
           </div>
@@ -59,7 +59,7 @@ const AboutUs = () => {
           {/* Card 1 */}
           <div className="flex flex-col gap-4 bg-white border border-gray-100 shadow-sm p-6 sm:p-8 rounded-xl min-[3800px]:rounded-3xl hover:shadow-md transition-shadow">
             <div className="flex items-center gap-4">
-              <img src="/moto/rpl/icon1.png" alt="Experience Icon" className="w-15 h-15 min-[3800px]:w-30 min-[3800px]:h-30 object-contain" />
+              <img src="/moto/rpl/icon1.webp" alt="Experience Icon" className="w-15 h-15 min-[3800px]:w-30 min-[3800px]:h-30 object-contain" />
               <Typography variant="h3" color="dark" className="font-bold leading-tight">
                 Experience Since 2000
               </Typography>
@@ -72,7 +72,7 @@ const AboutUs = () => {
           {/* Card 2 */}
           <div className="flex flex-col gap-4 bg-white border border-gray-100 shadow-sm p-6 sm:p-8 rounded-xl min-[3800px]:rounded-3xl hover:shadow-md transition-shadow">
             <div className="flex items-center gap-4">
-              <img src="/moto/rpl/icon2.png" alt="Quality Icon" className="w-15 h-15 min-[3800px]:w-30 min-[3800px]:h-30 object-contain" />
+              <img src="/moto/rpl/icon2.webp" alt="Quality Icon" className="w-15 h-15 min-[3800px]:w-30 min-[3800px]:h-30 object-contain" />
               <Typography variant="h3" color="dark" className="font-bold leading-tight">
                 Premium Quality
               </Typography>
@@ -85,7 +85,7 @@ const AboutUs = () => {
           {/* Card 3 */}
           <div className="flex flex-col gap-4 bg-white border border-gray-100 shadow-sm p-6 sm:p-8 rounded-xl min-[3800px]:rounded-3xl hover:shadow-md transition-shadow">
             <div className="flex items-center gap-4">
-              <img src="/moto/rpl/icon3.png" alt="Network Icon" className="w-15 h-15 min-[3800px]:w-30 min-[3800px]:h-30 object-contain" />
+              <img src="/moto/rpl/icon3.webp" alt="Network Icon" className="w-15 h-15 min-[3800px]:w-30 min-[3800px]:h-30 object-contain" />
               <Typography variant="h3" color="dark" className="font-bold leading-tight">
                 Global Supply Network
               </Typography>
@@ -98,7 +98,7 @@ const AboutUs = () => {
           {/* Card 4 */}
           <div className="flex flex-col gap-4 bg-white border border-gray-100 shadow-sm p-6 sm:p-8 rounded-xl min-[3800px]:rounded-3xl hover:shadow-md transition-shadow">
             <div className="flex items-center gap-4">
-              <img src="/moto/rpl/icon4.png" alt="Delivery Icon" className="w-15 h-15 min-[3800px]:w-30 min-[3800px]:h-30 object-contain" />
+              <img src="/moto/rpl/icon4.webp" alt="Delivery Icon" className="w-15 h-15 min-[3800px]:w-30 min-[3800px]:h-30 object-contain" />
               <Typography variant="h3" color="dark" className="font-bold leading-tight">
                 Fast Delivery & Support
               </Typography>

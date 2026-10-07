@@ -13,7 +13,7 @@ export default function Quality2() {
       <div
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: 'url("/moto/fleetguard/bg1.png")',
+          backgroundImage: 'url("/moto/fleetguard/bg1.webp")',
           backgroundSize: "cover",
           backgroundBlendMode: "overlay",
         }}

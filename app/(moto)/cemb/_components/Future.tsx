@@ -8,17 +8,17 @@ const Future = () => {
     {
       title: "Energy that comes from water and the sun",
       desc: "Hydroelectric and solar power fuel most of our factories, reducing fossil fuel use and emissions while generating nearly three times more clean energy than we consume.",
-      img: "/moto/cemb/engineer1.png",
+      img: "/moto/cemb/engineer1.webp",
     },
     {
       title: "Sustainable and circular production",
       desc: "We use 98% recycled and certified materials, reducing virgin raw material consumption and supporting a circular production process where waste becomes a resource.",
-      img: "/moto/cemb/engineer2.png",
+      img: "/moto/cemb/engineer2.webp",
     },
     {
       title: "Efficiency, precision, savings",
       desc: "Energy-efficient technologies help reduce CEMB's environmental impact, avoiding 4,566 tons of CO₂ emissions over the past three years.",
-      img: "/moto/cemb/engineer3.png",
+      img: "/moto/cemb/engineer3.webp",
     }
   ];
 

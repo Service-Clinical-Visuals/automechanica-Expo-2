@@ -67,7 +67,7 @@ const AfterSales = () => {
         {/* Image and Overlapping Box */}
         <div className="relative w-full mt-4 min-[3800px]:mt-8">
           <div className="w-full h-[250px] sm:h-[500px] lg:h-[500px] min-[2100px]:h-[700px] min-[3800px]:h-1000px]">
-            <img src="/moto/cemb/bg.png" alt="Diagnostics Screen" className="w-full h-full object-cover" />
+            <img src="/moto/cemb/bg.webp" alt="Diagnostics Screen" className="w-full h-full object-cover" />
           </div>
 
           <div className="w-full absolute bottom-0 left-0 translate-y-1/2 px-4 lg:px-8 z-10">

@@ -9,25 +9,25 @@ interface Stat {
 
 const stats: Stat[] = [
   {
-    icon: "/moto/ytt/icon1.png",
+    icon: "/moto/ytt/icon1.webp",
     value: "30+",
     label: "Countries",
     description: "Served in 5 Continents",
   },
   {
-    icon: "/moto/ytt/icon2.png",
+    icon: "/moto/ytt/icon2.webp",
     value: "15,000+",
     label: "SKU's",
     description: "in highest quality",
   },
   {
-    icon: "/moto/ytt/icon3.png",
+    icon: "/moto/ytt/icon3.webp",
     value: "32,000m.sq",
     label: "Production Campus",
     description: "for a stronger future",
   },
   {
-    icon: "/moto/ytt/icon4.png",
+    icon: "/moto/ytt/icon4.webp",
     value: "8,000 m/sq",
     label: "Warehouse",
     description: "ready to serve the world",
@@ -96,7 +96,7 @@ export default function Strength() {
             className="group w-full aspect-[4/3] sm:aspect-[16/9] xl:aspect-[1620/500] rounded-[10px] overflow-hidden cursor-pointer"
           >
             <img
-              src="/moto/ytt/strength.png"
+              src="/moto/ytt/strength.webp"
               alt="YTT Automotive facility rooftop"
               className="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105 group-hover:brightness-105"
             />

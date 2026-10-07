@@ -13,22 +13,22 @@ const Products = () => {
     {
       id: "01",
       title: "Clutch Set",
-      img: "/moto/donmez/p1.png",
+      img: "/moto/donmez/p1.webp",
     },
     {
       id: "02",
       title: "Flywheel",
-      img: "/moto/donmez/p2.png",
+      img: "/moto/donmez/p2.webp",
     },
     {
       id: "03",
       title: "Clutch Discs",
-      img: "/moto/donmez/p3.png",
+      img: "/moto/donmez/p3.webp",
     },
     {
       id: "04",
       title: "Pressure Plates",
-      img: "/moto/donmez/p4.png",
+      img: "/moto/donmez/p4.webp",
     },
   ];
 

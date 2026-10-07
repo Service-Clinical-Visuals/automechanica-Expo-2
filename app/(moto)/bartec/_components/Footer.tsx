@@ -20,7 +20,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 lg:grid-cols-[40fr_15fr_15fr_15fr_15fr] gap-10">
           {/* Logo + tagline */}
           <div data-aos="fade-up" className="flex-col xl:flex-row flex gap-10">
-            <img src="/moto/bartec/logo2.png" alt="Bartec TPMS Logo" className="h-25 w-auto object-contain mb-5" />
+            <img src="/moto/bartec/logo2.webp" alt="Bartec TPMS Logo" className="h-25 w-auto object-contain mb-5" />
             <p className="content-white font-light!">
               Since 1992, our passion for TPMS innovation has driven advanced tools, programmable
               sensors, and software solutions trusted by automotive professionals worldwide. Built

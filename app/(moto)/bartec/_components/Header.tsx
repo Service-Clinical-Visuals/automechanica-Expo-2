@@ -65,7 +65,7 @@ export default function Header() {
             {/* Logo */}
             <Link href="/" className="flex items-center shrink-0 rounded-xl p-1 hover:opacity-90 transition-opacity">
               <img
-                src="/moto/bartec/logo.png"
+                src="/moto/bartec/logo.webp"
                 alt="Bartec TPMS Logo"
                 className="h-11 w-auto object-contain"
               />

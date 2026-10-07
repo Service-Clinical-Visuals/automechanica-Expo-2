@@ -11,15 +11,15 @@ import "swiper/css/pagination";
 const products = [
   {
     title: "Automotive Chemicals",
-    image: "/moto/speedcar/fp1.png",
+    image: "/moto/speedcar/fp1.webp",
   },
   {
     title: "Chemical Raw Materials",
-    image: "/moto/speedcar/fp2.png",
+    image: "/moto/speedcar/fp2.webp",
   },
   {
     title: "Plyny-Eksploatacyjne",
-    image: "/moto/speedcar/fp3.png",
+    image: "/moto/speedcar/fp3.webp",
   },
 ];
 

@@ -8,15 +8,15 @@ export default function Partners() {
   const partners = [
     {
       title: "Distributors",
-      image: "/moto/rowe/cust1.png",
+      image: "/moto/rowe/cust1.webp",
     },
     {
       title: "Private Customers",
-      image: "/moto/rowe/cust2.png",
+      image: "/moto/rowe/cust2.webp",
     },
     {
       title: "Workshops",
-      image: "/moto/rowe/cust3.png",
+      image: "/moto/rowe/cust3.webp",
     }
   ];
 

@@ -12,7 +12,7 @@ const AboutUs = () => {
         {/* Image (Mobile: Order 4, Desktop: Col 1-6) */}
         <div className="w-full order-4 xl:order-none xl:col-span-6" data-aos="fade-right">
           <img
-            src="/moto/wai/section2.png"
+            src="/moto/wai/section2.webp"
             alt="WAI Service"
             className="w-full rounded-2xl object-cover aspect-[819/700] shadow-lg"
           />
@@ -45,7 +45,7 @@ const AboutUs = () => {
             {/* Card 1 */}
             <div className="flex flex-col items-center justify-center text-center gap-3 bg-white border border-gray-300 shadow-sm p-4 sm:p-5 rounded-lg">
               <div className="w-12 h-12 flex items-center justify-center shrink-0">
-                <img src="/moto/wai/icon1.png" alt="Since 1978" className="w-full h-full object-contain" />
+                <img src="/moto/wai/icon1.webp" alt="Since 1978" className="w-full h-full object-contain" />
               </div>
               <Typography variant="h4" color="dark" className="font-bold">
                 Since 1978
@@ -55,7 +55,7 @@ const AboutUs = () => {
             {/* Card 2 */}
             <div className="flex flex-col items-center justify-center text-center gap-3 bg-white border border-gray-300 shadow-sm p-4 sm:p-5 rounded-lg">
               <div className="w-12 h-12 flex items-center justify-center shrink-0">
-                <img src="/moto/wai/icon2.png" alt="OE-Quality Engineering" className="w-full h-full object-contain" />
+                <img src="/moto/wai/icon2.webp" alt="OE-Quality Engineering" className="w-full h-full object-contain" />
               </div>
               <Typography variant="h4" color="dark" className="font-bold">
                 OE-Quality Engineering
@@ -65,7 +65,7 @@ const AboutUs = () => {
             {/* Card 3 */}
             <div className="flex flex-col items-center justify-center text-center gap-3 bg-white border border-gray-300 shadow-sm p-4 sm:p-5 rounded-lg">
               <div className="w-12 h-12 flex items-center justify-center shrink-0">
-                <img src="/moto/wai/icon3.png" alt="Global Coverage" className="w-full h-full object-contain" />
+                <img src="/moto/wai/icon3.webp" alt="Global Coverage" className="w-full h-full object-contain" />
               </div>
               <Typography variant="h4" color="dark" className="font-bold">
                 Global Coverage

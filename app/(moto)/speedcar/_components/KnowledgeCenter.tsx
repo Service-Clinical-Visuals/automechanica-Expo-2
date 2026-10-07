@@ -6,17 +6,17 @@ import { ArrowUpRight } from "lucide-react";
 
 const articles = [
   {
-    image: "/moto/speedcar/news1.png",
+    image: "/moto/speedcar/news1.webp",
     title: "Symptoms of overheated engine oil",
     date: "August 11 2025",
   },
   {
-    image: "/moto/speedcar/news2.png",
+    image: "/moto/speedcar/news2.webp",
     title: "New! SPEEDCAR Brake Cleaner",
     date: "August 11 2025",
   },
   {
-    image: "/moto/speedcar/news3.png",
+    image: "/moto/speedcar/news3.webp",
     title: "SpeedCar Lithium Grease ŁT 43",
     date: "August 11 2025",
   },

@@ -11,38 +11,38 @@ export default function Products() {
     {
       id: 1,
       title: "Catalytic Converters",
-      image: "/moto/veneporte/product1.png"
+      image: "/moto/veneporte/product1.webp"
     },
     {
       id: 2,
       title: "Particulate Filters",
-      image: "/moto/veneporte/product2.png"
+      image: "/moto/veneporte/product2.webp"
     },
     {
       id: 3,
       title: "SCRs & LNTs",
-      image: "/moto/veneporte/product3.png"
+      image: "/moto/veneporte/product3.webp"
     },
     {
       id: 4,
       title: "Silencers",
-      image: "/moto/veneporte/product4.png"
+      image: "/moto/veneporte/product4.webp"
     },
     {
       id: 5,
       title: "Mounting Parts",
-      image: "/moto/veneporte/product5.png"
+      image: "/moto/veneporte/product5.webp"
     },
     {
       id: 6,
       title: "Exhaust Systems",
-      image: "/moto/veneporte/product1.png"
+      image: "/moto/veneporte/product1.webp"
     }
   ];
 
   return (
     <section className="py-16 md:py-24 relative overflow-hidden">
-      <div className="absolute top-0 left-0 w-full h-full bg-[url('/moto/veneporte/bg2.png')] bg-cover bg-center z-0">
+      <div className="absolute top-0 left-0 w-full h-full bg-[url('/moto/veneporte/bg2.webp')] bg-cover bg-center z-0">
       </div>
       <div className="custom-container px-4 md:px-8 max-w-[1920px] mx-auto relative z-10">
         {/* {bg image} */}

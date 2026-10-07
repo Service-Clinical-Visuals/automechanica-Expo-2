@@ -13,7 +13,7 @@ export default function Footer() {
           {/* Column 1: Logo & Text */}
           <div className="flex flex-col lg:col-span-1">
             <img 
-              src="/moto/spesso/logo.png" 
+              src="/moto/spesso/logo.webp" 
               alt="Spesso Logo" 
               className="w-40 md:w-60 mb-6 object-contain" 
             />

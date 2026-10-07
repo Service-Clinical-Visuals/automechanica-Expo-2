@@ -19,7 +19,7 @@ export default function Footer() {
           {/* Logo + tagline */}
           <div className="col-span-2 md:col-span-3 xl:col-span-1 flex flex-col items-start gap-8 xl:mr-10" data-aos="fade-up">
             <div className="flex items-center justify-center">
-              <img src="/moto/inmotion/logo.png" alt="In Motion Automotive" className="h-30 w-auto object-contain drop-shadow-md" />
+              <img src="/moto/inmotion/logo.webp" alt="In Motion Automotive" className="h-30 w-auto object-contain drop-shadow-md" />
             </div>
             <p className="content text-white leading-[1.6]">
               The group was established in Turin in 1994. The founders previously worked for FAG, acquiring extensive experience in the bearing industry since 1970s.

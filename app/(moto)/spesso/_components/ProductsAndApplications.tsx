@@ -9,11 +9,11 @@ import "swiper/css/pagination";
 
 export default function ProductsAndApplications() {
   const products = [
-    { title: "COMMERCIAL", image: "/moto/spesso/1.jpg" },
-    { title: "TRUCK", image: "/moto/spesso/2.jpg" },
-    { title: "AGRICULTURAL", image: "/moto/spesso/3.jpg" },
-    { title: "TWO-WHEELERS", image: "/moto/spesso/4.jpg" },
-    { title: "PASSENGER CAR", image: "/moto/spesso/5.png" },
+    { title: "COMMERCIAL", image: "/moto/spesso/1.webp" },
+    { title: "TRUCK", image: "/moto/spesso/2.webp" },
+    { title: "AGRICULTURAL", image: "/moto/spesso/3.webp" },
+    { title: "TWO-WHEELERS", image: "/moto/spesso/4.webp" },
+    { title: "PASSENGER CAR", image: "/moto/spesso/5.webp" },
   ];
 
   return (

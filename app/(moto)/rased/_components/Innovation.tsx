@@ -9,10 +9,10 @@ import { ArrowLeft, ArrowRight } from "lucide-react";
 import Container from "./Container";
 
 const products = [
-  { image: "/moto/rased/innovation/1.png", code: "08770" },
-  { image: "/moto/rased/innovation/2.png", code: "00260" },
-  { image: "/moto/rased/innovation/3.png", code: "09740" },
-  { image: "/moto/rased/innovation/4.png", code: "16786" },
+  { image: "/moto/rased/innovation/1.webp", code: "08770" },
+  { image: "/moto/rased/innovation/2.webp", code: "00260" },
+  { image: "/moto/rased/innovation/3.webp", code: "09740" },
+  { image: "/moto/rased/innovation/4.webp", code: "16786" },
 ];
 
 const SLIDES_PER_VIEW_XL = 4;

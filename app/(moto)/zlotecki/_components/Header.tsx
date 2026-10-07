@@ -76,10 +76,10 @@ const Header = () => {
             {/* Logo Section */}
             <Link href="/" className="flex items-center shrink-0">
               <img
-                src="/zlotecki/logo.png"
+                src="/zlotecki/logo.webp"
                 alt="Zlotecki Logo"
                 className="h-10 sm:h-12 md:h-14 lg:h-18 min-[3800px]:h-24 w-auto object-contain"
-                onError={(e) => { e.currentTarget.src = "/moto/ampro/logo.png"; }}
+                onError={(e) => { e.currentTarget.src = "/moto/ampro/logo.webp"; }}
               />
             </Link>
 
@@ -113,7 +113,7 @@ const Header = () => {
               <a href="#" className="flex items-center justify-center gap-2 bg-primary text-white hover:bg-primary-hover transition-colors px-4 py-2.5 min-[3800px]:px-8 min-[3800px]:py-5 rounded-tl-[16px] rounded-br-[16px] min-[3800px]:rounded-tl-[32px] min-[3800px]:rounded-br-[32px]">
                 {/* Fallback EU Text if image doesn't exist */}
                 <div className="flex items-center justify-center bg-blue-700 w-8 h-5 min-[3800px]:w-16 min-[3800px]:h-10 text-[8px] min-[3800px]:text-[16px] font-bold overflow-hidden rounded-tl-[8px] rounded-br-[8px] min-[3800px]:rounded-tl-[16px] min-[3800px]:rounded-br-[16px]">
-                  <img src="/zlotecki/flg.png" alt="EU" className="w-full h-full object-cover" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
+                  <img src="/zlotecki/flg.webp" alt="EU" className="w-full h-full object-cover" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
                 </div>
                 <span className="button text-sm min-[3800px]:text-2xl">PL</span>
               </a>
@@ -155,7 +155,7 @@ const Header = () => {
             <div className="pt-6 flex items-center justify-center gap-2">
               <a href="#" className="flex items-center justify-center gap-2 bg-primary text-white hover:bg-primary-hover transition-colors px-6 py-3 rounded-tl-[16px] rounded-br-[16px]">
                 <div className="flex items-center justify-center bg-blue-700 w-8 h-5 text-[8px] font-bold overflow-hidden rounded-tl-[8px] rounded-br-[8px]">
-                  <img src="/zlotecki/flg.png" alt="EU" className="w-full h-full object-cover" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
+                  <img src="/zlotecki/flg.webp" alt="EU" className="w-full h-full object-cover" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
                 </div>
                 <span className="button text-sm">PL</span>
               </a>

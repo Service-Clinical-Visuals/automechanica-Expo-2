@@ -35,7 +35,7 @@ export default function Partner() {
           {/* Right: Product image */}
           <div className="w-full" data-aos="fade-left">
             <img
-              src="/moto/zimmermann/partner.png"
+              src="/moto/zimmermann/partner.webp"
               alt="Zimmermann brake discs and pads product range"
               className="w-full h-auto object-contain"
             />

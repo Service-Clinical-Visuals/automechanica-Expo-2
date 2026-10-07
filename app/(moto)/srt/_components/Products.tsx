@@ -7,14 +7,14 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 const productsData = [
-  { id: 1, name: "Inner Ring", number: "16.100.230", img: "/moto/srt/1.png" },
-  { id: 2, name: "Differential Spider Gear", number: "50.100.700", img: "/moto/srt/2.png" },
-  { id: 3, name: "Pinion", number: "60.100.030", img: "/moto/srt/3.png" },
-  { id: 4, name: "Pressure Hose", number: "04.700.100", img: "/moto/srt/4.png" },
-  { id: 5, name: "Pressure Hose", number: "04.700.110", img: "/moto/srt/5.png" },
-  { id: 6, name: "Pressure Hose", number: "04.700.130", img: "/moto/srt/6.png" },
-  { id: 7, name: "Pressure Hose", number: "04.700.200", img: "/moto/srt/7.png" },
-  { id: 8, name: "Pressure Hose", number: "04.700.210", img: "/moto/srt/8.png" },
+  { id: 1, name: "Inner Ring", number: "16.100.230", img: "/moto/srt/1.webp" },
+  { id: 2, name: "Differential Spider Gear", number: "50.100.700", img: "/moto/srt/2.webp" },
+  { id: 3, name: "Pinion", number: "60.100.030", img: "/moto/srt/3.webp" },
+  { id: 4, name: "Pressure Hose", number: "04.700.100", img: "/moto/srt/4.webp" },
+  { id: 5, name: "Pressure Hose", number: "04.700.110", img: "/moto/srt/5.webp" },
+  { id: 6, name: "Pressure Hose", number: "04.700.130", img: "/moto/srt/6.webp" },
+  { id: 7, name: "Pressure Hose", number: "04.700.200", img: "/moto/srt/7.webp" },
+  { id: 8, name: "Pressure Hose", number: "04.700.210", img: "/moto/srt/8.webp" },
 ];
 
 export default function Products() {

@@ -8,10 +8,10 @@ import "swiper/css/pagination";
 import Button from "./Button";
 
 const rangeData = [
-  { id: 1, name: "TRANSMISSION GEARS", img: "/moto/srt/p1.png" },
-  { id: 2, name: "DRIVESHAFT PARTS", img: "/moto/srt/p2.png" },
-  { id: 3, name: "COOLANT HOSES", img: "/moto/srt/p3.png" },
-  { id: 4, name: "PRESSURE HOSES", img: "/moto/srt/p4.png" },
+  { id: 1, name: "TRANSMISSION GEARS", img: "/moto/srt/p1.webp" },
+  { id: 2, name: "DRIVESHAFT PARTS", img: "/moto/srt/p2.webp" },
+  { id: 3, name: "COOLANT HOSES", img: "/moto/srt/p3.webp" },
+  { id: 4, name: "PRESSURE HOSES", img: "/moto/srt/p4.webp" },
 ];
 
 export default function ProductRange() {

@@ -15,7 +15,7 @@ export default function HumanResources() {
             {/* Main Image */}
             <div className="order-2 xl:order-1 relative z-10 w-full h-full  overflow-hidden">
               <img
-                src="/moto/eren/human.png"
+                src="/moto/eren/human.webp"
                 alt="Human Resources"
                 className="w-full h-full object-contain"
               />

@@ -52,7 +52,7 @@ export default function Header() {
             {/* Logo */}
             <Link href="#" className="flex-shrink-0 z-50 flex items-center">
               <img
-                src="/moto/spesso/logo.png"
+                src="/moto/spesso/logo.webp"
                 alt="JB Germanoil Logo"
                 className="h-8 md:h-11 w-auto object-contain"
               />

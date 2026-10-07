@@ -36,7 +36,7 @@ export default function Expertise() {
             data-aos="fade-right"
           >
             <img
-              src="/moto/sndc/exp1.png"
+              src="/moto/sndc/exp1.webp"
               alt="SNDC control bench operation"
               className="
                 absolute
@@ -63,7 +63,7 @@ export default function Expertise() {
             data-aos="fade-left"
           >
             <img
-              src="/moto/sndc/exp2.png"
+              src="/moto/sndc/exp2.webp"
               alt="SNDC assembly line"
               className="
                 absolute

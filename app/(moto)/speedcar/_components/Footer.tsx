@@ -26,7 +26,7 @@ const Footer = () => {
       {/* Background image + dark overlay */}
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('/moto/speedcar/footerbg.png')" }}
+        style={{ backgroundImage: "url('/moto/speedcar/footerbg.webp')" }}
       />
       <div className="absolute inset-0 bg-[#1A1A1A]/90" />
 
@@ -39,7 +39,7 @@ const Footer = () => {
             {/* Col 1: Logo + description */}
             <div data-aos="fade-up" className="flex flex-col gap-5 items-start">
               <img
-                src="/moto/speedcar/logo2.png"
+                src="/moto/speedcar/logo2.webp"
                 alt="SpeedCar Logo"
                 className="h-16 w-auto object-contain"
               />

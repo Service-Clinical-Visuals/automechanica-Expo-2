@@ -5,11 +5,11 @@ import Container from "./Container";
 import ParallelogramButton from "./ParallelogramButton";
 
 const products = [
-  { name: "White Mineral Oils",        img: "/moto/ramoil/solutions/solutions1.png" },
-  { name: "Dielectric Oils and Gases", img: "/moto/ramoil/solutions/solutions2.png" },
-  { name: "Vaseline",                  img: "/moto/ramoil/solutions/solutions3.png" },
-  { name: "Lubricating Oils",          img: "/moto/ramoil/solutions/solutions4.png" },
-  { name: "Fuel oils",                 img: "/moto/ramoil/solutions/solutions5.png" },
+  { name: "White Mineral Oils",        img: "/moto/ramoil/solutions/solutions1.webp" },
+  { name: "Dielectric Oils and Gases", img: "/moto/ramoil/solutions/solutions2.webp" },
+  { name: "Vaseline",                  img: "/moto/ramoil/solutions/solutions3.webp" },
+  { name: "Lubricating Oils",          img: "/moto/ramoil/solutions/solutions4.webp" },
+  { name: "Fuel oils",                 img: "/moto/ramoil/solutions/solutions5.webp" },
 ];
 
 const PER_PAGE = 3;

@@ -6,16 +6,16 @@ import Button from "./Button";
 
 export default function Fit() {
   const brands = [
-    { name: "BMW", logo: "/moto/pek/f1.png", href: "#bmw" },
-    { name: "Land Rover", logo: "/moto/pek/f2.png", href: "#land-rover" },
-    { name: "Mercedes-Benz", logo: "/moto/pek/f3.png", href: "#mercedes" },
-    { name: "Volkswagen", logo: "/moto/pek/f4.png", href: "#volkswagen" },
-    { name: "Volvo", logo: "/moto/pek/f5.png", href: "#volvo" },
-    { name: "Mitsubishi Motors", logo: "/moto/pek/f6.png", href: "#mitsubishi" },
-    { name: "Jeep", logo: "/moto/pek/f7.png", href: "#jeep" },
-    { name: "Mazda", logo: "/moto/pek/f8.png", href: "#mazda" },
-    { name: "Kia", logo: "/moto/pek/f9.png", href: "#kia" },
-    { name: "Honda", logo: "/moto/pek/f10.png", href: "#honda" },
+    { name: "BMW", logo: "/moto/pek/f1.webp", href: "#bmw" },
+    { name: "Land Rover", logo: "/moto/pek/f2.webp", href: "#land-rover" },
+    { name: "Mercedes-Benz", logo: "/moto/pek/f3.webp", href: "#mercedes" },
+    { name: "Volkswagen", logo: "/moto/pek/f4.webp", href: "#volkswagen" },
+    { name: "Volvo", logo: "/moto/pek/f5.webp", href: "#volvo" },
+    { name: "Mitsubishi Motors", logo: "/moto/pek/f6.webp", href: "#mitsubishi" },
+    { name: "Jeep", logo: "/moto/pek/f7.webp", href: "#jeep" },
+    { name: "Mazda", logo: "/moto/pek/f8.webp", href: "#mazda" },
+    { name: "Kia", logo: "/moto/pek/f9.webp", href: "#kia" },
+    { name: "Honda", logo: "/moto/pek/f10.webp", href: "#honda" },
   ];
 
   return (

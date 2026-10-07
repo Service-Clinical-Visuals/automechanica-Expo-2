@@ -19,7 +19,7 @@ export default function Footer() {
           <div className="col-span-2 lg:col-span-3 flex flex-col gap-4 lg:gap-6" data-aos="fade-up">
             <Link href="#">
               <img
-                src="/moto/kameks/flogo.png"
+                src="/moto/kameks/flogo.webp"
                 alt="Kameks Logo"
                 className="h-auto w-auto object-contain max-h-[60px]"
                 onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<span class="text-white font-bold text-2xl poppins-font tracking-wide">Kameks</span>' }}

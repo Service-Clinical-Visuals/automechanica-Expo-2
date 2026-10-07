@@ -20,7 +20,7 @@ const About = () => {
           {/* Image */}
           <div className="overflow-hidden order-2 xl:order-1" data-aos="fade-right">
             <img
-              src="/moto/zimmermann/about.png"
+              src="/moto/zimmermann/about.webp"
               alt="Zimmermann manufacturing facility"
               className="w-full h-auto object-contain"
             />

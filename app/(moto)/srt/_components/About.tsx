@@ -24,7 +24,7 @@ export default function About() {
         {/* Main Image */}
         <div className="w-full relative rounded-3xl overflow-hidden  mb-8">
           <img
-            src="/moto/srt/abt.png"
+            src="/moto/srt/abt.webp"
             alt="SRT Factory"
             className="w-full h-auto object-cover "
           />

@@ -21,7 +21,7 @@ export default function Footer() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[26fr_15fr_18fr_20fr_21fr] gap-10">
             {/* Col 1: Logo */}
             <div className="flex flex-col gap-4">
-              <img src="/moto/sarofim/logo.png" alt="Sarofim" className="h-auto w-44" />
+              <img src="/moto/sarofim/logo.webp" alt="Sarofim" className="h-auto w-44" />
             </div>
 
             {/* Col 2: Corporate */}

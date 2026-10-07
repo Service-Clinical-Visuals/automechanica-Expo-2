@@ -48,7 +48,7 @@ export default function Header() {
         <Container className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center shrink-0">
-            <img src="/moto/slider/logo.png" alt="Slider Logo" className="h-12 md:h-full md:w-full object-contain" />
+            <img src="/moto/slider/logo.webp" alt="Slider Logo" className="h-12 md:h-full md:w-full object-contain" />
           </Link>
 
           {/* Desktop Navigation */}

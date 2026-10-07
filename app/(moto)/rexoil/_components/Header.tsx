@@ -39,7 +39,7 @@ export default function Header() {
         <div className="flex items-center justify-between">
           {/* Logo Area */}
           <div className="flex-shrink-0 flex items-center">
-            <img src="/moto/rexoil/logo.png" alt="logo.png" className="w-[140px] md:w-[160px] h-auto object-contain" />
+            <img src="/moto/rexoil/logo.webp" alt="logo.webp" className="w-[140px] md:w-[160px] h-auto object-contain" />
         
           </div>
 

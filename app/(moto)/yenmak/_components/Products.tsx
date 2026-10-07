@@ -5,10 +5,10 @@ import Container from "./Container";
 import Button from "./Button";
 
 const categories = [
-  { name: "Piston and Piston Pin", image: "/moto/yenmak/products/1.png" },
-  { name: "Piston Ring", image: "/moto/yenmak/products/2.png" },
-  { name: "Filter", image: "/moto/yenmak/products/3.png" },
-  { name: "Engine Sleeve", image: "/moto/yenmak/products/4.png" },
+  { name: "Piston and Piston Pin", image: "/moto/yenmak/products/1.webp" },
+  { name: "Piston Ring", image: "/moto/yenmak/products/2.webp" },
+  { name: "Filter", image: "/moto/yenmak/products/3.webp" },
+  { name: "Engine Sleeve", image: "/moto/yenmak/products/4.webp" },
 ];
 
 export default function Products() {

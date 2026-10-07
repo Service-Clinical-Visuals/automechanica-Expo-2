@@ -13,7 +13,7 @@ export default function Footer() {
 
           {/* Column 1: Logo & Info */}
           <div className="flex flex-col lg:col-span-3">
-            <img src="/moto/slider/logo2.png" alt="Slider Logo" className="w-[140px] h-auto object-contain mb-6" />
+            <img src="/moto/slider/logo2.webp" alt="Slider Logo" className="w-[140px] h-auto object-contain mb-6" />
             <Typography variant="lead" className="text-white leading-[1.8] mb-6 pe-4">
               Slider is a trusted manufacturer of high-performance lubricants and greases, serving automotive, industrial, marine, and agricultural sectors.
             </Typography>

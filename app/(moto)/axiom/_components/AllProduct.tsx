@@ -22,88 +22,88 @@ const productsByCategory: Record<
   "Gasket 1": [
     {
       title: "Gasket, Intake",
-      image: "/moto/axiom/p1.png",
+      image: "/moto/axiom/p1.webp",
     },
     {
       title: "Gasket, Oil Pan",
-      image: "/moto/axiom/p2.png",
+      image: "/moto/axiom/p2.webp",
     },
     {
       title: "Gasket, Oil Pan",
-      image: "/moto/axiom/p3.png",
+      image: "/moto/axiom/p3.webp",
     },
     {
       title: "Gasket, Intake",
-      image: "/moto/axiom/p1.png",
+      image: "/moto/axiom/p1.webp",
     },
     {
       title: "Gasket, Oil Pan",
-      image: "/moto/axiom/p2.png",
+      image: "/moto/axiom/p2.webp",
     },
     {
       title: "Gasket, Oil Pan",
-      image: "/moto/axiom/p3.png",
+      image: "/moto/axiom/p3.webp",
     },
   ],
 
   "Gasket 2": [
     {
       title: "Gasket, Intake",
-      image: "/moto/axiom/p2.png",
+      image: "/moto/axiom/p2.webp",
     },
     {
       title: "Gasket, Oil Pan",
-      image: "/moto/axiom/p3.png",
+      image: "/moto/axiom/p3.webp",
     },
     {
       title: "Gasket, Oil Pan",
-      image: "/moto/axiom/p1.png",
+      image: "/moto/axiom/p1.webp",
     },
     {
       title: "Gasket, Intake",
-      image: "/moto/axiom/p2.png",
+      image: "/moto/axiom/p2.webp",
     },
     {
       title: "Gasket, Oil Pan",
-      image: "/moto/axiom/p3.png",
+      image: "/moto/axiom/p3.webp",
     },
   ],
 
   "Radiator 1": [
     {
       title: "Gasket, Oil Pan",
-      image: "/moto/axiom/p3.png",
+      image: "/moto/axiom/p3.webp",
     },
     {
       title: "Gasket, Intake",
-      image: "/moto/axiom/p1.png",
+      image: "/moto/axiom/p1.webp",
     },
     {
       title: "Gasket, Oil Pan",
-      image: "/moto/axiom/p2.png",
+      image: "/moto/axiom/p2.webp",
     },
     {
       title: "Gasket, Oil Pan",
-      image: "/moto/axiom/p3.png",
+      image: "/moto/axiom/p3.webp",
     },
     {
       title: "Gasket, Intake",
-      image: "/moto/axiom/p1.png",
+      image: "/moto/axiom/p1.webp",
     },
     {
       title: "Gasket, Oil Pan",
-      image: "/moto/axiom/p2.png",
+      image: "/moto/axiom/p2.webp",
     },
   ],
 
   "Radiator 2": [
     {
       title: "Gasket, Oil Pan",
-      image: "/moto/axiom/p1.png",
+      image: "/moto/axiom/p1.webp",
     },
     {
       title: "Gasket, Inta",
-      image: "/moto/axiom/p2.png",
+      image: "/moto/axiom/p2.webp",
     },
   ],
 };

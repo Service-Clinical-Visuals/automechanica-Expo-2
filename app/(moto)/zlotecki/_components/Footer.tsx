@@ -14,7 +14,7 @@ const Footer = () => {
           <div className="col-span-2 md:col-span-6 lg:col-span-5 flex flex-col gap-8 min-[3800px]:gap-16">
             {/* Logo */}
             <img 
-              src="/zlotecki/logo.png" 
+              src="/zlotecki/logo.webp" 
               alt="Zlotecki Logo" 
               className="w-[300px] min-[3800px]:w-[400px] object-contain brightness-0 invert" 
               data-aos="fade-up" 

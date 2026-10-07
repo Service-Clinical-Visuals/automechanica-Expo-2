@@ -34,7 +34,7 @@ export default function EngineeredSection() {
             <div className="flex flex-col gap-3 mb-5">
               {/* Feature 1 */}
               <div className="flex items-start gap-4">
-                <img src="/moto/fcs/tick.png" alt="Check" className="w-auto h-auto flex-shrink-0 mt-1 object-contain" />
+                <img src="/moto/fcs/tick.webp" alt="Check" className="w-auto h-auto flex-shrink-0 mt-1 object-contain" />
                 <p className="text-gray-300 rubik-font font-regular  section-text leading-relaxed">
                   <strong className="text-white font-semibold">OE-quality design and performance</strong> engineered to deliver reliable results that meet or exceed OE standards.
                 </p>
@@ -42,7 +42,7 @@ export default function EngineeredSection() {
 
               {/* Feature 2 */}
               <div className="flex items-start gap-4">
-                <img src="/moto/fcs/tick.png" alt="Check" className="w-auto h-auto flex-shrink-0 mt-1 object-contain" />
+                <img src="/moto/fcs/tick.webp" alt="Check" className="w-auto h-auto flex-shrink-0 mt-1 object-contain" />
                 <p className="text-gray-300 font-regular rubik-font  section-text leading-relaxed">
                   <strong className="text-white font-semibold">Advanced engineering and testing</strong> developed with precision processes and rigorous validation for enhanced durability and safety.
                 </p>
@@ -50,7 +50,7 @@ export default function EngineeredSection() {
 
               {/* Feature 3 */}
               <div className="flex items-start gap-4">
-                <img src="/moto/fcs/tick.png" alt="Check" className="w-auto h-auto flex-shrink-0 mt-1 object-contain" />
+                <img src="/moto/fcs/tick.webp" alt="Check" className="w-auto h-auto flex-shrink-0 mt-1 object-contain" />
                 <p className="text-gray-300 font-regular rubik-font  section-text leading-relaxed">
                   <strong className="text-white font-semibold">Reliable durability and stability</strong> built to provide consistent performance, strength, and long-term reliability.
                 </p>

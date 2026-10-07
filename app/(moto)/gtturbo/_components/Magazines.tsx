@@ -8,21 +8,21 @@ const magazines = [
     date: "May 20, 2025",
     title: "GTurbo Freudenberg High Efficiency Air Filter",
     desc: "GTurbo Freudenberg High Efficiency Air Filter GTurbo has teamed up with Scavenger and Freudenberg Filtration...",
-    image: "/moto/gtturbo/n1.png",
+    image: "/moto/gtturbo/n1.webp",
   },
   {
     category: "Buyers Guide",
     date: "January 31, 2025",
     title: "Unleashing Diesel Engine Potential: The Power of Dyno Tuning",
     desc: "GTurbo Freudenberg High Efficiency Air Filter GTurbo has teamed up with Scavenger and Freudenberg Filtration...",
-    image: "/moto/gtturbo/n2.png",
+    image: "/moto/gtturbo/n2.webp",
   },
   {
     category: "Buyers Guide",
     date: "January 22, 2025",
     title: "Mastering Diesel Engine Performance: The Vital Role of Injector Cleaning",
     desc: "In the ever-evolving world of diesel engines, keeping up with advancements can feel like a...",
-    image: "/moto/gtturbo/n3.png",
+    image: "/moto/gtturbo/n3.webp",
   }
 ];
 

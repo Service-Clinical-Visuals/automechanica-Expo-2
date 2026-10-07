@@ -9,10 +9,10 @@ import "swiper/css/pagination";
 
 const Sustainability = () => {
   const images = [
-    "/moto/skt/s1.jpg",
-    "/moto/skt/s2.jpg",
-    "/moto/skt/s3.jpg",
-    "/moto/skt/s4.jpg"
+    "/moto/skt/s1.webp",
+    "/moto/skt/s2.webp",
+    "/moto/skt/s3.webp",
+    "/moto/skt/s4.webp"
   ];
 
   return (

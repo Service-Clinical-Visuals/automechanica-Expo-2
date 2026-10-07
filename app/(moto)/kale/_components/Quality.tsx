@@ -7,7 +7,7 @@ export default function Quality() {
   return (
     <section
       className="relative w-full py-20 md:py-28 bg-[#0d1117] bg-cover bg-center bg-no-repeat overflow-hidden"
-      style={{ backgroundImage: "url('/moto/kale/quality1bg.png')" }}
+      style={{ backgroundImage: "url('/moto/kale/quality1bg.webp')" }}
       id="engine-performance">
       <Container className="relative z-10">
         <div

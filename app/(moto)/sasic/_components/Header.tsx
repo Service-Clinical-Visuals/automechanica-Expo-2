@@ -35,7 +35,7 @@ export default function Header() {
       <div className="flex items-center h-[85px] px-4 sm:px-8 md:px-10 lg:px-[100px]">
         {/* Logo */}
         <div className="flex items-center">
-          <img src="/moto/sasic/logo.png" alt="Sasic" className="h-[57px]! w-auto" />
+          <img src="/moto/sasic/logo.webp" alt="Sasic" className="h-[57px]! w-auto" />
         </div>
 
         {/* Desktop Nav — centered */}

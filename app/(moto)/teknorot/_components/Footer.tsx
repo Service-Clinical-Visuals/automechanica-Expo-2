@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer
       className="relative text-white pt-16 mt-auto overflow-hidden bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: 'url("/moto/teknorot/bg2.png")' }}
+      style={{ backgroundImage: 'url("/moto/teknorot/bg2.webp")' }}
     >
       <div className="custom-container relative z-10">
 
@@ -16,7 +16,7 @@ export default function Footer() {
           <div className="flex flex-col gap-6 lg:col-span-5" data-aos="fade-up">
             <Link href="#">
               <img
-                src="/moto/teknorot/flogo.png"
+                src="/moto/teknorot/flogo.webp"
                 alt="Teknorot Logo"
                 className="h-auto w-auto object-contain"
                 onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<span class="text-white font-bold text-2xl montserrat-font tracking-wide">TEKNOROT</span>' }}

@@ -54,7 +54,7 @@ export default function Header() {
 
         <div className="flex-shrink-0 flex items-center">
           <Link href="#" className="block">
-            <img src="/moto/skt/logo.png" alt="SKT Logo" className="w-[100px] md:w-[120px] lg:w-[120px] min-[3800px]:w-[320px] h-auto object-contain" />
+            <img src="/moto/skt/logo.webp" alt="SKT Logo" className="w-[100px] md:w-[120px] lg:w-[120px] min-[3800px]:w-[320px] h-auto object-contain" />
           </Link>
         </div>
 

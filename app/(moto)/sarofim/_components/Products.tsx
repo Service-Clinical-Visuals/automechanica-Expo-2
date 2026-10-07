@@ -10,23 +10,23 @@ import Container from "./Container";
 const products = [
   {
     title: "Lubricants And Chemicals",
-    img: "/moto/sarofim/products/1.png",
+    img: "/moto/sarofim/products/1.webp",
   },
   {
     title: "Workshop Equipment",
-    img: "/moto/sarofim/products/2.png",
+    img: "/moto/sarofim/products/2.webp",
   },
   {
     title: "Tools",
-    img: "/moto/sarofim/products/3.png",
+    img: "/moto/sarofim/products/3.webp",
   },
   {
     title: "Electrical System",
-    img: "/moto/sarofim/products/4.png",
+    img: "/moto/sarofim/products/4.webp",
   },
   {
     title: "Spare Parts",
-    img: "/moto/sarofim/products/5.png",
+    img: "/moto/sarofim/products/5.webp",
   },
 ];
 

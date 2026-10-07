@@ -59,7 +59,7 @@ export default function Service() {
           <div className="relative">
             <div className="hidden xl:block ml-auto w-[60%] sm:w-[70%]" data-aos="fade-left">
               <img
-                src="/moto/sarofim/service.png"
+                src="/moto/sarofim/service.webp"
                 alt="Sarofim team collaboration"
                 className="w-full h-full object-cover aspect-video"
               />

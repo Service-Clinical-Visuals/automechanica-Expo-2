@@ -29,7 +29,7 @@ export default function Advanced() {
             <div className="flex flex-col gap-6 mb-10">
               <div className="flex items-start gap-4" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
                 <div className="mt-1 flex-shrink-0">
-                  <img src="/moto/veneporte/Vector.png" alt="Check" className="w-6 h-6 object-contain" />
+                  <img src="/moto/veneporte/Vector.webp" alt="Check" className="w-6 h-6 object-contain" />
                 </div>
                 <Typography variant="p" color="muted" font='poppins' className="leading-relaxed">
                   Converts Harmful Gases Such As Carbon Monoxide, Hydrocarbons, And Nitrogen Oxides Into Less Harmful Emissions For Cleaner Operation.
@@ -38,7 +38,7 @@ export default function Advanced() {
 
               <div className="flex items-start gap-4" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800">
                 <div className="mt-1 flex-shrink-0">
-                  <img src="/moto/veneporte/Vector.png" alt="Check" className="w-6 h-6 object-contain" />
+                  <img src="/moto/veneporte/Vector.webp" alt="Check" className="w-6 h-6 object-contain" />
                 </div>
                 <Typography variant="p" color="muted" font='poppins' className=" leading-relaxed">
                   Engineered To Maintain Smooth Exhaust Flow, Helping Improve Engine Efficiency While Complying With Environmental Regulations.

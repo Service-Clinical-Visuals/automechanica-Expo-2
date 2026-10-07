@@ -38,7 +38,7 @@ export default function Header() {
         {/* Logo */}
         <Link href="#" className="flex-shrink-0 z-50">
           <img 
-            src="/moto/unil-lubricants/logo.png" 
+            src="/moto/unil-lubricants/logo.webp" 
             alt="Unil Lubricants" 
             className="h-14 md:h-18 w-auto object-contain"
             

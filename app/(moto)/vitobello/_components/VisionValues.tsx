@@ -33,7 +33,7 @@ export default function VisionValues() {
           <div className="bg-[#27292A] border border-white/50 p-8 lg:p-10 xl:p-12 rounded-sm flex flex-col gap-6 shadow-xl h-fit self-center justify-between">
             <div className="text-center gap-6 lg:gap-8">
               <div className="flex items-center gap-4 lg:gap-6 pb-10">
-                <img src="/moto/vitobello/v1.png" alt="Vision Icon" className="w-25 h-25 xl:w-30 xl:h-30 shrink-0 object-contain" />
+                <img src="/moto/vitobello/v1.webp" alt="Vision Icon" className="w-25 h-25 xl:w-30 xl:h-30 shrink-0 object-contain" />
                 <Typography variant="h2" color="white" className="font-semibold text-2xl xl:text-3xl">
                   Our Vision
                 </Typography>
@@ -52,7 +52,7 @@ export default function VisionValues() {
           {/* Middle Image */}
           <div className="w-auto h-auto max-h-[700px] rounded-sm overflow-hidden border border-white/20 shadow-xl relative bg-[#111]">
             <img
-              src="/moto/vitobello/vision.png"
+              src="/moto/vitobello/vision.webp"
               alt="Vitobello Ricambi Team"
               className="w-auto h-auto object-cover transition-transform duration-700 hover:scale-105"
             />
@@ -62,7 +62,7 @@ export default function VisionValues() {
           <div className="bg-[#27292A] border border-white/20 p-8 lg:p-10 xl:p-12 rounded-sm flex flex-col gap-6 shadow-xl h-fit self-center justify-between">
             <div className="text-center gap-6 lg:gap-8">
               <div className="flex items-center gap-4 lg:gap-6 pb-10">
-                <img src="/moto/vitobello/v2.png" alt="Vision Icon" className="w-25 h-25 xl:w-30 xl:h-30 shrink-0 object-contain" />
+                <img src="/moto/vitobello/v2.webp" alt="Vision Icon" className="w-25 h-25 xl:w-30 xl:h-30 shrink-0 object-contain" />
                 <Typography variant="h2" color="white" className="font-semibold text-2xl xl:text-3xl">
                   Our Mission
                 </Typography>

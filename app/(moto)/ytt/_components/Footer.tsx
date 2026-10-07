@@ -24,10 +24,10 @@ const productsColumn: LinkColumn = {
 };
 
 const socials = [
-  { icon: "/moto/ytt/fb.png", label: "Facebook" },
-  { icon: "/moto/ytt/twit.png", label: "Twitter" },
-  { icon: "/moto/ytt/link.png", label: "LinkedIn" },
-  { icon: "/moto/ytt/insta.png", label: "Instagram" },
+  { icon: "/moto/ytt/fb.webp", label: "Facebook" },
+  { icon: "/moto/ytt/twit.webp", label: "Twitter" },
+  { icon: "/moto/ytt/link.webp", label: "LinkedIn" },
+  { icon: "/moto/ytt/insta.webp", label: "Instagram" },
 ];
 
 export default function Footer() {
@@ -45,7 +45,7 @@ export default function Footer() {
           >
             <Link href="/">
               <img
-                src="/moto/ytt/footer_logo.png"
+                src="/moto/ytt/footer_logo.webp"
                 alt="YTT Automotive"
                 className="w-[180px] md:w-[200px] xl:w-[213px] h-auto object-contain"
               />
@@ -121,7 +121,7 @@ export default function Footer() {
             <div className="flex flex-col gap-3">
               <div className="flex items-start gap-2.5">
                 <img
-                  src="/moto/ytt/loc.png"
+                  src="/moto/ytt/loc.webp"
                   alt=""
                   className="w-5 h-5 object-contain mt-0.5 flex-shrink-0"
                 />
@@ -131,7 +131,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-2.5">
                 <img
-                  src="/moto/ytt/phn.png"
+                  src="/moto/ytt/phn.webp"
                   alt=""
                   className="w-5 h-5 object-contain flex-shrink-0"
                 />
@@ -141,7 +141,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-2.5">
                 <img
-                  src="/moto/ytt/mail.png"
+                  src="/moto/ytt/mail.webp"
                   alt=""
                   className="w-5 h-5 object-contain flex-shrink-0"
                 />

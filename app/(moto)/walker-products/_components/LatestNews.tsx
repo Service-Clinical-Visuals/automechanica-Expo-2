@@ -13,25 +13,25 @@ export default function LatestNews() {
     {
       title: "Walker Products Expands North American Engine...",
       description: "Walker Products has expanded their Engine Management program for North American markets, adding 388 new part numbers to increase...",
-      img: "/moto/walker-products/news-1.png",
+      img: "/moto/walker-products/news-1.webp",
       link: "#"
     },
     {
       title: "Walker Products Offers Most Robust Lambda...",
       description: "Walker Products offers the most robust lambda sensor program on the market today. Utilizing 100% OEM base sensors, connectors, & wire lengths...",
-      img: "/moto/walker-products/news-2.png",
+      img: "/moto/walker-products/news-2.webp",
       link: "#"
     },
     {
       title: "Walker Products Offers New EGTS Design Feature...",
       description: "Walker Products offers a full line of aftermarket Exhaust Gas Temperature Sensors (EGTS), with 295 SKUs, all being Euro 6 compliant...",
-      img: "/moto/walker-products/news-3.png",
+      img: "/moto/walker-products/news-3.webp",
       link: "#"
     },
     {
       title: "Walker Products Launches Expanded...",
       description: "Walker Products has launched an expanded Camshaft Position & Crankshaft Position sensor program to the UK and European range...",
-      img: "/moto/walker-products/news-4.png",
+      img: "/moto/walker-products/news-4.webp",
       link: "#"
     }
   ];

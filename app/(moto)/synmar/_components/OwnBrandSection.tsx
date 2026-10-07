@@ -36,7 +36,7 @@ export default function OwnBrandSection() {
                 data-aos-delay={index * 100}
                 className="relative flex items-center gap-3 bg-white rounded-full pl-4 pr-14 py-3 border border-gray-200"
               >
-                <Image src="/moto/synmar/check.png" alt="check" width={20} height={20} className="shrink-0" />
+                <Image src="/moto/synmar/check.webp" alt="check" width={20} height={20} className="shrink-0" />
                 <span className="content">{feature.text}</span>
                 <span className="absolute right-0 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-[#8b2a1a] text-white text-lg font-bold flex items-center justify-center leading-none">
                   {feature.num}
@@ -58,7 +58,7 @@ export default function OwnBrandSection() {
         {/* Right: product image */}
         <div data-aos="fade-left" data-aos-delay="150" className="relative w-full aspect-4/3 rounded-2xl overflow-hidden">
           <Image
-            src="/moto/synmar/ownbrand.png"
+            src="/moto/synmar/ownbrand.webp"
             alt="Own Brand"
             fill
             className="object-cover max-h-[717px] max-w-[952px]"

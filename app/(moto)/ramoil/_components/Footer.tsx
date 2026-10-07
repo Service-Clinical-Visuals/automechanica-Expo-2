@@ -14,10 +14,10 @@ const companyLinks = [
 ];
 
 const contactInfo = [
-  { icon: "/moto/ramoil/map-pin.png",    text: "Plant: Via Filichito, 28 80013 Casalnuovo (NA)" },
-  { icon: "/moto/ramoil/phone-call.png", text: "+39 081.519.51.11" },
-  { icon: "/moto/ramoil/printer.png",    text: "+39 081.842.10.79" },
-  { icon: "/moto/ramoil/mail.png",       text: "info@ramoil.it" },
+  { icon: "/moto/ramoil/map-pin.webp",    text: "Plant: Via Filichito, 28 80013 Casalnuovo (NA)" },
+  { icon: "/moto/ramoil/phone-call.webp", text: "+39 081.519.51.11" },
+  { icon: "/moto/ramoil/printer.webp",    text: "+39 081.842.10.79" },
+  { icon: "/moto/ramoil/mail.webp",       text: "info@ramoil.it" },
 ];
 
 
@@ -30,7 +30,7 @@ export default function Footer() {
 
             {/* Col 1: Logo + subscribe + socials */}
             <div className="flex flex-col gap-6">
-              <img src="/moto/ramoil/logo.png" alt="Ramoil" className="h-auto w-[172px]" />
+              <img src="/moto/ramoil/logo.webp" alt="Ramoil" className="h-auto w-[172px]" />
 
               {/* Subscribe form */}
               <div className="flex max-w-[80%] heading">
@@ -51,10 +51,10 @@ export default function Footer() {
               {/* Social icons */}
               <div className="flex gap-3">
                 <a href="#" aria-label="Instagram" className="hover:opacity-80 transition-opacity">
-                  <img src="/moto/ramoil/insta.png" alt="Instagram" className="w-13 h-13 object-contain" />
+                  <img src="/moto/ramoil/insta.webp" alt="Instagram" className="w-13 h-13 object-contain" />
                 </a>
                 <a href="#" aria-label="LinkedIn" className="hover:opacity-80 transition-opacity">
-                  <img src="/moto/ramoil/linkedIn.png" alt="LinkedIn" className="w-13 h-13 object-contain" />
+                  <img src="/moto/ramoil/linkedIn.webp" alt="LinkedIn" className="w-13 h-13 object-contain" />
                 </a>
               </div>
             </div>

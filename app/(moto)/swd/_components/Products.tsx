@@ -3,9 +3,9 @@
 import React from "react";
 
 const galleryImages = [
-  "/moto/swd/p1.png",
-  "/moto/swd/p2.png",
-  "/moto/swd/p3.png"
+  "/moto/swd/p1.webp",
+  "/moto/swd/p2.webp",
+  "/moto/swd/p3.webp"
 ];
 
 const Products = () => {
@@ -35,7 +35,7 @@ const Products = () => {
                 alt={`Rheinol Product Gallery ${idx + 1}`}
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 onError={(e) => {
-                  e.currentTarget.src = "/moto/swd/abt.png";
+                  e.currentTarget.src = "/moto/swd/abt.webp";
                 }}
               />
             </div>

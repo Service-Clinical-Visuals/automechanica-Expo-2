@@ -32,7 +32,7 @@ export default function Quality() {
           {/* Left: Image */}
           <div className="w-full xl:col-span-8 relative ">
             <img 
-              src="/moto/srt/quality.png" 
+              src="/moto/srt/quality.webp" 
               alt="Quality Control" 
               className="w-full h-auto object-cover"
             />
@@ -51,7 +51,7 @@ export default function Quality() {
             <ul className="hidden 2xl:block space-y-6 mt-8">
               <li className="flex items-start gap-4">
                 <div className="flex-shrink-0 flex items-center justify-center">
-                  <img src="/moto/srt/chk.png" alt="check" className="w-8 h-8 mt-1" />
+                  <img src="/moto/srt/chk.webp" alt="check" className="w-8 h-8 mt-1" />
                 </div>
                 <p className="section-text oxanium text-[#ffffff] text-left leading-relaxed">
                   <span className="font-semibold text-white">ISO 9001 Quality Standards</span> – Maintaining structured quality management across production and control processes.
@@ -59,7 +59,7 @@ export default function Quality() {
               </li>
               <li className="flex items-start gap-4">
                 <div className="flex-shrink-0 flex items-center justify-center">
-                  <img src="/moto/srt/chk.png" alt="check" className="w-8 h-8 mt-1" />
+                  <img src="/moto/srt/chk.webp" alt="check" className="w-8 h-8 mt-1" />
                 </div>
                 <p className="section-text oxanium text-[#ffffff] text-left leading-relaxed">
                   <span className="font-semibold text-white">Continuous Improvement</span> – Regular evaluation and process enhancement help maintain consistent product quality.
@@ -67,7 +67,7 @@ export default function Quality() {
               </li>
               <li className="flex items-start gap-4">
                 <div className="flex-shrink-0 flex items-center justify-center">
-                  <img src="/moto/srt/chk.png" alt="check" className="w-8 h-8 mt-1" />
+                  <img src="/moto/srt/chk.webp" alt="check" className="w-8 h-8 mt-1" />
                 </div>
                 <p className="section-text oxanium text-[#ffffff] text-left leading-relaxed">
                   <span className="font-semibold text-white">Customer-Focused Reliability</span> – Every component is developed to meet demanding performance and customer expectations.
@@ -86,7 +86,7 @@ export default function Quality() {
           <ul className="grid grid-cols-1 xl:grid-cols-3 gap-6 xl:gap-8">
             <li className="flex items-start gap-4">
               <div className="flex-shrink-0 flex items-center justify-center">
-                <img src="/moto/srt/chk.png" alt="check" className="w-8 h-8 mt-1" />
+                <img src="/moto/srt/chk.webp" alt="check" className="w-8 h-8 mt-1" />
               </div>
               <p className="section-text oxanium text-[#ffffff] text-left leading-relaxed">
                 <span className="font-semibold text-white">ISO 9001 Quality Standards</span> – Maintaining structured quality management across production and control processes.
@@ -94,7 +94,7 @@ export default function Quality() {
             </li>
             <li className="flex items-start gap-4">
               <div className="flex-shrink-0 flex items-center justify-center">
-                <img src="/moto/srt/chk.png" alt="check" className="w-8 h-8 mt-1" />
+                <img src="/moto/srt/chk.webp" alt="check" className="w-8 h-8 mt-1" />
               </div>
               <p className="section-text oxanium text-[#ffffff] text-left leading-relaxed">
                 <span className="font-semibold text-white">Continuous Improvement</span> – Regular evaluation and process enhancement help maintain consistent product quality.
@@ -102,7 +102,7 @@ export default function Quality() {
             </li>
             <li className="flex items-start gap-4">
               <div className="flex-shrink-0 flex items-center justify-center">
-                <img src="/moto/srt/chk.png" alt="check" className="w-8 h-8 mt-1" />
+                <img src="/moto/srt/chk.webp" alt="check" className="w-8 h-8 mt-1" />
               </div>
               <p className="section-text oxanium text-[#ffffff] text-left leading-relaxed">
                 <span className="font-semibold text-white">Customer-Focused Reliability</span> – Every component is developed to meet demanding performance and customer expectations.

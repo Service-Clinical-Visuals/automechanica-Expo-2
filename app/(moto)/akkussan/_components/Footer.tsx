@@ -17,7 +17,7 @@ const Footer = () => {
           <div className="2xl:col-span-3 flex flex-col gap-6">
             <Link href="/" className="inline-block">
               <img 
-                src="/moto/akkussan/logo.png" 
+                src="/moto/akkussan/logo.webp" 
                 alt="Akkussan Logo" 
                 className="h-15 w-auto object-contain"
               />
@@ -54,19 +54,19 @@ const Footer = () => {
             <h4 className="text-white font-normal exo2 card-title">Contact Us</h4>
             <ul className="flex flex-col gap-4">
               <li className="flex items-start gap-3">
-                <img src="/moto/akkussan/ph.png" alt="Phone" className="w-5 h-5 object-contain shrink-0 mt-0.5" />
+                <img src="/moto/akkussan/ph.webp" alt="Phone" className="w-5 h-5 object-contain shrink-0 mt-0.5" />
                 <a href="tel:+902163643483" className="inter section-text leading-relaxed text-white">
                   +90216 364 3483
                 </a>
               </li>
               <li className="flex items-start gap-3">
-                <img src="/moto/akkussan/mail.png" alt="Email" className="w-5 h-5 object-contain shrink-0 mt-0.5" />
+                <img src="/moto/akkussan/mail.webp" alt="Email" className="w-5 h-5 object-contain shrink-0 mt-0.5" />
                 <Link href="mailto:info@akkussan.com.tr" className="inter section-text leading-relaxed text-white">
                   info@akkussan.com.tr
                 </Link>
               </li>
               <li className="flex items-start gap-3">
-                <img src="/moto/akkussan/loc.png" alt="Location" className="w-5 h-5 object-contain shrink-0 mt-0.5" />
+                <img src="/moto/akkussan/loc.webp" alt="Location" className="w-5 h-5 object-contain shrink-0 mt-0.5" />
                 <p className="inter section-text leading-relaxed text-white">
                   Imes Sanayi Sitesi. A blok.<br/>
                   No:102/5, 34775<br/>
@@ -82,16 +82,16 @@ const Footer = () => {
             <h4 className="text-white font-normal exo2 card-title">Social</h4>
             <div className="flex gap-4 items-center">
               <a href="#linkedin" className="hover:opacity-80 transition-opacity">
-                <img src="/moto/akkussan/in.png" alt="LinkedIn" className="w-6 h-6 object-contain" />
+                <img src="/moto/akkussan/in.webp" alt="LinkedIn" className="w-6 h-6 object-contain" />
               </a>
               <a href="#x" className="hover:opacity-80 transition-opacity">
-                <img src="/moto/akkussan/x.png" alt="X" className="w-6 h-6 object-contain" />
+                <img src="/moto/akkussan/x.webp" alt="X" className="w-6 h-6 object-contain" />
               </a>
               <a href="#instagram" className="hover:opacity-80 transition-opacity">
-                <img src="/moto/akkussan/ins.png" alt="Instagram" className="w-6 h-6 object-contain" />
+                <img src="/moto/akkussan/ins.webp" alt="Instagram" className="w-6 h-6 object-contain" />
               </a>
               <a href="#youtube" className="hover:opacity-80 transition-opacity">
-                <img src="/moto/akkussan/u.png" alt="YouTube" className="w-6 h-6 object-contain" />
+                <img src="/moto/akkussan/u.webp" alt="YouTube" className="w-6 h-6 object-contain" />
               </a>
             </div>
           </div>

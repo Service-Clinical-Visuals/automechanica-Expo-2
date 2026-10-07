@@ -15,7 +15,7 @@ const Footer = () => {
           {/* Column 1: Logo & Welcome */}
           <div className="col-span-2 xl:col-span-1 flex flex-col gap-6 xl:border-r border-white/20 xl:pr-8" data-aos="fade-up">
             <img
-              src="/esan/logo1.png"
+              src="/esan/logo1.webp"
               alt="Esan Aku"
               className="w-[140px] min-[2100px]:w-[180px] min-[3800px]:w-[240px] object-contain"
             />

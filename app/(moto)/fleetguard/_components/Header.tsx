@@ -73,7 +73,7 @@ export default function Header() {
                             className="flex items-center shrink-0"
                         >
                             <img
-                                src="/moto/fleetguard/logo.png"
+                                src="/moto/fleetguard/logo.webp"
                                 alt="Fleetguard Logo"
                                 className="h-10 xl:h-12 2xl:h-14 4xl:h-[120px] min-[3800px]:h-auto w-auto object-contain"
                             />
@@ -114,19 +114,19 @@ export default function Header() {
 
                             <div className="flex items-center gap-4 xl:gap-5">
                                 <img
-                                    src="/moto/fleetguard/i1.png"
+                                    src="/moto/fleetguard/i1.webp"
                                     alt="User"
                                     className="w-[18px] h-[18px] 2xl:w-[24px] 2xl:h-[24px] 4xl:w-[32px] 4xl:h-[32px] object-contain cursor-pointer hover:opacity-80 transition-opacity"
                                 />
                                 <div className="w-[1px] h-6 2xl:h-8 4xl:h-10 bg-gray-200"></div>
                                 <img
-                                    src="/moto/fleetguard/i2.png"
+                                    src="/moto/fleetguard/i2.webp"
                                     alt="Cart"
                                     className="w-[18px] h-[18px] 2xl:w-[24px] 2xl:h-[24px] 4xl:w-[32px] 4xl:h-[32px] object-contain cursor-pointer hover:opacity-80 transition-opacity"
                                 />
                                 <div className="w-[1px] h-6 2xl:h-8 4xl:h-10 bg-gray-200"></div>
                                 <img
-                                    src="/moto/fleetguard/i3.png"
+                                    src="/moto/fleetguard/i3.webp"
                                     alt="Globe"
                                     className="w-[18px] h-[18px] 2xl:w-[24px] 2xl:h-[24px] 4xl:w-[32px] 4xl:h-[32px] object-contain cursor-pointer hover:opacity-80 transition-opacity"
                                 />
@@ -178,19 +178,19 @@ export default function Header() {
 
                             <div className="flex items-center justify-center gap-6 mt-4">
                                 <img
-                                    src="/moto/fleetguard/i1.png"
+                                    src="/moto/fleetguard/i1.webp"
                                     alt="User"
                                     className="w-[18px] h-[18px] object-contain cursor-pointer hover:opacity-80 transition-opacity"
                                 />
                                 <div className="w-[1px] h-6 bg-gray-200"></div>
                                 <img
-                                    src="/moto/fleetguard/i2.png"
+                                    src="/moto/fleetguard/i2.webp"
                                     alt="Cart"
                                     className="w-[18px] h-[18px] object-contain cursor-pointer hover:opacity-80 transition-opacity"
                                 />
                                 <div className="w-[1px] h-6 bg-gray-200"></div>
                                 <img
-                                    src="/moto/fleetguard/i3.png"
+                                    src="/moto/fleetguard/i3.webp"
                                     alt="Globe"
                                     className="w-[18px] h-[18px] object-contain cursor-pointer hover:opacity-80 transition-opacity"
                                 />

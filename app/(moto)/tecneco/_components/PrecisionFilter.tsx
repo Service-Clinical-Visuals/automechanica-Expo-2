@@ -8,7 +8,7 @@ export default function PrecisionFilter() {
     <section 
       className="relative w-full py-24 md:py-32 lg:py-40 bg-cover bg-center bg-no-repeat bg-[#111111]"
       style={{
-        backgroundImage: `url('/moto/tecneco/bg2.png')`
+        backgroundImage: `url('/moto/tecneco/bg2.webp')`
       }}
     >
      

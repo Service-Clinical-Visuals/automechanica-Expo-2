@@ -13,7 +13,7 @@ const ReliableExcellence = () => {
           {/* Image */}
           <div className="w-full xl:w-[50%] shrink-0" data-aos="fade-right">
             <img
-              src="/moto/speedcar/reliable.png"
+              src="/moto/speedcar/reliable.webp"
               alt="Reliable Manufacturing"
               className="w-full h-auto object-cover"
             />
@@ -93,7 +93,7 @@ const ReliableExcellence = () => {
           {/* Image */}
           <div className="w-full xl:w-[48%] shrink-0 order-1 xl:order-2" data-aos="fade-left" data-aos-delay="150">
             <img
-              src="/moto/speedcar/excellence.png"
+              src="/moto/speedcar/excellence.webp"
               alt="Excellence in Private Label"
               className="w-full h-auto object-cover"
             />

@@ -8,13 +8,13 @@ const news = [
     date: "03–05 June 2025",
     title: "Meha Automotive at Automechanika Birmingham 2025",
     desc: "Meha Automotive showcased its latest product group at Automechanika Birmingham 2025, welcoming customers and business partners at Hall 20, Stand H40 at NEC Birmingham.",
-    image: "/moto/meha/news1.png",
+    image: "/moto/meha/news1.webp",
   },
   {
     date: "02–04 November 2021",
     title: "Meha Automotive at AAPEX 2021",
     desc: "Meha Automotive attended AAPEX 2021 in Las Vegas, connecting with industry partners and presenting its latest automotive aftermarket solutions.",
-    image: "/moto/meha/news2.png",
+    image: "/moto/meha/news2.webp",
   },
 ];
 

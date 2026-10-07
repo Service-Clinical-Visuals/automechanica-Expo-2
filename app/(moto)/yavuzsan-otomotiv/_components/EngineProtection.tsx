@@ -36,7 +36,7 @@ export default function EngineProtection() {
               {/* Brake Lining */}
               <div className="flex items-start gap-4">
                 <div className="w-10 h-10 rounded-full bg-[#0F5AA6]/10 flex items-center justify-center shrink-0 mt-0.5 shadow-sm">
-                  <img src="/moto/yavuzsan-otomotiv/tec1.png" alt="Brake Lining" className="w-6 h-6 object-contain" />
+                  <img src="/moto/yavuzsan-otomotiv/tec1.webp" alt="Brake Lining" className="w-6 h-6 object-contain" />
                 </div>
                 <div className="flex flex-col">
                   <Typography variant="h3" className="oswald font-bold text-[#202020] text-lg md:text-xl mb-1">
@@ -51,7 +51,7 @@ export default function EngineProtection() {
               {/* Brake Disc */}
               <div className="flex items-start gap-4">
                 <div className="w-10 h-10 rounded-full bg-[#0F5AA6]/10 flex items-center justify-center shrink-0 mt-0.5 shadow-sm">
-                  <img src="/moto/yavuzsan-otomotiv/tec2.png" alt="Brake Disc" className="w-6 h-6 object-contain" />
+                  <img src="/moto/yavuzsan-otomotiv/tec2.webp" alt="Brake Disc" className="w-6 h-6 object-contain" />
                 </div>
                 <div className="flex flex-col">
                   <Typography variant="h3" className="oswald font-bold text-[#202020] text-lg md:text-xl mb-1">

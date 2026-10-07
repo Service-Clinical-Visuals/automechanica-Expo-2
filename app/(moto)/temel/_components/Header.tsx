@@ -44,7 +44,7 @@ export default function Header() {
         {/* Logo */}
         <Link href="#" className="flex-shrink-0 inline-flex items-center select-none h-10 md:h-12 xl:h-18 w-auto">
           <img
-            src="/moto/temel/temel-logo.png"
+            src="/moto/temel/temel-logo.webp"
             alt="Temel Conta Logo"
             className="h-full w-auto object-contain"
           />

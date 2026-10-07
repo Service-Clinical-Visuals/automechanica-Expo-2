@@ -16,7 +16,7 @@ const Footer = () => {
           <div className="relative h-[60px] md:h-[80px] w-[150px] md:w-[180px] shrink-0 -mt-16 md:-mt-20">
             <Link href="/" className="absolute inset-0 flex items-center justify-center hover:opacity-90 transition-opacity z-10 pt-2 md:pt-4">
               <img
-                src="/moto/UTB/logo.png"
+                src="/moto/UTB/logo.webp"
                 alt="UTB Logo"
                 className="h-full w-auto object-contain object-top"
               />
@@ -37,7 +37,7 @@ const Footer = () => {
                 marginLeft: "-22px"
               }}
             >
-              <img src="/moto/UTB/vector.png" alt="Submit" className="w-5 h-5 md:h-6 md:w-6 object-contain brightness-0 invert ml-[-2px]" />
+              <img src="/moto/UTB/vector.webp" alt="Submit" className="w-5 h-5 md:h-6 md:w-6 object-contain brightness-0 invert ml-[-2px]" />
             </button>
           </div>
         </div>

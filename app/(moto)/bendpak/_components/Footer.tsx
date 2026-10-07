@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="flex flex-col gap-6 col-span-2 xl:col-span-5" data-aos="fade-up">
             <Link href="#">
               <img
-                src="/moto/bendpak/logo.png"
+                src="/moto/bendpak/logo.webp"
                 alt="BendPak Logo"
                 className="h-10 min-[2100px]:w-auto min-[3800px]:w-auto w-auto object-contain brightness-0 invert"
                 onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<span class="text-white font-bold text-2xl montserrat-font tracking-wide">BENDPAK</span>' }}

@@ -11,7 +11,7 @@ export default function About() {
           {/* Left Image Side */}
           <div className="order-2 xl:order-1 relative rounded-2xl overflow-hidden bg-[#eef1f6] w-full flex items-center justify-center">
              <img
-              src="/moto/depa/abt1.png"
+              src="/moto/depa/abt1.webp"
               alt="About DEPA Wireframe Car"
                className="object-cover w-full h-auto"
             />
@@ -46,7 +46,7 @@ export default function About() {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4">
               <div className="flex gap-4 bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm">
                 <div className="bg-[var(--color-primary)] p-6 flex items-center justify-center rounded-sm">
-                  <img src="/moto/depa/abt2.png" alt="re" className="w-10 h-14"/>
+                  <img src="/moto/depa/abt2.webp" alt="re" className="w-10 h-14"/>
                 </div>
                 <div className="py-4 pr-4 oswald font-semibold text-[#272727] card-title flex items-center">
                   Circular Remanufacturing
@@ -55,7 +55,7 @@ export default function About() {
 
               <div className="flex items-stretch gap-4 bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm">
                 <div className="bg-[var(--color-primary)] p-6 flex items-center justify-center rounded-sm">
-                 <img src="/moto/depa/abt3.png" alt="re" className="w-10 h-12"/>
+                 <img src="/moto/depa/abt3.webp" alt="re" className="w-10 h-12"/>
                 </div>
                <div className="py-4 pr-4 oswald font-semibold text-[#272727] card-title flex items-center">
                   Quality & Expertise

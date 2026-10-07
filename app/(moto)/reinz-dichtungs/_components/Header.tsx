@@ -40,7 +40,7 @@ useEffect(() => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link href="#">
-              <img src="/moto/reinz-dichtungs/logo.png" alt="Reinz-Dichtungs Logo" className="w-[100px] md:w-[140px] xl:w-[160px] h-auto object-contain" />
+              <img src="/moto/reinz-dichtungs/logo.webp" alt="Reinz-Dichtungs Logo" className="w-[100px] md:w-[140px] xl:w-[160px] h-auto object-contain" />
             </Link>
           </div>
 

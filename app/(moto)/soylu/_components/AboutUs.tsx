@@ -12,7 +12,7 @@ export default function AboutUs() {
           <div className="xl:col-span-7 order-2 xl:order-1" data-aos="fade-right">
             <div className="relative w-full min-h-[420px] overflow-hidden ">
               <img
-                src="/moto/soylu/abt.png"
+                src="/moto/soylu/abt.webp"
                 alt="Soylu About"
                 className="w-full h-full object-cover"
               />
@@ -41,7 +41,7 @@ export default function AboutUs() {
               <div className="grid gap-4 mt-8">
                 <div>
                   <div className="flex items-start gap-3 mb-1">
-                    <img src="/moto/soylu/Subtract.png" alt="Icon" className="h-5 w-5 mt-1 object-contain" />
+                    <img src="/moto/soylu/Subtract.webp" alt="Icon" className="h-5 w-5 mt-1 object-contain" />
                     <div className="flex-1">
                       <Typography variant="p" color="primary" className="font-semibold">Integrated Engineering Excellence -</Typography>
                       <Typography variant="p" color="muted" className="ml-2 leading-[1.7]">
@@ -52,7 +52,7 @@ export default function AboutUs() {
                 </div>
                 <div>
                   <div className="flex items-start gap-3 mb-2">
-                    <img src="/moto/soylu/Subtract.png" alt="Icon" className="h-5 w-5 mt-1 object-contain" />
+                    <img src="/moto/soylu/Subtract.webp" alt="Icon" className="h-5 w-5 mt-1 object-contain" />
                     <div className="flex-1">
                       <Typography variant="p" color="primary" className="font-semibold">Advanced In-House Manufacturing -</Typography>
                       <Typography variant="p" color="muted" className="ml-2 leading-[1.7]">
@@ -77,7 +77,7 @@ export default function AboutUs() {
         <div className="mt-8 xl:mt-8 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 lg:gap-5">
           <div className="rounded-[2px] bg-white p-4 shadow-[0_8px_20px_-6px_rgba(0,0,0,0.12)] " data-aos="fade-up">
             <div className="flex items-start gap-3">
-              <img src="/moto/soylu/Subtract.png" alt="Icon" className="h-5 w-5 mt-1" />
+              <img src="/moto/soylu/Subtract.webp" alt="Icon" className="h-5 w-5 mt-1" />
               <div className="flex-1">
                 <Typography variant="p" color="primary" className="font-semibold">Established in 2001 -</Typography>
                 <Typography variant="p" color="muted" className="ml-2 leading-[1.7]">
@@ -89,7 +89,7 @@ export default function AboutUs() {
 
           <div className="rounded-[2px] bg-white p-4 shadow-[0_8px_20px_-6px_rgba(0,0,0,0.12)]" data-aos="fade-up" data-aos-delay="80">
             <div className="flex items-start gap-3 ">
-              <img src="/moto/soylu/Subtract.png" alt="Icon" className="h-5 w-5 mt-1" />
+              <img src="/moto/soylu/Subtract.webp" alt="Icon" className="h-5 w-5 mt-1" />
               <div className="flex-1">
                 <Typography variant="p" color="primary" className="font-semibold">Manufacturing Facility -</Typography>
                 <Typography variant="p" color="muted" className="ml-2 leading-[1.7]">
@@ -101,7 +101,7 @@ export default function AboutUs() {
 
           <div className="rounded-[2px] bg-white p-4 shadow-[0_8px_20px_-6px_rgba(0,0,0,0.12)]" data-aos="fade-up" data-aos-delay="160">
             <div className="flex items-start gap-3">
-              <img src="/moto/soylu/Subtract.png" alt="Icon" className="h-5 w-5 mt-1" />
+              <img src="/moto/soylu/Subtract.webp" alt="Icon" className="h-5 w-5 mt-1" />
               <div className="flex-1">
                 <Typography variant="p" color="primary" className="font-semibold">Digital Product Traceability -</Typography>
                 <Typography variant="p" color="muted" className="ml-2 leading-[1.7]">
@@ -113,7 +113,7 @@ export default function AboutUs() {
 
           <div className="rounded-[2px] bg-white p-4 shadow-[0_8px_20px_-6px_rgba(0,0,0,0.12)] " data-aos="fade-up" data-aos-delay="240">
             <div className="flex items-start gap-3">
-              <img src="/moto/soylu/Subtract.png" alt="Icon" className="h-5 w-5 mt-1" />
+              <img src="/moto/soylu/Subtract.webp" alt="Icon" className="h-5 w-5 mt-1" />
               <div className="flex-1">
                 <Typography variant="p" color="primary" className="font-semibold">Logistics & Service Center -</Typography>
                 <Typography variant="p" color="muted" className="ml-2 leading-[1.7]">

@@ -19,14 +19,14 @@ const About = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10" data-aos="fade-up">
           <div className="overflow-hidden rounded-lg shadow-[0_4px_20px_rgba(0,0,0,0.08)]">
             <img
-              src="/moto/bartec/about1.png"
+              src="/moto/bartec/about1.webp"
               alt="Bartec USA facility exterior"
               className="w-full h-auto object-cover"
             />
           </div>
           <div className="overflow-hidden rounded-lg shadow-[0_4px_20px_rgba(0,0,0,0.08)]">
             <img
-              src="/moto/bartec/about2.png"
+              src="/moto/bartec/about2.webp"
               alt="Bartec USA team outside the facility"
               className="w-full h-auto object-cover"
             />

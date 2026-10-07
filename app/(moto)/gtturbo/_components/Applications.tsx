@@ -4,10 +4,10 @@ import React from "react";
 import { ArrowLeft, ArrowRight, ArrowUpRight } from "lucide-react";
 
 const products = [
-  { title: "Toyota Landcruiser VD-G333 Titan", image: "/moto/gtturbo/p1.png" },
-  { title: "GTurbo Airbox N70 Hilux", image: "/moto/gtturbo/p2.png" },
-  { title: "Toyota Hilux KD-G250 Titan", image: "/moto/gtturbo/p3.png" },
-  { title: "GTurbo Airbox GDJ70", image: "/moto/gtturbo/p4.png" },
+  { title: "Toyota Landcruiser VD-G333 Titan", image: "/moto/gtturbo/p1.webp" },
+  { title: "GTurbo Airbox N70 Hilux", image: "/moto/gtturbo/p2.webp" },
+  { title: "Toyota Hilux KD-G250 Titan", image: "/moto/gtturbo/p3.webp" },
+  { title: "GTurbo Airbox GDJ70", image: "/moto/gtturbo/p4.webp" },
 ];
 
 export default function Applications() {

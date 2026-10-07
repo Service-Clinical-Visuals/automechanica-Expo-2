@@ -11,17 +11,17 @@ import { ArrowLeft, ArrowRight } from "lucide-react";
 import Button from "./Button";
 
 const brandsData = [
-  { id: "route", name: "Route Lubricants", logo: "/moto/strong-enerji/brand1.png" },
-  { id: "quax", name: "Quax Lubricants", logo: "/moto/strong-enerji/brand2.png" },
-  { id: "zeeon", name: "Zeeon Lubricants", logo: "/moto/strong-enerji/brans3.png" },
+  { id: "route", name: "Route Lubricants", logo: "/moto/strong-enerji/brand1.webp" },
+  { id: "quax", name: "Quax Lubricants", logo: "/moto/strong-enerji/brand2.webp" },
+  { id: "zeeon", name: "Zeeon Lubricants", logo: "/moto/strong-enerji/brans3.webp" },
 ];
 
 const productsData = [
-  { title: "Antifreeze", subtitle: "2 Products", image: "/moto/strong-enerji/p1.png", brand: "route" },
-  { title: "Brake Fluids", subtitle: "3 Products", image: "/moto/strong-enerji/p2.png", brand: "route" },
-  { title: "Heavy Duty Vehicle Engine Oils", subtitle: "8 Products", image: "/moto/strong-enerji/p6.png", brand: "quax" },
-  { title: "Motorcycle Oils", subtitle: "3 Products", image: "/moto/strong-enerji/p7.png", brand: "quax" },
-  { title: "Passenger Car Engine Oils", subtitle: "2 Products", image: "/moto/strong-enerji/p5.png", brand: "zeeon" },
+  { title: "Antifreeze", subtitle: "2 Products", image: "/moto/strong-enerji/p1.webp", brand: "route" },
+  { title: "Brake Fluids", subtitle: "3 Products", image: "/moto/strong-enerji/p2.webp", brand: "route" },
+  { title: "Heavy Duty Vehicle Engine Oils", subtitle: "8 Products", image: "/moto/strong-enerji/p6.webp", brand: "quax" },
+  { title: "Motorcycle Oils", subtitle: "3 Products", image: "/moto/strong-enerji/p7.webp", brand: "quax" },
+  { title: "Passenger Car Engine Oils", subtitle: "2 Products", image: "/moto/strong-enerji/p5.webp", brand: "zeeon" },
 ];
 
 export default function ProductPortfolio() {

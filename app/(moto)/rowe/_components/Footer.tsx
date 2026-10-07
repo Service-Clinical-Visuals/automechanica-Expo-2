@@ -14,7 +14,7 @@ export default function Footer() {
         {/* Top Row: Logo & Newsletter */}
         <div className="flex flex-col md:flex-row justify-between items-center md:items-end mb-12 md:mb-16 gap-6 md:gap-8">
           {/* Logo */}
-          <img src="/moto/rowe/logo.png" className="w-48 md:w-56 lg:w-[280px] h-auto object-contain" alt="ROWE Logo"/>
+          <img src="/moto/rowe/logo.webp" className="w-48 md:w-56 lg:w-[280px] h-auto object-contain" alt="ROWE Logo"/>
           
           {/* Newsletter */}
           <div className="flex w-full md:w-auto min-w-0 sm:min-w-[320px] lg:min-w-[420px]">
@@ -24,7 +24,7 @@ export default function Footer() {
               className="flex-1 bg-white text-black px-4 md:px-5 py-3 md:py-3.5 outline-none text-sm md:text-[15px] placeholder-gray-400 font-sans"
             />
             <button className="bg-[#e61919] px-4 md:px-6 flex items-center justify-center hover:bg-[#cc1616] transition-colors border-2">
-              <img src="/moto/rowe/send.png" alt="Subscribe" className="w-4 h-4 md:w-5 md:h-5 filter brightness-0 invert object-contain" />
+              <img src="/moto/rowe/send.webp" alt="Subscribe" className="w-4 h-4 md:w-5 md:h-5 filter brightness-0 invert object-contain" />
             </button>
           </div>
         </div>
@@ -36,11 +36,11 @@ export default function Footer() {
           <div className="flex flex-col gap-4 md:gap-5 items-start">
             <h4 className="text-base md:text-lg lg:text-[18px] font-medium orbitron text-white tracking-wide inline-block underline underline-offset-4">ROWE Mineralölwerk GmbH</h4>
             <ul className="flex flex-col gap-3 md:gap-4 text-white text-sm md:text-[15px] font-sans w-full sm:w-48 lg:w-52 mt-1">
-              <li><Link href="#" className="hover:text-[#e61919] transition-colors flex items-center gap-2 group !font-dm-sans">Distributors <img  src="/moto/rowe/Vector.png"></img></Link></li>
-              <li><Link href="#" className="hover:text-[#e61919] transition-colors flex items-center gap-2 group !font-dm-sans">Private Customers <img src="/moto/rowe/Vector.png"></img></Link></li>
-              <li><Link href="#" className="hover:text-[#e61919] transition-colors flex items-center gap-2 group !font-dm-sans">Workshops <img src="/moto/rowe/Vector.png"></img></Link></li>
-              <li><Link href="#" className="hover:text-[#e61919] transition-colors flex items-center gap-2 group !font-dm-sans">Industry <img src="/moto/rowe/Vector.png"></img></Link></li>
-              <li><Link href="#" className="hover:text-[#e61919] transition-colors flex items-center gap-2 group !font-dm-sans">About ROWE <img src="/moto/rowe/Vector.png"></img></Link></li>
+              <li><Link href="#" className="hover:text-[#e61919] transition-colors flex items-center gap-2 group !font-dm-sans">Distributors <img  src="/moto/rowe/Vector.webp"></img></Link></li>
+              <li><Link href="#" className="hover:text-[#e61919] transition-colors flex items-center gap-2 group !font-dm-sans">Private Customers <img src="/moto/rowe/Vector.webp"></img></Link></li>
+              <li><Link href="#" className="hover:text-[#e61919] transition-colors flex items-center gap-2 group !font-dm-sans">Workshops <img src="/moto/rowe/Vector.webp"></img></Link></li>
+              <li><Link href="#" className="hover:text-[#e61919] transition-colors flex items-center gap-2 group !font-dm-sans">Industry <img src="/moto/rowe/Vector.webp"></img></Link></li>
+              <li><Link href="#" className="hover:text-[#e61919] transition-colors flex items-center gap-2 group !font-dm-sans">About ROWE <img src="/moto/rowe/Vector.webp"></img></Link></li>
               <li><Link href="#" className="hover:text-[#e61919] transition-colors flex items-center gap-2 !font-dm-sans">Sustainability</Link></li>
             </ul>
           </div>
@@ -63,16 +63,16 @@ export default function Footer() {
               <h4 className="text-base md:text-lg lg:text-[18px] font-medium orbitron text-white tracking-wide underline underline-offset-4">Socials</h4>
               <div className="flex gap-1 md:gap-2">
                 <a href="#" className="bg-white w-[40px] h-[34px] md:w-[46px] md:h-[38px] flex items-center justify-center hover:bg-gray-200 transition-colors">
-                  <img src="/moto/rowe/facebook.png" alt="Facebook" className="w-5 h-5 md:w-[22px] md:h-[22px] object-contain" />
+                  <img src="/moto/rowe/facebook.webp" alt="Facebook" className="w-5 h-5 md:w-[22px] md:h-[22px] object-contain" />
                 </a>
                 <a href="#" className="bg-white w-[40px] h-[34px] md:w-[46px] md:h-[38px] flex items-center justify-center hover:bg-gray-200 transition-colors">
-                  <img src="/moto/rowe/twitter.png" alt="Twitter" className="w-5 h-5 md:w-[22px] md:h-[22px] object-contain" />
+                  <img src="/moto/rowe/twitter.webp" alt="Twitter" className="w-5 h-5 md:w-[22px] md:h-[22px] object-contain" />
                 </a>
                 <a href="#" className="bg-white w-[40px] h-[34px] md:w-[46px] md:h-[38px] flex items-center justify-center hover:bg-gray-200 transition-colors">
-                  <img src="/moto/rowe/linkedin.png" alt="Linkedin" className="w-5 h-5 md:w-[22px] md:h-[22px] object-contain" />
+                  <img src="/moto/rowe/linkedin.webp" alt="Linkedin" className="w-5 h-5 md:w-[22px] md:h-[22px] object-contain" />
                 </a>
                 <a href="#" className="bg-white w-[40px] h-[34px] md:w-[46px] md:h-[38px] flex items-center justify-center hover:bg-gray-200 transition-colors">
-                  <img src="/moto/rowe/instagram.png" alt="Instagram" className="w-5 h-5 md:w-[22px] md:h-[22px] object-contain" />
+                  <img src="/moto/rowe/instagram.webp" alt="Instagram" className="w-5 h-5 md:w-[22px] md:h-[22px] object-contain" />
                 </a>  
               </div>
             </div>
@@ -80,8 +80,8 @@ export default function Footer() {
             <div className="flex flex-col gap-4 md:gap-5">
               <h4 className="text-base md:text-lg lg:text-[18px] font-medium orbitron text-white tracking-wide underline underline-offset-4">Certified By</h4>
               <div className="flex gap-3">
-                <img src="/moto/rowe/certify1.png" alt="TUV PROFi CERT" className="h-[50px] md:h-[60px] w-auto object-contain" />
-                <img src="/moto/rowe/certify2.png" alt="TUV PROFi CERT" className="h-[50px] md:h-[60px] w-auto object-contain" />
+                <img src="/moto/rowe/certify1.webp" alt="TUV PROFi CERT" className="h-[50px] md:h-[60px] w-auto object-contain" />
+                <img src="/moto/rowe/certify2.webp" alt="TUV PROFi CERT" className="h-[50px] md:h-[60px] w-auto object-contain" />
               </div>
             </div>
           </div>
@@ -91,18 +91,18 @@ export default function Footer() {
             <div className="flex flex-col gap-4 md:gap-5">
               <h4 className="text-base md:text-lg lg:text-[18px] font-medium orbitron text-white tracking-wide underline underline-offset-4">We Support</h4>
               <div className="flex gap-3">
-                <img src="/moto/rowe/support1.png" alt="Aktion" className="h-[50px] md:h-[60px] w-auto object-contain" />
-                <img src="/moto/rowe/support2.png" alt="BVB Champion Partner" className="h-[50px] md:h-[60px] w-auto object-contain" />
+                <img src="/moto/rowe/support1.webp" alt="Aktion" className="h-[50px] md:h-[60px] w-auto object-contain" />
+                <img src="/moto/rowe/support2.webp" alt="BVB Champion Partner" className="h-[50px] md:h-[60px] w-auto object-contain" />
               </div>
             </div>
             
             <div className="flex flex-col gap-4 md:gap-5">
               <h4 className="text-base md:text-lg lg:text-[18px] font-medium font-sans text-white tracking-wide underline underline-offset-4">Payment methods</h4>
               <div className="flex flex-wrap items-center gap-4">
-                <img src="/moto/rowe/paypal.png" alt="PayPal" className="h-5 md:h-6 w-auto object-contain" />
-                <img src="/moto/rowe/visa.png" alt="Visa" className="h-3.5 md:h-4 w-auto object-contain" />
-                <img src="/moto/rowe/mastercard.png" alt="Mastercard" className="h-5 md:h-6 w-auto object-contain" />
-                <img src="/moto/rowe/sepa.png" alt="SEPA" className="h-3.5 md:h-4 w-auto object-contain" />
+                <img src="/moto/rowe/paypal.webp" alt="PayPal" className="h-5 md:h-6 w-auto object-contain" />
+                <img src="/moto/rowe/visa.webp" alt="Visa" className="h-3.5 md:h-4 w-auto object-contain" />
+                <img src="/moto/rowe/mastercard.webp" alt="Mastercard" className="h-5 md:h-6 w-auto object-contain" />
+                <img src="/moto/rowe/sepa.webp" alt="SEPA" className="h-3.5 md:h-4 w-auto object-contain" />
               </div>
             </div>
           </div>

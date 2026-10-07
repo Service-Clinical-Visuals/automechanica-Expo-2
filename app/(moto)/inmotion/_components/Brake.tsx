@@ -6,7 +6,7 @@ export default function Brake() {
     <section className="relative py-16 sm:py-24 overflow-hidden ">
       <div className="absolute inset-0">
         <img
-          src="/moto/inmotion/bg.png"
+          src="/moto/inmotion/bg.webp"
           alt="Background"
           className="w-full h-full object-cover"
         />

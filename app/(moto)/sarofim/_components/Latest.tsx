@@ -7,22 +7,22 @@ const news = [
   {
     title: "SAROFIM SAE 5W-40 Extreme...",
     date: "18/06/2026",
-    img: "/moto/sarofim/latest/1.png",
+    img: "/moto/sarofim/latest/1.webp",
   },
   {
     title: "SAROFIM Engine Flush – 300ML",
     date: "18/06/2026",
-    img: "/moto/sarofim/latest/2.png",
+    img: "/moto/sarofim/latest/2.webp",
   },
   {
     title: "SAROFIM SAE 10W-40 4L",
     date: "18/06/2026",
-    img: "/moto/sarofim/latest/3.png",
+    img: "/moto/sarofim/latest/3.webp",
   },
   {
     title: "SAROFIM Injector And Nozzle Cleaner",
     date: "18/06/2026",
-    img: "/moto/sarofim/latest/4.png",
+    img: "/moto/sarofim/latest/4.webp",
   },
 ];
 

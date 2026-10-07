@@ -27,7 +27,7 @@ export default function Performance() {
               {/* Item 1 */}
               <div className="border border-[var(--color-primary)] p-4 flex items-start justify-center gap-4 hover:border-[var(--color-primary)] transition-colors">
                 <div className="flex-shrink-0 mt-1">
-                  <img src="/moto/eren/circle.png" alt="Icon" className="w-5 h-5 object-contain" />
+                  <img src="/moto/eren/circle.webp" alt="Icon" className="w-5 h-5 object-contain" />
                 </div>
                 <p className="section-text inter leading-relaxed text-[#ffffff]">
                   <span className="font-semibold text-white">Consistent Braking Performance</span> - Delivers stable friction and dependable stopping power across different driving conditions.
@@ -37,7 +37,7 @@ export default function Performance() {
               {/* Item 2 */}
               <div className="border border-[var(--color-primary)] p-4 flex items-start justify-center gap-4 hover:border-[var(--color-primary)] transition-colors">
                 <div className="flex-shrink-0 mt-1">
-                  <img src="/moto/eren/circle.png" alt="Icon" className="w-5 h-5 object-contain" />
+                  <img src="/moto/eren/circle.webp" alt="Icon" className="w-5 h-5 object-contain" />
                 </div>
                 <p className="section-text inter leading-relaxed text-[#ffffff]">
                   <span className="font-semibold text-white">High Heat Resistance</span> - Designed to maintain reliable braking performance during repeated and demanding braking.
@@ -47,7 +47,7 @@ export default function Performance() {
               {/* Item 3 */}
               <div className="border border-[var(--color-primary)] p-4 flex items-start justify-center gap-4 hover:border-[var(--color-primary)] transition-colors">
                 <div className="flex-shrink-0 mt-1">
-                  <img src="/moto/eren/circle.png" alt="Icon" className="w-5 h-5 object-contain" />
+                  <img src="/moto/eren/circle.webp" alt="Icon" className="w-5 h-5 object-contain" />
                 </div>
                 <p className="section-text inter leading-relaxed text-[#ffffff]">
                   <span className="font-semibold text-white">Durable Construction</span> - Manufactured to withstand continuous use while providing long service life.

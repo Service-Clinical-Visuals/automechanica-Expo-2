@@ -85,7 +85,7 @@ const Header = () => {
               {/* Logo */}
               <Link href="/" className="flex items-center shrink-0">
                 <img
-                  src="/moto/aspl/logo.png"
+                  src="/moto/aspl/logo.webp"
                   alt="ASPL Logo"
                   className="h-10 md:h-12 xl:h-[60px] w-auto object-contain"
                   onError={(e) => {
@@ -100,7 +100,7 @@ const Header = () => {
                   <div key={link.name} className="relative flex items-center group cursor-pointer">
                     <span className="header-link text-foreground font-normal hover:text-primary transition-colors flex items-center gap-2 xl:gap-4 whitespace-nowrap">
                       {link.name}
-                      {link.hasDropdown && <img src="/moto/aspl/dwnarw1.png" alt="Dropdown" className="w-4 h-4 xl:w-5 xl:h-5 object-contain opacity-50" />}
+                      {link.hasDropdown && <img src="/moto/aspl/dwnarw1.webp" alt="Dropdown" className="w-4 h-4 xl:w-5 xl:h-5 object-contain opacity-50" />}
                     </span>
                   </div>
                 ))}
@@ -117,7 +117,7 @@ const Header = () => {
                   className="search-links w-[200px] xl:w-[260px] 2xl:w-[300px] h-[40px] xl:h-[45px] rounded-[8px] border border-gray-200 px-3 xl:px-5 outline-none focus:border-primary transition-colors pr-10"
                 />
                 <button className="absolute right-3 xl:right-4 text-primary font-bold flex items-center justify-center">
-                  <img src="/moto/aspl/search.png" alt="Search" className="w-4 h-4 xl:w-5 xl:h-5 object-contain" />
+                  <img src="/moto/aspl/search.webp" alt="Search" className="w-4 h-4 xl:w-5 xl:h-5 object-contain" />
                 </button>
               </div>
 
@@ -176,7 +176,7 @@ const Header = () => {
                   className="w-full h-[45px] rounded-[10px] border border-gray-200 px-5 outline-none focus:border-primary transition-colors pr-12"
                 />
                 <button className="absolute right-4 text-primary font-bold">
-                  <img src="/moto/aspl/search.png" alt="Search" className="w-5 h-5 object-contain" />
+                  <img src="/moto/aspl/search.webp" alt="Search" className="w-5 h-5 object-contain" />
                 </button>
               </div>
               

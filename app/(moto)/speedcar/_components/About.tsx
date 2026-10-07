@@ -55,7 +55,7 @@ const About = () => {
           {/* Right: Image */}
           <div className="w-full xl:w-[40%]" data-aos="fade-left" data-aos-delay="150">
             <img
-              src="/moto/speedcar/about.png"
+              src="/moto/speedcar/about.webp"
               alt="SpeedCar Oil Product"
               className="h-full max-h-[735px] w-full object-cover rounded"
             />

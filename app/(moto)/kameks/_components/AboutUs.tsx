@@ -21,7 +21,7 @@ export default function AboutUs() {
         {/* Image */}
         <div className="w-full h-full mb-8 flex item-center mx-auto justify-center" data-aos="fade-up" data-aos-delay="100">
           <img
-            src="/moto/kameks/abt.png"
+            src="/moto/kameks/abt.webp"
             alt="Kameks Facility"
             className="w-auto h-full object-cover"
           />

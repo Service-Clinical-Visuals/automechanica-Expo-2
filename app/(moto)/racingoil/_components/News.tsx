@@ -25,7 +25,7 @@ const News = () => {
           <div className="bg-white border border-gray-100 shadow-[0_5px_25px_rgba(0,0,0,0.04)] rounded-[32px] overflow-hidden flex flex-col group cursor-pointer hover:shadow-[0_15px_40px_rgba(0,0,0,0.08)] transition-all">
             <div className="w-full relative p-3 md:p-4 pb-0">
               <div className="w-full aspect-[1.7] rounded-[24px] overflow-hidden relative">
-                <img src="/moto/racingoil/n1.png" alt="Dakar" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" onError={(e) => { e.currentTarget.src = "/moto/swd/abt.png"; }} />
+                <img src="/moto/racingoil/n1.webp" alt="Dakar" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" onError={(e) => { e.currentTarget.src = "/moto/swd/abt.webp"; }} />
                 <div className="absolute bottom-3 left-3 bg-[#011689] text-white text-[10px] font-bold uppercase tracking-wider px-4 py-1 rounded-full">
                   Sports
                 </div>
@@ -45,7 +45,7 @@ const News = () => {
           <div className="bg-white border border-gray-100 shadow-[0_5px_25px_rgba(0,0,0,0.04)] rounded-[32px] overflow-hidden flex flex-col group cursor-pointer hover:shadow-[0_15px_40px_rgba(0,0,0,0.08)] transition-all">
             <div className="w-full relative p-3 md:p-4 pb-0">
               <div className="w-full aspect-[1.7] rounded-[24px] overflow-hidden relative">
-                <img src="/moto/racingoil/n2.png" alt="Moto3" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" onError={(e) => { e.currentTarget.src = "/moto/swd/abt.png"; }} />
+                <img src="/moto/racingoil/n2.webp" alt="Moto3" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" onError={(e) => { e.currentTarget.src = "/moto/swd/abt.webp"; }} />
                 <div className="absolute bottom-3 left-3 bg-[#011689] text-white text-[10px] font-bold uppercase tracking-wider px-4 py-1 rounded-full">
                   Sports
                 </div>

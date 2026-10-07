@@ -39,7 +39,7 @@ export default function Header() {
             {/* Logo Area */}
             <div className="flex-shrink-0 flex items-center">
               <Link href="#">
-                <img src="/moto/bendpak/logo.png" alt="BendPak Logo" className="h-8 min-[2100px]:h-12 min-[3800px]:h-16 w-auto object-contain brightness-0 invert" />
+                <img src="/moto/bendpak/logo.webp" alt="BendPak Logo" className="h-8 min-[2100px]:h-12 min-[3800px]:h-16 w-auto object-contain brightness-0 invert" />
               </Link>
             </div>
 

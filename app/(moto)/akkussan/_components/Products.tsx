@@ -9,17 +9,17 @@ const Products = () => {
     {
       title: "Passenger Shaft",
       desc: "Reliable shaft support solutions designed for passenger vehicles, helping reduce vibration, improve drivetrain stability, and ensure smooth performance.",
-      img: "1.png"
+      img: "1.webp"
     },
     {
       title: "Vehicle Shaft",
       desc: "Reliable shaft support solutions engineered for light commercial vehicles, stable, reduced vibration, and smooth, dependable performance across demanding applications.",
-      img: "2.png"
+      img: "2.webp"
     },
     {
       title: "Coupling",
       desc: "Durable coupling solutions designed for reliable drivetrain connections, helping absorb vibration and torque loads while supporting smooth and efficient power transmission.",
-      img: "3.png"
+      img: "3.webp"
     }
   ];
 

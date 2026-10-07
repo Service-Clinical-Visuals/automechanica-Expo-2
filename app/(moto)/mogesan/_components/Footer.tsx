@@ -25,10 +25,10 @@ const brandLinks = [
 ];
 
 const socialLinks = [
-  { icon: "/moto/mogesan/link.png", href: "#", label: "LinkedIn" },
-  { icon: "/moto/mogesan/insta.png", href: "#", label: "Instagram" },
-  { icon: "/moto/mogesan/fb.png", href: "#", label: "Facebook" },
-  { icon: "/moto/mogesan/yt.png", href: "#", label: "YouTube" },
+  { icon: "/moto/mogesan/link.webp", href: "#", label: "LinkedIn" },
+  { icon: "/moto/mogesan/insta.webp", href: "#", label: "Instagram" },
+  { icon: "/moto/mogesan/fb.webp", href: "#", label: "Facebook" },
+  { icon: "/moto/mogesan/yt.webp", href: "#", label: "YouTube" },
 ];
 
 export default function Footer() {
@@ -57,7 +57,7 @@ export default function Footer() {
           <div className="col-span-2 md:col-span-4 xl:w-[23%] xl:flex-shrink-0">
             <Link href="#" className="inline-block mb-6 origin-left">
               <Image
-                src="/moto/mogesan/footer_logo.png"
+                src="/moto/mogesan/footer_logo.webp"
                 alt="MOGESAN"
                 width={200}
                 height={100}
@@ -133,7 +133,7 @@ export default function Footer() {
             <ul className="flex flex-col gap-4">
               <li className="flex items-center gap-2">
                 <Image
-                  src="/moto/mogesan/phn.png"
+                  src="/moto/mogesan/phn.webp"
                   alt="Phone"
                   width={16}
                   height={16}
@@ -150,7 +150,7 @@ export default function Footer() {
 
               <li className="flex items-center gap-2">
                 <Image
-                  src="/moto/mogesan/mail.png"
+                  src="/moto/mogesan/mail.webp"
                   alt="Email"
                   width={16}
                   height={16}
@@ -167,7 +167,7 @@ export default function Footer() {
 
               <li className="flex items-start gap-2">
                 <Image
-                  src="/moto/mogesan/loc.png"
+                  src="/moto/mogesan/loc.webp"
                   alt="Location"
                   width={16}
                   height={16}

@@ -13,7 +13,7 @@ const Logistics = () => {
           {/* Left Content */}
           <div className="w-full xl:w-1/2 flex flex-col order-2 xl:order-1" data-aos="fade-right" data-aos-duration="1000">
             <img
-              src="/moto/UTB/heading4.png"
+              src="/moto/UTB/heading4.webp"
               alt="Logistics"
               className="h-12 md:h-18 lg:h-20 w-auto object-contain mb-4 object-left"
             />
@@ -51,7 +51,7 @@ const Logistics = () => {
           <div className="w-full xl:w-1/2 order-1 xl:order-2" data-aos="fade-left" data-aos-duration="1000">
             <div className="w-full h-[400px] md:h-[500px] xl:h-[600px] overflow-hidden rounded shadow-lg border border-gray-100">
               <img
-                src="/moto/UTB/section4.png"
+                src="/moto/UTB/section4.webp"
                 alt="UTB Logistics Truck"
                 className="w-full h-full object-cover"
                 onError={(e) => {

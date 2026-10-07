@@ -11,7 +11,7 @@ export default function Footer() {
           
           {/* Column 1: Logo and Text */}
           <div className="xl:col-span-4">
-            <img src="/moto/reinz-dichtungs/logo.png" alt="Reinz Logo" className="w-32 mb-6 object-contain" />
+            <img src="/moto/reinz-dichtungs/logo.webp" alt="Reinz Logo" className="w-32 mb-6 object-contain" />
             <p className="text-white section-text leading-relaxed">
               Combining advanced technology, precision engineering, and uncompromising quality to deliver trusted automotive solutions across global markets.
             </p>
@@ -35,11 +35,11 @@ export default function Footer() {
               <h3 className="font-oswald font-semibold text-white product-text mb-6">Contact Us</h3>
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
-                  <img src="/moto/reinz-dichtungs/ph.png" alt="Phone" className="w-5 h-5 object-contain" />
+                  <img src="/moto/reinz-dichtungs/ph.webp" alt="Phone" className="w-5 h-5 object-contain" />
                   <span className="text-white section-text">+49 (0) 731 70 46 - 0</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <img src="/moto/reinz-dichtungs/mail.png" alt="Email" className="w-5 h-5 object-contain" />
+                  <img src="/moto/reinz-dichtungs/mail.webp" alt="Email" className="w-5 h-5 object-contain" />
                   <a href="mailto:reinz.info@dana.com" className="text-white section-text underline decoration-white underline-offset-4 break-words">reinz.info@dana.com</a>
                 </li>
               </ul>
@@ -50,10 +50,10 @@ export default function Footer() {
           <div className="xl:col-span-1">
              <h3 className="font-oswald font-semibold text-white product-text mb-6">Social</h3>
             <div className="flex items-center gap-3">
-              <a href="#" className="hover:opacity-80 transition-opacity"><img src="/moto/reinz-dichtungs/ins.png" alt="Instagram" className="w-7 h-7 object-contain" /></a>
-              <a href="#" className="hover:opacity-80 transition-opacity"><img src="/moto/reinz-dichtungs/fb.png" alt="Facebook" className="w-7 h-7 object-contain" /></a>
-              <a href="#" className="hover:opacity-80 transition-opacity"><img src="/moto/reinz-dichtungs/u.png" alt="YouTube" className="w-7 h-7 object-contain" /></a>
-              <a href="#" className="hover:opacity-80 transition-opacity"><img src="/moto/reinz-dichtungs/in.png" alt="LinkedIn" className="w-7 h-7 object-contain" /></a>
+              <a href="#" className="hover:opacity-80 transition-opacity"><img src="/moto/reinz-dichtungs/ins.webp" alt="Instagram" className="w-7 h-7 object-contain" /></a>
+              <a href="#" className="hover:opacity-80 transition-opacity"><img src="/moto/reinz-dichtungs/fb.webp" alt="Facebook" className="w-7 h-7 object-contain" /></a>
+              <a href="#" className="hover:opacity-80 transition-opacity"><img src="/moto/reinz-dichtungs/u.webp" alt="YouTube" className="w-7 h-7 object-contain" /></a>
+              <a href="#" className="hover:opacity-80 transition-opacity"><img src="/moto/reinz-dichtungs/in.webp" alt="LinkedIn" className="w-7 h-7 object-contain" /></a>
             </div>
           </div>
 

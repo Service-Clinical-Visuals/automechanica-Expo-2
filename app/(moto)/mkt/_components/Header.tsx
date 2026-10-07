@@ -74,7 +74,7 @@ export default function Header() {
             {/* Logo */}
             <Link href="#" className="shrink-0">
               <img
-                src="/moto/mkt/logo.png"
+                src="/moto/mkt/logo.webp"
                 alt="MKT Holdings"
                 className="h-8 md:h-9 lg:h-10 w-auto"
               />

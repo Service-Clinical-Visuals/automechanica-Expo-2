@@ -16,7 +16,7 @@ export default function Explore360() {
     <section 
       className="py-20 md:py-28 bg-[#111111] relative w-full"
       style={{
-        backgroundImage: `url('/moto/tecneco/bg1.png')`,
+        backgroundImage: `url('/moto/tecneco/bg1.webp')`,
       }}
     >
       <div className="custom-container">
@@ -54,7 +54,7 @@ export default function Explore360() {
                 <li key={index} className="flex items-start gap-4">
                   <div className="flex-shrink-0 mt-1">
                     <img 
-                      src="/moto/tecneco/icon.png" 
+                      src="/moto/tecneco/icon.webp" 
                       alt="bullet" 
                       className="w-5 h-5 object-contain"
                     />

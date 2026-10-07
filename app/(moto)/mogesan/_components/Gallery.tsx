@@ -8,15 +8,15 @@ import "swiper/css/pagination";
 import Button from "./Button";
 
 const galleryImages = [
-  "/moto/mogesan/exp1.png",
-  "/moto/mogesan/exp2.png",
-  "/moto/mogesan/exp3.png",
-   "/moto/mogesan/exp1.png",
-  "/moto/mogesan/exp2.png",
-  "/moto/mogesan/exp3.png",
-  "/moto/mogesan/exp1.png",
-  "/moto/mogesan/exp2.png",
-  "/moto/mogesan/exp3.png",
+  "/moto/mogesan/exp1.webp",
+  "/moto/mogesan/exp2.webp",
+  "/moto/mogesan/exp3.webp",
+   "/moto/mogesan/exp1.webp",
+  "/moto/mogesan/exp2.webp",
+  "/moto/mogesan/exp3.webp",
+  "/moto/mogesan/exp1.webp",
+  "/moto/mogesan/exp2.webp",
+  "/moto/mogesan/exp3.webp",
 ];
 
 // From Figma dev-mode: card left positions are 573px apart, card width is

@@ -7,7 +7,7 @@ export default function Disctributor() {
   return (
     <section
       className="relative w-full py-20 md:py-30 bg-cover bg-center bg-no-repeat font-[family-name:var(--font-inter)]"
-      style={{ backgroundImage: "url('/moto/zeta-erre/distributor.png')" }}
+      style={{ backgroundImage: "url('/moto/zeta-erre/distributor.webp')" }}
       id="distributor"
     >
       <Container className="justify-center flex flex-col items-center">

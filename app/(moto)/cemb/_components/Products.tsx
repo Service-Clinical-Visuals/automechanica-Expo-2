@@ -13,22 +13,22 @@ const Products = () => {
   const products = [
     {
       title: "ER100GT",
-      img: "/moto/cemb/p1.png",
+      img: "/moto/cemb/p1.webp",
       href: "#products",
     },
     {
       title: "ER95 Plus",
-      img: "/moto/cemb/p2.png",
+      img: "/moto/cemb/p2.webp",
       href: "#products",
     },
     {
       title: "2-HIT",
-      img: "/moto/cemb/p3.png",
+      img: "/moto/cemb/p3.webp",
       href: "#products",
     },
     {
       title: "ER85 2-HIT",
-      img: "/moto/cemb/p4.png",
+      img: "/moto/cemb/p4.webp",
       href: "#products",
     },
 

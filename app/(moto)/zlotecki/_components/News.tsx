@@ -11,15 +11,15 @@ const News = () => {
   const newsItems = [
     {
       title: "Types of pin fit in the piston.",
-      img: "/zlotecki/c1.png",
+      img: "/zlotecki/c1.webp",
     },
     {
       title: "Measuring the nominal diameter of the piston, and the mounting clearance.",
-      img: "/zlotecki/c2.png",
+      img: "/zlotecki/c2.webp",
     },
     {
       title: "Measuring the hardness of the piston pin.",
-      img: "/zlotecki/c3.png",
+      img: "/zlotecki/c3.webp",
     },
   ];
 

@@ -35,7 +35,7 @@ const Solutions = () => {
           {/* Right Title (Image) */}
           <div className="xl:text-right" data-aos="fade-left" data-aos-duration="1000">
             <img
-              src="/moto/UTB/heading2.png"
+              src="/moto/UTB/heading2.webp"
               alt="360° Experience"
               className="h-16 md:h-20 lg:h-22 w-auto object-contain object-right"
             />
@@ -85,7 +85,7 @@ const Solutions = () => {
                       marginRight: "-28px"
                     }}
                   >
-                    <img src="/moto/UTB/settings.png" alt="Settings" className="w-7 h-7 md:h-10 md:w-10 object-contain brightness-0 invert ml-[-2px]" />
+                    <img src="/moto/UTB/settings.webp" alt="Settings" className="w-7 h-7 md:h-10 md:w-10 object-contain brightness-0 invert ml-[-2px]" />
                   </div>
                   {/* Text Box */}
                   <div className="bg-primary text-white flex items-center p-3 pl-8 pr-4 py-2 h-[65px] w-full rounded-r-md z-10 shadow-md">

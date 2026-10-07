@@ -46,7 +46,7 @@ export default function Header() {
               {/* Logo Area */}
               <div className="flex-shrink-0 flex items-center">
                 <Link href="#">
-                  <img src="/moto/avortex/logo.png" alt="Avortex Logo" className="header-logo h-auto object-contain" />
+                  <img src="/moto/avortex/logo.webp" alt="Avortex Logo" className="header-logo h-auto object-contain" />
                 </Link>
               </div>
 

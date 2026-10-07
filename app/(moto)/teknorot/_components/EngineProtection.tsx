@@ -10,7 +10,7 @@ export default function EngineProtection() {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/moto/teknorot/bg.png"
+          src="/moto/teknorot/bg.webp"
           alt="Teknorot Education"
           className="w-full h-full object-cover"
           onError={(e) => { e.currentTarget.style.display = 'none'; }}

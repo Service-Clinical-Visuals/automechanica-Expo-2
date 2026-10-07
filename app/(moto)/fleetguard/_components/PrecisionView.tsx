@@ -12,7 +12,7 @@ export default function PrecisionView() {
       <div
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: 'url("/moto/fleetguard/bg.png")',
+          backgroundImage: 'url("/moto/fleetguard/bg.webp")',
           backgroundSize: "cover",
           backgroundBlendMode: "overlay",
         }}

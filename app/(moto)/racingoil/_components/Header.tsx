@@ -51,7 +51,7 @@ export default function Header() {
           {/* Logo Area */}
           <div className="flex-shrink-0 flex items-center w-[120px] md:w-[150px]">
             <Link href="#" className="w-full block">
-              <img src="/moto/racingoil/logo.png" alt="Hann Filter Logo" className="w-auto h-auto object-contain" />
+              <img src="/moto/racingoil/logo.webp" alt="Hann Filter Logo" className="w-auto h-auto object-contain" />
             </Link>
           </div>
 

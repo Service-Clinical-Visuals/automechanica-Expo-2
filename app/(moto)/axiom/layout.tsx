@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "AXIOM Autotech Inc.",
   description: "AXIOM Autotech Inc. Homepage",
   icons: {
-    icon: "/moto/axiom/logo.png",
+    icon: "/moto/axiom/logo.webp",
   },
 };
 

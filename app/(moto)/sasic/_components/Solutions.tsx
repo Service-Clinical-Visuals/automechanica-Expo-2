@@ -4,13 +4,13 @@ import { useState } from "react";
 import Container from "./Container";
 
 const products = [
-  { name: "Antivibratoire", img: "/moto/sasic/products/1.png" },
-  { name: "Ground Connection", img: "/moto/sasic/products/2.png" },
-  { name: "Engine", img: "/moto/sasic/products/3.png" },
-  { name: "Cooling", img: "/moto/sasic/products/4.png" },
-  { name: "Braking", img: "/moto/sasic/products/5.png" },
-  { name: "Clutch", img: "/moto/sasic/products/6.png" },
-  { name: "Sound & Electronics", img: "/moto/sasic/products/7.png" },
+  { name: "Antivibratoire", img: "/moto/sasic/products/1.webp" },
+  { name: "Ground Connection", img: "/moto/sasic/products/2.webp" },
+  { name: "Engine", img: "/moto/sasic/products/3.webp" },
+  { name: "Cooling", img: "/moto/sasic/products/4.webp" },
+  { name: "Braking", img: "/moto/sasic/products/5.webp" },
+  { name: "Clutch", img: "/moto/sasic/products/6.webp" },
+  { name: "Sound & Electronics", img: "/moto/sasic/products/7.webp" },
 ];
 
 const PER_PAGE = 4;

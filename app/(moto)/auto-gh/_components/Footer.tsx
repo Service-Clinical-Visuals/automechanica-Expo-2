@@ -15,7 +15,7 @@ const Footer = () => {
           {/* Column 1: Logo & Welcome */}
           <div className="col-span-2 xl:col-span-1 flex flex-col gap-6" data-aos="fade-up">
             <img
-              src="/moto/auto-gh/logo1.png"
+              src="/moto/auto-gh/logo1.webp"
               alt="Auto GH"
               className="w-[120px] min-[2100px]:w-[160px] min-[3800px]:w-[200px] object-contain brightness-0 invert"
             />

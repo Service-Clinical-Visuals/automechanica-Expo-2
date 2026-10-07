@@ -16,7 +16,7 @@ export default function Footer() {
             <div className="col-span-2 md:col-span-6 xl:col-span-3 flex flex-col gap-6" data-aos="fade-up" data-aos-delay="100">
               <Link href="#" className="flex-shrink-0">
                 <img 
-                  src="/moto/unil-lubricants/logo.png" 
+                  src="/moto/unil-lubricants/logo.webp" 
                   alt="Unil Lubricants" 
                   className="h-16 w-auto object-contain"
                  
@@ -49,11 +49,11 @@ export default function Footer() {
               <h3 className="oswald-font font-medium text-white card-text">Contact Us</h3>
               <ul className="flex flex-col gap-6">
                 <li className="flex items-start gap-3">
-                  <img src="/moto/unil-lubricants/phone.png" alt="phone" />
+                  <img src="/moto/unil-lubricants/phone.webp" alt="phone" />
                   <span className="lato-font text-[#ffffff] section-text font-normal">+32 2 365 02 00</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <img src="/moto/unil-lubricants/fax.png" alt="fax" />
+                  <img src="/moto/unil-lubricants/fax.webp" alt="fax" />
                   <span className="lato-font text-[#ffffff] section-text font-normal">
                     Bergensesteenweg 713<br/>1600 Sint-Pieters-Leeuw
                   </span>

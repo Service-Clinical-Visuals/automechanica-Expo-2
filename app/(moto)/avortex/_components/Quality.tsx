@@ -25,7 +25,7 @@ export default function Quality() {
           {/* Right Side: Image */}
           <div className="w-full h-full lg:col-span-6 flex items-center justify-center" data-aos="fade-left">
             <img
-              src="/moto/avortex/e.png"
+              src="/moto/avortex/e.webp"
               alt="Avortex Gasket Logo"
               className="w-full h-full object-contain"
               onError={(e) => { e.currentTarget.src = "/moto/avortex/abt1.png"; }}

@@ -27,7 +27,7 @@ export default function Footer() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[35fr_22fr_21fr_22fr] gap-10 mb-10">
             {/* Col 1: Logo + tagline + subscribe */}
             <div className="flex flex-col gap-6">
-              <img src="/moto/sasic/logo.png" alt="Sasic" className="h-auto w-[160px]" />
+              <img src="/moto/sasic/logo.webp" alt="Sasic" className="h-auto w-[160px]" />
 
               <p className="content-white text-[17px]! leading-[26px]!">
                 Development, Manufacturing And Distribution Of Automotive Spare Parts Since 1927

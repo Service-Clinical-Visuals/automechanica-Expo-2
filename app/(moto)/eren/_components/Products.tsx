@@ -4,10 +4,10 @@ import React from "react";
 import Button from "./Button";
 
 const productsData = [
-  { id: 1, name: "Disc Brake Pads", img: "/moto/eren/1.png" },
-  { id: 2, name: "Drum Brake Linings", img: "/moto/eren/2.png" },
-  { id: 3, name: "Off-Road Brake Linings", img: "/moto/eren/3.png" },
-  { id: 4, name: "Brake Linings", img: "/moto/eren/4.png" },
+  { id: 1, name: "Disc Brake Pads", img: "/moto/eren/1.webp" },
+  { id: 2, name: "Drum Brake Linings", img: "/moto/eren/2.webp" },
+  { id: 3, name: "Off-Road Brake Linings", img: "/moto/eren/3.webp" },
+  { id: 4, name: "Brake Linings", img: "/moto/eren/4.webp" },
 ];
 
 export default function Products() {

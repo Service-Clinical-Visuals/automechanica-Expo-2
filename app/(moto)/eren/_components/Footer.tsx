@@ -16,7 +16,7 @@ export default function Footer() {
             <div className="xl:col-span-3 flex flex-col">
               <Link href="#" className="mb-6 inline-block">
                 <img
-                  src="/moto/eren/footerlogo.png"
+                  src="/moto/eren/footerlogo.webp"
                   alt="Eren Brake Linings"
                   className="w-40 h-auto object-contain"
                 />
@@ -64,11 +64,11 @@ export default function Footer() {
             <div className="xl:col-span-2 flex flex-col">
             <h4 className="barlowCondensed font-semibold text-white section-subtitle mb-6">Social</h4>
               <div className="flex gap-4">
-                <Link href="#" className="text-white hover:text-[var(--color-primary)] transition-colors"><img src="/moto/eren/f1.png" className="w-6 h-6" /></Link>
+                <Link href="#" className="text-white hover:text-[var(--color-primary)] transition-colors"><img src="/moto/eren/f1.webp" className="w-6 h-6" /></Link>
                 {/* using Twitter icon for X placeholder */}
-                <Link href="#" className="text-white hover:text-[var(--color-primary)] transition-colors"><img src="/moto/eren/f2.png" className="w-6 h-6" /></Link>
-                <Link href="#" className="text-white hover:text-[var(--color-primary)] transition-colors"><img src="/moto/eren/f3.png" className="w-6 h-6" /></Link>
-                <Link href="#" className="text-white hover:text-[var(--color-primary)] transition-colors"><img src="/moto/eren/f4.png" className="w-6 h-6" /></Link>
+                <Link href="#" className="text-white hover:text-[var(--color-primary)] transition-colors"><img src="/moto/eren/f2.webp" className="w-6 h-6" /></Link>
+                <Link href="#" className="text-white hover:text-[var(--color-primary)] transition-colors"><img src="/moto/eren/f3.webp" className="w-6 h-6" /></Link>
+                <Link href="#" className="text-white hover:text-[var(--color-primary)] transition-colors"><img src="/moto/eren/f4.webp" className="w-6 h-6" /></Link>
               </div>
             </div>
 

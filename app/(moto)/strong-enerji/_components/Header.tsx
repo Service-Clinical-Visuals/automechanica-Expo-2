@@ -54,7 +54,7 @@ export default function Header() {
         <div className="flex-shrink-0 mx-4 flex justify-center">
           <Link href="/strong-enerji">
             <img
-              src="/moto/strong-enerji/logo.png"
+              src="/moto/strong-enerji/logo.webp"
               alt="Strong Enerji Logo"
               className="h-14 sm:h-16 md:h-20 w-auto object-contain"
             />
@@ -73,7 +73,7 @@ export default function Header() {
           
           <div className="flex items-center space-x-2">
             <button className="flex items-center justify-center bg-gray-200 text-black px-2 py-1 header-link font-semibold gap-1 rounded">
-              <img src="/moto/strong-enerji/flag.png" alt="TR Flag" className="h-4 md:h-5 w-auto object-contain" />
+              <img src="/moto/strong-enerji/flag.webp" alt="TR Flag" className="h-4 md:h-5 w-auto object-contain" />
               <span className="oswald header-link font-semibold">TR</span>
             </button>
             <button className="flex items-center justify-center bg-gray-200 text-black p-1 rounded">
@@ -85,7 +85,7 @@ export default function Header() {
         {/* Mobile Menu Actions */}
         <div className="xl:hidden flex flex-1 justify-end items-center space-x-3">
           <button className="flex items-center justify-center bg-gray-200 text-black px-1.5 py-1 text-xs font-semibold gap-1 rounded">
-            <img src="/moto/strong-enerji/flag.png" alt="TR Flag" className="h-3 w-auto object-contain" />
+            <img src="/moto/strong-enerji/flag.webp" alt="TR Flag" className="h-3 w-auto object-contain" />
             <span className="oswald font-semibold">TR</span>
           </button>
           <button 

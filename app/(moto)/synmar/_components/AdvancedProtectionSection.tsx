@@ -39,7 +39,7 @@ export default function AdvancedProtectionSection() {
                   className="flex items-center gap-3 bg-white px-4 py-3"
                 >
                   <img
-                    src="/moto/synmar/check.png"
+                    src="/moto/synmar/check.webp"
                     alt="Advanced Protection"
                     className="object-cover"
                   />

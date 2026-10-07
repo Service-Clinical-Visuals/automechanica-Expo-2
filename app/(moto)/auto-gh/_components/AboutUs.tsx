@@ -43,7 +43,7 @@ const AboutUs = () => {
         <div className="order-3 xl:col-start-7 xl:col-span-6 xl:row-start-1 w-full h-full flex items-center justify-center min-[2100px]:min-h-[500px] min-[3800px]:min-h-[800px]" data-aos="fade-left">
           <div className="w-full aspect-[792/566] relative overflow-hidden rounded-md min-[2100px]:rounded-xl min-[3800px]:rounded-2xl">
             <img
-              src="/moto/auto-gh/section2.png"
+              src="/moto/auto-gh/section2.webp"
               alt="Auto GH Facility"
               className="absolute inset-0 w-full h-full object-cover"
             />

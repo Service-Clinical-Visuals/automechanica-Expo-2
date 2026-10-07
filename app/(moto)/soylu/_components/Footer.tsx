@@ -12,7 +12,7 @@ export default function Footer() {
 
           <div className="space-y-6 lg:col-span-1 xl:col-span-1" data-aos="fade-up">
             <Link href="#" className="inline-block">
-              <img src="/moto/soylu/Group.png" alt="Soylu Logo" className="h-[100%] w-auto object-contain" />
+              <img src="/moto/soylu/Group.webp" alt="Soylu Logo" className="h-[100%] w-auto object-contain" />
             </Link>
             <Typography color="white"  className="footer-body  max-w-full font-normal">
               Soylu Group is a privately owned company specializing in shipping, construction, and real estate management.
@@ -20,15 +20,15 @@ export default function Footer() {
             <div className="flex items-center gap-3">
               <Link href="#" className="inline-flex h-9 w-9 items-center justify-center text-white transition hover:bg-white/20">
                 <span className="sr-only">LinkedIn</span>
-                <img src="/moto/soylu/linked.png" alt="LinkedIn" className="h-4 w-4 object-contain" />
+                <img src="/moto/soylu/linked.webp" alt="LinkedIn" className="h-4 w-4 object-contain" />
               </Link>
               <Link href="#" className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-white transition hover:bg-white/20">
                 <span className="sr-only">Twitter</span>
-                <img src="/moto/soylu/twitter.png" alt="Twitter" className="h-4 w-4 object-contain" />
+                <img src="/moto/soylu/twitter.webp" alt="Twitter" className="h-4 w-4 object-contain" />
               </Link>
               <Link href="#" className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-white transition hover:bg-white/20">
                 <span className="sr-only">Facebook</span>
-                <img src="/moto/soylu/fb.png" alt="Facebook" className="h-4 w-4 object-contain" />
+                <img src="/moto/soylu/fb.webp" alt="Facebook" className="h-4 w-4 object-contain" />
               </Link>
             </div>
           </div>
@@ -73,15 +73,15 @@ export default function Footer() {
             <Typography color="white"  className="footer-heading text-white mb-6">Contact Us</Typography>
             <div className="flex flex-col gap-4 text-white/90">
               <div className="flex items-start gap-3">
-                <img src="/moto/soylu/phone.png" alt="Phone" className="h-4 w-4 object-contain mt-1" />
+                <img src="/moto/soylu/phone.webp" alt="Phone" className="h-4 w-4 object-contain mt-1" />
                 <Typography color="white"  className="footer-body">+90 380 544 36 36</Typography>
               </div>
               <div className="flex items-start gap-3">
-                <img src="/moto/soylu/mail.png" alt="Email" className="h-4 w-4 object-contain mt-1" />
+                <img src="/moto/soylu/mail.webp" alt="Email" className="h-4 w-4 object-contain mt-1" />
                 <Typography color="white"  className="footer-body">Info@Soylu.com</Typography>
               </div>
               <div className="flex items-start gap-3">
-                <img src="/moto/soylu/map.png" alt="Address" className="h-4 w-4 object-contain mt-1" />
+                <img src="/moto/soylu/map.webp" alt="Address" className="h-4 w-4 object-contain mt-1" />
                 <div className="space-y-1">
                   <Typography color="white"  className="footer-body">D-100 Yolu Üzeri</Typography>
                   <Typography color="white"  className="footer-body">745. Sokak No:2</Typography>

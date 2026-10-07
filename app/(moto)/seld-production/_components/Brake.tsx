@@ -37,7 +37,7 @@ export default function Brake() {
               {features.map((feature) => (
                 <div key={feature.title} className="flex items-start gap-3">
                   <span className="shrink-0 w-5 h-5 mt-2 rounded-full bg-[#00913F] flex items-center justify-center">
-                    <img src="/moto/seld-production/check.png" alt="Check" className="w-5 h-5 lg:w-7 lg:h-7 object-contain" />
+                    <img src="/moto/seld-production/check.webp" alt="Check" className="w-5 h-5 lg:w-7 lg:h-7 object-contain" />
                     
                   </span>
                   <div>

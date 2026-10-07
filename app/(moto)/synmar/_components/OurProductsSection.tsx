@@ -11,19 +11,19 @@ const products = [
     name: "THOR EP2",
     description:
       "Synmar Thor EP2 is a lithium-thickened lubricating grease based on mineral oil and contains antioxidants, corrosion inhibitors and...",
-    image: "/moto/synmar/ourproduct1.png",
+    image: "/moto/synmar/ourproduct1.webp",
   },
   {
     name: "ADBLUE",
     description:
       "The Synmar AdBlue is increasingly being used in passenger cars and vans to meet stringent environmental requirements. Synmar AdBlue...",
-    image: "/moto/synmar/ourproduct2.png",
+    image: "/moto/synmar/ourproduct2.webp",
   },
   {
     name: "OPTISPRAY",
     description:
       "The Synmar OptiSpray is especially developed for agricultural, transportation applications and other instances where engines...",
-    image: "/moto/synmar/ourproduct3.png",
+    image: "/moto/synmar/ourproduct3.webp",
   },
 ];
 

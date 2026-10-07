@@ -14,7 +14,7 @@ export default function Footer() {
           {/* Logo + tagline */}
           <div className="flex flex-col items-start gap-10 mr-20" data-aos="fade-up">
             <div className="bg-[#062AAA] p-4 flex items-center justify-center">
-              <img src="/moto/ftaza/logo.png" alt="FTAZA Industrial" className="h-10 w-auto object-contain" />
+              <img src="/moto/ftaza/logo.webp" alt="FTAZA Industrial" className="h-10 w-auto object-contain" />
             </div>
             <p className="font-oswald font-regular text-[17px] leading-[1.6]">
               FTAZA Industrial Co., Ltd. is a trusted automotive parts manufacturer delivering high-quality, precision-engineered solutions through advanced manufacturing, innovation, and global expertise.

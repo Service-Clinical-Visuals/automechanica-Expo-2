@@ -29,7 +29,7 @@ export default function Company() {
           {/* Image */}
           <div className="w-full xl:w-[45%] order-last  xl:order-first flex justify-center h-full" data-aos="fade-right">
             <img 
-              src="/moto/rolf/section2.png" 
+              src="/moto/rolf/section2.webp" 
               alt="ROLF Headquarters" 
               className="w-full h-full border-[1px] border-white/70 object-cover rounded-2xl md:rounded-[2rem]" 
             />

@@ -34,7 +34,7 @@ export default function Footer() {
           <div className="w-auto h-auto lg:col-span-1 flex flex-col gap-6 " data-aos="fade-up">
             <Link href="#" className="inline-block">
               <img
-                src="/moto/vitobello/logo.png"
+                src="/moto/vitobello/logo.webp"
                 alt="Vitobello Ricambi Logo"
                 className="w-auto sm:w-56 lg:w-72 h-auto object-contain object-left"
                 onError={(e) => {

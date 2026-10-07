@@ -5,12 +5,12 @@ import Link from "next/link";
 export default function News() {
   const newsItems = [
     {
-      image: "/moto/saria-international/nw1.png",
+      image: "/moto/saria-international/nw1.webp",
       date: "September 09, 2022",
       title: "Join us at Automechanika Dubai 2023 — Hall 7, Booth C12."
     },
     {
-      image: "/moto/saria-international/nw2.png",
+      image: "/moto/saria-international/nw2.webp",
       date: "September 30, 2023",
       title: "Visit us at the AAPEX Show, Venetian Expo Center, Las Vegas."
     }

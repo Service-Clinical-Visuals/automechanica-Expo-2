@@ -22,7 +22,7 @@ export default function Header() {
         <div className="flex rounded-lg items-center justify-between h-[64px] px-4 sm:px-8 md:px-14 lg:px-[60px] border border-white/25">
           {/* Logo */}
           <div className="flex items-center shrink-0 border border-white/25 p-2">
-            <img src="/moto/sarofim/logo.png" alt="Sarofim" className="h-9 w-auto" />
+            <img src="/moto/sarofim/logo.webp" alt="Sarofim" className="h-9 w-auto" />
           </div>
 
           {/* Desktop Nav */}

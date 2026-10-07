@@ -51,7 +51,7 @@ export default function Converters() {
             {features.map((text, idx) => (
               <div key={idx} className={`flex flex-col items-center text-center px-4 ${idx !== 0 ? 'pt-8 sm:pt-0' : ''}`} data-aos="flip-up" data-aos-delay={100 + (idx * 150)} data-aos-duration="800">
                 <div className="w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 xl:w-24 xl:h-24 bg-white rounded-full flex items-center justify-center mb-4 md:mb-6 shadow-md flex-shrink-0 hover:scale-110 transition-transform duration-300">
-                  <img src="/moto/veneporte/Vector.png" alt="Icon" className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 xl:w-12 xl:h-12 object-contain" />
+                  <img src="/moto/veneporte/Vector.webp" alt="Icon" className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 xl:w-12 xl:h-12 object-contain" />
                 </div>
                 <Typography variant="h4" color="white" font='poppins' className="font-medium leading-snug whitespace-pre-line">
                   {text}

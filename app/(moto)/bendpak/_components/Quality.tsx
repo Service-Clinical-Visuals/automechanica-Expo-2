@@ -14,7 +14,7 @@ export default function Quality() {
   return (
     <section
       className="py-16 xl:py-20 min-[2100px]:py-28 min-[3800px]:py-40 relative overflow-hidden bg-white text-black bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: 'url("/moto/bendpak/bg.png")' }}
+      style={{ backgroundImage: 'url("/moto/bendpak/bg.webp")' }}
     >
       <div className="custom-container relative z-10">
 
@@ -38,7 +38,7 @@ export default function Quality() {
               {leaders.map((leader, idx) => (
                 <li key={idx} className="flex items-center gap-3">
                   <div className="w-auto h-auto flex-shrink-0 flex items-center justify-center rounded-full">
-                    <img src="/moto/bendpak/icon1.png" alt="icon" className="w-full h-full min-[2100px]:w-12 min-[2100px]:h-12 min-[3800px]:w-16 min-[3800px]:h-16 object-contain" />
+                    <img src="/moto/bendpak/icon1.webp" alt="icon" className="w-full h-full min-[2100px]:w-12 min-[2100px]:h-12 min-[3800px]:w-16 min-[3800px]:h-16 object-contain" />
                   </div>
                   <p className="inter-font section-text text-[#000000] font-regular">
                     {leader.name}—{leader.title}
@@ -55,7 +55,7 @@ export default function Quality() {
           {/* Right Image */}
           <div className="w-full h-full relative overflow-hidden xl:col-span-7 flex items-center justify-center" data-aos="fade-left">
             <img
-              src="/moto/bendpak/q1.png"
+              src="/moto/bendpak/q1.webp"
               alt="BendPak Leadership Team"
               className="w-full h-full object-cover border-4 border-white shadow-lg"
               onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<div class="w-full aspect-video bg-gray-200 flex items-center justify-center font-bold text-gray-500">Leadership Team Image</div>' }}

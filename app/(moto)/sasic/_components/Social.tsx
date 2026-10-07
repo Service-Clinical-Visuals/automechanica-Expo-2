@@ -39,7 +39,7 @@ export default function Social() {
             {/* Right: image */}
             <div className="w-full xl:w-1/2" data-aos="fade-left" data-aos-delay="150">
               <img
-                src="/moto/sasic/social.png"
+                src="/moto/sasic/social.webp"
                 alt="SASIC circular economy and remanufacturing"
                 className="w-full h-full object-cover rounded-lg"
                 style={{ minHeight: 320 }}

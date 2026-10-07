@@ -10,17 +10,17 @@ import "swiper/css/pagination";
 
 export default function TechnicalSupport() {
   const galleryImages = [
-    "/moto/vitobello/g1.jpg",
-    "/moto/vitobello/g2.jpg",
-    "/moto/vitobello/g3.jpg",
-    "/moto/vitobello/g4.jpg",
-    "/moto/vitobello/g5.jpg",
-    "/moto/vitobello/g6.jpg",
-    "/moto/vitobello/g7.jpg",
-    "/moto/vitobello/g8.jpg",
-    "/moto/vitobello/g9.jpg",
-    "/moto/vitobello/g10.jpg",
-    "/moto/vitobello/g11.jpg",
+    "/moto/vitobello/g1.webp",
+    "/moto/vitobello/g2.webp",
+    "/moto/vitobello/g3.webp",
+    "/moto/vitobello/g4.webp",
+    "/moto/vitobello/g5.webp",
+    "/moto/vitobello/g6.webp",
+    "/moto/vitobello/g7.webp",
+    "/moto/vitobello/g8.webp",
+    "/moto/vitobello/g9.webp",
+    "/moto/vitobello/g10.webp",
+    "/moto/vitobello/g11.webp",
   ];
 
   const chunkedImages = [];

@@ -39,7 +39,7 @@ export default function Header() {
           <div className="relative flex items-center h-[74px] md:h-[74px]">
             <Link href="#" className="flex items-center z-20">
               <img
-                src="/moto/soylu/logo.png"
+                src="/moto/soylu/logo.webp"
                 alt="Soylu Logo"
                 className="h-10 md:h-15 w-auto object-contain"
               />

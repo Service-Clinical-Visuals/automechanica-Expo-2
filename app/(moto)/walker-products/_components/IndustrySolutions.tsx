@@ -13,25 +13,25 @@ export default function IndustrySolutions() {
     {
       title: "Automotive Solutions",
       description: "Walker Products is a trusted leader in engine management solutions, offering premium components like fuel delivery systems, sensors, and ignition wire sets.",
-      img: "/moto/walker-products/industry-1.jpg",
+      img: "/moto/walker-products/industry-1.webp",
       link: "#"
     },
     {
       title: "Commercial Vehicles",
       description: "Walker Products provides Genuine OE sensors designed for reliability and performance in commercial vehicles. Built for OE fit and durability, our solutions.",
-      img: "/moto/walker-products/industry-2.jpg",
+      img: "/moto/walker-products/industry-2.webp",
       link: "#"
     },
     {
       title: "Othermotive® Applications",
       description: "Walker Products supports non-automotive applications like snowmobiles, boats, motorcycles, UTVs, and farm machinery with precision-engineered components.",
-      img: "/moto/walker-products/industry-3.jpg",
+      img: "/moto/walker-products/industry-3.webp",
       link: "#"
     },
     {
       title: "Custom Manufacturing",
       description: "Walker Products specializes in custom manufacturing, including gasket stamping, PCB design, and engine sensor production. Using premium materials and quality",
-      img: "/moto/walker-products/industry-4.jpg",
+      img: "/moto/walker-products/industry-4.webp",
       link: "#"
     }
   ];

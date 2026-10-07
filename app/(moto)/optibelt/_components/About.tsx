@@ -8,22 +8,22 @@ interface StatItem {
 
 const stats: StatItem[] = [
   {
-    icon: "/moto/optibelt/quality.png",
+    icon: "/moto/optibelt/quality.webp",
     title: "154 Years",
     description: "of experience in rubber processing",
   },
   {
-    icon: "/moto/optibelt/team.png",
+    icon: "/moto/optibelt/team.webp",
     title: "2400",
     description: "employees worldwide",
   },
   {
-    icon: "/moto/optibelt/setting.png",
+    icon: "/moto/optibelt/setting.webp",
     title: "9 production Facilities",
     description: "spread across 7 countries.",
   },
   {
-    icon: "/moto/optibelt/quality.png",
+    icon: "/moto/optibelt/quality.webp",
     title: "Over 212,200",
     description: "different belt variants",
   },
@@ -74,7 +74,7 @@ export default function About() {
             data-aos-duration="900"
           >
             <img
-              src="/moto/optibelt/about.png"
+              src="/moto/optibelt/about.webp"
               alt="Optibelt production facility aerial view"
               className="w-full h-full object-cover transition-transform duration-700 ease-[cubic-bezier(0.25,0.8,0.25,1)] group-hover:scale-105"
             />

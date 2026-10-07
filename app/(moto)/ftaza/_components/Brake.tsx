@@ -3,7 +3,7 @@ import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 
 export default function Brake() {
   return (
-    <section className="relative py-16 sm:py-20 overflow-hidden bg-[#062AAA] bg-[url('/moto/ftaza/bg.png')] bg-cover bg-center">
+    <section className="relative py-16 sm:py-20 overflow-hidden bg-[#062AAA] bg-[url('/moto/ftaza/bg.webp')] bg-cover bg-center">
       <Container>
         <div className="relative z-10 flex flex-col items-center text-center max-w-[1100px] mx-auto mb-10" data-aos="fade-up">
           <h2 className="text-[40px] font-semibold font-oswald text-white mb-6">Explore Our Ignition Coils In 360°</h2>

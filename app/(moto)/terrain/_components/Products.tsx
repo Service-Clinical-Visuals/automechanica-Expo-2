@@ -20,25 +20,25 @@ const categories: Category[] = [
     label: "Bearing Kits",
     products: [
       {
-        image: "/moto/terrain/11.jpg",
+        image: "/moto/terrain/11.webp",
         title: "Heavy Duty Swivel Housing Kits",
         description:
           "Terrain Tamer's Heavy Duty Swivel Housing Kits are proudly part of the new Fortified Parts Range.",
       },
       {
-        image: "/moto/terrain/12.jpg",
+        image: "/moto/terrain/12.webp",
         title: "Heavy Duty Wheel Bearing Kits",
         description:
           "Terrain Tamer's Heavy Duty Wheel Bearing Kits are built for heavy towing and extreme conditions.",
       },
       {
-        image: "/moto/terrain/13.png",
+        image: "/moto/terrain/13.webp",
         title: "Heavy Duty Differential Kits",
         description:
           "Terrain Tamer's Heavy Duty Differential Kits are proudly part of the new Fortified Parts Range.",
       },
       {
-        image: "/moto/terrain/14.png",
+        image: "/moto/terrain/14.webp",
         title: "Wheel Bearing Kits",
         description:
           "A 4x4 Wheel Bearing Kit includes everything needed for reliable and efficient wheel bearing replacement.",
@@ -49,25 +49,25 @@ const categories: Category[] = [
     label: "Suspension",
     products: [
       {
-        image: "/moto/terrain/21.jpg",
+        image: "/moto/terrain/21.webp",
         title: "Strut Assembles",
         description:
           "Fully assembled with a Terrain Tamer TGS Shock Absorber, Smart Coil, and support mount for easy installation.",
       },
       {
-        image: "/moto/terrain/22.jpg",
+        image: "/moto/terrain/22.webp",
         title: "Fortified Shock Absorbers",
         description:
           "Fortified Shock Absorbers provide improved ride control, durability, and performance for heavy-duty 4WD use.",
       },
       {
-        image: "/moto/terrain/23.jpg",
+        image: "/moto/terrain/23.webp",
         title: "Leaf Springs",
         description:
           "Terrain Tamer's 4WD Parabolic Leaf Springs offer improved comfort, flexibility, and a smoother ride.",
       },
       {
-        image: "/moto/terrain/24.jpg",
+        image: "/moto/terrain/24.webp",
         title: "Steering Dampers",
         description:
           "Terrain Tamer's 4x4 Steering Damper improves steering control, stability, and comfort on rugged terrain.",
@@ -78,25 +78,25 @@ const categories: Category[] = [
     label: "Filters",
     products: [
       {
-        image: "/moto/terrain/31.jpg",
+        image: "/moto/terrain/31.webp",
         title: "Air Filters",
         description:
           "Terrain Tamer Air Filters provide reliable filtration, improved airflow, and long-lasting engine protection.",
       },
       {
-        image: "/moto/terrain/32.jpg",
+        image: "/moto/terrain/32.webp",
         title: "Carbon Active Cabin Filter",
         description:
           "Terrain Tamer Cabin Filters absorb gases and odours while filtering dust, dirt, and allergens for a cleaner, fresher cabin.",
       },
       {
-        image: "/moto/terrain/33.jpg",
+        image: "/moto/terrain/33.webp",
         title: "Air Box Filter Insert",
         description:
           "Terrain Tamer's Air Box Filter Inserts improve filter sealing, support the airbox structure, and reduce the risk of engine dusting.",
       },
       {
-        image: "/moto/terrain/34.jpg",
+        image: "/moto/terrain/34.webp",
         title: "Filter Kits",
         description:
           "OEM-quality filters with essential accessories for reliable, efficient, and long-lasting vehicle performance.",
@@ -107,25 +107,25 @@ const categories: Category[] = [
     label: "Clutch",
     products: [
       {
-        image: "/moto/terrain/41.jpg",
+        image: "/moto/terrain/41.webp",
         title: "Fortified Plus Clutches",
         description:
           "Terrain Tamer Fortified Plus Clutches offer up to 80% more torque capacity with durable Kevlar construction.",
       },
       {
-        image: "/moto/terrain/42.jpg",
+        image: "/moto/terrain/42.webp",
         title: "OE Replacement Clutch Kits",
         description:
           "Terrain Tamer Clutch Kits are precision-engineered for reliable performance in extreme 4WD conditions.",
       },
       {
-        image: "/moto/terrain/43.jpg",
+        image: "/moto/terrain/43.webp",
         title: "Heavy Duty Clutch Kits",
         description:
           "Terrain Tamer Heavy Duty Clutch Kits offer 25% higher clamp load, premium materials, and enhanced durability.",
       },
       {
-        image: "/moto/terrain/44.png",
+        image: "/moto/terrain/44.webp",
         title: "Clutch Slave Cylinder",
         description:
           "Terrain Tamer Clutch Slave Cylinders deliver OE-quality performance and durability for 4WD use.",

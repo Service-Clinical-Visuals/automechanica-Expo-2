@@ -9,27 +9,27 @@ const categories = [
     key: "gaskets",
     label: "Gaskets",
     items: [
-      { image: "/moto/rased/solutions/gaskets/1.png", name: "Gasket Kit" },
-      { image: "/moto/rased/solutions/gaskets/2.png", name: "Cellulose fiber Gasket" },
-      { image: "/moto/rased/solutions/gaskets/3.png", name: "Rubber Bounded Gasket" },
-      { image: "/moto/rased/solutions/gaskets/4.png", name: "Asbestos Free Gasket" },
+      { image: "/moto/rased/solutions/gaskets/1.webp", name: "Gasket Kit" },
+      { image: "/moto/rased/solutions/gaskets/2.webp", name: "Cellulose fiber Gasket" },
+      { image: "/moto/rased/solutions/gaskets/3.webp", name: "Rubber Bounded Gasket" },
+      { image: "/moto/rased/solutions/gaskets/4.webp", name: "Asbestos Free Gasket" },
     ],
   },
   {
     key: "rings",
     label: "Rings",
     items: [
-      { image: "/moto/rased/solutions/rings/1.png", name: "Fastner Ring" },
-      { image: "/moto/rased/solutions/rings/2.png", name: "o Rings" },
+      { image: "/moto/rased/solutions/rings/1.webp", name: "Fastner Ring" },
+      { image: "/moto/rased/solutions/rings/2.webp", name: "o Rings" },
     ],
   },
   {
     key: "shafts",
     label: "Shafts",
     items: [
-      { image: "/moto/rased/solutions/shafts/1.png", name: "Cam Shafts" },
-      { image: "/moto/rased/solutions/shafts/2.png", name: "Drive Shafts" },
-      { image: "/moto/rased/solutions/shafts/3.png", name: "Shafts" },
+      { image: "/moto/rased/solutions/shafts/1.webp", name: "Cam Shafts" },
+      { image: "/moto/rased/solutions/shafts/2.webp", name: "Drive Shafts" },
+      { image: "/moto/rased/solutions/shafts/3.webp", name: "Shafts" },
     ],
   },
 ];

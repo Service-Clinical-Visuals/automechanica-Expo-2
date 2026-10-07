@@ -51,7 +51,7 @@ export default function Header() {
       <div className="custom-container flex items-center justify-between">
         {/* Logo */}
         <Link href="/repairify" className="flex items-center gap-2 z-50">
-          <img src="/moto/repairify/logo.png" alt="Repairify" className="h-8 md:h-10 lg:h-15 w-auto object-contain" />
+          <img src="/moto/repairify/logo.webp" alt="Repairify" className="h-8 md:h-10 lg:h-15 w-auto object-contain" />
         </Link>
 
         {/* Navigation - Desktop */}

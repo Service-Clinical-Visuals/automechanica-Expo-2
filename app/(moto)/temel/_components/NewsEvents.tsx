@@ -10,25 +10,25 @@ export default function NewsEvents() {
     {
       title: "Opening the new Factory",
       date: "12 MAY 2025",
-      img: "/moto/temel/news-1.jpg",
+      img: "/moto/temel/news-1.webp",
       href: "#news-1",
     },
     {
       title: "International Women’s Day Celebration at Temel Conta",
       date: "11 July 2025",
-      img: "/moto/temel/news-2.jpg",
+      img: "/moto/temel/news-2.webp",
       href: "#news-2",
     },
     {
       title: "As Temel Conta, We Export %70 of Our Production",
       date: "12 August 2024",
-      img: "/moto/temel/news-3.jpg",
+      img: "/moto/temel/news-3.webp",
       href: "#news-3",
     },
     {
       title: "Passenger Vehicle Gaskets: Engine Performance & Reliable Sealing Solutions",
       date: "20 September 2024",
-      img: "/moto/temel/news-4.jpg",
+      img: "/moto/temel/news-4.webp",
       href: "#news-4",
     },
   ];

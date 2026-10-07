@@ -2,7 +2,7 @@ import Button from "./Button";
 
 const products = [
   {
-    image: "/moto/mogesan/p3.png",
+    image: "/moto/mogesan/p3.webp",
     alt: "MOGESAN engine pistons",
     title: "Engine Piston",
     description:
@@ -10,7 +10,7 @@ const products = [
     aspect: "aspect-[533/502]",
   },
   {
-    image: "/moto/mogesan/p2.png",
+    image: "/moto/mogesan/p2.webp",
     alt: "MOGESAN cylinder liners",
     title: "Cylinder Liner",
     description:
@@ -18,7 +18,7 @@ const products = [
     aspect: "aspect-[534/575]",
   },
   {
-    image: "/moto/mogesan/p1.png",
+    image: "/moto/mogesan/p1.webp",
     alt: "MOGESAN piston rings",
     title: "Piston Ring",
     description:

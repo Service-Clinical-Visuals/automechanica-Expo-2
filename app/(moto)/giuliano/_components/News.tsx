@@ -19,7 +19,7 @@ interface NewsItem {
 
 const newsItems: NewsItem[] = [
   {
-    image: "/moto/giuliano/news1.png",
+    image: "/moto/giuliano/news1.webp",
     title: "Giuliano Automotive Celebrates 50...",
     date: "21/07/2026",
     excerpt:
@@ -27,7 +27,7 @@ const newsItems: NewsItem[] = [
     href: "/news/automechanika-frankfurt-2026",
   },
   {
-    image: "/moto/giuliano/news2.png",
+    image: "/moto/giuliano/news2.webp",
     title: "Mobile Tyre Service: New Solutions For...",
     date: "29/06/2026",
     excerpt:
@@ -35,7 +35,7 @@ const newsItems: NewsItem[] = [
     href: "/news/mobile-tyre-service",
   },
   {
-    image: "/moto/giuliano/news3.png",
+    image: "/moto/giuliano/news3.webp",
     title: "GIULIANO AUTOMOTIVE Towards South...",
     date: "16/04/2026",
     excerpt:
@@ -43,7 +43,7 @@ const newsItems: NewsItem[] = [
     href: "/news/south-america-expansion",
   },
   {
-    image: "/moto/giuliano/news1.png",
+    image: "/moto/giuliano/news1.webp",
     title: "Giuliano Automotive Celebrates 50...",
     date: "21/07/2026",
     excerpt:
@@ -51,7 +51,7 @@ const newsItems: NewsItem[] = [
     href: "/news/automechanika-frankfurt-2026",
   },
   {
-    image: "/moto/giuliano/news2.png",
+    image: "/moto/giuliano/news2.webp",
     title: "Mobile Tyre Service: New Solutions For...",
     date: "29/06/2026",
     excerpt:
@@ -59,7 +59,7 @@ const newsItems: NewsItem[] = [
     href: "/news/mobile-tyre-service",
   },
   {
-    image: "/moto/giuliano/news3.png",
+    image: "/moto/giuliano/news3.webp",
     title: "GIULIANO AUTOMOTIVE Towards South...",
     date: "16/04/2026",
     excerpt:

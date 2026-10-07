@@ -36,7 +36,7 @@ export default function Expertise() {
             </div>
             {/* Main Image */}
             <div className="relative z-10 pt-16 md:pt-20">
-              <img src="/moto/slider/section7.png" alt="Engine Pistons" className="w-full h-auto object-contain" />
+              <img src="/moto/slider/section7.webp" alt="Engine Pistons" className="w-full h-auto object-contain" />
             </div>
           </div>
 

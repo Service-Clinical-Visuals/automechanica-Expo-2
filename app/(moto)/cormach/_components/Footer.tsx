@@ -17,7 +17,7 @@ export default function Footer() {
           {/* Column 1: Logo & Description */}
           <div className="flex flex-col gap-6 col-span-2 md:col-span-3 lg:col-span-3" data-aos="fade-up" data-aos-delay="100">
              <Link href="#" className="w-full">
-               <img src="/moto/cormach/logo.png" alt="CORMACH Logo" className="w-[60%] sm:w-[50%] md:w-[60%] lg:w-[80%] xl:w-[70%] h-auto object-contain object-left" />
+               <img src="/moto/cormach/logo.webp" alt="CORMACH Logo" className="w-[60%] sm:w-[50%] md:w-[60%] lg:w-[80%] xl:w-[70%] h-auto object-contain object-left" />
              </Link>
              <Typography variant="p" color="muted" className="leading-relaxed text-sm mt-2">
                Advanced technology, high quality, effective customer service, unique flexibility and a careful training of the staff.

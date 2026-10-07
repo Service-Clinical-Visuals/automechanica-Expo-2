@@ -10,21 +10,21 @@ export default function ExploreRange() {
       title: "Premium Lubricants",
       desc: "Premium lubricants for superior engine protection and performance.",
       icon: (
-      <img src="/moto/saria-international/R1.png" />
+      <img src="/moto/saria-international/R1.webp" />
       )
     },
     {
       title: "Automotive Fluids",
       desc: "Premium fluids for reliable vehicle performance.",
       icon: (
-        <img src="/moto/saria-international/R2.png" />
+        <img src="/moto/saria-international/R2.webp" />
       )
     },
     {
       title: "Car Care Products",
       desc: "Professional products for vehicle care and protection.",
       icon: (
-        <img src="/moto/saria-international/R3.png" />
+        <img src="/moto/saria-international/R3.webp" />
       )
     }
   ];

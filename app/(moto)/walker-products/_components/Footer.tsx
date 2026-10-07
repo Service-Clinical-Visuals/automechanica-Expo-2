@@ -34,7 +34,7 @@ export default function Footer() {
           <div className="w-full lg:w-[26%] flex flex-col gap-4" data-aos="fade-up">
             <Link href="#" className="inline-block">
               <img 
-                src="/moto/walker-products/walker-logo.png" 
+                src="/moto/walker-products/walker-logo.webp" 
                 alt="Walker Products Logo" 
                 className="w-48 sm:w-56 lg:w-60 h-auto object-contain object-left" 
               />

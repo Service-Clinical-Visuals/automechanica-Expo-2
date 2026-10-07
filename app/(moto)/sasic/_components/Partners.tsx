@@ -1,10 +1,10 @@
 import Container from "./Container";
 
 const partners = [
-  { name: "SPMI Groupe", img: "/moto/sasic/partners/1.png" },
-  { name: "Sadex", img: "/moto/sasic/partners/2.png" },
-  { name: "Sofare by Sasic", img: "/moto/sasic/partners/3.png" },
-  { name: "SiCab", img: "/moto/sasic/partners/4.png" },
+  { name: "SPMI Groupe", img: "/moto/sasic/partners/1.webp" },
+  { name: "Sadex", img: "/moto/sasic/partners/2.webp" },
+  { name: "Sofare by Sasic", img: "/moto/sasic/partners/3.webp" },
+  { name: "SiCab", img: "/moto/sasic/partners/4.webp" },
 ];
 
 export default function Partners() {

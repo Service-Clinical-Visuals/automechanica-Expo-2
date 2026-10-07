@@ -47,19 +47,19 @@ export default function Explore360() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 xl:gap-10 mb-8">
               {/* Card 1 */}
               <div className="bg-white rounded-lg p-5 text-center shadow-md">
-                <img src="/moto/reinz-dichtungs/i1.png" alt="Precision Engineering" className="mx-auto mb-3 h-10 w-auto" />
+                <img src="/moto/reinz-dichtungs/i1.webp" alt="Precision Engineering" className="mx-auto mb-3 h-10 w-auto" />
                 <h3 className="font-oswald font-semibold text-black mb-2 card-text leading-tight mb-2">Precision Engineering</h3>
                 <p className="text-black section-text leading-relaxed font-poppins">Designed for exact fitment and OE-level accuracy</p>
               </div>
               {/* Card 2 */}
               <div className="bg-white rounded-lg p-5 text-center shadow-md">
-                <img src="/moto/reinz-dichtungs/i2.png" alt="Sealing Technology" className="mx-auto mb-3 h-10 w-auto" />
+                <img src="/moto/reinz-dichtungs/i2.webp" alt="Sealing Technology" className="mx-auto mb-3 h-10 w-auto" />
               <h3 className="font-oswald font-semibold text-black mb-2 card-text leading-tight mb-2">Sealing Technology</h3>
                 <p className="text-black section-text leading-relaxed font-poppins">Ensures leak-free performance under extreme pressure</p>
               </div>
               {/* Card 3 */}
               <div className="bg-white rounded-lg p-5 text-center shadow-md">
-                <img src="/moto/reinz-dichtungs/i3.png" alt="Durable Materials" className="mx-auto mb-3 h-10 w-auto" />
+                <img src="/moto/reinz-dichtungs/i3.webp" alt="Durable Materials" className="mx-auto mb-3 h-10 w-auto" />
                <h3 className="font-oswald font-semibold text-black mb-2 card-text leading-tight mb-2">Durable Materials</h3>
                 <p className="text-black section-text leading-relaxed font-poppins">Built to withstand engine stress and thermal cycling</p>
               </div>

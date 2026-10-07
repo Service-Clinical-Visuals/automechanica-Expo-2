@@ -9,7 +9,7 @@ const Digital = () => {
     <section
       id="digital"
       className="w-full py-16 min-[3800px]:py-32 bg-cover bg-center bg-no-repeat overflow-hidden"
-      style={{ backgroundImage: `url('/moto/dana/bg.jpg')` }}
+      style={{ backgroundImage: `url('/moto/dana/bg.webp')` }}
     >
       <div className="custom-container flex flex-col gap-10 min-[3800px]:gap-20">
 
@@ -41,7 +41,7 @@ const Digital = () => {
           {/* Right Side: Image */}
           <div className="w-full aspect-[677/394]" data-aos="fade-left">
             <img
-              src="/moto/dana/section3.png"
+              src="/moto/dana/section3.webp"
               alt="Anglemaster II Tool"
               className="w-full h-full object-cover shadow-sm"
             />

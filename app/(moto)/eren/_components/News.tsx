@@ -8,19 +8,19 @@ const newsData = [
     id: 1,
     title: "ISO 22163:2023 International Railway Standard",
     text: "We are thrilled to announce that Eren Balatacılık A.Ş. has successfully obtained the ISO 22163:2023 International Railway Industry Standard (Railway Systems) Quality Management System certification....",
-    img: "/moto/eren/n1.png",
+    img: "/moto/eren/n1.webp",
   },
   {
     id: 2,
     title: "Mims Automobility Moscow",
     text: "We were pleased to take part in MIMS Automobility Moscow, one of the key B2B exhibitions for the automotive production, aftermarket, and service industry. The event brought......",
-    img: "/moto/eren/n2.png",
+    img: "/moto/eren/n2.webp",
   },
   {
     id: 3,
     title: "Automechanika Istanbul 2022",
     text: "World's leading trade fair brand for the automotive aftermarket industry, Automechanika's one and only event in Turkey, Automechanika Istanbul took place on June 2-5, 2022.......",
-    img: "/moto/eren/n3.png",
+    img: "/moto/eren/n3.webp",
   },
 ];
 

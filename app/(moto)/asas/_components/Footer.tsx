@@ -17,7 +17,7 @@ export default function Footer() {
             className="max-w-[320px]"
           >
             <img
-              src="/moto/asas/logo.png"
+              src="/moto/asas/logo.webp"
               alt="ASAS Filter"
               className="w-[72px] h-[72px] object-contain mb-5 hover:opacity-90 transition-opacity duration-200"
             />

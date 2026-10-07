@@ -26,7 +26,7 @@ export default function ProductView() {
             </p>
 
             <div className="flex items-start gap-4">
-              <img src="/moto/repairify/tick.png" alt="Tick" className="w-6 h-6 mt-1 flex-shrink-0" />
+              <img src="/moto/repairify/tick.webp" alt="Tick" className="w-6 h-6 mt-1 flex-shrink-0" />
               <p className="inter-font section-text text-white leading-relaxed">
                 <strong className="text-white font-bold">Real-Time Vehicle Intelligence</strong> - Leverage continuously updated vehicle data and intelligent diagnostics to identify issues quickly, improve decision-making, and ensure every repair is completed with greater confidence and accuracy.
               </p>

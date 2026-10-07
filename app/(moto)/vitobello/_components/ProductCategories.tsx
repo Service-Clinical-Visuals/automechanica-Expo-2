@@ -14,48 +14,48 @@ export default function ProductCategories() {
       left: {
         title: "Camshafts, Rocker Arms, Tappets",
         description: "Camshafts, rocker arms and valve lifters are fundamental components of internal combustion engines, directly influencing engine performance and efficiency.",
-        img: "/moto/vitobello/p1.png",
+        img: "/moto/vitobello/p1.webp",
       },
       right: {
         title: "Complete Engines",
         description: "Vitobello Ricambi S.r.l. provides a wide range of complete engines, offering a reliable, drop-in solution for vehicle restoration and repair.",
-        img: "/moto/vitobello/p2.png",
+        img: "/moto/vitobello/p2.webp",
       }
     },
     {
       left: {
         title: "Connecting Rods",
         description: "Connecting rods are subjected to immense stress during engine operation, requiring premium materials and precision manufacturing for lasting durability.",
-        img: "/moto/vitobello/p3.png",
+        img: "/moto/vitobello/p3.webp",
       },
       right: {
         title: "Crankshafts",
         description: "Precision engineered crankshafts to ensure optimal engine performance, reduced vibration, and long-term reliability under demanding conditions.",
-        img: "/moto/vitobello/p4.png",
+        img: "/moto/vitobello/p4.webp",
       }
     },
     {
       left: {
         title: "Cylinder Heads",
         description: "High-quality cylinder heads designed to restore efficiency and reliability to your engine, ensuring perfect compression and thermal management.",
-        img: "/moto/vitobello/p5.png",
+        img: "/moto/vitobello/p5.webp",
       },
       right: {
         title: "Engine Blocks",
         description: "Durable and precisely machined engine blocks serving as the solid foundation for complete engine rebuilding and comprehensive overhauls.",
-        img: "/moto/vitobello/p6.png",
+        img: "/moto/vitobello/p6.webp",
       }
     },
     {
       left: {
         title: "Flywheels & Pulleys",
         description: "Premium flywheels and pulleys designed for perfectly balanced and efficient engine operation across all RPM ranges.",
-        img: "/moto/vitobello/p7.png",
+        img: "/moto/vitobello/p7.webp",
       },
       right: {
         title: "Engine Bearings & Gaskets",
         description: "Comprehensive gasket sets and premium engine bearings designed for complete engine rebuilding and long-lasting maintenance.",
-        img: "/moto/vitobello/p8.jpg",
+        img: "/moto/vitobello/p8.webp",
       }
     }
   ];

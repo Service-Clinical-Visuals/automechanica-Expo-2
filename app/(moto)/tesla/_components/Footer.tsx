@@ -15,7 +15,7 @@ export default function Footer() {
           <div className="xl:col-span-4 flex flex-col items-start pr-0 xl:pr-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
             <Link href="/" className="mb-6 inline-block">
               <img
-                src="/moto/tesla/footer-logo.png"
+                src="/moto/tesla/footer-logo.webp"
                 alt="Tesla Logo"
                 className=" h-25 w-[90%] object-contain"
               />

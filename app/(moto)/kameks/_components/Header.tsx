@@ -96,7 +96,7 @@ export default function Header() {
               {/* Logo Area */}
               <div className="flex-shrink-0 flex items-center">
                 <Link href="#">
-                  <img src="/moto/kameks/logo.png" alt="Kameks Logo" className="h-auto object-contain header-logo" />
+                  <img src="/moto/kameks/logo.webp" alt="Kameks Logo" className="h-auto object-contain header-logo" />
                 </Link>
               </div>
 

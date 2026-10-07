@@ -26,7 +26,7 @@ const JoinUs = () => {
           {/* Card 1 */}
           <div className="flex flex-col items-center justify-start text-center gap-4 bg-white border border-gray-100 rounded-xl p-8 min-[3800px]:p-12 shadow-sm hover:shadow-md transition-shadow">
             <div className="flex items-center justify-center shrink-0 w-16 h-16 lg:w-20 lg:h-20 min-[3800px]:w-36 min-[3800px]:h-36">
-              <img src="/moto/wai/join1.png" alt="Global team" className="w-full h-full object-contain" />
+              <img src="/moto/wai/join1.webp" alt="Global team" className="w-full h-full object-contain" />
             </div>
             <Typography variant="p" color="muted" className="leading-relaxed font-medium">
               A truly global team with high growth trajectory
@@ -36,7 +36,7 @@ const JoinUs = () => {
           {/* Card 2 */}
           <div className="flex flex-col items-center justify-start text-center gap-4 bg-white border border-gray-100 rounded-xl p-8 min-[3800px]:p-12 shadow-sm hover:shadow-md transition-shadow">
             <div className="flex items-center justify-center shrink-0 w-16 h-16 lg:w-20 lg:h-20 min-[3800px]:w-36 min-[3800px]:h-36">
-              <img src="/moto/wai/join2.png" alt="Leadership" className="w-full h-full object-contain" />
+              <img src="/moto/wai/join2.webp" alt="Leadership" className="w-full h-full object-contain" />
             </div>
             <Typography variant="p" color="muted" className="leading-relaxed font-medium">
               Open-door leadership that values ideas at every level
@@ -46,7 +46,7 @@ const JoinUs = () => {
           {/* Card 3 */}
           <div className="flex flex-col items-center justify-start text-center gap-4 bg-white border border-gray-100 rounded-xl p-8 min-[3800px]:p-12 shadow-sm hover:shadow-md transition-shadow">
             <div className="flex items-center justify-center shrink-0 w-16 h-16 lg:w-20 lg:h-20 min-[3800px]:w-36 min-[3800px]:h-36">
-              <img src="/moto/wai/join3.png" alt="Merit-based growth" className="w-full h-full object-contain" />
+              <img src="/moto/wai/join3.webp" alt="Merit-based growth" className="w-full h-full object-contain" />
             </div>
             <Typography variant="p" color="muted" className="leading-relaxed font-medium">
               Merit-based growth and recognition for results
@@ -56,7 +56,7 @@ const JoinUs = () => {
           {/* Card 4 */}
           <div className="flex flex-col items-center justify-start text-center gap-4 bg-white border border-gray-100 rounded-xl p-8 min-[3800px]:p-12 shadow-sm hover:shadow-md transition-shadow">
             <div className="flex items-center justify-center shrink-0 w-16 h-16 lg:w-20 lg:h-20 min-[3800px]:w-36 min-[3800px]:h-36">
-              <img src="/moto/wai/join4.png" alt="Culture" className="w-full h-full object-contain" />
+              <img src="/moto/wai/join4.webp" alt="Culture" className="w-full h-full object-contain" />
             </div>
             <Typography variant="p" color="muted" className="leading-relaxed font-medium">
               A culture of ownership, care and inspiration

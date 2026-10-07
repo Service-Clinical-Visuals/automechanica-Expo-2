@@ -15,7 +15,7 @@ const Footer = () => {
 
           {/* Column 1: Logo & Welcome */}
           <div className="flex flex-col gap-6 col-span-2 md:col-span-1 xl:col-span-4 pr-0 xl:pr-8 min-[3800px]:pr-16">
-            <img src="/moto/donmez/logo.png" alt="Donmez Logo" className="w-[60%] xl:w-[45%] object-contain" data-aos="fade-up" />
+            <img src="/moto/donmez/logo.webp" alt="Donmez Logo" className="w-[60%] xl:w-[45%] object-contain" data-aos="fade-up" />
             <Typography variant="p" color="white" className="leading-relaxed text-sm xl:text-base text-gray-300" data-aos="fade-up" data-aos-delay="100">
               Dönmez Debriyaj is a trusted manufacturer of high-quality clutch systems and turbo solutions for commercial vehicles, delivering precision-engineered products to customers in over 80 countries worldwide.
             </Typography>

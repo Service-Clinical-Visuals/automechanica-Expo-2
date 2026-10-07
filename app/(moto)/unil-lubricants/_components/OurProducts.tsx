@@ -10,42 +10,42 @@ export default function OurProducts() {
     {
       name: "GI-V7 10W50",
       desc: "GI-V7 has been especially elaborated to meet the most severe requirements of sedan cars' petrol and Diesel engines, particularly supercharged engines or with multi-valves.",
-      image: "/moto/unil-lubricants/1.png"
+      image: "/moto/unil-lubricants/1.webp"
     },
     {
       name: "GI-V9 5W50",
       desc: "GI-V9 is a very high performance multigrade lubricant, covering a large range of viscosities and temperatures ensuring a high anti-wear protection as well as a reduction of inner frictions.",
-      image: "/moto/unil-lubricants/2.png"
+      image: "/moto/unil-lubricants/2.webp"
     },
     {
       name: "Merion 4T",
       desc: "MERION 4T is an oil especially designed to lubricate small gasoline gardening engines (lawnmowers, motorcultivators, cleaning-mowers, ...) equipped with 4-stroke engines.",
-      image: "/moto/unil-lubricants/3.png"
+      image: "/moto/unil-lubricants/3.webp"
     },
     {
       name: "Opaljet 12 S 15W40",
       desc: "Opaljet 12S is an engine oil for petrol and diesel engines with or without turbocharger. This engine oil meets the needs of the majority of the European vehicle fleet. It is the ideal lubricant for widespread use in garages and mechanics workshops.",
-      image: "/moto/unil-lubricants/4.png"
+      image: "/moto/unil-lubricants/4.webp"
     },
     {
       name: "Opaljet 16 S 10W40",
       desc: "OPALJET 16 S 10W40 is a multigrade high performance engine oil known to respond to the most severe requirements of modern gasoline and diesel (turbo charged or not) car engines",
-      image: "/moto/unil-lubricants/5.png"
+      image: "/moto/unil-lubricants/5.webp"
     },
     {
       name: "Opaljet 24 S 5W40",
       desc: "Opaljet 24S 5W40, a 100% synthetic engine oil has been especially designed to meet the stringent requirements of today's cars, under all conditions of use. It guaranties perfect protection and long life of all high performance parts.",
-      image: "/moto/unil-lubricants/6..png"
+      image: "/moto/unil-lubricants/6..webp"
     },
     {
       name: "Opaljet 48S 0W30",
       desc: "Opaljet 24S 5W40, a 100% synthetic engine oil has been especially designed to meet the stringent requirements of today's cars, under all conditions of use. It guaranties perfect protection and long life of all high performance parts.",
-      image: "/moto/unil-lubricants/7.png"
+      image: "/moto/unil-lubricants/7.webp"
     },
     {
       name: "Opaljet Competition 10W60",
       desc: "Advanced 100% synthetic engine oil with fullerene nano-particle technology for superior wear protection, reduced friction, and exceptional performance under extreme operating conditions.",
-      image: "/moto/unil-lubricants/8.png"
+      image: "/moto/unil-lubricants/8.webp"
     }
   ];
 
@@ -111,7 +111,7 @@ export default function OurProducts() {
                           alt={product.name}
                           className="w-full h-full object-contain drop-shadow-2xl hover:scale-105 transition-transform duration-500 pointer-events-auto"
                           onError={(e) => {
-                            e.currentTarget.src = "/moto/saria-international/R1.png"; // temporary fallback
+                            e.currentTarget.src = "/moto/saria-international/R1.webp"; // temporary fallback
                           }}
                         />
                       </div>

@@ -15,7 +15,7 @@ export default function Footer() {
           <div className="space-y-6 xl:col-span-4">
             <Link href="#" className="inline-block">
               <img
-                src="/moto/depa/logo.png"
+                src="/moto/depa/logo.webp"
                 alt="Depa Logo"
                 className="h-25 w-auto object-contain"
               />
@@ -44,17 +44,17 @@ export default function Footer() {
             <h3 className="oswald font-semibold card-title text-[#272727]">Contact</h3>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
-               <img src="/moto/depa/phone.png" alt="phone" className="w-4 h-4 mt-1" />
+               <img src="/moto/depa/phone.webp" alt="phone" className="w-4 h-4 mt-1" />
                 <span className="rubik text-[#4b5563] section-text">+333 22 90 31 44</span>
               </li>
               <li className="flex items-start gap-3">
-                <img src="/moto/depa/mail.png" alt="mail" className="w-4 h-4 mt-1" />
+                <img src="/moto/depa/mail.webp" alt="mail" className="w-4 h-4 mt-1" />
                 <a href="mailto:commande@depa.fr" className="rubik text-[#4b5563] section-text hover:text-[#bd2228] transition-colors ">
                   commande@depa.fr
                 </a>
               </li>
               <li className="flex items-start gap-3">
-                <img src="/moto/depa/loc.png" alt="pin" className="w-4 h-5 mt-1" />
+                <img src="/moto/depa/loc.webp" alt="pin" className="w-4 h-5 mt-1" />
                 <span className="rubik text-[#4b5563] section-text leading-relaxed">
                   2 RUE DU HAUT<br />80430 BEAUCAMPS-LE-VIEUX
                 </span>

@@ -7,17 +7,17 @@ import Link from "next/link";
 const newsItems = [
   {
     title: "TRADITION MEETS THE FUTURE: RANK 14 OUT OF 25,000 COMPANIES",
-    image: "/moto/sm-motorenteile-gmbh/News1.png",
+    image: "/moto/sm-motorenteile-gmbh/News1.webp",
     link: "#"
   },
   {
     title: "SM Motorenteile has combined with something often lacking in global supply chains",
-    image: "/moto/sm-motorenteile-gmbh/News2.png",
+    image: "/moto/sm-motorenteile-gmbh/News2.webp",
     link: "#"
   },
   {
     title: "Excellent brand, excellent team – SM Motorenteile wins 2 German Brand Awards 2025",
-    image: "/moto/sm-motorenteile-gmbh/News3.png",
+    image: "/moto/sm-motorenteile-gmbh/News3.webp",
     link: "#"
   }
 ];
@@ -34,7 +34,7 @@ export default function Quality() {
           {/* Heading */}
           <div className="flex flex-col items-center justify-center text-center mb-10 relative z-10" data-aos="fade-up">
             <div className="flex items-center gap-3 mb-4">
-              <img src="/moto/sm-motorenteile-gmbh/setting.png" alt="Setting" className="w-auto h-auto object-contain" />
+              <img src="/moto/sm-motorenteile-gmbh/setting.webp" alt="Setting" className="w-auto h-auto object-contain" />
               <h2 className="section-title text-[#1D1D1B] orbitron-font font-bold">News</h2>
             </div>
             <p className="text-[#333333] text-[14px] md:text-[15px] xl:text-[16px] dmsans-font max-w-5xl">

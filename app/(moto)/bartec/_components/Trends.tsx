@@ -7,7 +7,7 @@ import Button from "./Button";
 
 const posts = [
   {
-    image: "/moto/bartec/trends/1.png",
+    image: "/moto/bartec/trends/1.webp",
     badgeIcon: CalendarDays,
     badgeLabel: "Event",
     date: "August 3, 2026",
@@ -17,7 +17,7 @@ const posts = [
     cta: "Read More",
   },
   {
-    image: "/moto/bartec/trends/2.png",
+    image: "/moto/bartec/trends/2.webp",
     badgeIcon: User,
     badgeLabel: "Team",
     date: "July 23, 2026",
@@ -27,7 +27,7 @@ const posts = [
     cta: "Know Now",
   },
   {
-    image: "/moto/bartec/trends/3.png",
+    image: "/moto/bartec/trends/3.webp",
     badgeIcon: Package,
     badgeLabel: "Product",
     date: "July 21, 2026",

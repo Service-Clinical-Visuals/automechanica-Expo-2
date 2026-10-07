@@ -55,7 +55,7 @@ const Feature360 = () => {
               {features.map((feature, idx) => (
                 <li key={idx} className="flex items-center gap-4 bg-white text-[#111111] px-4 py-3 md:py-4  ">
                   <div className="relative w-5 h-5 shrink-0">
-                    <img src="/moto/akkussan/Vector.png" alt="Check" className="w-full h-full object-contain" />
+                    <img src="/moto/akkussan/Vector.webp" alt="Check" className="w-full h-full object-contain" />
                   </div>
                   <p className="inter section-text text-black">
                     <strong className="font-bold">{feature.title}</strong> &mdash; {feature.desc}

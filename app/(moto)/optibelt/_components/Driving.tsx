@@ -8,9 +8,9 @@ interface Category {
 }
 
 const categories: Category[] = [
-  { image: "/moto/optibelt/d1.png", label: "V-Belts" },
-  { image: "/moto/optibelt/d2.png", label: "Kraftbands" },
-  { image: "/moto/optibelt/d3.png", label: "Other Belts" },
+  { image: "/moto/optibelt/d1.webp", label: "V-Belts" },
+  { image: "/moto/optibelt/d2.webp", label: "Kraftbands" },
+  { image: "/moto/optibelt/d3.webp", label: "Other Belts" },
 ];
 
 export default function Driving() {

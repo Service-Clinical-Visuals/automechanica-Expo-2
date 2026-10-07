@@ -6,14 +6,14 @@ import Container from "./Container";
 
 const slides = [
   [
-    { id: "ac1", image: "/moto/ftaza/d1.png", title: "AC1", category: "Air Compressor" },
-    { id: "ac2", image: "/moto/ftaza/d2.png", title: "AC2", category: "Air Compressor" },
-    { id: "avb3", image: "/moto/ftaza/d3.png", title: "AVB3", category: "Airvalveblock" },
+    { id: "ac1", image: "/moto/ftaza/d1.webp", title: "AC1", category: "Air Compressor" },
+    { id: "ac2", image: "/moto/ftaza/d2.webp", title: "AC2", category: "Air Compressor" },
+    { id: "avb3", image: "/moto/ftaza/d3.webp", title: "AVB3", category: "Airvalveblock" },
   ],
   [
-    { id: "ic1", image: "/moto/ftaza/d4.png", title: "IC1", category: "Ignition Coil" },
-    { id: "ic2", image: "/moto/ftaza/d5.png", title: "IC2", category: "Ignition Coil" },
-    { id: "sp1", image: "/moto/ftaza/d6.png", title: "SP1", category: "Spark Plug" },
+    { id: "ic1", image: "/moto/ftaza/d4.webp", title: "IC1", category: "Ignition Coil" },
+    { id: "ic2", image: "/moto/ftaza/d5.webp", title: "IC2", category: "Ignition Coil" },
+    { id: "sp1", image: "/moto/ftaza/d6.webp", title: "SP1", category: "Spark Plug" },
   ]
 ];
 

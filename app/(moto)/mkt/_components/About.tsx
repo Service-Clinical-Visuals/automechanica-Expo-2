@@ -37,7 +37,7 @@ export default function AboutMkt() {
           className="group w-full rounded-[20px] overflow-hidden border border-black/25"
         >
           <img
-            src="/moto/mkt/about.jpg"
+            src="/moto/mkt/about.webp"
             alt="MKT Holdings suspension-equipped sports car on a mountain road"
             className="w-full h-auto aspect-[1680/669] object-cover transition-transform duration-700 ease-out group-hover:scale-110"
           />

@@ -51,7 +51,7 @@ const Deg360 = () => {
               {features.map((feature, index) => (
                 <div key={index} className="flex items-start gap-3 min-[3800px]:gap-6">
                   <div className="mt-1 shrink-0">
-                    <img src="/moto/cemb/vector.png" alt="bullet" className="w-6 h-6 min-[2100px]:w-7 min-[2100px]:h-7 min-[3800px]:w-9 min-[3800px]:h-9 object-contain" />
+                    <img src="/moto/cemb/vector.webp" alt="bullet" className="w-6 h-6 min-[2100px]:w-7 min-[2100px]:h-7 min-[3800px]:w-9 min-[3800px]:h-9 object-contain" />
                   </div>
                   <Typography variant="p" color="dark" className="leading-snug text-sm min-[2100px]:text-base min-[3800px]:text-xl">
                     <strong>{feature.title}</strong> — {feature.desc}

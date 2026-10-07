@@ -11,7 +11,7 @@ const newsItems = [
     date: "Monday, 18th August 2025",
     title:
       "Adrenalin Motorsport Team Mainhattan Wheels defends the lead with victory",
-    image: "/moto/veedol-moto/Rectangle 31.jpg",
+    image: "/moto/veedol-moto/Rectangle 31.webp",
     href: "#news",
   },
   {
@@ -25,7 +25,7 @@ const newsItems = [
     id: 3,
     date: "Monday, 21st July 2025",
     title: "A Close Call",
-    image: "/moto/veedol-moto/Rectangle 33.jpg",
+    image: "/moto/veedol-moto/Rectangle 33.webp",
     href: "#news",
   },
 ];

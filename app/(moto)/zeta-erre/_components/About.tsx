@@ -24,7 +24,7 @@ const About = () => {
         <div className="grid grid-cols-1 md:grid-cols-[1.5fr_1fr] gap-10 mb-10" data-aos="fade-up">
           <div className="overflow-hidden h-full">
             <img
-              src="/moto/zeta-erre/aboutus/1.png"
+              src="/moto/zeta-erre/aboutus/1.webp"
               alt="Zeta-Erre manufacturing facility"
               className="w-full h-full object-cover"
             />
@@ -32,14 +32,14 @@ const About = () => {
           <div className="grid grid-rows-2 gap-10">
             <div className="overflow-hidden">
               <img
-                src="/moto/zeta-erre/aboutus/2.png"
+                src="/moto/zeta-erre/aboutus/2.webp"
                 alt="Zeta-Erre exhibition stand"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="overflow-hidden">
               <img
-                src="/moto/zeta-erre/aboutus/3.png"
+                src="/moto/zeta-erre/aboutus/3.webp"
                 alt="Zeta-Erre loading bays"
                 className="w-full h-full object-cover"
               />

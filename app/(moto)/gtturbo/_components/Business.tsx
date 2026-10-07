@@ -7,7 +7,7 @@ export default function Business() {
   return (
     <section
       className="relative w-full h-[70%] lg:w-[95%] mx-auto bg-[#0B0E17]  py-16 lg:py-20 px-4 lg:px-0 my-8 lg:my-12 bg-cover bg-center"
-      style={{ backgroundImage: 'url("/moto/gtturbo/b1.png")' }}>
+      style={{ backgroundImage: 'url("/moto/gtturbo/b1.webp")' }}>
       <div className="relative z-10 flex flex-col lg:flex-row w-full min-h-[400px]">
         {/* Left Content */}
         <div

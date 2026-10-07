@@ -15,7 +15,7 @@ export default function Footer() {
           <div className="w-full xl:w-[25%] flex flex-col gap-6 xl:pr-12 xl:border-r border-gray-300">
             <Link href="#" className="flex-shrink-0">
               <img 
-                src="/moto/saria-international/logo.png" 
+                src="/moto/saria-international/logo.webp" 
                 alt="LION COMPLETE AUTO CARE" 
                 className="w-48 h-auto object-contain"
                 onError={(e) => {
@@ -53,16 +53,16 @@ export default function Footer() {
                 <h3 className="oswald-font font-semibold text-white card-text">Social Media</h3>
                 <div className="flex items-center gap-3 sm:gap-5 flex-wrap">
                   <Link href="#" className="hover:opacity-80 transition-opacity hover:-translate-y-1 transform duration-300">
-                    <img src="/moto/saria-international/fb.png" alt="Facebook" className="w-8 h-8 object-contain" />
+                    <img src="/moto/saria-international/fb.webp" alt="Facebook" className="w-8 h-8 object-contain" />
                   </Link>
                   <Link href="#" className="hover:opacity-80 transition-opacity hover:-translate-y-1 transform duration-300">
-                    <img src="/moto/saria-international/twtr.png" alt="Twitter" className="w-8 h-8 object-contain" />
+                    <img src="/moto/saria-international/twtr.webp" alt="Twitter" className="w-8 h-8 object-contain" />
                   </Link>
                   <Link href="#" className="hover:opacity-80 transition-opacity hover:-translate-y-1 transform duration-300">
-                    <img src="/moto/saria-international/insta.png" alt="Instagram" className="w-8 h-8 object-contain" />
+                    <img src="/moto/saria-international/insta.webp" alt="Instagram" className="w-8 h-8 object-contain" />
                   </Link>
                   <Link href="#" className="hover:opacity-80 transition-opacity hover:-translate-y-1 transform duration-300">
-                    <img src="/moto/saria-international/you.png" alt="YouTube" className="w-8 h-8 object-contain" />
+                    <img src="/moto/saria-international/you.webp" alt="YouTube" className="w-8 h-8 object-contain" />
                   </Link>
                 </div>
               </div>

@@ -12,49 +12,49 @@ const newsItems = [
     id: 1,
     date: "Jul 10, 2026",
     title: "Excellence Recognized: Dana Neu-Ulm Earns GM Supplier Quality Excellence Award",
-    image: "/moto/reinz-dichtungs/n1.png",
+    image: "/moto/reinz-dichtungs/n1.webp",
   },
   {
     id: 2,
     date: "Jun 18, 2026",
     title: "Backstage at Victor Reinz®: Workshops Experience OE Quality First-Hand",
-    image: "/moto/reinz-dichtungs/n2.png",
+    image: "/moto/reinz-dichtungs/n2.webp",
   },
   {
     id: 3,
     date: "Apr 27, 2026",
     title: "Dana Neu-Ulm receives PACCAR Quality Achievement Award",
-    image: "/moto/reinz-dichtungs/n3.png",
+    image: "/moto/reinz-dichtungs/n3.webp",
   },
   {
     id: 4,
     date: "Apr 21, 2026",
     title: "Dana Battery Housing Gasket Advances Clean Disassembly and Lower EV Repair Costs",
-    image: "/moto/reinz-dichtungs/n4.png",
+    image: "/moto/reinz-dichtungs/n4.webp",
   },
   {
     id: 5,
     date: "Mar 05, 2026",
     title: "Dana Metallic Bipolar Plate Accelerates Cost-Efficient Green Hydrogen",
-    image: "/moto/reinz-dichtungs/n5.png",
+    image: "/moto/reinz-dichtungs/n5.webp",
   },
   {
     id: 6,
     date: "Mar 04, 2026",
     title: "Growing Together – Dana Neu-Ulm Celebrates Its Long‑Standing Companions ",
-    image: "/moto/reinz-dichtungs/n6.png",
+    image: "/moto/reinz-dichtungs/n6.webp",
   },
    {
     id: 7,
     date: "Nov 13, 2026",
     title: "Dana at Automechanika Dubai 2025: Victor Reinz® Strengthens Middle East Presence",
-    image: "/moto/reinz-dichtungs/n7.png",
+    image: "/moto/reinz-dichtungs/n7.webp",
   },
    {
     id: 8,
     date: "Nov 11, 2026",
     title: "Best of REINZOSIL® With Victoria — Sealing Has Never Been So Easy",
-    image: "/moto/reinz-dichtungs/n8.png",
+    image: "/moto/reinz-dichtungs/n8.webp",
   }
 ];
 

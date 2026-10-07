@@ -34,9 +34,9 @@ const partsColumn: LinkColumn = {
 };
 
 const socials = [
-  { icon: "/moto/terrain/fb.png", label: "Facebook" },
-  { icon: "/moto/terrain/insta.png", label: "Instagram" },
-  { icon: "/moto/terrain/yt.png", label: "YouTube" },
+  { icon: "/moto/terrain/fb.webp", label: "Facebook" },
+  { icon: "/moto/terrain/insta.webp", label: "Instagram" },
+  { icon: "/moto/terrain/yt.webp", label: "YouTube" },
 ];
 
 export default function Footer() {
@@ -80,7 +80,7 @@ export default function Footer() {
               className="w-fit transition-transform duration-500 ease-out hover:scale-[1.03]"
             >
               <img
-                src="/moto/terrain/logo.png"
+                src="/moto/terrain/logo.webp"
                 alt="Terrain Tamer 4WD Parts"
                 className="w-[280px] h-auto object-contain"
               />
@@ -222,7 +222,7 @@ export default function Footer() {
                 data-aos-easing="ease-out-cubic"
               >
                 <img
-                  src="/moto/terrain/phn.png"
+                  src="/moto/terrain/phn.webp"
                   alt=""
                   className="w-5 h-5 object-contain transition-transform duration-300 group-hover:scale-110"
                 />
@@ -241,7 +241,7 @@ export default function Footer() {
                 data-aos-easing="ease-out-cubic"
               >
                 <img
-                  src="/moto/terrain/mail.png"
+                  src="/moto/terrain/mail.webp"
                   alt=""
                   className="w-5 h-5 object-contain transition-transform duration-300 group-hover:scale-110"
                 />
@@ -260,7 +260,7 @@ export default function Footer() {
                 data-aos-easing="ease-out-cubic"
               >
                 <img
-                  src="/moto/terrain/loc.png"
+                  src="/moto/terrain/loc.webp"
                   alt=""
                   className="w-5 h-5 object-contain mt-1 transition-transform duration-300 group-hover:scale-110"
                 />

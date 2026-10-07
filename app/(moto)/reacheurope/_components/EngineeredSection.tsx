@@ -5,7 +5,7 @@ import Button from "./Button";
 
 export default function EngineeredSection() {
   return (
-    <section className="py-20 xl:py-20 relative overflow-hidden bg-[url('/moto/reacheurope/bg.jpg')] bg-cover bg-center">
+    <section className="py-20 xl:py-20 relative overflow-hidden bg-[url('/moto/reacheurope/bg.webp')] bg-cover bg-center">
       <div className="custom-container relative z-10">
         <div className="relative z-10 flex flex-col items-center text-center max-w-7xl mx-auto" data-aos="fade-up">
 

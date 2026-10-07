@@ -11,22 +11,22 @@ import Typography from "./Typography";
 const MobileService = () => {
   const mobileServices = [
     {
-      img: "m1.png",
+      img: "m1.webp",
       title: "B160 Hoplà",
       desc: "Ultra-compact for trucks, to work anywhere. B160 has a space saving and tough design and hand-spin 16-bit technology."
     },
     {
-      img: "m2.png",
+      img: "m2.webp",
       title: "FIXITY",
       desc: "Fully equipped to serve your customers quickly and efficiently."
     },
     {
-      img: "m3.png",
+      img: "m3.webp",
       title: "RGU2680.GENSET",
       desc: "RGU2680.GENSET is an Automatic Truck Tyre Changer for Mobile service on Trucks and Buses (intensive use)."
     },
     {
-      img: "m4.png",
+      img: "m4.webp",
       title: "RGU.2671.G.GENSET",
       desc: "RGU.2671.G.GENSET – Automatic tire changer for truck, bus, and HGV wheels from 13” to 26”."
     }

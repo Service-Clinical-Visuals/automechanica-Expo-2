@@ -7,22 +7,22 @@ import Link from "next/link";
 const categories = [
   {
     title: "Assemblies",
-    image: "/moto/sm-motorenteile-gmbh/product1.png",
+    image: "/moto/sm-motorenteile-gmbh/product1.webp",
     link: "#"
   },
   {
     title: "Exhaust Valves",
-    image: "/moto/sm-motorenteile-gmbh/product2.png",
+    image: "/moto/sm-motorenteile-gmbh/product2.webp",
     link: "#"
   },
   {
     title: "Hydraulic tappets",
-    image: "/moto/sm-motorenteile-gmbh/product3.png",
+    image: "/moto/sm-motorenteile-gmbh/product3.webp",
     link: "#"
   },
   {
     title: "Inlet Valves",
-    image: "/moto/sm-motorenteile-gmbh/product4.png",
+    image: "/moto/sm-motorenteile-gmbh/product4.webp",
     link: "#"
   }
 ];
@@ -34,7 +34,7 @@ export default function Products() {
         {/* Header row: Heading (left) and Link (right) */}
         <div className="flex flex-col md:flex-row items-center justify-between mb-10 gap-4" data-aos="fade-up">
           <div className="flex items-center gap-3">
-            <img src="/moto/sm-motorenteile-gmbh/setting.png" alt="Setting" className="w-auto h-auto object-contain" />
+            <img src="/moto/sm-motorenteile-gmbh/setting.webp" alt="Setting" className="w-auto h-auto object-contain" />
             <h2 className="section-title text-[#1D1D1B] orbitron-font font-semibold">
               Our Product Categories
             </h2>

@@ -41,7 +41,7 @@ const Header = () => {
         {/* Logo */}
         <Link href="/" className="relative z-50 flex items-center">
           <img 
-            src="/moto/akkussan/logo.png" 
+            src="/moto/akkussan/logo.webp" 
             alt="Akkussan Logo" 
             className="h-[40px] xl:h-[50px] w-auto object-contain" 
           />
@@ -98,7 +98,7 @@ const Header = () => {
         <div className="flex items-center justify-between px-4 h-[80px] border-b border-gray-100">
           <Link href="/" className="flex items-center" onClick={() => setIsMobileMenuOpen(false)}>
             <img 
-              src="/moto/akkussan/logo.png" 
+              src="/moto/akkussan/logo.webp" 
               alt="Akkussan Logo" 
               className="h-[40px] w-auto object-contain" 
             />

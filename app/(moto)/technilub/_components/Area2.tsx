@@ -5,22 +5,22 @@ const areas = [
   {
     title: "Quality",
     desc: "Technilub entered the lubricants market just a few years ago. Building on its field experience.",
-    icon: "/moto/technilub/area2/quality.png",
+    icon: "/moto/technilub/area2/quality.webp",
   },
   {
     title: "Innovation",
     desc: "Technilub entered the lubricants market just a few years ago. Building on its field experience.",
-    icon: "/moto/technilub/area2/innovation.png",
+    icon: "/moto/technilub/area2/innovation.webp",
   },
   {
     title: "Expertise",
     desc: "Technilub entered the lubricants market just a few years ago. Building on its field experience.",
-    icon: "/moto/technilub/area2/expertise.png",
+    icon: "/moto/technilub/area2/expertise.webp",
   },
   {
     title: "Proximity",
     desc: "Technilub entered the lubricants market just a few years ago. Building on its field experience.",
-    icon: "/moto/technilub/area2/promise.png",
+    icon: "/moto/technilub/area2/promise.webp",
   },
 ];
 
@@ -29,7 +29,7 @@ export default function Area2() {
     <section
       className="relative py-24 min-h-125 overflow-hidden"
       style={{
-        backgroundImage: "url('/moto/technilub/area2bg.png')",
+        backgroundImage: "url('/moto/technilub/area2bg.webp')",
         backgroundSize: "cover",
         backgroundPosition: "center top",
       }}

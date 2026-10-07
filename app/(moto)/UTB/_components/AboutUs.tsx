@@ -7,10 +7,10 @@ import HexagonButton from "./HexagonButton";
 
 const AboutUs = () => {
   const features = [
-    { title: "Own research lab", icon: "/moto/UTB/icon1.png" },
-    { title: "50+ years of experience", icon: "/moto/UTB/icon2.png" },
-    { title: "Production in the Netherlands", icon: "/moto/UTB/icon3.png" },
-    { title: "Certified quality", icon: "/moto/UTB/icon1.png" },
+    { title: "Own research lab", icon: "/moto/UTB/icon1.webp" },
+    { title: "50+ years of experience", icon: "/moto/UTB/icon2.webp" },
+    { title: "Production in the Netherlands", icon: "/moto/UTB/icon3.webp" },
+    { title: "Certified quality", icon: "/moto/UTB/icon1.webp" },
   ];
 
   return (
@@ -22,7 +22,7 @@ const AboutUs = () => {
           {/* Left Content */}
           <div className="w-full 2xl:w-1/2 flex flex-col order-1 2xl:order-1" data-aos="fade-right" data-aos-duration="1000">
             <img
-              src="/moto/UTB/heading1.png"
+              src="/moto/UTB/heading1.webp"
               alt="About Us"
               className="h-12 md:h-17 lg:h-18 w-auto object-contain mb-4 object-left" />
             <div className="flex items-center gap-4 mb-6">
@@ -56,12 +56,12 @@ const AboutUs = () => {
           <div className="w-full 2xl:w-1/2 order-2 2xl:order-2" data-aos="fade-left" data-aos-duration="1000">
             <div className="rounded-xl overflow-hidden shadow-2xl h-[300px] md:h-[450px] 2xl:h-[500px] w-full">
               <img
-                src="/moto/UTB/section2.png"
+                src="/moto/UTB/section2.webp"
                 alt="UTB Facility"
                 className="w-full h-full object-cover"
                 onError={(e) => {
                   // fallback to section2 if section3 fails
-                  (e.target as HTMLImageElement).src = "/moto/UTB/section2.png";
+                  (e.target as HTMLImageElement).src = "/moto/UTB/section2.webp";
                 }}
               />
             </div>

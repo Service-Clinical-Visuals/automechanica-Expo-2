@@ -16,33 +16,33 @@ export default function Products() {
 
   const allProducts = [
     // Fiat
-    { title: "FIAT 1.3 Multijet (JTD) 16V (Euro 4)", image: "/moto/avortex/p1.png", category: "Fait -Tofas" },
-    { title: "FIAT 1.3 Multijet (JTD) 16V (Euro 5)", image: "/moto/avortex/p2.png", category: "Fait -Tofas" },
-    { title: "FIAT Doblo 1.9 JTD Dizel", image: "/moto/avortex/p3.png", category: "Fait -Tofas" },
-    { title: "FIAT Grande 1.4 16V", image: "/moto/avortex/p4.png", category: "Fait -Tofas" },
-    { title: "FIAT Doblo 1.9 Dizel", image: "/moto/avortex/p1.png", category: "Fait -Tofas" },
-    { title: "FIAT 1.6 Multijet 16V", image: "/moto/avortex/p2.png", category: "Fait -Tofas" },
-    { title: "FIAT Palio 1.200 8V (Yeni Model)", image: "/moto/avortex/p3.png", category: "Fait -Tofas" },
-    { title: "FIAT Palio 1.200 8V", image: "/moto/avortex/p4.png", category: "Fait -Tofas" },
+    { title: "FIAT 1.3 Multijet (JTD) 16V (Euro 4)", image: "/moto/avortex/p1.webp", category: "Fait -Tofas" },
+    { title: "FIAT 1.3 Multijet (JTD) 16V (Euro 5)", image: "/moto/avortex/p2.webp", category: "Fait -Tofas" },
+    { title: "FIAT Doblo 1.9 JTD Dizel", image: "/moto/avortex/p3.webp", category: "Fait -Tofas" },
+    { title: "FIAT Grande 1.4 16V", image: "/moto/avortex/p4.webp", category: "Fait -Tofas" },
+    { title: "FIAT Doblo 1.9 Dizel", image: "/moto/avortex/p1.webp", category: "Fait -Tofas" },
+    { title: "FIAT 1.6 Multijet 16V", image: "/moto/avortex/p2.webp", category: "Fait -Tofas" },
+    { title: "FIAT Palio 1.200 8V (Yeni Model)", image: "/moto/avortex/p3.webp", category: "Fait -Tofas" },
+    { title: "FIAT Palio 1.200 8V", image: "/moto/avortex/p4.webp", category: "Fait -Tofas" },
     // Renault
-    { title: "RENAULT Clio-Megane-Kangoo 1.5 DCI (K9K)", image: "/moto/avortex/p1.png", category: "Renault" },
-    { title: "RENAULT Clio-Megane-Kangoo-Scenic - 2003", image: "/moto/avortex/p2.png", category: "Renault" },
-    { title: "RENAULT Clio-Megane-Kangoo-Scenic - 2008", image: "/moto/avortex/p3.png", category: "Renault" },
-    { title: "RENAULT Fluence-Kangoo-Clio3-Megane3", image: "/moto/avortex/p4.png", category: "Renault" },
-    { title: "RENAULT Trafic-Fluence-Megane-Kadjar", image: "/moto/avortex/p1.png", category: "Renault" },
-    { title: "RENAULT Megane-Clio-Scenic-Laguna", image: "/moto/avortex/p2.png", category: "Renault" },
-    { title: "RENAULT Megane-Clio 1.4-1.6 8V", image: "/moto/avortex/p3.png", category: "Renault" },
-    { title: "RENAULT Clio 1.9-1.4 8V Energy (E6J-E7J)", image: "/moto/avortex/p4.png", category: "Renault" },
+    { title: "RENAULT Clio-Megane-Kangoo 1.5 DCI (K9K)", image: "/moto/avortex/p1.webp", category: "Renault" },
+    { title: "RENAULT Clio-Megane-Kangoo-Scenic - 2003", image: "/moto/avortex/p2.webp", category: "Renault" },
+    { title: "RENAULT Clio-Megane-Kangoo-Scenic - 2008", image: "/moto/avortex/p3.webp", category: "Renault" },
+    { title: "RENAULT Fluence-Kangoo-Clio3-Megane3", image: "/moto/avortex/p4.webp", category: "Renault" },
+    { title: "RENAULT Trafic-Fluence-Megane-Kadjar", image: "/moto/avortex/p1.webp", category: "Renault" },
+    { title: "RENAULT Megane-Clio-Scenic-Laguna", image: "/moto/avortex/p2.webp", category: "Renault" },
+    { title: "RENAULT Megane-Clio 1.4-1.6 8V", image: "/moto/avortex/p3.webp", category: "Renault" },
+    { title: "RENAULT Clio 1.9-1.4 8V Energy (E6J-E7J)", image: "/moto/avortex/p4.webp", category: "Renault" },
     // Peugeot / Citroen
-    { title: "PEUGEOT - CITROEN 1.3 HDI 16V 75 HP (EURO 4)", image: "/moto/avortex/p1.png", category: "Peugoet-Citroen" },
-    { title: "PEUGEOT - CITROEN 1.3 HDI 16V (EURO 5)", image: "/moto/avortex/p2.png", category: "Peugoet-Citroen" },
-    { title: "PEUGEOT - CITROEN 1.6 HDI (DV4 D-DV4 TD-8HX-8HZ)", image: "/moto/avortex/p3.png", category: "Peugoet-Citroen" },
-    { title: "PEUGEOT - CITROEN 1.6 HDI 90-110 HP (DV6 TCD4)", image: "/moto/avortex/p4.png", category: "Peugoet-Citroen" },
-    { title: "PEUGEOT - CITROEN 1.9 DIZEL (DW8)", image: "/moto/avortex/p1.png", category: "Peugoet-Citroen" },
+    { title: "PEUGEOT - CITROEN 1.3 HDI 16V 75 HP (EURO 4)", image: "/moto/avortex/p1.webp", category: "Peugoet-Citroen" },
+    { title: "PEUGEOT - CITROEN 1.3 HDI 16V (EURO 5)", image: "/moto/avortex/p2.webp", category: "Peugoet-Citroen" },
+    { title: "PEUGEOT - CITROEN 1.6 HDI (DV4 D-DV4 TD-8HX-8HZ)", image: "/moto/avortex/p3.webp", category: "Peugoet-Citroen" },
+    { title: "PEUGEOT - CITROEN 1.6 HDI 90-110 HP (DV6 TCD4)", image: "/moto/avortex/p4.webp", category: "Peugoet-Citroen" },
+    { title: "PEUGEOT - CITROEN 1.9 DIZEL (DW8)", image: "/moto/avortex/p1.webp", category: "Peugoet-Citroen" },
     // Opel / Chevrolet
-    { title: "OPEL 1.3 CDTI 16V (EURO 4)", image: "/moto/avortex/p2.png", category: "Opel-Chevrolet" },
-    { title: "OPEL 1.3 CDTI 16V (EURO 5)", image: "/moto/avortex/p3.png", category: "Opel-Chevrolet" },
-    { title: "OPEL 1.6 Multijet 16V", image: "/moto/avortex/p4.png", category: "Opel-Chevrolet" }
+    { title: "OPEL 1.3 CDTI 16V (EURO 4)", image: "/moto/avortex/p2.webp", category: "Opel-Chevrolet" },
+    { title: "OPEL 1.3 CDTI 16V (EURO 5)", image: "/moto/avortex/p3.webp", category: "Opel-Chevrolet" },
+    { title: "OPEL 1.6 Multijet 16V", image: "/moto/avortex/p4.webp", category: "Opel-Chevrolet" }
   ];
 
   const filteredProducts = activeCategory === "View All"

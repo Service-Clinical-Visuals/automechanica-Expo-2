@@ -12,7 +12,7 @@ const AboutUs = () => {
         {/* Image (Mobile: Order 2) */}
         <div className="order-2 xl:order-1  aspect-[960/705] relative" data-aos="fade-right">
           <img
-            src="/moto/zlotecki/section2.png"
+            src="/moto/zlotecki/section2.webp"
             alt="The beginnings of the company"
             className="w-full h-full object-cover rounded-[32px] rounded-tr-none rounded-bl-none min-[3800px]:rounded-[64px] min-[3800px]:rounded-tr-none shadow-lg"
             onError={(e) => { e.currentTarget.style.display = 'none'; }}

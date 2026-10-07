@@ -20,13 +20,13 @@ export default function AboutUs() {
         {/* Images Grid */}
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 xl:gap-10 mb-12" >
             <img 
-              src="/moto/tecneco/abt1.png" 
+              src="/moto/tecneco/abt1.webp" 
               alt="Tecneco Filtri Facility" 
               className="w-full h-full object-cover "
               data-aos="fade-left" data-aos-delay="100"
             />
             <img 
-              src="/moto/tecneco/abt2.png" 
+              src="/moto/tecneco/abt2.webp" 
               alt="Tecneco Filtri Manufacturing" 
               className="w-full h-full object-cover "
               data-aos="fade-right" data-aos-delay="100"

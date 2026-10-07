@@ -12,7 +12,7 @@ import "swiper/css/pagination";
 
 const posts = [
   {
-    img: "/moto/zimmermann/blog/1.png",
+    img: "/moto/zimmermann/blog/1.webp",
     day: "8",
     month: "May",
     year: "2026",
@@ -21,7 +21,7 @@ const posts = [
       "The complete kits combine Zimmermann brake discs, brake pads and accessories, thus simplifying the repair process.",
   },
   {
-    img: "/moto/zimmermann/blog/2.png",
+    img: "/moto/zimmermann/blog/2.webp",
     day: "16",
     month: "Apr",
     year: "2026",
@@ -30,7 +30,7 @@ const posts = [
       "The driver team drove the #900 Porsche 992 GT3 Cup to second place in the highly competitive CUP2 class.",
   },
   {
-    img: "/moto/zimmermann/blog/3.png",
+    img: "/moto/zimmermann/blog/3.webp",
     day: "22",
     month: "Mar",
     year: "2026",
@@ -39,7 +39,7 @@ const posts = [
       "The trio of drivers collected valuable points for the PETN championship at the start of the new season.",
   },
   {
-    img: "/moto/zimmermann/blog/4.png",
+    img: "/moto/zimmermann/blog/4.webp",
     day: "22",
     month: "Jan",
     year: "2026",
@@ -48,7 +48,7 @@ const posts = [
       "Even during the ongoing negotiations for EURO7, we are developing our own solutions for brake discs.",
   },
   {
-    img: "/moto/zimmermann/blog/5.png",
+    img: "/moto/zimmermann/blog/5.webp",
     day: "07",
     month: "Oct",
     year: "2025",
@@ -57,7 +57,7 @@ const posts = [
       "Zimmermann Porsche now has an unassailable lead in the PRO/AM points standings of the PETN Cup 2 class.",
   },
   {
-    img: "/moto/zimmermann/blog/6.png",
+    img: "/moto/zimmermann/blog/6.webp",
     day: "15",
     month: "Sep",
     year: "2025",

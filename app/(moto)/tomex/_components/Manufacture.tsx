@@ -34,7 +34,7 @@ const Manufacture = () => {
           {/* Image Side */}
           <div className="w-full xl:col-span-7 flex justify-center h-full min-h-[300px] md:min-h-[400px]">
             <img
-              src="/moto/tomex/image 2.png"
+              src="/moto/tomex/image 2.webp"
               alt="TOMEX Manufacturing"
               className="w-full h-full object-cover "
             />

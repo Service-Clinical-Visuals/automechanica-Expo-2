@@ -10,7 +10,7 @@ export default function About() {
           {/* Left Column - Image */}
           <div data-aos="fade-right" className="relative w-full h-full lg:col-span-7">
             <img
-              src="/moto/inmotion/abt.png"
+              src="/moto/inmotion/abt.webp"
               alt="Facility"
               className="w-full h-full object-cover object-center rounded-lg"
             />

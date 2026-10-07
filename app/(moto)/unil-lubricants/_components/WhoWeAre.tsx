@@ -21,7 +21,7 @@ export default function WhoWeAre() {
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 xl:gap-10 mb-12" data-aos="fade-up" data-aos-delay="100">
           <div className="w-full rounded-xl overflow-hidden shadow-sm">
             <img 
-              src="/moto/unil-lubricants/abt1.png" 
+              src="/moto/unil-lubricants/abt1.webp" 
               alt="UNIL Lubricants Booth" 
               className="w-full h-full object-cover aspect-[4/3] md:aspect-[16/10]"
              
@@ -29,7 +29,7 @@ export default function WhoWeAre() {
           </div>
           <div className="w-full rounded-xl overflow-hidden shadow-sm">
             <img 
-              src="/moto/unil-lubricants/abt2.png" 
+              src="/moto/unil-lubricants/abt2.webp" 
               alt="UNIL Lubricants Team" 
               className="w-full h-full object-cover aspect-[4/3] md:aspect-[16/10]"
               

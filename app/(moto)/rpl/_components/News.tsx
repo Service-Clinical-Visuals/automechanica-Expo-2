@@ -27,7 +27,7 @@ const News = () => {
           {/* Promo Graphic 1 */}
           <div className="w-full aspect-[797/494] rounded-2xl min-[3800px]:rounded-[2rem] overflow-hidden shadow-xl hover:shadow-2xl transition-shadow duration-300" data-aos="fade-right" data-aos-delay="200">
             <img
-              src="/moto/rpl/news1.png"
+              src="/moto/rpl/news1.webp"
               alt="Complete HVAC Solutions Promo"
               className="w-full h-auto object-contain"
             />
@@ -36,7 +36,7 @@ const News = () => {
           {/* Promo Graphic 2 */}
           <div className="w-full aspect-[797/494]  rounded-2xl min-[3800px]:rounded-[2rem] overflow-hidden shadow-xl hover:shadow-2xl transition-shadow duration-300" data-aos="fade-left" data-aos-delay="300">
             <img
-              src="/moto/rpl/news2.png"
+              src="/moto/rpl/news2.webp"
               alt="Para todos os segmentos Promo"
               className="w-full h-auto object-contain"
             />

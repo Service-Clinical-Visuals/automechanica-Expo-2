@@ -12,7 +12,7 @@ const AboutUs = () => {
         {/* Left Column - Image with Overlay */}
         <div className="w-full xl:w-1/2 aspect-[926/514] relative flex-shrink-0" data-aos="fade-right">
           <img
-            src="/moto/hasting/section2.png"
+            src="/moto/hasting/section2.webp"
             alt="Hastings Facility"
             className="w-full h-full object-cover rounded-md"
           />

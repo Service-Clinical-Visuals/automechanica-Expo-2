@@ -37,7 +37,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="#" className="flex-shrink-0">
             <img
-              src="/moto/ukde-muhendislik/logo.png"
+              src="/moto/ukde-muhendislik/logo.webp"
               alt="SVAC Logo"
               className="h-8 xl:h-10 w-auto object-contain"
             />

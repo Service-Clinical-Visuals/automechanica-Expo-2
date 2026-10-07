@@ -28,7 +28,7 @@ const Button = ({
       {showIcon && (
         <div className="flex items-center justify-center bg-white rounded-full w-auto h-auto min-[2000px]:w-14 min-[2000px]:h-14 shrink-0 z-10 shadow-md relative group-hover:scale-105 transition-transform duration-300">
           <img
-            src="/moto/vitobello/arrow.png"
+            src="/moto/vitobello/arrow.webp"
             alt="arrow"
             className="w-auto h-auto min-[2000px]:w-6 min-[2000px]:h-6 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-300"
           />

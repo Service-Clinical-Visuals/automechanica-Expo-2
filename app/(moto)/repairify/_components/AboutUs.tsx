@@ -26,7 +26,7 @@ export default function AboutUs() {
           <div className="xl:col-span-4" data-aos="fade-up">
             <div className="w-full h-full relative min-h-[400px]">
               <img 
-                src="/moto/repairify/abt.png" 
+                src="/moto/repairify/abt.webp" 
                 alt="Repairify Team" 
                 className="w-full h-full object-cover shadow-sm"
               />

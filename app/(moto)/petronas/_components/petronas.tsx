@@ -15,7 +15,7 @@ export default function PetronasSection() {
           {/* Left Column */}
           <div className="w-[58.7%] flex flex-col gap-10 min-[3800px]:gap-14">
             <div className="w-full aspect-[963/547] rounded-3xl overflow-hidden shrink-0" data-aos="fade-up">
-              <img src="/moto/petronas/petronas1.jpg" alt="PETRONAS Innovative Services" className="w-full h-full object-cover" />
+              <img src="/moto/petronas/petronas1.webp" alt="PETRONAS Innovative Services" className="w-full h-full object-cover" />
             </div>
             
             <div className="flex flex-col justify-center" data-aos="fade-up" data-aos-delay="100">
@@ -50,7 +50,7 @@ export default function PetronasSection() {
             </div>
             
             <div className="w-full aspect-[677/413] rounded-3xl overflow-hidden shrink-0" data-aos="fade-up" data-aos-delay="200">
-              <img src="/moto/petronas/petronas2.jpg" alt="PETRONAS Industrial Solutions" className="w-full h-full object-cover" />
+              <img src="/moto/petronas/petronas2.webp" alt="PETRONAS Industrial Solutions" className="w-full h-full object-cover" />
             </div>
           </div>
           
@@ -59,7 +59,7 @@ export default function PetronasSection() {
         {/* Mobile Layout (Sequential) */}
         <div className="flex flex-col lg:hidden gap-10">
           <div className="w-full aspect-[963/547] rounded-3xl overflow-hidden shrink-0" data-aos="fade-up">
-            <img src="/moto/petronas/petronas1.jpg" alt="PETRONAS Innovative Services" className="w-full h-full object-cover" />
+            <img src="/moto/petronas/petronas1.webp" alt="PETRONAS Innovative Services" className="w-full h-full object-cover" />
           </div>
           <div className="flex flex-col justify-center" data-aos="fade-up">
             <Typography variant="h2" color="white" className="mb-6 font-semibold">
@@ -88,7 +88,7 @@ export default function PetronasSection() {
             </div>
           </div>
           <div className="w-full aspect-[677/413] rounded-3xl overflow-hidden shrink-0" data-aos="fade-up">
-            <img src="/moto/petronas/petronas2.jpg" alt="PETRONAS Industrial Solutions" className="w-full h-full object-cover" />
+            <img src="/moto/petronas/petronas2.webp" alt="PETRONAS Industrial Solutions" className="w-full h-full object-cover" />
           </div>
         </div>
 

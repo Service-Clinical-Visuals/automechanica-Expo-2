@@ -23,14 +23,14 @@ const AboutUs = () => {
         <div className="flex flex-col md:flex-row w-full gap-6 md:gap-8 min-[2100px]:gap-12 min-[3800px]:gap-16" data-aos="fade-up" data-aos-delay="100">
           <div className="w-full md:w-1/2 flex">
             <img
-              src="/moto/cormach/section21.jpg"
+              src="/moto/cormach/section21.webp"
               alt="Cormach Facility 1"
               className="w-full h-auto object-cover border border-gray-200"
             />
           </div>
           <div className="w-full md:w-1/2 flex">
             <img
-              src="/moto/cormach/section22.jpg"
+              src="/moto/cormach/section22.webp"
               alt="Cormach Facility 2"
               className="w-full h-auto object-cover border border-gray-200"
             />

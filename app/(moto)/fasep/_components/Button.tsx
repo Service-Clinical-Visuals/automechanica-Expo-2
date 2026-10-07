@@ -25,7 +25,7 @@ const Button = ({
       <div className="button whitespace-nowrap text-white mr-2">{text}</div>
       {showIcon && (
  
-        <img src="/moto/fasep/btnarw.png" alt="Arrow Right" className="w-4 h-3 text-white group-hover:translate-x-1 transition-transform duration-300 shrink-0" />
+        <img src="/moto/fasep/btnarw.webp" alt="Arrow Right" className="w-4 h-3 text-white group-hover:translate-x-1 transition-transform duration-300 shrink-0" />
       )}
     </div>
   );

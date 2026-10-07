@@ -17,37 +17,37 @@ export default function Manufacture() {
     {
       title: "Injector Repair Kit",
       count: "79 Products",
-      image: "/moto/pek/m1.png",
+      image: "/moto/pek/m1.webp",
       href: "#injector-repair-kit",
     },
     {
       title: "Vacuum Pump",
       count: "13 Products",
-      image: "/moto/pek/m2.png",
+      image: "/moto/pek/m2.webp",
       href: "#vacuum-pump",
     },
     {
       title: "Oil Coolers",
       count: "17 Products",
-      image: "/moto/pek/m3.png",
+      image: "/moto/pek/m3.webp",
       href: "#oil-coolers",
     },
     {
       title: "Coolant Tubes",
       count: "13 Products",
-      image: "/moto/pek/m4.png",
+      image: "/moto/pek/m4.webp",
       href: "#coolant-tubes",
     },
     {
       title: "Oil Spray Jets",
       count: "25 Products",
-      image: "/moto/pek/m1.png",
+      image: "/moto/pek/m1.webp",
       href: "#oil-spray-jets",
     },
     {
       title: "Belt Tensioner",
       count: "10 Products",
-      image: "/moto/pek/m2.png",
+      image: "/moto/pek/m2.webp",
       href: "#belt-tensioner",
     },
   ];

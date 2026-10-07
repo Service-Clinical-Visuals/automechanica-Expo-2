@@ -4,7 +4,7 @@ import Typography from "./Typography";
 
 export default function Footer() {
   return (
-    <footer className="w-full relative bg-[url('/moto/veneporte/bg3.jpg')] bg-cover bg-center pt-16 pb-0 overflow-hidden">
+    <footer className="w-full relative bg-[url('/moto/veneporte/bg3.webp')] bg-cover bg-center pt-16 pb-0 overflow-hidden">
       {/* Light gradient overlay to ensure readability and match the cyan vibe */}
       <div className="absolute inset-0 bg-[#BAEEFF] opacity-[0.45] z-0"></div>
 
@@ -16,7 +16,7 @@ export default function Footer() {
           {/* Column 1: Logo & Info */}
           <div className="flex flex-col gap-6" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
             <Link href="/" className="inline-block mb-2 w-max">
-              <img src="/moto/veneporte/logo.png" alt="Veneporte Logo" className="h-[70%]  xl:h-[100%] w-auto object-contain" />
+              <img src="/moto/veneporte/logo.webp" alt="Veneporte Logo" className="h-[70%]  xl:h-[100%] w-auto object-contain" />
             </Link>
             <Typography variant="p" className="footer-body leading-relaxed text-[#484848] pr-4">
               VENEPORTE Manufactures Exhaust Systems, Catalytic Converters, Particulate Filters, SCR's And Other Components For The Automotive Industry.

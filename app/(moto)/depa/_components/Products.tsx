@@ -8,16 +8,16 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 const productsData = [
-  { id: 1, category: "Transmission", name: "Transmission Seal", desc: "High-quality transmission seals designed to prevent fluid leaks and ensure reliable transmission performance.", img: "/moto/depa/1.png" },
-  { id: 2, category: "Transmission", name: "CV joint", desc: "Durable CV joints engineered to provide smooth power transfer and dependable performance during driving.", img: "/moto/depa/2.png" },
-  { id: 3, category: "Transmission", name: "Sealing Kit", desc: "Complete sealing kits designed to provide secure, reliable sealing and help prevent leaks in automotive components.", img: "/moto/depa/3.png" },
-  { id: 4, category: "Steering Pump", name: "Hydraulic Power Steering Pump", desc: "Reliable hydraulic power steering for smooth and responsive vehicle control.", img: "/moto/depa/4.jpg" }, 
-  { id: 5, category: "Steering Pump", name: "Electric Power Steering Pump Pulley", desc: "Durable CV joints engineered to provide smooth power transfer and dependable performance during driving.", img: "/moto/depa/5.jpg" }, 
-  { id: 6, category: "Suspension Sphere", name: "Sphere (standard exchange)", desc: "High-quality remanufactured sphere designed for reliable performance, durability, and precise fit.", img: "/moto/depa/6.jpg" },
-  { id: 7, category: "Suspension Sphere", name: "Sphere (new product)", desc: "Brand-new sphere manufactured to high-quality standards for reliable performance, durability, and precise fit.", img: "/moto/depa/7.jpg" },
-  { id: 8, category: "Accessories", name: "Mounting cone", desc: "Precision-made mounting cone designed for secure fitting, reliable performance, and long-lasting durability.", img: "/moto/depa/8.png" },
-  { id: 9, category: "Accessories", name: "Miscellaneous trading product", desc: "A diverse range of automotive products sourced to meet quality, reliability, and customer requirements.", img: "/moto/depa/9.png" },
-  { id: 10, category: "Accessories", name: "Hand tools", desc: "Reliable hand tools designed for precision, durability, and efficient automotive repair and maintenance.", img: "/moto/depa/10.png" },
+  { id: 1, category: "Transmission", name: "Transmission Seal", desc: "High-quality transmission seals designed to prevent fluid leaks and ensure reliable transmission performance.", img: "/moto/depa/1.webp" },
+  { id: 2, category: "Transmission", name: "CV joint", desc: "Durable CV joints engineered to provide smooth power transfer and dependable performance during driving.", img: "/moto/depa/2.webp" },
+  { id: 3, category: "Transmission", name: "Sealing Kit", desc: "Complete sealing kits designed to provide secure, reliable sealing and help prevent leaks in automotive components.", img: "/moto/depa/3.webp" },
+  { id: 4, category: "Steering Pump", name: "Hydraulic Power Steering Pump", desc: "Reliable hydraulic power steering for smooth and responsive vehicle control.", img: "/moto/depa/4.webp" }, 
+  { id: 5, category: "Steering Pump", name: "Electric Power Steering Pump Pulley", desc: "Durable CV joints engineered to provide smooth power transfer and dependable performance during driving.", img: "/moto/depa/5.webp" }, 
+  { id: 6, category: "Suspension Sphere", name: "Sphere (standard exchange)", desc: "High-quality remanufactured sphere designed for reliable performance, durability, and precise fit.", img: "/moto/depa/6.webp" },
+  { id: 7, category: "Suspension Sphere", name: "Sphere (new product)", desc: "Brand-new sphere manufactured to high-quality standards for reliable performance, durability, and precise fit.", img: "/moto/depa/7.webp" },
+  { id: 8, category: "Accessories", name: "Mounting cone", desc: "Precision-made mounting cone designed for secure fitting, reliable performance, and long-lasting durability.", img: "/moto/depa/8.webp" },
+  { id: 9, category: "Accessories", name: "Miscellaneous trading product", desc: "A diverse range of automotive products sourced to meet quality, reliability, and customer requirements.", img: "/moto/depa/9.webp" },
+  { id: 10, category: "Accessories", name: "Hand tools", desc: "Reliable hand tools designed for precision, durability, and efficient automotive repair and maintenance.", img: "/moto/depa/10.webp" },
 ];
 
 const tabs = ["Transmission", "Steering Pump", "Suspension Sphere", "Accessories", "View All"];

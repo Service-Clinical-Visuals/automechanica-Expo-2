@@ -41,7 +41,7 @@ const Explore360 = () => {
               ].map((item, idx) => (
                 <div key={idx} className="flex items-start gap-3.5">
                   <img
-                    src="/moto/swd/build.png"
+                    src="/moto/swd/build.webp"
                     alt="Bullet Icon"
                     className="w-5 h-5 md:w-6 md:h-6 object-contain shrink-0 mt-0.5"
                     onError={(e) => {

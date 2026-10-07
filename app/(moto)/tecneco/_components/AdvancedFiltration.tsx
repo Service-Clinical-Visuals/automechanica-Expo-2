@@ -9,7 +9,7 @@ export default function AdvancedFiltration() {
     <section 
       className="py-20 md:py-28 bg-[#111111] relative w-full"
       style={{
-         backgroundImage: `url('/moto/tecneco/bg1.png')`,
+         backgroundImage: `url('/moto/tecneco/bg1.webp')`,
       }}
     >
       <div className="custom-container">

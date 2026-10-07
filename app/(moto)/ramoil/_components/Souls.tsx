@@ -61,7 +61,7 @@ export default function Souls() {
               ref={el => { rowRefs.current[0] = el; }}
               className="flex items-center justify-center gap-8 py-8 will-change-transform"
             >
-              <Pill src="/moto/ramoil/souls/soul1.png" />
+              <Pill src="/moto/ramoil/souls/soul1.webp" />
               <span className={TEXT} style={FS}>Regenerate</span>
             </div>
 
@@ -73,7 +73,7 @@ export default function Souls() {
               className="flex items-center justify-center gap-8 py-8 will-change-transform"
             >
               <span className={TEXT} style={FS}>White Mineral Oils</span>
-              <Pill src="/moto/ramoil/souls/soul2.png" />
+              <Pill src="/moto/ramoil/souls/soul2.webp" />
               <span className={TEXT} style={FS}>and</span>
             </div>
 
@@ -84,7 +84,7 @@ export default function Souls() {
               ref={el => { rowRefs.current[2] = el; }}
               className="flex items-center justify-center gap-8 py-8 will-change-transform"
             >
-              <Pill src="/moto/ramoil/souls/soul3.png" />
+              <Pill src="/moto/ramoil/souls/soul3.webp" />
               <span className={TEXT} style={FS}>Petroleum Jelly</span>
             </div>
 
@@ -96,7 +96,7 @@ export default function Souls() {
               className="flex items-center justify-center gap-8 py-8 will-change-transform"
             >
               <span className={TEXT} style={FS}>Lubricant Oils</span>
-              <Pill src="/moto/ramoil/souls/soul4.png" />
+              <Pill src="/moto/ramoil/souls/soul4.webp" />
             </div>
 
             <div className="border-t border-gray-200" />

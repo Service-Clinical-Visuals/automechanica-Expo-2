@@ -67,7 +67,7 @@ export default function Header() {
             {/* Logo */}
             <Link href="/" className="flex items-center shrink-0 rounded-xl p-1 hover:opacity-90 transition-opacity">
               <img
-                src="/moto/kale/logo.png"
+                src="/moto/kale/logo.webp"
                 alt="Kale Oto Radyatör Logo"
                 className="h-12 w-auto object-contain"
               />

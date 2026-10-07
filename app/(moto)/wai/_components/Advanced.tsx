@@ -48,7 +48,7 @@ const Advanced = () => {
           <div className="flex flex-col items-center justify-start text-center gap-4 bg-white rounded-xl p-6 min-[3800px]:p-10 shadow-md">
             <div className="flex items-center justify-center gap-3">
               <div className="flex items-center justify-center shrink-0 w-10 h-10 lg:w-12 lg:h-12 min-[3800px]:w-20 min-[3800px]:h-20">
-                <img src="/moto/wai/group1.png" alt="Electronic Production" className="w-full h-full object-contain" />
+                <img src="/moto/wai/group1.webp" alt="Electronic Production" className="w-full h-full object-contain" />
               </div>
               <Typography variant="h3" color="dark" className="font-bold text-left">
                 Electronic Production
@@ -63,7 +63,7 @@ const Advanced = () => {
           <div className="flex flex-col items-center justify-start text-center gap-4 bg-white rounded-xl p-6 min-[3800px]:p-10 shadow-md">
             <div className="flex items-center justify-center gap-3">
               <div className="flex items-center justify-center shrink-0 w-10 h-10 lg:w-12 lg:h-12 min-[3800px]:w-20 min-[3800px]:h-20">
-                <img src="/moto/wai/group2.png" alt="Research & Innovation" className="w-full h-full object-contain" />
+                <img src="/moto/wai/group2.webp" alt="Research & Innovation" className="w-full h-full object-contain" />
               </div>
               <Typography variant="h3" color="dark" className="font-bold text-left">
                 Research & Innovation
@@ -78,7 +78,7 @@ const Advanced = () => {
           <div className="flex flex-col items-center justify-start text-center gap-4 bg-white rounded-xl p-6 min-[3800px]:p-10 shadow-md">
             <div className="flex items-center justify-center gap-3">
               <div className="flex items-center justify-center shrink-0 w-10 h-10 lg:w-12 lg:h-12 min-[3800px]:w-20 min-[3800px]:h-20">
-                <img src="/moto/wai/group3.png" alt="Engineering Excellence" className="w-full h-full object-contain" />
+                <img src="/moto/wai/group3.webp" alt="Engineering Excellence" className="w-full h-full object-contain" />
               </div>
               <Typography variant="h3" color="dark" className="font-bold text-left">
                 Engineering Excellence
@@ -93,7 +93,7 @@ const Advanced = () => {
           <div className="flex flex-col items-center justify-start text-center gap-4 bg-white rounded-xl p-6 min-[3800px]:p-10 shadow-md">
             <div className="flex items-center justify-center gap-3">
               <div className="flex items-center justify-center shrink-0 w-10 h-10 lg:w-12 lg:h-12 min-[3800px]:w-20 min-[3800px]:h-20">
-                <img src="/moto/wai/group4.png" alt="Quality Control" className="w-full h-full object-contain" />
+                <img src="/moto/wai/group4.webp" alt="Quality Control" className="w-full h-full object-contain" />
               </div>
               <Typography variant="h3" color="dark" className="font-bold text-left">
                 Quality Control

@@ -8,12 +8,12 @@ import "swiper/css/pagination";
 import Container from "./Container";
 
 const certificates = [
-  { id: 1, image: "/moto/meha/certificates/1.png" },
-  { id: 2, image: "/moto/meha/certificates/2.png" },
-  { id: 3, image: "/moto/meha/certificates/3.png" },
-  { id: 4, image: "/moto/meha/certificates/4.png" },
-  { id: 5, image: "/moto/meha/certificates/5.png" },
-  { id: 6, image: "/moto/meha/certificates/6.png" },
+  { id: 1, image: "/moto/meha/certificates/1.webp" },
+  { id: 2, image: "/moto/meha/certificates/2.webp" },
+  { id: 3, image: "/moto/meha/certificates/3.webp" },
+  { id: 4, image: "/moto/meha/certificates/4.webp" },
+  { id: 5, image: "/moto/meha/certificates/5.webp" },
+  { id: 6, image: "/moto/meha/certificates/6.webp" },
 ];
 
 export default function Certification() {

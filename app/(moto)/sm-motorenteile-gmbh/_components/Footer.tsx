@@ -16,7 +16,7 @@ export default function Footer() {
           <div className="flex flex-col gap-6 pr-0 lg:pr-10" data-aos="fade-up">
             <Link href="#" className="flex items-center gap-3">
               <img
-                src="/moto/sm-motorenteile-gmbh/footerlogo.png"
+                src="/moto/sm-motorenteile-gmbh/footerlogo.webp"
                 alt="SM Motorenteile Logo"
                 className="w-12 h-12 md:w-14 md:h-14 object-contain  rounded-full"
               />
@@ -81,12 +81,12 @@ export default function Footer() {
           <div className="flex flex-col items-center xl:items-start gap-4">
             <span className="card-title orbitron-font font-semibold" data-aos="fade-up" data-aos-delay="400">Socials</span>
             <div className="flex items-center gap-5" data-aos="fade-up" data-aos-delay="500">
-              <Link href="#"><img src="/moto/sigam/music.png" alt="Tiktok" className="h-[18px] w-auto object-contain brightness-0 invert hover:scale-110 transition-transform" /></Link>
-              <Link href="#"><img src="/moto/sigam/fb.png" alt="Facebook" className="h-[18px] w-auto object-contain brightness-0 invert hover:scale-110 transition-transform" /></Link>
-              <Link href="#"><img src="/moto/sigam/in.png" alt="LinkedIn" className="h-[18px] w-auto object-contain brightness-0 invert hover:scale-110 transition-transform" /></Link>
-              <Link href="#"><img src="/moto/sigam/x.png" alt="X" className="h-[18px] w-auto object-contain brightness-0 invert hover:scale-110 transition-transform" /></Link>
-              <Link href="#"><img src="/moto/sigam/insta..png" alt="Instagram" className="h-[18px] w-auto object-contain brightness-0 invert hover:scale-110 transition-transform" /></Link>
-              <Link href="#"><img src="/moto/sigam/you.png" alt="YouTube" className="h-[18px] w-auto object-contain brightness-0 invert hover:scale-110 transition-transform" /></Link>
+              <Link href="#"><img src="/moto/sigam/music.webp" alt="Tiktok" className="h-[18px] w-auto object-contain brightness-0 invert hover:scale-110 transition-transform" /></Link>
+              <Link href="#"><img src="/moto/sigam/fb.webp" alt="Facebook" className="h-[18px] w-auto object-contain brightness-0 invert hover:scale-110 transition-transform" /></Link>
+              <Link href="#"><img src="/moto/sigam/in.webp" alt="LinkedIn" className="h-[18px] w-auto object-contain brightness-0 invert hover:scale-110 transition-transform" /></Link>
+              <Link href="#"><img src="/moto/sigam/x.webp" alt="X" className="h-[18px] w-auto object-contain brightness-0 invert hover:scale-110 transition-transform" /></Link>
+              <Link href="#"><img src="/moto/sigam/insta..webp" alt="Instagram" className="h-[18px] w-auto object-contain brightness-0 invert hover:scale-110 transition-transform" /></Link>
+              <Link href="#"><img src="/moto/sigam/you.webp" alt="YouTube" className="h-[18px] w-auto object-contain brightness-0 invert hover:scale-110 transition-transform" /></Link>
             </div>
           </div>
 

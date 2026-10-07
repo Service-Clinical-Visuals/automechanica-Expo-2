@@ -7,34 +7,34 @@ const slides = [
   [
     {
       title: "A/C Compressors",
-      image: "/moto/reacheurope/product1.png",
+      image: "/moto/reacheurope/product1.webp",
       link: "#"
     },
     {
       title: "Blower Motors",
-      image: "/moto/reacheurope/product2.png",
+      image: "/moto/reacheurope/product2.webp",
       link: "#"
     },
     {
       title: "AC Components",
-      image: "/moto/reacheurope/product3.png",
+      image: "/moto/reacheurope/product3.webp",
       link: "#"
     }
   ],
   [
     {
       title: "Intercoolers/CAC",
-      image: "/moto/reacheurope/product4.png",
+      image: "/moto/reacheurope/product4.webp",
       link: "#"
     },
     {
       title: "Thermostats",
-      image: "/moto/reacheurope/product5.png",
+      image: "/moto/reacheurope/product5.webp",
       link: "#"
     },
     {
       title: "Heater Cores",
-      image: "/moto/reacheurope/product6.png",
+      image: "/moto/reacheurope/product6.webp",
       link: "#"
     }
   ]

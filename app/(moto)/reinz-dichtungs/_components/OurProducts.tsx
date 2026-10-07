@@ -12,49 +12,49 @@ const products = [
     id: 1,
     name: "Cylinder-Head Gaskets",
     description: "Multi-layer steel (MLS) cylinder-head gaskets - innovative sealing solutions for new engine designs",
-    image: "/moto/reinz-dichtungs/1.png",
+    image: "/moto/reinz-dichtungs/1.webp",
   },
   {
     id: 2,
     name: "Valve Cover Gaskets",
     description: "Cylinder head cover gaskets withstand high and low temperatures to provide a reliable seal with minimal tightening.",
-    image: "/moto/reinz-dichtungs/2.png",
+    image: "/moto/reinz-dichtungs/2.webp",
   },
   {
     id: 3,
     name: "Intake Manifold Gasket",
     description: "Modern sealing systems have to deal with more aggressive media, higher temperatures under mechanical stress.",
-    image: "/moto/reinz-dichtungs/3.png",
+    image: "/moto/reinz-dichtungs/3.webp",
   },
   {
     id: 4,
     name: "Exhaust Manifold Gasket",
     description: "Exhaust manifold gaskets require metal beads where the gas passes through at very high temperatures and low pressure.",
-    image: "/moto/reinz-dichtungs/4.png",
+    image: "/moto/reinz-dichtungs/4.webp",
   },
   {
     id: 5,
     name: "Secondary Gaskets",
     description: "Secondary gaskets provide a precise fit and reliable sealing to prevent leaks in engine and auxiliary components.",
-    image: "/moto/reinz-dichtungs/5.png",
+    image: "/moto/reinz-dichtungs/5.webp",
   },
   {
     id: 6,
     name: "Molded Gaskets",
     description: "Molded gaskets are engineered for superior sealing performance, offering excellent durability and precise fitment",
-    image: "/moto/reinz-dichtungs/6.png",
+    image: "/moto/reinz-dichtungs/6.webp",
   },
   {
     id: 7,
     name: "Carrier Style Gaskets",
     description: "Carrier style gaskets combine advanced sealing materials with a rigid carrier for enhanced stability",
-    image: "/moto/reinz-dichtungs/7.png",
+    image: "/moto/reinz-dichtungs/7.webp",
   },
   {
     id: 8,
     name: "Electronic Connector Gasket",
     description: "Electronic connector gaskets provide dependable sealing against moisture, dust, and contaminants",
-    image: "/moto/reinz-dichtungs/8.png",
+    image: "/moto/reinz-dichtungs/8.webp",
   }
 ];
 

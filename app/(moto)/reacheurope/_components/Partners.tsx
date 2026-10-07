@@ -9,15 +9,15 @@ export default function Partners() {
   const features = [
     {
       title: "Superior Cooling Efficiency",
-      icon: "/moto/reacheurope/b1.png"
+      icon: "/moto/reacheurope/b1.webp"
     },
     {
       title: "Corrosion-Resistant Design",
-      icon: "/moto/reacheurope/b2.png"
+      icon: "/moto/reacheurope/b2.webp"
     },
     {
       title: "OE-Quality Performance",
-      icon: "/moto/reacheurope/b3.png"
+      icon: "/moto/reacheurope/b3.webp"
     }
   ];
 

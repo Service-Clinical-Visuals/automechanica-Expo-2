@@ -9,13 +9,13 @@ export default function TechnicalSupport() {
     {
       title: "Environmental, Social, & Governance",
       description: "Walker Products is dedicated to sustainability, social responsibility, and ethical governance. From eco-friendly solutions and solar-powered operations to community engagement, discover how we build a responsible and sustainable future for our industry.",
-      img: "/moto/walker-products/technical-support-1.jpg",
+      img: "/moto/walker-products/technical-support-1.webp",
       href: "#esg"
     },
     {
       title: "New Product Announcements",
       description: "Stay ahead with Walker Products' latest innovations. Explore our new product announcements to discover cutting-edge solutions designed to meet evolving industry needs, enhance vehicle performance, and provide comprehensive coverage for modern automotive applications.",
-      img: "/moto/walker-products/technical-support-2.jpg",
+      img: "/moto/walker-products/technical-support-2.webp",
       href: "#announcements"
     }
   ];

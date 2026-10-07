@@ -26,7 +26,7 @@ const Button = ({
       {showIcon && (
         <div className="w-[2.8em] h-[2.8em] bg-white rounded-full border-[0.1em] border-primary flex items-center justify-center shrink-0 z-20 relative group-hover:scale-105 transition-transform duration-300">
           <img
-            src="/moto/tesla/vector.png"
+            src="/moto/tesla/vector.webp"
             alt="icon"
             className="w-[65%] h-[65%] object-contain 
            animate-[spin_4s_linear_infinite]"

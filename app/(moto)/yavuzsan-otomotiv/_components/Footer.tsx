@@ -25,7 +25,7 @@ export default function Footer() {
           <div className="flex flex-col i tems-start lg:col-span-4 lg:pr-6 lg:border-r lg:border-white/20">
             <Link href="/" className="inline-block mb-6">
               <img
-                src="/moto/yavuzsan-otomotiv/logo.png"
+                src="/moto/yavuzsan-otomotiv/logo.webp"
                 alt="Yavuzsan Logo"
                 className="h-auto sm:h-14 w-auto object-contain "
               />

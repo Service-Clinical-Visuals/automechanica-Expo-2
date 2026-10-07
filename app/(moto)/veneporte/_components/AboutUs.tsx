@@ -6,7 +6,7 @@ export default function AboutUs() {
   return (
     <section className="bg-white py-16  relative overflow-hidden">
       {/* 50/50 Background */}
-      <div className="absolute top-0 left-0 w-full lg:h-[55%] h-full bg-[url('/moto/veneporte/bg1.jpg')] bg-cover bg-right opacity-30 lg:opacity-100 z-0"></div>
+      <div className="absolute top-0 left-0 w-full lg:h-[55%] h-full bg-[url('/moto/veneporte/bg1.webp')] bg-cover bg-right opacity-30 lg:opacity-100 z-0"></div>
 
       <div className="custom-container px-4 md:px-8 max-w-[1920px] mx-auto relative z-10">
         <div className="grid grid-cols-1 2xl:grid-cols-12 gap-8 items-center">
@@ -40,7 +40,7 @@ export default function AboutUs() {
 
           <div className="order-2 2xl:col-span-7 w-full h-full min-h-[300px] sm:min-h-[400px] 2xl:min-h-[600px] relative">
             <img
-              src="/moto/veneporte/section2.png"
+              src="/moto/veneporte/section2.webp"
               alt="Veneporte Building"
               className="w-full h-full object-cover rounded-2xl"
               data-aos="zoom-in-left" data-aos-delay="200" data-aos-duration="1000"

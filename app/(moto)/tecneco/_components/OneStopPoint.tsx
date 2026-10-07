@@ -23,7 +23,7 @@ export default function OneStopPoint() {
           data-aos-delay="200"
         >
           <img 
-            src="/moto/tecneco/point.png" 
+            src="/moto/tecneco/point.webp" 
             alt="Tecneco Filtration Product Range" 
             className="w-full  h-auto object-contain "
           />

@@ -66,7 +66,7 @@ export default function Header() {
             {/* Logo */}
             <Link href="/" className="flex items-center shrink-0 rounded-xl p-1 hover:opacity-90 transition-opacity">
               <img
-                src="/moto/e-sassone/logo.png"
+                src="/moto/e-sassone/logo.webp"
                 alt="E. Sassone Logo"
                 className="h-15 w-auto object-contain"
               />

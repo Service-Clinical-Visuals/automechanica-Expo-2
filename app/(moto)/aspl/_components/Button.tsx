@@ -52,7 +52,7 @@ const Button = ({
         </span>
         {showIcon && (
           <div className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
-            <img src="/moto/aspl/arrow-up-right.png" alt="Arrow" className="w-5 h-5 " />
+            <img src="/moto/aspl/arrow-up-right.webp" alt="Arrow" className="w-5 h-5 " />
           </div>
         )}
       </div>

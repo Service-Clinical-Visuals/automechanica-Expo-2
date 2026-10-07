@@ -64,7 +64,7 @@ export default function Header() {
             className="flex-shrink-0 transition-transform duration-300 ease-out hover:scale-[1.02]"
           >
             <img
-              src="/moto/terrain/logo.png"
+              src="/moto/terrain/logo.webp"
               alt="Terrain Tamer 4WD Parts"
               className="w-[220px] md:w-[280px] [@media(min-width:1250px)_and_(max-width:1499px)]:!w-[240px] min-[1500px]:w-[333px] h-auto object-contain"
             />
@@ -104,7 +104,7 @@ export default function Header() {
               </span>
 
               <img
-                src="/moto/terrain/eng.png"
+                src="/moto/terrain/eng.webp"
                 alt=""
                 className="w-[29px] h-[18px] object-contain transition-transform duration-300 group-hover:scale-110"
               />
@@ -189,7 +189,7 @@ export default function Header() {
                 </span>
 
                 <img
-                  src="/moto/terrain/eng.png"
+                  src="/moto/terrain/eng.webp"
                   alt=""
                   className="w-[24px] h-[15px] object-contain transition-transform duration-300 group-hover:scale-110"
                 />

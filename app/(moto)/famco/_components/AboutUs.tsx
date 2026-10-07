@@ -28,12 +28,12 @@ export default function AboutUs() {
         {/* Images */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10 mb-10" data-aos="fade-up" data-aos-delay="200">
           <img
-            src="/moto/famco/abt1.png"
+            src="/moto/famco/abt1.webp"
             alt="Famco Facility Exterior"
             className="w-full h-auto object-cover rounded-[5px]"
           />
           <img
-            src="/moto/famco/abt2.png"
+            src="/moto/famco/abt2.webp"
             alt="Famco Facility Interior"
             className="w-full h-auto object-cover rounded-[5px]"
           />

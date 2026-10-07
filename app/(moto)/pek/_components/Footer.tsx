@@ -18,7 +18,7 @@ export default function Footer() {
           >
             <div className="w-[280px] sm:w-[340px] xl:w-[380px] h-[70px] sm:h-[80px] xl:h-[90px] mb-5 sm:mb-[25px] relative">
               <img 
-                src="/moto/pek/footer_logo.png" 
+                src="/moto/pek/footer_logo.webp" 
                 alt="Pek Technic Engineering Works Logo" 
                 className="w-full h-full object-contain object-left"
               />
@@ -115,7 +115,7 @@ export default function Footer() {
             <ul className="flex flex-col gap-4 sm:gap-[16px]">
               <li className="flex items-start gap-3 sm:gap-[12px]">
                 <div className="w-[22px] h-[22px] sm:w-[24px] sm:h-[24px] mt-0.5 flex-shrink-0">
-                  <img src="/moto/pek/loc.png" alt="Location" className="w-full h-full object-contain" />
+                  <img src="/moto/pek/loc.webp" alt="Location" className="w-full h-full object-contain" />
                 </div>
                 <span className="section-text font-normal text-white leading-relaxed text-sm sm:text-base">
                   B.O.SB Bakır ve Pirinç San. Sitesi, Çiğdem Cd. No:3 A Blok Kat:-2, 34524 Beylikdüzü/İstanbul, Türkiye
@@ -123,7 +123,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3 sm:gap-[12px]">
                 <div className="w-[22px] h-[22px] sm:w-[24px] sm:h-[24px] flex-shrink-0">
-                  <img src="/moto/pek/phn.png" alt="Phone" className="w-full h-full object-contain" />
+                  <img src="/moto/pek/phn.webp" alt="Phone" className="w-full h-full object-contain" />
                 </div>
                 <span className="section-text font-normal text-white text-sm sm:text-base">
                   (0212) 855 21 01
@@ -131,7 +131,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3 sm:gap-[12px]">
                 <div className="w-[22px] h-[22px] sm:w-[24px] sm:h-[24px] flex-shrink-0">
-                  <img src="/moto/pek/mail.png" alt="Email" className="w-full h-full object-contain" />
+                  <img src="/moto/pek/mail.webp" alt="Email" className="w-full h-full object-contain" />
                 </div>
                 <span className="section-text font-normal text-white text-sm sm:text-base">
                   info@pektechnic.com
@@ -152,16 +152,16 @@ export default function Footer() {
             </h4>
             <div className="flex items-center gap-4 sm:gap-[20px]">
               <Link href="https://facebook.com" target="_blank" className="w-[22px] h-[22px] sm:w-[24px] sm:h-[24px] opacity-100 hover:scale-110 transition-all duration-300">
-                <img src="/moto/pek/fb.png" alt="Facebook" className="w-full h-full object-contain" />
+                <img src="/moto/pek/fb.webp" alt="Facebook" className="w-full h-full object-contain" />
               </Link>
               <Link href="https://twitter.com" target="_blank" className="w-[22px] h-[22px] sm:w-[24px] sm:h-[24px] opacity-100 hover:scale-110 transition-all duration-300">
-                <img src="/moto/pek/twit.png" alt="Twitter" className="w-full h-full object-contain" />
+                <img src="/moto/pek/twit.webp" alt="Twitter" className="w-full h-full object-contain" />
               </Link>
               <Link href="https://linkedin.com" target="_blank" className="w-[22px] h-[22px] sm:w-[24px] sm:h-[24px] opacity-100 hover:scale-110 transition-all duration-300">
-                <img src="/moto/pek/link.png" alt="LinkedIn" className="w-full h-full object-contain" />
+                <img src="/moto/pek/link.webp" alt="LinkedIn" className="w-full h-full object-contain" />
               </Link>
               <Link href="https://instagram.com" target="_blank" className="w-[22px] h-[22px] sm:w-[24px] sm:h-[24px] opacity-100 hover:scale-110 transition-all duration-300">
-                <img src="/moto/pek/insta.png" alt="Instagram" className="w-full h-full object-contain" />
+                <img src="/moto/pek/insta.webp" alt="Instagram" className="w-full h-full object-contain" />
               </Link>
             </div>
           </div>

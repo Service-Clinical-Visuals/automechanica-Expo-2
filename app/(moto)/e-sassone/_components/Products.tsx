@@ -7,25 +7,25 @@ import Button from "./Button";
 const categories = [
   {
     name: "Clutch discs",
-    image: "/moto/e-sassone/products/1.png",
+    image: "/moto/e-sassone/products/1.webp",
     description:
       "Clutch discs for cars, commercial vehicles, tractors, trucks and special applications, designed to ensure smooth engagement, durability and stable performance.",
   },
   {
     name: "Pressure plates",
-    image: "/moto/e-sassone/products/2.png",
+    image: "/moto/e-sassone/products/2.webp",
     description:
       "Pressure plates and clutch assemblies engineered to ensure correct load, long-term reliability and consistent performance in different operating conditions.",
   },
   {
     name: "Clutch kits",
-    image: "/moto/e-sassone/products/3.png",
+    image: "/moto/e-sassone/products/3.webp",
     description:
       "Complete solutions for fast and safe replacement: clutch disc, pressure plate and matching components according to each technical specification.",
   },
   {
     name: "Torsional dampers",
-    image: "/moto/e-sassone/products/4.png",
+    image: "/moto/e-sassone/products/4.webp",
     description:
       "Components designed to reduce torsional vibrations on engines, transmissions and industrial, agricultural, marine and special applications.",
   },

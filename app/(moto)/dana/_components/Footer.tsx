@@ -14,7 +14,7 @@ const Footer = () => {
         {/* Splash Image Background on the Left */}
         <div
           className="absolute top-0 left-0 w-full -rotate-4 origin-left md:w-[60%] lg:w-[50%] md:h-[60%] lg:h-[70%]  z-0 bg-no-repeat bg-left-top bg-contain lg:bg-cover "
-          style={{ backgroundImage: `url('/moto/dana/bgfooter.png')` }}
+          style={{ backgroundImage: `url('/moto/dana/bgfooter.webp')` }}
         ></div>
 
         <div className="custom-container relative z-10 grid grid-cols-2 lg:grid-cols-12 gap-8 min-[3800px]:gap-20">
@@ -22,7 +22,7 @@ const Footer = () => {
           {/* Column 1: Logo & Welcome (Span 4) */}
           <div className="col-span-2 lg:col-span-5 flex flex-col gap-4 min-[3800px]:gap-12 pr-4 lg:pr-8">
             <img
-              src="/moto/dana/logo.png"
+              src="/moto/dana/logo.webp"
               alt="Spicer Logo"
               className="w-[200px] min-[3800px]:w-[400px] object-contain mb-2 "
             />

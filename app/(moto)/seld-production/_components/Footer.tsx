@@ -13,7 +13,7 @@ export default function Footer() {
 
           {/* Logo + tagline */}
           <div className="flex flex-col items-start gap-4" data-aos="fade-up">
-            <img src="/moto/seld-production/logo.png" alt="SELD Production" className="h-16 w-auto" />
+            <img src="/moto/seld-production/logo.webp" alt="SELD Production" className="h-16 w-auto" />
             <p className="content-white text-[16px]!">
               50 years&apos; experience in formulation and manufacturing of fuel additives, special
               lubricants and High Performance maintenance products
@@ -78,7 +78,7 @@ export default function Footer() {
 
           <div data-aos="fade-up" data-aos-delay="300">
             <img
-              src="/moto/seld-production/dnv.png"
+              src="/moto/seld-production/dnv.webp"
               alt="DNV Certification"
               className="hidden lg:block absolute top-0 right-0 w-20 h-20"
               data-aos="fade-up"

@@ -5,9 +5,9 @@ import Typography from "./Typography";
 
 const Latest = () => {
   const images = [
-    "/moto/dana/latest1.png",
-    "/moto/dana/latest2.png",
-    "/moto/dana/latest3.png",
+    "/moto/dana/latest1.webp",
+    "/moto/dana/latest2.webp",
+    "/moto/dana/latest3.webp",
   ];
 
   return (

@@ -17,11 +17,11 @@ export default function Footer() {
           <div className="flex flex-col gap-5 lg:col-span-4" data-aos="fade-up" data-aos-delay="100">
             <Link href="#" className="inline-block">
               <img
-                src="/moto/swd/logo.png"
+                src="/moto/swd/logo.webp"
                 alt="Rheinol Logo"
                 className="w-[180px] sm:w-[220px] h-auto object-contain object-left"
                 onError={(e) => {
-                  e.currentTarget.src = "/moto/tomex/logo.png";
+                  e.currentTarget.src = "/moto/tomex/logo.webp";
                 }}
               />
             </Link>

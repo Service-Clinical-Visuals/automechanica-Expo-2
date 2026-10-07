@@ -12,32 +12,32 @@ const fairs = [
   {
     title: "Automechanika Istanbul 2026",
     text: "Turkey's Leading International Automotive Industry Exhibition",
-    image: "/moto/mogesan/trade2.png",
+    image: "/moto/mogesan/trade2.webp",
   },
   {
     title: "Automechanika Dubai 2024",
     text: "The largest international trade exhibition for the automotive aftermarket...",
-    image: "/moto/mogesan/trade3.png",
+    image: "/moto/mogesan/trade3.webp",
   },
   {
     title: "Automechanika Frankfurt 2024",
     text: "The World's Leading International Automotive Industry Exhibition",
-    image: "/moto/mogesan/trade1.png",
+    image: "/moto/mogesan/trade1.webp",
   },
   {
     title: "Automechanika Istanbul 2026",
     text: "Turkey's Leading International Automotive Industry Exhibition",
-    image: "/moto/mogesan/trade2.png",
+    image: "/moto/mogesan/trade2.webp",
   },
   {
     title: "Automechanika Dubai 2024",
     text: "The largest international trade exhibition for the automotive aftermarket...",
-    image: "/moto/mogesan/trade3.png",
+    image: "/moto/mogesan/trade3.webp",
   },
   {
     title: "Automechanika Frankfurt 2024",
     text: "The World's Leading International Automotive Industry Exhibition",
-    image: "/moto/mogesan/trade1.png",
+    image: "/moto/mogesan/trade1.webp",
   },
 ];
 

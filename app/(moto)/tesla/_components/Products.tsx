@@ -11,25 +11,25 @@ const productsData = [
     id: "01",
     title: "Ignition Cables",
     desc: "TESLA BLATNÁ is the largest European manufacturer of ignition cables and one of the main suppliers of other ignition...",
-    image: "/moto/tesla/product1.png"
+    image: "/moto/tesla/product1.webp"
   },
   {
     id: "02",
     title: "Ignition Coils",
     desc: "Ignition coils are a key part of the ignition system of petrol engines. Their job is to convert the low battery voltage (12 volts)...",
-    image: "/moto/tesla/product2.png"
+    image: "/moto/tesla/product2.webp"
   },
   {
     id: "03",
     title: "Automotive Bulbs",
     desc: "TESLA Blatná has long been known as a leading supplier of a wide range of automotive light bulbs...",
-    image: "/moto/tesla/product3.png"
+    image: "/moto/tesla/product3.webp"
   },
   {
     id: "04",
     title: "Fuses",
     desc: "A fuse is a small but very important safety part. It is designed to stop current from exceeding the rating of the wires or components...",
-    image: "/moto/tesla/product4.png"
+    image: "/moto/tesla/product4.webp"
   }
 ];
 

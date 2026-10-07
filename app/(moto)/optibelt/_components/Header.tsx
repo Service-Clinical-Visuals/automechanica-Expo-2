@@ -83,7 +83,7 @@ export default function Header() {
                 className="flex-shrink-0 transition-transform duration-500 ease-[cubic-bezier(0.25,0.8,0.25,1)] hover:scale-105"
               >
                 <img
-                  src="/moto/optibelt/logo.png"
+                  src="/moto/optibelt/logo.webp"
                   alt="Optibelt Logo"
                   className="w-[70px] md:w-[85px] xl:w-[101px] h-auto object-contain"
                 />
@@ -118,7 +118,7 @@ export default function Header() {
                   className="transition-transform duration-500 ease-[cubic-bezier(0.25,0.8,0.25,1)] hover:opacity-70 hover:rotate-90"
                 >
                   <img
-                    src="/moto/optibelt/align.png"
+                    src="/moto/optibelt/align.webp"
                     alt=""
                     className="w-7 h-7 object-contain"
                   />

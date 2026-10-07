@@ -8,22 +8,22 @@ const certifications = [
   {
     code: "IATF 16949",
     label: "Quality Management System",
-    image: "/moto/asas/c1.jpg",
+    image: "/moto/asas/c1.webp",
   },
   {
     code: "ISO 14001:2015",
     label: "Quality Management System",
-    image: "/moto/asas/c2.jpg",
+    image: "/moto/asas/c2.webp",
   },
   {
     code: "ISO 45001:2018",
     label: "Quality Management System",
-    image: "/moto/asas/c3.jpg",
+    image: "/moto/asas/c3.webp",
   },
   {
     code: "ISO 9001:2015",
     label: "Quality Management System",
-    image: "/moto/asas/c4.jpg",
+    image: "/moto/asas/c4.webp",
   },
 ];
 

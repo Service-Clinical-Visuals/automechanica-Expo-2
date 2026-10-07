@@ -72,7 +72,7 @@ const Header = () => {
           <div className="custom-container flex items-center justify-between gap-4 xl:gap-5 w-full">
             <Link href="/" className="flex items-center shrink-0">
               <img
-                src="/esan/logo1.png"
+                src="/esan/logo1.webp"
                 alt="ESAN Logo"
                 className="h-10 sm:h-12 md:h-16 min-[2100px]:h-20 min-[3800px]:h-28 w-auto object-contain"
               />

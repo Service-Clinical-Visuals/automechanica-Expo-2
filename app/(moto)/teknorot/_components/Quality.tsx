@@ -54,7 +54,7 @@ export default function Quality() {
                 <li key={idx} className="flex items-center  gap-3">
                   <div className="mt-1">
                     <img
-                      src="/moto/teknorot/steering.png"
+                      src="/moto/teknorot/steering.webp"
                       alt="icon"
                       className="w-auto h-auto object-contain"
                     />

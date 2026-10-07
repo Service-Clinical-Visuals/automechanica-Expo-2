@@ -35,7 +35,7 @@ const Products = () => {
           {/* Right Title (Outlined) */}
           <div className="xl:text-right " data-aos="fade-left" data-aos-duration="1000">
             <img
-              src="/moto/UTB/heading3.png"
+              src="/moto/UTB/heading3.webp"
               alt="Our Products"
               className="h-12 md:h-17 lg:h-18 w-auto object-contain object-right"
             />
@@ -59,7 +59,7 @@ const Products = () => {
                 alt={product.title}
                 className="w-full h-full object-cover  group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"
                 onError={(e) => {
-                  (e.target as HTMLImageElement).src = "/moto/UTB/section2.png";
+                  (e.target as HTMLImageElement).src = "/moto/UTB/section2.webp";
                 }}
               />
 
@@ -82,7 +82,7 @@ const Products = () => {
                     height: "48px"
                   }}
                 >
-                  <img src="/moto/UTB/vector.png" alt="Arrow" className="w-4 h-4 object-contain ml-[-2px]" />
+                  <img src="/moto/UTB/vector.webp" alt="Arrow" className="w-4 h-4 object-contain ml-[-2px]" />
                 </div>
               </div>
             </Link>

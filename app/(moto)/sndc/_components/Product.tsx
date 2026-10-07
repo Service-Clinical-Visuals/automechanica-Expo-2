@@ -23,14 +23,14 @@ const categories = [
 const categoryProducts: Record<string, Product[]> = {
   compressor: [
     {
-      image: "/moto/sndc/p2.png",
+      image: "/moto/sndc/p2.webp",
       title: "Electric Compressor",
       description:
         "Designed for electric, hybrid and off-road vehicles, SNDC's low-voltage electric compressors deliver efficient, reliable cabin cooling. Compatible with R134a and R1234yf refrigerants, they offer a compact, high-performance HVAC solution.",
       href: "/products/electric-compressor",
     },
     {
-      image: "/moto/sndc/p5.png",
+      image: "/moto/sndc/p5.webp",
       title: "SANDEN Compressor",
       description:
         "As an authorized SANDEN distributor for over 30 years, SNDC supplies trusted SD5 and SD7 air conditioning compressors for industrial and off-road vehicles. Compatible with R134a and R1234yf refrigerants, they deliver reliable, high-performance cooling across diverse applications.",
@@ -40,14 +40,14 @@ const categoryProducts: Record<string, Product[]> = {
 
   "modular-control-panel": [
     {
-      image: "/moto/sndc/p4.png",
+      image: "/moto/sndc/p4.webp",
       title: "Modular Control Panel",
       description:
         "SNDC offers 12V and 24V cable-operated control panels for industrial and off-road vehicles, featuring multiple blower speeds and long service life. Custom-designed control panels are also available to meet specific application requirements without tooling costs.",
       href: "/products/modular-control-panel",
     },
     {
-      image: "/moto/sndc/p4.png",
+      image: "/moto/sndc/p4.webp",
       title: "Custom Control Panel",
       description:
         "SNDC offers 12V and 24V cable-operated control panels for industrial and off-road vehicles, featuring multiple blower speeds and long service life. Custom-designed control panels are also available to meet specific application requirements without tooling costs.",
@@ -57,14 +57,14 @@ const categoryProducts: Record<string, Product[]> = {
 
   fans: [
     {
-      image: "/moto/sndc/p1.png",
+      image: "/moto/sndc/p1.webp",
       title: "Fans",
       description:
         "SNDC offers OEM-quality fans, blowers and motors for agricultural, construction and industrial vehicles, ensuring reliable cooling performance, seamless compatibility and long-lasting durability in demanding environments.",
       href: "/products/hvac-fans",
     },
     {
-      image: "/moto/sndc/p1.png",
+      image: "/moto/sndc/p1.webp",
       title: "Fans",
       description:
         "SNDC offers OEM-quality fans, blowers and motors for agricultural, construction and industrial vehicles, ensuring reliable cooling performance, seamless compatibility and long-lasting durability in demanding environments.",
@@ -74,14 +74,14 @@ const categoryProducts: Record<string, Product[]> = {
 
   "heating-valve": [
     {
-      image: "/moto/sndc/p3.png",
+      image: "/moto/sndc/p3.webp",
       title: "Heating Valves",
       description:
         "SNDC heating valves provide precise cabin temperature control for agricultural, construction, industrial and commercial vehicles. Available in cable-operated, button-operated and motorized options, they deliver reliable, durable performance.",
       href: "/products/heating-valve",
     },
     {
-      image: "/moto/sndc/p3.png",
+      image: "/moto/sndc/p3.webp",
       title: "Heating Valves",
       description:
         "SNDC heating valves provide precise cabin temperature control for agricultural, construction, industrial and commercial vehicles. Available in cable-operated, button-operated and motorized options, they deliver reliable, durable performance.",

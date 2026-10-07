@@ -17,7 +17,7 @@ export default function Cat() {
             className="w-full aspect-[792/324] rounded-none overflow-hidden group shadow-sm hover:shadow-md transition-shadow duration-300"
           >
             <img
-              src="/moto/samco/cat.png"
+              src="/moto/samco/cat.webp"
               alt="SAMCO special production and fabrication"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out"
             />

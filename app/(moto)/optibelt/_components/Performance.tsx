@@ -10,19 +10,19 @@ interface Card {
 
 const cards: Card[] = [
   {
-    image: "/moto/optibelt/p1.png",
+    image: "/moto/optibelt/p1.webp",
     title: "New Online Presence",
     description:
       "Learn all about the features of our new online presence, which integrates our website and eShop. Discover the improvements we have developed for you and let us answer any questions you may have.",
   },
   {
-    image: "/moto/optibelt/p2.png",
+    image: "/moto/optibelt/p2.webp",
     title: "WebCAP Drive Calculator",
     description:
       "Optibelt WebCap drive calculator is a web-based design and calculation software for belt drive systems. With just a few inputs you receive suitable product recommendations, technical data, and clearly structured calculation results.",
   },
   {
-    image: "/moto/optibelt/p3.png",
+    image: "/moto/optibelt/p3.webp",
     title: "Distributor Locator",
     description:
       "You are looking for the right Optibelt sales partner in your area? We offer a large network of distributors all over the world. Explore our distributor locator to find the perfect partner for you.",
@@ -73,7 +73,7 @@ export default function Performance() {
             >
               <div
                 className={`w-full aspect-[483/365] rounded-2xl overflow-hidden ${
-                  card.image.includes("p1.png") ? "bg-[#E6E6E6]" : ""
+                  card.image.includes("p1.webp") ? "bg-[#E6E6E6]" : ""
                 }`}
               >
                 <img

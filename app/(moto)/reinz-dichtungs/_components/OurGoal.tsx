@@ -7,7 +7,7 @@ export default function OurGoal() {
   return (
     <section 
       className="w-full py-20 md:py-32 relative bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: "url('/moto/reinz-dichtungs/bg.png')" }}
+      style={{ backgroundImage: "url('/moto/reinz-dichtungs/bg.webp')" }}
       id="our-goal"
     >
     

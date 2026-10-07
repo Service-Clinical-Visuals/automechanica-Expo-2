@@ -19,7 +19,7 @@ export default function Footer() {
           <div className="flex flex-col gap-8 col-span-2 lg:col-span-3" data-aos="fade-up">
             <Link href="#">
               <img
-                src="/moto/famco/flogo.png"
+                src="/moto/famco/flogo.webp"
                 alt="FAMCO GENUINE Logo"
                 className="h-10 w-auto object-contain"
                 onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<span class="text-white font-bold text-2xl oswald-font tracking-wide">FAMCO GENUINE</span>' }}

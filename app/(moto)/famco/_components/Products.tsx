@@ -5,35 +5,35 @@ import React from "react";
 export default function Products() {
   const products = [
     {
-      image: "/moto/famco/p1.png",
+      image: "/moto/famco/p1.webp",
       title: "Water Pump",
     },
     {
-      image: "/moto/famco/p2.png",
+      image: "/moto/famco/p2.webp",
       title: "Water Pump Repair Kit",
     },
     {
-      image: "/moto/famco/p3.png",
+      image: "/moto/famco/p3.webp",
       title: "Housing",
     },
     {
-      image: "/moto/famco/p4.png",
+      image: "/moto/famco/p4.webp",
       title: "Fuel Feed Pump",
     },
     {
-      image: "/moto/famco/p5.png",
+      image: "/moto/famco/p5.webp",
       title: "Oil Pump",
     },
     {
-      image: "/moto/famco/p6.png",
+      image: "/moto/famco/p6.webp",
       title: "Repair Kits",
     },
     {
-      image: "/moto/famco/p7.png",
+      image: "/moto/famco/p7.webp",
       title: "Gaskets",
     },
     {
-      image: "/moto/famco/p8.png",
+      image: "/moto/famco/p8.webp",
       title: "Valves",
     }
   ];

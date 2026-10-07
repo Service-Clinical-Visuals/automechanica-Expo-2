@@ -15,7 +15,7 @@ export default function Footer() {
           {/* Column 1: Logo & Socials */}
           <div className="col-span-2 lg:col-span-3 flex flex-col gap-6" data-aos="fade-up" data-aos-delay="100">
             <Link href="#" className="w-full inline-block">
-              <img src="/moto/skt/footer-logo.png" alt="SKT Logo" className="w-[180px] min-[3800px]:w-[320px] h-auto object-contain object-left" />
+              <img src="/moto/skt/footer-logo.webp" alt="SKT Logo" className="w-[180px] min-[3800px]:w-[320px] h-auto object-contain object-left" />
             </Link>
             <div className="flex items-center gap-3 min-[3800px]:gap-6 mt-4 min-[3800px]:mt-8">
               <a href="#" className="w-10 h-10 min-[3800px]:w-16 min-[3800px]:h-16 rounded-full bg-[var(--color-primary)] flex items-center justify-center hover:opacity-90 transition-opacity">

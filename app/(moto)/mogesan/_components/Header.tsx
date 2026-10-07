@@ -75,7 +75,7 @@ export default function Header() {
             <div className={`w-full flex items-center justify-between transition-all duration-500 ease-out ${isAtTop ? "px-6 md:px-8" : "px-0"}`}>
               <Link href="#" className="flex-shrink-0 animate-fade-in [animation-delay:150ms]">
                 <img
-                  src="/moto/mogesan/logo.png"
+                  src="/moto/mogesan/logo.webp"
                   alt="MOGESAN"
                   className="h-[49px] w-auto object-contain"
                 />

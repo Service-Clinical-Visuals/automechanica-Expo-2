@@ -54,7 +54,7 @@ export default function AboutUs() {
           <div className="lg:col-span-6 w-full" data-aos="fade-left" data-aos-delay="100">
             <div className="relative w-full aspect-[4/2.5] rounded-sm overflow-hidden shadow-xl border border-gray-100 bg-gray-50">
               <img
-                src="/moto/temel/temel-ofc.png"
+                src="/moto/temel/temel-ofc.webp"
                 alt="Temel Conta Manufacturing Facility & Team"
                 className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
               />

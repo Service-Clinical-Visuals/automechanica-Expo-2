@@ -9,19 +9,19 @@ export default function EngineProtection() {
       date: "Mar 6, 2026",
       title: "February 2026: FCS Automotive Adds 32 New Suspension Part Numbers",
       text: "FCS Auto is a fully vertically integrated manufacturer, giving us complete control over production, quality, and efficiency.",
-      img: "/moto/fcs/n1.png"
+      img: "/moto/fcs/n1.webp"
     },
     {
       date: "Feb 17, 2025",
       title: "January-February 2025: FCS Introduces 181 New Numbers",
       text: "FCS Automotive introduces 181 new part numbers, expanding market coverage and delivering more ride control solutions.",
-      img: "/moto/fcs/n2.png"
+      img: "/moto/fcs/n2.webp"
     },
     {
       date: "Oct 30, 2024",
       title: "Visit Us at the 2025 HDAW Show - Booth 533",
       text: "FCS will exhibit at AAPEX Show, Las Vegas. Visit Booth A323B to explore our latest products and solutions.",
-      img: "/moto/fcs/n3.png"
+      img: "/moto/fcs/n3.webp"
     }
   ];
 
@@ -48,7 +48,7 @@ export default function EngineProtection() {
               </div>
               <div className="p-2 flex flex-col flex-grow">
                 <div className="flex items-center gap-2 mb-2">
-                  <img src="/moto/fcs/date.png" alt="Calendar" className="w-auto h-auto object-contain" />
+                  <img src="/moto/fcs/date.webp" alt="Calendar" className="w-auto h-auto object-contain" />
                   <span className="text-[#F7941D] card-text font-regular">{news.date}</span>
                 </div>
                 <h4 className="card-title text-[#272727] font-semibold oswald-font mb-2">

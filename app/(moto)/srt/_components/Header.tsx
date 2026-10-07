@@ -31,7 +31,7 @@ export default function Header() {
               
               <Link href="#" className="relative z-20 w-[100%] flex justify-center">
                 <img
-                  src="/moto/srt/logo.png"
+                  src="/moto/srt/logo.webp"
                   alt="SRT Logo"
                   className="w-full object-contain"
                 />

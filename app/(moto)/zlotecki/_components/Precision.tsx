@@ -32,7 +32,7 @@ const Precision = () => {
               {/* Image Container */}
               <div className="w-full xl:w-[45%] shrink-0 aspect-[349/231] bg-white flex items-center justify-center p-4 rounded-tl-[24px] rounded-br-[24px] rounded-tr-none rounded-bl-none min-[3800px]:rounded-tl-[48px] min-[3800px]:rounded-br-[48px]">
                 <img
-                  src="/zlotecki/a1.png"
+                  src="/zlotecki/a1.webp"
                   alt="Pistons for diesel engines"
                   className="w-full h-full object-contain"
                   onError={(e) => { e.currentTarget.style.display = 'none'; }}
@@ -78,7 +78,7 @@ const Precision = () => {
               {/* Image Container */}
               <div className="w-full xl:w-[45%] shrink-0 aspect-[349/231] bg-white flex items-center justify-center p-4 rounded-tl-[24px] rounded-br-[24px] rounded-tr-none rounded-bl-none min-[3800px]:rounded-tl-[48px] min-[3800px]:rounded-br-[48px]">
                 <img
-                  src="/zlotecki/a2.png"
+                  src="/zlotecki/a2.webp"
                   alt="Pistons for petrol engines"
                   className="w-full h-full object-contain"
                   onError={(e) => { e.currentTarget.style.display = 'none'; }}

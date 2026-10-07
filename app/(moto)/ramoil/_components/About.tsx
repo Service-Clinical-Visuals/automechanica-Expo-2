@@ -4,12 +4,12 @@ import Container from "./Container";
 import ParallelogramButton from "./ParallelogramButton";
 
 const stats = [
-  { label: "76.2 million euros in turnover for 2023", img: "/moto/ramoil/about/yellow1.png" },
-  { label: "104 employees 2023", img: "/moto/ramoil/about/yellow2.png" },
-  { label: "1.49 million euros invested in 2023", img: "/moto/ramoil/about/yellow3.png" },
-  { label: "+0.6% turnover growth 2022–2023", img: "/moto/ramoil/about/yellow4.png" },
-  { label: "19,895 tons of products recovered from used oils in 2023", img: "/moto/ramoil/about/yellow5.png" },
-  { label: "60,000 m² of production site surface area", img: "/moto/ramoil/about/yellow6.png" },
+  { label: "76.2 million euros in turnover for 2023", img: "/moto/ramoil/about/yellow1.webp" },
+  { label: "104 employees 2023", img: "/moto/ramoil/about/yellow2.webp" },
+  { label: "1.49 million euros invested in 2023", img: "/moto/ramoil/about/yellow3.webp" },
+  { label: "+0.6% turnover growth 2022–2023", img: "/moto/ramoil/about/yellow4.webp" },
+  { label: "19,895 tons of products recovered from used oils in 2023", img: "/moto/ramoil/about/yellow5.webp" },
+  { label: "60,000 m² of production site surface area", img: "/moto/ramoil/about/yellow6.webp" },
 ];
 
 export default function About() {
@@ -24,7 +24,7 @@ export default function About() {
             {/* Left image */}
             <div className="w-full xl:w-1/2 shrink-0 items-center" data-aos="fade-right">
               <img
-                src="/moto/ramoil/about.png"
+                src="/moto/ramoil/about.webp"
                 alt="Ra.M.Oil production facility"
                 className="w-full h-full object-cover"
                 style={{ minHeight: 320 }}

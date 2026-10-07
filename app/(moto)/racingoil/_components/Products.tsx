@@ -8,21 +8,21 @@ const slides = [
   [
     {
       id: 1,
-      img: "/moto/racingoil/cat1.png",
+      img: "/moto/racingoil/cat1.webp",
       title: "Light Vehicles",
       desc: "Premium oils for passenger cars and light vehicles",
       colSpan: "md:col-span-2"
     },
     {
       id: 2,
-      img: "/moto/racingoil/cat2.png",
+      img: "/moto/racingoil/cat2.webp",
       title: "HEAVY VEHICLES",
       desc: "Special lubricants for heavy vehicles and trucks",
       colSpan: "md:col-span-1"
     },
     {
       id: 3,
-      img: "/moto/racingoil/cat3.png",
+      img: "/moto/racingoil/cat3.webp",
       title: "HYDRAULICS",
       desc: "High-quality, high-performance hydraulic oils",
       colSpan: "md:col-span-1"
@@ -32,21 +32,21 @@ const slides = [
   [
     {
       id: 4,
-      img: "/moto/racingoil/cat4.png",
+      img: "/moto/racingoil/cat4.webp",
       title: "AGRICULTURE",
       desc: "Lubrication solutions for agricultural machinery and tractors",
       colSpan: "md:col-span-2"
     },
     {
       id: 5,
-      img: "/moto/racingoil/cat5.png",
+      img: "/moto/racingoil/cat5.webp",
       title: "TRANSMISSIONS",
       desc: "Smooth Shifting with Advanced Transmission Protection",
       colSpan: "md:col-span-1"
     },
     {
       id: 6,
-      img: "/moto/racingoil/cat6.png",
+      img: "/moto/racingoil/cat6.webp",
       title: "MOTORCYCLES",
       desc: "High-performance lubricants for motorcycles",
       colSpan: "md:col-span-1"
@@ -56,21 +56,21 @@ const slides = [
   [
     {
       id: 7,
-      img: "/moto/racingoil/cat7.png",
+      img: "/moto/racingoil/cat7.webp",
       title: "BRAKE FLUID",
       desc: "Reliable Braking Performance in Every Driving Condition",
       colSpan: "md:col-span-2"
     },
     {
       id: 8,
-      img: "/moto/racingoil/cat8.png",
+      img: "/moto/racingoil/cat8.webp",
       title: "MARINE",
       desc: "Premium Marine Lubricants for Maximum Engine Protection",
       colSpan: "md:col-span-1"
     },
     {
       id: 9,
-      img: "/moto/racingoil/cat9.png",
+      img: "/moto/racingoil/cat9.webp",
       title: "INDUSTRIAL",
       desc: "High-Performance Industrial Oils for Every Application Requirement",
       colSpan: "md:col-span-1"
@@ -108,7 +108,7 @@ const Products = () => {
                   alt={product.title}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                   onError={(e) => {
-                    e.currentTarget.src = "/moto/racingoil/abt.png";
+                    e.currentTarget.src = "/moto/racingoil/abt.webp";
                   }}
                 />
 

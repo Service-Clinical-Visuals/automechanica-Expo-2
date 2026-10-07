@@ -9,7 +9,7 @@ const Updates = () => {
   const newsData = [
     {
       id: 1,
-      image: "/esan/news1.png",
+      image: "/esan/news1.webp",
       date: "12/05/2025",
       tag: "New Product",
       title: "Opel Insignia Battery",
@@ -17,7 +17,7 @@ const Updates = () => {
     },
     {
       id: 2,
-      image: "/esan/news2.png",
+      image: "/esan/news2.webp",
       date: "07/09/2025",
       tag: "New Event",
       title: "Audi A3 Battery",
@@ -25,7 +25,7 @@ const Updates = () => {
     },
     {
       id: 3,
-      image: "/esan/news3.png",
+      image: "/esan/news3.webp",
       date: "11/07/2025",
       tag: "New Blog",
       title: "Opel Astra 1.3 Akü",

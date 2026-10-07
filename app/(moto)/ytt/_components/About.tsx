@@ -26,7 +26,7 @@ export default function About() {
           className="group w-full aspect-[1620/500] rounded-[5px] overflow-hidden cursor-pointer"
         >
           <img
-            src="/moto/ytt/about.png"
+            src="/moto/ytt/about.webp"
             alt="YTT Automotive manufacturing facility"
             className="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105 group-hover:brightness-105"
           />

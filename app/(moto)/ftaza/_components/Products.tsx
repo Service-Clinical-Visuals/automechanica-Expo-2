@@ -29,7 +29,7 @@ export default function Products() {
           {/* Left: Image */}
           <div className="lg:col-span-8" data-aos="fade-right">
             <img
-              src="/moto/ftaza/p.png"
+              src="/moto/ftaza/p.webp"
               alt="Our Services"
               className="w-full h-full object-cover rounded-none rounded-tl-[50px] rounded-br-[50px]"
             />

@@ -25,10 +25,10 @@ const productLinks = [
 ];
 
 const socialLinks = [
-  { name: "Facebook", href: "#", icon: "/moto/sndc/fb.png" },
-  { name: "Twitter", href: "#", icon: "/moto/sndc/twit.png" },
-  { name: "LinkedIn", href: "#", icon: "/moto/sndc/link.png" },
-  { name: "Instagram", href: "#", icon: "/moto/sndc/insta.png" },
+  { name: "Facebook", href: "#", icon: "/moto/sndc/fb.webp" },
+  { name: "Twitter", href: "#", icon: "/moto/sndc/twit.webp" },
+  { name: "LinkedIn", href: "#", icon: "/moto/sndc/link.webp" },
+  { name: "Instagram", href: "#", icon: "/moto/sndc/insta.webp" },
 ];
 
 export default function Footer() {
@@ -57,7 +57,7 @@ export default function Footer() {
               className="inline-block mb-6 transition-transform duration-300 hover:scale-105"
             >
               <Image
-                src="/moto/sndc/logo.png"
+                src="/moto/sndc/logo.webp"
                 alt="SNDC Logo"
                 width={100}
                 height={80}
@@ -135,7 +135,7 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3 min-w-0">
                 <Image
-                  src="/moto/sndc/loc.png"
+                  src="/moto/sndc/loc.webp"
                   alt="Location"
                   width={24}
                   height={24}
@@ -149,7 +149,7 @@ export default function Footer() {
 
               <li className="flex items-start gap-3 min-w-0">
                 <Image
-                  src="/moto/sndc/phn.png"
+                  src="/moto/sndc/phn.webp"
                   alt="Phone"
                   width={24}
                   height={24}
@@ -166,7 +166,7 @@ export default function Footer() {
 
               <li className="flex items-start gap-3 min-w-0">
                 <Image
-                  src="/moto/sndc/mail.png"
+                  src="/moto/sndc/mail.webp"
                   alt="Email"
                   width={24}
                   height={24}

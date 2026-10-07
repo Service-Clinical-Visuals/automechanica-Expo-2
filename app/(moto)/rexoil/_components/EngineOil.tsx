@@ -40,7 +40,7 @@ export default function EngineOil() {
             <ul className="space-y-4">
               {benefits.map((item, index) => (
                 <li key={index} className="flex items-start gap-3">
-                  <img src="/moto/rexoil/checkcircle.png" alt="Check Mark" className="w-4 h-4 mt-1" />
+                  <img src="/moto/rexoil/checkcircle.webp" alt="Check Mark" className="w-4 h-4 mt-1" />
                   <p className="section-text text-white niramit  ">
                     <strong className="font-bold">{item.title}</strong> – {item.desc}
                   </p>

@@ -34,7 +34,7 @@ export default function HightecProducts() {
           {/* Right Image */}
           <div className="w-full flex items-center justify-center relative aspect-[4/3] md:aspect-[16/9] xl:aspect-auto xl:h-[400px]" data-aos="fade-left">
             <img 
-              src="/moto/rowe/hightecproduct.png" 
+              src="/moto/rowe/hightecproduct.webp" 
               alt="HIGHTEC Products" 
               className="w-full h-full object-contain drop-shadow-md mix-blend-multiply"
             />

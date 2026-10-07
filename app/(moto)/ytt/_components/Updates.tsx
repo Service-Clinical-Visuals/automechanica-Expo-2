@@ -17,28 +17,28 @@ interface UpdateItem {
 
 const updates: UpdateItem[] = [
   {
-    thumbnail: "/moto/ytt/u1.png",
+    thumbnail: "/moto/ytt/u1.webp",
     title: "We've Moved To Our New 32,000...",
     date: "8.9.2026",
-    detailImage: "/moto/ytt/u1.png",
+    detailImage: "/moto/ytt/u1.webp",
     detailTitle: "We've Moved To Our New 32,000 M² Factory!",
     detailText:
       "Our New, Modern Spare Parts Manufacturing Plant Has Moved To A 32,000 M² Area. This New Facility, Equipped With The Latest Technology, Further Enhances Our Company's Capacity To Provide Automotive Spare Parts Services Worldwide. Our Ability To Respond Quickly And Effectively To Customer Demands Is Strengthened By Our Expanded Capacity. The New Factory Also Allows Us To Strengthen Our Logistics Network.",
   },
   {
-    thumbnail: "/moto/ytt/u2.png",
+    thumbnail: "/moto/ytt/u2.webp",
     title: "The Henn Connector...",
     date: "26.5.2027 - 29.5.2027",
-    detailImage: "/moto/ytt/u2.png",
+    detailImage: "/moto/ytt/u2.webp",
     detailTitle: "The Henn Connector Assembly Unit Has Been Commissioned.",
     detailText:
       "The New Assembly Unit Is Equipped With High-Precision Automation Systems And Modern Equipment. This Is Expected To Significantly Improve Both Efficiency And Quality In Connector Assembly Processes. Maintaining High Standards At Every Stage Of The Production Process, The Unit Will Enable Faster And More Reliable Assembly Of YTT Automotive's Products.",
   },
   {
-    thumbnail: "/moto/ytt/u3.png",
+    thumbnail: "/moto/ytt/u3.webp",
     title: "Automechanika Dubai",
     date: "08.09.2026 - 12.09.2026",
-    detailImage: "/moto/ytt/u3.png",
+    detailImage: "/moto/ytt/u3.webp",
     detailTitle: "YTT Automotive To Exhibit At Automechanika Frankfurt 2026",
     detailText:
       "We Are Excited To Announce That YTT Automotive Will Be Exhibiting At Automechanika Frankfurt 2026, The World's Leading Trade Fair For The Automotive Aftermarket, Taking Place From 8–12 September 2026 In Frankfurt, Germany. The Event Brings Together Thousands Of Industry Professionals, Manufacturers, Distributors, And Mobility Experts From Around The Globe To Explore The Latest Innovations Shaping The Future Of Automotive Technology.",

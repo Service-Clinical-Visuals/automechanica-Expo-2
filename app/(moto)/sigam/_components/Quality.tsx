@@ -5,10 +5,10 @@ import Button from "./Button";
 
 export default function Quality() {
   const certificates = [
-    { image: "/moto/sigam/1.jpg" },
-    { image: "/moto/sigam/2.jpg" },
-    { image: "/moto/sigam/3.jpg" },
-    { image: "/moto/sigam/4.jpg" }
+    { image: "/moto/sigam/1.webp" },
+    { image: "/moto/sigam/2.webp" },
+    { image: "/moto/sigam/3.webp" },
+    { image: "/moto/sigam/4.webp" }
   ];
 
   return (

@@ -24,7 +24,7 @@ export default function About() {
             {/* Bottom Image */}
             <div data-aos="fade-right" className="relative w-full">
               <img
-                src="/moto/ftaza/abt1.png"
+                src="/moto/ftaza/abt1.webp"
                 alt="Car wheel"
                 className="w-full h-auto object-cover rounded-none rounded-tl-[50px] rounded-br-[50px]"
               />
@@ -36,7 +36,7 @@ export default function About() {
             {/* Top Image */}
             <div data-aos="fade-left" className="relative w-full">
               <img
-                src="/moto/ftaza/abt2.png"
+                src="/moto/ftaza/abt2.webp"
                 alt="Car interior"
                 className="w-full h-auto object-cover rounded-none rounded-tl-[50px] rounded-br-[50px]"
               />

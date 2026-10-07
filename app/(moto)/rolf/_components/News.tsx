@@ -14,30 +14,30 @@ export default function News() {
       date: "22 May 2026",
       title: "Progress through sustainability: ROLF...",
       excerpt: "We are delighted to announce a groundbreaking strategic partnership following...",
-      img: "/moto/rolf/news1.png"
+      img: "/moto/rolf/news1.webp"
     },
     {
       date: "March 23, 2026",
       title: "When passion knows no bounds: ROLF meets...",
       excerpt: "When Georges Wenger, owner of the Swiss company 'Carrosserie Georges Wenger...",
-      img: "/moto/rolf/news2.png"
+      img: "/moto/rolf/news2.webp"
     },
     {
       date: "March 8, 2026",
       title: "Full speed ahead into the 2026 season...",
       excerpt: "Full speed ahead into the 2026 season: ROLF Lubricants GmbH & Niklas Vogel!...",
-      img: "/moto/rolf/news3.png"
+      img: "/moto/rolf/news3.webp"
     },
     {
       date: "January 23, 2026",
       title: "ROLF LUBRICANTS GMBH at the Lubricants...",
       excerpt: "ROLF LUBRICANTS GMBH at the Lubricant Expo ME: Networking and Innovation in Dubai...",
-      img: "/moto/rolf/news4.png"
+      img: "/moto/rolf/news4.webp"
     },
   ];
 
   return (
-    <section className="relative w-full py-16  overflow-hidden bg-[url('/moto/rolf/bg3.png')] bg-cover bg-center">
+    <section className="relative w-full py-16  overflow-hidden bg-[url('/moto/rolf/bg3.webp')] bg-cover bg-center">
       {/* Dark overlay for background pattern */}
       <div className="absolute inset-0 bg-[#232323]/90 z-0"></div>
 

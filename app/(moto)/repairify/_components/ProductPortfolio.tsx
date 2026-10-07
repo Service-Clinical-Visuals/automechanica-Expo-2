@@ -6,25 +6,25 @@ import Button from "./Button";
 const products = [
   {
     id: 1,
-    image: "/moto/repairify/1.png",
+    image: "/moto/repairify/1.webp",
     title: "AsTech 8",
     description: "AsTech 8 is a compact diagnostic tool designed for fast health scans, fault code clearing, and multi-brand vehicle diagnostics.",
   },
   {
     id: 2,
-    image: "/moto/repairify/2.png",
+    image: "/moto/repairify/2.webp",
     title: "Digital ADAS Calibration Unit",
     description: "AsTech Digital ADAS Solution for fast, accurate, and OEM-compliant ADAS camera, radar, and LIDAR calibration.",
   },
   {
     id: 3,
-    image: "/moto/repairify/3.png",
+    image: "/moto/repairify/3.webp",
     title: "AsTech Remote Device",
     description: "AsTech Remote Diagnostic Device provides fast OEM-level remote diagnostics with expert technician support.",
   },
   {
     id: 4,
-    image: "/moto/repairify/4.png",
+    image: "/moto/repairify/4.webp",
     title: "All in One",
     description: "AsTech All-in-One delivers diagnostics, calibration, and remote OEM support in one powerful device.",
   }

@@ -19,25 +19,25 @@ interface Category {
 
 const tieRodEnds: Product[] = [
   {
-    image: "/moto/ytt/p1.png",
+    image: "/moto/ytt/p1.webp",
     title: "Tie Rod Ends",
     refNo: "Y613067",
     oemNo: "32111139316",
   },
   {
-    image: "/moto/ytt/p2.png",
+    image: "/moto/ytt/p2.webp",
     title: "Tie Rod Ends",
     refNo: "Y613076",
     oemNo: "32106765235",
   },
   {
-    image: "/moto/ytt/p3.png",
+    image: "/moto/ytt/p3.webp",
     title: "Tie Rod Kit",
     refNo: "Y222015C",
     oemNo: "77367379",
   },
   {
-    image: "/moto/ytt/p4.png",
+    image: "/moto/ytt/p4.webp",
     title: "Tie Rod Ends",
     refNo: "Y640011",
     oemNo: "32116777521",
@@ -46,25 +46,25 @@ const tieRodEnds: Product[] = [
 
 const ballJoints: Product[] = [
   {
-    image: "/moto/ytt/p7.png",
+    image: "/moto/ytt/p7.webp",
     title: "Ball Joints",
     refNo: "Y515011",
     oemNo: "93190905",
   },
   {
-    image: "/moto/ytt/p3.png",
+    image: "/moto/ytt/p3.webp",
     title: "Ball Joints",
     refNo: "Y515011C",
     oemNo: "93190905",
   },
   {
-    image: "/moto/ytt/p8.png",
+    image: "/moto/ytt/p8.webp",
     title: "Ball Joints",
     refNo: "Y515012",
     oemNo: "93190906",
   },
   {
-    image: "/moto/ytt/p9.png",
+    image: "/moto/ytt/p9.webp",
     title: "Ball Joints",
     refNo: "Y517003",
     oemNo: "3640.68",
@@ -73,19 +73,19 @@ const ballJoints: Product[] = [
 
 const controlArms: Product[] = [
   {
-    image: "/moto/ytt/p5.png",
+    image: "/moto/ytt/p5.webp",
     title: "Control Arm",
     refNo: "Y444015",
     oemNo: "93388569",
   },
   {
-    image: "/moto/ytt/p6.png",
+    image: "/moto/ytt/p6.webp",
     title: "Control Arm",
     refNo: "Y444016",
     oemNo: "93388568",
   },
   {
-    image: "/moto/ytt/p3.png",
+    image: "/moto/ytt/p3.webp",
     title: "Control Arm",
     refNo: "Y444016C",
     oemNo: "4806809041",
