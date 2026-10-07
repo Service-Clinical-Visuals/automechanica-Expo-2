@@ -18,7 +18,7 @@ const newsItems = [
     id: 2,
     date: "Friday, 25th July 2025",
     title: "Innovative milestone: VEEDOL launches high-performance",
-    image: "/moto/veedol-moto/Rectangle 32 (1).jpg",
+    image: "/moto/veedol-moto/Rectangle 32 (1).webp",
     href: "#news",
   },
   {

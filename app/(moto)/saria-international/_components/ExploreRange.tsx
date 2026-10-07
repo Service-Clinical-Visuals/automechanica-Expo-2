@@ -63,7 +63,7 @@ export default function ExploreRange() {
               <div className="w-24 md:w-40 bg-[#F4B824] flex items-center justify-center flex-shrink-0 relative rounded-r-xl">
                 {/* Automatically tries R1.png, R2.png, R3.png, falls back to SVG */}
                 <img 
-                  src={`/moto/saria-international/R${idx+1}.png`} 
+                  src={`/moto/saria-international/R${idx+1}.webp`} 
                   alt={card.title} 
                   className="w-14 h-14 object-contain z-10"
                  

@@ -55,7 +55,7 @@ const Logistics = () => {
                 alt="UTB Logistics Truck"
                 className="w-full h-full object-cover"
                 onError={(e) => {
-                  (e.target as HTMLImageElement).src = "/moto/UTB/section3(1).jpg";
+                  (e.target as HTMLImageElement).src = "/moto/UTB/section3(1).webp";
                 }}
               />
             </div>

@@ -132,7 +132,7 @@ const World = () => {
 
                 {/* Floating Icon Circle (Unclipped) */}
                 <div className={`absolute left-1/2 -translate-x-1/2 ${iconPos} w-16 h-16 min-[2100px]:w-20 min-[2100px]:h-20 min-[3800px]:w-28 min-[3800px]:h-28 rounded-full bg-white border border-[#078BC8] flex items-center justify-center z-20 shadow-sm`}>
-                  <img src={`/esan/VECTOR${index + 1}.png`} alt={feature.title} className="w-[50%] h-[50%] object-contain" />
+                  <img src={`/esan/VECTOR${index + 1}.webp`} alt={feature.title} className="w-[50%] h-[50%] object-contain" />
                 </div>
 
               </div>

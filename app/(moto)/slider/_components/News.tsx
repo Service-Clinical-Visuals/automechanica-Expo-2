@@ -87,7 +87,7 @@ export default function News() {
                 : "border-gray-200 text-[#4A4A4A] hover:border-gray-300 bg-white"
                 }`}
             >
-              <img src="/moto/slider/Vector (1).png" alt="Technical" className={`w-5 h-5 object-contain ${activeCategory === "Technical" ? "" : "opacity-50"}`} />
+              <img src="/moto/slider/Vector (1).webp" alt="Technical" className={`w-5 h-5 object-contain ${activeCategory === "Technical" ? "" : "opacity-50"}`} />
               TECHNICAL
             </button>
           </div>

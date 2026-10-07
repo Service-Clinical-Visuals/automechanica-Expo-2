@@ -8,9 +8,9 @@ import Link from "next/link";
 
 const Products = () => {
   const products = [
-    { title: "Lubricants", image: "/moto/UTB/section3(1).jpg", link: "#" },
-    { title: "Motor Oils", image: "/moto/UTB/section3(2).jpg", link: "#" },
-    { title: "Transmissions", image: "/moto/UTB/section3(4).jpg", link: "#" },
+    { title: "Lubricants", image: "/moto/UTB/section3(1).webp", link: "#" },
+    { title: "Motor Oils", image: "/moto/UTB/section3(2).webp", link: "#" },
+    { title: "Transmissions", image: "/moto/UTB/section3(4).webp", link: "#" },
   ];
 
   return (

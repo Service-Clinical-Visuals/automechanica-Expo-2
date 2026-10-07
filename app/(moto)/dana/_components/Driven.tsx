@@ -5,7 +5,7 @@ import Typography from "./Typography";
 
 const Driven = () => {
   // Array of logos a1 to a12
-  const logos = Array.from({ length: 12 }, (_, i) => `/moto/dana/a${i + 1}.png`);
+  const logos = Array.from({ length: 12 }, (_, i) => `/moto/dana/a${i + 1}.webp`);
 
   // Create 3 sets for a perfectly seamless infinite scroll
   const marqueeItems = [...logos, ...logos, ...logos];
