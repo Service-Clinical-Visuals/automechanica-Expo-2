@@ -6,21 +6,21 @@ import Link from "next/link";
 
 const newsItems = [
   {
-    image: "/moto/aspl/b1.png",
+    image: "/moto/aspl/b1.webp",
     subtitle: "",
     title: "When a Remanufactured Component Is the Better Choice",
     description: "The choice between a new and a remanufactured alternator or starter motor often comes down to a simple question: is it worth paying extra for a brand-new unit?",
     link: "#",
   },
   {
-    image: "/moto/aspl/b2.png",
+    image: "/moto/aspl/b2.webp",
     subtitle: "CoreLess means **remanufacturing without the need to return the CORE**. This program is for AS-PL customers.",
     title: "Remanufactured alternators and starter motors",
     description: "The CoreLess programme allows customers to purchase remanufactured alternators and starter motors without having to return the old unit (CORE).",
     link: "#",
   },
   {
-    image: "/moto/aspl/b3.png",
+    image: "/moto/aspl/b3.webp",
     subtitle: "",
     title: "Why a Charging System Fails Despite a New Alternator",
     description: "The vehicle returns to the workshop after just a few days. The alternator has been replaced, yet the charging issue remains.",

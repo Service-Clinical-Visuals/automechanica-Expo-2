@@ -6,25 +6,25 @@ import Button from "./Button";
 const applications = [
   {
     name: "Cars",
-    image: "/moto/e-sassone/application/1.png",
+    image: "/moto/e-sassone/application/1.webp",
     description:
       "Clutch and transmission component range for passenger cars and light commercial vehicles.",
   },
   {
     name: "Trucks",
-    image: "/moto/e-sassone/application/2.png",
+    image: "/moto/e-sassone/application/2.webp",
     description:
       "Applications for trucks, buses and industrial vehicles with dedicated technical requirements.",
   },
   {
     name: "Tractors",
-    image: "/moto/e-sassone/application/3.png",
+    image: "/moto/e-sassone/application/3.webp",
     description:
       "Products and applications for tractors, agricultural vehicles and working machines.",
   },
   {
     name: "Torsion dampers",
-    image: "/moto/e-sassone/application/4.png",
+    image: "/moto/e-sassone/application/4.webp",
     description:
       "Torsional dampers and related solutions for vibration, torque and transmission control.",
   },

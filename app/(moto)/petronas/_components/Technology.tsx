@@ -52,7 +52,7 @@ export default function Technology() {
 
           {/* Left: Image */}
           <div className="xl:col-span-7 order-2 xl:order-1 aspect-[963/670] border border-white/40 relative overflow-hidden rounded-3xl" data-aos="fade-right">
-            <img src="/moto/petronas/tech.jpg" alt="Technology Innovation" className="absolute top-0 left-0 w-full h-full object-cover" />
+            <img src="/moto/petronas/tech.webp" alt="Technology Innovation" className="absolute top-0 left-0 w-full h-full object-cover" />
           </div>
 
           {/* Right: Key Features */}

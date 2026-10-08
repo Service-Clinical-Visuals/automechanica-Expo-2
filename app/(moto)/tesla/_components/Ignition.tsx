@@ -39,7 +39,7 @@ export default function Ignition() {
     <section
       id="ignition"
       className="py-16 md:py-20 bg-cover bg-center relative"
-      style={{ backgroundImage: "url('/moto/tesla/background.png')" }}
+      style={{ backgroundImage: "url('/moto/tesla/background.webp')" }}
     >
       <div className="absolute inset-0 bg-black/40"></div>
 

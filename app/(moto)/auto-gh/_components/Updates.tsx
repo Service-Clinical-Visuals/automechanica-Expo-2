@@ -9,25 +9,25 @@ const Updates = () => {
   const newsData = [
     {
       id: 1,
-      image: "/moto/auto-gh/news1.png",
+      image: "/moto/auto-gh/news1.webp",
       title: "It's what you don't see that matters",
       date: "12/02/2026",
     },
     {
       id: 2,
-      image: "/moto/auto-gh/news2.png",
+      image: "/moto/auto-gh/news2.webp",
       title: "We keep Europe Moving...",
       date: "30/03/2025",
     },
     {
       id: 3,
-      image: "/moto/auto-gh/news3.png",
+      image: "/moto/auto-gh/news3.webp",
       title: "Every mile count.",
       date: "03/05/2026",
     },
     {
       id: 4,
-      image: "/moto/auto-gh/news4.png",
+      image: "/moto/auto-gh/news4.webp",
       title: "Every mile count.",
       date: "22/12/2028",
     },

@@ -8,22 +8,22 @@ const products = [
   {
     title: "Rotary Shaft Seals",
     desc: "Our rotary shaft seals provide reliable sealing for rotating components across automotive and industrial applications. Designed to prevent lubricant leakage and protect against dust and contaminants, they ensure efficient operation and extended component life.",
-    image: "/moto/skt/p1.jpg"
+    image: "/moto/skt/p1.webp"
   },
   {
     title: "Gasket Sets",
     desc: "Our gasket sets provide reliable sealing solutions for automotive and industrial applications. Designed for precise fit and dependable performance, they help prevent leaks and ensure effective protection of critical components.",
-    image: "/moto/skt/p2.jpg"
+    image: "/moto/skt/p2.webp"
   },
   {
     title: "Shaft Bearing & Bushing Group",
     desc: "Our shaft bearings and bushings provide reliable support, smooth movement, and reduced friction for automotive and industrial components. Designed for precise fit and durability, they ensure efficient operation and extended component life.",
-    image: "/moto/skt/p3.jpg"
+    image: "/moto/skt/p3.webp"
   },
   {
     title: "Other Sealing Products",
     desc: "Our other sealing products offer reliable solutions for diverse automotive and industrial applications. Designed for precise fit, durability, and dependable sealing performance, they help protect components and ensure efficient operation.",
-    image: "/moto/skt/p4.jpg"
+    image: "/moto/skt/p4.webp"
   }
 ];
 

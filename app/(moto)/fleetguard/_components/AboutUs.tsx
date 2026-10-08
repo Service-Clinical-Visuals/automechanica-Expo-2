@@ -35,7 +35,7 @@ const AboutUs = () => {
             </p>
             <div className="relative mt-auto">
               <img
-                src="/moto/fleetguard/abt2.png"
+                src="/moto/fleetguard/abt2.webp"
                 alt="Scientist looking at a filter disk"
                 className="w-full h-full object-cover rounded-md relative z-0"
               />
@@ -46,7 +46,7 @@ const AboutUs = () => {
 
             <div className="relative mb-8 2xl:mb-12 4xl:mb-20">
               <img
-                src="/moto/fleetguard/abt1.png"
+                src="/moto/fleetguard/abt1.webp"
                 alt="Man working with a large air filter"
                 className="w-full h-full object-cover rounded-md relative z-0"
               />

@@ -24,7 +24,7 @@ const AboutUs = () => {
         {/* Image */}
         <div className="w-full" data-aos="fade-up" data-aos-delay="100">
           <img
-            src="/moto/skt/section2.png"
+            src="/moto/skt/section2.webp"
             alt="SKT Building"
             className="w-full rounded-tl-[3rem] rounded-br-[3rem] object-cover  aspect-[1680/562]"
           />

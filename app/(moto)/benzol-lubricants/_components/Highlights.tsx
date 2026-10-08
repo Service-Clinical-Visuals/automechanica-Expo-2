@@ -20,7 +20,7 @@ export default function Highlights() {
   const category = categories.find((c) => c.key === activeCategory)!;
   const images = Array.from(
     { length: IMAGES_PER_CATEGORY },
-    (_, i) => `/moto/benzol-lubricants/highlights/${category.folder}/${i + 1}.png`
+    (_, i) => `/moto/benzol-lubricants/highlights/${category.folder}/${i + 1}.webp`
   );
   const totalPages = Math.ceil(images.length / PER_PAGE);
   const visible = images.slice(page * PER_PAGE, page * PER_PAGE + PER_PAGE);

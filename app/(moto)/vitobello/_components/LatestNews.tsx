@@ -14,37 +14,37 @@ export default function LatestNews() {
     {
       title: "Vitobello Ricambi celebrates 50 years!",
       description: "This year Vitobello Ricambi during the company Christmas lunch, wanted to celebrate together with all its employees and their families the event of 50...",
-      img: "/moto/vitobello/news1.png",
+      img: "/moto/vitobello/news1.webp",
       link: "#"
     },
     {
       title: "Vittoria Bussi set a new #UCI Hour Record...",
       description: "Vitobello Ricambi srl supported with great pleasure @vittoriabussi , the fastest woman in the world!!! After so many months of hard work...",
-      img: "/moto/vitobello/news2.png",
+      img: "/moto/vitobello/news2.webp",
       link: "#"
     },
     {
       title: "Vitobello Ricambi S.r.l. announces the...",
       description: "Vitobello Ricambi S.r.l. is pleased to announce the collaboration with the professional athlete Vittoria Bussi, born in Rome on 19...",
-      img: "/moto/vitobello/news3.png",
+      img: "/moto/vitobello/news3.webp",
       link: "#"
     },
     {
       title: "Vitobello Ricambi sponsors 13th Parts...",
       description: "Vitobello Ricambi sponsors the 13th edition of the Parts Aftermarket Congress, the annual aftermarket conference organised... ",
-      img: "/moto/vitobello/news4.png",
+      img: "/moto/vitobello/news4.webp",
       link: "#"
     },
     {
       title: "Vitobello Ricambi cheers on Michele Pirro!",
       description: "A partnership has been signed again for 2019 with rider Michele Pirro, lined up by the Barni Racing Team for the CIV Championship and by Ducati...",
-      img: "/moto/vitobello/news5.png",
+      img: "/moto/vitobello/news5.webp",
       link: "#"
     },
     {
       title: "BRAND NEW ENGINE AUDI – VW 1.4 BENZ 16V... ",
       description: "Vitobello Ricambi Srl introduces a brand-new 1.4L 16V petrol engine for Audi, Volkswagen, and SEAT vehicles. Supplied in a semi-complete...",
-      img: "/moto/vitobello/news6.png",
+      img: "/moto/vitobello/news6.webp",
       link: "#"
     }
   ];
@@ -115,7 +115,7 @@ export default function LatestNews() {
                       src={item.img}
                       alt={item.title}
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                      onError={(e) => { (e.target as HTMLImageElement).src = '/moto/vitobello/g4.jpg' }}
+                      onError={(e) => { (e.target as HTMLImageElement).src = '/moto/vitobello/g4.webp' }}
                     />
                   </div>
 

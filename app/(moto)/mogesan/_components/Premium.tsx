@@ -129,7 +129,7 @@ export default function Premium() {
                 {features.map((feature) => (
                   <li key={feature.title} className="flex gap-4">
                     <img
-                      src="/moto/mogesan/tick.png"
+                      src="/moto/mogesan/tick.webp"
                       alt="Check"
                       className="w-8 h-8 flex-shrink-0 object-contain mt-1"
                     />

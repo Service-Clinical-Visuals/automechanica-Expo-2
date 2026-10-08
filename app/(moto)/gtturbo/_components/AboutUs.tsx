@@ -33,7 +33,7 @@ export default function AboutUs() {
           {/* Left: Image */}
           <div className="rounded-[10px] overflow-hidden shadow-md w-full h-full">
             <img
-              src="/moto/gtturbo/abt.png"
+              src="/moto/gtturbo/abt.webp"
               alt="Graeme Bentink - Founder"
               className="w-full h-full object-cover"
             />

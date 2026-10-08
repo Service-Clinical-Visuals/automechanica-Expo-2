@@ -11,17 +11,17 @@ export default function EngineeredLubrication() {
     {
       title: "Advanced Wear Protection",
       description: "Formulated to reduce friction and minimize component wear, helping extend equipment and engine life.",
-      icon: "/moto/rowe/setting.png"
+      icon: "/moto/rowe/setting.webp"
     },
     {
       title: "Outstanding Thermal Stability",
       description: "Maintains performance under extreme temperatures and demanding operating environments.",
-      icon: "/moto/rowe/setting.png"
+      icon: "/moto/rowe/setting.webp"
     },
     {
       title: "Enhanced Fuel Efficiency",
       description: "Optimized formulations support smoother operation and improved energy efficiency.",
-      icon: "/moto/rowe/setting.png"
+      icon: "/moto/rowe/setting.webp"
     }
   ];
 

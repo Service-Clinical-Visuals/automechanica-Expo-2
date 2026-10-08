@@ -28,7 +28,7 @@ const AboutUs = () => {
           {/* Left Side: Image */}
           <div className="lg:col-span-6 w-full rounded-2xl md:rounded-[28px] overflow-hidden" data-aos="fade-right">
             <img
-              src="/moto/racingoil/abt.png"
+              src="/moto/racingoil/abt.webp"
               alt="About Racing Oil Meeting"
               className="w-full h-auto object-cover"
             />

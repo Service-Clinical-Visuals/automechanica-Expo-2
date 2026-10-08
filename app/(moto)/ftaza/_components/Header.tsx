@@ -32,7 +32,7 @@ export default function Header() {
           <div className="flex items-center h-[64px] sm:h-[72px] px-4 sm:px-6 lg:px-10">
             {/* Logo */}
             <div className="flex items-center shrink-0">
-              <img src="/moto/ftaza/logo.png" alt="FTAZA INDUSTRIAL" className="h-auto w-auto" />
+              <img src="/moto/ftaza/logo.webp" alt="FTAZA INDUSTRIAL" className="h-auto w-auto" />
             </div>
 
             {/* Desktop Nav — centered in the remaining space */}

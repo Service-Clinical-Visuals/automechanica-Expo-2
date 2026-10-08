@@ -8,7 +8,7 @@ export default function Quality() {
     <section className="relative py-20 md:py-32 w-full bg-[#1c1c1c] overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        <img src="/moto/slider/background.png" alt="Background" className="w-full grayscale h-full object-cover" />
+        <img src="/moto/slider/background.webp" alt="Background" className="w-full grayscale h-full object-cover" />
 
       </div>
 
@@ -50,7 +50,7 @@ export default function Quality() {
 
             {/* ISO Image */}
             <div className="w-[100%] max-w-[700px]">
-              <img src="/moto/slider/image5.png" alt="ISO Certifications" className="w-full h-full object-contain" />
+              <img src="/moto/slider/image5.webp" alt="ISO Certifications" className="w-full h-full object-contain" />
             </div>
           </div>
 

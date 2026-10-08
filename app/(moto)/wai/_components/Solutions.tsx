@@ -24,19 +24,19 @@ export default function Solutions() {
       {
         title: "Starters",
         subtext: "Precision-fit starters engineered for reliable cranking power across multiple applications.",
-        img: "/moto/wai/frame11.png",
+        img: "/moto/wai/frame11.webp",
         tag: "Rotating Electrical"
       },
       {
         title: "Window Regulators",
         subtext: "Precision-engineered regulators for smooth, quiet, and reliable window operation.",
-        img: "/moto/wai/frame12.png",
+        img: "/moto/wai/frame12.webp",
         tag: "Small Motor"
       },
       {
         title: "Engine Management",
         subtext: "Mass air flow sensors for precise airflow control and reliable engine performance.",
-        img: "/moto/wai/frame13.png",
+        img: "/moto/wai/frame13.webp",
         tag: "Engine managment" // matching the typo in the design request
       },
     ],
@@ -44,34 +44,34 @@ export default function Solutions() {
       {
         title: "Alternator Housings",
         subtext: "Standard alternator component designed for Delco 10DN and 10SI series applications.",
-        img: "/moto/wai/frame21.png"
+        img: "/moto/wai/frame21.webp"
       },
       {
         title: "Armatures",
         subtext: "12-24V CW rotation starter component designed for Delco 30MT series applications.",
-        img: "/moto/wai/frame22.png"
+        img: "/moto/wai/frame22.webp"
       },
       {
         title: "Baffles",
         subtext: "OE-design component for Delco CS130 alternator applications.",
-        img: "/moto/wai/frame23.png"
+        img: "/moto/wai/frame23.webp"
       },
     ],
     "Hardware": [
       {
         title: "Abrasives",
         subtext: "120 grit abrasive roll for rust removal, polishing, and shaft finishing applications.",
-        img: "/moto/wai/frame31.png"
+        img: "/moto/wai/frame31.webp"
       },
       {
         title: "Lubricants",
         subtext: "OE-grade anti-friction bearing lubricant for automotive and industrial applications.",
-        img: "/moto/wai/frame32.png"
+        img: "/moto/wai/frame32.webp"
       },
       {
         title: "Solder",
         subtext: "89-601 100% NEW 60/40 rosin-core solder for reliable electrical connections.",
-        img: "/moto/wai/frame33.png"
+        img: "/moto/wai/frame33.webp"
       },
     ]
   };

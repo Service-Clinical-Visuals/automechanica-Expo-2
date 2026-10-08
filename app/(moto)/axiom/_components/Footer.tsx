@@ -16,7 +16,7 @@ export default function Footer() {
   return (
     <footer className="relative w-full overflow-hidden pt-16 pb-10 xl:pt-[61px] xl:pb-10">
       <img
-        src="/moto/axiom/bg1.png"
+        src="/moto/axiom/bg1.webp"
         alt=""
         className="pointer-events-none absolute inset-0 z-0 h-full w-full object-cover"
       />

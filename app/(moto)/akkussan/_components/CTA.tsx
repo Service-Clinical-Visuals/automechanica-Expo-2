@@ -9,7 +9,7 @@ const CTA = () => {
     <section 
       id="cta" 
       className="w-full relative py-10 md:py-20 bg-cover bg-center bg-no-repeat flex items-center justify-center"
-      style={{ backgroundImage: `url('/moto/akkussan/bg.png')` }}
+      style={{ backgroundImage: `url('/moto/akkussan/bg.webp')` }}
     >
 
       <div className="custom-container  relative z-10 flex flex-col items-center text-center max-w-7xl mx-auto gap-6">

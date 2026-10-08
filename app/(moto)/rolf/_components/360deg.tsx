@@ -7,7 +7,7 @@ import DynamicVideoPlayer from "../../../_components/DynamicVideoPlayer";
 
 export default function Deg360() {
   return (
-    <section className="relative w-full py-16 bg-[url('/moto/rolf/bg1.png')] bg-cover bg-center overflow-hidden">
+    <section className="relative w-full py-16 bg-[url('/moto/rolf/bg1.webp')] bg-cover bg-center overflow-hidden">
       
       <div className="custom-container relative z-10 flex flex-col">
         

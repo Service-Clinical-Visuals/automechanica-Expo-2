@@ -24,7 +24,7 @@ export default function Partners() {
           {/* Large Card (Left) */}
           <div className="flex flex-col xl:flex-row rounded-[5px] overflow-hidden bg-white transition-shadow h-full" data-aos="fade-up" style={{ boxShadow: "0px 2px 6px 2px #3C404326, 0px 1px 2px 0px #3C40434D" }}>
             <div className="w-full xl:w-1/2 relative min-h-[250px] xl:min-h-full">
-              <img src="/moto/bendpak/insight1.png" alt="BendPak Opens Donald R. Henthorn" className="absolute inset-0 w-full h-full object-cover" onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<div class="absolute inset-0 w-full h-full bg-gray-200"></div>' }} />
+              <img src="/moto/bendpak/insight1.webp" alt="BendPak Opens Donald R. Henthorn" className="absolute inset-0 w-full h-full object-cover" onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<div class="absolute inset-0 w-full h-full bg-gray-200"></div>' }} />
             </div>
             <div className="w-full xl:w-1/2 p-6 xl:p-8 flex flex-col flex-grow">
               <span className="text-[#111111] card-text inter-font block mb-4 text-right">August 4, 2026</span>
@@ -48,7 +48,7 @@ export default function Partners() {
             {/* Small Card 1 */}
             <div className="flex flex-col sm:flex-row rounded-[5px] overflow-hidden bg-white transition-shadow h-full" style={{ boxShadow: "0px 2px 6px 2px #3C404326, 0px 1px 2px 0px #3C40434D" }}>
               <div className="w-full sm:w-[45%] h-[200px] sm:h-auto">
-                <img src="/moto/bendpak/insight2.png" alt="Golf Score" className="w-full h-full object-cover" onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<div class="w-full h-full bg-gray-200"></div>' }} />
+                <img src="/moto/bendpak/insight2.webp" alt="Golf Score" className="w-full h-full object-cover" onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<div class="w-full h-full bg-gray-200"></div>' }} />
               </div>
               <div className="w-full sm:w-[55%] p-6 xl:p-8 flex flex-col justify-between">
                 <div>
@@ -68,7 +68,7 @@ export default function Partners() {
             {/* Small Card 2 */}
             <div className="flex flex-col sm:flex-row rounded-[5px] overflow-hidden bg-white transition-shadow h-full" style={{ boxShadow: "0px 2px 6px 2px #3C404326, 0px 1px 2px 0px #3C40434D" }}>
               <div className="w-full sm:w-[45%] h-[200px] sm:h-auto bg-[#DFF832] flex items-center justify-center">
-                <img src="/moto/bendpak/insight3.png" alt="QuickJack Savings" className="w-full h-full object-cover" onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<div class="w-full h-full bg-[#EAF020] flex items-center justify-center font-bold text-black text-center p-4">MASSIVE<br/>QuickJack Savings<br/>20% OFF</div>' }} />
+                <img src="/moto/bendpak/insight3.webp" alt="QuickJack Savings" className="w-full h-full object-cover" onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<div class="w-full h-full bg-[#EAF020] flex items-center justify-center font-bold text-black text-center p-4">MASSIVE<br/>QuickJack Savings<br/>20% OFF</div>' }} />
               </div>
               <div className="w-full sm:w-[55%] p-6 xl:p-8 flex flex-col justify-between">
                 <div>

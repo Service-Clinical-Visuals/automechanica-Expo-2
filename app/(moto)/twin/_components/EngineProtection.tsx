@@ -47,7 +47,7 @@ export default function EngineProtection() {
             <div className="flex flex-col gap-3 mb-8">
               {features.map((feature, index) => (
                 <div key={index} className="flex items-center gap-3 bg-white rounded-[12px] px-5 py-4 w-full">
-                  <img src="/moto/twin/i1.png" alt="Icon" className="w-auto h-auto shrink-0 object-contain" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
+                  <img src="/moto/twin/i1.webp" alt="Icon" className="w-auto h-auto shrink-0 object-contain" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
                   <p className="inter-font font-regular text-[#404040] section-text">
                     <span className="font-semibold text-[#000000] section-text">{feature.title}</span> - {feature.description}
                   </p>

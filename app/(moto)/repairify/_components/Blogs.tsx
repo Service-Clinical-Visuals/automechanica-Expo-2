@@ -16,37 +16,37 @@ export default function Blogs() {
       date: "03 Jul, 2026",
       title: "Repairify and Opus IVS Complete Combination to Form Unified Leader in Automotive Diagnostics",
       excerpt: "Repairify and Opus IVS today announced the completion of their previously disclosed transaction combining their automotive diagnostics businesses,.....",
-      image: "/moto/repairify/l1.png", 
+      image: "/moto/repairify/l1.webp", 
     },
     {
       date: "17 Feb, 2026",
       title: "AsTech Digital ADAS Pro+ v2 launch reinforces Repairify's end-to-end ADAS strategy",
       excerpt: "",
-      image: "/moto/repairify/l2.png", 
+      image: "/moto/repairify/l2.webp", 
     },
     {
       date: "05 Feb, 2026",
       title: "Everything you need to know about SERMI",
       excerpt: "",
-      image: "/moto/repairify/l3.png", 
+      image: "/moto/repairify/l3.webp", 
     },
      {
       date: "19 Jan, 2026",
       title: "Repairify and Opus IVS Announce Intent to Combine Diagnostics Businesses to Advance the Future of Automotive Diagnostics and Drive Greater Value for the Industry",
       excerpt: "",
-      image: "/moto/repairify/l1.png", 
+      image: "/moto/repairify/l1.webp", 
     },
      {
       date: "09 Jun, 2022",
       title: "Repairify announces industry initiative to deliver best value in diagnostics and ADAS services",
       excerpt: "",
-      image: "/moto/repairify/l5.png", 
+      image: "/moto/repairify/l5.webp", 
     },
      {
       date: "09 Jun, 2022",
       title: "AsTech® launches industry’s first ‘pay as you calibrate’ equipment",
       excerpt: "",
-      image: "/moto/repairify/l6.png", 
+      image: "/moto/repairify/l6.webp", 
     }
   ];
 

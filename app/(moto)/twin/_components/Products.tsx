@@ -8,19 +8,19 @@ export default function Products() {
   const products = [
     {
       title: "1-Post Lifts",
-      image: "/moto/twin/p1.png",
+      image: "/moto/twin/p1.webp",
     },
     {
       title: "2-Post Lifts",
-      image: "/moto/twin/p2.png",
+      image: "/moto/twin/p2.webp",
     },
     {
       title: "4-Post Lifts",
-      image: "/moto/twin/p3.png",
+      image: "/moto/twin/p3.webp",
     },
     {
       title: "Scissors-Lifts",
-      image: "/moto/twin/p4.png",
+      image: "/moto/twin/p4.webp",
     }
   ];
 

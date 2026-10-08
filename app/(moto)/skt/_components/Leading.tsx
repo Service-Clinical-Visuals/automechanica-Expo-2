@@ -28,14 +28,14 @@ const Leading = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full" data-aos="fade-up" data-aos-delay="100">
           <div className="w-full aspect-[820/670] overflow-hidden rounded-tl-[3rem] rounded-br-[3rem]">
             <img 
-              src="/moto/skt/leading1.jpg" 
+              src="/moto/skt/leading1.webp" 
               alt="SKT Facility" 
               className="w-full h-full object-cover"
             />
           </div>
           <div className="w-full aspect-[820/670] overflow-hidden rounded-tl-[3rem] rounded-br-[3rem]">
             <img 
-              src="/moto/skt/leading2.jpg" 
+              src="/moto/skt/leading2.webp" 
               alt="SKT Logo Embossed" 
               className="w-full h-full object-cover"
             />

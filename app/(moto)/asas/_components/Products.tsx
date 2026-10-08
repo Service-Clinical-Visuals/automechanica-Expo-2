@@ -5,10 +5,10 @@ import Image from "next/image";
 import Button from "./Button";
 
 const categories = [
-  { name: "Oil Filter", image: "/moto/asas/p1.jpg" },
-  { name: "Fuel Filter", image: "/moto/asas/p2.jpg" },
-  { name: "Air Filter", image: "/moto/asas/p3.jpg" },
-  { name: "Cabin Filter", image: "/moto/asas/p4.jpg" },
+  { name: "Oil Filter", image: "/moto/asas/p1.webp" },
+  { name: "Fuel Filter", image: "/moto/asas/p2.webp" },
+  { name: "Air Filter", image: "/moto/asas/p3.webp" },
+  { name: "Cabin Filter", image: "/moto/asas/p4.webp" },
 ];
 
 export default function Products() {

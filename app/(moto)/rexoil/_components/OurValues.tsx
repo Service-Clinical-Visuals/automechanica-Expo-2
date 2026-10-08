@@ -40,7 +40,7 @@ export default function OurValues() {
             <ul className="space-y-4 mb-8">
               {values.map((item, index) => (
                 <li key={index} className="flex items-start gap-3">
-                  <img src="/moto/rexoil/checkcircle.png" alt="Check Mark" className="w-4 h-4 mt-2" />
+                  <img src="/moto/rexoil/checkcircle.webp" alt="Check Mark" className="w-4 h-4 mt-2" />
                   <p className="section-text text-white niramit  ">
                     <strong className="font-bold">{item.title}</strong> – {item.desc}
                   </p>
@@ -56,7 +56,7 @@ export default function OurValues() {
           {/* Right Image */}
           <div className="w-full relative  rounded-xl overflow-hidden " data-aos="fade-left">
             <img 
-              src="/moto/rexoil/values.png" 
+              src="/moto/rexoil/values.webp" 
               alt="Our Values" 
               className="w-full h-full object-cover"
             />

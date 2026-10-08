@@ -45,7 +45,7 @@ export default function Technology() {
               ].map((text, i) => (
                 <li key={i} className="flex items-start gap-4">
                   <div className="flex-shrink-0 mt-1">
-                    <img src="/moto/tesla/settings.png" alt="Check" className="w-6 h-6 object-contain" />
+                    <img src="/moto/tesla/settings.webp" alt="Check" className="w-6 h-6 object-contain" />
                   </div>
                   <Typography variant="p" color="dark" className="text-gray-700 text-sm font-medium leading-relaxed">
                     {text}

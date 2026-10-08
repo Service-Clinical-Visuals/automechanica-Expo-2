@@ -9,31 +9,31 @@ export default function Products() {
   const products = [
     {
       category: "FCS Light Duty",
-      image: "/moto/fcs/p1.png",
+      image: "/moto/fcs/p1.webp",
       title: "Complete Strut Assemblies",
       desc: "Fast installation with OE-quality performance and application-specific design.",
     },
     {
       category: "FCS Light Duty",
-      image: "/moto/fcs/p2.png",
+      image: "/moto/fcs/p2.webp",
       title: "Bare Shocks & Structs",
       desc: "Enhance steering, handling, braking, and safety with FCS struts and shock absorbers.",
     },
     {
       category: "FCS Light Duty",
-      image: "/moto/fcs/p3.png",
+      image: "/moto/fcs/p3.webp",
       title: "lift Supports",
       desc: "The OE fit design of our lift supports ensure a perfect fit and optimal performance.",
     },
     {
       category: "FCS Heavy Duty",
-      image: "/moto/fcs/p4.png",
+      image: "/moto/fcs/p4.webp",
       title: "Heavy Duty Shock Absorbers",
       desc: "Reliable damping, improved stability, and enhanced ride control for commercial vehicles.",
     },
     {
       category: "FCS Heavy Duty",
-      image: "/moto/fcs/p5.png",
+      image: "/moto/fcs/p5.webp",
       title: "Heavy Duty Air Springs",
       desc: "Adjustable load support for stable ride height, reduced wear, and reliable performance.",
     }

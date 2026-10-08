@@ -48,7 +48,7 @@ const Quality = () => {
             <div className="hidden xl:block absolute left-[6%] xl:left-[8%] top-[14%] w-4 h-[38%] bg-primary rounded-full min-[3800px]:w-8 min-[3800px]:left-[9%]"></div>
 
             <img
-              src="/moto/zlotecki/section3.png"
+              src="/moto/zlotecki/section3.webp"
               alt="Quality and independence"
               className="w-full h-full object-contain"
             />

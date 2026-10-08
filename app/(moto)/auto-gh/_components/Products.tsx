@@ -13,10 +13,10 @@ import Button from "./Button";
 const productData: Record<string, any> = {
   "Brake Pads": {
     images: [
-      "/moto/auto-gh/frame1-1.png",
-      "/moto/auto-gh/frame1-2.png",
-      "/moto/auto-gh/frame1-3.png",
-      "/moto/auto-gh/frame1-4.png",
+      "/moto/auto-gh/frame1-1.webp",
+      "/moto/auto-gh/frame1-2.webp",
+      "/moto/auto-gh/frame1-3.webp",
+      "/moto/auto-gh/frame1-4.webp",
     ],
     code: "GH-410108",
     title: "Brake Pad set, Disc Brake",
@@ -31,10 +31,10 @@ const productData: Record<string, any> = {
   },
   "Suspension": {
     images: [
-      "/moto/auto-gh/frame2-1.png",
-      "/moto/auto-gh/frame2-2.png",
-      "/moto/auto-gh/frame2-3.png",
-      "/moto/auto-gh/frame2-4.png",
+      "/moto/auto-gh/frame2-1.webp",
+      "/moto/auto-gh/frame2-2.webp",
+      "/moto/auto-gh/frame2-3.webp",
+      "/moto/auto-gh/frame2-4.webp",
     ],
     code: "GH-501048",
     title: "Control/Trailing Arm Kit, wheel suspension",
@@ -48,10 +48,10 @@ const productData: Record<string, any> = {
   },
   "Sensors": {
     images: [
-      "/moto/auto-gh/frame3-1.png",
-      "/moto/auto-gh/frame3-2.png",
-      "/moto/auto-gh/frame3-3.png",
-      "/moto/auto-gh/frame3-4.png",
+      "/moto/auto-gh/frame3-1.webp",
+      "/moto/auto-gh/frame3-2.webp",
+      "/moto/auto-gh/frame3-3.webp",
+      "/moto/auto-gh/frame3-4.webp",
     ],
     code: "GH-721277",
     title: "Mass Air Flow Sensor",

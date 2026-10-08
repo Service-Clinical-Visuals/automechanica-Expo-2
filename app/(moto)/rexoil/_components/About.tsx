@@ -24,7 +24,7 @@ export default function About() {
           {/* Right Image */}
           <div data-aos="fade-left" className="w-full relative rounded-sm overflow-hidden ">
              <img 
-               src="/moto/rexoil/lubricant.png" 
+               src="/moto/rexoil/lubricant.webp" 
                alt="Leading the Future of Lubrication Solutions" 
                className="w-full h-full object-contain"
              />
@@ -39,7 +39,7 @@ export default function About() {
           {/* Left Image */}
           <div data-aos="fade-right" className="w-full relative rounded-sm overflow-hidden ">
              <img 
-               src="/moto/rexoil/whychoose.png" 
+               src="/moto/rexoil/whychoose.webp" 
                alt="Why Choose REXOIL" 
                className="w-full h-full object-cover"
              />

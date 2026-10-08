@@ -13,7 +13,7 @@ const Footer = () => {
 
           {/* Column 1: Man Image & Socials */}
           <div className="col-span-2 xl:col-span-1 flex flex-col gap-6 xl:gap-8 items-start xl:pl-8">
-            <img src="/moto/hasting/man.png" alt="Tough Guy Tech Support" className="w-[150px] xl:w-[180px] min-[3800px]:w-[350px] object-contain" data-aos="fade-up" />
+            <img src="/moto/hasting/man.webp" alt="Tough Guy Tech Support" className="w-[150px] xl:w-[180px] min-[3800px]:w-[350px] object-contain" data-aos="fade-up" />
             <div className="flex items-center gap-4 min-[3800px]:gap-8" data-aos="fade-up" data-aos-delay="100">
               <a href="#" className="w-10 h-10 min-[3800px]:w-20 min-[3800px]:h-20 rounded-full bg-secondary text-primary flex items-center justify-center hover:bg-white transition-colors shadow-md">
                 <FaYoutube className="w-5 h-5 min-[3800px]:w-10 min-[3800px]:h-10" />

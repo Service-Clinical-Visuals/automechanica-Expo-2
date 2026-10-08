@@ -6,14 +6,14 @@ export default function News() {
   const newsData = [
     {
       id: 1,
-      image: "/moto/depa/n1.png",
+      image: "/moto/depa/n1.webp",
       date: "19 Jun 2026",
       title: "Autodistribution Rembaud Trade Fair",
       desc: "Depa is here! This is a great opportunity for our company to showcase our product range and discuss the challenges and unique aspects of the renovation industry! Thank you to our partner for their trust!",
     },
     {
       id: 2,
-      image: "/moto/depa/n2.png",
+      image: "/moto/depa/n2.webp",
       date: "24 May 2025",
       title: "AGRA Open Days",
       desc: "We are pleased to join AGRA Open Days, connecting with automotive aftermarket professionals to showcase our remanufactured parts and promote sustainable, responsible vehicle repair.",

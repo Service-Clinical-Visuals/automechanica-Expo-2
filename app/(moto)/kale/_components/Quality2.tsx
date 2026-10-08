@@ -8,7 +8,7 @@ export default function Quality2() {
   return (
     <section
       className="relative w-full bg-[#1a1d24] bg-cover bg-center bg-no-repeat py-16 md:py-24 overflow-hidden"
-      style={{ backgroundImage: "url('/moto/kale/quality2bg.png')" }}
+      style={{ backgroundImage: "url('/moto/kale/quality2bg.webp')" }}
       id="product-line">
       <Container className="relative z-10">
         <div className="grid grid-cols-1 xl:grid-cols-[50fr_50fr] gap-10 items-center">

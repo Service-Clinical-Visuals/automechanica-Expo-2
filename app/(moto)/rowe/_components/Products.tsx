@@ -8,15 +8,15 @@ export default function Products() {
   const products = [
     {
       title: "Motor Oils",
-      image: "/moto/rowe/productq.png", 
+      image: "/moto/rowe/productq.webp", 
     },
     {
       title: "Motorcycle Oils",
-      image: "/moto/rowe/product2.png",
+      image: "/moto/rowe/product2.webp",
     },
     {
       title: "Racing products",
-      image: "/moto/rowe/product3.png",
+      image: "/moto/rowe/product3.webp",
     }
   ];
 

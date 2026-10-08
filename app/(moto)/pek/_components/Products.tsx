@@ -10,10 +10,10 @@ export default function Products() {
       codeTopLeft: "A0809982987",
       codeTopRight: "#PT-14-08-898",
       title: "Injector Holding Kit",
-      image: "/moto/pek/p2.png",
+      image: "/moto/pek/p2.webp",
       icon: (
         <img
-          src="/moto/pek/iconp2.png"
+          src="/moto/pek/iconp2.webp"
           alt=""
           className="w-5 h-5 xl:w-6 xl:h-6 object-contain flex-shrink-0"
         />
@@ -23,10 +23,10 @@ export default function Products() {
       codeTopLeft: "A0819982687",
       codeTopRight: "#PT-14-02-865",
       title: "Injector Bolt",
-      image: "/moto/pek/p3.png",
+      image: "/moto/pek/p3.webp",
       icon: (
         <img
-          src="/moto/pek/iconp3.png"
+          src="/moto/pek/iconp3.webp"
           alt=""
           className="w-5 h-5 xl:w-6 xl:h-6 object-contain flex-shrink-0"
         />
@@ -36,10 +36,10 @@ export default function Products() {
       codeTopLeft: "83P130519",
       codeTopRight: "#PT-14-03-896",
       title: "Injector Repair Kit",
-      image: "/moto/pek/p4.png",
+      image: "/moto/pek/p4.webp",
       icon: (
         <img
-          src="/moto/pek/iconp2.png"
+          src="/moto/pek/iconp2.webp"
           alt=""
           className="w-5 h-5 xl:w-6 xl:h-6 object-contain flex-shrink-0"
         />
@@ -49,10 +49,10 @@ export default function Products() {
       codeTopLeft: "A6110160738",
       codeTopRight: "#PT-14-08-897",
       title: "Injector Holding Bracket",
-      image: "/moto/pek/p5.png",
+      image: "/moto/pek/p5.webp",
       icon: (
         <img
-          src="/moto/pek/iconp5.png"
+          src="/moto/pek/iconp5.webp"
           alt=""
           className="w-5 h-5 xl:w-6 xl:h-6 object-contain flex-shrink-0"
         />
@@ -113,7 +113,7 @@ export default function Products() {
                 {/* Featured Badge with Blue color and Bold text */}
                 <span className="inline-flex items-center gap-1.5 px-3 py-1 lg:px-3.5 lg:py-1 bg-white/90 border border-[#213455]/30 rounded-full text-[11px] sm:text-xs lg:text-sm font-bold text-[#213455] shadow-2xs">
                   <img
-                    src="/moto/pek/iconp1.png"
+                    src="/moto/pek/iconp1.webp"
                     alt=""
                     className="w-4 h-4 lg:w-5 lg:h-5 object-contain flex-shrink-0"
                   />
@@ -128,7 +128,7 @@ export default function Products() {
               {/* Main Product Image p1 - Absolute cover fitting the container */}
               <div className="absolute inset-0 w-full h-full overflow-hidden">
                 <img
-                  src="/moto/pek/p1.png"
+                  src="/moto/pek/p1.webp"
                   alt="Oil Feed Pipe"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out"
                 />

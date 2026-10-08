@@ -14,17 +14,17 @@ const Products = () => {
     {
       title: "Piston Rings",
       desc: "At Hastings, we manufacture a bold and broad offering of piston rings one that spans thousands of applications for virtually any engine.",
-      img: "/moto/hasting/n1.png",
+      img: "/moto/hasting/n1.webp",
     },
     {
       title: "OEM",
       desc: "Hastings delivers what the world wants in piston rings - precision, performance, and a robust offering that covers every category and possible applications.",
-      img: "/moto/hasting/n2.png",
+      img: "/moto/hasting/n2.webp",
     },
     {
       title: "Aftermarket",
       desc: "At Hastings, we manufacture a bold and broad offering of piston rings one that spans thousands of applications for virtually any engine.",
-      img: "/moto/hasting/n1.png",
+      img: "/moto/hasting/n1.webp",
     },
   ];
 

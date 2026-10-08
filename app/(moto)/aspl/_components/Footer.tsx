@@ -29,7 +29,7 @@ const Footer = () => {
             {/* Logo */}
             <Link href="/" className="inline-block">
               <img 
-                src="/moto/aspl/logo.png" 
+                src="/moto/aspl/logo.webp" 
                 alt="AS-PL Logo" 
                 className="h-16 md:h-20 w-auto object-contain" 
               />
@@ -48,7 +48,7 @@ const Footer = () => {
                 className="bg-transparent text-white placeholder-gray-100 px-4 py-3 outline-none w-full text-sm"
               />
               <button className="bg-primary hover:bg-primary-hover transition-colors w-10 h-10 shrink-0 flex items-center justify-center rounded-[12px] mr-1">
-                <img src="/moto/aspl/send.png" alt="Send" className="w-5 h-5 text-white" />
+                <img src="/moto/aspl/send.webp" alt="Send" className="w-5 h-5 text-white" />
               </button>
             </div>
           </div>
@@ -90,17 +90,17 @@ const Footer = () => {
               <ul className="flex flex-col gap-4">
                 {/* Phone */}
                 <li className="flex items-start gap-3">
-                  <img src="/moto/aspl/ph.png" alt="Phone" className="w-5 h-5 mt-1 object-contain opacity-70" />
+                  <img src="/moto/aspl/ph.webp" alt="Phone" className="w-5 h-5 mt-1 object-contain opacity-70" />
                   <span className="section-text text-[#484848] ">+48 58 304 12 85</span>
                 </li>
                 {/* Email */}
                 <li className="flex items-start gap-3">
-                  <img src="/moto/aspl/mail.png" alt="Email" className="w-5 h-5 mt-1 object-contain opacity-70" />
+                  <img src="/moto/aspl/mail.webp" alt="Email" className="w-5 h-5 mt-1 object-contain opacity-70" />
                   <span className="section-text text-[#484848] ">info@as-pl.com</span>
                 </li>
                 {/* Location */}
                 <li className="flex items-start gap-3">
-                  <img src="/moto/aspl/location.png" alt="Location" className="w-5 h-5 mt-1 object-contain opacity-70" />
+                  <img src="/moto/aspl/location.webp" alt="Location" className="w-5 h-5 mt-1 object-contain opacity-70" />
                   <span className="section-text text-[#484848] leading-relaxed">
                     Ul. Michałki 32,<br/>
                     80-716 Gdańsk

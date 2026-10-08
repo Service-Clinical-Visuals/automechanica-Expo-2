@@ -45,7 +45,7 @@ export default function Footer() {
           <div data-aos="fade-up" data-aos-delay="0" className="flex flex-col pr-4 col-span-2 xl:col-span-1">
 
             <img
-              src="/moto/fleetguard/footer.png"
+              src="/moto/fleetguard/footer.webp"
               alt="Fleetguard Logo"
               className="h-40 w-40 2xl:w-52 2xl:h-52 min-[3800px]:w-64 min-[3800px]:h-64 object-contain mb-1 2xl:mb-4 self-start"
             />

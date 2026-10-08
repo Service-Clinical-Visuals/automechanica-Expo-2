@@ -23,7 +23,7 @@ export default function Partners() {
           {/* Large Card (Left) */}
           <div className="flex flex-col md:flex-row rounded-[5px] overflow-hidden bg-white transition-shadow" data-aos="fade-up" style={{ boxShadow: "0px 2px 6px 2px #3C404326, 0px 1px 2px 0px #3C40434D" }}>
             <div className="w-full h-full md:h-auto">
-              <img src="/moto/teknorot/i1.png" alt="Teknorot 241st ranking" className="w-full h-full object-cover" onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<div class="w-full h-full bg-gray-200"></div>' }} />
+              <img src="/moto/teknorot/i1.webp" alt="Teknorot 241st ranking" className="w-full h-full object-cover" onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<div class="w-full h-full bg-gray-200"></div>' }} />
             </div>
             <div className="w-full p-6 flex flex-col justify-between">
               <div>
@@ -49,7 +49,7 @@ export default function Partners() {
             {/* Small Card 1 */}
             <div className="flex flex-col sm:flex-row rounded-[5px] overflow-hidden bg-white transition-shadow" style={{ boxShadow: "0px 2px 6px 2px #3C404326, 0px 1px 2px 0px #3C40434D" }}>
               <div className="w-full sm:w-[40%] h-[200px] sm:h-auto">
-                <img src="/moto/teknorot/i2.png" alt="Rally" className="w-full h-full object-cover" onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<div class="w-full h-full bg-gray-200"></div>' }} />
+                <img src="/moto/teknorot/i2.webp" alt="Rally" className="w-full h-full object-cover" onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<div class="w-full h-full bg-gray-200"></div>' }} />
               </div>
               <div className="w-full sm:w-[60%] p-6 flex flex-col justify-between">
                 <div>
@@ -69,7 +69,7 @@ export default function Partners() {
             {/* Small Card 2 */}
             <div className="flex flex-col sm:flex-row rounded-[5px] overflow-hidden bg-white transition-shadow" style={{ boxShadow: "0px 2px 6px 2px #3C404326, 0px 1px 2px 0px #3C40434D" }}>
               <div className="w-full sm:w-[40%] h-[200px] sm:h-auto">
-                <img src="/moto/teknorot/i3.png" alt="Industry Partners" className="w-full h-full object-cover" onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<div class="w-full h-full bg-gray-200"></div>' }} />
+                <img src="/moto/teknorot/i3.webp" alt="Industry Partners" className="w-full h-full object-cover" onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<div class="w-full h-full bg-gray-200"></div>' }} />
               </div>
               <div className="w-full sm:w-[60%] p-6 flex flex-col justify-between">
                 <div>

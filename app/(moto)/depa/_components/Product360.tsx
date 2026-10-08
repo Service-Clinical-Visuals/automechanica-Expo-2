@@ -5,7 +5,7 @@ export default function Product360() {
   return (
     <section 
       className="relative py-24 bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: "url('/moto/depa/bg.png')" }}
+      style={{ backgroundImage: "url('/moto/depa/bg.webp')" }}
     >
       
       

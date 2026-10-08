@@ -32,12 +32,12 @@ export default function AboutUs() {
           {/* Right Side: Masonry Images */}
           <div className="grid grid-cols-12 gap-3 lg:gap-4 w-full h-full mt-8 lg:mt-0 lg:col-span-7" data-aos="fade-left">
             <div className="flex flex-col gap-3 lg:gap-4 col-span-4 h-full">
-              <img src="/moto/twin/abt2.png" alt="Twin Busch Facility" className="w-full h-full min-h-0 flex-1 object-cover rounded-xl" onError={(e) => { e.currentTarget.src = "/moto/twin/abt.png"; }} />
-              <img src="/moto/twin/abt3.png" alt="Twin Busch Interior" className="w-full h-full min-h-0 flex-1 object-cover rounded-xl" onError={(e) => { e.currentTarget.src = "/moto/twin/abt.png"; }} />
-              <img src="/moto/twin/abt4.png" alt="Twin Busch Interior" className="w-full h-full min-h-0 flex-1 object-cover rounded-xl" onError={(e) => { e.currentTarget.src = "/moto/twin/abt.png"; }} />
+              <img src="/moto/twin/abt2.webp" alt="Twin Busch Facility" className="w-full h-full min-h-0 flex-1 object-cover rounded-xl" onError={(e) => { e.currentTarget.src = "/moto/twin/abt.png"; }} />
+              <img src="/moto/twin/abt3.webp" alt="Twin Busch Interior" className="w-full h-full min-h-0 flex-1 object-cover rounded-xl" onError={(e) => { e.currentTarget.src = "/moto/twin/abt.png"; }} />
+              <img src="/moto/twin/abt4.webp" alt="Twin Busch Interior" className="w-full h-full min-h-0 flex-1 object-cover rounded-xl" onError={(e) => { e.currentTarget.src = "/moto/twin/abt.png"; }} />
             </div>
             <div className="col-span-8 h-full">
-              <img src="/moto/twin/abt1.png" alt="Twin Busch Team" className="w-full h-full object-cover rounded-xl" onError={(e) => { e.currentTarget.src = "/moto/twin/abt.png"; }} />
+              <img src="/moto/twin/abt1.webp" alt="Twin Busch Team" className="w-full h-full object-cover rounded-xl" onError={(e) => { e.currentTarget.src = "/moto/twin/abt.png"; }} />
             </div>
           </div>
 

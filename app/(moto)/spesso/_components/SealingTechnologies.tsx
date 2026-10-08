@@ -6,17 +6,17 @@ export default function SealingTechnologies() {
     {
       title: "Linear Sealing",
       description: "The \"Linear Sealing Technology\" (metallic line) relies on the spring effect of beaded metal plates and is particularly...",
-      image: "/moto/spesso/b1.png"
+      image: "/moto/spesso/b1.webp"
     },
     {
       title: "Surface Sealing",
       description: "The \"Surface Sealing Technology\" relies on recovery and compressibility effect on all surface.",
-      image: "/moto/spesso/b2.jpg"
+      image: "/moto/spesso/b2.webp"
     },
     {
       title: "Custom Coated Composite",
       description: "This technology combines a beaded steel core with a custom engineered partial coating.",
-      image: "/moto/spesso/b3.png"
+      image: "/moto/spesso/b3.webp"
     }
   ];
 

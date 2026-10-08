@@ -13,7 +13,7 @@ const AboutUs = () => {
         <div className="order-2 xl:order-none xl:col-start-1 xl:col-span-6 w-full h-full flex items-center justify-center min-[2100px]:min-h-[500px] min-[3800px]:min-h-[800px]" data-aos="fade-right">
           <div className="w-full aspect-[792/480] relative overflow-hidden rounded-md min-[2100px]:rounded-xl min-[3800px]:rounded-2xl">
             <img
-              src="/esan/section2.png"
+              src="/esan/section2.webp"
               alt="About Esan Facility"
               className="absolute inset-0 w-full h-full object-cover"
             />

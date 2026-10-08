@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer 
       className="w-full bg-[#111111] pt-20 bg-no-repeat bg-left-bottom"
-      style={{ backgroundImage: "url('/moto/repairify/bg.png')" }} data-aos="fade-up" data-aos-delay="200" 
+      style={{ backgroundImage: "url('/moto/repairify/bg.webp')" }} data-aos="fade-up" data-aos-delay="200" 
     >
       <div className="custom-container relative z-10">
         
@@ -15,7 +15,7 @@ export default function Footer() {
           
           {/* Left - Brand */}
           <div className="col-span-2 md:col-span-1 xl:col-span-5 flex flex-col items-start gap-6">
-            <img src="/moto/repairify/logo.png" alt="Repairify Logo" className="h-10 w-auto object-contain" />
+            <img src="/moto/repairify/logo.webp" alt="Repairify Logo" className="h-10 w-auto object-contain" />
             <p className="inter-font section-text text-white leading-relaxed max-w-md">
               Repairify is a leading provider of automotive diagnostics, ADAS calibration, and intelligent repair solutions, empowering workshops with innovative technology, OEM-level expertise, and connected services for safer, more efficient vehicle repairs.
             </p>
@@ -37,13 +37,13 @@ export default function Footer() {
             <h4 className="adlam-font card-text text-white">Contact Us</h4>
             <div className="flex flex-col gap-5">
               <div className="flex items-center gap-3">
-                <img src="/moto/repairify/ph.png" alt="Phone" className="w-5 h-5 flex-shrink-0" />
+                <img src="/moto/repairify/ph.webp" alt="Phone" className="w-5 h-5 flex-shrink-0" />
                 <a href="tel:01923882392" className="inter-font section-text text-white">
                   01923 882392
                 </a>
               </div>
               <div className="flex items-center gap-3">
-                <img src="/moto/repairify/mail.png" alt="Email" className="w-5 h-5 flex-shrink-0" />
+                <img src="/moto/repairify/mail.webp" alt="Email" className="w-5 h-5 flex-shrink-0" />
                 <a href="mailto:enquiries@repairify.com" className="inter-font section-text text-white break-all">
                   enquiries@repairify.com
                 </a>
@@ -56,16 +56,16 @@ export default function Footer() {
             <h4 className="adlam-font card-text text-white">Social</h4>
             <div className="flex items-center gap-3">
               <a href="#" className="hover:opacity-80 transition-opacity">
-                <img src="/moto/repairify/ins.png" alt="Instagram" className="w-6 h-6 object-contain" />
+                <img src="/moto/repairify/ins.webp" alt="Instagram" className="w-6 h-6 object-contain" />
               </a>
               <a href="#" className="hover:opacity-80 transition-opacity">
-                <img src="/moto/repairify/fb.png" alt="Facebook" className="w-6 h-6 object-contain" />
+                <img src="/moto/repairify/fb.webp" alt="Facebook" className="w-6 h-6 object-contain" />
               </a>
               <a href="#" className="hover:opacity-80 transition-opacity">
-                <img src="/moto/repairify/u.png" alt="YouTube" className="w-6 h-6 object-contain" />
+                <img src="/moto/repairify/u.webp" alt="YouTube" className="w-6 h-6 object-contain" />
               </a>
               <a href="#" className="hover:opacity-80 transition-opacity">
-                <img src="/moto/repairify/in.png" alt="LinkedIn" className="w-6 h-6 object-contain" />
+                <img src="/moto/repairify/in.webp" alt="LinkedIn" className="w-6 h-6 object-contain" />
               </a>
             </div>
           </div>

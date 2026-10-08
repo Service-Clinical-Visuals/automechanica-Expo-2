@@ -29,7 +29,7 @@ export default function Footer() {
             data-aos-duration="700"
             className="col-span-2 md:col-span-1">
             <img
-              src="/moto/mkt/logo.png"
+              src="/moto/mkt/logo.webp"
               alt="MKT Holdings"
               className="h-8 md:h-9 lg:h-16 w-auto"
             />
@@ -99,7 +99,7 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <Image
-                  src="/moto/mkt/phn.png"
+                  src="/moto/mkt/phn.webp"
                   alt="Phone"
                   width={17}
                   height={17}
@@ -115,7 +115,7 @@ export default function Footer() {
 
               <li className="flex items-start gap-3">
                 <Image
-                  src="/moto/mkt/email.png"
+                  src="/moto/mkt/email.webp"
                   alt="Email"
                   width={17}
                   height={17}
@@ -131,7 +131,7 @@ export default function Footer() {
 
               <li className="flex items-start gap-3">
                 <Image
-                  src="/moto/mkt/loc.png"
+                  src="/moto/mkt/loc.webp"
                   alt="Location"
                   width={20}
                   height={20}

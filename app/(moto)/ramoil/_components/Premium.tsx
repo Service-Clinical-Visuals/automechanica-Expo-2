@@ -3,8 +3,8 @@ import Container from "./Container";
 import ParallelogramButton from "./ParallelogramButton";
 
 const features = [
-  { img: "/moto/ramoil/1.png", text: "Advanced engine protection against wear, deposits." },
-  { img: "/moto/ramoil/2.png", text: "Enhanced fuel efficiency for improved vehicle performance." },
+  { img: "/moto/ramoil/1.webp", text: "Advanced engine protection against wear, deposits." },
+  { img: "/moto/ramoil/2.webp", text: "Enhanced fuel efficiency for improved vehicle performance." },
 ];
 
 export default function Premium() {

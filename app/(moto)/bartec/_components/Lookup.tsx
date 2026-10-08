@@ -4,17 +4,17 @@ import { ChevronDown, Search, ArrowRight } from "lucide-react";
 import Container from "./Container";
 
 const selectors = [
-  { icon: "/moto/bartec/lookup/set1/1.png", label: "Select manufacturer", placeholder: "Choose Manufacturer" },
-  { icon: "/moto/bartec/lookup/set1/2.png", label: "Select Model", placeholder: "Choose Model" },
-  { icon: "/moto/bartec/lookup/set1/3.png", label: "Select Year", placeholder: "Choose Year" },
-  { icon: "/moto/bartec/lookup/set1/4.png", label: "Select Qualifier", placeholder: "Choose Qualifier" },
+  { icon: "/moto/bartec/lookup/set1/1.webp", label: "Select manufacturer", placeholder: "Choose Manufacturer" },
+  { icon: "/moto/bartec/lookup/set1/2.webp", label: "Select Model", placeholder: "Choose Model" },
+  { icon: "/moto/bartec/lookup/set1/3.webp", label: "Select Year", placeholder: "Choose Year" },
+  { icon: "/moto/bartec/lookup/set1/4.webp", label: "Select Qualifier", placeholder: "Choose Qualifier" },
 ];
 
 const stats = [
-  { icon: "/moto/bartec/lookup/set2/1.png", label: "100% Vehicles Specific Results" },
-  { icon: "/moto/bartec/lookup/set2/2.png", label: "OEM Quality Compatibility" },
-  { icon: "/moto/bartec/lookup/set2/3.png", label: "Fast and Accurate Search" },
-  { icon: "/moto/bartec/lookup/set2/4.png", label: "Wide Range of TPMS Solutions" },
+  { icon: "/moto/bartec/lookup/set2/1.webp", label: "100% Vehicles Specific Results" },
+  { icon: "/moto/bartec/lookup/set2/2.webp", label: "OEM Quality Compatibility" },
+  { icon: "/moto/bartec/lookup/set2/3.webp", label: "Fast and Accurate Search" },
+  { icon: "/moto/bartec/lookup/set2/4.webp", label: "Wide Range of TPMS Solutions" },
 ];
 
 export default function Lookup() {
@@ -36,7 +36,7 @@ export default function Lookup() {
           </div>
           <div
             className="relative rounded-2xl overflow-hidden px-4 py-8 md:p-10 bg-center bg-cover"
-            style={{ backgroundImage: "url('/moto/bartec/lookup/bg.png')" }}
+            style={{ backgroundImage: "url('/moto/bartec/lookup/bg.webp')" }}
           >
             {/* Selector Cards */}
             <div className="relative z-10 flex flex-col lg:flex-row items-stretch" data-aos="fade-up">

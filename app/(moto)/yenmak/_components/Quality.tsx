@@ -6,20 +6,20 @@ import Button from "./Button";
 
 const cards = [
   {
-    icon: "/moto/yenmak/quality/setting.png",
-    iconHover: "/moto/yenmak/quality/setting-white.png",
+    icon: "/moto/yenmak/quality/setting.webp",
+    iconHover: "/moto/yenmak/quality/setting-white.webp",
     title: "Precision Manufacturing",
     desc: "Accurate dimensions and controlled processes ensure precise fit and consistent performance.",
   },
   {
-    icon: "/moto/yenmak/quality/arm.png",
-    iconHover: "/moto/yenmak/quality/arm-white.png",
+    icon: "/moto/yenmak/quality/arm.webp",
+    iconHover: "/moto/yenmak/quality/arm-white.webp",
     title: "High Durability",
     desc: "Components are engineered to withstand demanding temperatures, pressure, and continuous engine operation.",
   },
   {
-    icon: "/moto/yenmak/quality/search.png",
-    iconHover: "/moto/yenmak/quality/search-white.png",
+    icon: "/moto/yenmak/quality/search.webp",
+    iconHover: "/moto/yenmak/quality/search-white.webp",
     title: "Quality Control",
     desc: "Careful inspection and quality processes help maintain consistent product standards across the range.",
   },

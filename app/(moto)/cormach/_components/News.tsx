@@ -13,32 +13,32 @@ const News = () => {
     {
       title: "New GEO 25: The portable, compact, and fast 3D...",
       desc: "Cormach presents GEO 25, the new portable 3D wheel alignment system designed to increase your workshop space.",
-      img: "/moto/cormach/news1.jpg",
+      img: "/moto/cormach/news1.webp",
     },
     {
       title: "Automechanika Frankfurt: Cormach's international...",
       desc: "A long-standing appointment where innovation, technology and relationships come together on the international automotive stage.",
-      img: "/moto/cormach/news2.jpg",
+      img: "/moto/cormach/news2.webp",
     },
     {
       title: "New F470S: large capacity and heavy-duty",
       desc: "The new F470S combines robust construction, precision and high clamping capacity, ensuring efficient and safe tyre-changing operations.",
-      img: "/moto/cormach/news3.jpg",
+      img: "/moto/cormach/news3.webp",
     },
     {
       title: "New MEC Wheel Balancers",
       desc: "After the successful presentation at the trade fair and the first previews shared with you, we are delighted to officially introduce our...",
-      img: "/moto/cormach/news4.jpg",
+      img: "/moto/cormach/news4.webp",
     },
     {
       title: "New F 535S LEVERLESS",
       desc: "Discover the new LEVERLESS version of our professional tire changer F 535S and F 535S GT: the same robust build, now...",
-      img: "/moto/cormach/news5.jpg",
+      img: "/moto/cormach/news5.webp",
     },
     {
       title: "Autopromotec 2025: the must-attend event for...",
       desc: "From May 21 to 24, 2025, we'll be back at AUTOPROMOTEC, the leading event for the automotive industry! This is a unique opportunity to meet...",
-      img: "/moto/cormach/news6.jpg",
+      img: "/moto/cormach/news6.webp",
     },
   ];
 

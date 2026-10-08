@@ -15,7 +15,7 @@ export default function Footer() {
           {/* Column 1: Logo & Description */}
           <div className="flex flex-col gap-6 lg:col-span-3" data-aos="fade-up" data-aos-delay="100">
              <Link href="#" className="w-full">
-               <img src="/moto/tomex/logo.png" alt="Tomex Logo" className="w-[70%] sm:w-[50%] md:w-[45%] lg:w-[80%] h-auto object-contain object-left" />
+               <img src="/moto/tomex/logo.webp" alt="Tomex Logo" className="w-[70%] sm:w-[50%] md:w-[45%] lg:w-[80%] h-auto object-contain object-left" />
              </Link>
              <p className="text-[#4A4A4A] text-sm xl:text-base leading-relaxed max-w-[90%] font-medium">
                Engineering safer journeys with certified, high-quality brake components trusted for performance, reliability, and lasting safety.

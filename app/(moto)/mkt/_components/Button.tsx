@@ -62,8 +62,8 @@ export default function Button({
         <Image
           src={
             variant === "primary"
-              ? "/moto/mkt/white_arrow.png"
-              : "/moto/mkt/brown_arrow.png"
+              ? "/moto/mkt/white_arrow.webp"
+              : "/moto/mkt/brown_arrow.webp"
           }
           alt=""
           width={15}

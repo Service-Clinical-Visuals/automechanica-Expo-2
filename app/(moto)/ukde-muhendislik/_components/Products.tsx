@@ -9,12 +9,12 @@ import Button from "./Button";
 
 export default function Products() {
   const products = [
-    { id: "SV001", image: "/moto/ukde-muhendislik/1.png" },
-    { id: "SV002", image: "/moto/ukde-muhendislik/2.png" },
-    { id: "SV003", image: "/moto/ukde-muhendislik/3.png" },
-    { id: "SV004", image: "/moto/ukde-muhendislik/4.png" },
-    { id: "SV005", image: "/moto/ukde-muhendislik/5.png" },
-    { id: "SV006", image: "/moto/ukde-muhendislik/6.png" },
+    { id: "SV001", image: "/moto/ukde-muhendislik/1.webp" },
+    { id: "SV002", image: "/moto/ukde-muhendislik/2.webp" },
+    { id: "SV003", image: "/moto/ukde-muhendislik/3.webp" },
+    { id: "SV004", image: "/moto/ukde-muhendislik/4.webp" },
+    { id: "SV005", image: "/moto/ukde-muhendislik/5.webp" },
+    { id: "SV006", image: "/moto/ukde-muhendislik/6.webp" },
   ];
 
   return (

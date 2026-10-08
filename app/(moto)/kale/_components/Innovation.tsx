@@ -38,7 +38,7 @@ export default function Innovation() {
           {/* Left: Image */}
           <div data-aos="fade-right">
             <img
-              src="/moto/kale/innovation.png"
+              src="/moto/kale/innovation.webp"
               alt="KALE R&D Center engineers reviewing thermal system design"
               className="w-full h-full object-cover border border-[#EAEAEA] rounded-lg"
             />

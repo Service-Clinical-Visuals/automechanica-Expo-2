@@ -14,7 +14,7 @@ export default function Footer() {
           <div className="col-span-2 xl:col-span-5 flex flex-col items-start pr-0 xl:pr-12">
             <Link href="/strong-enerji" className="mb-8">
               <img
-                src="/moto/strong-enerji/logo.png"
+                src="/moto/strong-enerji/logo.webp"
                 alt="Strong Enerji Logo"
                 className="w-60 md:w-80 h-auto object-contain"
               />

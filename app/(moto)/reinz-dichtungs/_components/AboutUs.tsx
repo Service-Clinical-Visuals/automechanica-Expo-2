@@ -15,7 +15,7 @@ export default function AboutUs() {
             data-aos="fade-right"
           >
             <img
-              src="/moto/reinz-dichtungs/who.png"
+              src="/moto/reinz-dichtungs/who.webp"
               alt="Who We Are - Reinz-Dichtungs Facility"
               className="w-full h-auto object-cover rounded-sm shadow-md"
             />

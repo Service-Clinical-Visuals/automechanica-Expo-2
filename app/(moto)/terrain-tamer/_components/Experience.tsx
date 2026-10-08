@@ -12,7 +12,7 @@ export default function Experience() {
         data-aos-duration="1500"
         data-aos-offset="0">
         <img
-          src="/moto/terrain/bg.jpg"
+          src="/moto/terrain/bg.webp"
           alt=""
           className="w-full h-full object-cover transition-transform duration-[2000ms] ease-out hover:scale-105"
         />

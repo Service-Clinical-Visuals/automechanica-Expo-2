@@ -10,22 +10,22 @@ const Products = () => {
       id: "01",
       title: "Air Conditioning Parts",
       desc: "Complete climate control solutions for passenger vehicles, commercial fleets, agricultural machinery, and industrial equipment.",
-      img: "/moto/rpl/c1.jpg",
-      icon: "/moto/rpl/vector1.png"
+      img: "/moto/rpl/c1.webp",
+      icon: "/moto/rpl/vector1.webp"
     },
     {
       id: "02",
       title: "Several",
       desc: "Beyond air conditioning components, we supply AC ceiling systems, charging stations, professional service tools, and premium additives & oils.",
-      img: "/moto/rpl/c2.jpg",
-      icon: "/moto/rpl/vector2.png"
+      img: "/moto/rpl/c2.webp",
+      icon: "/moto/rpl/vector2.webp"
     },
     {
       id: "03",
       title: "Cold Transport",
       desc: "Keep temperature-sensitive cargo protected with dependable transport refrigeration components. Our range includes cold kits, replacement parts.",
-      img: "/moto/rpl/c3.jpg",
-      icon: "/moto/rpl/vector3.png"
+      img: "/moto/rpl/c3.webp",
+      icon: "/moto/rpl/vector3.webp"
     },
   ];
 

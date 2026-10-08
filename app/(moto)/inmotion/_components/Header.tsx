@@ -35,7 +35,7 @@ export default function Header() {
           <div className="flex items-center xl:py-3 px-4 sm:px-6 xl:px-8">
             {/* Logo */}
             <div className="flex items-center shrink-0">
-              <img src="/moto/inmotion/logo.png" alt="In Motion Automotive" className="w-auto h-auto sm:h-[48px] w-auto" />
+              <img src="/moto/inmotion/logo.webp" alt="In Motion Automotive" className="w-auto h-auto sm:h-[48px] w-auto" />
             </div>
 
             {/* Desktop Nav */}

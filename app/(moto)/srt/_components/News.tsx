@@ -13,28 +13,28 @@ const newsData = [
     title: "Product Of The Month",
     date: "20 December",
     desc: "SRT expands its product range by adding new references for Fiat, Peugeot & Citroen brands. The products we are...",
-    img: "/moto/srt/n1.png",
+    img: "/moto/srt/n1.webp",
   },
   {
     id: 2,
     title: "Product Of The Month",
     date: "20 December",
     desc: "Quality is at heart of SRT operations. We are committed to produce and deliver only the highest quality gears to our...",
-    img: "/moto/srt/n2.png",
+    img: "/moto/srt/n2.webp",
   },
   {
     id: 3,
     title: "Update On COVID-19",
     date: "01 December",
     desc: "To all our stakeholders: Our company's operation has not been interrupted due to Covid-19. We have taken the...",
-    img: "/moto/srt/n3.png",
+    img: "/moto/srt/n3.webp",
   },
   {
     id: 4,
     title: "Customer Communication Channels",
     date: "20 December",
     desc: "To all our stakeholders: Social media have become an integral part of our customer communication. We invite you...",
-    img: "/moto/srt/n4.png",
+    img: "/moto/srt/n4.webp",
   },
 ];
 

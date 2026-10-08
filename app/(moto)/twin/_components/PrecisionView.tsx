@@ -42,7 +42,7 @@ export default function PrecisionView() {
             <ul className="flex flex-col gap-4">
               {features.map((feature, idx) => (
                 <li key={idx} className="flex items-start gap-3">
-                  <img src="/moto/twin/i1.png" alt="Check" className="w-auto h-auto shrink-0 mt-0.5 object-contain" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
+                  <img src="/moto/twin/i1.webp" alt="Check" className="w-auto h-auto shrink-0 mt-0.5 object-contain" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
                   <span className="text-[#E5E5E5] inter-font text-sm leading-snug">{feature}</span>
                 </li>
               ))}

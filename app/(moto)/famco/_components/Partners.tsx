@@ -6,22 +6,22 @@ import { ArrowLeft, ArrowRight, Heart } from "lucide-react";
 export default function Partners() {
   const newProducts = [
     {
-      image: "/moto/famco/np1.png",
+      image: "/moto/famco/np1.webp",
       category: "Others - Spare Parts",
       number: "09.1813.00",
     },
     {
-      image: "/moto/famco/np2.png",
+      image: "/moto/famco/np2.webp",
       category: "Others - Spare Parts",
       number: "05.1901.00",
     },
     {
-      image: "/moto/famco/np3.png",
+      image: "/moto/famco/np3.webp",
       category: "Others - Spare Parts",
       number: "03.6901.00",
     },
     {
-      image: "/moto/famco/np4.png",
+      image: "/moto/famco/np4.webp",
       category: "Others - Spare Parts",
       number: "06.2404.00",
     }

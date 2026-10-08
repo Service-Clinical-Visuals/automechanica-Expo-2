@@ -61,12 +61,12 @@ const Header = () => {
             {/* Logo Section */}
             <Link href="/" className="flex items-center shrink-0 relative z-20">
               <img
-                src="/moto/rpl/logo.png"
+                src="/moto/rpl/logo.webp"
                 alt="RPL Logo"
                 className="h-10 md:h-12 min-[3800px]:h-24 w-auto object-contain"
                 onError={(e) => {
                   // Fallback in case logo doesn't exist yet
-                  (e.target as HTMLImageElement).src = "/moto/ampro/logo.png";
+                  (e.target as HTMLImageElement).src = "/moto/ampro/logo.webp";
                 }}
               />
             </Link>

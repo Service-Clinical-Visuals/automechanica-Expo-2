@@ -9,9 +9,9 @@ const paragraphs = [
 ];
 
 const images = [
-  { src: "/moto/yenmak/about1.png", alt: "Yenmak factory facility in Konya" },
-  { src: "/moto/yenmak/about2.png", alt: "Yenmak Konya organized industrial zone facility" },
-  { src: "/moto/yenmak/about3.png", alt: "Yenmak headquarters and logistics building" },
+  { src: "/moto/yenmak/about1.webp", alt: "Yenmak factory facility in Konya" },
+  { src: "/moto/yenmak/about2.webp", alt: "Yenmak Konya organized industrial zone facility" },
+  { src: "/moto/yenmak/about3.webp", alt: "Yenmak headquarters and logistics building" },
 ];
 
 const About = () => {

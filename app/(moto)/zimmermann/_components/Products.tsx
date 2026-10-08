@@ -11,42 +11,42 @@ import "swiper/css/pagination";
 
 const products = [
   {
-    image: "/moto/zimmermann/products/1.png",
+    image: "/moto/zimmermann/products/1.webp",
     title: "Brake Discs and Pads",
     description: "The best braking effect is achieved when all components work together optimally.",
   },
   {
-    image: "/moto/zimmermann/products/2.png",
+    image: "/moto/zimmermann/products/2.webp",
     title: "Brake Pads",
     description: "Engineered with premium materials to ensure smooth, quiet, and efficient braking.",
   },
   {
-    image: "/moto/zimmermann/products/3.png",
+    image: "/moto/zimmermann/products/3.webp",
     title: "Pre-Assembled Brake Shoe Kit Z",
     description: "High-quality brake shoes engineered for reliable performance efficient drum braking.",
   },
   {
-    image: "/moto/zimmermann/products/4.png",
+    image: "/moto/zimmermann/products/4.webp",
     title: "Standard Brake Discs",
     description: "Premium brake discs engineered for precision, safety, and lasting performance.",
   },
   {
-    image: "/moto/zimmermann/products/5.png",
+    image: "/moto/zimmermann/products/5.webp",
     title: "Sports Brake Discs",
     description: "Premium brake discs engineered for precision, safety, and lasting performance.",
   },
   {
-    image: "/moto/zimmermann/products/6.png",
+    image: "/moto/zimmermann/products/6.webp",
     title: "FusionZ Brake Discs",
     description: "High-performance composite brake discs designed for precision and durability.",
   },
   {
-    image: "/moto/zimmermann/products/7.png",
+    image: "/moto/zimmermann/products/7.webp",
     title: "Light Commercial Brake Discs",
     description: "Precision brake discs designed for vans and light commercial vehicles.",
   },
   {
-    image: "/moto/zimmermann/products/8.png",
+    image: "/moto/zimmermann/products/8.webp",
     title: "Measuring Device for Brake Discs",
     description: "Reliable measurement solution for verifying brake disc condition and performance.",
   },

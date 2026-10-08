@@ -74,7 +74,7 @@ const Header = () => {
           <div className="custom-container flex items-center justify-between gap-4 xl:gap-5 w-full">
             <Link href="/" className="flex items-center shrink-0">
               <img
-                src="/moto/auto-gh/logo1.png"
+                src="/moto/auto-gh/logo1.webp"
                 alt="Auto GH Logo"
                 className="h-10 sm:h-12 md:h-16 min-[2100px]:h-20 min-[3800px]:h-28 w-auto object-contain"
               />

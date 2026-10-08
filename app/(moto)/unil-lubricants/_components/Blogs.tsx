@@ -9,28 +9,28 @@ export default function Blogs() {
       month: "May",
       title: "The perfect solution for any operation",
       desc: "A metalworking fluid that is adapted to the machining process ensures perfect quality of the machined parts....",
-      image: "/moto/unil-lubricants/b1.png"
+      image: "/moto/unil-lubricants/b1.webp"
     },
     {
       day: "10",
       month: "Feb",
       title: "How does the cold affect your car?",
       desc: "The coldest period of the year has arrived. For those who have to go out on the road, it is quite a challenge these days....",
-      image: "/moto/unil-lubricants/b2.png"
+      image: "/moto/unil-lubricants/b2.webp"
     },
     {
       day: "10",
       month: "Feb",
       title: "Reduce Metalworking Costs",
       desc: "For the forming and punching of sheet material, a classic emulsion bath is still often used. However, you can save a....",
-      image: "/moto/unil-lubricants/b3.png"
+      image: "/moto/unil-lubricants/b3.webp"
     },
     {
       day: "04",
       month: "Jan",
       title: "Lubricant Oxidation & Degradation",
       desc: "Oxidation of a lubricant is a chemical process that changes a lubricant and makes it lose its chemical and physical properties.....",
-      image: "/moto/unil-lubricants/b4.png"
+      image: "/moto/unil-lubricants/b4.webp"
     }
   ];
 

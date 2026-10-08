@@ -50,7 +50,7 @@ const Wheel = () => {
               {features.map((feature, index) => (
                 <div key={index} className="flex items-start gap-4 min-[3800px]:gap-6">
                   <div className="mt-1 shrink-0">
-                    <img src="/moto/cemb/vector2.png" alt="bullet" className="w-6 h-6 min-[2100px]:w-7 min-[2100px]:h-7 min-[3800px]:w-8 min-[3800px]:h-8 object-contain" />
+                    <img src="/moto/cemb/vector2.webp" alt="bullet" className="w-6 h-6 min-[2100px]:w-7 min-[2100px]:h-7 min-[3800px]:w-8 min-[3800px]:h-8 object-contain" />
                   </div>
                   <Typography variant="p" color="white" className="leading-snug ">
                     {feature}

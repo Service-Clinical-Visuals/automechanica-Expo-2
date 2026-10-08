@@ -39,19 +39,19 @@ const Precision = () => {
 
           <ul className="flex flex-col gap-5 min-[3800px]:gap-8 mt-2 min-[3800px]:mt-6">
             <li className="flex items-start gap-4">
-              <img src="/moto/dana/Vector.png" alt="bullet" className="w-6 h-6 min-[3800px]:w-11 min-[3800px]:h-12 shrink-0 mt-1" />
+              <img src="/moto/dana/Vector.webp" alt="bullet" className="w-6 h-6 min-[3800px]:w-11 min-[3800px]:h-12 shrink-0 mt-1" />
               <Typography variant="p" color="white" className="leading-relaxed  text-sm min-[3800px]:text-2xl">
                 OE-quality design for precise fit and performance, ensuring seamless compatibility with factory driveline specifications and consistent operation across a wide range of vehicle platforms.
               </Typography>
             </li>
             <li className="flex items-start gap-4">
-              <img src="/moto/dana/Vector.png" alt="bullet" className="w-6 h-6 min-[3800px]:w-11 min-[3800px]:h-12 shrink-0 mt-1" />
+              <img src="/moto/dana/Vector.webp" alt="bullet" className="w-6 h-6 min-[3800px]:w-11 min-[3800px]:h-12 shrink-0 mt-1" />
               <Typography variant="p" color="white" className="leading-relaxed  text-sm min-[3800px]:text-2xl">
                 High-strength materials for improved durability under load, engineered to withstand high torque demands, heavy-duty use, and challenging driving environments without premature wear.
               </Typography>
             </li>
             <li className="flex items-start gap-4">
-              <img src="/moto/dana/Vector.png" alt="bullet" className="w-6 h-6 min-[3800px]:w-11 min-[3800px]:h-12 shrink-0 mt-1" />
+              <img src="/moto/dana/Vector.webp" alt="bullet" className="w-6 h-6 min-[3800px]:w-11 min-[3800px]:h-12 shrink-0 mt-1" />
               <Typography variant="p" color="white" className="leading-relaxed  text-sm min-[3800px]:text-2xl">
                 Smooth torque transfer for reduced vibration and noise, helping maintain driveline balance, improve ride comfort, and protect surrounding components from stress-related damage.
               </Typography>

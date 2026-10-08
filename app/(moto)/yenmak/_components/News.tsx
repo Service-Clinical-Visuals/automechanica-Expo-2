@@ -4,9 +4,9 @@ import Link from "next/link";
 import Container from "./Container";
 
 const newsImages = [
-  { src: "/moto/yenmak/news/1.png", alt: "Yenmak at Automechanika Shanghai" },
-  { src: "/moto/yenmak/news/2.png", alt: "Yenmak at Turkish Automotive AAPEX" },
-  { src: "/moto/yenmak/news/3.png", alt: "Yenmak at Automechanika Dubai" },
+  { src: "/moto/yenmak/news/1.webp", alt: "Yenmak at Automechanika Shanghai" },
+  { src: "/moto/yenmak/news/2.webp", alt: "Yenmak at Turkish Automotive AAPEX" },
+  { src: "/moto/yenmak/news/3.webp", alt: "Yenmak at Automechanika Dubai" },
 ];
 
 export default function News() {

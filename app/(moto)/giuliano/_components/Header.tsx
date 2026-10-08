@@ -79,7 +79,7 @@ export default function Header() {
             {/* Logo + Anniversary Badge */}
             <Link href="/" className="flex items-center gap-4 flex-shrink-0">
               <img
-                src="/moto/giuliano/logo1.png"
+                src="/moto/giuliano/logo1.webp"
                 alt="Giuliano Automotive"
                 width="163"
                 height="41"
@@ -87,7 +87,7 @@ export default function Header() {
               />
 
               <img
-                src="/moto/giuliano/logo2.png"
+                src="/moto/giuliano/logo2.webp"
                 alt="50th Anniversary"
                 width="69"
                 height="31"

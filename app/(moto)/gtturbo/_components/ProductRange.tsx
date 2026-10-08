@@ -21,13 +21,13 @@ export default function ProductRange() {
         {/* 3 Image Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 mb-12 mx-auto px-4 lg:px-4">
           <div className="aspect-square bg-[#1A1E29] rounded-[20px] overflow-hidden shadow-xl border border-white/5" data-aos="fade-up" data-aos-delay="100">
-            <img src="/moto/gtturbo/s1.png" alt="Service 1" className="w-full h-full object-cover transition-transform duration-500 hover:scale-105" />
+            <img src="/moto/gtturbo/s1.webp" alt="Service 1" className="w-full h-full object-cover transition-transform duration-500 hover:scale-105" />
           </div>
           <div className="aspect-square bg-[#1A1E29] rounded-[20px] overflow-hidden shadow-xl border border-white/5" data-aos="fade-up" data-aos-delay="200">
-            <img src="/moto/gtturbo/s2.png" alt="Service 2" className="w-full h-full object-cover transition-transform duration-500 hover:scale-105" />
+            <img src="/moto/gtturbo/s2.webp" alt="Service 2" className="w-full h-full object-cover transition-transform duration-500 hover:scale-105" />
           </div>
           <div className="aspect-square bg-[#1A1E29] rounded-[20px] overflow-hidden shadow-xl border border-white/5" data-aos="fade-up" data-aos-delay="300">
-            <img src="/moto/gtturbo/s3.png" alt="Service 3" className="w-full h-full object-cover transition-transform duration-500 hover:scale-105" />
+            <img src="/moto/gtturbo/s3.webp" alt="Service 3" className="w-full h-full object-cover transition-transform duration-500 hover:scale-105" />
           </div>
         </div>
 

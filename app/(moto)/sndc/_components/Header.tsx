@@ -109,7 +109,7 @@ export default function Header() {
           className="flex-shrink-0 transition-transform duration-300 hover:scale-105"
         >
           <Image
-            src="/moto/sndc/logo.png"
+            src="/moto/sndc/logo.webp"
             alt="SNDC Logo"
             width={75}
             height={60}
@@ -185,7 +185,7 @@ export default function Header() {
           "
         >
           <Image
-            src="/moto/sndc/eng_flag.png"
+            src="/moto/sndc/eng_flag.webp"
             alt="English"
             width={30}
             height={30}
@@ -295,7 +295,7 @@ export default function Header() {
 
           <div className="flex items-center gap-[10px] px-6 py-3 transition-colors duration-300 hover:bg-[#f8f8f8]">
             <Image
-              src="/moto/sndc/eng_flag.png"
+              src="/moto/sndc/eng_flag.webp"
               alt="English"
               width={24}
               height={24}

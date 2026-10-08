@@ -40,7 +40,7 @@ export default function Header() {
             {/* Logo Area */}
             <div className="flex-shrink-0 flex items-center">
               <Link href="#">
-                <img src="/moto/reacheurope/logo.png" alt="REACH Logo" className="h-auto w-auto object-contain" />
+                <img src="/moto/reacheurope/logo.webp" alt="REACH Logo" className="h-auto w-auto object-contain" />
               </Link>
             </div>
 

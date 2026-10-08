@@ -22,7 +22,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 lg:grid-cols-[50fr_16.5fr_16.5fr_17fr] gap-10 py-16">
           {/* Logo + tagline */}
           <div data-aos="fade-up">
-            <img src="/moto/zeta-erre/logo.png" alt="Zeta-Erre" className="h-18 w-auto object-contain mb-5" />
+            <img src="/moto/zeta-erre/logo.webp" alt="Zeta-Erre" className="h-18 w-auto object-contain mb-5" />
             <p className="content-white max-w-[700px]">
               Since 1998, Zeta-Erre has specialized in high-quality automotive transmission
               components, delivering OEM-equivalent CV Shafts, CV Joints, and driveline solutions

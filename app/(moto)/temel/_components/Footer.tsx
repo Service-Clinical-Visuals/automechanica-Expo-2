@@ -31,7 +31,7 @@ export default function Footer() {
           <div className="lg:col-span-4 flex flex-col items-start gap-4">
             <Link href="/temel" className="inline-flex items-center select-none h-10 md:h-12 xl:h-24 w-auto">
               <img
-                src="/moto/temel/temel-logo.png"
+                src="/moto/temel/temel-logo.webp"
                 alt="Temel Conta Logo"
                 className="h-full w-auto object-contain max-h-16"
               />

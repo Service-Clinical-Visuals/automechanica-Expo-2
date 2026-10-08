@@ -16,7 +16,7 @@ export default function Presence() {
 
           <div className="rounded-2xl overflow-hidden" data-aos="fade-up" data-aos-delay="150">
             <img
-              src="/moto/ramoil/presence.png"
+              src="/moto/ramoil/presence.webp"
               alt="Ra.M.Oil global presence"
               className="w-full h-auto object-cover"
             />

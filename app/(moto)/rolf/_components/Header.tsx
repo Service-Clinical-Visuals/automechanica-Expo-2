@@ -64,7 +64,7 @@ export default function Header() {
           {/* Logo Area */}
           <div className="flex-shrink-0 flex items-center w-[45%] sm:w-[35%] md:w-[25%] xl:w-[15%]">
              <Link href="#" className="w-full">
-               <img src="/rolf/logo.png" alt="Rolf Logo" className="w-[90%] md:w-[85%] xl:w-full h-auto object-contain" />
+               <img src="/rolf/logo.webp" alt="Rolf Logo" className="w-[90%] md:w-[85%] xl:w-full h-auto object-contain" />
              </Link>
           </div>
 

@@ -19,7 +19,7 @@ const About = () => {
           {/* Image */}
           <div className="relative order-2 xl:order-1" data-aos="fade-right">
             <img
-              src="/moto/rased/about.png"
+              src="/moto/rased/about.webp"
               alt="R.A.S.E.D. S.p.A. facility in Milan, Italy"
               className="relative w-full h-auto object-cover"
             />

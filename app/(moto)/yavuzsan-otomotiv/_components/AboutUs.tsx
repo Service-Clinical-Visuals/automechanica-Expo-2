@@ -14,7 +14,7 @@ export default function AboutUs() {
           <div className="xl:col-span-6 order-2 xl:order-1 sticky " data-aos="fade-right">
             <div className="relative w-full ">
               <img
-                src="/moto/yavuzsan-otomotiv/about.png"
+                src="/moto/yavuzsan-otomotiv/about.webp"
                 alt="Yavuzsan Facility & Warehouse"
                 className="w-full h-auto object-cover object-center"
               />
@@ -64,7 +64,7 @@ export default function AboutUs() {
 
           {/* Mission Card */}
           <div className="flex items-center gap-4 rounded-xl bg-white shadow-sm hover:border-[#0F5AA6]/40 transition-colors">
-            <img src="/moto/yavuzsan-otomotiv/Group1.png" alt="Mission" className="w-auto h-auto object-contain" />
+            <img src="/moto/yavuzsan-otomotiv/Group1.webp" alt="Mission" className="w-auto h-auto object-contain" />
 
             <div className="flex flex-col">
               <Typography variant="h3" className="oswald font-bold text-[#202020] text-xl mb-1">
@@ -78,7 +78,7 @@ export default function AboutUs() {
 
           {/* Vision Card */}
           <div className="flex items-center gap-4 rounded-xl  bg-white shadow-sm hover:border-[#0F5AA6]/40 transition-colors">
-            <img src="/moto/yavuzsan-otomotiv/Group2.png" alt="Vision" className="w-auto h-auto object-contain" />
+            <img src="/moto/yavuzsan-otomotiv/Group2.webp" alt="Vision" className="w-auto h-auto object-contain" />
             <div className="flex flex-col">
               <Typography variant="h3" className="oswald font-bold text-[#202020] text-xl mb-1">
                 Vision

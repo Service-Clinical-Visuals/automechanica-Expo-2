@@ -8,19 +8,19 @@ const news = [
     date: "FEB 25, 2026",
     title: "Supporting Education for a Sustainable Future Project",
     desc: "Efficiency means using space, equipment, and resources effectively to improve productivity.",
-    image: "/moto/kale/news/1.png",
+    image: "/moto/kale/news/1.webp",
   },
   {
     date: "MAR 16, 2023",
     title: 'OSD received the "Supply Industry Achievement Award".',
     desc: 'KALE Oto Radiator won the "Supplier Industry Achievement Award" in 2022 for excellence and reliability.',
-    image: "/moto/kale/news/2.png",
+    image: "/moto/kale/news/2.webp",
   },
   {
     date: "DEC 31, 2022",
     title: "Kale Auto Radiator wins Silver Medal for the second time!",
     desc: "Committed to sustainability today for a greener, better world tomorrow.",
-    image: "/moto/kale/news/3.png",
+    image: "/moto/kale/news/3.webp",
   },
 ];
 

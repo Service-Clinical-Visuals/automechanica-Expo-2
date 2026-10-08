@@ -2,21 +2,21 @@ import Image from "next/image";
 
 const pillars = [
   {
-    icon: "/moto/synmar/24x7.png",
+    icon: "/moto/synmar/24x7.webp",
     alt: "Truck",
     title: "Large Stock & Fast Delivery",
     description:
       "With extensive inventory and efficient logistics, we ensure product availability and fast, reliable delivery to keep your business running smoothly.",
   },
   {
-    icon: "/moto/synmar/truck.png",
+    icon: "/moto/synmar/truck.webp",
     alt: "Shield",
     title: "Protection In The Market",
     description:
       "We support our partners with strong market protection, fair business opportunities, and dedicated support to help drive long-term success.",
   },
   {
-    icon: "/moto/synmar/shield.png",
+    icon: "/moto/synmar/shield.webp",
     alt: "24x7",
     title: "Response Within 24 Hours",
     description:
@@ -37,7 +37,7 @@ export default function TrustedWorldwideSection() {
           {/* Left: image pulled up to overlap gold bar */}
           <div data-aos="fade-right" className="relative w-full rounded-xl overflow-hidden -mt-35 z-10" style={{ aspectRatio: "4/3" }}>
             <Image
-              src="/moto/synmar/trustedworldwide.png"
+              src="/moto/synmar/trustedworldwide.webp"
               alt="Trusted Worldwide"
               fill
               className="object-contain"

@@ -4,7 +4,7 @@ import Container from "./Container";
 import { Calendar } from "lucide-react";
 const newsItems = [
   {
-    image: "/moto/fleetguard/n1.png",
+    image: "/moto/fleetguard/n1.webp",
     date: "March 2, 2026",
     title:
       "Love's Travel Stops Partners Exclusively With Fleetguard to Offer Advanced Filtration Solutions",
@@ -12,14 +12,14 @@ const newsItems = [
     link: "#",
   },
   {
-    image: "/moto/fleetguard/n2.png",
+    image: "/moto/fleetguard/n2.webp",
     date: "April 08, 2025",
     title: "Fleetguard Showcases NanoNet® N3 Technology at Automec 2025",
     desc: "Fleetguard showcases NanoNet® N3 technology at Automec 2025, delivering advanced filtration and longer service life.",
     link: "#",
   },
   {
-    image: "/moto/fleetguard/n3.png",
+    image: "/moto/fleetguard/n3.webp",
     date: "April 21, 2025",
     title: "Fleetguard Extends NASCAR Sponsorship for 2025",
     desc: "Fleetguard extends its NASCAR partnership for 2025, sponsoring five races with Love's No. 34 team.",

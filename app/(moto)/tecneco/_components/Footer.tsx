@@ -14,9 +14,9 @@ export default function Footer() {
             {/* Column 1: About */}
             <div className="xl:col-span-3">
               <Link href="#" className="block mb-6">
-                {/* Apply brightness/invert if logo.png is black text to make it white for dark footer */}
+                {/* Apply brightness/invert if logo.webp is black text to make it white for dark footer */}
                 <img 
-                  src="/moto/tecneco/footerlogo.png" 
+                  src="/moto/tecneco/footerlogo.webp" 
                   alt="Tecneco Logo" 
                   className="w-60 md:w-80 lg:w-120 h-auto object-contain" 
                 />
@@ -26,16 +26,16 @@ export default function Footer() {
               </p>
               <div className="flex items-center gap-4">
                 <Link href="#" className="hover:opacity-75 transition-opacity">
-                  <img src="/moto/tecneco/in.png" alt="LinkedIn" className="w-5 h-5 object-contain" />
+                  <img src="/moto/tecneco/in.webp" alt="LinkedIn" className="w-5 h-5 object-contain" />
                 </Link>
                 <Link href="#" className="hover:opacity-75 transition-opacity">
-                  <img src="/moto/tecneco/x.png" alt="X (Twitter)" className="w-5 h-5 object-contain" />
+                  <img src="/moto/tecneco/x.webp" alt="X (Twitter)" className="w-5 h-5 object-contain" />
                 </Link>
                 <Link href="#" className="hover:opacity-75 transition-opacity">
-                  <img src="/moto/tecneco/ins.png" alt="Instagram" className="w-5 h-5 object-contain" />
+                  <img src="/moto/tecneco/ins.webp" alt="Instagram" className="w-5 h-5 object-contain" />
                 </Link>
                 <Link href="#" className="hover:opacity-75 transition-opacity">
-                  <img src="/moto/tecneco/u.png" alt="YouTube" className="w-5 h-5 object-contain" />
+                  <img src="/moto/tecneco/u.webp" alt="YouTube" className="w-5 h-5 object-contain" />
                 </Link>
               </div>
             </div>
@@ -72,20 +72,20 @@ export default function Footer() {
               <h4 className="text-white sora font-normal card-title mb-6">Contact Us</h4>
               <ul className="space-y-5">
                 <li className="flex items-start gap-3">
-                  <img src="/moto/tecneco/ph.png" alt="Phone" className="w-5 h-5 object-contain mt-0.5" />
+                  <img src="/moto/tecneco/ph.webp" alt="Phone" className="w-5 h-5 object-contain mt-0.5" />
                   <span className="text-white section-text font-normal lato leading-relaxed">
                     +39 (0)833 345304 / 346807
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <img src="/moto/tecneco/loc.png" alt="Location" className="w-5 h-5 object-contain mt-0.5" />
+                  <img src="/moto/tecneco/loc.webp" alt="Location" className="w-5 h-5 object-contain mt-0.5" />
                   <span className="text-white section-text font-normal lato leading-relaxed">
                     Strada Provinciale 361, Km11<br />
                     73040 Collepasso (Lecce) - Italia
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <img src="/moto/tecneco/mail.png" alt="Email" className="w-5 h-5 object-contain mt-0.5" />
+                  <img src="/moto/tecneco/mail.webp" alt="Email" className="w-5 h-5 object-contain mt-0.5" />
                   <a href="mailto:tecneco@tecneco.com" className="text-white section-text font-normal lato leading-relaxed">
                     tecneco@tecneco.com
                   </a>

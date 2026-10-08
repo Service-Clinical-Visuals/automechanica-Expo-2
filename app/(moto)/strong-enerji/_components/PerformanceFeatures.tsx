@@ -42,7 +42,7 @@ export default function PerformanceFeatures() {
               {features.map((feature, index) => (
                 <li key={index} className="flex items-start gap-4">
                   {/* <CheckCircle2 className="w-6 h-6 text-white flex-shrink-0 mt-0.5" /> */}
-                  <img src="/moto/strong-enerji/chk.png" alt="Check Icon" className="w-6 h-6 flex-shrink-0 mt-1" />
+                  <img src="/moto/strong-enerji/chk.webp" alt="Check Icon" className="w-6 h-6 flex-shrink-0 mt-1" />
                   <p className="section-text dm-sans text-white leading-relaxed">
                     <strong className="text-white font-semibold font-[family-name:var(--font-dm-sans)]">{feature.title}</strong> – {feature.description}
                   </p>

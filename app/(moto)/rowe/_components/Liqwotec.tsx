@@ -35,7 +35,7 @@ export default function Liqwotec() {
           {/* Right Image */}
           <div className="w-full relative aspect-[4/3] md:aspect-[16/10] xl:aspect-auto xl:h-[550px] shadow-2xl" data-aos="fade-left">
             <img 
-              src="/moto/rowe/liqwotec.png" 
+              src="/moto/rowe/liqwotec.webp" 
               alt="liqwotec GmbH Industrial Pipes" 
               className="w-full h-full object-cover"
             />

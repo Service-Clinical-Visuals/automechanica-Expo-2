@@ -5,22 +5,22 @@ import Button from "./Button";
 
 const STATS = [
   {
-    icon: "/moto/samco/filter.png",
+    icon: "/moto/samco/filter.webp",
     value: "30+M",
     label: <>Parts Produced<br className="hidden sm:inline" />every Year</>,
   },
   {
-    icon: "/moto/samco/cube.png",
+    icon: "/moto/samco/cube.webp",
     value: "5000+",
     label: <>Product variants<br className="hidden sm:inline" />Available</>,
   },
   {
-    icon: "/moto/samco/global.png",
+    icon: "/moto/samco/global.webp",
     value: "Global",
     label: <>OEM & Aftermarket<br className="hidden sm:inline" />Supplier</>,
   },
   {
-    icon: "/moto/samco/prize.png",
+    icon: "/moto/samco/prize.webp",
     value: "Quality",
     label: <>Tested. Certified.<br className="hidden sm:inline" />Trusted Worldwide.</>,
   },
@@ -81,7 +81,7 @@ export default function About() {
             className="w-full xl:col-span-6 aspect-video rounded-xs overflow-hidden shadow-[0px_7px_29px_rgba(100,100,111,0.2)] group order-2 xl:order-1"
           >
             <img
-              src="/moto/samco/about.png"
+              src="/moto/samco/about.webp"
               alt="SAMCO manufacturing facility"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out"
             />

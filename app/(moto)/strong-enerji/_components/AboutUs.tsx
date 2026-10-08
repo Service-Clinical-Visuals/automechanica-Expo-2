@@ -13,7 +13,7 @@ export default function AboutUs() {
           {/* Image */}
           <div className="order-2 xl:order-1 relative w-full rounded-2xl overflow-hidden" data-aos="fade-right">
             <img
-              src="/moto/strong-enerji/abt.png"
+              src="/moto/strong-enerji/abt.webp"
               alt="About Our Company"
               className="w-full h-auto object-cover"
             />
@@ -52,7 +52,7 @@ export default function AboutUs() {
           >
             <div className="mb-6 relative w-16 h-16 sm:w-20 sm:h-20">
               < img 
-                src="/moto/strong-enerji/abt1.png" 
+                src="/moto/strong-enerji/abt1.webp" 
                 alt="Our Vision Icon" 
                 className="object-contain" 
               />
@@ -72,7 +72,7 @@ export default function AboutUs() {
           >
             <div className="mb-6 relative w-16 h-16 sm:w-20 sm:h-20">
               <img 
-                src="/moto/strong-enerji/abt2.png" 
+                src="/moto/strong-enerji/abt2.webp" 
                 alt="Our Mission Icon"                 
                 className="object-contain" 
               />

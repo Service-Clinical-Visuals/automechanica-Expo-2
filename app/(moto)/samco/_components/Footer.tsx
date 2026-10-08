@@ -50,7 +50,7 @@ export default function Footer() {
             className="sm:col-span-2 lg:col-span-3"
           >
             <img
-              src="/moto/samco/footer_logo.png"
+              src="/moto/samco/footer_logo.webp"
               alt="SAMCO"
               className="h-[45px] w-auto aspect-[162/60] object-contain mb-4 hover:opacity-90 transition-opacity duration-200"
             />

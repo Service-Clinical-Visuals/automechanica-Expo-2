@@ -8,28 +8,28 @@ export default function Partners() {
 
   const newsItems = [
     {
-      image: "/moto/twin/n1.png",
+      image: "/moto/twin/n1.webp",
       date: "27.05.2026",
       location: "Bensheim",
       title: "New build - Building No. 5 in Bensheim is taking shape.",
       description: "Right next to our training and logistics centre in Bensheim, a new building is being constructed, featuring modern offices and plenty of space for logistics."
     },
     {
-      image: "/moto/twin/n2.png",
+      image: "/moto/twin/n2.webp",
       date: "13.04.2026",
       location: "Bensheim",
       title: "10-year service anniversary - We are celebrating Hermann Schmitzer's 10th anniversary with the company!",
       description: "We would like to extend our heartfelt thanks to our colleague Hermann for 10 years of loyal service. Here's to many more successful years together!"
     },
     {
-      image: "/moto/twin/n3.png",
+      image: "/moto/twin/n3.webp",
       date: "20.08.2025",
       location: "Bensheim",
       title: "The East Branch is Moving to a New Location!",
       description: "Our East Branch is relocating to a new location, creating more space and improving accessibility for our customers and partners. Discover the latest updates and learn more about our new location."
     },
     {
-      image: "/moto/twin/n4.png",
+      image: "/moto/twin/n4.webp",
       date: "13.04.2025",
       location: "Bensheim",
       title: "WERKSTATT aktuell Award 2025 - Double victory and two podium places for TWIN BUSCH®",

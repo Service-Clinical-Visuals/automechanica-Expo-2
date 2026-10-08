@@ -27,7 +27,7 @@ const About = () => {
 
             <div className="py-4 flex justify-center w-full">
               <img 
-                src="/moto/akkussan/logos.png" 
+                src="/moto/akkussan/logos.webp" 
                 alt="Akkuşsan and Transpart Brands" 
                 className="max-w-full h-auto object-contain" 
               />
@@ -48,7 +48,7 @@ const About = () => {
           <div className="w-full" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
             <div className="relative w-full aspect-[4/3]  overflow-hidden shadow-lg">
               <img 
-                src="/moto/akkussan/abt.png" 
+                src="/moto/akkussan/abt.webp" 
                 alt="Akkuşsan Facility" 
                 className="w-full h-full object-cover"
               />

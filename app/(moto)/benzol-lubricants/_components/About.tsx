@@ -30,7 +30,7 @@ export default function About() {
 
               <div className="mt-8 border border-white/10 overflow-hidden">
                 <img
-                  src="/moto/benzol-lubricants/about1.png"
+                  src="/moto/benzol-lubricants/about1.webp"
                   alt="Benzol Gold Performance — Drive the change, go green"
                   className="w-full h-full object-cover"
                 />
@@ -40,7 +40,7 @@ export default function About() {
             {/* Right: large feature image */}
             <div className="w-full lg:w-[62%]" data-aos="fade-left" data-aos-delay="150">
               <img
-                src="/moto/benzol-lubricants/about2.png"
+                src="/moto/benzol-lubricants/about2.webp"
                 alt="Benzol at the heart of every journey"
                 className="w-full h-full object-cover"
               />

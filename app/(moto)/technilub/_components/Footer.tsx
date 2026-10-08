@@ -11,9 +11,9 @@ const quickLinks = [
 const companyLinks = ["News", "Contact", "Legal Notice"];
 
 const socials = [
-  { src: "/moto/technilub/social/linkedin.png", alt: "LinkedIn" },
-  { src: "/moto/technilub/social/fb.png", alt: "Facebook" },
-  { src: "/moto/technilub/social/insta.png", alt: "Instagram" },
+  { src: "/moto/technilub/social/linkedin.webp", alt: "LinkedIn" },
+  { src: "/moto/technilub/social/fb.webp", alt: "Facebook" },
+  { src: "/moto/technilub/social/insta.webp", alt: "Instagram" },
 ];
 
 export default function Footer() {
@@ -25,7 +25,7 @@ export default function Footer() {
           {/* Col 1: Logo + description */}
           <div className="flex flex-col gap-6">
             <Image
-              src="/moto/technilub/logo.png"
+              src="/moto/technilub/logo.webp"
               alt="Technilub"
               width={245}
               height={80}

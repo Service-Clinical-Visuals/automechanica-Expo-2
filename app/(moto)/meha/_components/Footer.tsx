@@ -38,7 +38,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 lg:grid-cols-[30fr_14fr_14fr_20fr_28fr] gap-10">
           {/* Logo + tagline */}
           <div data-aos="fade-up">
-            <img src="/moto/meha/logo.png" alt="Meha Automotive Logo" className="h-35 w-auto object-contain mb-5" />
+            <img src="/moto/meha/logo.webp" alt="Meha Automotive Logo" className="h-35 w-auto object-contain mb-5" />
             <p className="content mb-5">
               Meha Automotive provides high-quality rubber and metal automotive spare parts to
               customers worldwide.

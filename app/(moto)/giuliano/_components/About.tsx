@@ -5,22 +5,22 @@ import Button from "./Button";
 
 const stats = [
   {
-    icon: "/moto/giuliano/cal.png",
+    icon: "/moto/giuliano/cal.webp",
     title: "50 Years by your side",
     text: "Trusted experience in automotive solutions worldwide.",
   },
   {
-    icon: "/moto/giuliano/cust.png",
+    icon: "/moto/giuliano/cust.webp",
     title: "3,000 Satisfied Customers",
     text: "Building lasting partnerships through quality and service.",
   },
   {
-    icon: "/moto/giuliano/130.png",
+    icon: "/moto/giuliano/130.webp",
     title: "130 Countries Supported",
     text: "Global support you can always rely on.",
   },
   {
-    icon: "/moto/giuliano/patent.png",
+    icon: "/moto/giuliano/patent.webp",
     title: "150 Patents",
     text: "Innovation continually driving better solutions.",
   },
@@ -57,13 +57,13 @@ export default function AboutUs() {
 
             {/* Image 1 */}
             <div className="group relative w-full aspect-[390/603] border border-mid overflow-hidden transition-all duration-700 ease-out hover:border-primary hover:-translate-y-1" data-aos="fade-right" data-aos-duration="900" data-aos-delay="150">
-              <img src="/moto/giuliano/about1.jpg" alt="Giuliano workshop" className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" loading="lazy" />
+              <img src="/moto/giuliano/about1.webp" alt="Giuliano workshop" className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" loading="lazy" />
               <div className="absolute inset-0 bg-black/0 transition-all duration-700 group-hover:bg-black/10" />
             </div>
 
             {/* Image 2 */}
             <div className="group relative w-full aspect-[390/603] border border-mid overflow-hidden transition-all duration-700 ease-out hover:border-primary hover:-translate-y-1" data-aos="fade-right" data-aos-duration="900" data-aos-delay="300">
-              <img src="/moto/giuliano/about2.jpg" alt="Giuliano workshop equipment" className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" loading="lazy" />
+              <img src="/moto/giuliano/about2.webp" alt="Giuliano workshop equipment" className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" loading="lazy" />
               <div className="absolute inset-0 bg-black/0 transition-all duration-700 group-hover:bg-black/10" />
             </div>
           </div>

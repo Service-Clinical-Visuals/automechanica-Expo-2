@@ -25,7 +25,7 @@ const About = () => {
           {/* Left: Facility image */}
           <div data-aos="fade-right" className="order-2 lg:order-1">
             <img
-              src="/moto/meha/about.png"
+              src="/moto/meha/about.webp"
               alt="Meha Automotive manufacturing facility"
               className="w-full h-full object-cover border border-[#EAEAEA] rounded-lg"
             />

@@ -11,7 +11,7 @@ export default function GlobalReachSection() {
                 <div className="absolute inset-0 bg-[#ECEEED]" />
                 <div className="absolute inset-0 flex items-center justify-center pointer-events-none" data-aos="zoom-in" data-aos-duration="1500">
                     <img
-                        src="/moto/soylu/centerbg.png"
+                        src="/moto/soylu/centerbg.webp"
                         alt="World map background"
                         className="max-w-[1400px] w-full h-auto object-contain"
                     />

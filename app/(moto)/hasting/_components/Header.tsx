@@ -94,7 +94,7 @@ export default function Header() {
               {/* Logo Area (Left) */}
               <div className="flex-shrink-0 flex items-center justify-start">
                 <Link href="#">
-                  <img src="/moto/hasting/logo.png" alt="Hastings Logo" className="h-10 md:h-12 w-auto object-contain" />
+                  <img src="/moto/hasting/logo.webp" alt="Hastings Logo" className="h-10 md:h-12 w-auto object-contain" />
                 </Link>
               </div>
 
@@ -150,7 +150,7 @@ export default function Header() {
               {/* Logo Area (Left) */}
               <div className="flex-shrink-0 flex items-center justify-start">
                 <Link href="#">
-                  <img src="/moto/hasting/logo.png" alt="Hastings Logo" className="h-8 md:h-10 w-auto object-contain" />
+                  <img src="/moto/hasting/logo.webp" alt="Hastings Logo" className="h-8 md:h-10 w-auto object-contain" />
                 </Link>
               </div>
 

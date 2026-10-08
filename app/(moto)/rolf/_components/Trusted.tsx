@@ -10,16 +10,16 @@ import "swiper/css/pagination";
 
 export default function Trusted() {
   const trustedItems = [
-    { title: "BMW", img: "/moto/rolf/car/car1.png" },
-    { title: "Mercedes-Benz", img: "/moto/rolf/car/car2.png" },
-    { title: "Volvo", img: "/moto/rolf/car/car3.png" },
-    { title: "Land Rover, Jaguar", img: "/moto/rolf/car/car4.png" },
-    { title: "Daimler Truck", img: "/moto/rolf/car/car5.png" },
-    { title: "Deutz", img: "/moto/rolf/car/car6.png" },
-    { title: "Cummins", img: "/moto/rolf/car/car7.png" },
-    { title: "Evonik", img: "/moto/rolf/car/car8.png" },
-    { title: "Man", img: "/moto/rolf/car/car9.png" },
-    { title: "PRI", img: "/moto/rolf/car/car10.png" },
+    { title: "BMW", img: "/moto/rolf/car/car1.webp" },
+    { title: "Mercedes-Benz", img: "/moto/rolf/car/car2.webp" },
+    { title: "Volvo", img: "/moto/rolf/car/car3.webp" },
+    { title: "Land Rover, Jaguar", img: "/moto/rolf/car/car4.webp" },
+    { title: "Daimler Truck", img: "/moto/rolf/car/car5.webp" },
+    { title: "Deutz", img: "/moto/rolf/car/car6.webp" },
+    { title: "Cummins", img: "/moto/rolf/car/car7.webp" },
+    { title: "Evonik", img: "/moto/rolf/car/car8.webp" },
+    { title: "Man", img: "/moto/rolf/car/car9.webp" },
+    { title: "PRI", img: "/moto/rolf/car/car10.webp" },
   ];
 
   return (

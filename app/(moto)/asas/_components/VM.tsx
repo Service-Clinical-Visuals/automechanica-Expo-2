@@ -6,7 +6,7 @@ import Button from "./Button";
 const items = [
   {
     title: "Our Mission",
-    icon: "/moto/asas/vm1.png",
+    icon: "/moto/asas/vm1.webp",
     paragraphs: [
       "To achieve our vision by becoming an innovative and responsible organization that develops advanced filter products by embracing the latest technologies, understanding market needs, and expanding our global presence. We collaborate with skilled and environmentally conscious suppliers to deliver reliable filtration solutions that meet industry standards.",
       "We value our employees, support sustainability, and minimize risks through responsible practices. By delivering quality filtration solutions and reliable service, we ensure customer satisfaction and lasting trust in the automotive industry.",
@@ -14,7 +14,7 @@ const items = [
   },
   {
     title: "Our Vision",
-    icon: "/moto/asas/vm2.png",
+    icon: "/moto/asas/vm2.webp",
     paragraphs: [
       "To be a leading brand that designs and produces high-quality filtration solutions for the automotive industry, recognized for innovation, advanced technology, reliability, and continuous improvement. We aim to develop efficient and sustainable filter products that meet the evolving needs of customers worldwide while contributing to a safer, cleaner, and more efficient automotive future.",
       "Through continuous innovation and advanced technology, we create reliable filtration solutions that deliver lasting value and superior performance for our automotive partners.",

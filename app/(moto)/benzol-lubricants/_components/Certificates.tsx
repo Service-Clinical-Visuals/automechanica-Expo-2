@@ -16,7 +16,7 @@ export default function Certificates() {
   const category = categories.find((c) => c.key === activeCategory)!;
   const images = Array.from(
     { length: category.count },
-    (_, i) => `/moto/benzol-lubricants/certificates/${category.folder}/${i + 1}.png`
+    (_, i) => `/moto/benzol-lubricants/certificates/${category.folder}/${i + 1}.webp`
   );
 
   return (

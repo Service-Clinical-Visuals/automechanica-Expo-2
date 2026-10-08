@@ -15,7 +15,7 @@ export default function AboutUs() {
           <div className="w-full xl:w-1/2 order-2 xl:order-1" data-aos="zoom-in-right" data-aos-duration="1200" data-aos-delay="100">
             <div className="relative w-full h-full min-h-[300px] xl:min-h-0 overflow-hidden border border-gray-200">
               <img
-                src="/moto/tesla/section2.png"
+                src="/moto/tesla/section2.webp"
                 alt="Tesla About Us - Automotive wheel"
                 className="absolute inset-0 w-full h-full object-cover"
               />

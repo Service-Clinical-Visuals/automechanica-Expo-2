@@ -25,7 +25,7 @@ export default function Creating() {
           {/* Card 1 */}
           <div className="group border border-white/40 relative w-full md:w-[58.7%] aspect-[963/580] rounded-3xl overflow-hidden shadow-md cursor-pointer">
             <img
-              src="/moto/petronas/create1.jpg"
+              src="/moto/petronas/create1.webp"
               alt="Creating Sustainable Value 1"
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
@@ -49,7 +49,7 @@ export default function Creating() {
           {/* Card 2 */}
           <div className="group border border-white/40 relative w-full md:w-[41.3%] aspect-[677/580] rounded-3xl overflow-hidden shadow-md cursor-pointer">
             <img
-              src="/moto/petronas/create2.jpg"
+              src="/moto/petronas/create2.webp"
               alt="Creating Sustainable Value 2"
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />

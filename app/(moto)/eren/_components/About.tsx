@@ -35,7 +35,7 @@ export default function About() {
               <div className="border border-[var(--color-primary)] p-6 flex flex-col items-center text-center">
                 <div className="flex items-center gap-4 mb-4">
                   <div className="w-14 h-14 bg-[var(--color-primary)] rounded-full flex items-center justify-center">
-                    <img src="/moto/eren/vision.png" alt="Vision" className="w-7 h-auto brightness-0 invert" />
+                    <img src="/moto/eren/vision.webp" alt="Vision" className="w-7 h-auto brightness-0 invert" />
                   </div>
                   <h3 className="section-subtitle font-semibold text-[#000000]">Vision</h3>
                 </div>
@@ -48,7 +48,7 @@ export default function About() {
               <div className="border border-[var(--color-primary)] p-6 flex flex-col items-center text-center">
                 <div className="flex items-center gap-4 mb-4">
                   <div className="w-14 h-14 bg-[var(--color-primary)] rounded-full flex items-center justify-center">
-                    <img src="/moto/eren/mission.png" alt="Mission" className="w-7 h-auto brightness-0 invert" />
+                    <img src="/moto/eren/mission.webp" alt="Mission" className="w-7 h-auto brightness-0 invert" />
                   </div>
                   <h3 className="section-subtitle font-semibold text-[#000000]">Mission</h3>
                 </div>
@@ -71,7 +71,7 @@ export default function About() {
             
             <div className="relative z-10 w-full overflow-hidden ">
               <img
-                src="/moto/eren/abt.png"
+                src="/moto/eren/abt.webp"
                 alt="Eren Balata Facility"
                 className="w-full h-auto object-cover"
               />

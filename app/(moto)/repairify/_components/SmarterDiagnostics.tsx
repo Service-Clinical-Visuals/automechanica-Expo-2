@@ -26,7 +26,7 @@ export default function SmarterDiagnostics() {
             <div className="flex flex-col gap-4 mt-2">
               {points.map((point, index) => (
                 <div key={index} className="flex items-start gap-4">
-                  <img src="/moto/repairify/tick.png" alt="Tick" className="w-6 h-6 mt-0.5 flex-shrink-0" />
+                  <img src="/moto/repairify/tick.webp" alt="Tick" className="w-6 h-6 mt-0.5 flex-shrink-0" />
                   <p className="inter-font section-text text-white leading-relaxed">
                     {point}
                   </p>

@@ -8,24 +8,24 @@ const slides = [
   [
     {
       title: "Quality",
-      image: "/moto/inmotion/e1.png",
+      image: "/moto/inmotion/e1.webp",
       text: "In Motion ensures strict quality control through advanced production monitoring, covering every stage from materials to finished products.",
     },
     {
       title: "Technology",
-      image: "/moto/inmotion/e2.png",
+      image: "/moto/inmotion/e2.webp",
       text: "In Motion bearings are produced on new generation lines able to guarantee high standards of processing and track lapping.",
     },
     {
       title: "Design",
-      image: "/moto/inmotion/e3.png",
+      image: "/moto/inmotion/e3.webp",
       text: "Our Technical Department supports bearing selection, product improvement, and custom bearing development to customer needs.",
     },
   ],
   [
     {
       title: "Manufacturing",
-      image: "/moto/inmotion/e4.png",
+      image: "/moto/inmotion/e4.webp",
       text: "Explore our extensive production capabilities and dedicated facilities to support the expanding global automotive market.",
     },
   ],

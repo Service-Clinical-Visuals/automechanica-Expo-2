@@ -99,7 +99,7 @@ export default function Product360() {
                     {/* Slightly reduced icon size */}
                     <div className="flex-shrink-0 w-[48px] h-[48px] min-[750px]:max-[1950px]:w-[38px] min-[750px]:max-[1950px]:h-[38px] min-[1200px]:max-[1500px]:!w-[28px] min-[1200px]:max-[1500px]:!h-[28px]">
                       <img
-                        src="/moto/optibelt/carbon.png"
+                        src="/moto/optibelt/carbon.webp"
                         alt=""
                         className="w-full h-full object-contain transition-transform duration-700 ease-[cubic-bezier(0.25,0.8,0.25,1)] group-hover/card:scale-110"
                       />

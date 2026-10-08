@@ -39,7 +39,7 @@ export default function Header() {
             {/* Logo Area */}
             <div className="flex-shrink-0 flex items-center">
               <Link href="#">
-                <img src="/moto/teknorot/logo.png" alt="Teknorot Logo" className="h-auto w-auto object-contain" />
+                <img src="/moto/teknorot/logo.webp" alt="Teknorot Logo" className="h-auto w-auto object-contain" />
               </Link>
             </div>
 

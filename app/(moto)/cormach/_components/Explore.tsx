@@ -9,12 +9,12 @@ import Typography from "./Typography";
 
 const Explore = () => {
   const images = [
-    "/moto/cormach/explore1.jpg",
-    "/moto/cormach/explore2.jpg",
-    "/moto/cormach/explore3.jpg",
-    "/moto/cormach/explore4.jpg",
-    "/moto/cormach/explore5.jpg",
-    "/moto/cormach/explore6.jpg",
+    "/moto/cormach/explore1.webp",
+    "/moto/cormach/explore2.webp",
+    "/moto/cormach/explore3.webp",
+    "/moto/cormach/explore4.webp",
+    "/moto/cormach/explore5.webp",
+    "/moto/cormach/explore6.webp",
   ];
 
   return (

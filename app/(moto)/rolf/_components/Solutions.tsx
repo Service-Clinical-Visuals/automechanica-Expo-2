@@ -9,10 +9,10 @@ import "swiper/css/pagination";
 
 export default function Solutions() {
   const qualityCards = [
-    { title: "Scientific Expertise", img: "/moto/rolf/quality1.png" },
-    { title: "New Lubricant Formulations", img: "/moto/rolf/quality2.png" },
-    { title: "Laboratory and Field Testing", img: "/moto/rolf/quality3.png" },
-    { title: "Proven Quality in Practice", img: "/moto/rolf/quality4.png" },
+    { title: "Scientific Expertise", img: "/moto/rolf/quality1.webp" },
+    { title: "New Lubricant Formulations", img: "/moto/rolf/quality2.webp" },
+    { title: "Laboratory and Field Testing", img: "/moto/rolf/quality3.webp" },
+    { title: "Proven Quality in Practice", img: "/moto/rolf/quality4.webp" },
   ];
 
   return (

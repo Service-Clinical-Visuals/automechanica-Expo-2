@@ -3,11 +3,11 @@
 import { useState, useRef } from "react";
 import Container from "./Container";
 
-const BG = "/moto/technilub/areabg.png";
-const BG2 = "/moto/technilub/areabg2.jpg";
-const BG3 = "/moto/technilub/areabg3.jpg";
-const BG4 = "/moto/technilub/areabg4.jpg";
-const BG5 = "/moto/technilub/areabg5.jpg";
+const BG = "/moto/technilub/areabg.webp";
+const BG2 = "/moto/technilub/areabg2.webp";
+const BG3 = "/moto/technilub/areabg3.webp";
+const BG4 = "/moto/technilub/areabg4.webp";
+const BG5 = "/moto/technilub/areabg5.webp";
 
 const areas = [
   {

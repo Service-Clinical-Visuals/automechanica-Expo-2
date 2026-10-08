@@ -23,21 +23,21 @@ export default function AboutUs() {
         <div className="flex flex-col md:flex-row w-full gap-4 lg:gap-6" data-aos="fade-up" data-aos-delay="100">
           <div className="w-full md:w-[42.3%] aspect-[677/455] rounded-3xl overflow-hidden shadow-md">
             <img
-              src="/moto/petronas/about1.png"
+              src="/moto/petronas/about1.webp"
               alt="PETRONAS Facility 1"
               className="w-full h-full object-cover"
             />
           </div>
           <div className="w-full md:w-[33.3%] aspect-[533/455] rounded-3xl overflow-hidden shadow-md">
             <img
-              src="/moto/petronas/about2.png"
+              src="/moto/petronas/about2.webp"
               alt="PETRONAS Facility 2"
               className="w-full h-full object-cover"
             />
           </div>
           <div className="w-full md:w-[24.3%] aspect-[390/455] rounded-3xl overflow-hidden shadow-md">
             <img
-              src="/moto/petronas/about3.png"
+              src="/moto/petronas/about3.webp"
               alt="PETRONAS Facility 3"
               className="w-full h-full object-cover"
             />

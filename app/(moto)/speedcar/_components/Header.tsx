@@ -82,7 +82,7 @@ const Header = () => {
             {/* Logo Section */}
             <Link href="/" className="flex items-center shrink-0 rounded-xl p-1 hover:opacity-90 transition-opacity">
               <img
-                src="/moto/speedcar/logo.png"
+                src="/moto/speedcar/logo.webp"
                 alt="Eurol Logo"
                 className="h-15 w-auto object-contain"
               />
@@ -112,7 +112,7 @@ const Header = () => {
             {/* Right Action: Call Us Now */}
             <div className="hidden xl:flex items-center gap-3 shrink-0">
               <img
-                src="/moto/speedcar/phone.png"
+                src="/moto/speedcar/phone.webp"
                 alt="Phone"
                 className="h-10 w-10 object-contain"
               />
@@ -161,7 +161,7 @@ const Header = () => {
             {/* Mobile Call Us Now */}
             <div className="pt-2 flex items-center gap-3">
               <img
-                src="/moto/speedcar/phone.png"
+                src="/moto/speedcar/phone.webp"
                 alt="Phone"
                 className="h-9 w-9 object-contain"
               />

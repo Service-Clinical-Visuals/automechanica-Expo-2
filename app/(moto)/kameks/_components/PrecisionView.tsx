@@ -8,7 +8,7 @@ export default function PrecisionView() {
   return (
     <section
       className="py-10 lg:py-20 relative overflow-hidden bg-white bg-cover bg-center"
-      style={{ backgroundImage: "url('/moto/kameks/bg.png')" }}
+      style={{ backgroundImage: "url('/moto/kameks/bg.webp')" }}
     >
       <div className="custom-container relative z-10">
 

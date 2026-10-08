@@ -36,7 +36,7 @@ export default function AboutUs() {
           <div className="lg:col-span-6 xl:col-span-7 w-full h-full flex items-center" data-aos="fade-left">
             <div className="w-full aspect-[16/8] rounded-sm overflow-hidden shadow-2xl bg-[#111] border border-white/10">
               <img 
-                src="/moto/walker-products/about-1.jpg" 
+                src="/moto/walker-products/about-1.webp" 
                 alt="Walker Products Facility" 
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
               />
@@ -52,7 +52,7 @@ export default function AboutUs() {
           <div className="lg:col-span-6 xl:col-span-7 w-full h-full flex items-center order-2 lg:order-1" data-aos="fade-right">
             <div className="w-full aspect-[16/8] rounded-sm overflow-hidden shadow-2xl bg-[#111] border border-white/10">
               <img 
-                src="/moto/walker-products/about-2.jpg" 
+                src="/moto/walker-products/about-2.webp" 
                 alt="Walker Products Support" 
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
               />

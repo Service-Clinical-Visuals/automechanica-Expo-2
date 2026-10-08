@@ -23,7 +23,7 @@ export default function Quality() {
         {/* Large Image */}
         <div className="w-full max-w-[90%] lg:max-w-[80%] h-full rounded-[8px] overflow-hidden flex item-center justify-center mx-auto" data-aos="fade-up" data-aos-delay="200">
           <img
-            src="/moto/famco/quality.png"
+            src="/moto/famco/quality.webp"
             alt="Quality Control Testing"
             className="w-full h-full object-cover"
             onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<div class="w-full h-[500px] bg-gray-200 flex items-center justify-center text-gray-500 rounded-[8px]">Image Placeholder</div>' }}

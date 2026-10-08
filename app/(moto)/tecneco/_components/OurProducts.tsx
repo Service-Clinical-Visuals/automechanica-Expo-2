@@ -8,49 +8,49 @@ const products = [
     id: 1,
     title: "OL2239E",
     description: "OL2239E is a metal-free eco oil filter designed for efficient engine protection and reliable OE-quality performance.",
-    image: "/moto/tecneco/1.png"
+    image: "/moto/tecneco/1.webp"
   },
   {
     id: 2,
     title: "AR3204",
     description: "The Tecneco AR3204 is a heavy-duty industrial air filter designed to deliver superior airflow, and long-lasting filtration performance.",
-    image: "/moto/tecneco/2.png"
+    image: "/moto/tecneco/2.webp"
   },
   {
     id: 3,
     title: "AR1827PMS",
     description: "Flat-panel air filter designed for passenger vehicles, delivering efficient airflow and dependable engine protection.",
-    image: "/moto/tecneco/3.png"
+    image: "/moto/tecneco/3.webp"
   },
   {
     id: 4,
     title: "CK1361C",
     description: "Flat-panel cabin filter designed to provide cleaner cabin air and reliable filtration for passenger vehicles.",
-    image: "/moto/tecneco/4.png"
+    image: "/moto/tecneco/4.webp"
   },
   {
     id: 5,
     title: "AM200",
     description: "Flat-panel air filter for recreational vehicles, delivering efficient airflow and dependable engine protection.",
-    image: "/moto/tecneco/5.png"
+    image: "/moto/tecneco/5.webp"
   },
   {
     id: 6,
     title: "OL1495",
     description: "Heavy-duty spin-on oil filter designed for reliable engine protection and long-lasting filtration performance.",
-    image: "/moto/tecneco/6.png"
+    image: "/moto/tecneco/6.webp"
   },
   {
     id: 7,
     title: "AM233",
     description: "Flat-panel air filter for recreational vehicles, delivering efficient airflow and reliable engine protection.",
-    image: "/moto/tecneco/7.png"
+    image: "/moto/tecneco/7.webp"
   },
   {
     id: 8,
     title: "HYD102",
     description: "Heavy-duty hydraulic oil filter designed for efficient contaminant removal and reliable hydraulic system protection.",
-    image: "/moto/tecneco/8.png"
+    image: "/moto/tecneco/8.webp"
   }
 ];
 

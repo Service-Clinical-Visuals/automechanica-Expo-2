@@ -40,7 +40,7 @@ export default function Header() {
           <div className="flex-shrink-0">
             <Link href="#">
               <img 
-                src="/moto/tecneco/logo.png" 
+                src="/moto/tecneco/logo.webp" 
                 alt="Tecneco Logo" 
                 className="w-[150px] md:w-[200px] xl:w-[230px] h-auto object-contain" 
               />

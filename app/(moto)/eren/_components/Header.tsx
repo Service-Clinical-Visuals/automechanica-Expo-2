@@ -40,7 +40,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="#" className="flex-shrink-0">
             <img
-              src="/moto/eren/logo.png"
+              src="/moto/eren/logo.webp"
               alt="Eren Logo"
               className="h-10 xl:h-12 w-auto object-contain"
             />

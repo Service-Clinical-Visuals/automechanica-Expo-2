@@ -15,7 +15,7 @@ const Footer = () => {
           {/* Column 1: Logo & Welcome (Span 4) */}
           <div className="col-span-1 md:col-span-2 xl:col-span-4 flex flex-col gap-6 min-[3800px]:gap-10" data-aos="fade-up">
             <img
-              src="/moto/cemb/logo1.png"
+              src="/moto/cemb/logo1.webp"
               alt="CEMB"
               className="w-[150px] min-[2100px]:w-[200px] min-[3800px]:w-[300px] object-contain"
             />

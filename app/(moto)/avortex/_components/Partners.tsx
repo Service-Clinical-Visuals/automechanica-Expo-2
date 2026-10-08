@@ -6,12 +6,12 @@ import Button from "./Button";
 export default function Partners() {
   const newsItems = [
     {
-      image: "/moto/avortex/n1.png",
+      image: "/moto/avortex/n1.webp",
       title: "Avortex Gasket Automotive at Automechanika Istanbul 2025!",
       description: "We're excited to announce that Avortex Gasket Automotive will be participating in one of the most significant international events in the automotive industry ....."
     },
     {
-      image: "/moto/avortex/n2.png",
+      image: "/moto/avortex/n2.webp",
       title: "We attended the 2025 IFEMA MADRID Motortec fair",
       description: "The IFEMA MADRID Motortec Fair, one of the most important meeting points for innovation and international partnerships in the automotive industry,...."
     }

@@ -7,7 +7,7 @@ export default function Quality() {
   return (
     <section 
       className="relative py-24 bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: "url('/moto/depa/bg1.png')" }}
+      style={{ backgroundImage: "url('/moto/depa/bg1.webp')" }}
     >
 
       

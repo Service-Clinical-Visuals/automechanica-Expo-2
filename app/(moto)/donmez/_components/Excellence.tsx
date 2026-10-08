@@ -38,19 +38,19 @@ const Excellence = () => {
           {/* Bullet Points */}
           <div className="flex flex-col gap-4 min-[3800px]:gap-8 mt-2 min-[3800px]:mt-6">
             <div className="flex items-start gap-3 min-[3800px]:gap-6">
-              <img src="/moto/donmez/Vector.png" alt="bullet" className="w-5 h-5 min-[3800px]:w-10 min-[3800px]:h-10 object-contain shrink-0 mt-0.5" />
+              <img src="/moto/donmez/Vector.webp" alt="bullet" className="w-5 h-5 min-[3800px]:w-10 min-[3800px]:h-10 object-contain shrink-0 mt-0.5" />
               <Typography variant="p" color="dark" className="leading-relaxed font-medium">
                 Advanced manufacturing with precision CNC machining.
               </Typography>
             </div>
             <div className="flex items-start gap-3 min-[3800px]:gap-6">
-              <img src="/moto/donmez/Vector.png" alt="bullet" className="w-5 h-5 min-[3800px]:w-10 min-[3800px]:h-10 object-contain shrink-0 mt-0.5" />
+              <img src="/moto/donmez/Vector.webp" alt="bullet" className="w-5 h-5 min-[3800px]:w-10 min-[3800px]:h-10 object-contain shrink-0 mt-0.5" />
               <Typography variant="p" color="dark" className="leading-relaxed font-medium">
                 Dynamic balancing for smoother and more efficient operation.
               </Typography>
             </div>
             <div className="flex items-start gap-3 min-[3800px]:gap-6">
-              <img src="/moto/donmez/Vector.png" alt="bullet" className="w-5 h-5 min-[3800px]:w-10 min-[3800px]:h-10 object-contain shrink-0 mt-0.5" />
+              <img src="/moto/donmez/Vector.webp" alt="bullet" className="w-5 h-5 min-[3800px]:w-10 min-[3800px]:h-10 object-contain shrink-0 mt-0.5" />
               <Typography variant="p" color="dark" className="leading-relaxed font-medium">
                 Comprehensive quality inspections and performance testing.
               </Typography>

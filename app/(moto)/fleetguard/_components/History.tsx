@@ -18,7 +18,7 @@ export default function History() {
             <div className="relative  rounded-xl overflow-hidden">
 
               <img
-                src="/moto/fleetguard/industry.png"
+                src="/moto/fleetguard/industry.webp"
                 alt="Mechanic holding Fleetguard LF3970 oil filter"
                 className="w-full h-full object-contain relative z-0"
               />

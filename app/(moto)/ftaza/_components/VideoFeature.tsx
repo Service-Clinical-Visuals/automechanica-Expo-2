@@ -4,7 +4,7 @@ import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 
 export default function VideoFeature() {
   return (
-    <section className="relative py-16 sm:py-20 overflow-hidden bg-[#062AAA] bg-[url('/moto/ftaza/bg.png')] bg-cover bg-center">
+    <section className="relative py-16 sm:py-20 overflow-hidden bg-[#062AAA] bg-[url('/moto/ftaza/bg.webp')] bg-cover bg-center">
       <Container>
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-10 items-center">
 

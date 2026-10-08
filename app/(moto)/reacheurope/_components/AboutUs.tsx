@@ -11,7 +11,7 @@ export default function AboutUs() {
           {/* Left Image */}
           <div className="w-full xl:col-span-6 h-full min-h-[400px] flex" data-aos="fade-right">
             <img
-              src="/moto/reacheurope/abt.png"
+              src="/moto/reacheurope/abt.webp"
               alt="REACH Facility"
               className="w-full h-full object-cover"
             />
@@ -41,7 +41,7 @@ export default function AboutUs() {
             {/* Cards / Stats */}
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-4" data-aos="fade-up" data-aos-delay="300">
               {/* Card 1 */}
-              <div className="bg-[url('/moto/reacheurope/abtbg.png')] bg-cover bg-center bg-no-repeat p-6 flex flex-col items-center justify-center text-center gap-2 min-h-[140px]">
+              <div className="bg-[url('/moto/reacheurope/abtbg.webp')] bg-cover bg-center bg-no-repeat p-6 flex flex-col items-center justify-center text-center gap-2 min-h-[140px]">
                 <h3 className="text-[#004a8b] text-4xl lg:text-5xl font-bold rajdhani-font">25+</h3>
                 <p className="lato-font text-[#004a8b] text-sm font-semibold">
                   Years of Industry Experience
@@ -49,7 +49,7 @@ export default function AboutUs() {
               </div>
 
               {/* Card 2 */}
-              <div className="bg-[url('/moto/reacheurope/abtbg.png')] bg-cover bg-center bg-no-repeat p-6 flex flex-col items-center justify-center text-center gap-2 shadow-sm border border-gray-100 min-h-[140px]">
+              <div className="bg-[url('/moto/reacheurope/abtbg.webp')] bg-cover bg-center bg-no-repeat p-6 flex flex-col items-center justify-center text-center gap-2 shadow-sm border border-gray-100 min-h-[140px]">
                 <h3 className="text-[#004a8b] text-4xl lg:text-5xl font-bold rajdhani-font">20,000+</h3>
                 <p className="lato-font text-[#004a8b] text-sm font-semibold">
                   Premium Products
@@ -57,7 +57,7 @@ export default function AboutUs() {
               </div>
 
               {/* Card 3 */}
-              <div className="bg-[url('/moto/reacheurope/abtbg.png')] bg-cover bg-center bg-no-repeat p-6 flex flex-col items-center justify-center text-center gap-2 shadow-sm border border-gray-100 min-h-[140px]">
+              <div className="bg-[url('/moto/reacheurope/abtbg.webp')] bg-cover bg-center bg-no-repeat p-6 flex flex-col items-center justify-center text-center gap-2 shadow-sm border border-gray-100 min-h-[140px]">
                 <h3 className="text-[#004a8b] text-4xl lg:text-5xl font-bold rajdhani-font">176</h3>
                 <p className="lato-font text-[#004a8b] text-sm font-semibold">
                   Countries & Regions Served

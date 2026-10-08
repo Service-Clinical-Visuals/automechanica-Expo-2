@@ -7,19 +7,19 @@ export default function ProductCategories() {
   const products = [
     {
       name: "TC-W3 2 Stroke Motor\nOil",
-      image: "/moto/saria-international/1.png"
+      image: "/moto/saria-international/1.webp"
     },
     {
       name: "Spray Paint - Paint\nRemover",
-      image: "/moto/saria-international/2.png"
+      image: "/moto/saria-international/2.webp"
     },
     {
       name: "Foaming Upholstery\nShampoo",
-      image: "/moto/saria-international/3.png"
+      image: "/moto/saria-international/3.webp"
     },
     {
       name: "Carburetor and Choke\nCleaner Spray",
-      image: "/moto/saria-international/4.png"
+      image: "/moto/saria-international/4.webp"
     }
   ];
 

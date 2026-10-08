@@ -18,7 +18,7 @@ export default function OurStrongPoints() {
             {/* Card 1 */}
             <div className="bg-[#171717] border border-white/25 rounded-sm flex flex-col p-4 lg:p-6" data-aos="fade-up" data-aos-delay="100">
               <div className="aspect-[4/3] w-full">
-                <img src="/moto/vitobello/s1.png" alt="Sales" className="w-full h-full object-cover rounded-sm" />
+                <img src="/moto/vitobello/s1.webp" alt="Sales" className="w-full h-full object-cover rounded-sm" />
               </div>
               <div className="pt-2 pb-5 flex flex-col gap-4 flex-1">
                 <Typography variant="h3" color="white" className="pt-3">Sales</Typography>
@@ -34,7 +34,7 @@ export default function OurStrongPoints() {
             {/* Card 2 */}
             <div className="bg-[#171717] border border-white/25 rounded-sm flex flex-col p-4 lg:p-6" data-aos="fade-up" data-aos-delay="200">
               <div className="aspect-[4/3] w-full">
-                <img src="/moto/vitobello/s2.png" alt="Shipment" className="w-full h-full object-cover rounded-sm" />
+                <img src="/moto/vitobello/s2.webp" alt="Shipment" className="w-full h-full object-cover rounded-sm" />
               </div>
               <div className="pt-2 pb-5 flex flex-col gap-4 flex-1">
                 <Typography variant="h3" color="white" className="pt-3">Shipment</Typography>
@@ -50,7 +50,7 @@ export default function OurStrongPoints() {
             {/* Card 3 */}
             <div className="bg-[#171717] border border-white/25 rounded-sm flex flex-col p-4 lg:p-6" data-aos="fade-up" data-aos-delay="300">
               <div className="aspect-[4/3] w-full">
-                <img src="/moto/vitobello/s3.png" alt="Aftersales" className="w-full h-full object-cover rounded-sm" />
+                <img src="/moto/vitobello/s3.webp" alt="Aftersales" className="w-full h-full object-cover rounded-sm" />
               </div>
               <div className="pt-2 pb-5 flex flex-col gap-4 flex-1">
                 <Typography variant="h3" color="white" className="pt-3">Aftersales</Typography>

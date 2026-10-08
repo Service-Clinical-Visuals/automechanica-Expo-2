@@ -5,17 +5,17 @@ import ParallelogramButton from "./ParallelogramButton";
 
 const newsItems = [
   {
-    img: "/moto/ramoil/news/news1.png",
+    img: "/moto/ramoil/news/news1.webp",
     title: "Ra.M.Oil obtained the CRIBIS D&B Rating 1",
     date: "November 10, 2024",
   },
   {
-    img: "/moto/ramoil/news/news2.png",
+    img: "/moto/ramoil/news/news2.webp",
     title: "Ra.M.Oil's path with Carbon Disclosure Project",
     date: "June 23, 2024",
   },
   {
-    img: "/moto/ramoil/news/news3.png",
+    img: "/moto/ramoil/news/news3.webp",
     title: "Ra.M.Oil received the Ethics and Legality Award",
     date: "April 16, 2024",
   },

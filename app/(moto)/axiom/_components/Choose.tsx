@@ -4,13 +4,13 @@ import { motion } from "framer-motion";
 
 const features = [
   {
-    icon: "/moto/axiom/premium.png",
+    icon: "/moto/axiom/premium.webp",
     title: "Premium Quality",
     description:
       "Built with advanced manufacturing technology and precision production processes.",
   },
   {
-    icon: "/moto/axiom/inc.png",
+    icon: "/moto/axiom/inc.webp",
     title: "International Quality Standards",
     description:
       "Ensuring dependable products for worldwide automotive markets.",
@@ -73,7 +73,7 @@ export default function Choose() {
           className="relative w-full xl:flex-1 min-w-0 h-[350px] md:h-[450px] xl:h-[600px] min-[1920px]:h-[560px] min-[2560px]:h-[720px] rounded-2xl overflow-hidden"
         >
           <img
-            src="/moto/axiom/prod2.png"
+            src="/moto/axiom/prod2.webp"
             alt="AXIOM automotive components"
             className="absolute inset-0 w-full h-full object-cover"
           />

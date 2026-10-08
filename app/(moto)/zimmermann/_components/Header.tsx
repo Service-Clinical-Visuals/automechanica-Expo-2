@@ -38,7 +38,7 @@ export default function Header() {
         <div className="flex items-center justify-between gap-6 h-[80px]">
           {/* Logo */}
           <Link href="/" className="shrink-0">
-            <img src="/moto/zimmermann/logo.png" alt="Zimmermann" className="w-[150px] xl:w-[260px] h-auto object-contain self-center" />
+            <img src="/moto/zimmermann/logo.webp" alt="Zimmermann" className="w-[150px] xl:w-[260px] h-auto object-contain self-center" />
           </Link>
 
           {/* Desktop Navigation */}

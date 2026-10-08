@@ -40,7 +40,7 @@ export default function Header() {
             {/* Logo Area */}
             <div className="flex-shrink-0 flex items-center">
               <Link href="#">
-                <img src="/moto/sigam/logo.png" alt="Sigam Logo" className="w-[150px] md:w-[180px] h-auto object-contain" />
+                <img src="/moto/sigam/logo.webp" alt="Sigam Logo" className="w-[150px] md:w-[180px] h-auto object-contain" />
               </Link>
             </div>
 

@@ -4,22 +4,22 @@ import Container from "./Container";
 
 const features = [
   {
-    num: "/moto/technilub/1.png",
+    num: "/moto/technilub/1.webp",
     title: "Enhanced Engine Cleanliness",
     desc: "Helps prevent sludge and deposit formation for cleaner operation.",
   },
   {
-    num: "/moto/technilub/2.png",
+    num: "/moto/technilub/2.webp",
     title: "Fuel Efficiency Support",
     desc: "Optimized formulation contributes to smoother performance and reduced fuel consumption.",
   },
   {
-    num: "/moto/technilub/3.png",
+    num: "/moto/technilub/3.webp",
     title: "Thermal Stability",
     desc: "Optimized formulation contributes to smoother performance and reduced fuel consumption.",
   },
   {
-    num: "/moto/technilub/4.png",
+    num: "/moto/technilub/4.webp",
     title: "Extended Engine Life",
     desc: "Delivers reliable lubrication for long-lasting engine durability.",
   },

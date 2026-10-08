@@ -23,10 +23,10 @@ const columns: LinkColumn[] = [
 ];
 
 const socials = [
-  { icon: "/moto/optibelt/fb.png", label: "Facebook" },
-  { icon: "/moto/optibelt/insta.png", label: "Instagram" },
-  { icon: "/moto/optibelt/link.png", label: "LinkedIn" },
-  { icon: "/moto/optibelt/yt.png", label: "YouTube" },
+  { icon: "/moto/optibelt/fb.webp", label: "Facebook" },
+  { icon: "/moto/optibelt/insta.webp", label: "Instagram" },
+  { icon: "/moto/optibelt/link.webp", label: "LinkedIn" },
+  { icon: "/moto/optibelt/yt.webp", label: "YouTube" },
 ];
 
 export default function Footer() {
@@ -48,7 +48,7 @@ export default function Footer() {
             >
               <Link href="/">
                 <img
-                  src="/moto/optibelt/logo.png"
+                  src="/moto/optibelt/logo.webp"
                   alt="Optibelt Logo"
                   className="w-[150px] h-auto object-contain"
                 />

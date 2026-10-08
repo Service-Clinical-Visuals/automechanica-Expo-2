@@ -45,7 +45,7 @@ export default function Premium() {
               <ul className="flex flex-col gap-5 mb-10">
                 {benefits.map((benefit) => (
                   <li key={benefit.lead} className="flex items-start gap-3">
-                    <img src="/moto/zeta-erre/puzzle.png" alt="" className="w-5 h-5 shrink-0 mt-1 object-contain" />
+                    <img src="/moto/zeta-erre/puzzle.webp" alt="" className="w-5 h-5 shrink-0 mt-1 object-contain" />
                     <p className="content-white">
                       <span className="font-semibold">{benefit.lead}</span>
                       {benefit.rest}

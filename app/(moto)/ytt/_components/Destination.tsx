@@ -15,7 +15,7 @@ export default function Destination() {
       {/* Decorative background pattern */}
       <div className="absolute inset-0 opacity-50">
         <img
-          src="/moto/ytt/bg.png"
+          src="/moto/ytt/bg.webp"
           alt=""
           className="w-full h-full object-cover"
         />

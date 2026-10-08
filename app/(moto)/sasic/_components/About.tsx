@@ -4,17 +4,17 @@ import Container from "./Container";
 
 const cards = [
   {
-    icon: "/moto/sasic/chart.png",
+    icon: "/moto/sasic/chart.webp",
     title: "14,000 References",
     text: "More than 14,000 references, and more than 60,000 vehicle applications for French, German and Asian vehicle brands.",
   },
   {
-    icon: "/moto/sasic/spanner.png",
+    icon: "/moto/sasic/spanner.webp",
     title: "95 Years of Expertise",
     text: "As an original equipment manufacturer, SASIC offers premium quality products, developed in France.",
   },
   {
-    icon: "/moto/sasic/certificate.png",
+    icon: "/moto/sasic/certificate.webp",
     title: "ISO 9001 Quality Certification",
     text: "All SASIC range references undergo final inspection, based on original equipment part requirements.",
   },
@@ -31,7 +31,7 @@ export default function About() {
             {/* Left image */}
             <div className="w-full lg:w-1/2 shrink-0 items-center" data-aos="fade-right">
               <img
-                src="/moto/sasic/about.png"
+                src="/moto/sasic/about.webp"
                 alt="SASIC team"
                 className="w-full h-full object-cover"
                 style={{ minHeight: 320 }}

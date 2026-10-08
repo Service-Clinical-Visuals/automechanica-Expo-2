@@ -28,7 +28,7 @@ export default function News() {
           {/* Card 1: Automec Brasil */}
           <article className="bg-white border border-[#EAEAEA] rounded-lg overflow-hidden flex flex-col">
             <img
-              src="/moto/rased/news/1.png"
+              src="/moto/rased/news/1.webp"
               alt="Automec Brasil exhibition stand"
               className="w-full h-auto object-cover"
             />
@@ -73,7 +73,7 @@ export default function News() {
               </Link>
             </div>
             <img
-              src="/moto/rased/news/2.png"
+              src="/moto/rased/news/2.webp"
               alt="Automechanika Dubai exhibition stand"
               className="w-full h-auto object-cover mt-auto"
             />
@@ -82,7 +82,7 @@ export default function News() {
           {/* Card 3: Automechanika Frankfurt */}
           <article className="bg-white border border-[#EAEAEA] rounded-lg overflow-hidden flex flex-col order-1 lg:order-2">
             <img
-              src="/moto/rased/news/3.png"
+              src="/moto/rased/news/3.webp"
               alt="Automechanika Frankfurt exhibition stand"
               className="w-full h-auto object-cover"
             />

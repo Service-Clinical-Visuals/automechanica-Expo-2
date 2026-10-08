@@ -20,10 +20,10 @@ export default function EngineeredQuality() {
     <section 
       className="py-20 md:py-28 bg-[#111111] relative w-full bg-cover bg-center bg-no-repeat"
       style={{
-        backgroundImage: `url('/moto/tecneco/bg1.png')`
+        backgroundImage: `url('/moto/tecneco/bg1.webp')`
       }}
     >
-      {/* Optional dark overlay if bg1.png is too bright or needs to blend better */}
+      {/* Optional dark overlay if bg1.webp is too bright or needs to blend better */}
       <div className="absolute inset-0 bg-black/40 z-0"></div>
 
       <div className="custom-container relative z-10">
@@ -44,7 +44,7 @@ export default function EngineeredQuality() {
                 <li key={index} className="flex items-start gap-4">
                   <div className="flex-shrink-0 mt-1">
                     <img 
-                      src="/moto/tecneco/icon.png" 
+                      src="/moto/tecneco/icon.webp" 
                       alt="bullet" 
                       className="w-5 h-5 object-contain"
                       onError={(e) => {

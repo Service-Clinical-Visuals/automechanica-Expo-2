@@ -44,7 +44,7 @@ export default function Performance() {
             <ul className="xl:hidden 2xl:block space-y-5 mb-6">
               <li className="flex items-start gap-4">
                 <div className="flex-shrink-0 flex items-center justify-center mt-1">
-                  <img src="/moto/srt/chk1.png" alt="check" className="w-7 h-7 mt-1" />
+                  <img src="/moto/srt/chk1.webp" alt="check" className="w-7 h-7 mt-1" />
                 </div>
                 <p className="section-text oxanium text-[#4a4a4a] leading-relaxed">
                   Precision Engineering – Manufactured with accurate dimensions for reliable fitment and smooth operation.
@@ -52,7 +52,7 @@ export default function Performance() {
               </li>
               <li className="flex items-start gap-4">
                 <div className="flex-shrink-0 flex items-center justify-center mt-1">
-                  <img src="/moto/srt/chk1.png" alt="check" className="w-7 h-7 mt-1" />
+                  <img src="/moto/srt/chk1.webp" alt="check" className="w-7 h-7 mt-1" />
                 </div>
                 <p className="section-text oxanium text-[#4a4a4a] leading-relaxed">
                  Advanced Manufacturing – Modern production technologies ensure consistent quality and performance.
@@ -60,7 +60,7 @@ export default function Performance() {
               </li>
               <li className="flex items-start gap-4">
                 <div className="flex-shrink-0 flex items-center justify-center mt-1">
-                  <img src="/moto/srt/chk1.png" alt="check" className="w-7 h-7 mt-1" />
+                  <img src="/moto/srt/chk1.webp" alt="check" className="w-7 h-7 mt-1" />
                 </div>
                 <p className="section-text oxanium text-[#4a4a4a] leading-relaxed">
                   Consistent Performance – Engineered to deliver dependable operation under demanding conditions.
@@ -86,7 +86,7 @@ export default function Performance() {
           <ul className="grid grid-cols-1 xl:grid-cols-3 gap-6 xl:gap-8">
             <li className="flex items-start gap-4">
               <div className="flex-shrink-0 flex items-center justify-center mt-1">
-                <img src="/moto/srt/chk1.png" alt="check" className="w-7 h-7 mt-1" />
+                <img src="/moto/srt/chk1.webp" alt="check" className="w-7 h-7 mt-1" />
               </div>
               <p className="section-text oxanium text-[#4a4a4a] leading-relaxed">
                 Precision Engineering – Manufactured with accurate dimensions for reliable fitment and smooth operation.
@@ -94,7 +94,7 @@ export default function Performance() {
             </li>
             <li className="flex items-start gap-4">
               <div className="flex-shrink-0 flex items-center justify-center mt-1">
-                <img src="/moto/srt/chk1.png" alt="check" className="w-7 h-7 mt-1" />
+                <img src="/moto/srt/chk1.webp" alt="check" className="w-7 h-7 mt-1" />
               </div>
               <p className="section-text oxanium text-[#4a4a4a] leading-relaxed">
                 Advanced Manufacturing – Modern production technologies ensure consistent quality and performance.
@@ -102,7 +102,7 @@ export default function Performance() {
             </li>
             <li className="flex items-start gap-4">
               <div className="flex-shrink-0 flex items-center justify-center mt-1">
-                <img src="/moto/srt/chk1.png" alt="check" className="w-7 h-7 mt-1" />
+                <img src="/moto/srt/chk1.webp" alt="check" className="w-7 h-7 mt-1" />
               </div>
               <p className="section-text oxanium text-[#4a4a4a] leading-relaxed">
                 Consistent Performance – Engineered to deliver dependable operation under demanding conditions.

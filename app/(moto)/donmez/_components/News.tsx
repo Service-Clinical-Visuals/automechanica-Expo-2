@@ -12,19 +12,19 @@ const News = () => {
   const newsItems = [
     {
       title: "Automechanika Dubai Exhibition",
-      img: "/moto/donmez/n1.png",
+      img: "/moto/donmez/n1.webp",
     },
     {
       title: "Strategy and Vision Conference",
-      img: "/moto/donmez/n2.png",
+      img: "/moto/donmez/n2.webp",
     },
     {
       title: "DEU Quality Society Technical Trip",
-      img: "/moto/donmez/n3.png",
+      img: "/moto/donmez/n3.webp",
     },
     {
       title: "DEU Career Fair Participation",
-      img: "/moto/donmez/n4.png",
+      img: "/moto/donmez/n4.webp",
     },
   ];
 

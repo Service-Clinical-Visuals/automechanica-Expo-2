@@ -10,7 +10,7 @@ const Help = () => {
       {/* Left Image (Full Bleed) */}
       <div className="w-full xl:w-1/2 h-[400px] xl:h-auto min-h-[400px] xl:min-h-[600px]" data-aos="fade-right">
         <img
-          src="/moto/hasting/section4.png"
+          src="/moto/hasting/section4.webp"
           alt="Piston Rings Close Up"
           className="w-full h-full object-cover"
         />
@@ -22,7 +22,7 @@ const Help = () => {
           {/* Man Image */}
           <div className="w-60 h-60 min-[3800px]:w-100 min-[3800px]:h-100 shrink-0">
             <img
-              src="/moto/hasting/man.png"
+              src="/moto/hasting/man.webp"
               alt="Tough Guy Tech Support"
               className="w-full  object-contain"
             />

@@ -10,7 +10,7 @@ import "swiper/css/pagination";
 const products = [
   {
     id: 1,
-    image: "/moto/aspl/p1.png",
+    image: "/moto/aspl/p1.webp",
     name: "ARE5181S2",
     line: "Standard Line",
     procedure: "AS-PL",
@@ -18,7 +18,7 @@ const products = [
   },
   {
     id: 2,
-    image: "/moto/aspl/p2.jpg",
+    image: "/moto/aspl/p2.webp",
     name: "S68195",
     line: "Standard Line",
     procedure: "AS-PL",
@@ -26,7 +26,7 @@ const products = [
   },
   {
     id: 3,
-    image: "/moto/aspl/p3.png",
+    image: "/moto/aspl/p3.webp",
     name: "A9002SR",
     line: "Standard Line",
     procedure: "AS-PL",
@@ -34,7 +34,7 @@ const products = [
   },
   {
     id: 4,
-    image: "/moto/aspl/p4.png",
+    image: "/moto/aspl/p4.webp",
     name: "S01268PR",
     line: "Standard Line",
     procedure: "AS-PL",
@@ -42,7 +42,7 @@ const products = [
   },
   {
     id: 5,
-    image: "/moto/aspl/p5.png",
+    image: "/moto/aspl/p5.webp",
     name: "ARE5216S2",
     line: "Standard Line",
     procedure: "AS-PL",
@@ -50,7 +50,7 @@ const products = [
   },
   {
     id: 6,
-    image: "/moto/aspl/p6.png",
+    image: "/moto/aspl/p6.webp",
     name: "ARE5200S2",
     line: "Standard Line",
     procedure: "AS-PL",
@@ -122,7 +122,7 @@ const Products = () => {
                       {/* Top Row: Line & Procedure */}
                       <div className="flex items-center justify-between w-full">
                         <div className="flex items-center gap-1.5 md:gap-2 shrink-0">
-                          <img src="/moto/aspl/check-square.png" alt="Check" className="w-4 h-4 md:w-5 md:h-5 shrink-0" />
+                          <img src="/moto/aspl/check-square.webp" alt="Check" className="w-4 h-4 md:w-5 md:h-5 shrink-0" />
                           <span className="text-[12px] md:text-[13px] xl:text-[15px] 2xl:text-[18px] font-semibold text-primary whitespace-nowrap">
                             {product.line}
                           </span>

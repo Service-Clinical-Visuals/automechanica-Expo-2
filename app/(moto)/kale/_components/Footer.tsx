@@ -32,7 +32,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 lg:grid-cols-[35fr_10fr_10fr_25fr_26fr] gap-10">
           {/* Logo + tagline */}
           <div data-aos="fade-up" className="flex flex-col items-start justify-end h-full">
-            <img src="/moto/kale/logo.png" alt="Kale Oto Radyatör Logo" className="h-18 w-auto object-contain mb-5" />
+            <img src="/moto/kale/logo.webp" alt="Kale Oto Radyatör Logo" className="h-18 w-auto object-contain mb-5" />
             <p className="content mb-5">
               To ensure customer satisfaction by manufacturing brake pads that meet the expectations of our customers in the automotive industry and aftermarket
             </p>
@@ -144,7 +144,7 @@ export default function Footer() {
             </a>
           </p>
           <img
-            src="/moto/kale/nar.png"
+            src="/moto/kale/nar.webp"
             alt="Nar Bilişim"
             className="h-3 w-auto object-contain justify-self-center sm:justify-self-end"
           />

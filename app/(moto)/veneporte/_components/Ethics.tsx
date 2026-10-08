@@ -3,7 +3,7 @@ import Typography from './Typography';
 
 export default function Ethics() {
   return (
-    <section className="py-16  relative overflow-hidden bg-[#F8F9FA] bg-[url('/moto/veneporte/bg1.jpg')] bg-cover bg-center">
+    <section className="py-16  relative overflow-hidden bg-[#F8F9FA] bg-[url('/moto/veneporte/bg1.webp')] bg-cover bg-center">
       <div className="custom-container px-4 md:px-8 max-w-[1920px] mx-auto relative z-10">
         <div className="grid grid-cols-1 xl:grid-cols-12 gap-10 md:gap-16 items-start">
 
@@ -11,7 +11,7 @@ export default function Ethics() {
           <div className="xl:col-span-6 w-full relative">
             <div className="w-full  rounded-xl overflow-hidden">
               <img
-                src="/moto/veneporte/ethics1.png"
+                src="/moto/veneporte/ethics1.webp"
                 alt="Ethics and Transparency"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                 data-aos="zoom-in-right" data-aos-duration="1000"
@@ -35,7 +35,7 @@ export default function Ethics() {
 
               <div className="relative rounded-xl overflow-hidden  aspect-[4/3] border-[3px] border-primary group group" data-aos="zoom-in-up" data-aos-delay="200" data-aos-duration="800">
                 <img
-                  src="/moto/veneporte/ethics2.png"
+                  src="/moto/veneporte/ethics2.webp"
                   alt="Factory interior"
                   className="w-full h-full scale-101  object-cover group-hover:scale-105 transition-transform duration-500"
                 />
@@ -50,7 +50,7 @@ export default function Ethics() {
 
               <div className="relative rounded-2xl overflow-hidden aspect-[4/3] border-[3px] border-primary group" data-aos="zoom-in-up" data-aos-delay="300" data-aos-duration="800">
                 <img
-                  src="/moto/veneporte/ethics3.png"
+                  src="/moto/veneporte/ethics3.webp"
                   alt="Factory work"
                   className="w-full h-full object-cover scale-101 group-hover:scale-105 transition-transform duration-500"
                 />

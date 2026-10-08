@@ -32,7 +32,7 @@ export default function About() {
             className="group relative w-full xl:w-1/2 aspect-[4/3] min-h-[300px] sm:min-h-[400px] xl:min-h-[480px] 2xl:min-h-[594px] rounded-[10px] overflow-hidden shadow-md flex-shrink-0 mx-auto"
           >
             <img 
-              src="/moto/pek/about.png" 
+              src="/moto/pek/about.webp" 
               alt="PEK Technic Facility" 
               className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
             />

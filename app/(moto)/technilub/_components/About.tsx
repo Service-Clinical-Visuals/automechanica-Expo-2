@@ -37,7 +37,7 @@ export default function About() {
             {/* Building image */}
             <div data-aos="fade-up" data-aos-delay="200" className="rounded-xl overflow-hidden">
               <Image
-                src="/moto/technilub/wholeft.png"
+                src="/moto/technilub/wholeft.webp"
                 alt="DLBC facility"
                 width={640}
                 height={380}
@@ -51,7 +51,7 @@ export default function About() {
             {/* Oil image */}
             <div data-aos="fade-left" data-aos-delay="150" className="rounded-xl overflow-hidden">
               <Image
-                src="/moto/technilub/whoright.png"
+                src="/moto/technilub/whoright.webp"
                 alt="High quality lubricants"
                 width={640}
                 height={380}

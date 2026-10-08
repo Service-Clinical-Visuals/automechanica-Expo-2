@@ -7,7 +7,7 @@ export default function Products() {
   const products = [
     {
       title: "ENGINE LUBRICANTS",
-      image: "section4.png",
+      image: "section4.webp",
       hoverContent: [
         { subtitle: "PASSENGER CAR & LIGHT TRUCK ENGINE", text: "Engine lubricants specially formulated to deliver smooth performance, enhanced protection, and improved fuel efficiency for passenger cars and light trucks." },
         { subtitle: "HEAVY DUTY DIESEL & OFF - ROAD MACHINERY", text: "High-performance lubrication solutions developed for heavy-duty diesel engines and off-road equipment." },
@@ -16,7 +16,7 @@ export default function Products() {
     },
     {
       title: "SMALL ENGINE LUBRICANTS",
-      image: "section5.png",
+      image: "section5.webp",
       hoverContent: [
         { subtitle: "MOTORCYCLE & MARINE ENGINE", text: "Specially formulated lubricants designed to deliver reliable protection, smooth performance." },
         { subtitle: "TWO - STROKE ENGINE", text: "Advanced lubrication solutions developed for two-stroke engines to support cleaner operation, reduce wear." },
@@ -25,7 +25,7 @@ export default function Products() {
     },
     {
       title: "MARINE LUBRICANTS",
-      image: "section6.png",
+      image: "section6.webp",
       hoverContent: [
         { subtitle: "MARITIME TP 4030 / 4040", text: "High-performance marine lubricants developed to provide reliable protection, enhanced engine efficiency." },
         { subtitle: "MARITIME TP 3030 / 3040", text: "Advanced marine lubrication solutions engineered to support engine durability, reduce wear, and deliver dependable performance." },

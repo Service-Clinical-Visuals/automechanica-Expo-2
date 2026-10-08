@@ -7,19 +7,19 @@ import Button from "./Button";
 export default function Products() {
   const products = [
     {
-      image: "/moto/bendpak/p1.png",
+      image: "/moto/bendpak/p1.webp",
       title: "Wheel Balancers",
     },
     {
-      image: "/moto/bendpak/p2.png",
+      image: "/moto/bendpak/p2.webp",
       title: "Tire Changers",
     },
     {
-      image: "/moto/bendpak/p3.png",
+      image: "/moto/bendpak/p3.webp",
       title: "Brake Lathes",
     },
     {
-      image: "/moto/bendpak/p4.png",
+      image: "/moto/bendpak/p4.webp",
       title: "Wheel Weights",
     }
   ];

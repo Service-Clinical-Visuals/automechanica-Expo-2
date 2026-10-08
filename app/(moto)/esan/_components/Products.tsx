@@ -14,28 +14,28 @@ import Button from "./Button";
 
 const productData: Record<string, any[]> = {
   "AGM Battery": [
-    { title: "70 Ah L3 EFB", image: "/esan/frame11.png" },
-    { title: "72 Ah L3 EFB", image: "/esan/frame12.png" },
-    { title: "80 Ah LB4", image: "/esan/frame13.png" },
+    { title: "70 Ah L3 EFB", image: "/esan/frame11.webp" },
+    { title: "72 Ah L3 EFB", image: "/esan/frame12.webp" },
+    { title: "80 Ah LB4", image: "/esan/frame13.webp" },
   ],
   "Marine Battery": [
-    { title: "62 Ah L2", image: "/esan/frame31.png" },
-    { title: "200 Ah C", image: "/esan/frame32.png" },
-    { title: "240 Ah C", image: "/esan/frame33.png" },
-    { title: "225 Ah C", image: "/esan/frame34.png" },
+    { title: "62 Ah L2", image: "/esan/frame31.webp" },
+    { title: "200 Ah C", image: "/esan/frame32.webp" },
+    { title: "240 Ah C", image: "/esan/frame33.webp" },
+    { title: "225 Ah C", image: "/esan/frame34.webp" },
   ],
   "Car Battery": [
-    { title: "70 Ah L3 EFB", image: "/esan/frame21.png" },
-    { title: "72 Ah L3 EFB", image: "/esan/frame22.png" },
-    { title: "80 Ah LB4", image: "/esan/frame23.png" },
-    { title: "Esan Traction Battery", image: "/esan/frame24.png" },
-    { title: "Esan Traction Battery", image: "/esan/frame25.png" },
+    { title: "70 Ah L3 EFB", image: "/esan/frame21.webp" },
+    { title: "72 Ah L3 EFB", image: "/esan/frame22.webp" },
+    { title: "80 Ah LB4", image: "/esan/frame23.webp" },
+    { title: "Esan Traction Battery", image: "/esan/frame24.webp" },
+    { title: "Esan Traction Battery", image: "/esan/frame25.webp" },
   ],
   "Other": [
-    { title: "62 Ah L2", image: "/esan/frame11.png" },
-    { title: "200 Ah C", image: "/esan/frame21.png" },
-    { title: "240 Ah C", image: "/esan/frame31.png" },
-    { title: "225 Ah C", image: "/esan/frame12.png" },
+    { title: "62 Ah L2", image: "/esan/frame11.webp" },
+    { title: "200 Ah C", image: "/esan/frame21.webp" },
+    { title: "240 Ah C", image: "/esan/frame31.webp" },
+    { title: "225 Ah C", image: "/esan/frame12.webp" },
   ]
 };
 

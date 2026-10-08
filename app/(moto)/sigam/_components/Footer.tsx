@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer 
       className="relative bg text-white dmsans-font"
-      style={{ backgroundImage: "url('/moto/sigam/bg.png')", backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed' }}
+      style={{ backgroundImage: "url('/moto/sigam/bg.webp')", backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed' }}
     >
       
       <div className="custom-container relative z-10 pt-14 pb-6">
@@ -17,7 +17,7 @@ export default function Footer() {
           <div className="flex flex-col gap-6 col-span-2 md:col-span-1 xl:col-span-6" data-aos="fade-up" data-aos-delay="0">
             <Link href="#" className="relative inline-block w-fit my-6">
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[150px] md:w-[180px] h-[80px] md:h-[100px] bg-white blur-2xl rounded-full pointer-events-none z-0"></div>
-              <img src="/moto/sigam/logo.png" alt="Sigam Logo" className="relative w-[150px] md:w-[180px] h-auto object-contain z-10" />
+              <img src="/moto/sigam/logo.webp" alt="Sigam Logo" className="relative w-[150px] md:w-[180px] h-auto object-contain z-10" />
             </Link>
             <p className="section-text dmsans-font text-start text-white leading-relaxed max-w-xl">
               Get in touch with SIGAM for expert exhaust system solutions, product inquiries, or custom manufacturing requirements.
@@ -40,11 +40,11 @@ export default function Footer() {
              <h4 className="orbitron-font text-white card-title font-semibold">Contact Us</h4>
             <div className="flex flex-col gap-5 dmsans-font section-text">
               <div className="flex items-center gap-3 dmsans-font section-text break-all">
-                <img src="/moto/sigam/phone.png" alt="Phone" className="w-4 h-4 object-contain brightness-0 invert flex-shrink-0" />
+                <img src="/moto/sigam/phone.webp" alt="Phone" className="w-4 h-4 object-contain brightness-0 invert flex-shrink-0" />
                 <span>0823.821035</span>
               </div>
               <div className="flex items-center gap-3 dmsans-font section-text break-all">
-                <img src="/moto/sigam/email.png" alt="Email" className="w-5 h-5 object-contain brightness-0 invert flex-shrink-0" />
+                <img src="/moto/sigam/email.webp" alt="Email" className="w-5 h-5 object-contain brightness-0 invert flex-shrink-0" />
                 <span>sigam@sigam.it</span>
               </div>
             </div>
@@ -55,14 +55,14 @@ export default function Footer() {
              <h4 className="orbitron-font text-white card-title font-semibold">Address</h4>
             <div className="flex flex-col gap-6">
               <div className="flex items-start gap-3">
-                <img src="/moto/sigam/office.png" alt="Office" className="w-5 h-5 object-contain mt-0.5 brightness-0 invert flex-shrink-0" />
+                <img src="/moto/sigam/office.webp" alt="Office" className="w-5 h-5 object-contain mt-0.5 brightness-0 invert flex-shrink-0" />
                 <div className="flex flex-col gap-1">
                   <span className="text-white font-medium orbitron-font card-text">Office</span>
                   <span className="leading-relaxed text-[#ffffff] dmsans-font section-text">Via Cesare Rosaroll, 165<br/>80139 Napoli</span>
                 </div>
               </div>
               <div className="flex items-start gap-3">
-                <img src="/moto/sigam/factory.png" alt="Factory" className="w-5 h-5 object-contain mt-0.5 brightness-0 invert flex-shrink-0" />
+                <img src="/moto/sigam/factory.webp" alt="Factory" className="w-5 h-5 object-contain mt-0.5 brightness-0 invert flex-shrink-0" />
                 <div className="flex flex-col gap-1">
                   <span className="text-white font-medium orbitron-font card-text">Factory</span>
                   <span className="leading-relaxed text-[#ffffff] dmsans-font section-text">Zona Industriale A.S.I. Nord<br/>81025 Marcianise (CE)</span>
@@ -81,12 +81,12 @@ export default function Footer() {
           <div className="flex flex-col items-center xl:items-start gap-3" data-aos="fade-up" data-aos-delay="400">
             <span className="orbitron-font text-white card-title font-semibold">Social</span>
             <div className="flex items-center gap-5">
-              <Link href="#"><img src="/moto/sigam/music.png" alt="Tiktok" className="h-[18px] w-auto object-contain brightness-0 invert hover:scale-110 transition-transform" /></Link>
-              <Link href="#"><img src="/moto/sigam/fb.png" alt="Facebook" className="h-[18px] w-auto object-contain brightness-0 invert hover:scale-110 transition-transform" /></Link>
-              <Link href="#"><img src="/moto/sigam/in.png" alt="LinkedIn" className="h-[18px] w-auto object-contain brightness-0 invert hover:scale-110 transition-transform" /></Link>
-              <Link href="#"><img src="/moto/sigam/x.png" alt="X" className="h-[18px] w-auto object-contain brightness-0 invert hover:scale-110 transition-transform" /></Link>
-              <Link href="#"><img src="/moto/sigam/insta..png" alt="Instagram" className="h-[18px] w-auto object-contain brightness-0 invert hover:scale-110 transition-transform" /></Link>
-              <Link href="#"><img src="/moto/sigam/you.png" alt="YouTube" className="h-[18px] w-auto object-contain brightness-0 invert hover:scale-110 transition-transform" /></Link>
+              <Link href="#"><img src="/moto/sigam/music.webp" alt="Tiktok" className="h-[18px] w-auto object-contain brightness-0 invert hover:scale-110 transition-transform" /></Link>
+              <Link href="#"><img src="/moto/sigam/fb.webp" alt="Facebook" className="h-[18px] w-auto object-contain brightness-0 invert hover:scale-110 transition-transform" /></Link>
+              <Link href="#"><img src="/moto/sigam/in.webp" alt="LinkedIn" className="h-[18px] w-auto object-contain brightness-0 invert hover:scale-110 transition-transform" /></Link>
+              <Link href="#"><img src="/moto/sigam/x.webp" alt="X" className="h-[18px] w-auto object-contain brightness-0 invert hover:scale-110 transition-transform" /></Link>
+              <Link href="#"><img src="/moto/sigam/insta..webp" alt="Instagram" className="h-[18px] w-auto object-contain brightness-0 invert hover:scale-110 transition-transform" /></Link>
+              <Link href="#"><img src="/moto/sigam/you.webp" alt="YouTube" className="h-[18px] w-auto object-contain brightness-0 invert hover:scale-110 transition-transform" /></Link>
             </div>
           </div>
 

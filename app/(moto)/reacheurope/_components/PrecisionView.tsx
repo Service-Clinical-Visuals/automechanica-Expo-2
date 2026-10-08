@@ -10,17 +10,17 @@ export default function PrecisionView() {
     {
       title: "OE-Quality Performance",
       desc: "Engineered to meet or exceed original equipment standards, delivering reliable cooling efficiency, precise fitment, and long-lasting durability.",
-      icon: "/moto/reacheurope/i1.png"
+      icon: "/moto/reacheurope/i1.webp"
     },
     {
       title: "Advanced Manufacturing",
       desc: "Produced in state-of-the-art facilities under strict quality standards using premium materials and precision engineering.",
-      icon: "/moto/reacheurope/i2.png"
+      icon: "/moto/reacheurope/i2.webp"
     },
     {
       title: "Global Coverage",
       desc: "Trusted by customers in over 176 countries, backed by an extensive distribution network, fast delivery, and expert technical support.",
-      icon: "/moto/reacheurope/i3.png"
+      icon: "/moto/reacheurope/i3.webp"
     }
   ];
 

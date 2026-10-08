@@ -10,42 +10,42 @@ const newsItems = [
     date: "23 June 2026",
     title: "FIRST GT3 PODIUM FOR JACOPO CIMENES",
     desc: "Following a promising season opener at Misano, the second round of the Italian GT Endurance Championship at Monza...",
-    image: "/moto/tecneco/n1.png"
+    image: "/moto/tecneco/n1.webp"
   },
   {
     id: 2,
     date: "19 June 2026",
     title: "2ND ROUND LOTUS CUP – VARANO MELEGARI",
     desc: "The second round of the Lotus Cup Italy at Varano de' Melegari unfortunately ended with an outcome.....",
-    image: "/moto/tecneco/n2.png"
+    image: "/moto/tecneco/n2.webp"
   },
   {
     id: 3,
     date: "05 June 2026",
     title: "TECNECOFILTRATION TAKES CENTER STAGE",
     desc: "The participation of our Sicilian distributor SE.CO.RI. in the 6th Trade Fair for Workshop Equipments....",
-    image: "/moto/tecneco/n3.png"
+    image: "/moto/tecneco/n3.webp"
   },
   {
     id: 4,
     date: "22 May 2026",
     title: "EUROCAR VERONA VISITS TECNECO",
     desc: "We had the pleasure of welcoming EUROCAR Verona, our long-standing Commercial Partner, to our production.....",
-    image: "/moto/tecneco/n4.png"
+    image: "/moto/tecneco/n4.webp"
   },
   {
     id: 5,
     date: "21 May 2026",
     title: "FILTER EXPERT IN LOMBARDY - FIRAT",
     desc: "Two days on the road in Valcamonica together with our customer FIRAT ember of GROUPATO.......",
-    image: "/moto/tecneco/n5.png"
+    image: "/moto/tecneco/n5.webp"
   },
   {
     id: 6,
     date: "20 May 2026",
     title: "1° ROUND LOTUS CUP ITALY VALLELUNGA",
     desc: "After finishing Super Pole with an excellent fourth place on the grid, Mattia immediately confirmed his competitiveness in.....",
-    image: "/moto/tecneco/n6.png"
+    image: "/moto/tecneco/n6.webp"
   }
 ];
 

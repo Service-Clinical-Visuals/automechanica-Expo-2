@@ -17,7 +17,7 @@ export default function Footer() {
         {/* Column 1: Logo + description */}
         <div data-aos="fade-up" className="flex flex-col gap-4">
           <Image
-            src="/moto/synmar/logo.png"
+            src="/moto/synmar/logo.webp"
             alt="Synmar Logo"
             width={220}
             height={50}

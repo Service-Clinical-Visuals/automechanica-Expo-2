@@ -12,14 +12,14 @@ interface Article {
 
 const articles: Article[] = [
   {
-    image: "/moto/terrain/news1.jpg",
+    image: "/moto/terrain/news1.webp",
     date: "October 18, 2024",
     title: "Terrain Tamer Purchases Steve Irwin's Landcruiser",
     description:
       "Terrain Tamer has purchased Steve Irwin's iconic 1982 HJ47 Troop Carrier, formerly used at Australia Zoo. The Crocodile Hunter Troopy features a rich history and Terrain Tamer suspension.",
   },
   {
-    image: "/moto/terrain/news2.jpg",
+    image: "/moto/terrain/news2.webp",
     date: "October 1, 2024",
     title: "TERRAIN TAMER OPENS IN THE UNITED STATES",
     description:

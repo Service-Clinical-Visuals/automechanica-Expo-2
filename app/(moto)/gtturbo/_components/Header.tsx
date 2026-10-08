@@ -38,7 +38,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="#" className="flex items-center z-20 shrink-0">
             <img
-              src="/moto/gtturbo/logo.png"
+              src="/moto/gtturbo/logo.webp"
               alt="GT Turbo Logo"
               className="h-8 md:h-[42px] min-[3800px]:h-[68px] w-auto object-contain"
             />

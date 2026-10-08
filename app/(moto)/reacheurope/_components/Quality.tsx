@@ -4,17 +4,17 @@ import React from "react";
 
 const newsItems = [
   {
-    image: "/moto/reacheurope/news1.png",
+    image: "/moto/reacheurope/news1.webp",
     title: "Automechanika Shanghai",
     link: "#"
   },
   {
-    image: "/moto/reacheurope/news2.png",
+    image: "/moto/reacheurope/news2.webp",
     title: "Automechanika Dubai",
     link: "#"
   },
   {
-    image: "/moto/reacheurope/news3.png",
+    image: "/moto/reacheurope/news3.webp",
     title: "Stay Tuned for more",
     link: "#"
   }

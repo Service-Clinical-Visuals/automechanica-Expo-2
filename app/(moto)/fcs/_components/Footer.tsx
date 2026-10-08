@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <footer
       className="relative bg-[#0F172A] text-white rubik-font pt-10 overflow-hidden bg-cover bg-center"
-      style={{ backgroundImage: "url('/moto/fcs/bg2.png')" }}
+      style={{ backgroundImage: "url('/moto/fcs/bg2.webp')" }}
     >
       <div className="custom-container relative z-10">
 
@@ -20,7 +20,7 @@ export default function Footer() {
           <div className="lg:col-span-4 flex flex-col gap-3 lg:pr-6" data-aos="fade-up">
             <Link href="#">
               <img
-                src="/moto/fcs/logo.png"
+                src="/moto/fcs/logo.webp"
                 alt="FCS Auto Logo"
                 className="w-auto h-auto object-contain"
                 onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<span class="text-[#F7941D] font-bold text-3xl oswald-font tracking-wide">FCS AUTO</span>' }}

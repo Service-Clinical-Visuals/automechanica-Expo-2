@@ -10,17 +10,17 @@ const slidesData = [
   // Slide 1
   [
     {
-      image: "/moto/swd/cat1.png",
+      image: "/moto/swd/cat1.webp",
       title: "Additives",
       desc: "High-quality additives from our own production ensure improved engine performance while simultaneously reducing fuel consumption."
     },
     {
-      image: "/moto/swd/cat2.png",
+      image: "/moto/swd/cat2.webp",
       title: "Vehicle Care",
       desc: "We develop high-quality car care products for interior and exterior vehicle cleaning. The range includes effective cleaners for rims, brakes, engines, and other vehicle areas."
     },
     {
-      image: "/moto/swd/cat3.png",
+      image: "/moto/swd/cat3.webp",
       title: "Industry",
       desc: "For industrial applications, we offer a wide range of high-performance lubricants. Our customers include oil companies, steel mills, transport companies."
     }
@@ -28,17 +28,17 @@ const slidesData = [
   // Slide 2
   [
     {
-      image: "/moto/swd/cat2.png",
+      image: "/moto/swd/cat2.webp",
       title: "Vehicle Care",
       desc: "We develop high-quality car care products for interior and exterior vehicle cleaning. The range includes effective cleaners for rims, brakes, engines, and other vehicle areas."
     },
     {
-      image: "/moto/swd/cat1.png",
+      image: "/moto/swd/cat1.webp",
       title: "Additives",
       desc: "High-quality additives from our own production ensure improved engine performance while simultaneously reducing fuel consumption."
     },
     {
-      image: "/moto/swd/cat3.png",
+      image: "/moto/swd/cat3.webp",
       title: "Industry",
       desc: "For industrial applications, we offer a wide range of high-performance lubricants. Our customers include oil companies, steel mills, transport companies."
     }
@@ -86,7 +86,7 @@ const News = () => {
                         alt={item.title}
                         className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                         onError={(e) => {
-                          e.currentTarget.src = "/moto/swd/abt.png";
+                          e.currentTarget.src = "/moto/swd/abt.webp";
                         }}
                       />
 

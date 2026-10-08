@@ -20,14 +20,14 @@ function useVisibleCount() {
 }
 
 const products = [
-  { img: "/moto/technilub/products/product1.png", name: "RACING ULTRA RN17 5W-30" },
-  { img: "/moto/technilub/products/product2.png", name: "RACING ULTRA GF-6 0W-16" },
-  { img: "/moto/technilub/products/product3.png", name: "RACING ULTRA P2010 0W-20" },
-  { img: "/moto/technilub/products/product4.png", name: "RACING ULTRA LG IV 0W-20" },
-  { img: "/moto/technilub/products/product5.png", name: "GEAR OIL ULTRA ATF DSG" },
-  { img: "/moto/technilub/products/product6.png", name: "GEAR OIL ULTRA ATF VI" },
-  { img: "/moto/technilub/products/product7.png", name: "GEAR OIL ULTRA ATF CVT" },
-  { img: "/moto/technilub/products/product8.png", name: "GEAR OIL ULTRA ATF Z" },
+  { img: "/moto/technilub/products/product1.webp", name: "RACING ULTRA RN17 5W-30" },
+  { img: "/moto/technilub/products/product2.webp", name: "RACING ULTRA GF-6 0W-16" },
+  { img: "/moto/technilub/products/product3.webp", name: "RACING ULTRA P2010 0W-20" },
+  { img: "/moto/technilub/products/product4.webp", name: "RACING ULTRA LG IV 0W-20" },
+  { img: "/moto/technilub/products/product5.webp", name: "GEAR OIL ULTRA ATF DSG" },
+  { img: "/moto/technilub/products/product6.webp", name: "GEAR OIL ULTRA ATF VI" },
+  { img: "/moto/technilub/products/product7.webp", name: "GEAR OIL ULTRA ATF CVT" },
+  { img: "/moto/technilub/products/product8.webp", name: "GEAR OIL ULTRA ATF Z" },
 ];
 
 export default function Products() {
@@ -99,7 +99,7 @@ export default function Products() {
                 <a href="#" className="flex items-center gap-1.5 content-white font-medium!">
                   View More
                   <Image
-                    src="/moto/technilub/arrow-right-circle.png"
+                    src="/moto/technilub/arrow-right-circle.webp"
                     alt="arrow"
                     width={22}
                     height={22}

@@ -43,7 +43,7 @@ const Efficiency = () => {
           {/* Right: Content */}
           <div className="w-full 2xl:w-1/2 flex flex-col justify-center" data-aos="fade-left" data-aos-duration="1000">
             <img
-              src="/moto/UTB/heading5.png"
+              src="/moto/UTB/heading5.webp"
               alt="Fleet Efficiency"
               className="h-16 md:h-20 lg:h-24 w-auto object-contain mb-2 object-left"
             />
@@ -93,7 +93,7 @@ const Efficiency = () => {
                   height: "60px"
                 }}
               >
-                <img src="/moto/UTB/settings.png" alt="Icon" className="w-6 h-6 object-contain brightness-0 invert" />
+                <img src="/moto/UTB/settings.webp" alt="Icon" className="w-6 h-6 object-contain brightness-0 invert" />
               </div>
 
               <Typography variant="h4" color="white" weight="bold" className="italic mb-4 ">

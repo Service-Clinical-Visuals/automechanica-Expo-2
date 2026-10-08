@@ -45,21 +45,21 @@ export default function About() {
               
               <div className="flex flex-col items-center text-center relative z-10" data-aos="zoom-in" data-aos-delay="100">
                 <div className="mb-2 h-14 w-14 md:h-16 md:w-16 flex items-center justify-center">
-                  <img src="/moto/rowe/about2.png" alt="Staff" className="max-h-full max-w-full object-cover " />
+                  <img src="/moto/rowe/about2.webp" alt="Staff" className="max-h-full max-w-full object-cover " />
                 </div>
                 <div className="text-2xl md:text-3xl font-bold font-sans mb-1">350</div>
                 <div className="text-md md:text-[20px] font-medium text-gray-200 orbitron">Members of<br/>staff</div>
               </div>
               <div className="flex flex-col items-center text-center relative z-10" data-aos="zoom-in" data-aos-delay="200">
                 <div className="mb-2 h-14 w-14 md:h-16 md:w-16 flex items-center justify-center">
-                  <img src="/moto/rowe/about1.png" alt="Containers" className="max-h-full max-w-full object-cover" />
+                  <img src="/moto/rowe/about1.webp" alt="Containers" className="max-h-full max-w-full object-cover" />
                 </div>
                 <div className="text-2xl md:text-3xl font-bold font-sans mb-1">8,000</div>
                 <div className="text-md md:text-[20px] font-medium text-gray-200 orbitron">Containers<br/>per hour</div>
               </div>
               <div className="flex flex-col items-center text-center relative z-10" data-aos="zoom-in" data-aos-delay="300">
                 <div className="mb-2 h-14 w-14 md:h-16 md:w-16 flex items-center justify-center">
-                  <img src="/moto/rowe/about1.png" alt="Products" className="max-h-full max-w-full object-cover " />
+                  <img src="/moto/rowe/about1.webp" alt="Products" className="max-h-full max-w-full object-cover " />
                 </div>
                 <div className="text-2xl md:text-3xl font-bold font-sans mb-1">1,400</div>
                 <div className="text-md md:text-[20px] font-medium text-gray-200 orbitron">Products</div>
@@ -77,7 +77,7 @@ export default function About() {
           {/* Right Column (Image) */}
           <div className="w-full min-h-[350px] md:min-h-[450px] xl:min-h-full relative xl:col-span-7" data-aos="fade-left">
             <img 
-              src="/moto/rowe/aboutimg.png" 
+              src="/moto/rowe/aboutimg.webp" 
               alt="ROWE Factory" 
               className="absolute inset-0 w-full h-full object-cover object-center"
             />

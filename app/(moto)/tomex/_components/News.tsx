@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const newsData = [
   {
-    image: "/moto/tomex/news1.png",
+    image: "/moto/tomex/news1.webp",
     overlayText: "Quality requirements for brake discs vs. legal regulations",
     title: "Quality requirements for brake discs...",
     date: "26 February 2025",
@@ -14,7 +14,7 @@ const newsData = [
     link: "#"
   },
   {
-    image: "/moto/tomex/news2.png",
+    image: "/moto/tomex/news2.webp",
     overlayText: "Guarantee of the highest quality",
     title: "Guarantee of the highest quality",
     date: "25 February 2025",
@@ -22,7 +22,7 @@ const newsData = [
     link: "#"
   },
   {
-    image: "/moto/tomex/news3.png",
+    image: "/moto/tomex/news3.webp",
     overlayText: "Braking under control",
     title: "Braking under control",
     date: "20 February 2025",
@@ -30,7 +30,7 @@ const newsData = [
     link: "#"
   },
   {
-    image: "/moto/tomex/news4.png",
+    image: "/moto/tomex/news4.webp",
     title: "Funding from the European union...",
     date: "17 February 2025",
     desc: "TOMEX Brakes Sp. z o.o. sp. k. has received funding from the European Union...",

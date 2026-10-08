@@ -26,7 +26,7 @@ export default function ResearchDevelopment() {
             data-aos-duration="1000"
           >
             <img
-              src="/moto/giuliano/r1.png"
+              src="/moto/giuliano/r1.webp"
               alt="Giuliano Automotive workshop"
               className="w-full h-full object-cover transition-transform duration-[1200ms] ease-out group-hover:scale-105"
             />
@@ -57,7 +57,7 @@ export default function ResearchDevelopment() {
               data-aos-duration="800"
             >
               <img
-                src="/moto/giuliano/r2.png"
+                src="/moto/giuliano/r2.webp"
                 alt="Research"
                 className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
               />
@@ -70,7 +70,7 @@ export default function ResearchDevelopment() {
               data-aos-duration="800"
             >
               <img
-                src="/moto/giuliano/r3.png"
+                src="/moto/giuliano/r3.webp"
                 alt="Development"
                 className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
               />
@@ -115,7 +115,7 @@ export default function ResearchDevelopment() {
             data-aos-duration="1000"
           >
             <img
-              src="/moto/giuliano/r1.png"
+              src="/moto/giuliano/r1.webp"
               alt="Giuliano Automotive workshop"
               className="w-full h-full object-cover transition-transform duration-[1200ms] ease-out group-hover:scale-105"
             />
@@ -158,7 +158,7 @@ export default function ResearchDevelopment() {
                 data-aos-delay="250"
               >
                 <img
-                  src="/moto/giuliano/r2.png"
+                  src="/moto/giuliano/r2.webp"
                   alt="Research"
                   className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                 />
@@ -172,7 +172,7 @@ export default function ResearchDevelopment() {
                 data-aos-delay="400"
               >
                 <img
-                  src="/moto/giuliano/r3.png"
+                  src="/moto/giuliano/r3.webp"
                   alt="Development"
                   className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                 />

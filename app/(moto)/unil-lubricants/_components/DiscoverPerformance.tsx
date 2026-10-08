@@ -64,7 +64,7 @@ export default function DiscoverPerformance() {
             <ul className="flex flex-col gap-5 mb-8 flex-grow mt-5">
               {highlights.map((item, idx) => (
                 <li key={idx} className="flex items-start gap-3">
-                  <img src="/moto/unil-lubricants/icon.png" alt="arrow" className="mt-1.5" />
+                  <img src="/moto/unil-lubricants/icon.webp" alt="arrow" className="mt-1.5" />
                   <p className="oswald-font text-[#3a3a3a] section-text font-normal leading-[1.6]">
                     <strong className="text-[#111111] font-medium">{item.title}</strong> {item.desc}
                   </p>

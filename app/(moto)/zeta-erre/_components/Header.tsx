@@ -37,7 +37,7 @@ export default function Header() {
         <div className="flex items-center justify-between gap-6 h-[80px] py-2">
           {/* Logo */}
           <Link href="/" className="shrink-0">
-            <img src="/moto/zeta-erre/logo.png" alt="Zeta-Erre" className="h-9 w-auto object-contain self-center" />
+            <img src="/moto/zeta-erre/logo.webp" alt="Zeta-Erre" className="h-9 w-auto object-contain self-center" />
           </Link>
 
           {/* Desktop Navigation */}

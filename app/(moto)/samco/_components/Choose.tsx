@@ -5,42 +5,42 @@ import React from "react";
 const REASONS = [
   {
     number: "01",
-    icon: "/moto/samco/1.png",
+    icon: "/moto/samco/1.webp",
     title: "OEM Quality",
     description:
       "Engineered and manufactured under rigorous quality standards to ensure reliability, consistency, and optimal performance",
   },
   {
     number: "02",
-    icon: "/moto/samco/2.png",
+    icon: "/moto/samco/2.webp",
     title: "Global Reach",
     description:
       "Serving customers across more than 50 countries worldwide, delivering reliable solutions backed by quality and global expertise",
   },
   {
     number: "03",
-    icon: "/moto/samco/3.png",
+    icon: "/moto/samco/3.webp",
     title: "Custom Solutions",
     description:
       "Tailored solutions designed to meet your specific needs, ensuring optimal performance, efficiency, and reliable results",
   },
   {
     number: "04",
-    icon: "/moto/samco/4.png",
+    icon: "/moto/samco/4.webp",
     title: "Quality Assurance",
     description:
       "Advanced quality control systems at every stage of production, ensuring precision, reliability, and consistent results",
   },
   {
     number: "05",
-    icon: "/moto/samco/5.png",
+    icon: "/moto/samco/5.webp",
     title: "Fast Dispatching",
     description:
       "Efficient and fast dispatch services that guarantee quick order processing and on-time delivery",
   },
   {
     number: "06",
-    icon: "/moto/samco/6.png",
+    icon: "/moto/samco/6.webp",
     title: "Competitive Pricing",
     description:
       "We combine aesthetics and functionality in our product packaging, creating distinctive visibility on shelves.",

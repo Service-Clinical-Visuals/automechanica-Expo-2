@@ -10,37 +10,37 @@ import "swiper/css/pagination";
 export default function IndustrySolutions() {
   const partners = [
     {
-      logo: "/moto/vitobello/partner1.png",
+      logo: "/moto/vitobello/partner1.webp",
       name: "FIR",
       description: "Associazione Italiana Rettificatori e Meccanici Qualificati is a leading association representing more than 200 qualified Italian companies specializing in engine reconditioning, precision machining, and mechatronic services.",
       link: "#"
     },
     {
-      logo: "/moto/vitobello/partner2.png",
+      logo: "/moto/vitobello/partner2.webp",
       name: "Inforicambi",
       description: "With over 20 million articles and 30 million up-to-date cross-references, Inforicambi facilitates the search for spare parts and provides information such as: prices, cross-references, technical information, pictures and applications.",
       link: "#"
     },
     {
-      logo: "/moto/vitobello/partner3.png",
+      logo: "/moto/vitobello/partner3.webp",
       name: "Kromeda",
       description: "Kromeda provides accurate information sourced from original electronic documents, carefully verified by a team of experts to ensure reliability, consistency, and up-to-date technical data for automotive professionals worldwide and businesses.",
       link: "#"
     },
     {
-      logo: "/moto/vitobello/partner4.png",
+      logo: "/moto/vitobello/partner4.webp",
       name: "Ajusa",
       description: "A leading supplier of original equipment, high-performance parts, and accessories for cars, trucks, vans, SUVs, motorcycles, and boats, delivering trusted quality, reliability, and comprehensive automotive solutions for diverse applications.",
       link: "#"
     },
     {
-      logo: "/moto/vitobello/partner5.png",
+      logo: "/moto/vitobello/partner5.webp",
       name: "TecAlliance",
       description: "TecAlliance provides the independent aftermarket with comprehensive and up-to-date data for the identification of vehicles and their components, both in the passenger car and commercial vehicle sectors, ensuring accurate parts identification worldwide.",
       link: "#"
     },
     {
-      logo: "/moto/vitobello/partner6.png",
+      logo: "/moto/vitobello/partner6.webp",
       name: "ClipParts",
       description: "ClipParts Automotive, developed by Progea, is a simple and straightforward database that enables the quick and accurate identification of car, motorbike, and truck parts with enhanced efficiency, precision, reliability, and convenience.",
       link: "#"

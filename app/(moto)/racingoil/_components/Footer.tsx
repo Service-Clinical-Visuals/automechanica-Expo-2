@@ -16,7 +16,7 @@ export default function Footer() {
           {/* Column 1: Logo & Description (Span 4) */}
           <div className="flex flex-col gap-6 lg:col-span-3" data-aos="fade-up" data-aos-delay="100">
             <Link href="#" className="inline-block">
-              <img src="/moto/racingoil/h-logo.png" alt="Racing Oil Logo" className="h-auto w-auto object-contain" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
+              <img src="/moto/racingoil/h-logo.webp" alt="Racing Oil Logo" className="h-auto w-auto object-contain" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
             </Link>
             <p className="font-secondary section-text text-white leading-relaxed max-w-sm">
               Racing Oil S.L. es un sueño hecho realidad, una empresa de nueva generación fruto de los conocimientos y la experiencia atesorada durante más de 10 años en el sector de los lubricantes.

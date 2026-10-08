@@ -58,7 +58,7 @@ export default function Sustainability() {
           {/* Right Image */}
           <div className="h-full w-full lg:col-span-8" data-aos="fade-left">
             <img
-              src="/moto/ftaza/s1.png"
+              src="/moto/ftaza/s1.webp"
               alt="Sustainable Automotive Future"
               className="w-full h-full object-cover rounded-tl-[50px] rounded-br-[50px]"
             />

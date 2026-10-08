@@ -28,7 +28,7 @@ export default function Sustainability() {
           <div className="flex flex-col group cursor-pointer" data-aos="fade-up">
             <div className="w-full h-auto overflow-hidden mb-6">
               <img
-                src="/moto/inmotion/m1.png"
+                src="/moto/inmotion/m1.webp"
                 alt="Industrial Manufacturing"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
@@ -50,7 +50,7 @@ export default function Sustainability() {
           <div className="flex flex-col group cursor-pointer" data-aos="fade-up" data-aos-delay="100">
             <div className="w-full h-auto overflow-hidden mb-6">
               <img
-                src="/moto/inmotion/m2.png"
+                src="/moto/inmotion/m2.webp"
                 alt="Super Precision Manufacturing"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />

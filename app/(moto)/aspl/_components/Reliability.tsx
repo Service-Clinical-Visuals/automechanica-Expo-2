@@ -66,7 +66,7 @@ const Reliability = () => {
                 <div key={index} className="flex items-start gap-4">
                   {/* Icon */}
                   <div className="w-6 h-6 shrink-0 mt-1">
-                    <img src="/moto/aspl/wheel.png" alt="Wheel icon" className="w-full h-full object-contain " />
+                    <img src="/moto/aspl/wheel.webp" alt="Wheel icon" className="w-full h-full object-contain " />
                   </div>
                   {/* Text */}
                    <p className="section-text text-[#ffffff] leading-relaxed">

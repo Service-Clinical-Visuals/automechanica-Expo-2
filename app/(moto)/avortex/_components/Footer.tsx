@@ -16,7 +16,7 @@ export default function Footer() {
           <div className="flex flex-col w-full md:w-[45%] lg:w-[28%]" data-aos="fade-up">
             <Link href="#">
               <img
-                src="/moto/avortex/flogo.png"
+                src="/moto/avortex/flogo.webp"
                 alt="Avortex Logo"
                 className="h-auto w-auto object-contain mb-6"
                 onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<span class="text-white font-semibold card-title1 exo-2-font tracking-wide mb-6 inline-block">Avortex</span>' }}

@@ -17,10 +17,10 @@ const features = [
 ];
 
 const stats = [
-  { icon: "/moto/meha/quality1/1.png", label: "30+ Export Countries" },
-  { icon: "/moto/meha/quality1/2.png", label: "Product Range Available" },
-  { icon: "/moto/meha/quality1/3.png", label: "Production Area" },
-  { icon: "/moto/meha/quality1/4.png", label: "Production Capacity" },
+  { icon: "/moto/meha/quality1/1.webp", label: "30+ Export Countries" },
+  { icon: "/moto/meha/quality1/2.webp", label: "Product Range Available" },
+  { icon: "/moto/meha/quality1/3.webp", label: "Production Area" },
+  { icon: "/moto/meha/quality1/4.webp", label: "Production Capacity" },
 ];
 
 export default function Quality() {

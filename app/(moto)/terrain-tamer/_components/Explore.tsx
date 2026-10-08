@@ -15,7 +15,7 @@ export default function Explore() {
         data-aos-offset="0"
         data-aos-easing="ease-out-cubic">
         <img
-          src="/moto/terrain/bg_explore.jpg"
+          src="/moto/terrain/bg_explore.webp"
           alt=""
           className="w-full h-full object-cover transition-transform duration-[2000ms] ease-out hover:scale-105"
         />

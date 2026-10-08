@@ -17,7 +17,7 @@ export default function Footer() {
           <div className="flex flex-col gap-6 col-span-2 lg:col-span-4" data-aos="fade-up">
             <Link href="#">
               <img
-                src="/moto/twin/logo.png"
+                src="/moto/twin/logo.webp"
                 alt="Twin Busch Logo"
                 className="h-auto w-[170px] object-contain"
                 onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<span class="text-white font-bold text-2xl exo-2-font tracking-wide">Twin Busch</span>' }}

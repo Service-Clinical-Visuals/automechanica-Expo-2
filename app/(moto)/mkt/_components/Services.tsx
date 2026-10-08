@@ -38,7 +38,7 @@ export default function CompleteSolutions() {
             className="group w-full aspect-[4/3] lg:aspect-[963/555] rounded-md overflow-hidden shadow-[0px_3px_8px_rgba(0,0,0,0.24)]"
           >
             <img
-              src="/moto/mkt/s1.jpg"
+              src="/moto/mkt/s1.webp"
               alt="MKT Holdings service workshop with vehicles in bay"
               className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
             />
@@ -49,7 +49,7 @@ export default function CompleteSolutions() {
             className="group w-full aspect-[4/3] lg:aspect-[677/555] rounded-md overflow-hidden shadow-[0px_3px_8px_rgba(0,0,0,0.24)]"
           >
             <img
-              src="/moto/mkt/s2.jpg"
+              src="/moto/mkt/s2.webp"
               alt="MKT Holdings automotive manufacturing production line"
               className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
             />

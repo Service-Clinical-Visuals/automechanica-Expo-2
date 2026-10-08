@@ -12,42 +12,42 @@ const products = [
   {
     id: "p1",
     name: "Product Category Tyre Changers",
-    image: "/moto/giuliano/p1.png",
+    image: "/moto/giuliano/p1.webp",
   },
   {
     id: "p2",
     name: "Product Category Wheel Balancers",
-    image: "/moto/giuliano/p4.png",
+    image: "/moto/giuliano/p4.webp",
   },
   {
     id: "p4",
     name: "Product Category Wheel Alignment",
-    image: "/moto/giuliano/p6.png",
+    image: "/moto/giuliano/p6.webp",
   },
   {
     id: "p5",
     name: "Product Category Wheel Balancers",
-    image: "/moto/giuliano/p5.png",
+    image: "/moto/giuliano/p5.webp",
   },
   {
     id: "p6",
     name: "Product Category Wheel Alignment",
-    image: "/moto/giuliano/p6.png",
+    image: "/moto/giuliano/p6.webp",
   },
   {
     id: "p7",
     name: "Product Category Wheel Alignment",
-    image: "/moto/giuliano/p7.png",
+    image: "/moto/giuliano/p7.webp",
   },
   {
     id: "p3",
     name: "Product Category Paint Lifts",
-    image: "/moto/giuliano/p3.png",
+    image: "/moto/giuliano/p3.webp",
   },
   {
     id: "p8",
     name: "Product Category Testing Equipment",
-    image: "/moto/giuliano/p8.png",
+    image: "/moto/giuliano/p8.webp",
   },
 ];
 

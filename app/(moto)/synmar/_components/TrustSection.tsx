@@ -2,7 +2,7 @@ export default function TrustSection() {
   return (
     <section
       className="py-8 md:py-12 lg:py-16 bg-cover bg-center bg-no-repeat twok"
-      style={{ backgroundImage: "url('/moto/synmar/trustbg.png')" }}
+      style={{ backgroundImage: "url('/moto/synmar/trustbg.webp')" }}
     >
       <div className="mx-auto max-w-[90%] grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-6 lg:gap-4 items-start">
 
@@ -18,12 +18,12 @@ export default function TrustSection() {
             </p>
           </div>
 
-          <img data-aos="fade-up" data-aos-delay="200" src="/moto/synmar/trust2.png" alt="Built on Trust" className="max-w-full w-full object-contain self-center md:self-center lg:self-end" />
+          <img data-aos="fade-up" data-aos-delay="200" src="/moto/synmar/trust2.webp" alt="Built on Trust" className="max-w-full w-full object-contain self-center md:self-center lg:self-end" />
         </div>
 
         {/* RIGHT COLUMN */}
         <div className="flex flex-col gap-4 md:gap-10">
-          <img data-aos="fade-up" data-aos-delay="100" src="/moto/synmar/trust1.png" alt="Conscious Choices" className="order-2 lg:order-1 max-w-full w-full object-contain self-center md:self-center lg:self-start" />
+          <img data-aos="fade-up" data-aos-delay="100" src="/moto/synmar/trust1.webp" alt="Conscious Choices" className="order-2 lg:order-1 max-w-full w-full object-contain self-center md:self-center lg:self-start" />
 
           <div data-aos="fade-left" className="order-1 lg:order-2">
             <h2 className="heading mb-1 md:mb-2">

@@ -11,37 +11,37 @@ export default function News() {
     {
       date: "17.06.2023",
       title: "One more prize with Rexoil'e",
-      image: "/moto/rexoil/news1.png",
+      image: "/moto/rexoil/news1.webp",
       link: "#"
     },
      {
       date: "02.06.2022",
       title: "We are at Automechanika - ISTANBUL...",
-      image: "/moto/rexoil/news6.png",
+      image: "/moto/rexoil/news6.webp",
       link: "#"
     },
     {
       date: "19.03.2020",
       title: "REXOIL is once again among the top...",
-      image: "/moto/rexoil/news3.png",
+      image: "/moto/rexoil/news3.webp",
       link: "#"
     },
     {
       date: "25.08.2022",
       title: "Türkiye Lider Marka Ödülleri '2022",
-      image: "/moto/rexoil/news5.png",
+      image: "/moto/rexoil/news5.webp",
       link: "#"
     },
    {
       date: "08.06.2023",
       title: "We are at Automechanika - ISTANBUL...",
-      image: "/moto/rexoil/news2.png",
+      image: "/moto/rexoil/news2.webp",
       link: "#"
     },
     {
       date: "10.09.2022",
       title: "2022 Crescents and Stars of Packaging",
-      image: "/moto/rexoil/news4.png",
+      image: "/moto/rexoil/news4.webp",
       link: "#"
     },
   ];

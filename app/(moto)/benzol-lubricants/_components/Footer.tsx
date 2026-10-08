@@ -86,7 +86,7 @@ export default function Footer() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[30fr_15fr_17fr_20fr_18fr] gap-10">
             {/* Col 1: Logo + tagline */}
             <div className="flex flex-col gap-4">
-              <img src="/moto/benzol-lubricants/logo.png" alt="Benzol Lubricants" className="h-ayto w-70" />
+              <img src="/moto/benzol-lubricants/logo.webp" alt="Benzol Lubricants" className="h-ayto w-70" />
               <p className="content-white max-w-[420px]">
                 BENZOL® Gold Performance is a global lubricant brand engineered for performance,
                 protection, and reliability across demanding applications.

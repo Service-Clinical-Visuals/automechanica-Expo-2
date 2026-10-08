@@ -8,12 +8,12 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 const products = [
-  "/moto/seld-production/products/1.png",
-  "/moto/seld-production/products/2.png",
-  "/moto/seld-production/products/3.png",
-  "/moto/seld-production/products/4.png",
-  "/moto/seld-production/products/5.png",
-  "/moto/seld-production/products/6.png",
+  "/moto/seld-production/products/1.webp",
+  "/moto/seld-production/products/2.webp",
+  "/moto/seld-production/products/3.webp",
+  "/moto/seld-production/products/4.webp",
+  "/moto/seld-production/products/5.webp",
+  "/moto/seld-production/products/6.webp",
 ];
 
 const productGroups = [

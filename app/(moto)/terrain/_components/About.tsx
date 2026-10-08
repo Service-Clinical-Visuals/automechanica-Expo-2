@@ -15,7 +15,7 @@ export default function About() {
             data-aos-easing="ease-out-cubic"
           >
             <img
-              src="/moto/terrain/about.png"
+              src="/moto/terrain/about.webp"
               alt="Terrain Tamer branded 4WD vehicle"
               className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
             />

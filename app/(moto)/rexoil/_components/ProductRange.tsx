@@ -11,36 +11,36 @@ export default function ProductRange() {
     {
       title: "Automotive Lubricants",
       desc: "Synthetic and mineral based engine oils developed to meet the performance requirements of new generation engines.",
-      image: "/moto/rexoil/product1.png",
+      image: "/moto/rexoil/product1.webp",
       link: "View Products"
     },
     {
       title: "Industrial lubricants",
       desc: "We develop the most suitable mineral oils for the equipment you use in your iron-steel, petrochemical, energy, metalworking...",
-      image: "/moto/rexoil/product2.png",
+      image: "/moto/rexoil/product2.webp",
       link: "View Products"
     },
     {
       title: "Process oils",
       desc: "Turkey also among the top three suppliers of plastic Our team located the rubber process oils, agriculture, paper, textile dyes...",
-      image: "/moto/rexoil/product3.png",
+      image: "/moto/rexoil/product3.webp",
       link: "View Products"
     },
     {
       title: "Greases",
       desc: "Industrial and multi-purpose greases produced with high quality base oils and performance enhancing additives...",
-      image: "/moto/rexoil/product4.png",
+      image: "/moto/rexoil/product4.webp",
       link: "View Products"
     },
      {
       title: "Marine Oils",
       desc: "REXOIL Marine Oils deliver reliable lubrication and superior protection for marine engines Formulated to resist corrosion",
-      image: "/moto/rexoil/product5.png",
+      image: "/moto/rexoil/product5.webp",
       link: "View Products"
     }, {
       title: "Other Products",
       desc: "Reliable automotive fluids including Antifreeze, Long Life Antifreeze, and Brake Fluid, designed for temperature control...",
-      image: "/moto/rexoil/product6.png",
+      image: "/moto/rexoil/product6.webp",
       link: "View Products"
     }
   ];

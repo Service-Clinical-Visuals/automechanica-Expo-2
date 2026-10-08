@@ -12,42 +12,42 @@ import "swiper/css/pagination";
 export default function Products() {
   const products = [
     {
-      img: "/moto/petronas/a1.png",
+      img: "/moto/petronas/a1.webp",
       title: "PETRONAS Hydraulic Fluids",
       text: "PETRONAS hydraulics are specialised lubricants designed to provide exceptional anti-wear protection and significantly extended oil life, helping businesses..."
     },
     {
-      img: "/moto/petronas/a2.png",
+      img: "/moto/petronas/a2.webp",
       title: "PETRONAS Gear Oils",
       text: "PETRONAS gear oils are formulated to provide excellent anti-wear protection, resist oxidation, and separate from water quickly, enabling extended oil life..."
     },
     {
-      img: "/moto/petronas/a3.png",
+      img: "/moto/petronas/a3.webp",
       title: "PETRONAS Diesel Engine Oil",
       text: "PETRONAS Urania with StrongTech™ technology is engineered to stay stronger for longer, which helps heavy-duty vehicles go further by extending..."
     },
     {
-      img: "/moto/petronas/a4.png",
+      img: "/moto/petronas/a4.webp",
       title: "PETRONAS Gas Engine Oils",
       text: "PETRONAS gas engine oils are formulated to deliver excellent TBN retention, minimise engine wear, and maintain engine cleanliness, resulting in..."
     },
     {
-      img: "/moto/petronas/a5.png",
+      img: "/moto/petronas/a5.webp",
       title: "PETRONAS Greases",
       text: "PETRONAS provides a streamlined yet robust range of industrial greases, designed to simplify daily operations and ensure effective lubrication under varying conditions."
     },
     {
-      img: "/moto/petronas/a6.png",
+      img: "/moto/petronas/a6.webp",
       title: "PETRONAS Turbine oils",
       text: "PETRONAS' Jenteram Series oils, designed for steam and gas turbines, exceed industry standards, offering superior protection against wear, rust, and foam for..."
     },
     {
-      img: "/moto/petronas/a7.png",
+      img: "/moto/petronas/a7.webp",
       title: "PETRONAS Compressor Oils",
       text: "PETRONAS compressor oils, infused with superior anti-wear and anti-oxidant additives, offer up to 12,000 service hours, ensuring protection against..."
     },
     {
-      img: "/moto/petronas/a8.png",
+      img: "/moto/petronas/a8.webp",
       title: "PETRONAS Transmission & Final Drive Fluids",
       text: "PETRONAS Tutela transmission and final drive fluids are engineered to boost efficiency, withstand harsh conditions, and extend component lifespan..."
     }

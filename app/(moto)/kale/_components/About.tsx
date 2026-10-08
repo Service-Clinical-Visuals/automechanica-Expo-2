@@ -24,7 +24,7 @@ const About = () => {
           {/* Left: Facility image */}
           <div data-aos="fade-right" className="order-2 lg:order-1">
             <img
-              src="/moto/kale/about.png"
+              src="/moto/kale/about.webp"
               alt="Kale Oto Radyatör manufacturing facility"
               className="w-full h-full object-cover border border-[#EAEAEA] rounded-lg"
             />

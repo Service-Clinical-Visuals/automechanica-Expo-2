@@ -7,7 +7,7 @@ export default function Premium() {
   return (
     <section
       className="relative w-full py-20 md:py-28 overflow-hidden bg-[#0d1117] bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: "url('/moto/meha/premiumbg.png')" }}
+      style={{ backgroundImage: "url('/moto/meha/premiumbg.webp')" }}
       id="premium"
     >
       <Container className="relative z-10 text-center">

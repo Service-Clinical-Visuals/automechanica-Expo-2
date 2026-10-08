@@ -114,7 +114,7 @@ const Header = () => {
               <div className="absolute left-0 -top-8 sm:-top-10 lg:-top-[46px] z-20">
                 <Link href="/" className="block hover:opacity-90 transition-opacity">
                   <img
-                    src="/moto/UTB/logo.png"
+                    src="/moto/UTB/logo.webp"
                     alt="UTB Logo"
                     className="w-auto h-[60px] sm:h-[70px] md:h-[70px]  lg:h-[70px] xl:h-[70px] 2xl:h-[90px] object-contain object-top"
                   />

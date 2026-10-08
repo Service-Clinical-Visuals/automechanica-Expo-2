@@ -5,7 +5,7 @@ export default function ProductsBar() {
     <section
       className="relative py-16 overflow-hidden"
       style={{
-        backgroundImage: "url('/moto/technilub/products_bg.png')",
+        backgroundImage: "url('/moto/technilub/products_bg.webp')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}

@@ -56,7 +56,7 @@ export default function Header() {
           {/* Center: Logo */}
           <div className="flex items-center justify-center flex-shrink-0">
             <Image
-              src="/moto/technilub/logo.png"
+              src="/moto/technilub/logo.webp"
               alt="Technilub"
               width={160}
               height={48}
@@ -77,7 +77,7 @@ export default function Header() {
               />
               <button className="bg-[#1e3a8a] hover:bg-[#162d6e] transition-colors flex items-center justify-center">
                 <Image
-                  src="/moto/technilub/search.png"
+                  src="/moto/technilub/search.webp"
                   alt="Search"
                   width={16}
                   height={16}
@@ -154,7 +154,7 @@ export default function Header() {
               />
               <button className="bg-[#1e3a8a] px-3 py-2 flex items-center justify-center">
                 <Image
-                  src="/moto/technilub/search.png"
+                  src="/moto/technilub/search.webp"
                   alt="Search"
                   width={16}
                   height={16}

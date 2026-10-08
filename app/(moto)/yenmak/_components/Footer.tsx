@@ -25,7 +25,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 lg:grid-cols-[35fr_15fr_20fr_30fr] gap-10">
           {/* Logo + tagline */}
           <div data-aos="fade-up">
-            <img src="/moto/yenmak/logo.png" alt="Yenmak Motor Parçaları Logo" className="h-14 w-auto object-contain mb-5" />
+            <img src="/moto/yenmak/logo.webp" alt="Yenmak Motor Parçaları Logo" className="h-14 w-auto object-contain mb-5" />
             <p className="content-white text-white/85! mb-5">
               Yenmak manufactures precision-engineered engine components, delivering reliable
               performance, durability, and quality for automotive markets worldwide.

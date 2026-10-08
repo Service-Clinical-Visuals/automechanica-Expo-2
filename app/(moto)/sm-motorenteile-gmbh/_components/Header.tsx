@@ -40,7 +40,7 @@ export default function Header() {
             {/* Logo Area */}
             <div className="flex-shrink-0 flex items-center">
               <Link href="#">
-                <img src="/moto/sm-motorenteile-gmbh/logo.png" alt="sm-motorenteile-gmbh Logo" className="header-logo h-auto object-contain" />
+                <img src="/moto/sm-motorenteile-gmbh/logo.webp" alt="sm-motorenteile-gmbh Logo" className="header-logo h-auto object-contain" />
               </Link>
             </div>
 

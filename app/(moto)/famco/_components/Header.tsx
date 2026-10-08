@@ -39,7 +39,7 @@ export default function Header() {
             {/* Logo Area */}
             <div className="flex-shrink-0 flex items-center">
               <Link href="#">
-                <img src="/moto/famco/logo.png" alt="FAMCO Logo" className="header-logo h-auto object-contain" />
+                <img src="/moto/famco/logo.webp" alt="FAMCO Logo" className="header-logo h-auto object-contain" />
               </Link>
             </div>
 
@@ -66,7 +66,7 @@ export default function Header() {
               </button>
 
               <div className="flex items-center gap-2 border border-[#202020] rounded-[5px] px-3 py-1.5 cursor-pointer hover:border-[#282361] transition-colors">
-                <img src="/moto/famco/flag.png" alt="EN" className="h-auto w-auto object-cover rounded-sm" />
+                <img src="/moto/famco/flag.webp" alt="EN" className="h-auto w-auto object-cover rounded-sm" />
                 <span className="text-[#202020] section-text font-semibold inter-font">ENG</span>
                 <ChevronDown size="1em" className="text-[#000000]" />
               </div>
@@ -112,7 +112,7 @@ export default function Header() {
             ))}
             <div className="custom-container py-4 flex gap-4 justify-start items-center">
               <div className="flex items-center gap-2 border border-gray-300 rounded-[5px] px-3 py-1.5">
-                <img src="/moto/famco/flag.png" alt="EN" className="h-4 w-6 object-cover rounded-sm" />
+                <img src="/moto/famco/flag.webp" alt="EN" className="h-4 w-6 object-cover rounded-sm" />
                 <span className="text-[#202020] text-sm font-semibold inter-font">ENG</span>
                 <ChevronDown size="1em" className="text-[#202020]" />
               </div>

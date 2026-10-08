@@ -58,7 +58,7 @@ export default function Header() {
             {/* Logo Area */}
             <div className="flex-shrink-0 flex items-center">
               <Link href="#">
-                <img src="/moto/veneporte/logo.png" alt="Veneporte Logo" className="h-10 lg:h-12 w-auto max-w-[220px] lg:max-w-[200px] object-contain" />
+                <img src="/moto/veneporte/logo.webp" alt="Veneporte Logo" className="h-10 lg:h-12 w-auto max-w-[220px] lg:max-w-[200px] object-contain" />
               </Link>
             </div>
 
@@ -123,7 +123,7 @@ export default function Header() {
             {/* Logo Area */}
             <div className="flex-shrink-0 flex items-center">
               <Link href="#">
-                <img src="/moto/veneporte/logo.png" alt="Veneporte Logo" className="h-10 lg:h-12 w-auto max-w-[220px] lg:max-w-[200px] object-contain" />
+                <img src="/moto/veneporte/logo.webp" alt="Veneporte Logo" className="h-10 lg:h-12 w-auto max-w-[220px] lg:max-w-[200px] object-contain" />
               </Link>
             </div>
 

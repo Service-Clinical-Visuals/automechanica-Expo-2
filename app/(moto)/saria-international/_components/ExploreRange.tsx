@@ -10,21 +10,21 @@ export default function ExploreRange() {
       title: "Premium Lubricants",
       desc: "Premium lubricants for superior engine protection and performance.",
       icon: (
-      <img src="/moto/saria-international/R1.png" />
+      <img src="/moto/saria-international/R1.webp" />
       )
     },
     {
       title: "Automotive Fluids",
       desc: "Premium fluids for reliable vehicle performance.",
       icon: (
-        <img src="/moto/saria-international/R2.png" />
+        <img src="/moto/saria-international/R2.webp" />
       )
     },
     {
       title: "Car Care Products",
       desc: "Professional products for vehicle care and protection.",
       icon: (
-        <img src="/moto/saria-international/R3.png" />
+        <img src="/moto/saria-international/R3.webp" />
       )
     }
   ];
@@ -63,7 +63,7 @@ export default function ExploreRange() {
               <div className="w-24 md:w-40 bg-[#F4B824] flex items-center justify-center flex-shrink-0 relative rounded-r-xl">
                 {/* Automatically tries R1.png, R2.png, R3.png, falls back to SVG */}
                 <img 
-                  src={`/moto/saria-international/R${idx+1}.png`} 
+                  src={`/moto/saria-international/R${idx+1}.webp`} 
                   alt={card.title} 
                   className="w-14 h-14 object-contain z-10"
                  

@@ -7,7 +7,7 @@ const Quality = () => {
   return (
     <section className="w-screen min-h-screen relative left-1/2 -translate-x-1/2 flex flex-col -mt-6 !rounded-none">
       {/* Top Banner Section */}
-      <div className="relative w-full h-[585px] py-24 flex flex-col items-center justify-center bg-cover bg-center !rounded-none" style={{ backgroundImage: "url('/moto/racingoil/q.png')" }}>
+      <div className="relative w-full h-[585px] py-24 flex flex-col items-center justify-center bg-cover bg-center !rounded-none" style={{ backgroundImage: "url('/moto/racingoil/q.webp')" }}>
         {/* Overlay */}
         <div className="absolute inset-0 bg-[#262C50C7]/100 !rounded-none"></div>
 
@@ -33,7 +33,7 @@ const Quality = () => {
             {/* Cutout wrapper for gap effect */}
             <div className="absolute -top-[52px] bg-white w-[104px] h-[104px] flex items-center justify-center z-10">
               <div className="w-20 h-20 bg-white shadow-[0px_3px_8px_0px_#0000003D] flex items-center justify-center border border-gray-100">
-                <img src="/moto/racingoil/q1.png" alt="Sustainability" className="w-10 h-10 object-contain" />
+                <img src="/moto/racingoil/q1.webp" alt="Sustainability" className="w-10 h-10 object-contain" />
               </div>
             </div>
             <h4 className="font-primary font-bold card-title text-[#111111] mb-3 mt-2">Sustainability With The Environment</h4>
@@ -47,7 +47,7 @@ const Quality = () => {
             {/* Cutout wrapper for gap effect */}
             <div className="absolute -top-[52px] bg-white w-[104px] h-[104px] flex items-center justify-center z-10">
               <div className="w-20 h-20 bg-white shadow-[0px_3px_8px_0px_#0000003D] flex items-center justify-center border border-gray-100">
-                <img src="/moto/racingoil/q2.png" alt="Quality" className="w-10 h-10 object-contain" />
+                <img src="/moto/racingoil/q2.webp" alt="Quality" className="w-10 h-10 object-contain" />
               </div>
             </div>
             <h4 className="font-primary font-bold card-title text-[#111111] mb-3 mt-2">Committed To Quality</h4>
@@ -61,7 +61,7 @@ const Quality = () => {
             {/* Cutout wrapper for gap effect */}
             <div className="absolute -top-[52px] bg-white w-[104px] h-[104px] flex items-center justify-center z-10">
               <div className="w-20 h-20 bg-white shadow-[0px_3px_8px_0px_#0000003D] flex items-center justify-center border border-gray-100">
-                <img src="/moto/racingoil/q3.png" alt="Additives" className="w-10 h-10 object-contain" />
+                <img src="/moto/racingoil/q3.webp" alt="Additives" className="w-10 h-10 object-contain" />
               </div>
             </div>
             <h4 className="font-primary font-bold card-title text-[#111111] mb-3 mt-2">Next-Generation Additives</h4>
@@ -75,7 +75,7 @@ const Quality = () => {
             {/* Cutout wrapper for gap effect */}
             <div className="absolute -top-[52px] bg-white w-[104px] h-[104px] flex items-center justify-center z-10">
               <div className="w-20 h-20 bg-white shadow-[0px_3px_8px_0px_#0000003D] flex items-center justify-center border border-gray-100">
-                <img src="/moto/racingoil/q4.png" alt="Safety" className="w-10 h-10 object-contain" />
+                <img src="/moto/racingoil/q4.webp" alt="Safety" className="w-10 h-10 object-contain" />
               </div>
             </div>
             <h4 className="font-primary font-bold card-title text-[#111111] mb-3 mt-2">Maximum Safety</h4>

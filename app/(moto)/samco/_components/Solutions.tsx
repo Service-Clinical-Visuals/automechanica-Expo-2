@@ -6,18 +6,18 @@ import DynamicVideoPlayer from "../../../_components/DynamicVideoPlayer";
 
 const SOLUTIONS = [
   {
-    icon: "/moto/samco/s1.png",
+    icon: "/moto/samco/s1.webp",
     title: "Filters",
     description:
       "5,000 Variants of Air, Oil, Fuel, Cabin & Hydraulic filters available",
   },
   {
-    icon: "/moto/samco/s2.jpg",
+    icon: "/moto/samco/s2.webp",
     title: "Air Suspension System",
     description: "Advanced suspension solutions for maximum comfort & safety",
   },
   {
-    icon: "/moto/samco/s3.png",
+    icon: "/moto/samco/s3.webp",
     title: "Engine Components",
     description: "Precision-engineered components for optimum engine performance",
   },

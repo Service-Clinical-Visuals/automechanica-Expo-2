@@ -7,17 +7,17 @@ export default function Products() {
   const products = [
     {
       title: "Mufflers",
-      image: "/moto/sigam/pr1.png",
+      image: "/moto/sigam/pr1.webp",
       description: "Precision-engineered mufflers for quieter operation, enhanced performance, and lasting reliability in passenger and commercial vehicles."
     },
     {
       title: "DPF",
-      image: "/moto/sigam/pr2.png",
+      image: "/moto/sigam/pr2.webp",
       description: "Homologated particulate filters engineered to capture harmful emissions while ensuring OEM-level efficiency, and environmental performance."
     },
     {
       title: "Catalytic Converters & SCR",
-      image: "/moto/sigam/pr3.png",
+      image: "/moto/sigam/pr3.webp",
       description: "OEM-grade, homologated emission-control solutions delivering cleaner exhaust, regulatory compliance, and reliable performance."
     }
   ];

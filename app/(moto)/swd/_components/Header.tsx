@@ -45,7 +45,7 @@ export default function Header() {
         {/* Logo Area */}
         <div className="flex-shrink-0 flex items-center w-[140px] md:w-[170px] lg:w-[200px] min-[1500px]:w-[240px] min-[2100px]:w-[310px] min-[3800px]:w-[440px]">
           <Link href="#" className="w-full block">
-            <img src="/moto/swd/logo.png" alt="Swd Rheinol Logo" className="w-full h-auto object-contain" />
+            <img src="/moto/swd/logo.webp" alt="Swd Rheinol Logo" className="w-full h-auto object-contain" />
           </Link>
         </div>
 

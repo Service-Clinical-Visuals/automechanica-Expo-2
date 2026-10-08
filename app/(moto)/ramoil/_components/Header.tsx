@@ -32,7 +32,7 @@ export default function Header() {
         <div className="flex items-center h-[70px] px-4 sm:px-8 md:px-14 lg:px-[100px]">
           {/* Logo */}
           <div className="flex-1 flex items-center">
-            <img src="/moto/ramoil/logo.png" alt="Ramoil" className="h-11 w-auto" />
+            <img src="/moto/ramoil/logo.webp" alt="Ramoil" className="h-11 w-auto" />
           </div>
 
           {/* Desktop Nav — centered */}

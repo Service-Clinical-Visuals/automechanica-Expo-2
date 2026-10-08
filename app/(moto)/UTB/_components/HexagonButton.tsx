@@ -35,7 +35,7 @@ export default function HexagonButton({
           height: "60px"
         }}
       >
-        <img src="/moto/UTB/vector.png" alt="Arrow" className="w-7 h-6  object-contain ml-[-2px]" />
+        <img src="/moto/UTB/vector.webp" alt="Arrow" className="w-7 h-6  object-contain ml-[-2px]" />
       </div>
     </Link>
   );

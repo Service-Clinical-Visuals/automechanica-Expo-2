@@ -25,7 +25,7 @@ export default function Quality() {
           {[1, 2, 3].map((num) => (
             <div key={num} className="w-full h-full flex items-center justify-center bg-white border-0.5 border-[#CCCCCC] transition-shadow duration-300">
               <img
-                src={`/moto/kameks/c${num}.png`}
+                src={`/moto/kameks/c${num}.webp`}
                 alt={`Certificate ${num}`}
                 className="w-full h-full object-contain"
                 onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<div class="w-full h-[300px] bg-gray-50 flex items-center justify-center text-gray-400">Certificate Placeholder</div>' }}

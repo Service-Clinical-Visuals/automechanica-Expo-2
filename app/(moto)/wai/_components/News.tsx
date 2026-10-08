@@ -7,19 +7,19 @@ import Link from "next/link";
 const News = () => {
   const newsData = [
     {
-      img: "/moto/wai/news1.png",
+      img: "/moto/wai/news1.webp",
       date: "July 21, 2026",
       title: "WAI Adds 109 New Part Numbers in Q2 2026",
       text: "WAI adds 109 new part numbers in Q2 2026, expanding aftermarket coverage.",
     },
     {
-      img: "/moto/wai/news2.png",
+      img: "/moto/wai/news2.webp",
       date: "May 23, 2026",
       title: "WAI Expands with ACI Automotive Acquisition",
       text: "WAI expands its product portfolio with the acquisition of ACI Automotive.",
     },
     {
-      img: "/moto/wai/news3.png",
+      img: "/moto/wai/news3.webp",
       date: "May 23, 2026",
       title: "WAI Shortlisted for CAT Award 2025",
       text: "WAI shortlisted for Supplier of the Year at the CAT Awards 2025.",

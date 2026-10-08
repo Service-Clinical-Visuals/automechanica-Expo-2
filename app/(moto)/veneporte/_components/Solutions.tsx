@@ -3,9 +3,9 @@ import Typography from './Typography';
 
 export default function Solutions() {
   const logos = [
-    "/moto/veneporte/logo1.png",
-    "/moto/veneporte/logo2.png",
-    "/moto/veneporte/logo3.png"
+    "/moto/veneporte/logo1.webp",
+    "/moto/veneporte/logo2.webp",
+    "/moto/veneporte/logo3.webp"
   ];
 
   return (

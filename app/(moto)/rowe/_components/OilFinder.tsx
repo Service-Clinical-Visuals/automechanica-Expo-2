@@ -16,12 +16,12 @@ export default function OilFinder() {
   const [activeCategory, setActiveCategory] = useState("Cars");
 
   const categories = [
-    { name: "Cars", icon: "/moto/rowe/oil1.png"},
-    { name: "Light commercial Vehicles (<7.5t)", icon: "/moto/rowe/oil2.png" },
-    { name: "Trucks and Buses (>7.5t)", icon: "/moto/rowe/oil3.png" },
-    { name: "Motorcycles, Mopeds, ATV/UTV", icon: "/moto/rowe/oil4.png" },
-    { name: "Agriculture Equipment", icon: "/moto/rowe/oil6.png" },
-    { name: "Constructions, Mining and Materials Handling Equipment", icon: "/moto/rowe/oil5.png" },
+    { name: "Cars", icon: "/moto/rowe/oil1.webp"},
+    { name: "Light commercial Vehicles (<7.5t)", icon: "/moto/rowe/oil2.webp" },
+    { name: "Trucks and Buses (>7.5t)", icon: "/moto/rowe/oil3.webp" },
+    { name: "Motorcycles, Mopeds, ATV/UTV", icon: "/moto/rowe/oil4.webp" },
+    { name: "Agriculture Equipment", icon: "/moto/rowe/oil6.webp" },
+    { name: "Constructions, Mining and Materials Handling Equipment", icon: "/moto/rowe/oil5.webp" },
   ];
 
   return (
@@ -41,7 +41,7 @@ export default function OilFinder() {
          <h2 className="text-white text-xl md:text-2xl lg:text-[28px] font-semibold tracking-wide orbitron">
             OIL FINDER
           </h2>
-          <img src="/moto/rowe/mdi_oil1.png" alt="Oil Finder" className="max-w-12 item-center object-contain " />
+          <img src="/moto/rowe/mdi_oil1.webp" alt="Oil Finder" className="max-w-12 item-center object-contain " />
         </div>
 
         {/* Top Two Columns with OR */}
@@ -53,7 +53,7 @@ export default function OilFinder() {
                 <option value="" disabled hidden>Select Approval</option>
               </select>
               <div className="absolute right-5 top-1/2 -translate-y-1/2 pointer-events-none text-gray-400">
-                <img src="/moto/rowe/chevron-down.png" alt="Chevron Down" className="w-8 h-8 object-contain opacity-70" />
+                <img src="/moto/rowe/chevron-down.webp" alt="Chevron Down" className="w-8 h-8 object-contain opacity-70" />
               </div>
             </div>
           </div>
@@ -71,7 +71,7 @@ export default function OilFinder() {
                 <option value="" disabled hidden>Select Approval</option>
               </select>
               <div className="absolute right-5 top-1/2 -translate-y-1/2 pointer-events-none text-gray-400">
-                <img src="/moto/rowe/chevron-down.png" alt="Chevron Down" className="w-8 h-8 object-contain opacity-70" />
+                <img src="/moto/rowe/chevron-down.webp" alt="Chevron Down" className="w-8 h-8 object-contain opacity-70" />
               </div>
             </div>
           </div>
@@ -116,7 +116,7 @@ export default function OilFinder() {
                 <option value="" disabled hidden>Manufacturer</option>
               </select>
               <div className="absolute right-5 top-1/2 -translate-y-1/2 pointer-events-none text-gray-400">
-                <img src="/moto/rowe/chevron-down.png" alt="Chevron Down" className="w-5 h-5 object-contain opacity-70" />
+                <img src="/moto/rowe/chevron-down.webp" alt="Chevron Down" className="w-5 h-5 object-contain opacity-70" />
               </div>
             </div>
             <div className="relative h-[52px]">
@@ -124,7 +124,7 @@ export default function OilFinder() {
                 <option value="" disabled hidden>Model *</option>
               </select>
               <div className="absolute right-5 top-1/2 -translate-y-1/2 pointer-events-none text-gray-400">
-                <img src="/moto/rowe/chevron-down.png" alt="Chevron Down" className="w-5 h-5 object-contain opacity-70" />
+                <img src="/moto/rowe/chevron-down.webp" alt="Chevron Down" className="w-5 h-5 object-contain opacity-70" />
               </div>
             </div>
             <div className="relative h-[52px]">
@@ -132,7 +132,7 @@ export default function OilFinder() {
                 <option value="" disabled hidden>Type *</option>
               </select>
               <div className="absolute right-5 top-1/2 -translate-y-1/2 pointer-events-none text-gray-400">
-                <img src="/moto/rowe/chevron-down.png" alt="Chevron Down" className="w-5 h-5 object-contain opacity-70" />
+                <img src="/moto/rowe/chevron-down.webp" alt="Chevron Down" className="w-5 h-5 object-contain opacity-70" />
               </div>
             </div>
           </div>

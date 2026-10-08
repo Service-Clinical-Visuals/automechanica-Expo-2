@@ -42,7 +42,7 @@ export default function AboutUs() {
 
           {/* Right Side: Image */}
           <div className="w-full h-full mt-8 lg:mt-0 lg:col-span-6" data-aos="fade-left">
-            <img src="/moto/avortex/abt1.png" alt="Avortex Facility" className="w-full h-full object-cover]" onError={(e) => { e.currentTarget.src = "/moto/avortex/abt.png"; }} />
+            <img src="/moto/avortex/abt1.png" alt="Avortex Facility" className="w-full h-full object-cover]" onError={(e) => { e.currentTarget.src = "/moto/avortex/abt.webp"; }} />
           </div>
 
         </div>

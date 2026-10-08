@@ -6,26 +6,26 @@ export default function News() {
   const newsItems = [
     {
       id: 1,
-      image: "/moto/veneporte/news1.png",
+      image: "/moto/veneporte/news1.webp",
       date: "11.2025",
       title: "Veneporte Is At The Belém Palace For The Second Year As A Finalist For The COTEC-BPI SME Innovation Award"
     },
     {
       id: 2,
-      image: "/moto/veneporte/news2.png",
+      image: "/moto/veneporte/news2.webp",
       date: "11.2025",
       title: "Veneporte Among The 6 Finalists Of The 21st Edition Of The COTEC-BPI SME Innovation Award"
     },
     {
       id: 3,
-      image: "/moto/veneporte/news3.png",
+      image: "/moto/veneporte/news3.webp",
       date: "10.2025",
       title: "Distinguished As SME Excellence 2024"
     }
   ];
 
   return (
-    <section className="py-16 relative overflow-hidden bg-[url('/moto/veneporte/bg1.jpg')] bg-cover bg-center bg-[#F8F9FA]">
+    <section className="py-16 relative overflow-hidden bg-[url('/moto/veneporte/bg1.webp')] bg-cover bg-center bg-[#F8F9FA]">
 
       <div className="custom-container px-4 md:px-8 max-w-[1920px] mx-auto relative z-10">
 

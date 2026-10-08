@@ -46,7 +46,7 @@ export default function AboutUs() {
           {/* Middle Image */}
           <div className="lg:w-[35%] xl:w-[38%] relative z-10 min-h-[300px] flex-shrink-0 flex items-center justify-center" data-aos="zoom-in" data-aos-delay="100">
             <img
-              src="/moto/vitobello/abt.png"
+              src="/moto/vitobello/abt.webp"
               alt="Experience"
               className="w-full h-auto lg:w-[533px] lg:h-[658px] lg:max-w-none lg:absolute lg:top-[50%] lg:left-[40%] lg:-translate-x-1/2 lg:-translate-y-1/2 shadow-2xl rounded-sm object-cover"
             />
@@ -56,7 +56,7 @@ export default function AboutUs() {
           <div className="lg:w-[20%] xl:w-[40%] lg:-ml-20 flex flex-col gap-4 lg:gap-6 justify-between z-0">
             <div className="flex-1 border border-white/50 bg-[#222] p-4 xl:p-6 flex flex-col xl:flex-row items-center gap-4 rounded-sm shadow-lg" data-aos="fade-left" data-aos-delay="150">
               <div className="shrink-0">
-                <img src="/moto/vitobello/abt1.png" alt="Satisfied Customer" className="w-auto h-auto object-contain" />
+                <img src="/moto/vitobello/abt1.webp" alt="Satisfied Customer" className="w-auto h-auto object-contain" />
               </div>
               <div className="flex flex-col items-center xl:items-start text-center xl:text-left flex-1">
                 <Typography variant="h3" color="white" className="font-bold text-lg xl:text-2xl">2,465 <span className="text-primary">+</span></Typography>
@@ -66,7 +66,7 @@ export default function AboutUs() {
 
             <div className="flex-1 border border-white/50 bg-[#222] p-4 xl:p-6 flex flex-col xl:flex-row items-center gap-4 rounded-sm shadow-lg" data-aos="fade-left" data-aos-delay="250">
               <div className="shrink-0">
-                <img src="/moto/vitobello/abt2.png" alt="Sold Products" className="w-auto h-auto object-contain" />
+                <img src="/moto/vitobello/abt2.webp" alt="Sold Products" className="w-auto h-auto object-contain" />
               </div>
               <div className="flex flex-col items-center xl:items-start text-center xl:text-left flex-1">
                 <Typography variant="h3" color="white" className="font-bold text-lg xl:text-2xl">25,042 <span className="text-primary">+</span></Typography>
@@ -76,7 +76,7 @@ export default function AboutUs() {
 
             <div className="flex-1 border border-white/50 bg-[#222] p-4 xl:p-6 flex flex-col xl:flex-row items-center gap-4 rounded-sm shadow-lg" data-aos="fade-left" data-aos-delay="350">
               <div className="shrink-0">
-                <img src="/moto/vitobello/abt3.png" alt="Employees" className="w-auto h-auto object-contain" />
+                <img src="/moto/vitobello/abt3.webp" alt="Employees" className="w-auto h-auto object-contain" />
               </div>
               <div className="flex flex-col items-center xl:items-start text-center xl:text-left flex-1">
                 <Typography variant="h3" color="white" className="font-bold text-lg xl:text-2xl">25 <span className="text-primary">+</span></Typography>

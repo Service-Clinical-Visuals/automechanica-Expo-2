@@ -1,14 +1,14 @@
 import Container from "./Container";
 
 const solutions = [
-  { img: "/moto/seld-production/solutions/1.png", name: "Competition" },
-  { img: "/moto/seld-production/solutions/2.png", name: "Heavy Industry" },
-  { img: "/moto/seld-production/solutions/3.png", name: "Automobile" },
-  { img: "/moto/seld-production/solutions/4.png", name: "Transport Vehicles" },
-  { img: "/moto/seld-production/solutions/5.png", name: "Public Works Machinery" },
-  { img: "/moto/seld-production/solutions/6.png", name: "Agricultural Machinery" },
-  { img: "/moto/seld-production/solutions/7.png", name: "Nautical Sector" },
-  { img: "/moto/seld-production/solutions/8.png", name: "Ski Lift Fleet" },
+  { img: "/moto/seld-production/solutions/1.webp", name: "Competition" },
+  { img: "/moto/seld-production/solutions/2.webp", name: "Heavy Industry" },
+  { img: "/moto/seld-production/solutions/3.webp", name: "Automobile" },
+  { img: "/moto/seld-production/solutions/4.webp", name: "Transport Vehicles" },
+  { img: "/moto/seld-production/solutions/5.webp", name: "Public Works Machinery" },
+  { img: "/moto/seld-production/solutions/6.webp", name: "Agricultural Machinery" },
+  { img: "/moto/seld-production/solutions/7.webp", name: "Nautical Sector" },
+  { img: "/moto/seld-production/solutions/8.webp", name: "Ski Lift Fleet" },
 ];
 
 export default function Solutions() {

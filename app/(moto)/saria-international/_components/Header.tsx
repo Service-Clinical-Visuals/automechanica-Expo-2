@@ -37,7 +37,7 @@ export default function Header() {
         {/* Logo */}
         <Link href="#" className="flex-shrink-0 z-50">
           <img 
-            src="/moto/saria-international/logo.png" 
+            src="/moto/saria-international/logo.webp" 
             alt="LION Logo" 
             className="h-14 md:h-18 w-auto object-contain" 
             onError={(e) => {
@@ -77,9 +77,9 @@ export default function Header() {
           </div>
           
           <div className="flex items-center gap-2 cursor-pointer text-white">
-            <img src="/moto/saria-international/glob.png" alt="Language" className="h-8 w-8" />
+            <img src="/moto/saria-international/glob.webp" alt="Language" className="h-8 w-8" />
             <span className="oswald-font header-link font-normal">EN</span>
-            <img src="/moto/saria-international/dwnarrow.png" alt="Dropdown" className="h-2 w-3 " />
+            <img src="/moto/saria-international/dwnarrow.webp" alt="Dropdown" className="h-2 w-3 " />
           </div>
         </div>
 
@@ -122,9 +122,9 @@ export default function Header() {
           </div>
 
           <div className="flex items-center gap-2 cursor-pointer text-white mt-2">
-            <img src="/moto/saria-international/glob.png" alt="Language" className="h-8 w-8" />
+            <img src="/moto/saria-international/glob.webp" alt="Language" className="h-8 w-8" />
             <span className="oswald-font header-link font-normal">EN</span>
-            <img src="/moto/saria-international/dwnarrow.png" alt="Dropdown" className="h-2 w-3" />
+            <img src="/moto/saria-international/dwnarrow.webp" alt="Dropdown" className="h-2 w-3" />
           </div>
         </div>
       </div>

@@ -14,32 +14,32 @@ const advantagesData = [
   {
     title: "Exhaust & Emission Systems",
     desc: "We deliver all the exhaust system components to you with our worldwide production capacity.",
-    image: "/moto/soylu/emision/emision1.png"
+    image: "/moto/soylu/emision/emision1.webp"
   },
   {
     title: "Air Reservoirs",
     desc: "In every field where air passes, we transfer our experience of metal processing to air cylinders.",
-    image: "/moto/soylu/emision/emision2.png"
+    image: "/moto/soylu/emision/emision2.webp"
   },
   {
     title: "Fuel & Oil Tanks",
     desc: "In every field where air passes, we transfer our experience of metal processing to air cylinders.",
-    image: "/moto/soylu/emision/emision3.png"
+    image: "/moto/soylu/emision/emision3.webp"
   },
   {
     title: "NOx & Temperature Sensors",
     desc: "NOx and Temperature Sensors for European vehicles are at your service in all their diversity.",
-    image: "/moto/soylu/emision/emision4.png"
+    image: "/moto/soylu/emision/emision4.webp"
   },
   {
     title: "Engine Pipes",
     desc: "We have developed our universal parts that hold the engine together for those looking for quality holistic.",
-    image: "/moto/soylu/emision/emision5.png"
+    image: "/moto/soylu/emision/emision5.webp"
   },
   {
     title: "Laser Cutting, Bending & Part Production",
     desc: "Thanks to our flexible production opportunities, we offer Laser Cutting and twisting services to our customers.",
-    image: "/moto/soylu/emision/emision6.png"
+    image: "/moto/soylu/emision/emision6.webp"
   }
 ];
 

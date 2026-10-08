@@ -17,9 +17,9 @@ interface NewsItem {
 
 const newsItems: NewsItem[] = [
   {
-    image: "/moto/sndc/news1.png",
+    image: "/moto/sndc/news1.webp",
     tagLabel: "Event",
-    tagIcon: "/moto/sndc/cal.png",
+    tagIcon: "/moto/sndc/cal.webp",
     date: "17 - 21 NOV 2025",
     title: "SNDC ECOCLIM will be present at Solutrans 2025",
     description:
@@ -28,9 +28,9 @@ const newsItems: NewsItem[] = [
     href: "/news/solutrans-2025",
   },
   {
-    image: "/moto/sndc/news3.png",
+    image: "/moto/sndc/news3.webp",
     tagLabel: "Tutorial",
-    tagIcon: "/moto/sndc/tutorial.png",
+    tagIcon: "/moto/sndc/tutorial.webp",
     date: "14 OCT 2025",
     title: "SNDC ECOCLIM will be present at Solutrans 2025",
     description:
@@ -39,9 +39,9 @@ const newsItems: NewsItem[] = [
     href: "/news/tutorial-rf-stations",
   },
   {
-    image: "/moto/sndc/news2.png",
+    image: "/moto/sndc/news2.webp",
     tagLabel: "News and Events",
-    tagIcon: "/moto/sndc/product.png",
+    tagIcon: "/moto/sndc/product.webp",
     date: "",
     title: "SNDC ECOCLIM will be present at Solutrans 2025",
     description:

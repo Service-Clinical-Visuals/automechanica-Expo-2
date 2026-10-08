@@ -8,19 +8,19 @@ const Products = () => {
   const products = [
     {
       title: "SPL® Plus U-Joints",
-      img: "/moto/dana/p1.png",
+      img: "/moto/dana/p1.webp",
     },
     {
       title: "SPL® U-Joints",
-      img: "/moto/dana/p2.png",
+      img: "/moto/dana/p2.webp",
     },
     {
       title: "Blue Coated U-Joints",
-      img: "/moto/dana/p3.png",
+      img: "/moto/dana/p3.webp",
     },
     {
       title: "10 Series U-Joints",
-      img: "/moto/dana/p4.png",
+      img: "/moto/dana/p4.webp",
     }
   ];
 

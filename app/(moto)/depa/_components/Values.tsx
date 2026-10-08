@@ -5,19 +5,19 @@ export default function Values() {
   const valuesData = [
     {
       id: "01",
-      icon: "/moto/depa/v1.png",
+      icon: "/moto/depa/v1.webp",
       title: "Quality You Can Trust",
       desc: "Our production process complies with original equipment's specifications. All our remanufactured parts are thoroughly tested at every step, right through to final inspection.",
     },
     {
       id: "02",
-      icon: "/moto/depa/v2.png",
+      icon: "/moto/depa/v2.webp",
       title: "Reliable Product Availability",
       desc: "Over 60,000 parts are available in our warehouses, with customer-part remanufacturing for rare models and standard or express delivery across Europe.",
     },
     {
       id: "03",
-      icon: "/moto/depa/v3.png",
+      icon: "/moto/depa/v3.webp",
       title: "Dedicated Customer Service",
       desc: "We help you find the right part quickly through identification by license plate, VIN, vehicle model, OE, or competitor reference, supported by reliable technical assistance.",
     },

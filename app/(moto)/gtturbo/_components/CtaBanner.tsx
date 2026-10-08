@@ -8,7 +8,7 @@ export default function CtaBanner() {
     <section className="relative w-full lg:w-[95%] mx-auto rounded-[20px] lg:rounded-[30px] my-8 lg:my-12 overflow-hidden bg-gray-900 shadow-2xl min-h-[400px] lg:min-h-[500px] flex items-center">
       {/* Background Image */}
       <img
-        src="/moto/gtturbo/v2.png"
+        src="/moto/gtturbo/v2.webp"
         alt="GT Turbo Unleash Power"
         className="absolute inset-0 w-full h-full object-cover"
       // Using banner2 or any available fallback image

@@ -16,7 +16,7 @@ const Footer = () => {
           <div className="col-span-2 lg:col-span-4 flex flex-col gap-6 pr-0 lg:pr-8">
             <Link href="/" className="relative ">
               <img 
-                src="/moto/fasep/logo.png" 
+                src="/moto/fasep/logo.webp" 
                 alt="FASEP Logo" 
                 className="w-60 lg:w-80 h-auto object-cover " 
               />

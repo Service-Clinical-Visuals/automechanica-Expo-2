@@ -6,17 +6,17 @@ import { ArrowUpRight } from "lucide-react";
 
 const featuredProducts = [
   {
-    image: "/moto/swd/f1.png",
+    image: "/moto/swd/f1.webp",
     title: "ATF SPECIAL CVT",
     link: "#"
   },
   {
-    image: "/moto/swd/f2.png",
+    image: "/moto/swd/f2.webp",
     title: "FAVORIT MSCK 15W–40",
     link: "#"
   },
   {
-    image: "/moto/swd/f3.png",
+    image: "/moto/swd/f3.webp",
     title: "PRIMOL POWER SYNTH CS 10W–40",
     link: "#"
   }
@@ -51,7 +51,7 @@ const Manufacture = () => {
                   alt={item.title}
                   className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
                   onError={(e) => {
-                    e.currentTarget.src = "/moto/swd/abt.png";
+                    e.currentTarget.src = "/moto/swd/abt.webp";
                   }}
                 />
               </div>

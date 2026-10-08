@@ -9,19 +9,19 @@ export default function Products() {
   const accordionData = [
     {
       title: "Production",
-      imgSrc: "/moto/kameks/i1.png",
+      imgSrc: "/moto/kameks/i1.webp",
       content:
         "Our production facility is equipped with state-of-the-art machinery to manufacture high-quality camshafts efficiently and accurately, meeting all industry standards.",
     },
     {
       title: "Product Development",
-      imgSrc: "/moto/kameks/i2.png",
+      imgSrc: "/moto/kameks/i2.webp",
       content:
         "Requests received from customers based on samples or technical drawings are reviewed by our expert team and modeled in a three-dimensional (3D) environment. Technical drawings for all planned operations are prepared with the necessary dimensions and tolerances, taking into account the machinery and required standards.",
     },
     {
       title: "Quality",
-      imgSrc: "/moto/kameks/i3.png",
+      imgSrc: "/moto/kameks/i3.webp",
       content:
         "Every camshaft undergoes rigorous quality control checks throughout the production process to ensure it meets our strict standards for durability and performance.",
     },
@@ -36,7 +36,7 @@ export default function Products() {
             className="lg:col-span-6 w-full h-full aspect-[4/3] lg:aspect-auto"
             data-aos="fade-right">
             <img
-              src="/moto/kameks/production.png"
+              src="/moto/kameks/production.webp"
               alt="Production Process"
               className="w-full h-full object-cover "
               onError={(e) => {

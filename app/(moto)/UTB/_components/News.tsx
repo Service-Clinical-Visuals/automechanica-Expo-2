@@ -59,7 +59,7 @@ const News = () => {
           {/* Right Title (Image) */}
           <div className="xl:text-right" data-aos="fade-left" data-aos-duration="1000">
             <img
-              src="/moto/UTB/heading7.png"
+              src="/moto/UTB/heading7.webp"
               alt="Our News"
               className="h-12 md:h-17 lg:h-18 w-auto object-contain object-right"
             />

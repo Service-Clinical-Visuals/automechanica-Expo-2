@@ -21,7 +21,7 @@ export default function Header() {
       <div className="max-w-[90%] mx-auto flex items-center justify-between h-[78px]">
         {/* Logo */}
         <div className="flex items-center">
-          <img src="/moto/synmar/logo.png" alt="Synmar" className="h-11.5 w-auto" />
+          <img src="/moto/synmar/logo.webp" alt="Synmar" className="h-11.5 w-auto" />
         </div>
 
         {/* Desktop Nav */}

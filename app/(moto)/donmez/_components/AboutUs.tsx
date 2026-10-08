@@ -35,13 +35,13 @@ const AboutUs = () => {
         {/* Images (Order 3 on Mobile, Order 2 on Desktop) */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 order-3 xl:order-2 w-full" data-aos="fade-up">
           <div className="w-full aspect-[534/352] overflow-hidden shadow-sm">
-            <img src="/moto/donmez/section21.png" alt="Facility Overview" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+            <img src="/moto/donmez/section21.webp" alt="Facility Overview" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
           </div>
           <div className="w-full aspect-[534/352] overflow-hidden shadow-sm">
-            <img src="/moto/donmez/section22.png" alt="Production Line" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+            <img src="/moto/donmez/section22.webp" alt="Production Line" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
           </div>
           <div className="w-full aspect-[534/352] overflow-hidden shadow-sm">
-            <img src="/moto/donmez/section23.png" alt="Machinery" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+            <img src="/moto/donmez/section23.webp" alt="Machinery" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
           </div>
         </div>
 

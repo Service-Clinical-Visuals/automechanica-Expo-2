@@ -9,17 +9,17 @@ export default function EngineeredSection() {
     {
       title: "Reliable Safety",
       description: "Designed with safety-focused lifting and locking systems.",
-      icon: <img src="/moto/twin/i2.png" alt="Reliable Safety" className="w-6 h-6 object-contain" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
+      icon: <img src="/moto/twin/i2.webp" alt="Reliable Safety" className="w-6 h-6 object-contain" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
     },
     {
       title: "Robust Build",
       description: "Built with durable components for demanding workshop environments.",
-      icon: <img src="/moto/twin/i3.png" alt="Robust Build" className="w-6 h-6 object-contain" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
+      icon: <img src="/moto/twin/i3.webp" alt="Robust Build" className="w-6 h-6 object-contain" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
     },
     {
       title: "Versatility",
       description: "Suitable for different vehicle types and professional servicing requirements.",
-      icon: <img src="/moto/twin/i4.png" alt="Versatility" className="w-6 h-6 object-contain" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
+      icon: <img src="/moto/twin/i4.webp" alt="Versatility" className="w-6 h-6 object-contain" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
     }
   ];
 

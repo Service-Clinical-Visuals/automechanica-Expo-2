@@ -4,12 +4,12 @@ import { useState } from "react";
 import Image from "next/image";
 
 const segments = [
-  { label: "Automotive",  car: "/moto/synmar/car1.png", oil: "/moto/synmar/oil1.png" },
-  { label: "Heavy Duty",  car: "/moto/synmar/car2.png", oil: "/moto/synmar/oil2.png" },
-  { label: "Agriculture", car: "/moto/synmar/car3.png", oil: "/moto/synmar/oil3.png" },
-  { label: "Motorcycle",  car: "/moto/synmar/car4.png", oil: "/moto/synmar/oil4.png" },
-  { label: "Industry",    car: "/moto/synmar/car5.png", oil: "/moto/synmar/oil5.png" },
-  { label: "Navy",        car: "/moto/synmar/car6.png", oil: "/moto/synmar/oil6.png" },
+  { label: "Automotive",  car: "/moto/synmar/car1.webp", oil: "/moto/synmar/oil1.webp" },
+  { label: "Heavy Duty",  car: "/moto/synmar/car2.webp", oil: "/moto/synmar/oil2.webp" },
+  { label: "Agriculture", car: "/moto/synmar/car3.webp", oil: "/moto/synmar/oil3.webp" },
+  { label: "Motorcycle",  car: "/moto/synmar/car4.webp", oil: "/moto/synmar/oil4.webp" },
+  { label: "Industry",    car: "/moto/synmar/car5.webp", oil: "/moto/synmar/oil5.webp" },
+  { label: "Navy",        car: "/moto/synmar/car6.webp", oil: "/moto/synmar/oil6.webp" },
 ];
 
 const items = ["Motor oil", "Transmission oil", "Coolant"];
@@ -69,7 +69,7 @@ export default function YourSolutionSection() {
                 <ul className="flex flex-col gap-4">
                   {items.map((item) => (
                     <li key={item} className="flex items-center gap-2 content">
-                      <Image src="/moto/synmar/check.png" alt="check" width={30} height={30} className="shrink-0" />
+                      <Image src="/moto/synmar/check.webp" alt="check" width={30} height={30} className="shrink-0" />
                       {item}
                     </li>
                   ))}

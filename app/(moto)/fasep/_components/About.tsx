@@ -22,12 +22,12 @@ const About = () => {
         {/* Images Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10 mb-12 md:mb-16">
             <img 
-              src="/moto/fasep/abt1.png" 
+              src="/moto/fasep/abt1.webp" 
               alt="FASEP Team" 
               className="object-cover w-full h-full"
             />
             <img 
-              src="/moto/fasep/abt2.png" 
+              src="/moto/fasep/abt2.webp" 
               alt="FASEP Technology" 
               className="object-cover w-full h-full"
             />

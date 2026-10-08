@@ -18,25 +18,25 @@ export default function News() {
       category: "Corporate",
       title: "AUTOMECHANIKA DUBAI 2025",
       desc: "We Are Proud And Thankful For One More Successful Presence To Automechanika Dubai 2025 Show In World Trade Center Of Dubai 9-11 December. Continuing Our Journey To Growth, It Was A Great Pleasure To Meet Again With Old And New Costumers And Discuss About The Global Market Of Lubricants And The Trends For The Upcoming Years.",
-      image: "/moto/slider/section8.png"
+      image: "/moto/slider/section8.webp"
     },
     {
       category: "Corporate",
       title: "AUTOMECHANIKA DUBAI 2023",
       desc: "We Are Proud And Thankful For One More Successful Presence To Automechanika Dubai 2023 Show In World Trade Center Of Dubai 2-4 October. Continuing Our Journey To Growth, It Was A Great Pleasure To Meet Again With Old And New Costumers And Discuss About The Global Market Of Lubricants And The Trends For The Upcoming Years.",
-      image: "/moto/slider/news2.png"
+      image: "/moto/slider/news2.webp"
     },
     {
       category: "Technical",
       title: "THE ESSENTIAL GUIDE TO GREASE: CLASSIFICATION, TYPES, AND BASICS",
       desc: "Grease Is One Of The Most Essential Lubricants In A Variety Of Mechanical And Industrial Applications. It Is Crucial For Reducing Friction And Extending Equipment Life As Well As Ensuring Smooth Operation. In This Article We Will Explore The World Of Grease, Analyzing Its Types, Properties, And Classifications, Including NLGI Grades And Service Classifications.",
-      image: "/moto/slider/news3.png"
+      image: "/moto/slider/news3.webp"
     },
     {
       category: "Technical",
       title: "THE ROLE OF HIGH-QUALITY ENGINE OIL / LUBRICANT IN MODERN ENGINES",
       desc: "This Article Analyzes Why Choosing The Right Oil Is Crucial For Your Engine's Efficiency, Efficiency, And Performance. Understanding The Role And Benefits Of A Premium Engine Lubricant Is Important For Everyone Who Seeks To Enhance Their Engine's Life And Reduce Maintenance Costs.",
-      image: "/moto/slider/news4.png"
+      image: "/moto/slider/news4.webp"
     }
   ];
 
@@ -76,7 +76,7 @@ export default function News() {
                 : "border-gray-200 text-[#4A4A4A] hover:border-gray-300 bg-white"
                 }`}
             >
-              <img src="/moto/slider/Vector.png" alt="Corporate" className={`w-5 h-5 object-contain ${activeCategory === "Corporate" ? "" : "opacity-50"}`} />
+              <img src="/moto/slider/Vector.webp" alt="Corporate" className={`w-5 h-5 object-contain ${activeCategory === "Corporate" ? "" : "opacity-50"}`} />
               CORPORATE
             </button>
             {/* Technical Button */}
@@ -87,7 +87,7 @@ export default function News() {
                 : "border-gray-200 text-[#4A4A4A] hover:border-gray-300 bg-white"
                 }`}
             >
-              <img src="/moto/slider/Vector (1).png" alt="Technical" className={`w-5 h-5 object-contain ${activeCategory === "Technical" ? "" : "opacity-50"}`} />
+              <img src="/moto/slider/Vector (1).webp" alt="Technical" className={`w-5 h-5 object-contain ${activeCategory === "Technical" ? "" : "opacity-50"}`} />
               TECHNICAL
             </button>
           </div>

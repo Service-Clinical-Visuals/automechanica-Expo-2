@@ -20,7 +20,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 lg:grid-cols-[40fr_15fr_15fr_15fr_15fr] gap-10">
           {/* Logo + tagline */}
           <div data-aos="fade-up">
-            <img src="/moto/rased/logo2.png" alt="Spaco Diesel R.A.S.E.D. Logo" className="h-20 w-auto object-contain mb-5" />
+            <img src="/moto/rased/logo2.webp" alt="Spaco Diesel R.A.S.E.D. Logo" className="h-20 w-auto object-contain mb-5" />
             <p className="content-white text-white/85!">
               R.A.S.E.D. S.p.A. &ndash; SPACO DIESEL is a trusted Italian manufacturer of precision
               diesel fuel injection components. With over six decades of expertise, the company

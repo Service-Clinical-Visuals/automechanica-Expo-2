@@ -19,11 +19,11 @@ const productLinks = [
 ];
 
 const socialLinks = [
-  { name: "LinkedIn", href: "#", icon: "/moto/giuliano/link.png" },
-  { name: "Instagram", href: "#", icon: "/moto/giuliano/insta.png" },
-  { name: "Facebook", href: "#", icon: "/moto/giuliano/fb.png" },
-  { name: "YouTube", href: "#", icon: "/moto/giuliano/yt.png" },
-  { name: "Twitter", href: "#", icon: "/moto/giuliano/twit.png" },
+  { name: "LinkedIn", href: "#", icon: "/moto/giuliano/link.webp" },
+  { name: "Instagram", href: "#", icon: "/moto/giuliano/insta.webp" },
+  { name: "Facebook", href: "#", icon: "/moto/giuliano/fb.webp" },
+  { name: "YouTube", href: "#", icon: "/moto/giuliano/yt.webp" },
+  { name: "Twitter", href: "#", icon: "/moto/giuliano/twit.webp" },
 ];
 
 export default function Footer() {
@@ -37,7 +37,7 @@ export default function Footer() {
           <div className="col-span-2 md:col-span-3 xl:col-span-1" data-aos="fade-right" data-aos-duration="900">
             <Link href="/" className="flex items-center gap-3 mb-4 group">
               <img
-                src="/moto/giuliano/logo1.png"
+                src="/moto/giuliano/logo1.webp"
                 alt="Giuliano Automotive"
                 width="269"
                 height="66"
@@ -45,7 +45,7 @@ export default function Footer() {
               />
 
               <img
-                src="/moto/giuliano/logo2.png"
+                src="/moto/giuliano/logo2.webp"
                 alt="50th Anniversary"
                 width="114"
                 height="50"
@@ -54,7 +54,7 @@ export default function Footer() {
             </Link>
 
             <img
-              src="/moto/giuliano/footer_logo.png"
+              src="/moto/giuliano/footer_logo.webp"
               alt="Profession : Passion"
               width="173"
               height="32"
@@ -105,7 +105,7 @@ export default function Footer() {
 
             <ul className="space-y-4">
               <li className="flex items-center gap-3 transition-transform duration-300 hover:translate-x-1">
-                <img src="/moto/giuliano/phn.png" alt="Phone" width="18" height="18" className="flex-shrink-0 transition-transform duration-300 hover:scale-110" />
+                <img src="/moto/giuliano/phn.webp" alt="Phone" width="18" height="18" className="flex-shrink-0 transition-transform duration-300 hover:scale-110" />
 
                 <a href="tel:+390522731111" className="footer-link text-white hover:text-primary transition-colors duration-300">
                   +39 0522 731111
@@ -113,7 +113,7 @@ export default function Footer() {
               </li>
 
               <li className="flex items-center gap-3 transition-transform duration-300 hover:translate-x-1">
-                <img src="/moto/giuliano/mail.png" alt="Email" width="18" height="18" className="flex-shrink-0 transition-transform duration-300 hover:scale-110" />
+                <img src="/moto/giuliano/mail.webp" alt="Email" width="18" height="18" className="flex-shrink-0 transition-transform duration-300 hover:scale-110" />
 
                 <a href="mailto:info@giuliano-automotive.com" className="footer-link text-white hover:text-primary transition-colors duration-300 lowercase">
                   info@giuliano-automotive.com
@@ -121,7 +121,7 @@ export default function Footer() {
               </li>
 
               <li className="flex items-start gap-3 transition-transform duration-300 hover:translate-x-1">
-                <img src="/moto/giuliano/loc.png" alt="Location" width="18" height="18" className="flex-shrink-0 mt-1 transition-transform duration-300 hover:scale-110" />
+                <img src="/moto/giuliano/loc.webp" alt="Location" width="18" height="18" className="flex-shrink-0 mt-1 transition-transform duration-300 hover:scale-110" />
 
                 <span className="footer-link text-white">
                   Via Guerrieri 6

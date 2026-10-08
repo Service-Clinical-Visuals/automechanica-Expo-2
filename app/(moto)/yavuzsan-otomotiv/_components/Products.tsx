@@ -10,25 +10,25 @@ export default function Products() {
   const products = [
     {
       title: "Star Air Cooled Brake Disc",
-      image: "/moto/yavuzsan-otomotiv/p1.png",
+      image: "/moto/yavuzsan-otomotiv/p1.webp",
       category: "disc",
       link: "#"
     },
     {
       title: "Sandero Brake Drum",
-      image: "/moto/yavuzsan-otomotiv/p2.png",
+      image: "/moto/yavuzsan-otomotiv/p2.webp",
       category: "drum",
       link: "#"
     },
     {
       title: "Toyota Coaster Brake Drum",
-      image: "/moto/yavuzsan-otomotiv/p4.png",
+      image: "/moto/yavuzsan-otomotiv/p4.webp",
       category: "drum",
       link: "#"
     },
     {
       title: "Air Cooled Brake Disc",
-      image: "/moto/yavuzsan-otomotiv/p5.png",
+      image: "/moto/yavuzsan-otomotiv/p5.webp",
       category: "disc",
       link: "#"
     }

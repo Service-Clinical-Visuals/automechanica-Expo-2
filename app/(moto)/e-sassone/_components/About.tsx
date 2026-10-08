@@ -6,14 +6,14 @@ const blocks = [
   {
     title: "An Italian manufacturing company specialized in clutches",
     text: "E. SASSONE is an Italian manufacturer of clutches and transmission components with decades of engineering expertise. The company develops reliable solutions for OE/OES, aftermarket, and customer-specific applications. Its integrated 12,000 m² facility brings together engineering, production, testing, quality control, and global distribution to ensure consistent performance and traceability.",
-    image: "/moto/e-sassone/about2.png",
+    image: "/moto/e-sassone/about2.webp",
     alt: "E. Sassone facility gate and warehouse exterior",
     imageFirst: false,
   },
   {
     title: "Italian production, in-house control and manufacturing know-how",
     text: "E. SASSONE manufactures clutch and transmission components for automotive, commercial, racing, marine, and industrial sectors. With over 70 years of experience, the company delivers both standard catalogue products and custom-engineered solutions, ensuring reliable performance and precise manufacturing for diverse application needs.",
-    image: "/moto/e-sassone/about1.png",
+    image: "/moto/e-sassone/about1.webp",
     alt: "E. Sassone manufacturing floor with production machinery",
     imageFirst: true,
   },

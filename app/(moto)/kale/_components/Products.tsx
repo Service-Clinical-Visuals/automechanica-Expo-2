@@ -6,21 +6,21 @@ const categories = [
   {
     key: "e-mobility",
     label: "E-Mobility",
-    image: "/moto/kale/products/1.png",
+    image: "/moto/kale/products/1.webp",
     description:
       "High-quality OEM solutions engineered for precise fit, consistent performance, and durability, meeting demanding automotive standards and customer requirements.",
   },
   {
     key: "oem-products",
     label: "OEM-Products",
-    image: "/moto/kale/products/2.png",
+    image: "/moto/kale/products/2.webp",
     description:
       "OEM products engineered for superior fit, reliable performance, and lasting quality, built to meet demanding automotive standards and customer requirements.",
   },
   {
     key: "spare-parts",
     label: "Spare Parts",
-    image: "/moto/kale/products/3.png",
+    image: "/moto/kale/products/3.webp",
     description:
       "Reliable spare parts designed for precise fit, consistent performance, and durability, meeting demanding automotive standards and replacement requirements.",
   },

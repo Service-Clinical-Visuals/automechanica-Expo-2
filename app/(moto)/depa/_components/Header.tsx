@@ -45,7 +45,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="#" className="flex-shrink-0">
             <img
-              src="/moto/depa/logo.png"
+              src="/moto/depa/logo.webp"
               alt="Depa Logo"
               className="h-10 xl:h-12 w-auto object-contain"
             />
@@ -74,7 +74,7 @@ export default function Header() {
             <div className="hidden xl:block">
               <Button 
                 text="Customer Login" 
-                icon={<img src="/moto/depa/person.png" alt="user" className="w-5 h-auto" />} 
+                icon={<img src="/moto/depa/person.webp" alt="user" className="w-5 h-auto" />} 
                 iconPosition="left" 
               />
             </div>
@@ -82,12 +82,12 @@ export default function Header() {
             {/* Flag & Language (Visible on both) */}
             <div className="flex items-center gap-2 xl:gap-4 cursor-pointer">
               <img
-                src="/moto/depa/flag.png"
+                src="/moto/depa/flag.webp"
                 alt="EN"
                 className="w-7 h-auto shadow-sm"
               />
                <img
-                src="/moto/depa/dwarw.png"
+                src="/moto/depa/dwarw.webp"
                 alt="EN"
                 className="w-4 h-auto"
               />
@@ -98,7 +98,7 @@ export default function Header() {
             {/* Search (Visible on both) */}
             <button className="text-[#2d2e83] hover:text-blue-900 transition-colors">
                <img
-                src="/moto/depa/search.png"
+                src="/moto/depa/search.webp"
                 alt="Search"
                 className="w-4 h-auto"
               />
@@ -138,7 +138,7 @@ export default function Header() {
           <div className="flex flex-col gap-6 pt-4 pb-8">
              <Button 
                 text="Customer Login" 
-                icon={<img src="/moto/depa/person.png" alt="user" className="w-5 h-auto" />} 
+                icon={<img src="/moto/depa/person.webp" alt="user" className="w-5 h-auto" />} 
                 iconPosition="left" 
                 className="w-full text-lg py-3"
               />

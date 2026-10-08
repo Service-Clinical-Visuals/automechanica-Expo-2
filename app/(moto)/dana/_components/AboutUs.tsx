@@ -35,7 +35,7 @@ const AboutUs = () => {
         {/* Mobile: Order 2, Desktop: Order 2 */}
         <div className="order-2 lg:order-2 w-full lg:w-1/2" data-aos="fade-left">
           <img
-            src="/moto/dana/section2.png"
+            src="/moto/dana/section2.webp"
             alt="Dana Spicer Facility"
             className="w-full object-cover shadow-lg"
             style={{ aspectRatio: "963/568" }}

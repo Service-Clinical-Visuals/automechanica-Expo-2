@@ -41,7 +41,7 @@ export default function Innovation() {
         <div className="grid grid-cols-1 xl:grid-cols-12 gap-8  items-center">
           {/* Left: Image */}
           <div className="xl:col-span-8 w-full rounded-[1rem] overflow-hidden" data-aos="fade-right">
-            <img src="/moto/rolf/section44.png" alt="Innovation and Expertise" className="w-full h-auto object-cover" />
+            <img src="/moto/rolf/section44.webp" alt="Innovation and Expertise" className="w-full h-auto object-cover" />
           </div>
 
           {/* Right: Text and List */}

@@ -9,19 +9,19 @@ export default function Products() {
 
   const products = [
     {
-      image: "/moto/teknorot/p1.png",
+      image: "/moto/teknorot/p1.webp",
       title: "MI-525",
     },
     {
-      image: "/moto/teknorot/p2.png",
+      image: "/moto/teknorot/p2.webp",
       title: "N-1054",
     },
     {
-      image: "/moto/teknorot/p3.png",
+      image: "/moto/teknorot/p3.webp",
       title: "LX-335",
     },
     {
-      image: "/moto/teknorot/p4.png",
+      image: "/moto/teknorot/p4.webp",
       title: "LX-334",
     }
   ];

@@ -44,7 +44,7 @@ export default function PrecisionView() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6" data-aos="fade-up">
           <div className="bg-white border-2 border-[#FFDB00] text-black p-6 flex items-start gap-4">
             <div className="w-10 h-10 min-[2100px]:w-14 min-[2100px]:h-14 min-[3800px]:w-20 min-[3800px]:h-20 flex-shrink-0 flex items-center justify-center">
-              <img src="/moto/bendpak/icon1.png" alt="Icon" className="w-full h-full object-contain" />
+              <img src="/moto/bendpak/icon1.webp" alt="Icon" className="w-full h-full object-contain" />
             </div>
             <p className="inter-font leading-relaxed card-text text-[#000000]">
               <strong className="montserrat-font font-bold">Precision Balancing</strong> — Accurate measurement and weight placement for smoother, vibration-free performance.
@@ -53,7 +53,7 @@ export default function PrecisionView() {
 
           <div className="bg-white border-2 border-[#FFD100] text-black p-6 flex items-start gap-4">
             <div className="w-10 h-10 min-[2100px]:w-14   min-[2100px]:h-14 min-[3800px]:w-20 min-[3800px]:h-20 flex-shrink-0 flex items-center justify-center">
-              <img src="/moto/bendpak/icon1.png" alt="Icon" className="w-full h-full object-contain" />
+              <img src="/moto/bendpak/icon1.webp" alt="Icon" className="w-full h-full object-contain" />
             </div>
             <p className="inter-font leading-relaxed card-text text-[#000000]">
               <strong className="montserrat-font font-bold">Fast Cycle Times</strong> — Designed to complete each balancing operation quickly and efficiently, wheel balancer reduces unnecessary setup time.

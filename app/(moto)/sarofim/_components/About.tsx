@@ -49,7 +49,7 @@ export default function About() {
             {/* Left: image */}
             <div className="w-full" data-aos="fade-right">
               <img
-                src="/moto/sarofim/about.png"
+                src="/moto/sarofim/about.webp"
                 alt="Sarofim automotive parts range"
                 className="w-full h-full object-cover"
               />

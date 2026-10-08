@@ -4,14 +4,14 @@ import React from "react";
 import { Settings } from "lucide-react";
 
 const partners = [
-  { img: "/moto/sm-motorenteile-gmbh/partner1.png", name: "Scania" },
-  { img: "/moto/sm-motorenteile-gmbh/partner2.png", name: "Volkswagen" },
-  { img: "/moto/sm-motorenteile-gmbh/partner3.png", name: "MELAG" },
-  { img: "/moto/sm-motorenteile-gmbh/partner4.png", name: "Mercedes-Benz" },
-  { img: "/moto/sm-motorenteile-gmbh/partner5.png", name: "SABRU" },
-  { img: "/moto/sm-motorenteile-gmbh/partner6.png", name: "Fraunhofer" },
-  { img: "/moto/sm-motorenteile-gmbh/partner7.png", name: "Austro Engine" },
-  { img: "/moto/sm-motorenteile-gmbh/partner8.png", name: "AVENTICS EMERSON" },
+  { img: "/moto/sm-motorenteile-gmbh/partner1.webp", name: "Scania" },
+  { img: "/moto/sm-motorenteile-gmbh/partner2.webp", name: "Volkswagen" },
+  { img: "/moto/sm-motorenteile-gmbh/partner3.webp", name: "MELAG" },
+  { img: "/moto/sm-motorenteile-gmbh/partner4.webp", name: "Mercedes-Benz" },
+  { img: "/moto/sm-motorenteile-gmbh/partner5.webp", name: "SABRU" },
+  { img: "/moto/sm-motorenteile-gmbh/partner6.webp", name: "Fraunhofer" },
+  { img: "/moto/sm-motorenteile-gmbh/partner7.webp", name: "Austro Engine" },
+  { img: "/moto/sm-motorenteile-gmbh/partner8.webp", name: "AVENTICS EMERSON" },
 ];
 
 export default function Partners() {
@@ -20,7 +20,7 @@ export default function Partners() {
       <div className="custom-container">
         {/* Heading */}
         <div className="flex items-center justify-center gap-3 mb-10" data-aos="fade-up">
-          <img src="/moto/sm-motorenteile-gmbh/setting.png" alt="Setting" className="w-auto h-auto object-contain" />
+          <img src="/moto/sm-motorenteile-gmbh/setting.webp" alt="Setting" className="w-auto h-auto object-contain" />
           <h2 className="section-title text-[#1D1D1B] orbitron-font font-semibold">
             Our Partners
           </h2>

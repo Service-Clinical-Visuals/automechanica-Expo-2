@@ -20,7 +20,7 @@ export default function AboutUs() {
           data-aos="fade-right"
         >
           <img
-            src="/moto/sndc/about.jpg"
+            src="/moto/sndc/about.webp"
             alt="SNDC Facility"
             className="
               absolute

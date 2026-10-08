@@ -44,7 +44,7 @@ const WheelBalancerFeature = () => {
             <ul className="flex flex-col gap-5 mb-6">
               <li className="flex items-start gap-4">
                 <div className="relative w-5 h-5 shrink-0 mt-1">
-                  <img src="/moto/fasep/chk.png" alt="Check"  className="object-contain" />
+                  <img src="/moto/fasep/chk.webp" alt="Check"  className="object-contain" />
                 </div>
                         <p className="text-[#ffffff] oxanium section-text">
 
@@ -54,7 +54,7 @@ const WheelBalancerFeature = () => {
               </li>
               <li className="flex items-start gap-4">
                 <div className="relative w-5 h-5 shrink-0 mt-1">
-                  <img src="/moto/fasep/chk.png" alt="Check"  className="object-contain" />
+                  <img src="/moto/fasep/chk.webp" alt="Check"  className="object-contain" />
                 </div>
                       <p className="text-[#ffffff] oxanium section-text">
 
@@ -64,7 +64,7 @@ const WheelBalancerFeature = () => {
               </li>
               <li className="flex items-start gap-4">
                 <div className="relative w-5 h-5 shrink-0 mt-1">
-                  <img src="/moto/fasep/chk.png" alt="Check"  className="object-contain" />
+                  <img src="/moto/fasep/chk.webp" alt="Check"  className="object-contain" />
                 </div>
                       <p className="text-[#ffffff] oxanium section-text">
 

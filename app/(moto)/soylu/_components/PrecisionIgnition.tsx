@@ -43,7 +43,7 @@ export default function PrecisionIgnition() {
             <ul className="flex flex-col gap-5">
               <li className="flex gap-3">
                 <div className="flex-shrink-0 mt-1">
-                  <img src="/moto/soylu/Subtract.png" alt="check" className="w-4 h-4 object-contain" />
+                  <img src="/moto/soylu/Subtract.webp" alt="check" className="w-4 h-4 object-contain" />
                 </div>
                 <div>
                   <Typography variant="span" color="primary" className="font-semibold">Fast & Stable Response – </Typography>
@@ -53,7 +53,7 @@ export default function PrecisionIgnition() {
 
               <li className="flex gap-3">
                 <div className="flex-shrink-0 mt-1">
-                  <img src="/moto/soylu/Subtract.png" alt="check" className="w-4 h-4 object-contain" />
+                  <img src="/moto/soylu/Subtract.webp" alt="check" className="w-4 h-4 object-contain" />
                 </div>
                 <div>
                   <Typography variant="span" color="primary" className="font-semibold">Enhanced Fuel Efficiency – </Typography>
@@ -63,7 +63,7 @@ export default function PrecisionIgnition() {
 
               <li className="flex gap-3">
                 <div className="flex-shrink-0 mt-1">
-                  <img src="/moto/soylu/Subtract.png" alt="check" className="w-4 h-4 object-contain" />
+                  <img src="/moto/soylu/Subtract.webp" alt="check" className="w-4 h-4 object-contain" />
                 </div>
                 <div>
                   <Typography variant="span" color="primary" className="font-semibold">Corrosion-Resistant Design – </Typography>
@@ -73,7 +73,7 @@ export default function PrecisionIgnition() {
 
               <li className="flex gap-3">
                 <div className="flex-shrink-0 mt-1">
-                  <img src="/moto/soylu/Subtract.png" alt="check" className="w-4 h-4 object-contain" />
+                  <img src="/moto/soylu/Subtract.webp" alt="check" className="w-4 h-4 object-contain" />
                 </div>
                 <div>
                   <Typography variant="span" color="primary" className="font-semibold">Easy System Integration – </Typography>

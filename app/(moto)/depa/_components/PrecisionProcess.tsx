@@ -26,7 +26,7 @@ export default function PrecisionProcess() {
               {/* Feature 1 */}
               <div className="flex gap-5 items-center bg-white rounded-xl p-5 shadow-sm">
                 <div className="shrink-0 flex items-center justify-center">
-                  <img src="/moto/depa/setting.png" alt="setting" className="w-12 h-12" />
+                  <img src="/moto/depa/setting.webp" alt="setting" className="w-12 h-12" />
                 </div>
                  <p className="rubik section-text text-[#4b5563] leading-relaxed">
                   Parts are carefully inspected, renewed, and remanufactured using controlled processes and OE-based specifications.
@@ -36,7 +36,7 @@ export default function PrecisionProcess() {
               {/* Feature 2 */}
               <div className="flex gap-5 items-center bg-white rounded-xl p-5 shadow-sm">
                 <div className="shrink-0 flex items-center justify-center">
-                  <img src="/moto/depa/tick.png" alt="tick" className="w-12 h-12" />
+                  <img src="/moto/depa/tick.webp" alt="tick" className="w-12 h-12" />
                 </div>
                  <p className="rubik section-text text-[#4b5563] leading-relaxed">
                   Every remanufactured part is rigorously tested to ensure reliable performance and consistent quality.

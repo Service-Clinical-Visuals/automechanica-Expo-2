@@ -43,7 +43,7 @@ export default function News() {
               {/* Image */}
               <div className="w-full aspect-[16/10] overflow-hidden rounded-[15px]">
                 <Image
-                  src="/moto/technilub/news.png"
+                  src="/moto/technilub/news.webp"
                   alt={item.title}
                   width={560}
                   height={350}
@@ -61,7 +61,7 @@ export default function News() {
                   href="#"
                   className="flex items-center content text-[#24397E] font-semibold mt-1"
                 >
-                  View More <Image src="/moto/technilub/arrow-right-circle.png" alt="arrow" width={24} height={24} className="w-6 h-6 ml-1.5 object-contain" />
+                  View More <Image src="/moto/technilub/arrow-right-circle.webp" alt="arrow" width={24} height={24} className="w-6 h-6 ml-1.5 object-contain" />
                 </a>
               </div>
             </div>

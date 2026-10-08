@@ -6,9 +6,9 @@ import Typography from "./Typography";
 
 export default function Quality() {
   const certificates = [
-    "/moto/yavuzsan-otomotiv/q2.png",
-    "/moto/yavuzsan-otomotiv/q3.png",
-    "/moto/yavuzsan-otomotiv/q4.png"
+    "/moto/yavuzsan-otomotiv/q2.webp",
+    "/moto/yavuzsan-otomotiv/q3.webp",
+    "/moto/yavuzsan-otomotiv/q4.webp"
   ];
 
   return (
@@ -43,7 +43,7 @@ export default function Quality() {
           {/* Left Column: Big Logo Box */}
           <div className="lg:col-span-6 w-full h-full bg-white justify-center">
             <img
-              src="/moto/yavuzsan-otomotiv/q1.png"
+              src="/moto/yavuzsan-otomotiv/q1.webp"
               alt="Yavuzsan Brake Discs & Brake Drums"
               className="w-auto h-auto object-contain"
             />

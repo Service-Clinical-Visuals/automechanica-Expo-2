@@ -42,11 +42,11 @@ export default function Header() {
         <div className="custom-container flex justify-between items-center text-[13px] font-medium">
           <div className="flex items-center gap-6">
             <a href="tel:+49624159060" className="flex items-center gap-2 hover:opacity-80">
-               <img src="/moto/rowe/phone.png" className="w-4 h-4"></img>
+               <img src="/moto/rowe/phone.webp" className="w-4 h-4"></img>
               +49 6241 5906 0
             </a>
             <a href="mailto:info@rowe-oil.com" className="flex items-center gap-2 hover:opacity-80">
-               <img src="/moto/rowe/mail.png" className="w-4 h-4"></img>
+               <img src="/moto/rowe/mail.webp" className="w-4 h-4"></img>
               info@rowe-oil.com
             </a>
           </div>
@@ -55,11 +55,11 @@ export default function Header() {
             <Link href="#" className="hover:opacity-80">Distributor Locator</Link>
             <Link href="#" className="flex items-center gap-2 hover:opacity-80">
             
-              <img src="/moto/rowe/mdi_oil.png"></img>
+              <img src="/moto/rowe/mdi_oil.webp"></img>
               Oil finder
             </Link>
             <div className="flex items-center gap-1 cursor-pointer hover:opacity-80 border-l border-white/30 pl-4 ml-2">
-              <img src="/moto/rowe/globe.png" className="w-6 h-6"></img> <span>EN</span>
+              <img src="/moto/rowe/globe.webp" className="w-6 h-6"></img> <span>EN</span>
               <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg" className="ml-1">
                 <path d="M1 1L5 5L9 1" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
@@ -74,7 +74,7 @@ export default function Header() {
           {/* Logo Area */}
           <div className="flex-shrink-0">
             <Link href="#">
-              <img src="/moto/rowe/logo.png" alt="ROWE" className="h-8 lg:h-10 w-auto object-cover" />
+              <img src="/moto/rowe/logo.webp" alt="ROWE" className="h-8 lg:h-10 w-auto object-cover" />
             </Link>
           </div>
 

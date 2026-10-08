@@ -8,19 +8,19 @@ import { Eye } from "lucide-react";
 export default function NewsUpdates() {
   const blogs = [
     {
-      image: "/moto/yavuzsan-otomotiv/b1.png",
+      image: "/moto/yavuzsan-otomotiv/b1.webp",
       views: "977 Views",
       title: "How to Prevent Brake Fluid Leaks in the Brake System?",
       description: "The brake system is essential for vehicle safety, and a sealed hydraulic circuit is crucial to ensure proper brake fluid circulation and reliable braking performance."
     },
     {
-      image: "/moto/yavuzsan-otomotiv/b2.png",
+      image: "/moto/yavuzsan-otomotiv/b2.webp",
       views: "889 Views",
       title: "When Should Brake Pads Be Replaced? Key Signs and Symptoms",
       description: "Brake pads play a crucial role in braking performance, making regular inspection and replacement essential for safe driving."
     },
     {
-      image: "/moto/yavuzsan-otomotiv/b3.png",
+      image: "/moto/yavuzsan-otomotiv/b3.webp",
       views: "978 Views",
       title: "When Should You Replace the Brake Drum in a Car?",
       description: "Brake drums are essential for safe and reliable braking. Regular inspection and timely replacement help maintain optimal braking performance."

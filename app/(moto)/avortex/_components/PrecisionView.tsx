@@ -9,22 +9,22 @@ export default function PrecisionView() {
     {
       title: "Built for Reliable Sealing",
       desc: "Enhanced sealing strength and durability",
-      icon: <img src="/moto/avortex/i1.png" alt="Built for Reliable Sealing" className="precision-icon object-contain" onError={(e) => e.currentTarget.src = "/moto/avortex/abt1.png"} />
+      icon: <img src="/moto/avortex/i1.webp" alt="Built for Reliable Sealing" className="precision-icon object-contain" onError={(e) => e.currentTarget.src = "/moto/avortex/abt1.png"} />
     },
     {
       title: "Precision Manufacturing",
       desc: "Accurate dimensions for consistent fitment",
-      icon: <img src="/moto/avortex/i2.png" alt="Precision Manufacturing" className="precision-icon object-contain" onError={(e) => e.currentTarget.src = "/moto/avortex/abt1.png"} />
+      icon: <img src="/moto/avortex/i2.webp" alt="Precision Manufacturing" className="precision-icon object-contain" onError={(e) => e.currentTarget.src = "/moto/avortex/abt1.png"} />
     },
     {
       title: "Reliable Engine Sealing",
       desc: "Designed for long-lasting performance",
-      icon: <img src="/moto/avortex/i3.png" alt="Reliable Engine Sealing" className="precision-icon object-contain" onError={(e) => e.currentTarget.src = "/moto/avortex/abt1.png"} />
+      icon: <img src="/moto/avortex/i3.webp" alt="Reliable Engine Sealing" className="precision-icon object-contain" onError={(e) => e.currentTarget.src = "/moto/avortex/abt1.png"} />
     },
     {
       title: "OEM Quality Standards",
       desc: "Built to meet demanding automotive Trends.",
-      icon: <img src="/moto/avortex/i4.png" alt="OEM Quality Standards" className="precision-icon object-contain" onError={(e) => e.currentTarget.src = "/moto/avortex/abt1.png"} />
+      icon: <img src="/moto/avortex/i4.webp" alt="OEM Quality Standards" className="precision-icon object-contain" onError={(e) => e.currentTarget.src = "/moto/avortex/abt1.png"} />
     }
   ];
 

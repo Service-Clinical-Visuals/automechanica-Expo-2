@@ -31,7 +31,7 @@ const Advanced = () => {
             {/* Left Image */}
             <div className="w-full lg:w-1/2 aspect-[746/457] shrink-0">
               <img
-                src="/moto/hasting/section3.png"
+                src="/moto/hasting/section3.webp"
                 alt="Factory"
                 className="w-full h-full object-cover rounded-md"
               />

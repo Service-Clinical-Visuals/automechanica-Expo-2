@@ -42,7 +42,7 @@ export default function WhoWeAre() {
           {/* Left Column - Image */}
           <div className="w-full rounded-xl overflow-hidden" data-aos="fade-right" data-aos-delay="100">
             <img 
-              src="/moto/saria-international/who.png" 
+              src="/moto/saria-international/who.webp" 
               alt="LION Facility" 
               className="w-full h-auto object-cover"
             />

@@ -7,37 +7,37 @@ import Container from "./Container";
 const products = [
   {
     name: "Automotive Lubricants",
-    icon: "/moto/benzol-lubricants/products/2.png",
+    icon: "/moto/benzol-lubricants/products/2.webp",
     description:
       "BENZOL® Premium Quality Automotive Engine Oils are specially formulated to deliver optimum efficiency, reliable engine protection, and consistent performance across modern vehicles. Designed for versatile use, these advanced lubricants support smooth engine operation, improved performance, and dependable protection under various driving conditions.",
   },
   {
     name: "Commercial Lubricants",
-    icon: "/moto/benzol-lubricants/products/1.png",
+    icon: "/moto/benzol-lubricants/products/1.webp",
     description:
       "BENZOL® Heavy Duty Lubricants are specially formulated to meet the demanding requirements of diesel engines, delivering reliable protection, consistent performance, and extended drain intervals. Designed for on-road and off-road applications, these advanced lubricants help maintain engine efficiency and provide dependable performance under demanding conditions.",
   },
   {
     name: "Industrial Lubricants",
-    icon: "/moto/benzol-lubricants/products/3.png",
+    icon: "/moto/benzol-lubricants/products/3.webp",
     description:
       "BENZOL® Industrial Range and Functional Fluids are formulated using world-class technologies to deliver exceptional performance, efficiency, and reliable protection across demanding industrial applications. Designed to support smooth operations and consistent results, these advanced fluids meet diverse industrial requirements with dependable quality.",
   },
   {
     name: "Marine Lubricants",
-    icon: "/moto/benzol-lubricants/products/4.png",
+    icon: "/moto/benzol-lubricants/products/4.webp",
     description:
       "BENZOL® Premium Marine Oils are formulated to meet the highest marine industry standards, delivering reliable protection, stringent safety, and strong environmental protection. Designed for demanding marine applications, these advanced oils support efficient operation, dependable equipment protection, and compliance with strict industry requirements.",
   },
   {
     name: "Greases",
-    icon: "/moto/benzol-lubricants/products/5.png",
+    icon: "/moto/benzol-lubricants/products/5.webp",
     description:
       "BENZOL® Premium Greases provide a robust, tacky lubrication solution designed for demanding operating conditions. Formulated for reliable performance, these advanced greases help reduce friction, protect components, improve equipment productivity and service life, while supporting smooth and efficient operation in challenging environments.",
   },
   {
     name: "Speciality Oils",
-    icon: "/moto/benzol-lubricants/products/6.png",
+    icon: "/moto/benzol-lubricants/products/6.webp",
     description:
       "BENZOL® Specialty Lubricants provide a comprehensive range of advanced lubrication solutions designed to meet the diverse requirements of various industries and applications. Formulated with high-quality technologies, these specialty lubricants deliver reliable performance, effective protection, and consistent efficiency across different operating conditions.",
   },

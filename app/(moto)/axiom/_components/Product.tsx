@@ -41,7 +41,7 @@ export default function Categories() {
             className="relative w-full sm:w-1/2 h-[300px] xl:h-[440px] min-[1920px]:h-[520px] min-[2560px]:h-[600px] min-[3800px]:h-[700px] overflow-hidden rounded-2xl"
           >
             <img
-              src="/moto/axiom/prod2.png"
+              src="/moto/axiom/prod2.webp"
               alt="Gasket"
               className="absolute inset-0 w-full h-full object-cover"
             />
@@ -62,7 +62,7 @@ export default function Categories() {
             className="relative w-full sm:w-1/2 h-[300px] xl:h-[440px] min-[1920px]:h-[520px] min-[2560px]:h-[600px] min-[3800px]:h-[700px] overflow-hidden rounded-2xl"
           >
             <img
-              src="/moto/axiom/prod1.jpg"
+              src="/moto/axiom/prod1.webp"
               alt="Radiator"
               className="absolute inset-0 w-full h-full object-cover"
             />

@@ -10,7 +10,7 @@ export default function Performance() {
       {/* Background Pattern Image */}
       <div className="absolute inset-0 z-0 opacity-80 pointer-events-none">
         <img 
-          src="/moto/pek/bg.png" 
+          src="/moto/pek/bg.webp" 
           alt="Background Engineering Pattern" 
           className="w-full h-full object-cover"
         />

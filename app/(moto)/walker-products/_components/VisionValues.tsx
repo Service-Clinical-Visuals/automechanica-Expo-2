@@ -15,14 +15,14 @@ export default function VisionValues() {
       p1: "Walker Products is always in pursuit of market leadership. By operating as a customer-focused, global company that delivers exceptional quality, innovation and value, we are constantly looking to improve on our products and services.",
       p2: "Our goal is to continuously grow our core business of manufacturing fuel delivery and emission control products, engine sensors and ignition components, to meet the demands of the industry, while always maintaining our focus on OEM accuracy.",
       highlight: "Walker Products is dedicated to serving the global automotive, truck, and Othermotive® markets with unsurpassed quality, coverage, and support.",
-      img: "/moto/walker-products/vision.jpg"
+      img: "/moto/walker-products/vision.webp"
     },
     {
       title: "Our Values",
       p1: "Our history of commitment and dedication to quality help inform and guide every decision we make. More than a score is our focus on safety, integrity, our people and our planet. We strive to find better solutions and consistently invest in new technology, R&D and science. Our products not only meet our customers' expectations – they outperform them!",
       p2: "At the heart of our business is our people. We have employees that have spent their lives in our organization and know every aspect of our business. Both office and production personnel, we invest in the right people so we can bring real-world experience to solve the diverse challenges of today and anticipate those of tomorrow.",
       highlight: "At Walker Products, we are committed to doing business the right way — without compromise to quality, integrity, or our people.",
-      img: "/moto/walker-products/vision.jpg"
+      img: "/moto/walker-products/vision.webp"
     }
   ];
 

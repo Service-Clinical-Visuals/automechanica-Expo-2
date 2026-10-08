@@ -25,7 +25,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 lg:grid-cols-[45fr_18fr_23fr_34fr] gap-10">
           {/* Logo + tagline */}
           <div data-aos="fade-up">
-            <img src="/moto/e-sassone/logo2.png" alt="E. Sassone Srl Logo" className="h-9 w-auto object-contain mb-8" />
+            <img src="/moto/e-sassone/logo2.webp" alt="E. Sassone Srl Logo" className="h-9 w-auto object-contain mb-8" />
             <p className="content-white text-white/85! mb-5">
               E. SASSONE Srl Clutches and transmission components is an Italian manufacturer of
               clutch and transmission components, delivering precision-engineered OE/OES and

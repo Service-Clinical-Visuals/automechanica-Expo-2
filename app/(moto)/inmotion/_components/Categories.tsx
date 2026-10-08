@@ -4,15 +4,15 @@ export default function Categories() {
   const categories = [
     {
       title: "AUTOMOTIVE",
-      image: "/moto/inmotion/c1.png"
+      image: "/moto/inmotion/c1.webp"
     },
     {
       title: "INDUSTRIAL",
-      image: "/moto/inmotion/c2.png"
+      image: "/moto/inmotion/c2.webp"
     },
     {
       title: "SUPER PRECISION",
-      image: "/moto/inmotion/c3.png"
+      image: "/moto/inmotion/c3.webp"
     }
   ];
 

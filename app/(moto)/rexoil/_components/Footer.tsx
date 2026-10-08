@@ -13,7 +13,7 @@ export default function Footer() {
           {/* Column 1: Logo, Address, Socials */}
           <div className="flex flex-col gap-6 col-span-2 md:col-span-3 xl:col-span-3 lg:pr-4" data-aos="fade-up" data-aos-delay="100">
             <div className="flex-shrink-0 flex items-center">
-              <img src="/moto/rexoil/logo.png" alt="logo.png" className="w-[170px] md:w-[200px] h-auto object-contain" />
+              <img src="/moto/rexoil/logo.webp" alt="logo.webp" className="w-[170px] md:w-[200px] h-auto object-contain" />
             </div>
             <p className="section-text text-[#ffffff] niramit leading-[1.8]">
               İçerenköy Mh. Erkut Sk. Üner Plaza A Blok Apt. 4/1/16 34752 Kozyatağı - Ataşehir / İSTANBUL
@@ -22,13 +22,13 @@ export default function Footer() {
               <h4 className="text-white font-semibold mb-3 exo-2 card-title">Social</h4>
               <div className="flex items-center gap-3">
                 <a href="#" className="rounded-full flex items-center justify-center hover:opacity-80 transition-opacity">
-                  <img src="/moto/rexoil/fb.png" alt="Facebook" className="w-auto h-6 object-contain" />
+                  <img src="/moto/rexoil/fb.webp" alt="Facebook" className="w-auto h-6 object-contain" />
                 </a>
                 <a href="#" className="rounded-full flex items-center justify-center hover:opacity-80 transition-opacity">
-                  <img src="/moto/rexoil/insta.png" alt="Instagram" className="w-auto h-6 object-contain" />
+                  <img src="/moto/rexoil/insta.webp" alt="Instagram" className="w-auto h-6 object-contain" />
                 </a>
                 <a href="#" className="rounded-full flex items-center justify-center hover:opacity-80 transition-opacity">
-                  <img src="/moto/rexoil/linkedin.png" alt="LinkedIn" className="w-auto h-6 object-contain" />
+                  <img src="/moto/rexoil/linkedin.webp" alt="LinkedIn" className="w-auto h-6 object-contain" />
                 </a>
               </div>
             </div>

@@ -8,7 +8,7 @@ export default function ProductExperience() {
   return (
     <section className="relative w-full min-h-[978.94px] h-auto py-16 md:py-20 xl:py-24 overflow-hidden flex items-center">
       <img
-        src="/moto/axiom/bg.png"
+        src="/moto/axiom/bg.webp"
         alt=""
         className="absolute inset-0 w-full h-full object-cover z-0 pointer-events-none"
       />

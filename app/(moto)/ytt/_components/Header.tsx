@@ -42,7 +42,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex-shrink-0">
             <img
-              src="/moto/ytt/logo.png"
+              src="/moto/ytt/logo.webp"
               alt="YTT Automotive"
               className="w-[160px] md:w-[190px] xl:w-[213px] h-auto object-contain"
             />

@@ -6,17 +6,17 @@ import Typography from "./Typography";
 const Storied = () => {
   const cards = [
     {
-      img: "/moto/hasting/c1.png",
+      img: "/moto/hasting/c1.webp",
       title: "Hastings Performance",
       subtitle: "Hastings Racing Rings"
     },
     {
-      img: "/moto/hasting/c2.png",
+      img: "/moto/hasting/c2.webp",
       title: "Piston Rings Komarov",
       subtitle: "European Headquarters"
     },
     {
-      img: "/moto/hasting/c3.png",
+      img: "/moto/hasting/c3.webp",
       title: "Careers at Hastings",
       subtitle: "Join the Team"
     }

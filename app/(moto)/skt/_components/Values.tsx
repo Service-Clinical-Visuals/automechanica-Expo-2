@@ -13,37 +13,37 @@ const valuesData = [
   {
     title: "Honesty",
     desc: "SKT prioritizes integrity, transparency, and high business ethics above all else; it expects all parties with whom it does business to act in accordance with these same values.",
-    image: "/moto/skt/values1.jpg"
+    image: "/moto/skt/values1.webp"
   },
   {
     title: "Possession",
     desc: "SKT aims for shared success by encouraging its employees to participate in business processes with their ideas, fostering stakeholder awareness through teamwork...",
-    image: "/moto/skt/values2.jpg"
+    image: "/moto/skt/values2.webp"
   },
   {
     title: "Innovator",
     desc: "SKT aims to contribute to the future of the sector by creating a sustainable innovation culture and being open to innovation.",
-    image: "/moto/skt/values3.jpg"
+    image: "/moto/skt/values3.webp"
   },
   {
     title: "Sustainable",
     desc: "With the motto #todayforthefuture, it demonstrates its commitment to people and nature in every product it manufactures...",
-    image: "/moto/skt/values4.jpg"
+    image: "/moto/skt/values4.webp"
   },
   {
     title: "Leadership",
     desc: "In shaping the future of SKT, a principle has been adopted to train managers who possess strategic thinking, flexibility, and the ability to adapt to change.",
-    image: "/moto/skt/values5.jpg"
+    image: "/moto/skt/values5.webp"
   },
   {
     title: "Customer Satisfaction",
     desc: "Every SKT employee works with customer trust and satisfaction as their top priority.",
-    image: "/moto/skt/values6.jpg"
+    image: "/moto/skt/values6.webp"
   },
   {
     title: "Agility",
     desc: "Every SKT employee, especially managers, strives to make timely decisions and take action, and works in a results-oriented manner.",
-    image: "/moto/skt/values7.jpg"
+    image: "/moto/skt/values7.webp"
   }
 ];
 

@@ -14,42 +14,42 @@ const products = [
   {
     title: "Fast - Moving Products",
     description: "Our new generation exhaust systems, which we have developed with our superior engineering and workmanship from our... ",
-    image: "/moto/soylu/products/product1.png"
+    image: "/moto/soylu/products/product1.webp"
   },
   {
     title: "Euro I, II, III Exhaust Systems",
     description: "Engineered for Euro I, II, and III vehicles, our exhaust systems provide reliable performance and efficient exhaust flow.",
-    image: "/moto/soylu/products/product2.png"
+    image: "/moto/soylu/products/product2.webp"
   },
   {
     title: "Euro IV, V Exhaust Systems",
     description: "High-quality exhaust systems engineered to meet Euro IV and Euro V emission standards with dependable performance.",
-    image: "/moto/soylu/products/product3.png"
+    image: "/moto/soylu/products/product3.webp"
   },
   {
     title: "Exhaust Systems for Buses",
     description: "Engineered for reliable performance, durability, and efficient emission control in modern bus applications.",
-    image: "/moto/soylu/products/product4.png"
+    image: "/moto/soylu/products/product4.webp"
   },
   {
     title: "Universal Products",
     description: "Our universal products deliver reliable performance and versatile compatibility across commercial vehicle applications.",
-    image: "/moto/soylu/products/product5.png"
+    image: "/moto/soylu/products/product5.webp"
   },
   {
     title: "NOx Sensors",
     description: "Our NOx Sensors deliver precise emission monitoring, reliable engine performance, and long-lasting durability.",
-    image: "/moto/soylu/products/product6.png"
+    image: "/moto/soylu/products/product6.webp"
   },
   {
     title: "Temperature Sensors",
     description: "Our Temperature Sensors deliver accurate monitoring, reliable performance, and durability for commercial vehicles.",
-    image: "/moto/soylu/products/product7.png"
+    image: "/moto/soylu/products/product7.webp"
   },
   {
     title: "Fuel Tanks",
     description: "Our next-generation fuel tanks deliver superior durability, reliability, and long-lasting performance.",
-    image: "/moto/soylu/products/product8.png"
+    image: "/moto/soylu/products/product8.webp"
   }
 ];
 

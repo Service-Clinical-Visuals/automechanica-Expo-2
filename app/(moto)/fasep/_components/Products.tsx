@@ -16,12 +16,12 @@ const categories = [
     title: "Wheel Aligners",
     description: "Our wheel aligners are the result of fifty years of innovation. The NoContact touchless aligner enables fast, non-contact measurement and is ideal for high-throughput workshops. The VDP-S2, VCO-K2 and WALLY series use 3D or CCD technology with high-resolution cameras and radio heads.",
     products: [
-      { name: "Wheel Aligners", img: "1.png" },
-      { name: "VDP-U", img: "2.png" },
-      { name: "VCO-K2", img: "3.png" },
-      { name: "VCO-K.Eco", img: "4.png" },
-      { name: "VDP-K.WinReflex", img: "5.png" },
-      { name: "VDP-K Win10", img: "6.png" },
+      { name: "Wheel Aligners", img: "1.webp" },
+      { name: "VDP-U", img: "2.webp" },
+      { name: "VCO-K2", img: "3.webp" },
+      { name: "VCO-K.Eco", img: "4.webp" },
+      { name: "VDP-K.WinReflex", img: "5.webp" },
+      { name: "VDP-K Win10", img: "6.webp" },
     ]
   },
   {
@@ -30,12 +30,12 @@ const categories = [
     title: "Wheel Balancers",
     description: "FASEP wheel balancers offer superior precision and ease of use. Featuring advanced diagnostic capabilities and automatic data entry, these balancers are designed to handle everything from standard passenger car tires to heavy-duty commercial wheels, ensuring perfect balance every time.",
     products: [
-      { name: "V788 Cayman", img: "7.png" },
-      { name: "V688 Stark", img: "8.png" },
-      { name: "V684 Ninja", img: "9.png" },
-      { name: "V654 Revolution", img: "10.png" },
-      { name: "V643 Maxima", img: "11.png" },
-      { name: "V643 Maxima Variant", img: "12.png" },
+      { name: "V788 Cayman", img: "7.webp" },
+      { name: "V688 Stark", img: "8.webp" },
+      { name: "V684 Ninja", img: "9.webp" },
+      { name: "V654 Revolution", img: "10.webp" },
+      { name: "V643 Maxima", img: "11.webp" },
+      { name: "V643 Maxima Variant", img: "12.webp" },
     ]
   },
   {
@@ -44,12 +44,12 @@ const categories = [
     title: "Tire Changers",
     description: "Our range of tire changers combines robust construction with innovative features to handle any tire effortlessly. From leverless technology to dual assist arms, FASEP tire changers minimize operator effort and eliminate the risk of rim damage, making them perfect for modern tire shops.",
     products: [
-      { name: "Rase.Top.4028", img: "13.png" },
-      { name: "Rase.Top.3032", img: "14.png" },
-      { name: "Rase.Top.3128", img: "15.png" },
-      { name: "Rase.Top.3121", img: "16.png" },
-      { name: "Rase.Top.3030 Variant", img: "17.png" },
-      { name: "Rase.Top.2148", img: "18.png" },
+      { name: "Rase.Top.4028", img: "13.webp" },
+      { name: "Rase.Top.3032", img: "14.webp" },
+      { name: "Rase.Top.3128", img: "15.webp" },
+      { name: "Rase.Top.3121", img: "16.webp" },
+      { name: "Rase.Top.3030 Variant", img: "17.webp" },
+      { name: "Rase.Top.2148", img: "18.webp" },
     ]
   },
   {
@@ -58,12 +58,12 @@ const categories = [
     title: "Lifters",
     description: "Designed for maximum safety and durability, FASEP lifting equipment provides reliable access for all service tasks. Whether you need scissor lifts, two-post lifts, or high-capacity column lifts, our products deliver stable, secure lifting for vehicles of all sizes.",
     products: [
-      { name: "UF50.VX", img: "19.png" },
-      { name: "UF45.VX", img: "20.png" },
-      { name: "UF540.W", img: "21.png" },
-      { name: "UFZ26", img: "22.png" },
-      { name: "FW43-CT-LT", img: "23.png" },
-      { name: "FZ63", img: "24.png" },
+      { name: "UF50.VX", img: "19.webp" },
+      { name: "UF45.VX", img: "20.webp" },
+      { name: "UF540.W", img: "21.webp" },
+      { name: "UFZ26", img: "22.webp" },
+      { name: "FW43-CT-LT", img: "23.webp" },
+      { name: "FZ63", img: "24.webp" },
     ]
   }
 ];

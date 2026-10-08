@@ -40,7 +40,7 @@ const Footer = () => {
           <div className="flex flex-col gap-6">
             <Link href="/" className="flex items-center shrink-0">
               <img
-                src="/moto/wai/logo.png"
+                src="/moto/wai/logo.webp"
                 alt="WAI Logo"
                 className="h-14 w-auto object-contain"
               />

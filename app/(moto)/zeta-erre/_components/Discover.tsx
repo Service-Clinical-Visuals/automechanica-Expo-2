@@ -6,19 +6,19 @@ import Container from "./Container";
 
 const products = [
   {
-    image: "/moto/zeta-erre/fiscover/1.png",
+    image: "/moto/zeta-erre/fiscover/1.webp",
     title: "Driveshaft",
     description:
       "The driveshaft (axle shaft) transfers engine power to the wheels while enabling smooth steering and adapting to suspension movement for reliable vehicle performance.",
   },
   {
-    image: "/moto/zeta-erre/fiscover/2.png",
+    image: "/moto/zeta-erre/fiscover/2.webp",
     title: "Intermediate CV Joints",
     description:
       "These are standard outer joints for vehicles with any type of drive system. They can be designed according to load requirements, steering angle and the anti-lock braking system.",
   },
   {
-    image: "/moto/zeta-erre/fiscover/3.png",
+    image: "/moto/zeta-erre/fiscover/3.webp",
     title: "Intermediate Shaft",
     description:
       "These are connecting components between the inner joint and the differential, designed to transmit motion and torque. They are engineered according to the power output.",

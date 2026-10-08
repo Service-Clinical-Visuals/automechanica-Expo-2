@@ -14,7 +14,7 @@ export default function Footer() {
           <div className="xl:col-span-4 flex flex-col items-start">
             <Link href="#" className="mb-6 inline-block">
               <img
-                src="/moto/srt/logo.png"
+                src="/moto/srt/logo.webp"
                 alt="SRT Logo"
                 className="h-25 w-auto object-contain"
               />
@@ -62,11 +62,11 @@ export default function Footer() {
     <h3 className="exo2 font-semibold text-[#2a2a2a] card-title mb-6">Contact Us</h3>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
-                <img src="/moto/srt/f1.png" alt="Phone" />
+                <img src="/moto/srt/f1.webp" alt="Phone" />
                 <span className="oxanium section-text text-[#4a4a4a] leading-relaxed ">0090 332 239 0221</span>
               </li>
               <li className="flex items-start gap-3">
-                <img src="/moto/srt/f2.png" alt="Location" />
+                <img src="/moto/srt/f2.webp" alt="Location" />
                 <span className="oxanium section-text text-[#4a4a4a] leading-relaxed ">
                   3. Organize Sanayi Bölgesi Vali İhsan Dede Caddesi No:8, Konya, Selçuklu 42050, TR
                 </span>
@@ -79,13 +79,13 @@ export default function Footer() {
         <h3 className="exo2 font-semibold text-[#2a2a2a] card-title mb-6">Social Media Links</h3>
             <div className="flex items-center">
               
-                <img src="/moto/srt/f3.png" alt="Linkedin" />
+                <img src="/moto/srt/f3.webp" alt="Linkedin" />
               
-                <img src="/moto/srt/f4.png" alt="Instagram" />
+                <img src="/moto/srt/f4.webp" alt="Instagram" />
               
-                <img src="/moto/srt/f5.png" alt="Facebook" />
+                <img src="/moto/srt/f5.webp" alt="Facebook" />
               
-                <img src="/moto/srt/f6.png" alt="Youtube" />
+                <img src="/moto/srt/f6.webp" alt="Youtube" />
             </div>
           </div>
 

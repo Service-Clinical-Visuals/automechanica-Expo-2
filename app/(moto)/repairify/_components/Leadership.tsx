@@ -27,7 +27,7 @@ export default function Leadership() {
         
                <div className="w-full relative flex items-center justify-center -mt-4 -mb-12 md:-mt-8 md:-mb-24 xl:-mt-12 xl:-mb-32 scale-110 xl:scale-125">
               <img 
-                src="/moto/repairify/photo.png" 
+                src="/moto/repairify/photo.webp" 
                 alt="Repairify Leadership Team" 
                 className="max-w-full h-auto object-contain drop-shadow-2xl pointer-events-auto"
               />

@@ -4,29 +4,29 @@ import React from "react";
 
 const APPLICATIONS = [
   {
-    photo: "/moto/samco/p1.jpg",
-    badge: "/moto/samco/car.png",
+    photo: "/moto/samco/p1.webp",
+    badge: "/moto/samco/car.webp",
     title: "Passenger Vehicle",
     description:
       "Ensuring smooth operation and consistent performance for today's advanced vehicles",
   },
   {
-    photo: "/moto/samco/p2.jpg",
-    badge: "/moto/samco/cycle.png",
+    photo: "/moto/samco/p2.webp",
+    badge: "/moto/samco/cycle.webp",
     title: "Commercial Trucks",
     description:
       "Built to withstand demanding conditions while delivering efficient, long-lasting performance",
   },
   {
-    photo: "/moto/samco/p3.jpg",
-    badge: "/moto/samco/truck.png",
+    photo: "/moto/samco/p3.webp",
+    badge: "/moto/samco/truck.webp",
     title: "Agriculture",
     description:
       "Designed to support high-load machinery with reliable strength and endurance",
   },
   {
-    photo: "/moto/samco/p4.jpg",
-    badge: "/moto/samco/last.png",
+    photo: "/moto/samco/p4.webp",
+    badge: "/moto/samco/last.webp",
     title: "Industrial Machines",
     description:
       "Engineered for extreme environments, ensuring durability, reliability, and consistent results",

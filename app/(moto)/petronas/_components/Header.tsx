@@ -59,7 +59,7 @@ export default function Header() {
         <div className="flex-shrink-0 flex items-center w-auto">
           <Link href="#" className="inline-block">
             <div className="flex items-center justify-center w-fit">
-              <img src="/moto/petronas/logo.png" alt="PETRONAS Logo" className="w-24 sm:w-28 md:w-32 lg:w-50 min-[2000px]:w-60 min-[3800px]:w-70 h-auto object-contain" />
+              <img src="/moto/petronas/logo.webp" alt="PETRONAS Logo" className="w-24 sm:w-28 md:w-32 lg:w-50 min-[2000px]:w-60 min-[3800px]:w-70 h-auto object-contain" />
             </div>
           </Link>
         </div>

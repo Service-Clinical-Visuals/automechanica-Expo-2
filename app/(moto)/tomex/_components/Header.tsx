@@ -61,7 +61,7 @@ export default function Header() {
           {/* Logo Area */}
           <div className="flex-shrink-0 flex items-center w-[120px] md:w-[150px] lg:w-[180px] min-[1500px]:w-[220px] min-[2100px]:w-[290px] min-[3800px]:w-[420px]">
              <Link href="#" className="w-full block">
-               <img src="/moto/tomex/logo.png" alt="Tomex Logo" className="w-full h-auto object-contain" />
+               <img src="/moto/tomex/logo.webp" alt="Tomex Logo" className="w-full h-auto object-contain" />
              </Link>
           </div>
 

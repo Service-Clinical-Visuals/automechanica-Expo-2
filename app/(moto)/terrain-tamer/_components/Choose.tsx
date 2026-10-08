@@ -6,19 +6,19 @@ interface Feature {
 
 const features: Feature[] = [
   {
-    icon: "/moto/terrain/shield.png",
+    icon: "/moto/terrain/shield.webp",
     title: "Built for Tough Conditions",
     description:
       "Durable and reliable parts engineered to withstand demanding off-road environments, harsh terrain, extreme conditions, and heavy-duty use. Built for long-lasting performance, these components provide dependable operation and confidence in challenging conditions—wherever your 4WD takes you.",
   },
   {
-    icon: "/moto/terrain/bulb.png",
+    icon: "/moto/terrain/bulb.webp",
     title: "Practical Engineering",
     description:
       "Practical and innovative solutions designed to address common 4WD challenges and real-world vehicle needs. Each solution is carefully engineered to enhance performance, durability, and reliability, helping 4WD owners handle demanding driving conditions and challenging terrain with dependable results.",
   },
   {
-    icon: "/moto/terrain/prize.png",
+    icon: "/moto/terrain/prize.webp",
     title: "Trusted Experience",
     description:
       "With over 50 years of industry experience, Terrain Tamer delivers quality 4WD products backed by expert knowledge and dependable customer support. Decades of practical experience help provide reliable solutions designed to meet the demands of off-road driving, heavy-duty use, and real-world vehicle needs.",

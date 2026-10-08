@@ -12,7 +12,7 @@ export default function Button({
   text,
   onClick,
   className = "",
-  icon = <img src="/moto/srt/btnarw.png" alt="arrow" className="w-4 h-auto" />,
+  icon = <img src="/moto/srt/btnarw.webp" alt="arrow" className="w-4 h-auto" />,
   iconPosition = "right",
 }: ButtonProps) {
   return (

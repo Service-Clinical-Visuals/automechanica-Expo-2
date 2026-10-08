@@ -22,7 +22,7 @@ export default function Performance() {
   );
 
   return (
-    <section className="relative w-full py-16 bg-[#171717] bg-[url('/moto/rolf/bg2.png')] bg-cover bg-center overflow-hidden">
+    <section className="relative w-full py-16 bg-[#171717] bg-[url('/moto/rolf/bg2.webp')] bg-cover bg-center overflow-hidden">
       <div className="custom-container flex flex-col gap-10 lg:gap-12 relative z-10">
         
         {/* Header Block */}

@@ -19,7 +19,7 @@ const AboutUs = () => {
             data-aos="fade-right" data-aos-duration="1000"
           >
             <img 
-              src="/moto/aspl/abt.png" 
+              src="/moto/aspl/abt.webp" 
               alt="From idea to global brand" 
               className="w-full h-auto object-cover"
             />
@@ -77,7 +77,7 @@ const AboutUs = () => {
           {/* Banner Image */}
           <div className="absolute inset-0 z-0">
             <img 
-              src="/moto/aspl/abt1.png" 
+              src="/moto/aspl/abt1.webp" 
               alt="Quality Products" 
               className="w-full h-full object-cover"
             />

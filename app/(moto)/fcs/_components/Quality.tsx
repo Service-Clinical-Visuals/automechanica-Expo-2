@@ -11,7 +11,7 @@ export default function Quality() {
       {/* Background Image Overlay */}
       <div
         className="absolute inset-0 bg-cover bg-center z-0"
-        style={{ backgroundImage: "url('/moto/fcs/bg.png')" }}
+        style={{ backgroundImage: "url('/moto/fcs/bg.webp')" }}
       />
 
       <div className="custom-container relative z-10">

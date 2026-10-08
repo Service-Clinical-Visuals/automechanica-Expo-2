@@ -27,7 +27,7 @@ export default function PrecisionProcess() {
               {/* Item 1 */}
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0 mt-1">
-                  <img src="/moto/eren/circle.png" alt="Icon" className="w-5 h-5 object-contain" />
+                  <img src="/moto/eren/circle.webp" alt="Icon" className="w-5 h-5 object-contain" />
                 </div>
                 <p className="section-text inter leading-relaxed text-[#111111] ">
                   <span className="font-semibold text-gray-900">Advanced Manufacturing</span> - Modern production techniques ensure accuracy and consistency throughout the manufacturing process.
@@ -37,7 +37,7 @@ export default function PrecisionProcess() {
               {/* Item 2 */}
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0 mt-1">
-                  <img src="/moto/eren/circle.png" alt="Icon" className="w-5 h-5 object-contain" />
+                  <img src="/moto/eren/circle.webp" alt="Icon" className="w-5 h-5 object-contain" />
                 </div>
                <p className="section-text inter leading-relaxed text-[#111111] ">
                   <span className="font-semibold text-gray-900">Experienced Workforce</span> - Specialized teams bring extensive technical knowledge and manufacturing expertise.

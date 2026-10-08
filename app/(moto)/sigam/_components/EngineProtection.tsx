@@ -27,7 +27,7 @@ export default function EngineProtection() {
   return (
     <section 
       className="py-20 xl:py-28 relative bg overflow-hidden text-white"
-      style={{ backgroundImage: "url('/moto/sigam/bg.png')", backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed' }}
+      style={{ backgroundImage: "url('/moto/sigam/bg.webp')", backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed' }}
     >
       
       <div className="custom-container relative z-10">
@@ -50,7 +50,7 @@ export default function EngineProtection() {
             <ul className="flex flex-col gap-6 mt-4">
               {features.map((feature, index) => (
                 <li key={index} className="flex items-start gap-4">
-                  <img src="/moto/sigam/setting.png" alt="setting icon" className="w-6 h-6 object-contain flex-shrink-0 mt-0.5" />
+                  <img src="/moto/sigam/setting.webp" alt="setting icon" className="w-6 h-6 object-contain flex-shrink-0 mt-0.5" />
                   <p className="dmsans-font text-[#ffffff] section-text leading-relaxed font-medium">
                     <strong className="text-white font-semibold">{feature.title}</strong> - {feature.desc}
                   </p>

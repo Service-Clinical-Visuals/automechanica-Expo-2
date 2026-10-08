@@ -18,37 +18,37 @@ export default function NewProducts() {
     {
       title: "Oil Pump Gasket – TEMEL NR. 01-133005-04 /",
       oeNumber: "OE NR. 21531890",
-      img: "/moto/temel/product-1.png",
+      img: "/moto/temel/product-1.webp",
     },
     {
       title: "VALVE COVER GASKET – TEMEL NR. 01-061894-04 /",
       oeNumber: "OE NR. 20725316_0428-4008",
-      img: "/moto/temel/product-2.png",
+      img: "/moto/temel/product-2.webp",
     },
     {
       title: "CYLINDER HEAD GASKET – TEMEL NR. 17-160501-18 /",
       oeNumber: "OE NR. 23538406_23532298",
-      img: "/moto/temel/product-3.png",
+      img: "/moto/temel/product-3.webp",
     },
     {
       title: "CYLINDER HEAD GASKET – TEMEL NR. 10-130001-13 /",
       oeNumber: "OE NR. 3583786",
-      img: "/moto/temel/product-4.png",
+      img: "/moto/temel/product-4.webp",
     },
     {
       title: "VALVE COVER GASKET – TEMEL NR. 05-087402-SL /",
       oeNumber: "OE N R. 0249.71",
-      img: "/moto/temel/product-5.png",
+      img: "/moto/temel/product-5.webp",
     },
     {
       title: "HALF SET GASKET – TEMEL NR. SO-062400-12 /",
       oeNumber: "OE NR. - 56459.05",
-      img: "/moto/temel/product-6.png",
+      img: "/moto/temel/product-6.webp",
     },
     {
       title: "OIL PUMP COVER CASKET – TEMEL NR 01-063617-04 /",
       oeNumber: "OE NR XS4Q- 6A628-AE",
-      img: "/moto/temel/product-7.png",
+      img: "/moto/temel/product-7.webp",
     },
   ];
 

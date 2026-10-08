@@ -12,7 +12,7 @@ export default function AboutUs() {
           {/* Left: Images */}
           <div className="w-full h-full xl:col-span-6 relative z-20" data-aos="fade-right">
             <img
-              src="/moto/bendpak/abt.png"
+              src="/moto/bendpak/abt.webp"
               alt="BendPak Facility"
               className="w-full h-full object-cover rounded-[5px]"
             />

@@ -17,7 +17,7 @@ export default function Footer() {
           <div className="w-full lg:w-[40%] xl:w-[35%] flex flex-col gap-6" data-aos="fade-up">
             <Link href="#">
               <img
-                src="/moto/reacheurope/flogo.png"
+                src="/moto/reacheurope/flogo.webp"
                 alt="REACH Logo"
                 className="w-32 md:w-40 object-contain"
                 onError={(e) => { e.currentTarget.style.display = 'none' }}
@@ -47,11 +47,11 @@ export default function Footer() {
               <h4 className="card-title font-bold rajdhani-font mb-2">Contact Us</h4>
               <ul className="flex flex-col gap-4 section-text text-white">
                 <li className="flex items-start gap-3">
-                  <img src="/moto/reacheurope/phone.png" alt="Location" className="w-auto h-auto mt-1 object-contain flex-shrink-0" onError={(e) => { e.currentTarget.style.display = 'none' }} />
+                  <img src="/moto/reacheurope/phone.webp" alt="Location" className="w-auto h-auto mt-1 object-contain flex-shrink-0" onError={(e) => { e.currentTarget.style.display = 'none' }} />
                   <span>+49 (0) 6227 39 59 364</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <img src="/moto/reacheurope/f.png" alt="Location" className="w-auto h-auto mt-1 object-contain flex-shrink-0" onError={(e) => { e.currentTarget.style.display = 'none' }} />
+                  <img src="/moto/reacheurope/f.webp" alt="Location" className="w-auto h-auto mt-1 object-contain flex-shrink-0" onError={(e) => { e.currentTarget.style.display = 'none' }} />
                   <div className="flex flex-col gap-2">
                     <span>• Miami, Florida</span>
                     <span>• Suffolk, Virginia</span>

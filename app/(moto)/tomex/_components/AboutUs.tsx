@@ -65,7 +65,7 @@ const AboutUs = () => {
         {/* Image Side */}
         <div className="flex-1 w-full order-2 min-[2100px]:order-2 flex justify-center items-center" data-aos="fade-left" data-aos-delay="100">
           <img
-            src="/moto/tomex/section2.png"
+            src="/moto/tomex/section2.webp"
             alt="Tomex Brake Components"
             className="w-[90%] lg:w-[85%] min-[2100px]:w-[80%] min-[3800px]:w-[70%] h-auto object-contain"
           />

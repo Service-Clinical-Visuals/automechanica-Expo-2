@@ -12,7 +12,7 @@ export default function Footer() {
           {/* Logo & Description (takes 5 columns on desktop) */}
           <div className="lg:col-span-5 flex flex-col items-start">
             <img 
-              src="/moto/gtturbo/logo.png" 
+              src="/moto/gtturbo/logo.webp" 
               alt="GT Turbo Logo" 
               className="h-10 md:h-[46px] mb-8 object-contain" 
             />

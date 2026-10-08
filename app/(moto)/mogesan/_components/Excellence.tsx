@@ -53,7 +53,7 @@ export default function Excellence() {
             {/* object-top -> crop only comes off the bottom; top of the
                 image always stays fully visible */}
             <img
-              src="/moto/mogesan/Excellence2.png"
+              src="/moto/mogesan/Excellence2.webp"
               alt="MOGESAN manufacturing facility"
               className="absolute inset-0 w-full h-full object-cover object-top rounded-[30px] xl:rounded-[50px] transition-transform duration-500 group-hover:scale-110"
             />
@@ -66,7 +66,7 @@ export default function Excellence() {
             data-aos-delay="200"
           >
             <img
-              src="/moto/mogesan/Excellence1.jpg"
+              src="/moto/mogesan/Excellence1.webp"
               alt="MOGESAN showroom"
               className="absolute inset-0 w-full h-full object-cover rounded-[30px] xl:rounded-[50px] transition-transform duration-500 group-hover:scale-110"
             />

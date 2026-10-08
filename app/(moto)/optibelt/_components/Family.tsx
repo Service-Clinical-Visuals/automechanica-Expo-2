@@ -2,9 +2,9 @@
 
 export default function Family() {
   const images = [
-    "/moto/optibelt/f1.png",
-    "/moto/optibelt/f2.png",
-    "/moto/optibelt/f3.png",
+    "/moto/optibelt/f1.webp",
+    "/moto/optibelt/f2.webp",
+    "/moto/optibelt/f3.webp",
   ];
 
   return (

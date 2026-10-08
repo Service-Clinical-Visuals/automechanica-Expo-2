@@ -62,7 +62,7 @@ export default function Header() {
           {/* Logo Area */}
           <div className="flex-shrink-0 flex items-center w-[45%] sm:w-[35%] md:w-[25%] lg:w-[20%] xl:w-[15%]">
              <Link href="#" className="w-full">
-               <img src="/moto/walker-products/walker-logo.png" alt="Walker Products Logo" className="w-[90%] md:w-[85%] lg:w-full h-auto object-contain" />
+               <img src="/moto/walker-products/walker-logo.webp" alt="Walker Products Logo" className="w-[90%] md:w-[85%] lg:w-full h-auto object-contain" />
              </Link>
           </div>
 

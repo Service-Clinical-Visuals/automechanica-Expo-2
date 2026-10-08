@@ -12,7 +12,7 @@ export default function AboutUs() {
           {/* Left: Images */}
           <div className="w-full flex justify-center lg:justify-start lg:col-span-6" data-aos="fade-right">
             <img
-              src="/moto/teknorot/abt.png"
+              src="/moto/teknorot/abt.webp"
               alt="Teknorot Facility Aerial"
               className="w-full h-auto object-cover rounded-[5px]"
             />

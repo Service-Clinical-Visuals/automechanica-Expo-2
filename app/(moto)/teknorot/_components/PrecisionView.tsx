@@ -26,15 +26,15 @@ export default function PrecisionView() {
             {/* Feature Cards */}
             <div className="bg-white border-3 border-[#66952E] grid grid-cols-1 md:grid-cols-3 mb-6 divide-y-2 md:divide-y-0 md:divide-x-2 divide-[#66952E]">
               <div className="text-center px-4 py-6 flex flex-col items-center justify-center gap-2">
-                <img src="/moto/teknorot/icon1.png" alt="Precision-Engineered Components" className="w-auto h-auto object-contain mb-1" />
+                <img src="/moto/teknorot/icon1.webp" alt="Precision-Engineered Components" className="w-auto h-auto object-contain mb-1" />
                 <span className="text-[#000000] section-text font-semibold montserrat-font leading-tight">Precision-Engineered Components</span>
               </div>
               <div className="text-center px-4 py-6 flex flex-col items-center justify-center gap-2">
-                <img src="/moto/teknorot/icon2.png" alt="Strength & Long-Term Reliability" className="w-auto h-auto object-contain mb-1" />
+                <img src="/moto/teknorot/icon2.webp" alt="Strength & Long-Term Reliability" className="w-auto h-auto object-contain mb-1" />
                 <span className="text-[#000000] section-text font-semibold montserrat-font leading-tight">Built for Strength & Long-Term Reliability</span>
               </div>
               <div className="text-center px-4 py-6 flex flex-col items-center justify-center gap-2">
-                <img src="/moto/teknorot/icon3.png" alt="OEM-Quality Performance" className="w-auto h-auto object-contain mb-1" />
+                <img src="/moto/teknorot/icon3.webp" alt="OEM-Quality Performance" className="w-auto h-auto object-contain mb-1" />
                 <span className="text-[#000000] section-text font-semibold montserrat-font leading-tight">Designed for OEM-Quality Performance</span>
               </div>
             </div>

@@ -21,7 +21,7 @@ export default function Footer() {
           <div className="flex flex-col gap-6 col-span-1 sm:col-span-2 md:col-span-3 lg:col-span-5 xl:col-span-4" data-aos="fade-up" data-aos-delay="100">
             <Link href="#" className="inline-block">
               <div className="flex items-center w-fit">
-                <img src="/moto/petronas/logo.png" alt="PETRONAS Logo" className="w-32 sm:w-40 md:w-[55%] h-auto object-contain" />
+                <img src="/moto/petronas/logo.webp" alt="PETRONAS Logo" className="w-32 sm:w-40 md:w-[55%] h-auto object-contain" />
               </div>
             </Link>
             <Typography variant="footer-body" color="white" className="mt-2 leading-relaxed xl:max-w-[70%] pr-4 text-sm ">

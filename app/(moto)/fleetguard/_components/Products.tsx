@@ -9,25 +9,25 @@ const allProducts = [
     category: "Air Filtration",
     name: "Air/Oil Separator",
     desc: "Fleetguard® AS2474 prevents oil build-up, reducing maintenance and improving pneumatic system performance.",
-    image: "/moto/fleetguard/p1.png",
+    image: "/moto/fleetguard/p1.webp",
   },
   {
     category: "Air Filtration",
     name: "Air Filter, Primary",
     desc: "Fleetguard® AF4878 Magnum RS™ delivers durable filtration and reliable performance in harsh operating conditions.",
-    image: "/moto/fleetguard/p2.png",
+    image: "/moto/fleetguard/p2.webp",
   },
   {
     category: "Air Filtration",
     name: "Cabin Air Filter",
     desc: "Fleetguard® AF26235 provides clean cabin air for a healthier, more comfortable work environment.",
-    image: "/moto/fleetguard/p3.png",
+    image: "/moto/fleetguard/p3.webp",
   },
   {
     category: "Air Filtration",
     name: "Air Filter, Panel",
     desc: "Fleetguard® AF4285 delivers optimized airflow and superior engine protection for longer equipment life.",
-    image: "/moto/fleetguard/p4.png",
+    image: "/moto/fleetguard/p4.webp",
   },
 
   // Coolants & Chemicals
@@ -35,25 +35,25 @@ const allProducts = [
     category: "Coolants & Chemicals",
     name: "Heavy Duty Diesel Coolant",
     desc: "Our coolants provide antifreeze and anti-boil protection while preventing liner pitting and corrosion.",
-    image: "/moto/fleetguard/p5.png",
+    image: "/moto/fleetguard/p5.webp",
   },
   {
     category: "Coolants & Chemicals",
     name: "Light Duty and Electric Coolant",
     desc: "For automotive, diesel, gas, and electric applications, with 5-year/150,000-mile protection.",
-    image: "/moto/fleetguard/p6.png",
+    image: "/moto/fleetguard/p6.webp",
   },
   {
     category: "Coolants & Chemicals",
     name: "Fuel Cell & Battery Electric Thermal Fluid",
     desc: "GuardION® coolant delivers low conductivity with reliable freeze and corrosion protection for fuel cells.",
-    image: "/moto/fleetguard/p7.png",
+    image: "/moto/fleetguard/p7.webp",
   },
   {
     category: "Coolants & Chemicals",
     name: "Coolant Additives",
     desc: "Fleetguard PowerService provides Cummins-endorsed additives for fuel quality and cold-weather protection.",
-    image: "/moto/fleetguard/p8.png",
+    image: "/moto/fleetguard/p8.webp",
   },
 
   // Crankcase Ventilation
@@ -61,25 +61,25 @@ const allProducts = [
     category: "Crankcase Ventilation",
     name: "Crankcase Ventilation, Coalescer",
     desc: "Fleetguard CV52001 removes oil mist and contaminants to improve engine reliability and performance.",
-    image: "/moto/fleetguard/p9.png",
+    image: "/moto/fleetguard/p9.webp",
   },
   {
     category: "Crankcase Ventilation",
     name: "Coalescer Service Element",
     desc: "Fleetguard® CV50628 delivers efficient oil and particle removal while controlling emissions and oil drip.",
-    image: "/moto/fleetguard/p10.png",
+    image: "/moto/fleetguard/p10.webp",
   },
   {
     category: "Crankcase Ventilation",
     name: "Variable Impactor",
     desc: "Fleetguard® CV50930 provides superior aerosol filtration and collection throughout engine life.",
-    image: "/moto/fleetguard/p11.png",
+    image: "/moto/fleetguard/p11.webp",
   },
   {
     category: "Crankcase Ventilation",
     name: "SP1023 Accessory",
     desc: "Fleetguard® SP1023 supports reliable crankcase ventilation across a wide range of on- and off-highway engines.",
-    image: "/moto/fleetguard/p12.png",
+    image: "/moto/fleetguard/p12.webp",
   },
 ];
 

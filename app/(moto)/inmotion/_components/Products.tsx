@@ -8,16 +8,16 @@ import Button from "./Button";
 
 const slides = [
   [
-    { name: "Wheel Bearing\nKit", image: "/moto/inmotion/p1.png" },
-    { name: "Automatic Timing\nBelt Tensioners", image: "/moto/inmotion/p2.png" },
-    { name: "Automatic Auxiliary\nBelt Tensioners", image: "/moto/inmotion/p3.png" },
-    { name: "Timing\nBelt Tensioners", image: "/moto/inmotion/p4.png" },
+    { name: "Wheel Bearing\nKit", image: "/moto/inmotion/p1.webp" },
+    { name: "Automatic Timing\nBelt Tensioners", image: "/moto/inmotion/p2.webp" },
+    { name: "Automatic Auxiliary\nBelt Tensioners", image: "/moto/inmotion/p3.webp" },
+    { name: "Timing\nBelt Tensioners", image: "/moto/inmotion/p4.webp" },
   ],
   [
-    { name: "Water Pump\nKits", image: "/moto/inmotion/p5.png" },
-    { name: "U-Joints", image: "/moto/inmotion/p6.png" },
-    { name: "Clutch\nBearings", image: "/moto/inmotion/p7.png" },
-    { name: "Air Conditioning\nBearings", image: "/moto/inmotion/p8.png" },
+    { name: "Water Pump\nKits", image: "/moto/inmotion/p5.webp" },
+    { name: "U-Joints", image: "/moto/inmotion/p6.webp" },
+    { name: "Clutch\nBearings", image: "/moto/inmotion/p7.webp" },
+    { name: "Air Conditioning\nBearings", image: "/moto/inmotion/p8.webp" },
   ]
 ];
 
@@ -96,7 +96,7 @@ export default function Products() {
                     {product.name}
                   </h3>
                   <div className="flex items-center justify-center">
-                    <img src="/moto/inmotion/i1.png" alt="arrow" className="product-arrow w-auto object-contain transition-all" />
+                    <img src="/moto/inmotion/i1.webp" alt="arrow" className="product-arrow w-auto object-contain transition-all" />
                   </div>
                 </div>
               </motion.div>

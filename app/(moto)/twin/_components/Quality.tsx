@@ -22,7 +22,7 @@ export default function Quality() {
           {[1, 2, 3, 4].map((num) => (
             <div key={num} className="w-full h-full aspect-[4/3] flex items-center justify-center bg-white rounded-xl overflow-hidden">
               <img
-                src={`/moto/twin/production${num}.png`}
+                src={`/moto/twin/production${num}.webp`}
                 alt={`Production ${num}`}
                 className="w-full h-full object-cover"
                 onError={(e) => { e.currentTarget.src = "/moto/twin/abt.png"; }}

@@ -22,14 +22,14 @@ export default function InternationalMarketing() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 xl:gap-8 mb-12" data-aos="fade-up" data-aos-delay="100">
           
             <img 
-              src="/moto/saria-international/i1.png" 
+              src="/moto/saria-international/i1.webp" 
               alt="LION Sponsored Car - Romania" 
               className="w-full h-auto object-cover rounded-sm"
              
             />
          
             <img 
-              src="/moto/saria-international/i2.png" 
+              src="/moto/saria-international/i2.webp" 
               alt="LION Brand Display" 
               className="w-full h-auto object-cover rounded-sm"
               

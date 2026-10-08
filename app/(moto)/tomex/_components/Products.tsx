@@ -10,32 +10,32 @@ import "swiper/css/pagination";
 
 const productsData = [
   {
-    image: "/moto/tomex/product1-1.png",
+    image: "/moto/tomex/product1-1.webp",
     title: "Brake pads and discs",
     desc: "Brake pads are the basic part that makes up the disc brake system. In addition to brake discs, it..."
   },
   {
-    image: "/moto/tomex/product1-2.png",
+    image: "/moto/tomex/product1-2.webp",
     title: "Brake shoes",
     desc: "Brake shoes are fundamental parts of a drum brake system. Friction linings attached to the shoes..."
   },
   {
-    image: "/moto/tomex/product1-3.png",
+    image: "/moto/tomex/product1-3.webp",
     title: "Speciality chemicals",
     desc: "State-of-the-art chemicals for brake system hygiene, degreasing and removal of contaminants..."
   },
   {
-    image: "/moto/tomex/product1-4.png",
+    image: "/moto/tomex/product1-4.webp",
     title: "Wear sensors",
     desc: "Brake pad condition monitoring component. Brake pad wear sensors help prevent the car from losing its..."
   },
   {
-    image: "/moto/tomex/product1-5.png",
+    image: "/moto/tomex/product1-5.webp",
     title: "Accessory kits",
     desc: "Complete accessory kits for fast and convenient installation of brake shoes. They guarantee..."
   },
   {
-    image: "/moto/tomex/product1-6.png",
+    image: "/moto/tomex/product1-6.webp",
     title: "ABS sensors",
     desc: "High-quality wheel speed sensors (ABS = Anti-Lock Braking System). ABS sensors have a direct..."
   }

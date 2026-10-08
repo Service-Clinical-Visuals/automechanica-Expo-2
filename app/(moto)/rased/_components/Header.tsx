@@ -89,7 +89,7 @@ export default function Header() {
             {/* Logo */}
             <Link href="/" className="flex items-center shrink-0 rounded-xl p-1 hover:opacity-90 transition-opacity">
               <img
-                src="/moto/rased/logo.png"
+                src="/moto/rased/logo.webp"
                 alt="Spaco Diesel R.A.S.E.D. Logo"
                 className="h-10 w-auto object-contain"
               />

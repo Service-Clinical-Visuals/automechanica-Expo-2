@@ -12,14 +12,14 @@ const AboutUs = () => {
         {/* Images - Mobile Order 1, Desktop Left */}
         <div className="order-1 xl:col-start-1 xl:col-span-6 xl:row-start-1 w-full flex flex-col gap-4 min-[2100px]:gap-6 min-[3800px]:gap-10" data-aos="fade-right">
           <img
-            src="/moto/cemb/section21.png"
+            src="/moto/cemb/section21.webp"
             alt="CEMB Facility"
             className="w-full h-auto aspect-[820/475] object-cover rounded-xl min-[2100px]:rounded-2xl min-[3800px]:rounded-3xl shadow-md"
           />
           <div className="grid grid-cols-3 gap-4 min-[2100px]:gap-6 min-[3800px]:gap-10 w-full">
-            <img src="/moto/cemb/a1.png" alt="CEMB Detail 1" className="w-full h-auto object-cover rounded-xl min-[2100px]:rounded-2xl shadow-md aspect-[4/3] sm:aspect-video xl:aspect-[4/3]" />
-            <img src="/moto/cemb/a2.png" alt="CEMB Detail 2" className="w-full h-auto object-cover rounded-xl min-[2100px]:rounded-2xl shadow-md aspect-[4/3] sm:aspect-video xl:aspect-[4/3]" />
-            <img src="/moto/cemb/a3.png" alt="CEMB Detail 3" className="w-full h-auto object-cover rounded-xl min-[2100px]:rounded-2xl shadow-md aspect-[4/3] sm:aspect-video xl:aspect-[4/3]" />
+            <img src="/moto/cemb/a1.webp" alt="CEMB Detail 1" className="w-full h-auto object-cover rounded-xl min-[2100px]:rounded-2xl shadow-md aspect-[4/3] sm:aspect-video xl:aspect-[4/3]" />
+            <img src="/moto/cemb/a2.webp" alt="CEMB Detail 2" className="w-full h-auto object-cover rounded-xl min-[2100px]:rounded-2xl shadow-md aspect-[4/3] sm:aspect-video xl:aspect-[4/3]" />
+            <img src="/moto/cemb/a3.webp" alt="CEMB Detail 3" className="w-full h-auto object-cover rounded-xl min-[2100px]:rounded-2xl shadow-md aspect-[4/3] sm:aspect-video xl:aspect-[4/3]" />
           </div>
         </div>
 

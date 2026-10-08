@@ -5,7 +5,7 @@ import Typography from "./Typography";
 
 const Driven = () => {
   // Array of logos a1 to a12
-  const logos = Array.from({ length: 12 }, (_, i) => `/moto/dana/a${i + 1}.png`);
+  const logos = Array.from({ length: 12 }, (_, i) => `/moto/dana/a${i + 1}.webp`);
 
   // Create 3 sets for a perfectly seamless infinite scroll
   const marqueeItems = [...logos, ...logos, ...logos];
@@ -16,7 +16,7 @@ const Driven = () => {
       {/* Top Text Section with Background Image */}
       <div
         className="w-full py-16 min-[3800px]:py-32 bg-cover bg-center bg-no-repeat flex flex-col items-center justify-center px-4"
-        style={{ backgroundImage: "url('/moto/dana/bg.jpg')" }}
+        style={{ backgroundImage: "url('/moto/dana/bg.webp')" }}
       >
         <div className="custom-container flex flex-col items-center text-center max-w-[90%]   min-[3800px]:max-w-[60%] mx-auto" data-aos="fade-up">
           <Typography variant="h2" color="dark" className="font-bold leading-tight mb-4 min-[3800px]:mb-8">

@@ -35,7 +35,7 @@ export default function Header() {
         <div className="w-[160px] sm:w-[200px] lg:w-[240px] 2xl:w-[310px] h-[40px] sm:h-[48px] lg:h-[55px] relative flex items-center flex-shrink-0">
           <Link href="/moto/pek" className="relative block w-full h-full group">
             <img
-              src="/moto/pek/logo.png"
+              src="/moto/pek/logo.webp"
               alt="PEK Technic Engineering Works Logo"
               className="w-full h-full object-contain object-left transition-transform duration-300 ease-in-out group-hover:scale-105"
             />
