@@ -1,0 +1,638 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
+@import "tailwindcss";
+@import "aos/dist/aos.css";
+
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+:root,
+.nanoclean-root {
+  --background: #ffffff;
+  --foreground: #202020;
+  --font-primary: var(--font-montserrat), 'Montserrat', ui-sans-serif, system-ui, sans-serif;
+  --font-secondary: var(--font-inter), 'Inter', ui-sans-serif, system-ui, sans-serif;
+}
+
+@theme inline {
+  --color-primary: #1F67C8;
+  --color-primary-hover: #1856A8;
+  --color-secondary: #202020;
+  --color-dark: #202020;
+  --color-muted: #404040;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-primary: var(--font-montserrat), 'Montserrat', ui-sans-serif, system-ui, sans-serif;
+  --font-secondary: var(--font-inter), 'Inter', ui-sans-serif, system-ui, sans-serif;
+}
+
+body,
+.nanoclean-root {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-secondary);
+}
+
+.font-primary,
+[class*="font-[var(--font-primary)]"] {
+  font-family: var(--font-primary) !important;
+}
+
+.font-secondary,
+[class*="font-[var(--font-secondary)]"] {
+  font-family: var(--font-secondary) !important;
+}
+
+.custom-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Base Typography (Desktop/Laptop sizes 1280px-2499px) */
+h1 {
+  font-size: 2.5rem;
+  /* 40px */
+  font-weight: 600;
+  font-family: var(--font-primary);
+}
+
+h2 {
+  font-size: 2.25rem;
+  /* 36px */
+  font-weight: 600;
+  font-family: var(--font-primary);
+}
+
+h3 {
+  font-size: 1.375rem;
+  /* 22px */
+  font-weight: 600;
+  font-family: var(--font-primary);
+}
+
+h4 {
+  font-size: 1.125rem;
+  /* 18px */
+  font-weight: 600;
+  font-family: var(--font-primary);
+}
+
+p,
+li {
+  font-size: 1.0625rem;
+  /* 17px */
+  font-weight: 400;
+  font-family: var(--font-secondary);
+}
+
+span {
+  font-size: 0.875rem;
+  /* 14px */
+}
+
+h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+}
+
+.navbar {
+  font-size: 1.125rem;
+  /* 18px */
+  font-weight: 500;
+  font-family: var(--font-primary);
+}
+
+.footer-heading {
+  font-size: 1.375rem;
+  /* 22px */
+  font-weight: 600;
+  font-family: var(--font-primary);
+}
+
+.footer-body,
+span.footer-body,
+a.footer-body,
+p.footer-body,
+input.footer-body {
+  font-size: 1.0625rem;
+  /* 17px */
+  font-weight: 400;
+  font-family: var(--font-secondary);
+}
+
+input.footer-body::placeholder,
+.footer-body input::placeholder {
+  font-size: inherit;
+  font-family: inherit;
+}
+
+.button {
+  font-size: 1.0625rem;
+  /* 17px */
+  font-weight: 600;
+  font-family: var(--font-primary) !important;
+}
+
+/* Custom Swiper Pagination */
+.custom-swiper-pagination .swiper-pagination-bullets {
+  bottom: auto !important;
+  position: relative !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-top: 20px;
+}
+
+.custom-swiper-pagination .swiper-pagination-bullet {
+  width: 8px !important;
+  height: 8px !important;
+  border-radius: 50% !important;
+  background-color: #D1D5DB !important;
+  opacity: 1 !important;
+  margin: 0 4px !important;
+  transition: all 0.3s ease;
+}
+
+.custom-swiper-pagination .swiper-pagination-bullet-active {
+  width: 48px !important;
+  border-radius: 9999px !important;
+  background-color: #1F67C8 !important;
+}
+
+/* Swiper Equal Height Slide Cards */
+.bestsellers-swiper .swiper-wrapper,
+.swiper-wrapper {
+  display: flex !important;
+  align-items: stretch !important;
+}
+
+.bestsellers-swiper .swiper-slide,
+.swiper-slide {
+  height: auto !important;
+  display: flex !important;
+}
+
+/* Mobile Portrait Screen (up to 480px) */
+@media (max-width: 480px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 1.625rem;
+    /* ~26.0px */
+  }
+
+  h2 {
+    font-size: 1.4625rem;
+    /* ~23.4px */
+  }
+
+  h3 {
+    font-size: 0.8938rem;
+    /* ~14.3px */
+  }
+
+  h4 {
+    font-size: 0.75rem;
+    /* ~12px */
+  }
+
+  p,
+  li {
+    font-size: 0.75rem;
+    /* ~12px */
+  }
+
+  span {
+    font-size: 0.625rem;
+    /* ~10px */
+  }
+
+  .navbar {
+    font-size: 0.75rem;
+    /* ~12px */
+  }
+
+  .footer-heading {
+    font-size: 0.8938rem;
+    /* ~14.3px */
+  }
+
+  .footer-body {
+    font-size: 0.75rem;
+    /* ~12px */
+  }
+
+  .button {
+    font-size: 0.75rem;
+    /* ~12px */
+  }
+
+  .number {
+    font-size: 5.2rem;
+  }
+}
+
+/* Mobile Landscape Screen (481px - 767px) */
+@media (min-width: 481px) and (max-width: 767px) {
+  .custom-container {
+    max-width: 92%;
+  }
+
+  h1 {
+    font-size: 1.875rem;
+    /* ~30.0px */
+  }
+
+  h2 {
+    font-size: 1.6875rem;
+    /* ~27.0px */
+  }
+
+  h3 {
+    font-size: 1.0313rem;
+    /* ~16.5px */
+  }
+
+  h4 {
+    font-size: 0.875rem;
+    /* ~14px */
+  }
+
+  p,
+  li {
+    font-size: 0.875rem;
+    /* ~14px */
+  }
+
+  span {
+    font-size: 0.7rem;
+    /* ~11px */
+  }
+
+  .navbar {
+    font-size: 0.875rem;
+    /* ~14px */
+  }
+
+  .footer-heading {
+    font-size: 1.0313rem;
+    /* ~16.5px */
+  }
+
+  .footer-body {
+    font-size: 0.875rem;
+    /* ~14px */
+  }
+
+  .button {
+    font-size: 0.875rem;
+    /* ~14px */
+  }
+
+  .number {
+    font-size: 6rem;
+  }
+}
+
+/* Tablet / Tab Screen (768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 2.125rem;
+    /* ~34.0px */
+  }
+
+  h2 {
+    font-size: 1.9125rem;
+    /* ~30.6px */
+  }
+
+  h3 {
+    font-size: 1.1687rem;
+    /* ~18.7px */
+  }
+
+  h4 {
+    font-size: 0.95rem;
+    /* ~15.2px */
+  }
+
+  p,
+  li {
+    font-size: 0.95rem;
+    /* ~15.2px */
+  }
+
+  span {
+    font-size: 0.75rem;
+    /* ~12px */
+  }
+
+  .navbar {
+    font-size: 0.95rem;
+    /* ~15.2px */
+  }
+
+  .footer-heading {
+    font-size: 1.1687rem;
+    /* ~18.7px */
+  }
+
+  .footer-body {
+    font-size: 0.95rem;
+    /* ~15.2px */
+  }
+
+  .button {
+    font-size: 0.95rem;
+    /* ~15.2px */
+  }
+
+  .number {
+    font-size: 6.8rem;
+  }
+}
+
+/* Laptop Screen (1024px - 1279px) */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 2.25rem;
+    /* ~36.0px */
+  }
+
+  h2 {
+    font-size: 2.025rem;
+    /* ~32.4px */
+  }
+
+  h3 {
+    font-size: 1.2375rem;
+    /* ~19.8px */
+  }
+
+  h4 {
+    font-size: 1rem;
+    /* ~16px */
+  }
+
+  p,
+  li {
+    font-size: 1rem;
+    /* ~16px */
+  }
+
+  span {
+    font-size: 0.8125rem;
+    /* ~13px */
+  }
+
+  .navbar {
+    font-size: 1rem;
+    /* ~16px */
+  }
+
+  .footer-heading {
+    font-size: 1.2375rem;
+    /* ~19.8px */
+  }
+
+  .footer-body {
+    font-size: 1rem;
+    /* ~16px */
+  }
+
+  .button {
+    font-size: 1rem;
+    /* ~16px */
+  }
+}
+
+/* Desktop PC Screen (1280px - 1535px) */
+@media (min-width: 1280px) and (max-width: 1535px) {
+  .custom-container {
+    max-width: 90%;
+  }
+}
+
+/* Large Desktop PC Screen (1536px - 1919px) */
+@media (min-width: 1536px) and (max-width: 1919px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  .custom-swiper-pagination .swiper-pagination-bullets {
+    margin-top: 24px !important;
+  }
+
+  .custom-swiper-pagination .swiper-pagination-bullet {
+    width: 11px !important;
+    height: 11px !important;
+    margin: 0 5px !important;
+  }
+
+  .custom-swiper-pagination .swiper-pagination-bullet-active {
+    width: 60px !important;
+  }
+}
+
+/* Extra Large PC / 2K Screen (1920px - 2499px) */
+@media (min-width: 1920px) and (max-width: 2499px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  .custom-swiper-pagination .swiper-pagination-bullets {
+    margin-top: 28px !important;
+  }
+
+  .custom-swiper-pagination .swiper-pagination-bullet {
+    width: 15px !important;
+    height: 15px !important;
+    margin: 0 6px !important;
+  }
+
+  .custom-swiper-pagination .swiper-pagination-bullet-active {
+    width: 76px !important;
+  }
+}
+
+/* Ultra-wide Screen / Max Cover (2500px - 3799px) */
+@media (min-width: 2500px) and (max-width: 3799px) {
+  .custom-container {
+    max-width: 85%;
+  }
+
+  h1 {
+    font-size: 3.75rem;
+    /* ~60.0px */
+  }
+
+  h2 {
+    font-size: 3.375rem;
+    /* ~54.0px */
+  }
+
+  h3 {
+    font-size: 2.0625rem;
+    /* ~33.0px */
+  }
+
+  h4 {
+    font-size: 1.6875rem;
+    /* ~27px */
+  }
+
+  p,
+  li {
+    font-size: 1.5938rem;
+    /* ~25.5px */
+  }
+
+  span {
+    font-size: 1.3125rem;
+    /* ~21.0px */
+  }
+
+  .navbar {
+    font-size: 1.6875rem;
+    /* ~27px */
+  }
+
+  .footer-heading {
+    font-size: 2.0625rem;
+    /* ~33.0px */
+  }
+
+  .footer-body,
+  span.footer-body,
+  a.footer-body,
+  p.footer-body,
+  input.footer-body {
+    font-size: 1.5938rem !important;
+    /* ~25.5px */
+  }
+
+  .button {
+    font-size: 1.5938rem;
+    /* ~25.5px */
+  }
+
+  .number {
+    font-size: 12rem;
+  }
+
+  .custom-swiper-pagination .swiper-pagination-bullets {
+    margin-top: 36px !important;
+  }
+
+  .custom-swiper-pagination .swiper-pagination-bullet {
+    width: 22px !important;
+    height: 22px !important;
+    margin: 0 8px !important;
+  }
+
+  .custom-swiper-pagination .swiper-pagination-bullet-active {
+    width: 110px !important;
+  }
+}
+
+/* 4K Ultra-wide Screen / Max Cover (3800px and above) */
+@media (min-width: 3800px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 5rem;
+    /* ~80.0px */
+  }
+
+  h2 {
+    font-size: 4.5rem;
+    /* ~72.0px */
+  }
+
+  h3 {
+    font-size: 2.75rem;
+    /* ~44.0px */
+  }
+
+  h4 {
+    font-size: 2.25rem;
+    /* ~36px */
+  }
+
+  p,
+  li {
+    font-size: 2.125rem;
+    /* ~34.0px */
+  }
+
+  span {
+    font-size: 1.75rem;
+    /* ~28.0px */
+  }
+
+  .navbar {
+    font-size: 2.25rem;
+    /* ~36px */
+  }
+
+  .footer-heading {
+    font-size: 2.75rem;
+    /* ~44.0px */
+  }
+
+  .footer-body,
+  span.footer-body,
+  a.footer-body,
+  p.footer-body,
+  input.footer-body {
+    font-size: 2.125rem !important;
+    /* ~34.0px */
+  }
+
+  .button {
+    font-size: 2.125rem;
+    /* ~34.0px */
+  }
+
+  .number {
+    font-size: 16rem;
+  }
+
+  .custom-swiper-pagination .swiper-pagination-bullets {
+    margin-top: 48px !important;
+  }
+
+  .custom-swiper-pagination .swiper-pagination-bullet {
+    width: 32px !important;
+    height: 32px !important;
+    margin: 0 12px !important;
+  }
+
+  .custom-swiper-pagination .swiper-pagination-bullet-active {
+    width: 160px !important;
+  }
+}
