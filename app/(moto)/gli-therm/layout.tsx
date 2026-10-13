@@ -1,33 +1,33 @@
-import { Exo_2, Oxanium } from "next/font/google";
-import { VideoProvider } from "../../_context/VideoContext";
-import AosInit from "../benzol-lubricants/_components/AosInit";
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import { VideoProvider } from "@/app/_context/VideoContext";
+import "./global.css";
 
-const fontBody = Oxanium({
-  variable: "--font-oxanium",
+const inter = Inter({
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
+  weight: ["300", "400", "500", "600", "700", "800"],
+  variable: "--font-inter",
+  display: "swap",
 });
 
-const fontHeading = Exo_2({
-  variable: "--font-exo2",  
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
-});
-
+export const metadata: Metadata = {
+  title: "GLITHERM - Advanced Solutions for Reliable Performance",
+  description:
+    "GLITHERM provides specialized chemical products and services designed to meet the evolving needs of industrial, automotive, and heating applications.",
+};
 
 export default function GlithermLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
-    <div className={`${fontHeading.variable} ${fontBody.variable} antialiased bg-white`}>
-      <AosInit />
-      <VideoProvider >
-        <div className=" overflow-x-hidden relative w-full min-h-screen">
-          {children}
-        </div>
-      </VideoProvider>
-    </div>
+    <VideoProvider website="gli-therm">
+      <div
+        className={`${inter.variable} font-inter min-h-screen bg-white text-slate-900 antialiased selection:bg-[#EE464B] selection:text-white`}
+      >
+        {children}
+      </div>
+    </VideoProvider>
   );
 }
