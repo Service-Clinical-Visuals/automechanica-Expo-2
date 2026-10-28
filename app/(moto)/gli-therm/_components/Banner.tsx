@@ -14,15 +14,8 @@ export default function Banner() {
       <div className="absolute inset-0 z-0">
         <DynamicVideoPlayer
           type="banner"
-          videos={[
-            "https://cdn.clinicalvisuals.com/medical/ditas/landing_page/ditas_bdy_yedek_parca_imalat_ve_teknik_a-s-_ball_joints_01-1787894492539-doj0.webm",
-            "https://cdn.clinicalvisuals.com/medical/ditas/landing_page/ditas_bdy_yedek_parca_imalat_ve_teknik_a-s-_ball_joints_02-1787894492539-jbbm.webm",
-          ]}
           className="absolute inset-0 w-full h-full object-cover"
         />
-        {/* Subtle gradient to enhance text readability while preserving the 3D visual */}
-        <div className="absolute inset-0 bg-gradient-to-t from-[#0A0D36]/80 via-transparent to-transparent pointer-events-none" />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#0A0D36]/50 via-transparent to-transparent pointer-events-none" />
       </div>
 
       {/* Banner Content Container using global custom-container */}
